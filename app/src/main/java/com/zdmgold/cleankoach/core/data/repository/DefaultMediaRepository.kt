@@ -1,12 +1,12 @@
 package com.zdmgold.cleankoach.core.data.repository
 
-import android.app.usage.StorageStatsManager
 import android.content.Context
 import android.net.Uri
 import android.os.Build
-import android.os.Environment
 import android.os.storage.StorageManager
 import android.provider.MediaStore
+import com.zdmgold.cleankoach.core.data.db.dao.MediaHashDao
+import com.zdmgold.cleankoach.core.data.db.entity.MediaHashEntity
 import com.zdmgold.cleankoach.core.domain.model.CleanupResult
 import com.zdmgold.cleankoach.core.domain.model.DuplicateGroup
 import com.zdmgold.cleankoach.core.domain.model.MediaItem
@@ -16,6 +16,7 @@ import com.zdmgold.cleankoach.core.media.CacheCleaner
 import com.zdmgold.cleankoach.core.media.DHashCalculator
 import com.zdmgold.cleankoach.core.media.DuplicateGrouper
 import com.zdmgold.cleankoach.core.media.HashCalculator
+import com.zdmgold.cleankoach.core.media.LaplacianSharpness
 import com.zdmgold.cleankoach.core.media.MediaStoreScanner
 import com.zdmgold.cleankoach.core.media.SimilarityEntry
 import com.zdmgold.cleankoach.core.media.SimilarityGrouper
@@ -24,7 +25,6 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -35,10 +35,12 @@ class DefaultMediaRepository @Inject constructor(
     private val scanner: MediaStoreScanner,
     private val hashCalculator: HashCalculator,
     private val dHashCalculator: DHashCalculator,
+    private val laplacianSharpness: LaplacianSharpness,
     private val duplicateGrouper: DuplicateGrouper,
     private val similarityGrouper: SimilarityGrouper,
     private val cacheCleaner: CacheCleaner,
-    private val trashManager: TrashManager
+    private val trashManager: TrashManager,
+    private val mediaHashDao: MediaHashDao
 ) : MediaRepository {
 
     private val progress = MutableStateFlow(0f)
@@ -52,24 +54,76 @@ class DefaultMediaRepository @Inject constructor(
 
     override suspend fun scanDuplicates(): List<DuplicateGroup> = withContext(Dispatchers.IO) {
         val all = scanner.scan().filter { !it.isTrashed && it.sizeBytes > 0L }
+        if (all.isEmpty()) {
+            mediaHashDao.clearAll()
+            return@withContext emptyList()
+        }
+
+        val cached = mediaHashDao.getAll().associateBy { it.mediaId }
+        val currentIds = all.map { it.id }
+        val freshHashes = mutableListOf<MediaHashEntity>()
         val pairs = mutableListOf<Pair<MediaItem, String>>()
+
         all.forEachIndexed { index, item ->
-            val hash = hashCalculator.sha256(Uri.parse(item.uri)) ?: return@forEachIndexed
-            pairs += item to hash
+            val existing = cached[item.id]
+            val reusable = existing != null && existing.dateAdded == item.dateAdded
+
+            val entity = if (reusable) {
+                existing
+            } else {
+                computeHash(item)
+            }
+
+            if (entity != null && entity.sha256.isNotBlank()) {
+                pairs += item to entity.sha256
+                if (!reusable) freshHashes += entity
+            }
+
             progress.value = (index + 1).toFloat() / all.size.toFloat()
         }
+
+        if (freshHashes.isNotEmpty()) {
+            mediaHashDao.upsertAll(freshHashes)
+        }
+        runCatching { mediaHashDao.pruneMissing(currentIds) }
+
         progress.value = 0f
         duplicateGrouper.group(pairs)
     }
 
     override suspend fun scanSimilarPhotos(): List<SimilarGroup> = withContext(Dispatchers.IO) {
         val images = scanner.scanImages().filter { !it.isTrashed }
+        if (images.isEmpty()) return@withContext emptyList()
+
+        val cached = mediaHashDao.getAll().associateBy { it.mediaId }
+        val currentIds = images.map { it.id }
+        val freshHashes = mutableListOf<MediaHashEntity>()
         val entries = mutableListOf<SimilarityEntry>()
+
         images.forEachIndexed { index, item ->
-            val hash = dHashCalculator.dhash(Uri.parse(item.uri)) ?: return@forEachIndexed
-            entries += SimilarityEntry(item, hash)
+            val existing = cached[item.id]
+            val reusable = existing != null &&
+                existing.dateAdded == item.dateAdded &&
+                existing.dhash != 0L
+
+            val entity = if (reusable) {
+                existing
+            } else {
+                computeHash(item)
+            }
+
+            if (entity != null && entity.dhash != 0L) {
+                entries += SimilarityEntry(item, entity.dhash)
+                if (!reusable) freshHashes += entity
+            }
+
             progress.value = (index + 1).toFloat() / images.size.toFloat()
         }
+
+        if (freshHashes.isNotEmpty()) {
+            mediaHashDao.upsertAll(freshHashes)
+        }
+
         progress.value = 0f
         similarityGrouper.group(entries)
     }
@@ -79,8 +133,7 @@ class DefaultMediaRepository @Inject constructor(
     }
 
     override suspend fun storageStats(): StorageStats = withContext(Dispatchers.IO) {
-        val storageManager = context.getSystemService(Context.STORAGE_SERVICE) as StorageManager
-        val statsManager = context.getSystemService(Context.STORAGE_STATS_SERVICE) as StorageStatsManager
+        val statsManager = context.getSystemService(Context.STORAGE_STATS_SERVICE) as android.app.usage.StorageStatsManager
         val uuid = StorageManager.UUID_DEFAULT
 
         val total = runCatching { statsManager.getTotalBytes(uuid) }.getOrDefault(0L)
@@ -130,4 +183,43 @@ class DefaultMediaRepository @Inject constructor(
     }
 
     override fun observeScanProgress(): Flow<Float> = progress
+
+    private fun computeHash(item: MediaItem): MediaHashEntity? {
+        val uri = Uri.parse(item.uri)
+        val sha = runCatching { hashCalculator.sha256(uri) }.getOrNull()
+        val dhash = if (item.mimeType.startsWith("image/")) {
+            runCatching { dHashCalculator.dhash(uri) }.getOrNull() ?: 0L
+        } else {
+            0L
+        }
+        val sharpness = if (item.mimeType.startsWith("image/")) {
+            runCatching {
+                val bitmap = context.contentResolver.openInputStream(uri)?.use {
+                    android.graphics.BitmapFactory.decodeStream(it)
+                }
+                bitmap?.let {
+                    val score = laplacianSharpness.compute(it)
+                    it.recycle()
+                    score
+                } ?: 0f
+            }.getOrDefault(0f)
+        } else {
+            0f
+        }
+
+        if (sha.isNullOrBlank()) return null
+
+        return MediaHashEntity(
+            mediaId = item.id,
+            sha256 = sha,
+            dhash = dhash,
+            sharpness = sharpness,
+            width = item.width,
+            height = item.height,
+            sizeBytes = item.sizeBytes,
+            mimeType = item.mimeType,
+            dateAdded = item.dateAdded,
+            computedAt = System.currentTimeMillis()
+        )
+    }
 }
