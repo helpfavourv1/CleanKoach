@@ -2,8 +2,8 @@ package com.zdmgold.cleankoach.core.ui.components
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.CircleShape
-import com.zdmgold.cleankoach.core.ui.icons.CleanIcons
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -23,12 +23,10 @@ fun SettingsChip(
     ) {
         IconButton(
             onClick = onClick,
-            modifier = Modifier
-                .size(40.dp)
-                .then(Modifier)
+            modifier = Modifier.size(40.dp)
         ) {
             Icon(
-                imageVector = CleanIcons.Settings,
+                imageVector = Icons.Filled.Settings,
                 contentDescription = "Settings",
                 tint = MaterialTheme.colorScheme.onBackground
             )
