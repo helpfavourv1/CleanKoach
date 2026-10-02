@@ -12,6 +12,12 @@ import com.zdmgold.cleankoach.feature.largefiles.LargeFilesScreen
 import com.zdmgold.cleankoach.feature.networkspeed.NetworkSpeedScreen
 import com.zdmgold.cleankoach.feature.photooptimizer.PhotoOptimizerScreen
 import com.zdmgold.cleankoach.feature.screenshots.ScreenshotsScreen
+import com.zdmgold.cleankoach.feature.settings.AboutScreen
+import com.zdmgold.cleankoach.feature.settings.LanguageScreen
+import com.zdmgold.cleankoach.feature.settings.NotificationsScreen
+import com.zdmgold.cleankoach.feature.settings.ProScreen
+import com.zdmgold.cleankoach.feature.settings.SettingsScreen
+import com.zdmgold.cleankoach.feature.settings.ThemeScreen
 import com.zdmgold.cleankoach.feature.similar.SimilarPhotosScreen
 import com.zdmgold.cleankoach.feature.videooptimizer.VideoOptimizerScreen
 import com.zdmgold.cleankoach.feature.wifisecurity.WifiSecurityScreen
@@ -28,7 +34,7 @@ fun CleanKoachNavHost(
     ) {
         composable(Routes.HOME) {
             HomeScreen(
-                onOpenSettings = { },
+                onOpenSettings = { navController.navigate(Routes.SETTINGS) },
                 onOpenLargeFiles = { navController.navigate(Routes.LARGE_FILES) },
                 onOpenDuplicates = { navController.navigate(Routes.DUPLICATES) },
                 onOpenSimilar = { navController.navigate(Routes.SIMILAR_PHOTOS) },
@@ -39,6 +45,33 @@ fun CleanKoachNavHost(
                 onOpenWifiSecurity = { navController.navigate(Routes.WIFI_SECURITY) },
                 onOpenNetworkSpeed = { navController.navigate(Routes.NETWORK_SPEED) }
             )
+        }
+
+        composable(Routes.SETTINGS) {
+            SettingsScreen(
+                onBack = { navController.popBackStack() },
+                onOpenTheme = { navController.navigate(Routes.SETTINGS_THEME) },
+                onOpenLanguage = { navController.navigate(Routes.SETTINGS_LANGUAGE) },
+                onOpenNotifications = { navController.navigate(Routes.SETTINGS_NOTIFICATIONS) },
+                onOpenPro = { navController.navigate(Routes.SETTINGS_PRO) },
+                onOpenAbout = { navController.navigate(Routes.SETTINGS_ABOUT) }
+            )
+        }
+
+        composable(Routes.SETTINGS_THEME) {
+            ThemeScreen(onBack = { navController.popBackStack() })
+        }
+        composable(Routes.SETTINGS_LANGUAGE) {
+            LanguageScreen(onBack = { navController.popBackStack() })
+        }
+        composable(Routes.SETTINGS_NOTIFICATIONS) {
+            NotificationsScreen(onBack = { navController.popBackStack() })
+        }
+        composable(Routes.SETTINGS_PRO) {
+            ProScreen(onBack = { navController.popBackStack() })
+        }
+        composable(Routes.SETTINGS_ABOUT) {
+            AboutScreen(onBack = { navController.popBackStack() })
         }
 
         composable(Routes.LARGE_FILES) {

@@ -3,6 +3,11 @@ package com.zdmgold.cleankoach.navigation
 object Routes {
     const val HOME = "home"
     const val SETTINGS = "settings"
+    const val SETTINGS_THEME = "settings_theme"
+    const val SETTINGS_LANGUAGE = "settings_language"
+    const val SETTINGS_NOTIFICATIONS = "settings_notifications"
+    const val SETTINGS_PRO = "settings_pro"
+    const val SETTINGS_ABOUT = "settings_about"
 
     const val LARGE_FILES = "large_files"
     const val DUPLICATES = "duplicates"
