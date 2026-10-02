@@ -1,4 +1,4 @@
-package com.zdmgold.cleankoach.feature.designpreview
+package com.zdmgold.cleankoach.feature.home
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -24,19 +24,21 @@ import androidx.compose.material.icons.filled.Phone
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Star
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.core.ui.components.AdBannerPlaceholder
 import com.zdmgold.cleankoach.core.ui.components.PhoneToolCard
 import com.zdmgold.cleankoach.core.ui.components.PrimaryButton
@@ -47,14 +49,38 @@ import com.zdmgold.cleankoach.core.ui.components.ToolCard
 import com.zdmgold.cleankoach.core.ui.theme.mediaTint
 import com.zdmgold.cleankoach.core.ui.theme.optimizerTint
 import com.zdmgold.cleankoach.core.ui.theme.toolsTint
+import com.zdmgold.cleankoach.core.util.FormatUtils
+import com.zdmgold.cleankoach.feature.cleanup.CleanUpConfirmSheet
+import com.zdmgold.cleankoach.feature.cleanup.CleanUpResultSheet
+import com.zdmgold.cleankoach.feature.permission.MediaAccessDisclosureContent
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun DesignPreviewScreen(modifier: Modifier = Modifier) {
-    var cleaning by remember { mutableStateOf(false) }
+fun HomeScreen(
+    onOpenSettings: () -> Unit,
+    onOpenLargeFiles: () -> Unit,
+    onOpenDuplicates: () -> Unit,
+    onOpenSimilar: () -> Unit,
+    onOpenScreenshots: () -> Unit,
+    onOpenPhotoOptimizer: () -> Unit,
+    onOpenVideoOptimizer: () -> Unit,
+    onOpenActivityMonitor: () -> Unit,
+    onOpenWifiSecurity: () -> Unit,
+    onOpenNetworkSpeed: () -> Unit,
+    modifier: Modifier = Modifier,
+    viewModel: HomeViewModel = hiltViewModel()
+) {
+    val state by viewModel.state.collectAsStateWithLifecycle()
 
     val media = mediaTint()
     val optimizer = optimizerTint()
     val tools = toolsTint()
+
+    val storage = state.storage
+    val ringValue = storage?.let { FormatUtils.bytesShort(it.totalReclaimableBytes) } ?: "—"
+    val storageLine = storage?.let {
+        FormatUtils.storageLine(it.usedBytes, it.totalBytes, it.percentUsed)
+    } ?: ""
 
     Surface(
         modifier = modifier.fillMaxSize(),
@@ -79,7 +105,7 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                     color = MaterialTheme.colorScheme.onBackground,
                     modifier = Modifier.weight(1f)
                 )
-                SettingsChip(onClick = {})
+                SettingsChip(onClick = onOpenSettings)
             }
 
             Spacer(Modifier.height(4.dp))
@@ -100,7 +126,7 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                     iconContainerColor = tools.container,
                     iconContentColor = tools.content,
                     badge = "24 H",
-                    onClick = {},
+                    onClick = onOpenActivityMonitor,
                     modifier = Modifier.weight(1f)
                 )
                 PhoneToolCard(
@@ -109,7 +135,7 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                     iconContainerColor = tools.container,
                     iconContentColor = tools.content,
                     badge = "Check",
-                    onClick = {},
+                    onClick = onOpenWifiSecurity,
                     modifier = Modifier.weight(1f)
                 )
                 PhoneToolCard(
@@ -118,7 +144,7 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                     iconContainerColor = tools.container,
                     iconContentColor = tools.content,
                     badge = "Test",
-                    onClick = {},
+                    onClick = onOpenNetworkSpeed,
                     modifier = Modifier.weight(1f)
                 )
             }
@@ -130,8 +156,8 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                 contentAlignment = Alignment.Center
             ) {
                 StorageRing(
-                    valueText = "1.24 GB",
-                    progress = if (cleaning) 0.62f else null,
+                    valueText = ringValue,
+                    progress = if (state.scanning) state.scanProgress else null,
                     caption = "Trash size",
                     subline = null,
                     size = 220.dp,
@@ -142,7 +168,7 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
             Spacer(Modifier.height(6.dp))
 
             Text(
-                text = "48.2 GB of 128 GB used · 38%",
+                text = storageLine,
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.fillMaxWidth(),
@@ -152,9 +178,13 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
             Spacer(Modifier.height(14.dp))
 
             PrimaryButton(
-                text = "CLEAN UP",
-                onClick = { cleaning = !cleaning },
-                loading = cleaning
+                text = state.cleanUpLabel,
+                onClick = {
+                    if (!state.mediaPermissionGranted) viewModel.onAllowAccess()
+                    else viewModel.onCleanUpPressed()
+                },
+                enabled = state.mediaPermissionGranted || !state.scanning,
+                loading = state.scanning
             )
 
             Spacer(Modifier.height(6.dp))
@@ -181,8 +211,8 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                         icon = Icons.Filled.Delete,
                         iconContainerColor = media.container,
                         iconContentColor = media.content,
-                        badge = "2.4 GB",
-                        onClick = {},
+                        badge = state.largeFilesBadge,
+                        onClick = onOpenLargeFiles,
                         modifier = Modifier.weight(1f)
                     )
                     ToolCard(
@@ -191,8 +221,8 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                         icon = Icons.Filled.Star,
                         iconContainerColor = media.container,
                         iconContentColor = media.content,
-                        badge = "612 MB",
-                        onClick = {},
+                        badge = state.duplicatesBadge,
+                        onClick = onOpenDuplicates,
                         modifier = Modifier.weight(1f)
                     )
                 }
@@ -210,8 +240,8 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                         icon = Icons.Filled.Favorite,
                         iconContainerColor = media.container,
                         iconContentColor = media.content,
-                        badge = "184",
-                        onClick = {},
+                        badge = state.similarBadge,
+                        onClick = onOpenSimilar,
                         modifier = Modifier.weight(1f)
                     )
                     ToolCard(
@@ -220,8 +250,8 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                         icon = Icons.Filled.Phone,
                         iconContainerColor = media.container,
                         iconContentColor = media.content,
-                        badge = "1.1 GB",
-                        onClick = {},
+                        badge = state.screenshotsBadge,
+                        onClick = onOpenScreenshots,
                         modifier = Modifier.weight(1f)
                     )
                 }
@@ -239,8 +269,8 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                         icon = Icons.Filled.Create,
                         iconContainerColor = optimizer.container,
                         iconContentColor = optimizer.content,
-                        badge = "2,310",
-                        onClick = {},
+                        badge = state.photoOptimizerBadge,
+                        onClick = onOpenPhotoOptimizer,
                         modifier = Modifier.weight(1f)
                     )
                     ToolCard(
@@ -249,8 +279,8 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                         icon = Icons.Filled.PlayArrow,
                         iconContainerColor = optimizer.container,
                         iconContentColor = optimizer.content,
-                        badge = "37",
-                        onClick = {},
+                        badge = state.videoOptimizerBadge,
+                        onClick = onOpenVideoOptimizer,
                         modifier = Modifier.weight(1f)
                     )
                 }
@@ -259,11 +289,49 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
             }
 
             AdBannerPlaceholder(
-                visible = true,
+                visible = state.adVisible,
                 modifier = Modifier.navigationBarsPadding()
             )
 
             Spacer(Modifier.height(4.dp))
+        }
+
+        if (state.cleanUpSheetVisible) {
+            ModalBottomSheet(
+                onDismissRequest = viewModel::onCleanUpCancelled,
+                sheetState = rememberModalBottomSheetState()
+            ) {
+                CleanUpConfirmSheet(
+                    itemCount = 0,
+                    sizeBytes = state.storage?.totalReclaimableBytes ?: 0L,
+                    onConfirm = viewModel::onCleanUpConfirmed,
+                    onCancel = viewModel::onCleanUpCancelled
+                )
+            }
+        }
+
+        if (state.cleanUpResultVisible) {
+            ModalBottomSheet(
+                onDismissRequest = viewModel::onResultDismissed,
+                sheetState = rememberModalBottomSheetState()
+            ) {
+                CleanUpResultSheet(
+                    freedBytes = state.lastCleanupResult?.freedBytes ?: 0L,
+                    onDismiss = viewModel::onResultDismissed
+                )
+            }
+        }
+
+        if (state.mediaDisclosureVisible) {
+            ModalBottomSheet(
+                onDismissRequest = viewModel::onDisclosureDismiss,
+                sheetState = rememberModalBottomSheetState()
+            ) {
+                MediaAccessDisclosureContent(
+                    onAllow = viewModel::onDisclosureAccepted,
+                    onNotNow = viewModel::onDisclosureDismiss
+                )
+            }
         }
     }
 }

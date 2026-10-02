@@ -5,7 +5,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.zdmgold.cleankoach.feature.designpreview.DesignPreviewScreen
+import com.zdmgold.cleankoach.feature.home.HomeScreen
 
 @Composable
 fun CleanKoachNavHost(
@@ -18,7 +18,18 @@ fun CleanKoachNavHost(
         modifier = modifier
     ) {
         composable(Routes.HOME) {
-            DesignPreviewScreen()
+            HomeScreen(
+                onOpenSettings = { },
+                onOpenLargeFiles = { },
+                onOpenDuplicates = { },
+                onOpenSimilar = { },
+                onOpenScreenshots = { },
+                onOpenPhotoOptimizer = { },
+                onOpenVideoOptimizer = { },
+                onOpenActivityMonitor = { },
+                onOpenWifiSecurity = { },
+                onOpenNetworkSpeed = { }
+            )
         }
     }
 }
