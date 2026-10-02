@@ -3,6 +3,7 @@ package com.zdmgold.cleankoach.feature.designpreview
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -11,6 +12,8 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Create
 import androidx.compose.material.icons.filled.Delete
@@ -90,12 +93,12 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                     progress = if (cleaning) 0.62f else null,
                     caption = "Trash size",
                     subline = null,
-                    size = 130.dp,
-                    strokeWidth = 12.dp
+                    size = 170.dp,
+                    strokeWidth = 14.dp
                 )
             }
 
-            Spacer(Modifier.height(6.dp))
+            Spacer(Modifier.height(8.dp))
 
             Text(
                 text = "48.2 GB of 128 GB used · 38%",
@@ -105,7 +108,7 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                 textAlign = TextAlign.Center
             )
 
-            Spacer(Modifier.height(12.dp))
+            Spacer(Modifier.height(14.dp))
 
             PrimaryButton(
                 text = "CLEAN UP",
@@ -115,142 +118,143 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
 
             Spacer(Modifier.height(6.dp))
 
-            SectionHeader(
-                text = "Photos & Videos",
-                padding = androidx.compose.foundation.layout.PaddingValues(
-                    horizontal = 4.dp,
-                    vertical = 10.dp
-                )
-            )
-
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(10.dp),
-                verticalAlignment = Alignment.Top
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxWidth()
+                    .verticalScroll(rememberScrollState())
             ) {
-                ToolCard(
-                    title = "Large files",
-                    description = "Biggest photos, videos and audio.",
-                    icon = Icons.Filled.Delete,
-                    iconContainerColor = media.container,
-                    iconContentColor = media.content,
-                    badge = "2.4 GB",
-                    onClick = {},
-                    modifier = Modifier.weight(1f)
+                SectionHeader(
+                    text = "Photos & Videos",
+                    padding = PaddingValues(horizontal = 4.dp, vertical = 10.dp)
                 )
-                ToolCard(
-                    title = "Duplicates",
-                    description = "Identical photos, videos and audio.",
-                    icon = Icons.Filled.Star,
-                    iconContainerColor = media.container,
-                    iconContentColor = media.content,
-                    badge = "612 MB",
-                    onClick = {},
-                    modifier = Modifier.weight(1f)
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(10.dp),
+                    verticalAlignment = Alignment.Top
+                ) {
+                    ToolCard(
+                        title = "Large files",
+                        description = "Biggest photos, videos and audio.",
+                        icon = Icons.Filled.Delete,
+                        iconContainerColor = media.container,
+                        iconContentColor = media.content,
+                        badge = "2.4 GB",
+                        onClick = {},
+                        modifier = Modifier.weight(1f)
+                    )
+                    ToolCard(
+                        title = "Duplicates",
+                        description = "Identical photos, videos and audio.",
+                        icon = Icons.Filled.Star,
+                        iconContainerColor = media.container,
+                        iconContentColor = media.content,
+                        badge = "612 MB",
+                        onClick = {},
+                        modifier = Modifier.weight(1f)
+                    )
+                }
+
+                Spacer(Modifier.height(10.dp))
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(10.dp),
+                    verticalAlignment = Alignment.Top
+                ) {
+                    ToolCard(
+                        title = "Similar photos",
+                        description = "Near-identical shots, keep the best.",
+                        icon = Icons.Filled.Favorite,
+                        iconContainerColor = media.container,
+                        iconContentColor = media.content,
+                        badge = "184",
+                        onClick = {},
+                        modifier = Modifier.weight(1f)
+                    )
+                    ToolCard(
+                        title = "Screenshots",
+                        description = "Every screenshot, one pass.",
+                        icon = Icons.Filled.Phone,
+                        iconContainerColor = media.container,
+                        iconContentColor = media.content,
+                        badge = "1.1 GB",
+                        onClick = {},
+                        modifier = Modifier.weight(1f)
+                    )
+                }
+
+                Spacer(Modifier.height(10.dp))
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(10.dp),
+                    verticalAlignment = Alignment.Top
+                ) {
+                    ToolCard(
+                        title = "Photo optimizer",
+                        description = "Compress photos, save space.",
+                        icon = Icons.Filled.Create,
+                        iconContainerColor = optimizer.container,
+                        iconContentColor = optimizer.content,
+                        badge = "2,310",
+                        onClick = {},
+                        modifier = Modifier.weight(1f)
+                    )
+                    ToolCard(
+                        title = "Video optimizer",
+                        description = "Compress videos, save space.",
+                        icon = Icons.Filled.PlayArrow,
+                        iconContainerColor = optimizer.container,
+                        iconContentColor = optimizer.content,
+                        badge = "37",
+                        onClick = {},
+                        modifier = Modifier.weight(1f)
+                    )
+                }
+
+                SectionHeader(
+                    text = "Phone Tools",
+                    padding = PaddingValues(horizontal = 4.dp, vertical = 10.dp)
                 )
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(10.dp),
+                    verticalAlignment = Alignment.Top
+                ) {
+                    PhoneToolCard(
+                        title = "Activity Monitor",
+                        icon = Icons.Filled.List,
+                        iconContainerColor = tools.container,
+                        iconContentColor = tools.content,
+                        badge = "24 H",
+                        onClick = {},
+                        modifier = Modifier.weight(1f)
+                    )
+                    PhoneToolCard(
+                        title = "Wi-Fi Security",
+                        icon = Icons.Filled.Lock,
+                        iconContainerColor = tools.container,
+                        iconContentColor = tools.content,
+                        badge = "Check",
+                        onClick = {},
+                        modifier = Modifier.weight(1f)
+                    )
+                    PhoneToolCard(
+                        title = "Network Speed",
+                        icon = Icons.Filled.Refresh,
+                        iconContainerColor = tools.container,
+                        iconContentColor = tools.content,
+                        badge = "Test",
+                        onClick = {},
+                        modifier = Modifier.weight(1f)
+                    )
+                }
+
+                Spacer(Modifier.height(16.dp))
             }
-
-            Spacer(Modifier.height(10.dp))
-
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(10.dp),
-                verticalAlignment = Alignment.Top
-            ) {
-                ToolCard(
-                    title = "Similar photos",
-                    description = "Near-identical shots, keep the best.",
-                    icon = Icons.Filled.Favorite,
-                    iconContainerColor = media.container,
-                    iconContentColor = media.content,
-                    badge = "184",
-                    onClick = {},
-                    modifier = Modifier.weight(1f)
-                )
-                ToolCard(
-                    title = "Screenshots",
-                    description = "Every screenshot, one pass.",
-                    icon = Icons.Filled.Phone,
-                    iconContainerColor = media.container,
-                    iconContentColor = media.content,
-                    badge = "1.1 GB",
-                    onClick = {},
-                    modifier = Modifier.weight(1f)
-                )
-            }
-
-            Spacer(Modifier.height(10.dp))
-
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(10.dp),
-                verticalAlignment = Alignment.Top
-            ) {
-                ToolCard(
-                    title = "Photo optimizer",
-                    description = "Compress photos, save space.",
-                    icon = Icons.Filled.Create,
-                    iconContainerColor = optimizer.container,
-                    iconContentColor = optimizer.content,
-                    badge = "2,310",
-                    onClick = {},
-                    modifier = Modifier.weight(1f)
-                )
-                ToolCard(
-                    title = "Video optimizer",
-                    description = "Compress videos, save space.",
-                    icon = Icons.Filled.PlayArrow,
-                    iconContainerColor = optimizer.container,
-                    iconContentColor = optimizer.content,
-                    badge = "37",
-                    onClick = {},
-                    modifier = Modifier.weight(1f)
-                )
-            }
-
-            SectionHeader(
-                text = "Phone Tools",
-                padding = androidx.compose.foundation.layout.PaddingValues(
-                    horizontal = 4.dp,
-                    vertical = 10.dp
-                )
-            )
-
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(10.dp),
-                verticalAlignment = Alignment.Top
-            ) {
-                PhoneToolCard(
-                    title = "Activity Monitor",
-                    icon = Icons.Filled.List,
-                    iconContainerColor = tools.container,
-                    iconContentColor = tools.content,
-                    badge = "24 H",
-                    onClick = {},
-                    modifier = Modifier.weight(1f)
-                )
-                PhoneToolCard(
-                    title = "Wi-Fi Security",
-                    icon = Icons.Filled.Lock,
-                    iconContainerColor = tools.container,
-                    iconContentColor = tools.content,
-                    badge = "Check",
-                    onClick = {},
-                    modifier = Modifier.weight(1f)
-                )
-                PhoneToolCard(
-                    title = "Network Speed",
-                    icon = Icons.Filled.Refresh,
-                    iconContainerColor = tools.container,
-                    iconContentColor = tools.content,
-                    badge = "Test",
-                    onClick = {},
-                    modifier = Modifier.weight(1f)
-                )
-            }
-
-            Spacer(Modifier.weight(1f))
 
             AdBannerPlaceholder(
                 visible = true,
