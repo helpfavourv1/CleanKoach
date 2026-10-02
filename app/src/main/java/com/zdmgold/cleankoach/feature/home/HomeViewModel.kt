@@ -10,6 +10,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -27,7 +28,7 @@ class HomeViewModel @Inject constructor(
     init {
         viewModelScope.launch {
             val disclosureAccepted = runCatching {
-                kotlinx.coroutines.flow.first(consentDataStore.mediaDisclosureAccepted)
+                consentDataStore.mediaDisclosureAccepted.first()
             }.getOrDefault(false)
 
             _state.update {
