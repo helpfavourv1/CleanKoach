@@ -16,7 +16,6 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Delete
-import androidx.compose.material.icons.filled.DeleteSweep
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -90,7 +89,7 @@ fun LargeFilesScreen(
                 EmptyState(
                     title = "No large files",
                     message = "Your library looks tidy. Nothing large to review.",
-                    icon = Icons.Filled.DeleteSweep
+                    icon = Icons.Filled.Delete
                 )
             } else {
                 LazyColumn(modifier = Modifier.weight(1f)) {
