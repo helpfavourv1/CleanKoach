@@ -2,6 +2,7 @@ package com.zdmgold.cleankoach.core.media
 
 import android.Manifest
 import android.content.Context
+import dagger.hilt.android.qualifiers.ApplicationContext
 import android.content.pm.PackageManager
 import android.os.Build
 import androidx.core.content.ContextCompat
@@ -10,7 +11,7 @@ import javax.inject.Singleton
 
 @Singleton
 class PermissionChecker @Inject constructor(
-    private val context: Context
+    @ApplicationContext private val context: Context
 ) {
 
     fun hasFullMediaAccess(): Boolean {

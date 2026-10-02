@@ -18,7 +18,7 @@ import javax.inject.Singleton
 import kotlin.coroutines.resume
 
 @Singleton
-@OptIn(UnstableApi::class)
+@androidx.annotation.OptIn(UnstableApi::class)
 class VideoCompressor @Inject constructor(
     @ApplicationContext private val context: Context
 ) {
