@@ -82,7 +82,48 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                 SettingsChip(onClick = {})
             }
 
-            Spacer(Modifier.height(8.dp))
+            Spacer(Modifier.height(4.dp))
+
+            SectionHeader(
+                text = "Phone Tools",
+                padding = PaddingValues(horizontal = 4.dp, vertical = 6.dp)
+            )
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(10.dp),
+                verticalAlignment = Alignment.Top
+            ) {
+                PhoneToolCard(
+                    title = "Activity Monitor",
+                    icon = Icons.Filled.List,
+                    iconContainerColor = tools.container,
+                    iconContentColor = tools.content,
+                    badge = "24 H",
+                    onClick = {},
+                    modifier = Modifier.weight(1f)
+                )
+                PhoneToolCard(
+                    title = "Wi-Fi Security",
+                    icon = Icons.Filled.Lock,
+                    iconContainerColor = tools.container,
+                    iconContentColor = tools.content,
+                    badge = "Check",
+                    onClick = {},
+                    modifier = Modifier.weight(1f)
+                )
+                PhoneToolCard(
+                    title = "Network Speed",
+                    icon = Icons.Filled.Refresh,
+                    iconContainerColor = tools.container,
+                    iconContentColor = tools.content,
+                    badge = "Test",
+                    onClick = {},
+                    modifier = Modifier.weight(1f)
+                )
+            }
+
+            Spacer(Modifier.height(10.dp))
 
             Box(
                 modifier = Modifier.fillMaxWidth(),
@@ -93,12 +134,12 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                     progress = if (cleaning) 0.62f else null,
                     caption = "Trash size",
                     subline = null,
-                    size = 170.dp,
-                    strokeWidth = 14.dp
+                    size = 220.dp,
+                    strokeWidth = 16.dp
                 )
             }
 
-            Spacer(Modifier.height(8.dp))
+            Spacer(Modifier.height(6.dp))
 
             Text(
                 text = "48.2 GB of 128 GB used · 38%",
@@ -209,45 +250,6 @@ fun DesignPreviewScreen(modifier: Modifier = Modifier) {
                         iconContainerColor = optimizer.container,
                         iconContentColor = optimizer.content,
                         badge = "37",
-                        onClick = {},
-                        modifier = Modifier.weight(1f)
-                    )
-                }
-
-                SectionHeader(
-                    text = "Phone Tools",
-                    padding = PaddingValues(horizontal = 4.dp, vertical = 10.dp)
-                )
-
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(10.dp),
-                    verticalAlignment = Alignment.Top
-                ) {
-                    PhoneToolCard(
-                        title = "Activity Monitor",
-                        icon = Icons.Filled.List,
-                        iconContainerColor = tools.container,
-                        iconContentColor = tools.content,
-                        badge = "24 H",
-                        onClick = {},
-                        modifier = Modifier.weight(1f)
-                    )
-                    PhoneToolCard(
-                        title = "Wi-Fi Security",
-                        icon = Icons.Filled.Lock,
-                        iconContainerColor = tools.container,
-                        iconContentColor = tools.content,
-                        badge = "Check",
-                        onClick = {},
-                        modifier = Modifier.weight(1f)
-                    )
-                    PhoneToolCard(
-                        title = "Network Speed",
-                        icon = Icons.Filled.Refresh,
-                        iconContainerColor = tools.container,
-                        iconContentColor = tools.content,
-                        badge = "Test",
                         onClick = {},
                         modifier = Modifier.weight(1f)
                     )
