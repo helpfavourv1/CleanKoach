@@ -1,5 +1,7 @@
 package com.zdmgold.cleankoach.feature.home
 
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -31,6 +33,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -39,6 +42,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zdmgold.cleankoach.core.media.MediaPermissions
 import com.zdmgold.cleankoach.core.ui.components.AdBannerPlaceholder
 import com.zdmgold.cleankoach.core.ui.components.PhoneToolCard
 import com.zdmgold.cleankoach.core.ui.components.PrimaryButton
@@ -71,6 +75,13 @@ fun HomeScreen(
     viewModel: HomeViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+
+    val permissionLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.RequestMultiplePermissions()
+    ) { results ->
+        val granted = results.values.any { it }
+        viewModel.onPermissionsResult(granted)
+    }
 
     val media = mediaTint()
     val optimizer = optimizerTint()
@@ -180,8 +191,11 @@ fun HomeScreen(
             PrimaryButton(
                 text = state.cleanUpLabel,
                 onClick = {
-                    if (!state.mediaPermissionGranted) viewModel.onAllowAccess()
-                    else viewModel.onCleanUpPressed()
+                    if (!state.mediaPermissionGranted) {
+                        permissionLauncher.launch(MediaPermissions.required())
+                    } else {
+                        viewModel.onCleanUpPressed()
+                    }
                 },
                 enabled = state.mediaPermissionGranted || !state.scanning,
                 loading = state.scanning
@@ -328,7 +342,10 @@ fun HomeScreen(
                 sheetState = rememberModalBottomSheetState()
             ) {
                 MediaAccessDisclosureContent(
-                    onAllow = viewModel::onDisclosureAccepted,
+                    onAllow = {
+                        viewModel.onDisclosureAccepted()
+                        permissionLauncher.launch(MediaPermissions.required())
+                    },
                     onNotNow = viewModel::onDisclosureDismiss
                 )
             }
