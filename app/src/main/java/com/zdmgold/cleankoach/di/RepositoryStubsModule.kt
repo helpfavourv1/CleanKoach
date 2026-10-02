@@ -10,7 +10,6 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.flowOf
 import javax.inject.Singleton
 
 @Module
@@ -24,7 +23,7 @@ object RepositoryStubsModule {
 
     @Provides
     @Singleton
-    fun provideBillingRepository(): BillingRepository = StubBillingRepository
+    fun provideBillingRepository(impl: com.zdmgold.cleankoach.core.billing.BillingConnector): BillingRepository = impl
 
     @Provides
     @Singleton
@@ -36,11 +35,5 @@ object RepositoryStubsModule {
 }
 
 
-object StubBillingRepository : BillingRepository {
-    override val proEntitled: Flow<Boolean> = flowOf(false)
-    override suspend fun refresh() = Unit
-    override suspend fun launchPurchase() = Unit
-    override suspend fun restore() = Unit
-}
 
 
