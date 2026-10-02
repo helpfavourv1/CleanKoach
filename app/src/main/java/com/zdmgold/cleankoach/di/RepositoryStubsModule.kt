@@ -1,6 +1,8 @@
 package com.zdmgold.cleankoach.di
 
 import com.zdmgold.cleankoach.core.data.repository.BillingRepository
+import com.zdmgold.cleankoach.core.data.repository.DefaultMediaRepository
+import com.zdmgold.cleankoach.core.data.repository.MediaRepository
 import com.zdmgold.cleankoach.core.data.repository.SecurityRepository
 import com.zdmgold.cleankoach.core.data.repository.UsageRepository
 import com.zdmgold.cleankoach.core.domain.model.AppUsageItem
@@ -18,6 +20,10 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object RepositoryStubsModule {
+
+    @Provides
+    @Singleton
+    fun provideMediaRepository(impl: DefaultMediaRepository): MediaRepository = impl
 
 
     @Provides
