@@ -192,7 +192,7 @@ fun HomeScreen(
                 text = state.cleanUpLabel,
                 onClick = {
                     if (!state.mediaPermissionGranted) {
-                        permissionLauncher.launch(MediaPermissions.required())
+                        viewModel.showDisclosure()
                     } else {
                         viewModel.onCleanUpPressed()
                     }

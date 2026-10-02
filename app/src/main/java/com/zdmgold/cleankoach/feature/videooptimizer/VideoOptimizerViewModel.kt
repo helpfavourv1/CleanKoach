@@ -87,6 +87,7 @@ class VideoOptimizerViewModel @Inject constructor(
                         videoCompressor.compress(
                             inputUri = Uri.parse(item.uri),
                             originalBytes = item.sizeBytes,
+                            originalName = item.displayName,
                             preset = preset
                         )
                     }.getOrNull()

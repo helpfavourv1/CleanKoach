@@ -27,19 +27,10 @@ class HomeViewModel @Inject constructor(
 
     init {
         viewModelScope.launch {
-            val disclosureAccepted = runCatching {
-                consentDataStore.mediaDisclosureAccepted.first()
-            }.getOrDefault(false)
-
             _state.update {
                 it.copy(mediaPermissionGranted = permissionChecker.hasFullMediaAccess())
             }
-
-            if (!permissionChecker.hasFullMediaAccess() && !disclosureAccepted) {
-                _state.update { it.copy(mediaDisclosureVisible = true, loading = false) }
-            } else {
-                refresh()
-            }
+            refresh()
         }
     }
 
