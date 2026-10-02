@@ -81,6 +81,9 @@ dependencies {
     implementation(libs.datastore.preferences)
     implementation(libs.coil.compose)
     implementation(libs.coil.video)
+    implementation(libs.media3.exoplayer)
+    implementation(libs.media3.transformer)
+    implementation(libs.media3.common)
 
     debugImplementation(libs.androidx.compose.ui.tooling)
 

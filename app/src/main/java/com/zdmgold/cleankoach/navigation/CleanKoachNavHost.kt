@@ -8,8 +8,10 @@ import androidx.navigation.compose.composable
 import com.zdmgold.cleankoach.feature.duplicates.DuplicatesScreen
 import com.zdmgold.cleankoach.feature.home.HomeScreen
 import com.zdmgold.cleankoach.feature.largefiles.LargeFilesScreen
+import com.zdmgold.cleankoach.feature.photooptimizer.PhotoOptimizerScreen
 import com.zdmgold.cleankoach.feature.screenshots.ScreenshotsScreen
 import com.zdmgold.cleankoach.feature.similar.SimilarPhotosScreen
+import com.zdmgold.cleankoach.feature.videooptimizer.VideoOptimizerScreen
 
 @Composable
 fun CleanKoachNavHost(
@@ -28,8 +30,8 @@ fun CleanKoachNavHost(
                 onOpenDuplicates = { navController.navigate(Routes.DUPLICATES) },
                 onOpenSimilar = { navController.navigate(Routes.SIMILAR_PHOTOS) },
                 onOpenScreenshots = { navController.navigate(Routes.SCREENSHOTS) },
-                onOpenPhotoOptimizer = { },
-                onOpenVideoOptimizer = { },
+                onOpenPhotoOptimizer = { navController.navigate(Routes.PHOTO_OPTIMIZER) },
+                onOpenVideoOptimizer = { navController.navigate(Routes.VIDEO_OPTIMIZER) },
                 onOpenActivityMonitor = { },
                 onOpenWifiSecurity = { },
                 onOpenNetworkSpeed = { }
@@ -50,6 +52,14 @@ fun CleanKoachNavHost(
 
         composable(Routes.SCREENSHOTS) {
             ScreenshotsScreen(onBack = { navController.popBackStack() })
+        }
+
+        composable(Routes.PHOTO_OPTIMIZER) {
+            PhotoOptimizerScreen(onBack = { navController.popBackStack() })
+        }
+
+        composable(Routes.VIDEO_OPTIMIZER) {
+            VideoOptimizerScreen(onBack = { navController.popBackStack() })
         }
     }
 }
