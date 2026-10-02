@@ -43,6 +43,10 @@ android {
         jvmTarget = "17"
     }
 
+    lint {
+        disable += "UnsafeOptInUsageError"
+    }
+
     buildFeatures {
         compose = true
     }

@@ -3,6 +3,7 @@ package com.zdmgold.cleankoach.core.media
 import android.content.Context
 import android.net.Uri
 import androidx.media3.common.MediaItem
+import androidx.media3.common.util.UnstableApi
 import androidx.media3.common.MimeTypes
 import androidx.media3.transformer.Composition
 import androidx.media3.transformer.EditedMediaItem
@@ -17,6 +18,7 @@ import javax.inject.Singleton
 import kotlin.coroutines.resume
 
 @Singleton
+@OptIn(UnstableApi::class)
 class VideoCompressor @Inject constructor(
     @ApplicationContext private val context: Context
 ) {
