@@ -75,6 +75,10 @@ dependencies {
 
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.okhttp)
+    implementation(libs.room.runtime)
+    implementation(libs.room.ktx)
+    ksp(libs.room.compiler)
+    implementation(libs.datastore.preferences)
 
     debugImplementation(libs.androidx.compose.ui.tooling)
 
