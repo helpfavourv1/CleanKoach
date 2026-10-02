@@ -2,6 +2,7 @@ package com.zdmgold.cleankoach.core.media
 
 import android.content.ContentUris
 import android.content.Context
+import dagger.hilt.android.qualifiers.ApplicationContext
 import android.net.Uri
 import android.provider.MediaStore
 import com.zdmgold.cleankoach.core.domain.model.MediaItem
@@ -11,7 +12,7 @@ import javax.inject.Singleton
 
 @Singleton
 class MediaStoreScanner @Inject constructor(
-    private val context: Context
+    @ApplicationContext private val context: Context
 ) {
 
     fun scan(kinds: Set<MediaKind> = setOf(MediaKind.IMAGE, MediaKind.VIDEO, MediaKind.AUDIO)): List<MediaItem> {

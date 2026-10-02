@@ -1,6 +1,7 @@
 package com.zdmgold.cleankoach.core.media
 
 import android.content.Context
+import dagger.hilt.android.qualifiers.ApplicationContext
 import android.graphics.Bitmap
 import android.net.Uri
 import androidx.core.graphics.scale
@@ -10,7 +11,7 @@ import kotlin.math.abs
 
 @Singleton
 class DHashCalculator @Inject constructor(
-    private val context: Context
+    @ApplicationContext private val context: Context
 ) {
     fun dhash(uri: Uri): Long? = runCatching {
         val source = context.contentResolver.openInputStream(uri)?.use { input ->

@@ -1,6 +1,7 @@
 package com.zdmgold.cleankoach.core.media
 
 import android.content.Context
+import dagger.hilt.android.qualifiers.ApplicationContext
 import android.net.Uri
 import java.security.MessageDigest
 import javax.inject.Inject
@@ -8,7 +9,7 @@ import javax.inject.Singleton
 
 @Singleton
 class HashCalculator @Inject constructor(
-    private val context: Context
+    @ApplicationContext private val context: Context
 ) {
     fun sha256(uri: Uri): String? = runCatching {
         val digest = MessageDigest.getInstance("SHA-256")
