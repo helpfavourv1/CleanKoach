@@ -79,6 +79,8 @@ dependencies {
     implementation(libs.room.ktx)
     ksp(libs.room.compiler)
     implementation(libs.datastore.preferences)
+    implementation(libs.coil.compose)
+    implementation(libs.coil.video)
 
     debugImplementation(libs.androidx.compose.ui.tooling)
 
