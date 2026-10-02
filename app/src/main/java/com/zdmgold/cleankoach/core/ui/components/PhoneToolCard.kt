@@ -2,10 +2,8 @@ package com.zdmgold.cleankoach.core.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -24,9 +22,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun ToolCard(
+fun PhoneToolCard(
     title: String,
-    description: String,
     icon: ImageVector,
     iconContainerColor: Color,
     iconContentColor: Color,
@@ -44,49 +41,38 @@ fun ToolCard(
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(14.dp)
+                .padding(12.dp)
         ) {
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                verticalAlignment = Alignment.CenterVertically
+            Box(
+                modifier = Modifier
+                    .size(32.dp)
+                    .background(
+                        color = iconContainerColor,
+                        shape = RoundedCornerShape(9.dp)
+                    ),
+                contentAlignment = Alignment.Center
             ) {
-                Box(
-                    modifier = Modifier
-                        .size(36.dp)
-                        .background(
-                            color = iconContainerColor,
-                            shape = RoundedCornerShape(10.dp)
-                        ),
-                    contentAlignment = Alignment.Center
-                ) {
-                    Icon(
-                        imageVector = icon,
-                        contentDescription = null,
-                        tint = iconContentColor,
-                        modifier = Modifier.size(20.dp)
-                    )
-                }
-                Spacer(Modifier.weight(1f))
-                if (badge != null) {
-                    Badge(text = badge)
-                }
+                Icon(
+                    imageVector = icon,
+                    contentDescription = null,
+                    tint = iconContentColor,
+                    modifier = Modifier.size(18.dp)
+                )
+            }
+
+            if (badge != null) {
+                Spacer(Modifier.size(8.dp))
+                Badge(text = badge)
             }
 
             Spacer(Modifier.size(10.dp))
 
             Text(
                 text = title,
-                style = MaterialTheme.typography.titleMedium,
+                style = MaterialTheme.typography.titleSmall,
                 fontWeight = FontWeight.W600,
-                color = MaterialTheme.colorScheme.onSurface
-            )
-
-            Spacer(Modifier.size(2.dp))
-
-            Text(
-                text = description,
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
+                color = MaterialTheme.colorScheme.onSurface,
+                maxLines = 2
             )
         }
     }

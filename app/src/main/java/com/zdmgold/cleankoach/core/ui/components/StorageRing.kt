@@ -1,7 +1,6 @@
 package com.zdmgold.cleankoach.core.ui.components
 
 import androidx.compose.animation.core.animateFloatAsState
-import androidx.compose.runtime.getValue
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.Arrangement
@@ -13,6 +12,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
@@ -21,6 +21,7 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
 @Composable
@@ -29,7 +30,9 @@ fun StorageRing(
     progress: Float?,
     modifier: Modifier = Modifier,
     caption: String = "Trash size",
-    subline: String? = null
+    subline: String? = null,
+    size: Dp = 220.dp,
+    strokeWidth: Dp = 16.dp
 ) {
     val targetProgress = progress ?: 0f
     val animatedProgress by animateFloatAsState(
@@ -47,13 +50,13 @@ fun StorageRing(
         verticalArrangement = Arrangement.Center
     ) {
         Box(
-            modifier = Modifier.size(220.dp),
+            modifier = Modifier.size(size),
             contentAlignment = Alignment.Center
         ) {
-            Canvas(modifier = Modifier.size(220.dp)) {
-                val strokeWidth = 16.dp.toPx()
-                val inset = strokeWidth / 2f
-                val arcSize = Size(size.width - strokeWidth, size.height - strokeWidth)
+            Canvas(modifier = Modifier.size(size)) {
+                val strokePx = strokeWidth.toPx()
+                val inset = strokePx / 2f
+                val arcSize = Size(this.size.width - strokePx, this.size.height - strokePx)
 
                 drawArc(
                     color = trackColor,
@@ -62,7 +65,7 @@ fun StorageRing(
                     useCenter = false,
                     topLeft = Offset(inset, inset),
                     size = arcSize,
-                    style = Stroke(width = strokeWidth, cap = StrokeCap.Round)
+                    style = Stroke(width = strokePx, cap = StrokeCap.Round)
                 )
 
                 if (progress != null) {
@@ -73,7 +76,7 @@ fun StorageRing(
                         useCenter = false,
                         topLeft = Offset(inset, inset),
                         size = arcSize,
-                        style = Stroke(width = strokeWidth, cap = StrokeCap.Round)
+                        style = Stroke(width = strokePx, cap = StrokeCap.Round)
                     )
                 }
             }
@@ -87,7 +90,7 @@ fun StorageRing(
                     fontWeight = FontWeight.W600,
                     color = MaterialTheme.colorScheme.onBackground
                 )
-                Spacer(Modifier.height(4.dp))
+                Spacer(Modifier.height(2.dp))
                 Text(
                     text = caption,
                     style = MaterialTheme.typography.bodySmall,
@@ -98,7 +101,7 @@ fun StorageRing(
         }
 
         if (subline != null) {
-            Spacer(Modifier.height(8.dp))
+            Spacer(Modifier.height(6.dp))
             Text(
                 text = subline,
                 style = MaterialTheme.typography.bodySmall,

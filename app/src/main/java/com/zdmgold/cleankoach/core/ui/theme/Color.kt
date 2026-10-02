@@ -33,3 +33,19 @@ val DarkOutline = Color(0xFF2F3A42)
 val DarkOutlineVariant = Color(0xFF3F4A53)
 val DarkError = Color(0xFFFFB4AB)
 val DarkOnError = Color(0xFF690005)
+
+// Category tints — Light
+val CategoryMediaContainerLight = Color(0xFFFFE0D2)
+val CategoryMediaContentLight = Color(0xFF8A3A14)
+val CategoryOptimizerContainerLight = Color(0xFFE8DDF5)
+val CategoryOptimizerContentLight = Color(0xFF4A2E75)
+val CategoryToolsContainerLight = Color(0xFFD6E4F7)
+val CategoryToolsContentLight = Color(0xFF1D3A6E)
+
+// Category tints — Dark
+val CategoryMediaContainerDark = Color(0xFF5C2E1A)
+val CategoryMediaContentDark = Color(0xFFFFCDB4)
+val CategoryOptimizerContainerDark = Color(0xFF3F2E5C)
+val CategoryOptimizerContentDark = Color(0xFFD5C4F0)
+val CategoryToolsContainerDark = Color(0xFF1E3A5C)
+val CategoryToolsContentDark = Color(0xFFB8CEEE)
