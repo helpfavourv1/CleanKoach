@@ -3,6 +3,17 @@ package com.zdmgold.cleankoach.feature.home
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.material.icons.outlined.DarkMode
+import androidx.compose.material.icons.outlined.LightMode
+import androidx.compose.material.icons.outlined.Translate
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontVariation
+import androidx.compose.ui.unit.sp
+import com.zdmgold.cleankoach.core.ui.components.StorageRing
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -20,8 +31,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.withStyle
-import com.zdmgold.cleankoach.core.ui.components.LanguageIconButton
-import com.zdmgold.cleankoach.core.ui.components.ThemeIconButton
 import com.zdmgold.cleankoach.core.ui.theme.LocalDarkTheme
 import com.zdmgold.cleankoach.feature.settings.LanguageOptions
 import com.zdmgold.cleankoach.feature.settings.SettingsViewModel
@@ -80,6 +89,20 @@ import com.zdmgold.cleankoach.feature.cleanup.CleanUpConfirmSheet
 import com.zdmgold.cleankoach.feature.cleanup.CleanUpResultSheet
 import com.zdmgold.cleankoach.feature.permission.MediaAccessDisclosureContent
 
+@OptIn(androidx.compose.ui.text.ExperimentalTextApi::class)
+private val jakartaSans = FontFamily(
+    Font(
+        resId = R.font.plus_jakarta_sans,
+        weight = FontWeight.W900,
+        variationSettings = FontVariation.Settings(FontVariation.weight(900))
+    ),
+    Font(
+        resId = R.font.plus_jakarta_sans,
+        weight = FontWeight.W700,
+        variationSettings = FontVariation.Settings(FontVariation.weight(700))
+    )
+)
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
@@ -131,7 +154,18 @@ fun HomeScreen(
     val tools = toolsTint()
 
     val storage = state.storage
-    val ringValue = storage?.let { FormatUtils.bytesShort(it.totalReclaimableBytes) } ?: "—"
+    val ringValue = buildAnnotatedString {
+        val short = storage?.let { FormatUtils.bytesShort(it.totalReclaimableBytes) }
+        if (short == null) {
+            withStyle(SpanStyle(fontSize = 26.sp)) { append("—") }
+        } else {
+            val parts = short.split(" ")
+            withStyle(SpanStyle(fontSize = 26.sp)) { append(parts.first()) }
+            if (parts.size > 1) {
+                withStyle(SpanStyle(fontSize = 13.sp)) { append(" " + parts[1]) }
+            }
+        }
+    }
     val storageLine = storage?.let {
         stringResource(
             R.string.home_storage_line,
@@ -155,25 +189,40 @@ fun HomeScreen(
             Spacer(Modifier.height(8.dp))
 
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(56.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
                     text = wordmark(stringResource(R.string.app_name)),
-                    style = MaterialTheme.typography.headlineSmall,
-                    fontWeight = FontWeight.W800,
+                    style = TextStyle(
+                        fontFamily = jakartaSans,
+                        fontSize = 24.sp,
+                        fontWeight = FontWeight.W900,
+                        letterSpacing = (-1).sp,
+                        lineHeight = 24.sp
+                    ),
                     modifier = Modifier.weight(1f)
                 )
-                LanguageIconButton(
-                    onClick = { languageSheetVisible = true },
-                    description = stringResource(R.string.settings_language)
-                )
-                ThemeIconButton(
+                IconButton(onClick = { languageSheetVisible = true }) {
+                    Icon(
+                        imageVector = Icons.Outlined.Translate,
+                        contentDescription = stringResource(R.string.settings_language),
+                        tint = MaterialTheme.colorScheme.onBackground
+                    )
+                }
+                IconButton(
                     onClick = {
                         settingsViewModel.setTheme(if (darkTheme) "light" else "dark")
-                    },
-                    description = stringResource(R.string.settings_theme)
-                )
+                    }
+                ) {
+                    Icon(
+                        imageVector = if (darkTheme) Icons.Outlined.LightMode else Icons.Outlined.DarkMode,
+                        contentDescription = stringResource(R.string.settings_theme),
+                        tint = MaterialTheme.colorScheme.onBackground
+                    )
+                }
                 SettingsChip(onClick = onOpenSettings)
             }
 
@@ -187,90 +236,78 @@ fun HomeScreen(
                 ),
                 label = "cleanup_fill"
             )
-            val heroShape = RoundedCornerShape(20.dp)
+            val brandBlue = if (darkTheme) Color(0xFF6FA3FF) else Color(0xFF1F5FD6)
 
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(112.dp),
-                horizontalArrangement = Arrangement.spacedBy(4.dp)
+            Surface(
+                modifier = Modifier.fillMaxWidth(),
+                shape = RoundedCornerShape(28.dp),
+                color = MaterialTheme.colorScheme.surface
             ) {
-                Box(
+                Row(
                     modifier = Modifier
-                        .weight(1f)
-                        .fillMaxHeight()
-                        .clip(heroShape)
-                        .background(MaterialTheme.colorScheme.surface)
+                        .fillMaxWidth()
+                        .padding(14.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(16.dp)
                 ) {
-                    Box(
-                        modifier = Modifier
-                            .fillMaxHeight()
-                            .fillMaxWidth(fill)
-                            .background(MaterialTheme.colorScheme.primaryContainer)
+                    StorageRing(
+                        valueText = ringValue,
+                        progress = fill,
+                        caption = stringResource(R.string.home_ring_caption),
+                        subline = null,
+                        size = 108.dp,
+                        strokeWidth = 12.dp
                     )
-                    Column(
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .padding(horizontal = 16.dp),
-                        verticalArrangement = Arrangement.Center
-                    ) {
-                        Text(
-                            text = ringValue,
-                            style = MaterialTheme.typography.headlineMedium,
-                            fontWeight = FontWeight.W700,
-                            color = MaterialTheme.colorScheme.onSurface
-                        )
-                        Text(
-                            text = stringResource(R.string.home_ring_caption),
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant
-                        )
-                        Spacer(Modifier.height(6.dp))
+                    Column(modifier = Modifier.weight(1f)) {
                         Text(
                             text = storageLine,
                             style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                            maxLines = 2
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
-                    }
-                }
-                Box(
-                    modifier = Modifier
-                        .width(112.dp)
-                        .fillMaxHeight()
-                        .clip(heroShape)
-                        .background(
-                            if (state.cleanUpButtonEnabled) MaterialTheme.colorScheme.primary
-                            else MaterialTheme.colorScheme.surfaceVariant
-                        )
-                        .clickable(enabled = state.cleanUpButtonEnabled) {
-                            if (!state.mediaPermissionGranted) {
-                                viewModel.showDisclosure()
-                            } else {
-                                viewModel.onCleanUpPressed()
-                            }
+                        Spacer(Modifier.height(8.dp))
+                        Box(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(6.dp)
+                                .clip(RoundedCornerShape(3.dp))
+                                .background(MaterialTheme.colorScheme.surfaceVariant)
+                        ) {
+                            Box(
+                                modifier = Modifier
+                                    .fillMaxHeight()
+                                    .fillMaxWidth(
+                                        ((storage?.percentUsed ?: 0) / 100f).coerceIn(0f, 1f)
+                                    )
+                                    .background(brandBlue)
+                            )
                         }
-                        .padding(8.dp),
-                    contentAlignment = Alignment.Center
-                ) {
-                    val contentColor = if (state.cleanUpButtonEnabled) MaterialTheme.colorScheme.onPrimary
-                    else MaterialTheme.colorScheme.onSurfaceVariant
-                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                        Text(
-                            text = ringValue,
-                            style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.W700,
-                            color = contentColor,
-                            textAlign = TextAlign.Center
-                        )
-                        Spacer(Modifier.height(6.dp))
-                        Text(
-                            text = stringResource(state.cleanUpLabelRes),
-                            style = MaterialTheme.typography.labelLarge,
-                            fontWeight = FontWeight.W700,
-                            color = contentColor,
-                            textAlign = TextAlign.Center
-                        )
+                        Spacer(Modifier.height(10.dp))
+                        Box(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(52.dp)
+                                .clip(RoundedCornerShape(12.dp))
+                                .background(MaterialTheme.colorScheme.primary)
+                                .clickable {
+                                    if (!state.mediaPermissionGranted) {
+                                        viewModel.showDisclosure()
+                                    } else {
+                                        viewModel.onCleanUpPressed()
+                                    }
+                                },
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Text(
+                                text = stringResource(R.string.home_button_cleanup),
+                                style = TextStyle(
+                                    fontFamily = jakartaSans,
+                                    fontSize = 15.sp,
+                                    fontWeight = FontWeight.W700,
+                                    letterSpacing = 0.9.sp
+                                ),
+                                color = MaterialTheme.colorScheme.onPrimary
+                            )
+                        }
                     }
                 }
             }

@@ -82,7 +82,7 @@ class HomeViewModel @Inject constructor(
     }
 
     fun onCleanUpPressed() {
-        if (!_state.value.cleanUpEnabled) return
+        if (_state.value.scanning) return
         _state.update { it.copy(cleanUpSheetVisible = true) }
     }
 

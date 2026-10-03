@@ -19,6 +19,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -27,7 +28,7 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun StorageRing(
-    valueText: String,
+    valueText: AnnotatedString,
     progress: Float?,
     modifier: Modifier = Modifier,
     caption: String = "Trash size",
@@ -70,7 +71,7 @@ fun StorageRing(
                     style = Stroke(width = strokePx, cap = StrokeCap.Round)
                 )
 
-                if (progress != null) {
+                if (progress != null && animatedProgress > 0.001f) {
                     drawArc(
                         color = progressColor,
                         startAngle = -90f,
