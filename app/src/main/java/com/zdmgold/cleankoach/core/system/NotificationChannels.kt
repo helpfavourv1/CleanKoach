@@ -5,6 +5,7 @@ import android.app.NotificationManager
 import android.content.Context
 import android.os.Build
 import androidx.core.content.getSystemService
+import com.zdmgold.cleankoach.R
 
 object NotificationChannels {
     const val CLEANUP_REMINDER = "cleanup_reminder"
@@ -16,18 +17,18 @@ object NotificationChannels {
 
         val cleanup = NotificationChannel(
             CLEANUP_REMINDER,
-            "Cleanup reminders",
+            context.getString(R.string.channel_cleanup_name),
             NotificationManager.IMPORTANCE_DEFAULT
         ).apply {
-            description = "Weekly reminders to review large files and duplicates."
+            description = context.getString(R.string.channel_cleanup_description)
         }
 
         val alert = NotificationChannel(
             STORAGE_ALERT,
-            "Storage alerts",
+            context.getString(R.string.channel_storage_name),
             NotificationManager.IMPORTANCE_DEFAULT
         ).apply {
-            description = "Alerts when device storage is running low."
+            description = context.getString(R.string.channel_storage_description)
         }
 
         manager.createNotificationChannel(cleanup)

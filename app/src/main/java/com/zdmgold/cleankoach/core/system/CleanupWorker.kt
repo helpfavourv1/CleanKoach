@@ -7,6 +7,7 @@ import androidx.core.content.getSystemService
 import androidx.hilt.work.HiltWorker
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
+import com.zdmgold.cleankoach.R
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 
@@ -24,12 +25,16 @@ class CleanupWorker @AssistedInject constructor(
     override suspend fun doWork(): Result {
         NotificationChannels.ensure(applicationContext)
 
-        val manager = applicationContext.getSystemService<NotificationManager>() ?: return Result.success()
+        val manager = applicationContext.getSystemService<NotificationManager>()
+            ?: return Result.success()
 
-        val notification = NotificationCompat.Builder(applicationContext, NotificationChannels.CLEANUP_REMINDER)
+        val notification = NotificationCompat.Builder(
+            applicationContext,
+            NotificationChannels.CLEANUP_REMINDER
+        )
             .setSmallIcon(android.R.drawable.stat_notify_more)
-            .setContentTitle("Time for a cleanup")
-            .setContentText("Review large files, duplicates and screenshots.")
+            .setContentTitle(applicationContext.getString(R.string.notification_cleanup_title))
+            .setContentText(applicationContext.getString(R.string.notification_cleanup_body))
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
             .setAutoCancel(true)
             .build()
