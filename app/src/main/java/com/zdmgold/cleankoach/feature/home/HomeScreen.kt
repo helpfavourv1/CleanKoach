@@ -90,7 +90,7 @@ fun HomeScreen(
     val storage = state.storage
     val ringValue = storage?.let { FormatUtils.bytesShort(it.totalReclaimableBytes) } ?: "—"
     val storageLine = storage?.let {
-        FormatUtils.storageLine(it.usedBytes, it.totalBytes, it.percentUsed)
+        "${FormatUtils.bytes(it.usedBytes)} of ${FormatUtils.bytes(it.totalBytes)} used · ${it.percentUsed}%"
     } ?: ""
 
     Surface(
