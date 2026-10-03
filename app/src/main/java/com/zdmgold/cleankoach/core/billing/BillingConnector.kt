@@ -129,7 +129,7 @@ class BillingConnector @Inject constructor(
 
         billing.queryProductDetailsAsync(params) { result, detailsResult ->
             if (result.responseCode == BillingClient.BillingResponseCode.OK) {
-                proDetails = detailsResult.productDetailsList?.firstOrNull()
+                proDetails = detailsResult.getProductDetailsList().firstOrNull()
             }
         }
     }
