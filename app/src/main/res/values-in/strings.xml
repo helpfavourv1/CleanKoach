@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Kembali</string>
+    <string name="cd_settings">Pengaturan</string>
+    <string name="action_done">Selesai</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_continue">Lanjutkan</string>
+    <string name="action_not_now">Nanti saja</string>
+    <string name="action_allow_access">Izinkan akses</string>
+    <string name="action_open_settings">Buka pengaturan</string>
+    <string name="action_all">Semua</string>
+    <string name="action_clear">Kosongkan</string>
+
+    <string name="home_ring_caption">Sampah</string>
+    <string name="home_ring_sublabel">Foto dan video di sampah plus cache aplikasi</string>
+    <string name="home_storage_line">%1$s dari %2$s terpakai · %3$d%%</string>
+    <string name="home_button_cleanup">BERSIHKAN</string>
+    <string name="home_button_scanning">Memindai…</string>
+    <string name="home_button_allow_access">Izinkan akses</string>
+    <string name="home_button_nothing_to_clean">Tidak ada yang dibersihkan</string>
+
+    <string name="home_section_phone_tools">Alat Ponsel</string>
+    <string name="home_section_photos_videos">Foto &amp; Video</string>
+
+    <string name="tool_large_files_title">File besar</string>
+    <string name="tool_large_files_desc">Foto, video, dan audio terbesar Anda.</string>
+    <string name="tool_duplicates_title">Duplikat</string>
+    <string name="tool_duplicates_desc">Foto, video, dan audio identik.</string>
+    <string name="tool_similar_title">Foto serupa</string>
+    <string name="tool_similar_desc">Foto hampir sama, simpan yang terbaik.</string>
+    <string name="tool_screenshots_title">Tangkapan layar</string>
+    <string name="tool_screenshots_desc">Semua tangkapan, sekali jalan.</string>
+    <string name="tool_photo_optimizer_title">Pengoptimal foto</string>
+    <string name="tool_photo_optimizer_desc">Kompres foto, hemat ruang.</string>
+    <string name="tool_video_optimizer_title">Pengoptimal video</string>
+    <string name="tool_video_optimizer_desc">Kompres video, hemat ruang.</string>
+
+    <string name="tool_activity_monitor_title">Monitor Aktivitas</string>
+    <string name="tool_activity_monitor_badge">24 J</string>
+    <string name="tool_wifi_security_title">Keamanan Wi-Fi</string>
+    <string name="tool_wifi_security_badge">Periksa</string>
+    <string name="tool_network_speed_title">Kecepatan Jaringan</string>
+    <string name="tool_network_speed_badge">Uji</string>
+
+    <string name="cleanup_sheet_title">Bersihkan</string>
+    <string name="cleanup_sheet_message">Hapus %1$s item di sampah dan kosongkan cache aplikasi? Ini membebaskan %2$s.</string>
+    <string name="cleanup_sheet_detail">Yang dibersihkan: foto dan video di sampah pada galeri Anda, plus cache aplikasi ini. Tidak ada yang lain tersentuh.</string>
+    <string name="cleanup_result_freed">Dibebaskan</string>
+
+    <string name="media_disclosure_title">Izinkan akses media</string>
+    <string name="media_disclosure_body">Untuk menemukan file besar, duplikat, dan foto serupa, aplikasi ini memerlukan akses ke foto, video, dan audio Anda. File dianalisis di perangkat Anda dan tidak pernah diunggah.</string>
+
+    <string name="large_files_title">File besar</string>
+    <string name="large_files_count_line">%1$d item · %2$s</string>
+    <string name="large_files_empty_title">Tidak ada file besar</string>
+    <string name="large_files_empty_message">Galeri Anda rapi. Tidak ada yang besar untuk ditinjau.</string>
+    <string name="large_files_selection_line">%1$d dipilih · %2$s</string>
+
+    <string name="duplicates_title">Duplikat</string>
+    <string name="duplicates_group_count_line">%1$d grup · %2$s dapat diperoleh kembali</string>
+    <string name="duplicates_empty_title">Tidak ada duplikat</string>
+    <string name="duplicates_empty_message">Setiap foto, video, dan audio unik.</string>
+    <string name="duplicates_identical_items">%1$d item identik</string>
+    <string name="duplicates_reclaimable_label">%1$s dapat diperoleh kembali</string>
+    <string name="duplicates_keep_label">Simpan</string>
+
+    <string name="similar_title">Foto serupa</string>
+    <string name="similar_group_count_line">%1$d grup · %2$s dapat diperoleh kembali</string>
+    <string name="similar_empty_title">Tidak ada foto serupa</string>
+    <string name="similar_empty_message">Tidak ada yang terlihat hampir duplikat di sini.</string>
+    <string name="similar_shot_count">%1$d foto serupa</string>
+    <string name="similar_best_label">Terbaik</string>
+
+    <string name="screenshots_title">Tangkapan layar</string>
+    <string name="screenshots_empty_title">Tidak ada tangkapan layar</string>
+    <string name="screenshots_empty_message">Belum ada yang ditangkap di perangkat ini.</string>
+
+    <string name="photo_optimizer_title">Pengoptimal foto</string>
+    <string name="photo_optimizer_count_line">%1$d foto · %2$s</string>
+    <string name="photo_optimizer_optimizing">Mengoptimalkan %1$d dari %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Hemat sejauh ini: %1$s</string>
+    <string name="photo_optimizer_empty_title">Tidak ada foto untuk dioptimalkan</string>
+    <string name="photo_optimizer_empty_message">Tidak ada yang cukup besar untuk dikompres.</string>
+    <string name="photo_optimizer_button_optimize">Optimalkan pilihan</string>
+    <string name="photo_optimizer_button_optimizing">Mengoptimalkan…</string>
+    <string name="photo_optimizer_selected_line">%1$d dipilih</string>
+    <string name="photo_optimizer_summary">%1$d foto dioptimalkan · %2$s dihemat</string>
+
+    <string name="video_optimizer_title">Pengoptimal video</string>
+    <string name="video_optimizer_count_line">%1$d video · %2$s</string>
+    <string name="video_optimizer_optimizing">Mengoptimalkan %1$d dari %2$d</string>
+    <string name="video_optimizer_saved_so_far">Hemat sejauh ini: %1$s</string>
+    <string name="video_optimizer_empty_title">Tidak ada video untuk dioptimalkan</string>
+    <string name="video_optimizer_empty_message">Tidak ada yang cukup besar untuk dikompres.</string>
+    <string name="video_optimizer_button_optimize">Optimalkan pilihan</string>
+    <string name="video_optimizer_button_optimizing">Mengoptimalkan…</string>
+    <string name="video_optimizer_selected_line">%1$d dipilih</string>
+    <string name="video_optimizer_summary">%1$d video dioptimalkan · %2$s dihemat</string>
+    <string name="video_preset_high">Kualitas tinggi</string>
+    <string name="video_preset_balanced">Seimbang</string>
+    <string name="video_preset_small">File kecil</string>
+
+    <string name="activity_monitor_title">Monitor Aktivitas</string>
+    <string name="activity_monitor_no_access_title">Perlu akses penggunaan</string>
+    <string name="activity_monitor_no_access_message">Izinkan akses penggunaan di pengaturan sistem untuk melihat peluncuran dan waktu latar depan.</string>
+    <string name="activity_monitor_empty_title">Tidak ada aktivitas</string>
+    <string name="activity_monitor_empty_message">Tidak ada yang digunakan dalam 24 jam terakhir.</string>
+    <string name="activity_monitor_launches">%1$d peluncuran · %2$s</string>
+    <string name="activity_monitor_foreground">Latar depan: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Akses penggunaan</string>
+    <string name="activity_monitor_disclosure_body">Monitor Aktivitas memerlukan Akses Penggunaan. Aplikasi membaca aplikasi apa yang Anda buka, kapan, dan berapa lama dalam 24 jam terakhir. Data ini tetap di perangkat Anda dan tidak diunggah atau dibagikan.</string>
+
+    <string name="wifi_security_title">Keamanan Wi-Fi</string>
+    <string name="wifi_check_internet_title">Akses Internet</string>
+    <string name="wifi_check_internet_connected">Terhubung.</string>
+    <string name="wifi_check_internet_disconnected">Tidak ada koneksi aktif.</string>
+    <string name="wifi_check_encryption_title">Enkripsi dan autentikasi</string>
+    <string name="wifi_check_unavailable">tidak tersedia di perangkat ini</string>
+    <string name="wifi_check_ssl_strip_title">Uji SSL strip</string>
+    <string name="wifi_check_ssl_strip_detected">Terdeteksi. Perangkat di jaringan ini menurunkan koneksi HTTPS.</string>
+    <string name="wifi_check_ssl_strip_safe">Tidak terdeteksi.</string>
+    <string name="wifi_check_ssl_split_title">Uji SSL split</string>
+    <string name="wifi_check_ssl_split_detected">Terdeteksi. Koneksi Anda melewati pencegat.</string>
+    <string name="wifi_check_ssl_split_safe">Tidak terdeteksi.</string>
+    <string name="wifi_check_checked_at">Diperiksa %1$s</string>
+    <string name="wifi_check_rerun">Periksa ulang</string>
+    <string name="wifi_check_error">Tidak dapat memeriksa koneksi.</string>
+    <string name="wifi_check_inspect_failed">Tidak dapat memeriksa koneksi ini.</string>
+
+    <string name="network_speed_title">Kecepatan Jaringan</string>
+    <string name="network_speed_ready">Ukur kecepatan unduh Anda.</string>
+    <string name="network_speed_preparing">Mempersiapkan</string>
+    <string name="network_speed_testing">Menguji kecepatan unduh</string>
+    <string name="network_speed_transferred">%1$s ditransfer</string>
+    <string name="network_speed_download_label">Kecepatan unduh</string>
+    <string name="network_speed_transferred_detail">%1$s ditransfer dalam %2$dd</string>
+    <string name="network_speed_failed">Uji gagal</string>
+    <string name="network_speed_button_start">Mulai uji</string>
+    <string name="network_speed_button_testing">Menguji…</string>
+    <string name="network_speed_button_again">Uji lagi</string>
+    <string name="network_speed_button_retry">Coba lagi</string>
+    <string name="network_speed_footnote">Hanya unduh. Unggah dan ping tidak diukur.</string>
+
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_light">Terang</string>
+    <string name="settings_theme_dark">Gelap</string>
+    <string name="settings_theme_system">Sistem</string>
+    <string name="settings_language">Bahasa</string>
+    <string name="settings_notifications">Notifikasi</string>
+    <string name="settings_notifications_on">Nyala</string>
+    <string name="settings_notifications_off">Mati</string>
+    <string name="settings_notifications_allow">Izinkan notifikasi</string>
+    <string name="settings_notifications_weekly">Pengingat pembersihan mingguan</string>
+    <string name="settings_notifications_storage">Peringatan penyimpanan</string>
+    <string name="settings_go_pro">Jadi Pro</string>
+    <string name="settings_pro_active">Pro · aktif</string>
+    <string name="settings_pro_remove_ads">Hapus iklan</string>
+    <string name="settings_restore_purchase">Pulihkan pembelian</string>
+    <string name="settings_share_app">Bagikan aplikasi ini</string>
+    <string name="settings_rate_app">Beri rating aplikasi</string>
+    <string name="settings_privacy_policy">Kebijakan privasi</string>
+    <string name="settings_terms">Ketentuan layanan</string>
+    <string name="settings_support">Dukungan</string>
+    <string name="settings_about">Tentang</string>
+    <string name="settings_about_version">Versi %1$s</string>
+
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Anda di Pro</string>
+    <string name="pro_active_body">Iklan dihapus. Terima kasih telah mendukung CleanKoach.</string>
+    <string name="pro_upsell_title">Hapus iklan</string>
+    <string name="pro_upsell_body">Pro menghapus banner iklan. Semua fitur gratis.</string>
+    <string name="pro_button_upgrade">Tingkatkan</string>
+    <string name="pro_button_restore">Pulihkan pembelian</string>
+
+    <string name="about_title">Tentang</string>
+    <string name="about_body">Pembersih penyimpanan Android asli. Semua berjalan di perangkat. Media, data penggunaan, dan hasil pemindaian tidak pernah diunggah.</string>
+    <string name="about_built_with">Dibuat dengan Kotlin, Jetpack Compose, dan Material 3.</string>
+
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+    <string name="language_pt">Português</string>
+    <string name="language_fr">Français</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_it">Italiano</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_in">Bahasa Indonesia</string>
+    <string name="language_ja">日本語</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_ru">Русский</string>
+
+    <string name="channel_cleanup_name">Pengingat pembersihan</string>
+    <string name="channel_cleanup_description">Pengingat mingguan untuk meninjau file besar dan duplikat.</string>
+    <string name="channel_storage_name">Peringatan penyimpanan</string>
+    <string name="channel_storage_description">Peringatan saat penyimpanan perangkat menipis.</string>
+    <string name="notification_cleanup_title">Waktunya membersihkan</string>
+    <string name="notification_cleanup_body">Tinjau file besar, duplikat, dan tangkapan layar.</string>
+    <string name="notification_storage_title">Penyimpanan %1$d%% penuh</string>
+    <string name="notification_storage_body">Tinjau file besar untuk mengosongkan ruang.</string>
+
+    <string name="ad_placeholder_label">Iklan</string>
+
+    <string name="share_text">Bebaskan penyimpanan ponsel dengan menghapus duplikat, foto serupa, dan file besar: %1$s</string>
+
+</resources>

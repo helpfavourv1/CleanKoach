@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">वापस</string>
+    <string name="cd_settings">सेटिंग्स</string>
+    <string name="action_done">हो गया</string>
+    <string name="action_cancel">रद्द करें</string>
+    <string name="action_delete">हटाएं</string>
+    <string name="action_continue">जारी रखें</string>
+    <string name="action_not_now">अभी नहीं</string>
+    <string name="action_allow_access">एक्सेस दें</string>
+    <string name="action_open_settings">सेटिंग्स खोलें</string>
+    <string name="action_all">सभी</string>
+    <string name="action_clear">चयन हटाएं</string>
+
+    <string name="home_ring_caption">ट्रैश</string>
+    <string name="home_ring_sublabel">ट्रैश की गई फ़ोटो और वीडियो के साथ ऐप कैश</string>
+    <string name="home_storage_line">%2$s में से %1$s उपयोग · %3$d%%</string>
+    <string name="home_button_cleanup">साफ़ करें</string>
+    <string name="home_button_scanning">स्कैन हो रहा है…</string>
+    <string name="home_button_allow_access">एक्सेस दें</string>
+    <string name="home_button_nothing_to_clean">साफ़ करने के लिए कुछ नहीं</string>
+
+    <string name="home_section_phone_tools">फ़ोन टूल्स</string>
+    <string name="home_section_photos_videos">फ़ोटो और वीडियो</string>
+
+    <string name="tool_large_files_title">बड़ी फ़ाइलें</string>
+    <string name="tool_large_files_desc">आपकी सबसे बड़ी फ़ोटो, वीडियो और ऑडियो।</string>
+    <string name="tool_duplicates_title">डुप्लिकेट</string>
+    <string name="tool_duplicates_desc">समान फ़ोटो, वीडियो और ऑडियो।</string>
+    <string name="tool_similar_title">समान फ़ोटो</string>
+    <string name="tool_similar_desc">लगभग समान शॉट, सबसे अच्छा रखें।</string>
+    <string name="tool_screenshots_title">स्क्रीनशॉट</string>
+    <string name="tool_screenshots_desc">सभी स्क्रीनशॉट, एक बार में।</string>
+    <string name="tool_photo_optimizer_title">फ़ोटो ऑप्टिमाइज़र</string>
+    <string name="tool_photo_optimizer_desc">फ़ोटो कंप्रेस करें, जगह बचाएं।</string>
+    <string name="tool_video_optimizer_title">वीडियो ऑप्टिमाइज़र</string>
+    <string name="tool_video_optimizer_desc">वीडियो कंप्रेस करें, जगह बचाएं।</string>
+
+    <string name="tool_activity_monitor_title">गतिविधि मॉनिटर</string>
+    <string name="tool_activity_monitor_badge">24 घंटे</string>
+    <string name="tool_wifi_security_title">वाई-फ़ाई सुरक्षा</string>
+    <string name="tool_wifi_security_badge">जाँचें</string>
+    <string name="tool_network_speed_title">नेटवर्क गति</string>
+    <string name="tool_network_speed_badge">टेस्ट</string>
+
+    <string name="cleanup_sheet_title">साफ़ करें</string>
+    <string name="cleanup_sheet_message">%1$s ट्रैश आइटम हटाएं और ऐप कैश साफ़ करें? इससे %2$s मुक्त होगा।</string>
+    <string name="cleanup_sheet_detail">क्या साफ़ होता है: आपकी लाइब्रेरी में ट्रैश की गई फ़ोटो और वीडियो, और इस ऐप का कैश। और कुछ नहीं छुआ जाता।</string>
+    <string name="cleanup_result_freed">मुक्त हुआ</string>
+
+    <string name="media_disclosure_title">मीडिया एक्सेस दें</string>
+    <string name="media_disclosure_body">बड़ी फ़ाइलें, डुप्लिकेट और समान फ़ोटो खोजने के लिए इस ऐप को आपकी फ़ोटो, वीडियो और ऑडियो तक पहुँच चाहिए। फ़ाइलें आपके डिवाइस पर ही विश्लेषित होती हैं और कभी अपलोड नहीं होतीं।</string>
+
+    <string name="large_files_title">बड़ी फ़ाइलें</string>
+    <string name="large_files_count_line">%1$d आइटम · %2$s</string>
+    <string name="large_files_empty_title">कोई बड़ी फ़ाइल नहीं</string>
+    <string name="large_files_empty_message">आपकी लाइब्रेरी साफ़-सुथरी है। समीक्षा के लिए कुछ बड़ा नहीं।</string>
+    <string name="large_files_selection_line">%1$d चयनित · %2$s</string>
+
+    <string name="duplicates_title">डुप्लिकेट</string>
+    <string name="duplicates_group_count_line">%1$d समूह · %2$s पुनः प्राप्त</string>
+    <string name="duplicates_empty_title">कोई डुप्लिकेट नहीं</string>
+    <string name="duplicates_empty_message">हर फ़ोटो, वीडियो और ऑडियो अद्वितीय है।</string>
+    <string name="duplicates_identical_items">%1$d समान आइटम</string>
+    <string name="duplicates_reclaimable_label">%1$s पुनः प्राप्त</string>
+    <string name="duplicates_keep_label">रखें</string>
+
+    <string name="similar_title">समान फ़ोटो</string>
+    <string name="similar_group_count_line">%1$d समूह · %2$s पुनः प्राप्त</string>
+    <string name="similar_empty_title">कोई समान फ़ोटो नहीं</string>
+    <string name="similar_empty_message">यहाँ कुछ भी लगभग डुप्लिकेट जैसा नहीं दिखता।</string>
+    <string name="similar_shot_count">%1$d समान शॉट</string>
+    <string name="similar_best_label">सर्वश्रेष्ठ</string>
+
+    <string name="screenshots_title">स्क्रीनशॉट</string>
+    <string name="screenshots_empty_title">कोई स्क्रीनशॉट नहीं</string>
+    <string name="screenshots_empty_message">इस डिवाइस पर अभी तक कुछ कैप्चर नहीं हुआ।</string>
+
+    <string name="photo_optimizer_title">फ़ोटो ऑप्टिमाइज़र</string>
+    <string name="photo_optimizer_count_line">%1$d फ़ोटो · %2$s</string>
+    <string name="photo_optimizer_optimizing">%2$d में से %1$d ऑप्टिमाइज़ हो रहा है</string>
+    <string name="photo_optimizer_saved_so_far">अब तक बचा: %1$s</string>
+    <string name="photo_optimizer_empty_title">ऑप्टिमाइज़ करने के लिए फ़ोटो नहीं</string>
+    <string name="photo_optimizer_empty_message">कंप्रेस करने लायक कुछ बड़ा नहीं।</string>
+    <string name="photo_optimizer_button_optimize">चयनित ऑप्टिमाइज़ करें</string>
+    <string name="photo_optimizer_button_optimizing">ऑप्टिमाइज़ हो रहा है…</string>
+    <string name="photo_optimizer_selected_line">%1$d चयनित</string>
+    <string name="photo_optimizer_summary">%1$d फ़ोटो ऑप्टिमाइज़ · %2$s बचा</string>
+
+    <string name="video_optimizer_title">वीडियो ऑप्टिमाइज़र</string>
+    <string name="video_optimizer_count_line">%1$d वीडियो · %2$s</string>
+    <string name="video_optimizer_optimizing">%2$d में से %1$d ऑप्टिमाइज़ हो रहा है</string>
+    <string name="video_optimizer_saved_so_far">अब तक बचा: %1$s</string>
+    <string name="video_optimizer_empty_title">ऑप्टिमाइज़ करने के लिए वीडियो नहीं</string>
+    <string name="video_optimizer_empty_message">कंप्रेस करने लायक कुछ बड़ा नहीं।</string>
+    <string name="video_optimizer_button_optimize">चयनित ऑप्टिमाइज़ करें</string>
+    <string name="video_optimizer_button_optimizing">ऑप्टिमाइज़ हो रहा है…</string>
+    <string name="video_optimizer_selected_line">%1$d चयनित</string>
+    <string name="video_optimizer_summary">%1$d वीडियो ऑप्टिमाइज़ · %2$s बचा</string>
+    <string name="video_preset_high">उच्च गुणवत्ता</string>
+    <string name="video_preset_balanced">संतुलित</string>
+    <string name="video_preset_small">छोटी फ़ाइल</string>
+
+    <string name="activity_monitor_title">गतिविधि मॉनिटर</string>
+    <string name="activity_monitor_no_access_title">उपयोग एक्सेस चाहिए</string>
+    <string name="activity_monitor_no_access_message">लॉन्च और फ़ोरग्राउंड समय देखने के लिए सिस्टम सेटिंग्स में उपयोग एक्सेस दें।</string>
+    <string name="activity_monitor_empty_title">कोई गतिविधि नहीं</string>
+    <string name="activity_monitor_empty_message">पिछले 24 घंटों में कुछ उपयोग नहीं हुआ।</string>
+    <string name="activity_monitor_launches">%1$d लॉन्च · %2$s</string>
+    <string name="activity_monitor_foreground">फ़ोरग्राउंड: %1$s</string>
+    <string name="activity_monitor_disclosure_title">उपयोग एक्सेस</string>
+    <string name="activity_monitor_disclosure_body">गतिविधि मॉनिटर को उपयोग एक्सेस चाहिए। ऐप पढ़ता है कि आपने कौन से ऐप कब और कितनी देर के लिए खोले, पिछले 24 घंटों में। यह डेटा आपके डिवाइस पर रहता है और अपलोड या साझा नहीं होता।</string>
+
+    <string name="wifi_security_title">वाई-फ़ाई सुरक्षा</string>
+    <string name="wifi_check_internet_title">इंटरनेट एक्सेस</string>
+    <string name="wifi_check_internet_connected">जुड़ा हुआ।</string>
+    <string name="wifi_check_internet_disconnected">कोई सक्रिय कनेक्शन नहीं।</string>
+    <string name="wifi_check_encryption_title">एन्क्रिप्शन और प्रमाणीकरण</string>
+    <string name="wifi_check_unavailable">इस डिवाइस पर उपलब्ध नहीं</string>
+    <string name="wifi_check_ssl_strip_title">SSL स्ट्रिप टेस्ट</string>
+    <string name="wifi_check_ssl_strip_detected">पता चला। इस नेटवर्क पर कोई डिवाइस HTTPS कनेक्शन को कमज़ोर कर रहा है।</string>
+    <string name="wifi_check_ssl_strip_safe">पता नहीं चला।</string>
+    <string name="wifi_check_ssl_split_title">SSL स्प्लिट टेस्ट</string>
+    <string name="wifi_check_ssl_split_detected">पता चला। आपका कनेक्शन एक इंटरसेप्टर से होकर जा रहा है।</string>
+    <string name="wifi_check_ssl_split_safe">पता नहीं चला।</string>
+    <string name="wifi_check_checked_at">जाँचा %1$s</string>
+    <string name="wifi_check_rerun">दोबारा जाँचें</string>
+    <string name="wifi_check_error">कनेक्शन की जाँच नहीं हो सकी।</string>
+    <string name="wifi_check_inspect_failed">इस कनेक्शन की जाँच नहीं हो सकी।</string>
+
+    <string name="network_speed_title">नेटवर्क गति</string>
+    <string name="network_speed_ready">अपनी डाउनलोड गति मापें।</string>
+    <string name="network_speed_preparing">तैयारी</string>
+    <string name="network_speed_testing">डाउनलोड गति की जाँच</string>
+    <string name="network_speed_transferred">%1$s स्थानांतरित</string>
+    <string name="network_speed_download_label">डाउनलोड गति</string>
+    <string name="network_speed_transferred_detail">%2$d सेकंड में %1$s स्थानांतरित</string>
+    <string name="network_speed_failed">टेस्ट विफल</string>
+    <string name="network_speed_button_start">टेस्ट शुरू करें</string>
+    <string name="network_speed_button_testing">जाँच हो रही है…</string>
+    <string name="network_speed_button_again">फिर से टेस्ट करें</string>
+    <string name="network_speed_button_retry">पुनः प्रयास</string>
+    <string name="network_speed_footnote">केवल डाउनलोड। अपलोड और पिंग नहीं मापे जाते।</string>
+
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="settings_theme">थीम</string>
+    <string name="settings_theme_light">हल्की</string>
+    <string name="settings_theme_dark">गहरी</string>
+    <string name="settings_theme_system">सिस्टम</string>
+    <string name="settings_language">भाषा</string>
+    <string name="settings_notifications">सूचनाएं</string>
+    <string name="settings_notifications_on">चालू</string>
+    <string name="settings_notifications_off">बंद</string>
+    <string name="settings_notifications_allow">सूचनाएं दें</string>
+    <string name="settings_notifications_weekly">साप्ताहिक सफ़ाई अनुस्मारक</string>
+    <string name="settings_notifications_storage">स्टोरेज अलर्ट</string>
+    <string name="settings_go_pro">प्रो लें</string>
+    <string name="settings_pro_active">प्रो · सक्रिय</string>
+    <string name="settings_pro_remove_ads">विज्ञापन हटाएं</string>
+    <string name="settings_restore_purchase">खरीद पुनः प्राप्त करें</string>
+    <string name="settings_share_app">ऐप साझा करें</string>
+    <string name="settings_rate_app">ऐप को रेट करें</string>
+    <string name="settings_privacy_policy">गोपनीयता नीति</string>
+    <string name="settings_terms">सेवा की शर्तें</string>
+    <string name="settings_support">सहायता</string>
+    <string name="settings_about">परिचय</string>
+    <string name="settings_about_version">संस्करण %1$s</string>
+
+    <string name="pro_title">प्रो</string>
+    <string name="pro_active_title">आप प्रो पर हैं</string>
+    <string name="pro_active_body">विज्ञापन हटा दिए गए हैं। CleanKoach का समर्थन करने के लिए धन्यवाद।</string>
+    <string name="pro_upsell_title">विज्ञापन हटाएं</string>
+    <string name="pro_upsell_body">प्रो बैनर विज्ञापन हटा देता है। सभी सुविधाएं मुफ़्त हैं।</string>
+    <string name="pro_button_upgrade">अपग्रेड करें</string>
+    <string name="pro_button_restore">खरीद पुनः प्राप्त करें</string>
+
+    <string name="about_title">परिचय</string>
+    <string name="about_body">मूल Android स्टोरेज सफ़ाई। सब कुछ डिवाइस पर चलता है। न मीडिया, न उपयोग डेटा, न स्कैन परिणाम कभी अपलोड होते हैं।</string>
+    <string name="about_built_with">Kotlin, Jetpack Compose और Material 3 से बनाया गया।</string>
+
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+    <string name="language_pt">Português</string>
+    <string name="language_fr">Français</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_it">Italiano</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_in">Bahasa Indonesia</string>
+    <string name="language_ja">日本語</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_ru">Русский</string>
+
+    <string name="channel_cleanup_name">सफ़ाई अनुस्मारक</string>
+    <string name="channel_cleanup_description">बड़ी फ़ाइलों और डुप्लिकेट की समीक्षा के लिए साप्ताहिक अनुस्मारक।</string>
+    <string name="channel_storage_name">स्टोरेज अलर्ट</string>
+    <string name="channel_storage_description">डिवाइस स्टोरेज कम होने पर अलर्ट।</string>
+    <string name="notification_cleanup_title">सफ़ाई का समय</string>
+    <string name="notification_cleanup_body">बड़ी फ़ाइलों, डुप्लिकेट और स्क्रीनशॉट की समीक्षा करें।</string>
+    <string name="notification_storage_title">स्टोरेज %1$d%% भरा</string>
+    <string name="notification_storage_body">जगह खाली करने के लिए बड़ी फ़ाइलें देखें।</string>
+
+    <string name="ad_placeholder_label">विज्ञापन</string>
+
+    <string name="share_text">डुप्लिकेट, समान फ़ोटो और बड़ी फ़ाइलें हटाकर फ़ोन स्टोरेज खाली करें: %1$s</string>
+
+</resources>

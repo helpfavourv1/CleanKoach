@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">戻る</string>
+    <string name="cd_settings">設定</string>
+    <string name="action_done">完了</string>
+    <string name="action_cancel">キャンセル</string>
+    <string name="action_delete">削除</string>
+    <string name="action_continue">続ける</string>
+    <string name="action_not_now">後で</string>
+    <string name="action_allow_access">アクセスを許可</string>
+    <string name="action_open_settings">設定を開く</string>
+    <string name="action_all">すべて</string>
+    <string name="action_clear">選択解除</string>
+
+    <string name="home_ring_caption">ゴミ箱</string>
+    <string name="home_ring_sublabel">ゴミ箱の写真と動画、アプリのキャッシュ</string>
+    <string name="home_storage_line">%2$s 中 %1$s 使用 · %3$d%%</string>
+    <string name="home_button_cleanup">クリーンアップ</string>
+    <string name="home_button_scanning">スキャン中…</string>
+    <string name="home_button_allow_access">アクセスを許可</string>
+    <string name="home_button_nothing_to_clean">クリーンアップ不要</string>
+
+    <string name="home_section_phone_tools">ツール</string>
+    <string name="home_section_photos_videos">写真と動画</string>
+
+    <string name="tool_large_files_title">大きいファイル</string>
+    <string name="tool_large_files_desc">最も大きい写真・動画・音声。</string>
+    <string name="tool_duplicates_title">重複</string>
+    <string name="tool_duplicates_desc">同一の写真・動画・音声。</string>
+    <string name="tool_similar_title">類似写真</string>
+    <string name="tool_similar_desc">ほぼ同じ写真、最良のものを残す。</string>
+    <string name="tool_screenshots_title">スクリーンショット</string>
+    <string name="tool_screenshots_desc">全スクリーンショットを一括で。</string>
+    <string name="tool_photo_optimizer_title">写真最適化</string>
+    <string name="tool_photo_optimizer_desc">写真を圧縮して容量を節約。</string>
+    <string name="tool_video_optimizer_title">動画最適化</string>
+    <string name="tool_video_optimizer_desc">動画を圧縮して容量を節約。</string>
+
+    <string name="tool_activity_monitor_title">使用状況</string>
+    <string name="tool_activity_monitor_badge">24 時間</string>
+    <string name="tool_wifi_security_title">Wi-Fi セキュリティ</string>
+    <string name="tool_wifi_security_badge">確認</string>
+    <string name="tool_network_speed_title">通信速度</string>
+    <string name="tool_network_speed_badge">テスト</string>
+
+    <string name="cleanup_sheet_title">クリーンアップ</string>
+    <string name="cleanup_sheet_message">ゴミ箱の %1$s 項目を削除し、アプリのキャッシュを消去しますか？%2$s が解放されます。</string>
+    <string name="cleanup_sheet_detail">クリーンアップ対象：ライブラリのゴミ箱にある写真と動画、そしてこのアプリ自身のキャッシュ。それ以外は触りません。</string>
+    <string name="cleanup_result_freed">解放</string>
+
+    <string name="media_disclosure_title">メディアへのアクセスを許可</string>
+    <string name="media_disclosure_body">大きいファイル、重複、類似写真を見つけるには、写真・動画・音声へのアクセスが必要です。ファイルは端末上で解析され、決してアップロードされません。</string>
+
+    <string name="large_files_title">大きいファイル</string>
+    <string name="large_files_count_line">%1$d 項目 · %2$s</string>
+    <string name="large_files_empty_title">大きいファイルなし</string>
+    <string name="large_files_empty_message">ライブラリは整っています。見直す大きいものはありません。</string>
+    <string name="large_files_selection_line">%1$d 選択 · %2$s</string>
+
+    <string name="duplicates_title">重複</string>
+    <string name="duplicates_group_count_line">%1$d グループ · %2$s 回収可能</string>
+    <string name="duplicates_empty_title">重複なし</string>
+    <string name="duplicates_empty_message">すべての写真・動画・音声が固有です。</string>
+    <string name="duplicates_identical_items">%1$d 個の同一項目</string>
+    <string name="duplicates_reclaimable_label">%1$s 回収可能</string>
+    <string name="duplicates_keep_label">残す</string>
+
+    <string name="similar_title">類似写真</string>
+    <string name="similar_group_count_line">%1$d グループ · %2$s 回収可能</string>
+    <string name="similar_empty_title">類似写真なし</string>
+    <string name="similar_empty_message">ほぼ重複に見えるものはありません。</string>
+    <string name="similar_shot_count">%1$d 枚の類似ショット</string>
+    <string name="similar_best_label">最良</string>
+
+    <string name="screenshots_title">スクリーンショット</string>
+    <string name="screenshots_empty_title">スクリーンショットなし</string>
+    <string name="screenshots_empty_message">この端末にはまだ何も保存されていません。</string>
+
+    <string name="photo_optimizer_title">写真最適化</string>
+    <string name="photo_optimizer_count_line">%1$d 枚 · %2$s</string>
+    <string name="photo_optimizer_optimizing">%2$d 中 %1$d を最適化中</string>
+    <string name="photo_optimizer_saved_so_far">これまでの節約：%1$s</string>
+    <string name="photo_optimizer_empty_title">最適化する写真なし</string>
+    <string name="photo_optimizer_empty_message">圧縮するほど大きいものはありません。</string>
+    <string name="photo_optimizer_button_optimize">選択を最適化</string>
+    <string name="photo_optimizer_button_optimizing">最適化中…</string>
+    <string name="photo_optimizer_selected_line">%1$d 選択</string>
+    <string name="photo_optimizer_summary">%1$d 枚を最適化 · %2$s 節約</string>
+
+    <string name="video_optimizer_title">動画最適化</string>
+    <string name="video_optimizer_count_line">%1$d 本 · %2$s</string>
+    <string name="video_optimizer_optimizing">%2$d 中 %1$d を最適化中</string>
+    <string name="video_optimizer_saved_so_far">これまでの節約：%1$s</string>
+    <string name="video_optimizer_empty_title">最適化する動画なし</string>
+    <string name="video_optimizer_empty_message">圧縮するほど大きいものはありません。</string>
+    <string name="video_optimizer_button_optimize">選択を最適化</string>
+    <string name="video_optimizer_button_optimizing">最適化中…</string>
+    <string name="video_optimizer_selected_line">%1$d 選択</string>
+    <string name="video_optimizer_summary">%1$d 本を最適化 · %2$s 節約</string>
+    <string name="video_preset_high">高画質</string>
+    <string name="video_preset_balanced">バランス</string>
+    <string name="video_preset_small">小さいファイル</string>
+
+    <string name="activity_monitor_title">使用状況</string>
+    <string name="activity_monitor_no_access_title">使用状況へのアクセスが必要</string>
+    <string name="activity_monitor_no_access_message">起動回数と前面時間を見るには、システム設定で使用状況へのアクセスを許可してください。</string>
+    <string name="activity_monitor_empty_title">アクティビティなし</string>
+    <string name="activity_monitor_empty_message">過去 24 時間で使用されたものはありません。</string>
+    <string name="activity_monitor_launches">%1$d 回起動 · %2$s</string>
+    <string name="activity_monitor_foreground">前面：%1$s</string>
+    <string name="activity_monitor_disclosure_title">使用状況へのアクセス</string>
+    <string name="activity_monitor_disclosure_body">使用状況には使用状況へのアクセスが必要です。アプリは過去 24 時間に開いたアプリ、時刻、時間を読み取ります。このデータは端末上に残り、アップロードや共有はされません。</string>
+
+    <string name="wifi_security_title">Wi-Fi セキュリティ</string>
+    <string name="wifi_check_internet_title">インターネット接続</string>
+    <string name="wifi_check_internet_connected">接続済み。</string>
+    <string name="wifi_check_internet_disconnected">有効な接続なし。</string>
+    <string name="wifi_check_encryption_title">暗号化と認証</string>
+    <string name="wifi_check_unavailable">この端末では利用不可</string>
+    <string name="wifi_check_ssl_strip_title">SSL ストリップ検査</string>
+    <string name="wifi_check_ssl_strip_detected">検出。このネットワーク上のデバイスが HTTPS 接続をダウングレードしています。</string>
+    <string name="wifi_check_ssl_strip_safe">未検出。</string>
+    <string name="wifi_check_ssl_split_title">SSL スプリット検査</string>
+    <string name="wifi_check_ssl_split_detected">検出。接続が傍受者を経由しています。</string>
+    <string name="wifi_check_ssl_split_safe">未検出。</string>
+    <string name="wifi_check_checked_at">%1$s に確認</string>
+    <string name="wifi_check_rerun">再検査</string>
+    <string name="wifi_check_error">接続を検査できませんでした。</string>
+    <string name="wifi_check_inspect_failed">この接続を検査できませんでした。</string>
+
+    <string name="network_speed_title">通信速度</string>
+    <string name="network_speed_ready">ダウンロード速度を測定します。</string>
+    <string name="network_speed_preparing">準備中</string>
+    <string name="network_speed_testing">ダウンロード速度を測定中</string>
+    <string name="network_speed_transferred">%1$s 転送</string>
+    <string name="network_speed_download_label">ダウンロード速度</string>
+    <string name="network_speed_transferred_detail">%2$d 秒で %1$s 転送</string>
+    <string name="network_speed_failed">テスト失敗</string>
+    <string name="network_speed_button_start">テスト開始</string>
+    <string name="network_speed_button_testing">測定中…</string>
+    <string name="network_speed_button_again">もう一度テスト</string>
+    <string name="network_speed_button_retry">再試行</string>
+    <string name="network_speed_footnote">ダウンロードのみ。アップロードと ping は測定しません。</string>
+
+    <string name="settings_title">設定</string>
+    <string name="settings_theme">テーマ</string>
+    <string name="settings_theme_light">ライト</string>
+    <string name="settings_theme_dark">ダーク</string>
+    <string name="settings_theme_system">システム</string>
+    <string name="settings_language">言語</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_notifications_on">オン</string>
+    <string name="settings_notifications_off">オフ</string>
+    <string name="settings_notifications_allow">通知を許可</string>
+    <string name="settings_notifications_weekly">毎週のクリーンアップ通知</string>
+    <string name="settings_notifications_storage">ストレージ警告</string>
+    <string name="settings_go_pro">Pro にする</string>
+    <string name="settings_pro_active">Pro · 有効</string>
+    <string name="settings_pro_remove_ads">広告を削除</string>
+    <string name="settings_restore_purchase">購入を復元</string>
+    <string name="settings_share_app">アプリを共有</string>
+    <string name="settings_rate_app">アプリを評価</string>
+    <string name="settings_privacy_policy">プライバシーポリシー</string>
+    <string name="settings_terms">利用規約</string>
+    <string name="settings_support">サポート</string>
+    <string name="settings_about">アプリ情報</string>
+    <string name="settings_about_version">バージョン %1$s</string>
+
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Pro をご利用中</string>
+    <string name="pro_active_body">広告は削除されました。CleanKoach を応援いただきありがとうございます。</string>
+    <string name="pro_upsell_title">広告を削除</string>
+    <string name="pro_upsell_body">Pro はバナー広告を削除します。すべての機能は無料です。</string>
+    <string name="pro_button_upgrade">アップグレード</string>
+    <string name="pro_button_restore">購入を復元</string>
+
+    <string name="about_title">アプリ情報</string>
+    <string name="about_body">Android ネイティブのストレージクリーナー。すべて端末上で実行されます。メディア、使用状況データ、スキャン結果はアップロードされません。</string>
+    <string name="about_built_with">Kotlin、Jetpack Compose、Material 3 で構築。</string>
+
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+    <string name="language_pt">Português</string>
+    <string name="language_fr">Français</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_it">Italiano</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_in">Bahasa Indonesia</string>
+    <string name="language_ja">日本語</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_ru">Русский</string>
+
+    <string name="channel_cleanup_name">クリーンアップ通知</string>
+    <string name="channel_cleanup_description">大きいファイルと重複を見直す毎週の通知。</string>
+    <string name="channel_storage_name">ストレージ警告</string>
+    <string name="channel_storage_description">端末のストレージが少ないときの警告。</string>
+    <string name="notification_cleanup_title">クリーンアップの時間です</string>
+    <string name="notification_cleanup_body">大きいファイル、重複、スクリーンショットを見直しましょう。</string>
+    <string name="notification_storage_title">ストレージが %1$d%% です</string>
+    <string name="notification_storage_body">大きいファイルを見直して空きを作りましょう。</string>
+
+    <string name="ad_placeholder_label">広告</string>
+
+    <string name="share_text">重複、類似写真、大きいファイルを削除してスマホの容量を空けましょう：%1$s</string>
+
+</resources>
