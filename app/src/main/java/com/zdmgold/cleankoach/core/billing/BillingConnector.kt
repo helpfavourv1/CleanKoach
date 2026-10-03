@@ -124,9 +124,9 @@ class BillingConnector @Inject constructor(
             .setProductList(listOf(product))
             .build()
 
-        billing.queryProductDetailsAsync(params) { result, detailsResult ->
+        billing.queryProductDetailsAsync(params) { result, productDetailsList ->
             if (result.responseCode == BillingClient.BillingResponseCode.OK) {
-                proDetails = detailsResult.getProductDetailsList().firstOrNull()
+                proDetails = productDetailsList?.firstOrNull()
             }
         }
     }
