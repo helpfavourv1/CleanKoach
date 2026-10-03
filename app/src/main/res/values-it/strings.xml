@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Indietro</string>
+    <string name="cd_settings">Impostazioni</string>
+    <string name="action_done">Fatto</string>
+    <string name="action_cancel">Annulla</string>
+    <string name="action_delete">Elimina</string>
+    <string name="action_continue">Continua</string>
+    <string name="action_not_now">Non ora</string>
+    <string name="action_allow_access">Consenti accesso</string>
+    <string name="action_open_settings">Apri impostazioni</string>
+    <string name="action_all">Tutti</string>
+    <string name="action_clear">Deseleziona</string>
+
+    <string name="home_ring_caption">Cestino</string>
+    <string name="home_ring_sublabel">Foto e video nel cestino più la cache dell\'app</string>
+    <string name="home_storage_line">%1$s di %2$s usati · %3$d%%</string>
+    <string name="home_button_cleanup">PULISCI</string>
+    <string name="home_button_scanning">Analisi…</string>
+    <string name="home_button_allow_access">Consenti accesso</string>
+    <string name="home_button_nothing_to_clean">Niente da pulire</string>
+
+    <string name="home_section_phone_tools">Strumenti</string>
+    <string name="home_section_photos_videos">Foto e video</string>
+
+    <string name="tool_large_files_title">File grandi</string>
+    <string name="tool_large_files_desc">Le tue foto, video e audio più pesanti.</string>
+    <string name="tool_duplicates_title">Duplicati</string>
+    <string name="tool_duplicates_desc">Foto, video e audio identici.</string>
+    <string name="tool_similar_title">Foto simili</string>
+    <string name="tool_similar_desc">Scatti quasi identici, tieni il migliore.</string>
+    <string name="tool_screenshots_title">Screenshot</string>
+    <string name="tool_screenshots_desc">Tutti gli screenshot in un colpo.</string>
+    <string name="tool_photo_optimizer_title">Ottimizzatore foto</string>
+    <string name="tool_photo_optimizer_desc">Comprimi foto, risparmia spazio.</string>
+    <string name="tool_video_optimizer_title">Ottimizzatore video</string>
+    <string name="tool_video_optimizer_desc">Comprimi video, risparmia spazio.</string>
+
+    <string name="tool_activity_monitor_title">Monitor attività</string>
+    <string name="tool_activity_monitor_badge">24 h</string>
+    <string name="tool_wifi_security_title">Sicurezza Wi-Fi</string>
+    <string name="tool_wifi_security_badge">Verifica</string>
+    <string name="tool_network_speed_title">Velocità rete</string>
+    <string name="tool_network_speed_badge">Test</string>
+
+    <string name="cleanup_sheet_title">Pulisci</string>
+    <string name="cleanup_sheet_message">Eliminare %1$s elementi dal cestino e svuotare la cache dell\'app? Si liberano %2$s.</string>
+    <string name="cleanup_sheet_detail">Cosa viene pulito: foto e video nel cestino della tua libreria, più la cache di questa app. Nient\'altro viene toccato.</string>
+    <string name="cleanup_result_freed">Liberati</string>
+
+    <string name="media_disclosure_title">Consenti accesso ai media</string>
+    <string name="media_disclosure_body">Per trovare file grandi, duplicati e foto simili, questa app ha bisogno di accedere a foto, video e audio. I file vengono analizzati sul dispositivo e non vengono mai caricati.</string>
+
+    <string name="large_files_title">File grandi</string>
+    <string name="large_files_count_line">%1$d elementi · %2$s</string>
+    <string name="large_files_empty_title">Nessun file grande</string>
+    <string name="large_files_empty_message">La tua libreria è ordinata. Niente di grande da rivedere.</string>
+    <string name="large_files_selection_line">%1$d selezionati · %2$s</string>
+
+    <string name="duplicates_title">Duplicati</string>
+    <string name="duplicates_group_count_line">%1$d gruppi · %2$s recuperabili</string>
+    <string name="duplicates_empty_title">Nessun duplicato</string>
+    <string name="duplicates_empty_message">Ogni foto, video e audio è unico.</string>
+    <string name="duplicates_identical_items">%1$d elementi identici</string>
+    <string name="duplicates_reclaimable_label">%1$s recuperabili</string>
+    <string name="duplicates_keep_label">Mantieni</string>
+
+    <string name="similar_title">Foto simili</string>
+    <string name="similar_group_count_line">%1$d gruppi · %2$s recuperabili</string>
+    <string name="similar_empty_title">Nessuna foto simile</string>
+    <string name="similar_empty_message">Qui nulla sembra quasi duplicato.</string>
+    <string name="similar_shot_count">%1$d scatti simili</string>
+    <string name="similar_best_label">Migliore</string>
+
+    <string name="screenshots_title">Screenshot</string>
+    <string name="screenshots_empty_title">Nessuno screenshot</string>
+    <string name="screenshots_empty_message">Ancora nulla catturato su questo dispositivo.</string>
+
+    <string name="photo_optimizer_title">Ottimizzatore foto</string>
+    <string name="photo_optimizer_count_line">%1$d foto · %2$s</string>
+    <string name="photo_optimizer_optimizing">Ottimizzazione %1$d di %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Risparmiato finora: %1$s</string>
+    <string name="photo_optimizer_empty_title">Nessuna foto da ottimizzare</string>
+    <string name="photo_optimizer_empty_message">Niente di abbastanza grande da comprimere.</string>
+    <string name="photo_optimizer_button_optimize">Ottimizza selezionate</string>
+    <string name="photo_optimizer_button_optimizing">Ottimizzazione…</string>
+    <string name="photo_optimizer_selected_line">%1$d selezionate</string>
+    <string name="photo_optimizer_summary">%1$d foto ottimizzate · %2$s risparmiati</string>
+
+    <string name="video_optimizer_title">Ottimizzatore video</string>
+    <string name="video_optimizer_count_line">%1$d video · %2$s</string>
+    <string name="video_optimizer_optimizing">Ottimizzazione %1$d di %2$d</string>
+    <string name="video_optimizer_saved_so_far">Risparmiato finora: %1$s</string>
+    <string name="video_optimizer_empty_title">Nessun video da ottimizzare</string>
+    <string name="video_optimizer_empty_message">Niente di abbastanza grande da comprimere.</string>
+    <string name="video_optimizer_button_optimize">Ottimizza selezionati</string>
+    <string name="video_optimizer_button_optimizing">Ottimizzazione…</string>
+    <string name="video_optimizer_selected_line">%1$d selezionati</string>
+    <string name="video_optimizer_summary">%1$d video ottimizzati · %2$s risparmiati</string>
+    <string name="video_preset_high">Alta qualità</string>
+    <string name="video_preset_balanced">Bilanciato</string>
+    <string name="video_preset_small">File piccolo</string>
+
+    <string name="activity_monitor_title">Monitor attività</string>
+    <string name="activity_monitor_no_access_title">Serve accesso all\'utilizzo</string>
+    <string name="activity_monitor_no_access_message">Consenti l\'accesso all\'utilizzo nelle impostazioni di sistema per vedere avvii e tempo in primo piano.</string>
+    <string name="activity_monitor_empty_title">Nessuna attività</string>
+    <string name="activity_monitor_empty_message">Niente usato nelle ultime 24 ore.</string>
+    <string name="activity_monitor_launches">%1$d avvii · %2$s</string>
+    <string name="activity_monitor_foreground">Primo piano: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Accesso all\'utilizzo</string>
+    <string name="activity_monitor_disclosure_body">Il Monitor attività richiede l\'accesso all\'utilizzo. L\'app legge quali app hai aperto, quando, e per quanto tempo nelle ultime 24 ore. Questi dati restano sul dispositivo e non vengono caricati né condivisi.</string>
+
+    <string name="wifi_security_title">Sicurezza Wi-Fi</string>
+    <string name="wifi_check_internet_title">Accesso a Internet</string>
+    <string name="wifi_check_internet_connected">Connesso.</string>
+    <string name="wifi_check_internet_disconnected">Nessuna connessione attiva.</string>
+    <string name="wifi_check_encryption_title">Cifratura e autenticazione</string>
+    <string name="wifi_check_unavailable">non disponibile su questo dispositivo</string>
+    <string name="wifi_check_ssl_strip_title">Test SSL strip</string>
+    <string name="wifi_check_ssl_strip_detected">Rilevato. Un dispositivo su questa rete sta declassando le connessioni HTTPS.</string>
+    <string name="wifi_check_ssl_strip_safe">Non rilevato.</string>
+    <string name="wifi_check_ssl_split_title">Test SSL split</string>
+    <string name="wifi_check_ssl_split_detected">Rilevato. La tua connessione passa attraverso un intercettore.</string>
+    <string name="wifi_check_ssl_split_safe">Non rilevato.</string>
+    <string name="wifi_check_checked_at">Verificato %1$s</string>
+    <string name="wifi_check_rerun">Ripeti verifiche</string>
+    <string name="wifi_check_error">Impossibile ispezionare la connessione.</string>
+    <string name="wifi_check_inspect_failed">Impossibile ispezionare questa connessione.</string>
+
+    <string name="network_speed_title">Velocità rete</string>
+    <string name="network_speed_ready">Misura la tua velocità di download.</string>
+    <string name="network_speed_preparing">Preparazione</string>
+    <string name="network_speed_testing">Test velocità di download</string>
+    <string name="network_speed_transferred">%1$s trasferiti</string>
+    <string name="network_speed_download_label">Velocità di download</string>
+    <string name="network_speed_transferred_detail">%1$s trasferiti in %2$ds</string>
+    <string name="network_speed_failed">Test fallito</string>
+    <string name="network_speed_button_start">Avvia test</string>
+    <string name="network_speed_button_testing">Test…</string>
+    <string name="network_speed_button_again">Testa di nuovo</string>
+    <string name="network_speed_button_retry">Riprova</string>
+    <string name="network_speed_footnote">Solo download. Upload e ping non vengono misurati.</string>
+
+    <string name="settings_title">Impostazioni</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_light">Chiaro</string>
+    <string name="settings_theme_dark">Scuro</string>
+    <string name="settings_theme_system">Sistema</string>
+    <string name="settings_language">Lingua</string>
+    <string name="settings_notifications">Notifiche</string>
+    <string name="settings_notifications_on">Attive</string>
+    <string name="settings_notifications_off">Disattive</string>
+    <string name="settings_notifications_allow">Consenti notifiche</string>
+    <string name="settings_notifications_weekly">Promemoria settimanale di pulizia</string>
+    <string name="settings_notifications_storage">Avvisi di archiviazione</string>
+    <string name="settings_go_pro">Passa a Pro</string>
+    <string name="settings_pro_active">Pro · attivo</string>
+    <string name="settings_pro_remove_ads">Rimuovi pubblicità</string>
+    <string name="settings_restore_purchase">Ripristina acquisto</string>
+    <string name="settings_share_app">Condividi questa app</string>
+    <string name="settings_rate_app">Valuta questa app</string>
+    <string name="settings_privacy_policy">Informativa sulla privacy</string>
+    <string name="settings_terms">Termini di servizio</string>
+    <string name="settings_support">Assistenza</string>
+    <string name="settings_about">Informazioni</string>
+    <string name="settings_about_version">Versione %1$s</string>
+
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Sei su Pro</string>
+    <string name="pro_active_body">La pubblicità è rimossa. Grazie per supportare CleanKoach.</string>
+    <string name="pro_upsell_title">Rimuovi pubblicità</string>
+    <string name="pro_upsell_body">Pro rimuove il banner pubblicitario. Tutte le funzioni sono gratuite.</string>
+    <string name="pro_button_upgrade">Aggiorna</string>
+    <string name="pro_button_restore">Ripristina acquisto</string>
+
+    <string name="about_title">Informazioni</string>
+    <string name="about_body">Pulizia archiviazione nativa per Android. Tutto gira sul dispositivo. Né i media, né i dati di utilizzo, né i risultati delle analisi vengono caricati.</string>
+    <string name="about_built_with">Costruita con Kotlin, Jetpack Compose e Material 3.</string>
+
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+    <string name="language_pt">Português</string>
+    <string name="language_fr">Français</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_it">Italiano</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_in">Bahasa Indonesia</string>
+    <string name="language_ja">日本語</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_ru">Русский</string>
+
+    <string name="channel_cleanup_name">Promemoria di pulizia</string>
+    <string name="channel_cleanup_description">Promemoria settimanali per rivedere file grandi e duplicati.</string>
+    <string name="channel_storage_name">Avvisi di archiviazione</string>
+    <string name="channel_storage_description">Avvisi quando l\'archiviazione del dispositivo è in esaurimento.</string>
+    <string name="notification_cleanup_title">È ora di pulire</string>
+    <string name="notification_cleanup_body">Rivedi file grandi, duplicati e screenshot.</string>
+    <string name="notification_storage_title">Archiviazione al %1$d%%</string>
+    <string name="notification_storage_body">Rivedi file grandi per liberare spazio.</string>
+
+    <string name="ad_placeholder_label">Pubblicità</string>
+
+    <string name="share_text">Libera spazio sul telefono eliminando duplicati, foto simili e file grandi: %1$s</string>
+
+</resources>
