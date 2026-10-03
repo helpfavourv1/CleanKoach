@@ -18,8 +18,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.zdmgold.cleankoach.R
 
 @Composable
 fun AboutScreen(
@@ -42,10 +44,13 @@ fun AboutScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 IconButton(onClick = onBack) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                    Icon(
+                        Icons.AutoMirrored.Filled.ArrowBack,
+                        contentDescription = stringResource(R.string.cd_back)
+                    )
                 }
                 Text(
-                    text = "About",
+                    text = stringResource(R.string.about_title),
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.W600,
                     color = MaterialTheme.colorScheme.onBackground
@@ -55,26 +60,26 @@ fun AboutScreen(
             Column(modifier = Modifier.padding(horizontal = 20.dp)) {
                 Spacer(Modifier.height(16.dp))
                 Text(
-                    text = "CleanKoach",
+                    text = stringResource(R.string.app_name),
                     style = MaterialTheme.typography.headlineSmall,
                     fontWeight = FontWeight.W600,
                     color = MaterialTheme.colorScheme.onBackground
                 )
                 Spacer(Modifier.height(6.dp))
                 Text(
-                    text = "Version 0.1.0",
+                    text = stringResource(R.string.settings_about_version, "0.1.0"),
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
                 Spacer(Modifier.height(20.dp))
                 Text(
-                    text = "Native Android storage cleanup. Everything runs on-device. No media, no usage data, and no scan results are ever uploaded.",
+                    text = stringResource(R.string.about_body),
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
                 Spacer(Modifier.height(20.dp))
                 Text(
-                    text = "Built with Kotlin, Jetpack Compose, and Material 3.",
+                    text = stringResource(R.string.about_built_with),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )

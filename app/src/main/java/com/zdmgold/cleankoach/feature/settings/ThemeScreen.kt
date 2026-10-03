@@ -17,10 +17,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zdmgold.cleankoach.R
 
 @Composable
 fun ThemeScreen(
@@ -46,10 +48,13 @@ fun ThemeScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 IconButton(onClick = onBack) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                    Icon(
+                        Icons.AutoMirrored.Filled.ArrowBack,
+                        contentDescription = stringResource(R.string.cd_back)
+                    )
                 }
                 Text(
-                    text = "Theme",
+                    text = stringResource(R.string.settings_theme),
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.W600,
                     color = MaterialTheme.colorScheme.onBackground
@@ -57,17 +62,17 @@ fun ThemeScreen(
             }
 
             SettingsRow(
-                label = "Light",
+                label = stringResource(R.string.settings_theme_light),
                 value = if (state.theme == "light") "✓" else null,
                 onClick = { viewModel.setTheme("light") }
             )
             SettingsRow(
-                label = "Dark",
+                label = stringResource(R.string.settings_theme_dark),
                 value = if (state.theme == "dark") "✓" else null,
                 onClick = { viewModel.setTheme("dark") }
             )
             SettingsRow(
-                label = "System",
+                label = stringResource(R.string.settings_theme_system),
                 value = if (state.theme == "system") "✓" else null,
                 onClick = { viewModel.setTheme("system") }
             )

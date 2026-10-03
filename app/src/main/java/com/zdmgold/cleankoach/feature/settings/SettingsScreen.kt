@@ -22,10 +22,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zdmgold.cleankoach.R
 
 @Composable
 fun SettingsScreen(
@@ -56,10 +58,13 @@ fun SettingsScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 IconButton(onClick = onBack) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                    Icon(
+                        Icons.AutoMirrored.Filled.ArrowBack,
+                        contentDescription = stringResource(R.string.cd_back)
+                    )
                 }
                 Text(
-                    text = "Settings",
+                    text = stringResource(R.string.settings_title),
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.W600,
                     color = MaterialTheme.colorScheme.onBackground,
@@ -76,64 +81,71 @@ fun SettingsScreen(
                 Spacer(Modifier.height(4.dp))
 
                 SettingsRow(
-                    label = "Theme",
-                    value = state.theme.replaceFirstChar { it.uppercase() },
+                    label = stringResource(R.string.settings_theme),
+                    value = themeLabel(state.theme),
                     onClick = onOpenTheme
                 )
                 SettingsRow(
-                    label = "Language",
+                    label = stringResource(R.string.settings_language),
                     value = languageLabel(state.language),
                     onClick = onOpenLanguage
                 )
                 SettingsRow(
-                    label = "Notifications",
-                    value = if (state.notificationsEnabled) "On" else "Off",
+                    label = stringResource(R.string.settings_notifications),
+                    value = stringResource(
+                        if (state.notificationsEnabled) R.string.settings_notifications_on
+                        else R.string.settings_notifications_off
+                    ),
                     onClick = onOpenNotifications
                 )
 
                 HorizontalDivider(modifier = Modifier.padding(horizontal = 20.dp, vertical = 4.dp))
 
                 SettingsRow(
-                    label = if (state.proEntitled) "Pro · active" else "Go Pro",
-                    value = if (state.proEntitled) null else "Remove ads",
+                    label = stringResource(
+                        if (state.proEntitled) R.string.settings_pro_active
+                        else R.string.settings_go_pro
+                    ),
+                    value = if (state.proEntitled) null
+                    else stringResource(R.string.settings_pro_remove_ads),
                     onClick = onOpenPro
                 )
                 SettingsRow(
-                    label = "Restore purchase",
+                    label = stringResource(R.string.settings_restore_purchase),
                     onClick = viewModel::restorePurchase
                 )
 
                 HorizontalDivider(modifier = Modifier.padding(horizontal = 20.dp, vertical = 4.dp))
 
                 SettingsRow(
-                    label = "Share this app",
+                    label = stringResource(R.string.settings_share_app),
                     onClick = { }
                 )
                 SettingsRow(
-                    label = "Rate this app",
-                    onClick = { }
-                )
-
-                HorizontalDivider(modifier = Modifier.padding(horizontal = 20.dp, vertical = 4.dp))
-
-                SettingsRow(
-                    label = "Privacy policy",
-                    onClick = { }
-                )
-                SettingsRow(
-                    label = "Terms of service",
-                    onClick = { }
-                )
-                SettingsRow(
-                    label = "Support",
+                    label = stringResource(R.string.settings_rate_app),
                     onClick = { }
                 )
 
                 HorizontalDivider(modifier = Modifier.padding(horizontal = 20.dp, vertical = 4.dp))
 
                 SettingsRow(
-                    label = "About",
-                    value = "v${state.appVersion.ifBlank { "0.1.0" }}",
+                    label = stringResource(R.string.settings_privacy_policy),
+                    onClick = { }
+                )
+                SettingsRow(
+                    label = stringResource(R.string.settings_terms),
+                    onClick = { }
+                )
+                SettingsRow(
+                    label = stringResource(R.string.settings_support),
+                    onClick = { }
+                )
+
+                HorizontalDivider(modifier = Modifier.padding(horizontal = 20.dp, vertical = 4.dp))
+
+                SettingsRow(
+                    label = stringResource(R.string.settings_about),
+                    value = stringResource(R.string.settings_about_version, "0.1.0"),
                     onClick = onOpenAbout
                 )
 
@@ -143,17 +155,29 @@ fun SettingsScreen(
     }
 }
 
-private fun languageLabel(code: String): String = when (code) {
-    "en" -> "English"
-    "es" -> "Español"
-    "pt" -> "Português"
-    "fr" -> "Français"
-    "de" -> "Deutsch"
-    "it" -> "Italiano"
-    "hi" -> "हिन्दी"
-    "in" -> "Bahasa Indonesia"
-    "ja" -> "日本語"
-    "ko" -> "한국어"
-    "ru" -> "Русский"
-    else -> "English"
-}
+@Composable
+private fun themeLabel(theme: String): String = stringResource(
+    when (theme) {
+        "light" -> R.string.settings_theme_light
+        "dark" -> R.string.settings_theme_dark
+        else -> R.string.settings_theme_system
+    }
+)
+
+@Composable
+private fun languageLabel(code: String): String = stringResource(
+    when (code) {
+        "en" -> R.string.language_en
+        "es" -> R.string.language_es
+        "pt" -> R.string.language_pt
+        "fr" -> R.string.language_fr
+        "de" -> R.string.language_de
+        "it" -> R.string.language_it
+        "hi" -> R.string.language_hi
+        "in" -> R.string.language_in
+        "ja" -> R.string.language_ja
+        "ko" -> R.string.language_ko
+        "ru" -> R.string.language_ru
+        else -> R.string.language_en
+    }
+)

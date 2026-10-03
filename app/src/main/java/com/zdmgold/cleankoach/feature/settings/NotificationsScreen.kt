@@ -17,10 +17,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zdmgold.cleankoach.R
 
 @Composable
 fun NotificationsScreen(
@@ -46,10 +48,13 @@ fun NotificationsScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 IconButton(onClick = onBack) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                    Icon(
+                        Icons.AutoMirrored.Filled.ArrowBack,
+                        contentDescription = stringResource(R.string.cd_back)
+                    )
                 }
                 Text(
-                    text = "Notifications",
+                    text = stringResource(R.string.settings_notifications),
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.W600,
                     color = MaterialTheme.colorScheme.onBackground
@@ -57,17 +62,17 @@ fun NotificationsScreen(
             }
 
             SettingsRow(
-                label = "Allow notifications",
+                label = stringResource(R.string.settings_notifications_allow),
                 switch = state.notificationsEnabled,
                 onSwitchChange = viewModel::setNotifications
             )
             SettingsRow(
-                label = "Weekly cleanup reminder",
+                label = stringResource(R.string.settings_notifications_weekly),
                 switch = state.notificationsEnabled,
                 onSwitchChange = { viewModel.setWeeklyReminder(it) }
             )
             SettingsRow(
-                label = "Storage alerts",
+                label = stringResource(R.string.settings_notifications_storage),
                 switch = state.notificationsEnabled,
                 onSwitchChange = { viewModel.setStorageAlerts(it) }
             )

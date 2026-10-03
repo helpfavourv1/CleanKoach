@@ -1,5 +1,6 @@
 package com.zdmgold.cleankoach.feature.settings
 
+import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -19,25 +20,27 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zdmgold.cleankoach.R
 
-private data class Language(val code: String, val label: String)
+private data class Language(@StringRes val labelRes: Int, val code: String)
 
 private val languages = listOf(
-    Language("en", "English"),
-    Language("es", "Español"),
-    Language("pt", "Português"),
-    Language("fr", "Français"),
-    Language("de", "Deutsch"),
-    Language("it", "Italiano"),
-    Language("hi", "हिन्दी"),
-    Language("in", "Bahasa Indonesia"),
-    Language("ja", "日本語"),
-    Language("ko", "한국어"),
-    Language("ru", "Русский")
+    Language(R.string.language_en, "en"),
+    Language(R.string.language_es, "es"),
+    Language(R.string.language_pt, "pt"),
+    Language(R.string.language_fr, "fr"),
+    Language(R.string.language_de, "de"),
+    Language(R.string.language_it, "it"),
+    Language(R.string.language_hi, "hi"),
+    Language(R.string.language_in, "in"),
+    Language(R.string.language_ja, "ja"),
+    Language(R.string.language_ko, "ko"),
+    Language(R.string.language_ru, "ru")
 )
 
 @Composable
@@ -64,10 +67,13 @@ fun LanguageScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 IconButton(onClick = onBack) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                    Icon(
+                        Icons.AutoMirrored.Filled.ArrowBack,
+                        contentDescription = stringResource(R.string.cd_back)
+                    )
                 }
                 Text(
-                    text = "Language",
+                    text = stringResource(R.string.settings_language),
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.W600,
                     color = MaterialTheme.colorScheme.onBackground
@@ -82,7 +88,7 @@ fun LanguageScreen(
             ) {
                 languages.forEach { lang ->
                     SettingsRow(
-                        label = lang.label,
+                        label = stringResource(lang.labelRes),
                         value = if (state.language == lang.code) "✓" else null,
                         onClick = { viewModel.setLanguage(lang.code) }
                     )
