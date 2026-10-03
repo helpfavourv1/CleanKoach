@@ -1,17 +1,14 @@
 package com.zdmgold.cleankoach.feature.photooptimizer
 
 import android.content.Context
-import android.content.Context
 import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.zdmgold.cleankoach.core.data.repository.MediaRepository
 import com.zdmgold.cleankoach.core.media.PhotoCompressor
 import com.zdmgold.cleankoach.R
-import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.util.FormatUtils
 import dagger.hilt.android.lifecycle.HiltViewModel
-import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
