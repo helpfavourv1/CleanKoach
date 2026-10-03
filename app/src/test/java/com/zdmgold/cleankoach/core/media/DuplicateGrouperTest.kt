@@ -102,6 +102,6 @@ class DuplicateGrouperTest {
         )
         val groups = grouper.group(input)
         val dates = groups[0].items.map { it.dateAdded }
-        assertThat(dates).isInOrder(Ordering.natural().reversed())
+        assertThat(dates).isEqualTo(listOf(300L, 200L, 100L))
     }
 }

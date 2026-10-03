@@ -63,7 +63,7 @@ class SimilarityGrouperTest {
         // Two hashes differing in more than 10 bits
         val entries = listOf(
             SimilarityEntry(item(1), dhash = 0x0000000000000000L),
-            SimilarityEntry(item(2), dhash = 0xFFFFFFFFFFFFFFFFL)
+            SimilarityEntry(item(2), dhash = -1L)
         )
         val groups = grouper.group(entries, threshold = 10)
         assertThat(groups).isEmpty()
@@ -101,8 +101,8 @@ class SimilarityGrouperTest {
             SimilarityEntry(item(1, size = 100L), dhash = 0L),
             SimilarityEntry(item(2, size = 100L), dhash = 0L),
             // Group 2: big
-            SimilarityEntry(item(3, size = 50000L), dhash = 0xFFFFFFFFFFFFFFFFL),
-            SimilarityEntry(item(4, size = 50000L), dhash = 0xFFFFFFFFFFFFFFFFL)
+            SimilarityEntry(item(3, size = 50000L), dhash = -1L),
+            SimilarityEntry(item(4, size = 50000L), dhash = -1L)
         )
         val groups = grouper.group(entries)
         assertThat(groups).hasSize(2)
