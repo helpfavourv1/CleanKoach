@@ -20,12 +20,12 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Create
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Favorite
-import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Lock
 import androidx.compose.material.icons.filled.Phone
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Star
+import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
@@ -33,15 +33,16 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.media.MediaPermissions
 import com.zdmgold.cleankoach.core.ui.components.AdBannerPlaceholder
 import com.zdmgold.cleankoach.core.ui.components.PhoneToolCard
@@ -90,7 +91,12 @@ fun HomeScreen(
     val storage = state.storage
     val ringValue = storage?.let { FormatUtils.bytesShort(it.totalReclaimableBytes) } ?: "—"
     val storageLine = storage?.let {
-        "${FormatUtils.bytes(it.usedBytes)} of ${FormatUtils.bytes(it.totalBytes)} used · ${it.percentUsed}%"
+        stringResource(
+            R.string.home_storage_line,
+            FormatUtils.bytes(it.usedBytes),
+            FormatUtils.bytes(it.totalBytes),
+            it.percentUsed
+        )
     } ?: ""
 
     Surface(
@@ -110,7 +116,7 @@ fun HomeScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    text = "CleanKoach",
+                    text = stringResource(R.string.app_name),
                     style = MaterialTheme.typography.headlineSmall,
                     fontWeight = FontWeight.W600,
                     color = MaterialTheme.colorScheme.onBackground,
@@ -122,7 +128,7 @@ fun HomeScreen(
             Spacer(Modifier.height(4.dp))
 
             SectionHeader(
-                text = "Phone Tools",
+                text = stringResource(R.string.home_section_phone_tools),
                 padding = PaddingValues(horizontal = 4.dp, vertical = 6.dp)
             )
 
@@ -132,29 +138,29 @@ fun HomeScreen(
                 verticalAlignment = Alignment.Top
             ) {
                 PhoneToolCard(
-                    title = "Activity Monitor",
+                    title = stringResource(R.string.tool_activity_monitor_title),
                     icon = Icons.AutoMirrored.Filled.List,
                     iconContainerColor = tools.container,
                     iconContentColor = tools.content,
-                    badge = "24 H",
+                    badge = stringResource(R.string.tool_activity_monitor_badge),
                     onClick = onOpenActivityMonitor,
                     modifier = Modifier.weight(1f)
                 )
                 PhoneToolCard(
-                    title = "Wi-Fi Security",
+                    title = stringResource(R.string.tool_wifi_security_title),
                     icon = Icons.Filled.Lock,
                     iconContainerColor = tools.container,
                     iconContentColor = tools.content,
-                    badge = "Check",
+                    badge = stringResource(R.string.tool_wifi_security_badge),
                     onClick = onOpenWifiSecurity,
                     modifier = Modifier.weight(1f)
                 )
                 PhoneToolCard(
-                    title = "Network Speed",
+                    title = stringResource(R.string.tool_network_speed_title),
                     icon = Icons.Filled.Refresh,
                     iconContainerColor = tools.container,
                     iconContentColor = tools.content,
-                    badge = "Test",
+                    badge = stringResource(R.string.tool_network_speed_badge),
                     onClick = onOpenNetworkSpeed,
                     modifier = Modifier.weight(1f)
                 )
@@ -169,7 +175,7 @@ fun HomeScreen(
                 StorageRing(
                     valueText = ringValue,
                     progress = if (state.scanning) state.scanProgress else null,
-                    caption = "Trash size",
+                    caption = stringResource(R.string.home_ring_caption),
                     subline = null,
                     size = 220.dp,
                     strokeWidth = 16.dp
@@ -189,7 +195,7 @@ fun HomeScreen(
             Spacer(Modifier.height(14.dp))
 
             PrimaryButton(
-                text = state.cleanUpLabel,
+                text = stringResource(state.cleanUpLabelRes),
                 onClick = {
                     if (!state.mediaPermissionGranted) {
                         viewModel.showDisclosure()
@@ -210,7 +216,7 @@ fun HomeScreen(
                     .verticalScroll(rememberScrollState())
             ) {
                 SectionHeader(
-                    text = "Photos & Videos",
+                    text = stringResource(R.string.home_section_photos_videos),
                     padding = PaddingValues(horizontal = 4.dp, vertical = 10.dp)
                 )
 
@@ -220,8 +226,8 @@ fun HomeScreen(
                     verticalAlignment = Alignment.Top
                 ) {
                     ToolCard(
-                        title = "Large files",
-                        description = "Biggest photos, videos and audio.",
+                        title = stringResource(R.string.tool_large_files_title),
+                        description = stringResource(R.string.tool_large_files_desc),
                         icon = Icons.Filled.Delete,
                         iconContainerColor = media.container,
                         iconContentColor = media.content,
@@ -230,8 +236,8 @@ fun HomeScreen(
                         modifier = Modifier.weight(1f)
                     )
                     ToolCard(
-                        title = "Duplicates",
-                        description = "Identical photos, videos and audio.",
+                        title = stringResource(R.string.tool_duplicates_title),
+                        description = stringResource(R.string.tool_duplicates_desc),
                         icon = Icons.Filled.Star,
                         iconContainerColor = media.container,
                         iconContentColor = media.content,
@@ -249,8 +255,8 @@ fun HomeScreen(
                     verticalAlignment = Alignment.Top
                 ) {
                     ToolCard(
-                        title = "Similar photos",
-                        description = "Near-identical shots, keep the best.",
+                        title = stringResource(R.string.tool_similar_title),
+                        description = stringResource(R.string.tool_similar_desc),
                         icon = Icons.Filled.Favorite,
                         iconContainerColor = media.container,
                         iconContentColor = media.content,
@@ -259,8 +265,8 @@ fun HomeScreen(
                         modifier = Modifier.weight(1f)
                     )
                     ToolCard(
-                        title = "Screenshots",
-                        description = "Every screenshot, one pass.",
+                        title = stringResource(R.string.tool_screenshots_title),
+                        description = stringResource(R.string.tool_screenshots_desc),
                         icon = Icons.Filled.Phone,
                         iconContainerColor = media.container,
                         iconContentColor = media.content,
@@ -278,8 +284,8 @@ fun HomeScreen(
                     verticalAlignment = Alignment.Top
                 ) {
                     ToolCard(
-                        title = "Photo optimizer",
-                        description = "Compress photos, save space.",
+                        title = stringResource(R.string.tool_photo_optimizer_title),
+                        description = stringResource(R.string.tool_photo_optimizer_desc),
                         icon = Icons.Filled.Create,
                         iconContainerColor = optimizer.container,
                         iconContentColor = optimizer.content,
@@ -288,8 +294,8 @@ fun HomeScreen(
                         modifier = Modifier.weight(1f)
                     )
                     ToolCard(
-                        title = "Video optimizer",
-                        description = "Compress videos, save space.",
+                        title = stringResource(R.string.tool_video_optimizer_title),
+                        description = stringResource(R.string.tool_video_optimizer_desc),
                         icon = Icons.Filled.PlayArrow,
                         iconContainerColor = optimizer.container,
                         iconContentColor = optimizer.content,

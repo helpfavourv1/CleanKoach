@@ -1,5 +1,7 @@
 package com.zdmgold.cleankoach.feature.home
 
+import androidx.annotation.StringRes
+import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.domain.model.StorageStats
 
 data class HomeUiState(
@@ -24,12 +26,13 @@ data class HomeUiState(
     val cleanUpEnabled: Boolean
         get() = !scanning && (storage?.totalReclaimableBytes ?: 0L) > 0L
 
-    val cleanUpLabel: String
+    @get:StringRes
+    val cleanUpLabelRes: Int
         get() = when {
-            scanning -> "Scanning…"
-            !mediaPermissionGranted -> "Allow access"
-            (storage?.totalReclaimableBytes ?: 0L) <= 0L -> "Nothing to clean"
-            else -> "CLEAN UP"
+            scanning -> R.string.home_button_scanning
+            !mediaPermissionGranted -> R.string.home_button_allow_access
+            (storage?.totalReclaimableBytes ?: 0L) <= 0L -> R.string.home_button_nothing_to_clean
+            else -> R.string.home_button_cleanup
         }
 }
 
