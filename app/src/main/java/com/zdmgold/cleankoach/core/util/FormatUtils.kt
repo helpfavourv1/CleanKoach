@@ -43,12 +43,9 @@ object FormatUtils {
     fun mbps(value: Double): String =
         String.format(Locale.US, "%.2f Mbps", value)
 
-    fun storageLine(used: Long, total: Long, percent: Int): String =
-        "${bytes(used)} of ${bytes(total)} used · ${percent}%"
 
     fun percent(value: Int): String = "$value%"
 
-    fun storageAlertTitle(percent: Int): String = "Storage is ${percent}% full"
 
     fun isMeaningfulSize(bytes: Long): Boolean = abs(bytes) > 1024L
 }

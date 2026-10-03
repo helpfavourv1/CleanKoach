@@ -12,9 +12,11 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.ui.components.PrimaryButton
 import com.zdmgold.cleankoach.core.util.FormatUtils
 
@@ -36,7 +38,7 @@ fun CleanUpResultSheet(
             verticalArrangement = Arrangement.Center
         ) {
             Text(
-                text = "Freed",
+                text = stringResource(R.string.cleanup_result_freed),
                 style = MaterialTheme.typography.titleMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
@@ -49,7 +51,10 @@ fun CleanUpResultSheet(
                 textAlign = TextAlign.Center
             )
             Spacer(Modifier.height(24.dp))
-            PrimaryButton(text = "Done", onClick = onDismiss)
+            PrimaryButton(
+                text = stringResource(R.string.action_done),
+                onClick = onDismiss
+            )
         }
     }
 }
