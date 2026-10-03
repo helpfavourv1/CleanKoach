@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">뒤로</string>
+    <string name="cd_settings">설정</string>
+    <string name="action_done">완료</string>
+    <string name="action_cancel">취소</string>
+    <string name="action_delete">삭제</string>
+    <string name="action_continue">계속</string>
+    <string name="action_not_now">나중에</string>
+    <string name="action_allow_access">접근 허용</string>
+    <string name="action_open_settings">설정 열기</string>
+    <string name="action_all">전체</string>
+    <string name="action_clear">선택 해제</string>
+
+    <string name="home_ring_caption">휴지통</string>
+    <string name="home_ring_sublabel">휴지통의 사진 및 동영상과 앱 캐시</string>
+    <string name="home_storage_line">%2$s 중 %1$s 사용 · %3$d%%</string>
+    <string name="home_button_cleanup">정리하기</string>
+    <string name="home_button_scanning">검사 중…</string>
+    <string name="home_button_allow_access">접근 허용</string>
+    <string name="home_button_nothing_to_clean">정리할 항목 없음</string>
+
+    <string name="home_section_phone_tools">폰 도구</string>
+    <string name="home_section_photos_videos">사진 및 동영상</string>
+
+    <string name="tool_large_files_title">큰 파일</string>
+    <string name="tool_large_files_desc">가장 큰 사진, 동영상, 오디오.</string>
+    <string name="tool_duplicates_title">중복</string>
+    <string name="tool_duplicates_desc">동일한 사진, 동영상, 오디오.</string>
+    <string name="tool_similar_title">비슷한 사진</string>
+    <string name="tool_similar_desc">거의 같은 사진, 가장 좋은 것만 남기세요.</string>
+    <string name="tool_screenshots_title">스크린샷</string>
+    <string name="tool_screenshots_desc">모든 스크린샷을 한 번에.</string>
+    <string name="tool_photo_optimizer_title">사진 최적화</string>
+    <string name="tool_photo_optimizer_desc">사진을 압축해 공간을 절약하세요.</string>
+    <string name="tool_video_optimizer_title">동영상 최적화</string>
+    <string name="tool_video_optimizer_desc">동영상을 압축해 공간을 절약하세요.</string>
+
+    <string name="tool_activity_monitor_title">활동 모니터</string>
+    <string name="tool_activity_monitor_badge">24시간</string>
+    <string name="tool_wifi_security_title">Wi-Fi 보안</string>
+    <string name="tool_wifi_security_badge">확인</string>
+    <string name="tool_network_speed_title">네트워크 속도</string>
+    <string name="tool_network_speed_badge">테스트</string>
+
+    <string name="cleanup_sheet_title">정리</string>
+    <string name="cleanup_sheet_message">휴지통의 %1$s개 항목을 삭제하고 앱 캐시를 비울까요? %2$s가 확보됩니다.</string>
+    <string name="cleanup_sheet_detail">정리 대상: 라이브러리의 휴지통에 있는 사진 및 동영상, 그리고 이 앱의 캐시. 다른 것은 건드리지 않습니다.</string>
+    <string name="cleanup_result_freed">확보됨</string>
+
+    <string name="media_disclosure_title">미디어 접근 허용</string>
+    <string name="media_disclosure_body">큰 파일, 중복, 비슷한 사진을 찾으려면 사진, 동영상, 오디오에 대한 접근이 필요합니다. 파일은 기기에서만 분석되며 절대 업로드되지 않습니다.</string>
+
+    <string name="large_files_title">큰 파일</string>
+    <string name="large_files_count_line">%1$d개 · %2$s</string>
+    <string name="large_files_empty_title">큰 파일 없음</string>
+    <string name="large_files_empty_message">라이브러리가 깔끔합니다. 살펴볼 큰 파일이 없습니다.</string>
+    <string name="large_files_selection_line">%1$d개 선택 · %2$s</string>
+
+    <string name="duplicates_title">중복</string>
+    <string name="duplicates_group_count_line">%1$d개 그룹 · %2$s 복구 가능</string>
+    <string name="duplicates_empty_title">중복 없음</string>
+    <string name="duplicates_empty_message">모든 사진, 동영상, 오디오가 고유합니다.</string>
+    <string name="duplicates_identical_items">%1$d개 동일 항목</string>
+    <string name="duplicates_reclaimable_label">%1$s 복구 가능</string>
+    <string name="duplicates_keep_label">유지</string>
+
+    <string name="similar_title">비슷한 사진</string>
+    <string name="similar_group_count_line">%1$d개 그룹 · %2$s 복구 가능</string>
+    <string name="similar_empty_title">비슷한 사진 없음</string>
+    <string name="similar_empty_message">거의 중복인 항목이 없습니다.</string>
+    <string name="similar_shot_count">%1$d장의 비슷한 사진</string>
+    <string name="similar_best_label">최고</string>
+
+    <string name="screenshots_title">스크린샷</string>
+    <string name="screenshots_empty_title">스크린샷 없음</string>
+    <string name="screenshots_empty_message">이 기기에는 아직 캡처된 항목이 없습니다.</string>
+
+    <string name="photo_optimizer_title">사진 최적화</string>
+    <string name="photo_optimizer_count_line">%1$d장 · %2$s</string>
+    <string name="photo_optimizer_optimizing">%2$d개 중 %1$d개 최적화 중</string>
+    <string name="photo_optimizer_saved_so_far">지금까지 절약: %1$s</string>
+    <string name="photo_optimizer_empty_title">최적화할 사진 없음</string>
+    <string name="photo_optimizer_empty_message">압축할 만큼 큰 항목이 없습니다.</string>
+    <string name="photo_optimizer_button_optimize">선택 항목 최적화</string>
+    <string name="photo_optimizer_button_optimizing">최적화 중…</string>
+    <string name="photo_optimizer_selected_line">%1$d개 선택</string>
+    <string name="photo_optimizer_summary">사진 %1$d장 최적화 · %2$s 절약</string>
+
+    <string name="video_optimizer_title">동영상 최적화</string>
+    <string name="video_optimizer_count_line">%1$d개 · %2$s</string>
+    <string name="video_optimizer_optimizing">%2$d개 중 %1$d개 최적화 중</string>
+    <string name="video_optimizer_saved_so_far">지금까지 절약: %1$s</string>
+    <string name="video_optimizer_empty_title">최적화할 동영상 없음</string>
+    <string name="video_optimizer_empty_message">압축할 만큼 큰 항목이 없습니다.</string>
+    <string name="video_optimizer_button_optimize">선택 항목 최적화</string>
+    <string name="video_optimizer_button_optimizing">최적화 중…</string>
+    <string name="video_optimizer_selected_line">%1$d개 선택</string>
+    <string name="video_optimizer_summary">동영상 %1$d개 최적화 · %2$s 절약</string>
+    <string name="video_preset_high">고품질</string>
+    <string name="video_preset_balanced">균형</string>
+    <string name="video_preset_small">작은 파일</string>
+
+    <string name="activity_monitor_title">활동 모니터</string>
+    <string name="activity_monitor_no_access_title">사용 정보 접근 필요</string>
+    <string name="activity_monitor_no_access_message">시스템 설정에서 사용 정보 접근을 허용하면 실행 및 포그라운드 시간을 볼 수 있습니다.</string>
+    <string name="activity_monitor_empty_title">활동 없음</string>
+    <string name="activity_monitor_empty_message">지난 24시간 동안 사용된 항목이 없습니다.</string>
+    <string name="activity_monitor_launches">%1$d회 실행 · %2$s</string>
+    <string name="activity_monitor_foreground">포그라운드: %1$s</string>
+    <string name="activity_monitor_disclosure_title">사용 정보 접근</string>
+    <string name="activity_monitor_disclosure_body">활동 모니터는 사용 정보 접근이 필요합니다. 앱은 지난 24시간 동안 어떤 앱을 언제, 얼마나 오래 열었는지 읽습니다. 이 데이터는 기기에 남아 있으며 업로드되거나 공유되지 않습니다.</string>
+
+    <string name="wifi_security_title">Wi-Fi 보안</string>
+    <string name="wifi_check_internet_title">인터넷 접근</string>
+    <string name="wifi_check_internet_connected">연결됨.</string>
+    <string name="wifi_check_internet_disconnected">활성 연결 없음.</string>
+    <string name="wifi_check_encryption_title">암호화 및 인증</string>
+    <string name="wifi_check_unavailable">이 기기에서 사용할 수 없음</string>
+    <string name="wifi_check_ssl_strip_title">SSL 스트립 테스트</string>
+    <string name="wifi_check_ssl_strip_detected">감지됨. 이 네트워크의 기기가 HTTPS 연결을 다운그레이드하고 있습니다.</string>
+    <string name="wifi_check_ssl_strip_safe">감지되지 않음.</string>
+    <string name="wifi_check_ssl_split_title">SSL 스플릿 테스트</string>
+    <string name="wifi_check_ssl_split_detected">감지됨. 연결이 가로채기를 통과하고 있습니다.</string>
+    <string name="wifi_check_ssl_split_safe">감지되지 않음.</string>
+    <string name="wifi_check_checked_at">%1$s에 확인</string>
+    <string name="wifi_check_rerun">다시 확인</string>
+    <string name="wifi_check_error">연결을 검사할 수 없습니다.</string>
+    <string name="wifi_check_inspect_failed">이 연결을 검사할 수 없습니다.</string>
+
+    <string name="network_speed_title">네트워크 속도</string>
+    <string name="network_speed_ready">다운로드 속도를 측정하세요.</string>
+    <string name="network_speed_preparing">준비 중</string>
+    <string name="network_speed_testing">다운로드 속도 측정 중</string>
+    <string name="network_speed_transferred">%1$s 전송됨</string>
+    <string name="network_speed_download_label">다운로드 속도</string>
+    <string name="network_speed_transferred_detail">%2$d초 동안 %1$s 전송</string>
+    <string name="network_speed_failed">테스트 실패</string>
+    <string name="network_speed_button_start">테스트 시작</string>
+    <string name="network_speed_button_testing">측정 중…</string>
+    <string name="network_speed_button_again">다시 테스트</string>
+    <string name="network_speed_button_retry">재시도</string>
+    <string name="network_speed_footnote">다운로드만 측정합니다. 업로드와 핑은 측정하지 않습니다.</string>
+
+    <string name="settings_title">설정</string>
+    <string name="settings_theme">테마</string>
+    <string name="settings_theme_light">밝게</string>
+    <string name="settings_theme_dark">어둡게</string>
+    <string name="settings_theme_system">시스템</string>
+    <string name="settings_language">언어</string>
+    <string name="settings_notifications">알림</string>
+    <string name="settings_notifications_on">켜짐</string>
+    <string name="settings_notifications_off">꺼짐</string>
+    <string name="settings_notifications_allow">알림 허용</string>
+    <string name="settings_notifications_weekly">주간 정리 알림</string>
+    <string name="settings_notifications_storage">저장 공간 알림</string>
+    <string name="settings_go_pro">Pro로 업그레이드</string>
+    <string name="settings_pro_active">Pro · 활성</string>
+    <string name="settings_pro_remove_ads">광고 제거</string>
+    <string name="settings_restore_purchase">구매 복원</string>
+    <string name="settings_share_app">앱 공유</string>
+    <string name="settings_rate_app">앱 평가</string>
+    <string name="settings_privacy_policy">개인정보 처리방침</string>
+    <string name="settings_terms">서비스 약관</string>
+    <string name="settings_support">지원</string>
+    <string name="settings_about">정보</string>
+    <string name="settings_about_version">버전 %1$s</string>
+
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Pro 사용 중</string>
+    <string name="pro_active_body">광고가 제거되었습니다. CleanKoach를 지원해 주셔서 감사합니다.</string>
+    <string name="pro_upsell_title">광고 제거</string>
+    <string name="pro_upsell_body">Pro는 배너 광고를 제거합니다. 모든 기능은 무료입니다.</string>
+    <string name="pro_button_upgrade">업그레이드</string>
+    <string name="pro_button_restore">구매 복원</string>
+
+    <string name="about_title">정보</string>
+    <string name="about_body">Android 네이티브 저장 공간 정리 앱. 모든 처리는 기기에서 실행됩니다. 미디어, 사용 데이터, 검사 결과는 절대 업로드되지 않습니다.</string>
+    <string name="about_built_with">Kotlin, Jetpack Compose, Material 3로 제작되었습니다.</string>
+
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+    <string name="language_pt">Português</string>
+    <string name="language_fr">Français</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_it">Italiano</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_in">Bahasa Indonesia</string>
+    <string name="language_ja">日本語</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_ru">Русский</string>
+
+    <string name="channel_cleanup_name">정리 알림</string>
+    <string name="channel_cleanup_description">큰 파일과 중복을 검토하도록 하는 주간 알림.</string>
+    <string name="channel_storage_name">저장 공간 알림</string>
+    <string name="channel_storage_description">기기 저장 공간이 부족할 때 알림.</string>
+    <string name="notification_cleanup_title">정리할 시간입니다</string>
+    <string name="notification_cleanup_body">큰 파일, 중복, 스크린샷을 검토하세요.</string>
+    <string name="notification_storage_title">저장 공간 %1$d%% 사용</string>
+    <string name="notification_storage_body">큰 파일을 검토해 공간을 확보하세요.</string>
+
+    <string name="ad_placeholder_label">광고</string>
+
+    <string name="share_text">중복, 비슷한 사진, 큰 파일을 삭제해 휴대폰 저장 공간을 확보하세요: %1$s</string>
+
+</resources>

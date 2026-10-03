@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Назад</string>
+    <string name="cd_settings">Настройки</string>
+    <string name="action_done">Готово</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_continue">Продолжить</string>
+    <string name="action_not_now">Не сейчас</string>
+    <string name="action_allow_access">Разрешить доступ</string>
+    <string name="action_open_settings">Открыть настройки</string>
+    <string name="action_all">Все</string>
+    <string name="action_clear">Снять выбор</string>
+
+    <string name="home_ring_caption">Корзина</string>
+    <string name="home_ring_sublabel">Фото и видео в корзине плюс кэш приложения</string>
+    <string name="home_storage_line">%1$s из %2$s использовано · %3$d%%</string>
+    <string name="home_button_cleanup">ОЧИСТИТЬ</string>
+    <string name="home_button_scanning">Сканирование…</string>
+    <string name="home_button_allow_access">Разрешить доступ</string>
+    <string name="home_button_nothing_to_clean">Нечего очищать</string>
+
+    <string name="home_section_phone_tools">Инструменты</string>
+    <string name="home_section_photos_videos">Фото и видео</string>
+
+    <string name="tool_large_files_title">Большие файлы</string>
+    <string name="tool_large_files_desc">Самые крупные фото, видео и аудио.</string>
+    <string name="tool_duplicates_title">Дубликаты</string>
+    <string name="tool_duplicates_desc">Идентичные фото, видео и аудио.</string>
+    <string name="tool_similar_title">Похожие фото</string>
+    <string name="tool_similar_desc">Почти одинаковые кадры, оставьте лучший.</string>
+    <string name="tool_screenshots_title">Скриншоты</string>
+    <string name="tool_screenshots_desc">Все скриншоты за один проход.</string>
+    <string name="tool_photo_optimizer_title">Оптимизация фото</string>
+    <string name="tool_photo_optimizer_desc">Сжимайте фото, экономьте место.</string>
+    <string name="tool_video_optimizer_title">Оптимизация видео</string>
+    <string name="tool_video_optimizer_desc">Сжимайте видео, экономьте место.</string>
+
+    <string name="tool_activity_monitor_title">Монитор активности</string>
+    <string name="tool_activity_monitor_badge">24 ч</string>
+    <string name="tool_wifi_security_title">Wi-Fi безопасность</string>
+    <string name="tool_wifi_security_badge">Проверить</string>
+    <string name="tool_network_speed_title">Скорость сети</string>
+    <string name="tool_network_speed_badge">Тест</string>
+
+    <string name="cleanup_sheet_title">Очистка</string>
+    <string name="cleanup_sheet_message">Удалить %1$s элементов из корзины и очистить кэш приложения? Это освободит %2$s.</string>
+    <string name="cleanup_sheet_detail">Что очищается: фото и видео в корзине вашей библиотеки, плюс кэш этого приложения. Ничего больше не затрагивается.</string>
+    <string name="cleanup_result_freed">Освобождено</string>
+
+    <string name="media_disclosure_title">Разрешить доступ к медиа</string>
+    <string name="media_disclosure_body">Чтобы находить большие файлы, дубликаты и похожие фото, этому приложению нужен доступ к вашим фото, видео и аудио. Файлы анализируются на устройстве и никогда не загружаются.</string>
+
+    <string name="large_files_title">Большие файлы</string>
+    <string name="large_files_count_line">%1$d элементов · %2$s</string>
+    <string name="large_files_empty_title">Больших файлов нет</string>
+    <string name="large_files_empty_message">Библиотека в порядке. Нет крупных файлов для проверки.</string>
+    <string name="large_files_selection_line">Выбрано %1$d · %2$s</string>
+
+    <string name="duplicates_title">Дубликаты</string>
+    <string name="duplicates_group_count_line">%1$d групп · %2$s можно вернуть</string>
+    <string name="duplicates_empty_title">Дубликатов нет</string>
+    <string name="duplicates_empty_message">Каждое фото, видео и аудио уникально.</string>
+    <string name="duplicates_identical_items">%1$d идентичных элементов</string>
+    <string name="duplicates_reclaimable_label">%1$s можно вернуть</string>
+    <string name="duplicates_keep_label">Оставить</string>
+
+    <string name="similar_title">Похожие фото</string>
+    <string name="similar_group_count_line">%1$d групп · %2$s можно вернуть</string>
+    <string name="similar_empty_title">Похожих фото нет</string>
+    <string name="similar_empty_message">Ничего не выглядит почти дубликатом.</string>
+    <string name="similar_shot_count">%1$d похожих кадров</string>
+    <string name="similar_best_label">Лучший</string>
+
+    <string name="screenshots_title">Скриншоты</string>
+    <string name="screenshots_empty_title">Скриншотов нет</string>
+    <string name="screenshots_empty_message">На этом устройстве пока ничего не снято.</string>
+
+    <string name="photo_optimizer_title">Оптимизация фото</string>
+    <string name="photo_optimizer_count_line">%1$d фото · %2$s</string>
+    <string name="photo_optimizer_optimizing">Оптимизация %1$d из %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Сэкономлено: %1$s</string>
+    <string name="photo_optimizer_empty_title">Нет фото для оптимизации</string>
+    <string name="photo_optimizer_empty_message">Ничего достаточно крупного для сжатия.</string>
+    <string name="photo_optimizer_button_optimize">Оптимизировать выбранное</string>
+    <string name="photo_optimizer_button_optimizing">Оптимизация…</string>
+    <string name="photo_optimizer_selected_line">Выбрано %1$d</string>
+    <string name="photo_optimizer_summary">Оптимизировано %1$d фото · сэкономлено %2$s</string>
+
+    <string name="video_optimizer_title">Оптимизация видео</string>
+    <string name="video_optimizer_count_line">%1$d видео · %2$s</string>
+    <string name="video_optimizer_optimizing">Оптимизация %1$d из %2$d</string>
+    <string name="video_optimizer_saved_so_far">Сэкономлено: %1$s</string>
+    <string name="video_optimizer_empty_title">Нет видео для оптимизации</string>
+    <string name="video_optimizer_empty_message">Ничего достаточно крупного для сжатия.</string>
+    <string name="video_optimizer_button_optimize">Оптимизировать выбранное</string>
+    <string name="video_optimizer_button_optimizing">Оптимизация…</string>
+    <string name="video_optimizer_selected_line">Выбрано %1$d</string>
+    <string name="video_optimizer_summary">Оптимизировано %1$d видео · сэкономлено %2$s</string>
+    <string name="video_preset_high">Высокое качество</string>
+    <string name="video_preset_balanced">Сбалансировано</string>
+    <string name="video_preset_small">Малый файл</string>
+
+    <string name="activity_monitor_title">Монитор активности</string>
+    <string name="activity_monitor_no_access_title">Нужен доступ к использованию</string>
+    <string name="activity_monitor_no_access_message">Разрешите доступ к использованию в системных настройках, чтобы видеть запуски и время в активном режиме.</string>
+    <string name="activity_monitor_empty_title">Активности нет</string>
+    <string name="activity_monitor_empty_message">За последние 24 часа ничего не использовалось.</string>
+    <string name="activity_monitor_launches">%1$d запусков · %2$s</string>
+    <string name="activity_monitor_foreground">Активно: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Доступ к использованию</string>
+    <string name="activity_monitor_disclosure_body">Монитору активности нужен доступ к использованию. Приложение читает, какие приложения вы открывали, когда и как долго за последние 24 часа. Эти данные остаются на устройстве и не загружаются и не передаются.</string>
+
+    <string name="wifi_security_title">Wi-Fi безопасность</string>
+    <string name="wifi_check_internet_title">Доступ в интернет</string>
+    <string name="wifi_check_internet_connected">Подключено.</string>
+    <string name="wifi_check_internet_disconnected">Нет активного подключения.</string>
+    <string name="wifi_check_encryption_title">Шифрование и аутентификация</string>
+    <string name="wifi_check_unavailable">недоступно на этом устройстве</string>
+    <string name="wifi_check_ssl_strip_title">Тест SSL strip</string>
+    <string name="wifi_check_ssl_strip_detected">Обнаружено. Устройство в этой сети понижает версию HTTPS-соединений.</string>
+    <string name="wifi_check_ssl_strip_safe">Не обнаружено.</string>
+    <string name="wifi_check_ssl_split_title">Тест SSL split</string>
+    <string name="wifi_check_ssl_split_detected">Обнаружено. Ваше соединение проходит через перехватчик.</string>
+    <string name="wifi_check_ssl_split_safe">Не обнаружено.</string>
+    <string name="wifi_check_checked_at">Проверено %1$s</string>
+    <string name="wifi_check_rerun">Проверить снова</string>
+    <string name="wifi_check_error">Не удалось проверить соединение.</string>
+    <string name="wifi_check_inspect_failed">Не удалось проверить это соединение.</string>
+
+    <string name="network_speed_title">Скорость сети</string>
+    <string name="network_speed_ready">Измерьте скорость загрузки.</string>
+    <string name="network_speed_preparing">Подготовка</string>
+    <string name="network_speed_testing">Проверка скорости загрузки</string>
+    <string name="network_speed_transferred">Передано %1$s</string>
+    <string name="network_speed_download_label">Скорость загрузки</string>
+    <string name="network_speed_transferred_detail">Передано %1$s за %2$d с</string>
+    <string name="network_speed_failed">Тест не удался</string>
+    <string name="network_speed_button_start">Начать тест</string>
+    <string name="network_speed_button_testing">Проверка…</string>
+    <string name="network_speed_button_again">Проверить снова</string>
+    <string name="network_speed_button_retry">Повторить</string>
+    <string name="network_speed_footnote">Только загрузка. Отдача и пинг не измеряются.</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_theme_light">Светлая</string>
+    <string name="settings_theme_dark">Тёмная</string>
+    <string name="settings_theme_system">Системная</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_notifications">Уведомления</string>
+    <string name="settings_notifications_on">Вкл.</string>
+    <string name="settings_notifications_off">Выкл.</string>
+    <string name="settings_notifications_allow">Разрешить уведомления</string>
+    <string name="settings_notifications_weekly">Еженедельное напоминание</string>
+    <string name="settings_notifications_storage">Оповещения о памяти</string>
+    <string name="settings_go_pro">Перейти на Pro</string>
+    <string name="settings_pro_active">Pro · активен</string>
+    <string name="settings_pro_remove_ads">Убрать рекламу</string>
+    <string name="settings_restore_purchase">Восстановить покупку</string>
+    <string name="settings_share_app">Поделиться приложением</string>
+    <string name="settings_rate_app">Оценить приложение</string>
+    <string name="settings_privacy_policy">Политика конфиденциальности</string>
+    <string name="settings_terms">Условия использования</string>
+    <string name="settings_support">Поддержка</string>
+    <string name="settings_about">О приложении</string>
+    <string name="settings_about_version">Версия %1$s</string>
+
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">У вас Pro</string>
+    <string name="pro_active_body">Реклама отключена. Спасибо за поддержку CleanKoach.</string>
+    <string name="pro_upsell_title">Убрать рекламу</string>
+    <string name="pro_upsell_body">Pro убирает баннер рекламы. Все функции бесплатны.</string>
+    <string name="pro_button_upgrade">Обновить</string>
+    <string name="pro_button_restore">Восстановить покупку</string>
+
+    <string name="about_title">О приложении</string>
+    <string name="about_body">Нативный очиститель памяти для Android. Всё выполняется на устройстве. Ни медиа, ни данные об использовании, ни результаты сканирования не загружаются.</string>
+    <string name="about_built_with">Создано на Kotlin, Jetpack Compose и Material 3.</string>
+
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+    <string name="language_pt">Português</string>
+    <string name="language_fr">Français</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_it">Italiano</string>
+    <string name="language_hi">हिन्दी</string>
+    <string name="language_in">Bahasa Indonesia</string>
+    <string name="language_ja">日本語</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_ru">Русский</string>
+
+    <string name="channel_cleanup_name">Напоминания об очистке</string>
+    <string name="channel_cleanup_description">Еженедельные напоминания просмотреть большие файлы и дубликаты.</string>
+    <string name="channel_storage_name">Оповещения о памяти</string>
+    <string name="channel_storage_description">Оповещения, когда память устройства заканчивается.</string>
+    <string name="notification_cleanup_title">Пора очистить</string>
+    <string name="notification_cleanup_body">Просмотрите большие файлы, дубликаты и скриншоты.</string>
+    <string name="notification_storage_title">Память заполнена на %1$d%%</string>
+    <string name="notification_storage_body">Просмотрите большие файлы, чтобы освободить место.</string>
+
+    <string name="ad_placeholder_label">Реклама</string>
+
+    <string name="share_text">Освободите память телефона, удалив дубликаты, похожие фото и большие файлы: %1$s</string>
+
+</resources>
