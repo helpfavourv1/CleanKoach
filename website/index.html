@@ -3,69 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CleanKoach — Storage cleanup for Android</title>
-    <meta name="description" content="Find and delete large files, duplicates, similar photos and screenshots. On-device only.">
+    <title>CleanKoach — Photo &amp; Video Cleaner, Duplicate Finder</title>
+    <meta name="description" content="Find and delete large files, duplicates, similar photos and screenshots. Compress photos and videos. Everything runs on your device.">
+    <meta property="og:title" content="CleanKoach — Storage cleanup for Android">
+    <meta property="og:description" content="Find and delete the photos, videos and audio you no longer need. On-device only.">
+    <meta property="og:type" content="website">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="site">
             <a href="index.html" class="wordmark">CleanKoach</a>
+            <nav>
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+                <a href="mailto:stmakarios@gmail.com">Support</a>
+            </nav>
         </header>
 
         <section class="hero">
             <h1>Free up phone storage.</h1>
-            <p>Find and delete the photos, videos and audio you no longer need. Everything runs on your device.</p>
+            <p class="lead">CleanKoach finds the photos, videos and audio you no longer need — large files, duplicates, similar shots, screenshots — and helps you delete them in one pass. Everything runs on your device. Nothing is ever uploaded.</p>
+            <div class="actions">
+                <a href="#" class="button">Get it on Google Play</a>
+            </div>
         </section>
+
+        <h2>What it does</h2>
 
         <div class="features">
             <div class="feature">
+                <div class="icon">1</div>
                 <h3>Large files</h3>
-                <p>Lists your biggest photos, videos and audio, sorted by size.</p>
+                <p>Lists your biggest photos, videos and audio, sorted by size, with quick filters for anything over 10 MB.</p>
             </div>
             <div class="feature">
+                <div class="icon">2</div>
                 <h3>Duplicates</h3>
-                <p>Finds identical photos, videos and audio and keeps one copy.</p>
+                <p>Finds files that are byte-for-byte identical, keeps one copy, and lets you delete the rest in a single step.</p>
             </div>
             <div class="feature">
+                <div class="icon">3</div>
                 <h3>Similar photos</h3>
-                <p>Groups near-identical shots so you keep the best one.</p>
+                <p>Groups near-identical shots — the burst frames, the almost-the-same-pose — and marks the best one as the one to keep.</p>
             </div>
             <div class="feature">
+                <div class="icon">4</div>
                 <h3>Screenshots</h3>
-                <p>Lists every screenshot so you can delete them in one pass.</p>
+                <p>Lists every screenshot on the device so you can clear them out in one pass. Sorted newest first.</p>
             </div>
             <div class="feature">
+                <div class="icon">5</div>
                 <h3>Photo optimizer</h3>
-                <p>Compresses photos and shows the space saved.</p>
+                <p>Re-encodes photos as WebP at quality 85 — typically 25–35% smaller than the original JPEG, with no visible difference.</p>
             </div>
             <div class="feature">
+                <div class="icon">6</div>
                 <h3>Video optimizer</h3>
-                <p>Compresses videos and shows the space saved.</p>
+                <p>Re-encodes videos at High, Balanced, or Small presets. Original files are never touched — you get new copies and choose what to keep.</p>
             </div>
             <div class="feature">
+                <div class="icon">7</div>
                 <h3>Activity Monitor</h3>
-                <p>Shows launches and foreground time per app for the last 24 hours.</p>
+                <p>Shows launches, last-launch time, and foreground time per app for the last 24 hours. Requires Usage Access; optional.</p>
             </div>
             <div class="feature">
+                <div class="icon">8</div>
                 <h3>Wi-Fi Security</h3>
-                <p>Tests your connection for SSL stripping and interception.</p>
+                <p>Inspects your connection's encryption type and certificate chain, and tells you whether SSL stripping or interception is present.</p>
             </div>
             <div class="feature">
+                <div class="icon">9</div>
                 <h3>Network Speed</h3>
-                <p>Measures your download speed.</p>
+                <p>Measures your download speed against a fixed, app-owned endpoint. Download-only by design.</p>
             </div>
         </div>
 
-        <section style="margin-top: 40px;">
-            <h2>Privacy first</h2>
-            <p>Your photos, videos and usage data stay on your device. The app never uploads them. Ads appear on the home screen. Pro removes them.</p>
-        </section>
+        <div class="privacy-callout">
+            <h2>Privacy, stated plainly</h2>
+            <p>Your photos, videos, audio, usage statistics, and network information stay on your device. CleanKoach never uploads them. There are no accounts. There is no telemetry.</p>
+            <p>The only outside contact is Google AdMob for the banner on the home screen. Pro removes the banner. In the EEA and UK, ads are only served after you consent.</p>
+            <p class="muted"><a href="privacy.html">Read the full privacy policy →</a></p>
+        </div>
 
-        <footer>
+        <h2>Built for Android, not around it</h2>
+        <p>CleanKoach is a native Android app written in Kotlin with Jetpack Compose and Material 3. It talks directly to the Android media framework, usage statistics, Wi-Fi stack, and Media3 transcoder — the same components the system itself uses. No cross-platform layer, no shortcuts, no web views doing work that should be native.</p>
+
+        <h2>Free, with an optional upgrade</h2>
+        <p>Every feature is free. The app shows a small ad banner on the home screen to keep the lights on. A one-time Pro purchase removes it. That's the entire business model — no subscriptions, no feature gating, no pay-to-clean.</p>
+
+        <h2>Who it's for</h2>
+        <p>If your phone is at 90% storage and the Photos app won't tell you what to delete, CleanKoach is for you. It's built for the everyday case, not the power-user case: open the app, tap CLEAN UP, see what it found, decide what goes. Simple enough to use in thirty seconds, careful enough that nothing gets deleted without your say-so.</p>
+
+        <footer class="site">
             <a href="privacy.html">Privacy policy</a>
             <a href="terms.html">Terms of service</a>
-            <a href="mailto:stmakarios@gmail.com">Support</a>
+            <a href="mailto:stmakarios@gmail.com">stmakarios@gmail.com</a>
         </footer>
     </div>
 </body>
