@@ -25,10 +25,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.ui.components.EmptyState
 import com.zdmgold.cleankoach.core.ui.components.FullScreenLoading
 import com.zdmgold.cleankoach.core.ui.components.MediaRow
@@ -58,18 +60,25 @@ fun ScreenshotsScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 IconButton(onClick = onBack) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                    Icon(
+                        Icons.AutoMirrored.Filled.ArrowBack,
+                        contentDescription = stringResource(R.string.cd_back)
+                    )
                 }
                 Column(modifier = Modifier.weight(1f)) {
                     Text(
-                        text = "Screenshots",
+                        text = stringResource(R.string.screenshots_title),
                         style = MaterialTheme.typography.titleLarge,
                         fontWeight = FontWeight.W600,
                         color = MaterialTheme.colorScheme.onBackground
                     )
                     if (state.items.isNotEmpty()) {
                         Text(
-                            text = "${state.items.size} items · ${FormatUtils.bytes(state.totalBytes)}",
+                            text = stringResource(
+                                R.string.large_files_count_line,
+                                state.items.size,
+                                FormatUtils.bytes(state.totalBytes)
+                            ),
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
@@ -77,7 +86,10 @@ fun ScreenshotsScreen(
                 }
                 if (state.items.isNotEmpty()) {
                     TextButton(onClick = viewModel::toggleAll) {
-                        Text(if (state.allSelected) "Clear" else "All")
+                        Text(
+                            text = if (state.allSelected) stringResource(R.string.action_clear)
+                            else stringResource(R.string.action_all)
+                        )
                     }
                 }
             }
@@ -86,8 +98,8 @@ fun ScreenshotsScreen(
                 FullScreenLoading()
             } else if (state.items.isEmpty()) {
                 EmptyState(
-                    title = "No screenshots",
-                    message = "Nothing captured on this device yet.",
+                    title = stringResource(R.string.screenshots_empty_title),
+                    message = stringResource(R.string.screenshots_empty_message),
                     icon = Icons.Filled.Phone
                 )
             } else {
@@ -116,14 +128,18 @@ fun ScreenshotsScreen(
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
                             Text(
-                                text = "${state.selectionCount} selected · ${FormatUtils.bytes(state.selectedBytes)}",
+                                text = stringResource(
+                                    R.string.large_files_selection_line,
+                                    state.selectionCount,
+                                    FormatUtils.bytes(state.selectedBytes)
+                                ),
                                 style = MaterialTheme.typography.bodyMedium,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
                             )
                             TextButton(onClick = viewModel::delete) {
                                 Icon(Icons.Filled.Delete, contentDescription = null)
                                 Spacer(Modifier.padding(horizontal = 4.dp))
-                                Text("Delete")
+                                Text(stringResource(R.string.action_delete))
                             }
                         }
                     }

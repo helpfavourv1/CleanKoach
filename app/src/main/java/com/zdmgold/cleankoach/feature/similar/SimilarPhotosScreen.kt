@@ -26,10 +26,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.domain.model.SimilarGroup
 import com.zdmgold.cleankoach.core.ui.components.EmptyState
 import com.zdmgold.cleankoach.core.ui.components.FullScreenLoading
@@ -60,18 +62,25 @@ fun SimilarPhotosScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 IconButton(onClick = onBack) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                    Icon(
+                        Icons.AutoMirrored.Filled.ArrowBack,
+                        contentDescription = stringResource(R.string.cd_back)
+                    )
                 }
                 Column(modifier = Modifier.weight(1f)) {
                     Text(
-                        text = "Similar photos",
+                        text = stringResource(R.string.similar_title),
                         style = MaterialTheme.typography.titleLarge,
                         fontWeight = FontWeight.W600,
                         color = MaterialTheme.colorScheme.onBackground
                     )
                     if (state.groups.isNotEmpty()) {
                         Text(
-                            text = "${state.groups.size} groups · ${FormatUtils.bytes(state.totalReclaimable)} reclaimable",
+                            text = stringResource(
+                                R.string.similar_group_count_line,
+                                state.groups.size,
+                                FormatUtils.bytes(state.totalReclaimable)
+                            ),
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
@@ -83,8 +92,8 @@ fun SimilarPhotosScreen(
                 FullScreenLoading()
             } else if (state.groups.isEmpty()) {
                 EmptyState(
-                    title = "No similar photos",
-                    message = "Nothing here looks like a near-duplicate.",
+                    title = stringResource(R.string.similar_empty_title),
+                    message = stringResource(R.string.similar_empty_message),
                     icon = Icons.Filled.Favorite
                 )
             } else {
@@ -122,13 +131,19 @@ private fun SimilarGroupCard(
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(
-                    text = "${group.items.size} similar shots",
+                    text = stringResource(
+                        R.string.similar_shot_count,
+                        group.items.size
+                    ),
                     style = MaterialTheme.typography.titleSmall,
                     fontWeight = FontWeight.W600,
                     color = MaterialTheme.colorScheme.onSurface
                 )
                 Text(
-                    text = FormatUtils.bytes(group.reclaimableBytes) + " reclaimable",
+                    text = stringResource(
+                        R.string.duplicates_reclaimable_label,
+                        FormatUtils.bytes(group.reclaimableBytes)
+                    ),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
@@ -145,7 +160,10 @@ private fun SimilarGroupCard(
                     )
                     if (isBest) {
                         TextButton(onClick = { }) {
-                            Text("Best", color = MaterialTheme.colorScheme.primary)
+                            Text(
+                                text = stringResource(R.string.similar_best_label),
+                                color = MaterialTheme.colorScheme.primary
+                            )
                         }
                     }
                 }
