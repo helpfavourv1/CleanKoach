@@ -26,10 +26,11 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
+import com.zdmgold.cleankoach.core.locale.LocaleManager
 
-private data class Language(@StringRes val labelRes: Int, val code: String)
+internal data class Language(@StringRes val labelRes: Int, val code: String)
 
-private val languages = listOf(
+internal val languages = listOf(
     Language(R.string.language_en, "en"),
     Language(R.string.language_es, "es"),
     Language(R.string.language_pt, "pt"),
@@ -86,14 +87,30 @@ fun LanguageScreen(
                     .fillMaxWidth()
                     .verticalScroll(rememberScrollState())
             ) {
-                languages.forEach { lang ->
-                    SettingsRow(
-                        label = stringResource(lang.labelRes),
-                        value = if (state.language == lang.code) "✓" else null,
-                        onClick = { viewModel.setLanguage(lang.code) }
-                    )
-                }
+                LanguageOptions(
+                    current = state.language,
+                    onSelect = viewModel::setLanguage
+                )
             }
         }
+    }
+}
+
+@Composable
+internal fun LanguageOptions(
+    current: String,
+    onSelect: (String) -> Unit
+) {
+    SettingsRow(
+        label = stringResource(R.string.language_system),
+        value = if (current == LocaleManager.SYSTEM) "✓" else null,
+        onClick = { onSelect(LocaleManager.SYSTEM) }
+    )
+    languages.forEach { lang ->
+        SettingsRow(
+            label = stringResource(lang.labelRes),
+            value = if (current == lang.code) "✓" else null,
+            onClick = { onSelect(lang.code) }
+        )
     }
 }

@@ -46,8 +46,8 @@
     <string name="tool_network_speed_badge">Uji</string>
 
     <string name="cleanup_sheet_title">Bersihkan</string>
-    <string name="cleanup_sheet_message">Hapus %1$s item di sampah dan kosongkan cache aplikasi? Ini membebaskan %2$s.</string>
-    <string name="cleanup_sheet_detail">Yang dibersihkan: foto dan video di sampah pada galeri Anda, plus cache aplikasi ini. Tidak ada yang lain tersentuh.</string>
+    <string name="cleanup_sheet_message">Hapus %1$s item di tempat sampah dan %2$s cache?</string>
+    <string name="cleanup_sheet_detail">Item ini sudah ada di tempat sampah Android, bukan foto di galeri Anda. Android akan meminta konfirmasi sekali lagi dan mungkin menyebutnya “foto”. Tidak ada yang lain yang disentuh.</string>
     <string name="cleanup_result_freed">Dibebaskan</string>
 
     <string name="media_disclosure_title">Izinkan akses media</string>
@@ -205,4 +205,6 @@
 
     <string name="share_text">Bebaskan penyimpanan ponsel dengan menghapus duplikat, foto serupa, dan file besar: %1$s</string>
 
+    <string name="language_system">Default sistem</string>
+    <string name="scan_progress_files">Memeriksa %1$s dari %2$s file</string>
 </resources>

@@ -34,7 +34,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.domain.model.SimilarGroup
 import com.zdmgold.cleankoach.core.ui.components.EmptyState
-import com.zdmgold.cleankoach.core.ui.components.FullScreenLoading
+import com.zdmgold.cleankoach.core.ui.components.ScanProgress
 import com.zdmgold.cleankoach.core.ui.components.MediaRow
 import com.zdmgold.cleankoach.core.util.FormatUtils
 
@@ -89,7 +89,7 @@ fun SimilarPhotosScreen(
             }
 
             if (state.loading) {
-                FullScreenLoading()
+                ScanProgress(state.scanStatus)
             } else if (state.groups.isEmpty()) {
                 EmptyState(
                     title = stringResource(R.string.similar_empty_title),

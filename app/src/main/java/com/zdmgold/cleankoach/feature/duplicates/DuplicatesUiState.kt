@@ -1,9 +1,11 @@
 package com.zdmgold.cleankoach.feature.duplicates
 
+import com.zdmgold.cleankoach.core.domain.model.ScanStatus
 import com.zdmgold.cleankoach.core.domain.model.DuplicateGroup
 
 data class DuplicatesUiState(
     val loading: Boolean = true,
+    val scanStatus: ScanStatus = ScanStatus(),
     val groups: List<DuplicateGroup> = emptyList(),
     val keptIds: Set<Long> = emptySet()
 ) {

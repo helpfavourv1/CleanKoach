@@ -46,8 +46,8 @@
     <string name="tool_network_speed_badge">Probar</string>
 
     <string name="cleanup_sheet_title">Limpiar</string>
-    <string name="cleanup_sheet_message">¿Eliminar %1$s elementos en la papelera y borrar la caché de la app? Se liberan %2$s.</string>
-    <string name="cleanup_sheet_detail">Qué se limpia: fotos y vídeos en la papelera de tu biblioteca, más la caché de esta app. Nada más se toca.</string>
+    <string name="cleanup_sheet_message">¿Vaciar %1$s elementos de la papelera y %2$s de caché?</string>
+    <string name="cleanup_sheet_detail">Estos elementos ya están en la papelera de Android, no son fotos de tu galería. Android te pedirá confirmar una vez más y puede llamarlos «fotos». No se toca nada más.</string>
     <string name="cleanup_result_freed">Liberados</string>
 
     <string name="media_disclosure_title">Permitir acceso a medios</string>
@@ -205,4 +205,6 @@
 
     <string name="share_text">Libera espacio en tu teléfono eliminando duplicados, fotos similares y archivos grandes: %1$s</string>
 
+    <string name="language_system">Predeterminado del sistema</string>
+    <string name="scan_progress_files">Revisando %1$s de %2$s archivos</string>
 </resources>

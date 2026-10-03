@@ -46,8 +46,8 @@
     <string name="tool_network_speed_badge">Тест</string>
 
     <string name="cleanup_sheet_title">Очистка</string>
-    <string name="cleanup_sheet_message">Удалить %1$s элементов из корзины и очистить кэш приложения? Это освободит %2$s.</string>
-    <string name="cleanup_sheet_detail">Что очищается: фото и видео в корзине вашей библиотеки, плюс кэш этого приложения. Ничего больше не затрагивается.</string>
+    <string name="cleanup_sheet_message">Очистить %1$s элементов в корзине и %2$s кэша?</string>
+    <string name="cleanup_sheet_detail">Эти элементы уже в корзине Android, это не фото из вашей галереи. Android запросит ещё одно подтверждение и может назвать их «фото». Больше ничего не затрагивается.</string>
     <string name="cleanup_result_freed">Освобождено</string>
 
     <string name="media_disclosure_title">Разрешить доступ к медиа</string>
@@ -205,4 +205,6 @@
 
     <string name="share_text">Освободите память телефона, удалив дубликаты, похожие фото и большие файлы: %1$s</string>
 
+    <string name="language_system">Как в системе</string>
+    <string name="scan_progress_files">Проверено %1$s из %2$s файлов</string>
 </resources>

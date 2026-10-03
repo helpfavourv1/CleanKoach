@@ -46,8 +46,8 @@
     <string name="tool_network_speed_badge">Test</string>
 
     <string name="cleanup_sheet_title">Pulisci</string>
-    <string name="cleanup_sheet_message">Eliminare %1$s elementi dal cestino e svuotare la cache dell\'app? Si liberano %2$s.</string>
-    <string name="cleanup_sheet_detail">Cosa viene pulito: foto e video nel cestino della tua libreria, più la cache di questa app. Nient\'altro viene toccato.</string>
+    <string name="cleanup_sheet_message">Svuotare %1$s elementi nel cestino e %2$s di cache?</string>
+    <string name="cleanup_sheet_detail">Questi elementi sono già nel cestino di Android, non sono foto della tua galleria. Android chiederà un\'ultima conferma e potrebbe chiamarli «foto». Nient\'altro viene toccato.</string>
     <string name="cleanup_result_freed">Liberati</string>
 
     <string name="media_disclosure_title">Consenti accesso ai media</string>
@@ -205,4 +205,6 @@
 
     <string name="share_text">Libera spazio sul telefono eliminando duplicati, foto simili e file grandi: %1$s</string>
 
+    <string name="language_system">Predefinito di sistema</string>
+    <string name="scan_progress_files">Controllo %1$s di %2$s file</string>
 </resources>

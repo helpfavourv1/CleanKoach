@@ -23,7 +23,7 @@ class SettingsDataStore(private val context: Context) {
     }
 
     val theme: Flow<String> = context.settingsDataStore.data.map { it[THEME] ?: "system" }
-    val language: Flow<String> = context.settingsDataStore.data.map { it[LANGUAGE] ?: "en" }
+    val language: Flow<String> = context.settingsDataStore.data.map { it[LANGUAGE] ?: "system" }
     val notificationsEnabled: Flow<Boolean> = context.settingsDataStore.data.map { it[NOTIFICATIONS_ENABLED] ?: false }
     val weeklyReminder: Flow<Boolean> = context.settingsDataStore.data.map { it[WEEKLY_REMINDER] ?: true }
     val storageAlerts: Flow<Boolean> = context.settingsDataStore.data.map { it[STORAGE_ALERTS] ?: true }

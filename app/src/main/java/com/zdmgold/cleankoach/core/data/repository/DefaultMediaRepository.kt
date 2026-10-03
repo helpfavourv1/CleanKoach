@@ -12,9 +12,9 @@ import com.zdmgold.cleankoach.core.domain.model.CleanupResult
 import com.zdmgold.cleankoach.core.domain.model.DuplicateGroup
 import com.zdmgold.cleankoach.core.domain.model.MediaItem
 import com.zdmgold.cleankoach.core.domain.model.MediaKind
+import com.zdmgold.cleankoach.core.domain.model.ScanStatus
 import com.zdmgold.cleankoach.core.domain.model.SimilarGroup
 import com.zdmgold.cleankoach.core.domain.model.StorageStats
-import com.zdmgold.cleankoach.core.media.SampledBitmap
 import com.zdmgold.cleankoach.core.media.CacheCleaner
 import com.zdmgold.cleankoach.core.media.DHashCalculator
 import com.zdmgold.cleankoach.core.media.DuplicateGrouper
@@ -28,7 +28,9 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.withContext
+import kotlin.coroutines.coroutineContext
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -47,11 +49,13 @@ class DefaultMediaRepository @Inject constructor(
 ) : MediaRepository {
 
     private val progress = MutableStateFlow(0f)
+    private val scanStatus = MutableStateFlow(ScanStatus())
 
     private companion object {
         const val LARGE_FILE_BYTES = 50L * 1024L * 1024L
         const val PHOTO_OPTIMIZER_BYTES = 1L * 1024L * 1024L
         const val VIDEO_OPTIMIZER_BYTES = 20L * 1024L * 1024L
+        const val SAVE_BATCH = 50
     }
 
     override suspend fun scanLargeFiles(limit: Int): List<MediaItem> = withContext(Dispatchers.IO) {
@@ -68,34 +72,36 @@ class DefaultMediaRepository @Inject constructor(
             return@withContext emptyList()
         }
 
+        // Identical files always have identical sizes, so only same-size files need hashing.
+        val candidates = all.groupBy { it.sizeBytes }.values.filter { it.size > 1 }.flatten()
         val cached = mediaHashDao.getAll().associateBy { it.mediaId }
-        val currentIds = all.map { it.id }
-        val freshHashes = mutableListOf<MediaHashEntity>()
+        val pending = mutableListOf<MediaHashEntity>()
         val pairs = mutableListOf<Pair<MediaItem, String>>()
 
-        all.forEachIndexed { index, item ->
-            val existing = cached[item.id]
-            val reusable = existing != null && existing.dateAdded == item.dateAdded
-
-            val entity = if (reusable) {
-                existing
+        candidates.forEachIndexed { index, item ->
+            coroutineContext.ensureActive()
+            val existing = cached[item.id]?.takeIf { it.dateAdded == item.dateAdded }
+            val sha = if (existing != null && existing.sha256.isNotBlank()) {
+                existing.sha256
             } else {
-                computeHash(item)
+                runCatching { hashCalculator.sha256(Uri.parse(item.uri)) }.getOrNull()
+                    ?.takeIf { it.isNotBlank() }
+                    ?.also { pending += withSha(item, existing, it) }
             }
+            if (sha != null) pairs += item to sha
 
-            if (entity != null && entity.sha256.isNotBlank()) {
-                pairs += item to entity.sha256
-                if (!reusable) freshHashes += entity
+            if (pending.size >= SAVE_BATCH) {
+                mediaHashDao.upsertAll(pending.toList())
+                pending.clear()
             }
-
-            progress.value = (index + 1).toFloat() / all.size.toFloat()
+            scanStatus.value = ScanStatus(index + 1, candidates.size)
+            progress.value = scanStatus.value.fraction
         }
 
-        if (freshHashes.isNotEmpty()) {
-            mediaHashDao.upsertAll(freshHashes)
-        }
-        runCatching { mediaHashDao.pruneMissing(currentIds) }
+        if (pending.isNotEmpty()) mediaHashDao.upsertAll(pending.toList())
+        runCatching { mediaHashDao.pruneMissing(all.map { it.id }) }
 
+        scanStatus.value = ScanStatus()
         progress.value = 0f
         duplicateGrouper.group(pairs)
     }
@@ -105,34 +111,31 @@ class DefaultMediaRepository @Inject constructor(
         if (images.isEmpty()) return@withContext emptyList()
 
         val cached = mediaHashDao.getAll().associateBy { it.mediaId }
-        val currentIds = images.map { it.id }
-        val freshHashes = mutableListOf<MediaHashEntity>()
+        val pending = mutableListOf<MediaHashEntity>()
         val entries = mutableListOf<SimilarityEntry>()
 
         images.forEachIndexed { index, item ->
-            val existing = cached[item.id]
-            val reusable = existing != null &&
-                existing.dateAdded == item.dateAdded &&
-                existing.dhash != 0L
-
-            val entity = if (reusable) {
-                existing
+            coroutineContext.ensureActive()
+            val existing = cached[item.id]?.takeIf { it.dateAdded == item.dateAdded }
+            val dhash = if (existing != null && existing.dhash != 0L) {
+                existing.dhash
             } else {
-                computeHash(item)
+                (runCatching { dHashCalculator.dhash(Uri.parse(item.uri)) }.getOrNull() ?: 0L)
+                    .also { if (it != 0L) pending += withDhash(item, existing, it) }
             }
+            if (dhash != 0L) entries += SimilarityEntry(item, dhash)
 
-            if (entity != null && entity.dhash != 0L) {
-                entries += SimilarityEntry(item, entity.dhash)
-                if (!reusable) freshHashes += entity
+            if (pending.size >= SAVE_BATCH) {
+                mediaHashDao.upsertAll(pending.toList())
+                pending.clear()
             }
-
-            progress.value = (index + 1).toFloat() / images.size.toFloat()
+            scanStatus.value = ScanStatus(index + 1, images.size)
+            progress.value = scanStatus.value.fraction
         }
 
-        if (freshHashes.isNotEmpty()) {
-            mediaHashDao.upsertAll(freshHashes)
-        }
+        if (pending.isNotEmpty()) mediaHashDao.upsertAll(pending.toList())
 
+        scanStatus.value = ScanStatus()
         progress.value = 0f
         similarityGrouper.group(entries)
     }
@@ -212,40 +215,35 @@ class DefaultMediaRepository @Inject constructor(
 
     override fun observeScanProgress(): Flow<Float> = progress
 
-    private fun computeHash(item: MediaItem): MediaHashEntity? {
-        val uri = Uri.parse(item.uri)
-        val sha = runCatching { hashCalculator.sha256(uri) }.getOrNull()
-        val dhash = if (item.mimeType.startsWith("image/")) {
-            runCatching { dHashCalculator.dhash(uri) }.getOrNull() ?: 0L
-        } else {
-            0L
-        }
-        val sharpness = if (item.mimeType.startsWith("image/")) {
-            runCatching {
-                val bitmap = SampledBitmap.decode(context, uri, 512)
-                bitmap?.let {
-                    val score = laplacianSharpness.compute(it)
-                    it.recycle()
-                    score
-                } ?: 0f
-            }.getOrDefault(0f)
-        } else {
-            0f
-        }
+    override fun observeScanStatus(): Flow<ScanStatus> = scanStatus
 
-        if (sha.isNullOrBlank()) return null
+    private fun withSha(item: MediaItem, existing: MediaHashEntity?, sha: String): MediaHashEntity =
+        existing?.copy(sha256 = sha, computedAt = System.currentTimeMillis())
+            ?: MediaHashEntity(
+                mediaId = item.id,
+                sha256 = sha,
+                dhash = 0L,
+                sharpness = 0f,
+                width = item.width,
+                height = item.height,
+                sizeBytes = item.sizeBytes,
+                mimeType = item.mimeType,
+                dateAdded = item.dateAdded,
+                computedAt = System.currentTimeMillis()
+            )
 
-        return MediaHashEntity(
-            mediaId = item.id,
-            sha256 = sha,
-            dhash = dhash,
-            sharpness = sharpness,
-            width = item.width,
-            height = item.height,
-            sizeBytes = item.sizeBytes,
-            mimeType = item.mimeType,
-            dateAdded = item.dateAdded,
-            computedAt = System.currentTimeMillis()
-        )
-    }
+    private fun withDhash(item: MediaItem, existing: MediaHashEntity?, dhash: Long): MediaHashEntity =
+        existing?.copy(dhash = dhash, computedAt = System.currentTimeMillis())
+            ?: MediaHashEntity(
+                mediaId = item.id,
+                sha256 = "",
+                dhash = dhash,
+                sharpness = 0f,
+                width = item.width,
+                height = item.height,
+                sizeBytes = item.sizeBytes,
+                mimeType = item.mimeType,
+                dateAdded = item.dateAdded,
+                computedAt = System.currentTimeMillis()
+            )
 }

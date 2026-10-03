@@ -46,8 +46,8 @@
     <string name="tool_network_speed_badge">Testen</string>
 
     <string name="cleanup_sheet_title">Bereinigen</string>
-    <string name="cleanup_sheet_message">%1$s Elemente aus dem Papierkorb löschen und den App-Cache leeren? Das gibt %2$s frei.</string>
-    <string name="cleanup_sheet_detail">Was bereinigt wird: gelöschte Fotos und Videos in deiner Bibliothek plus der Cache dieser App. Nichts anderes wird angetastet.</string>
+    <string name="cleanup_sheet_message">%1$s Elemente im Papierkorb und %2$s Cache leeren?</string>
+    <string name="cleanup_sheet_detail">Diese Elemente liegen bereits im Papierkorb von Android und sind keine Fotos aus deiner Galerie. Android bittet dich noch einmal um Bestätigung und nennt sie möglicherweise „Fotos“. Nichts anderes wird angetastet.</string>
     <string name="cleanup_result_freed">Freigegeben</string>
 
     <string name="media_disclosure_title">Medienzugriff erlauben</string>
@@ -205,4 +205,6 @@
 
     <string name="share_text">Speicher auf dem Handy freigeben durch Löschen von Duplikaten, ähnlichen Fotos und großen Dateien: %1$s</string>
 
+    <string name="language_system">Systemstandard</string>
+    <string name="scan_progress_files">Prüfe %1$s von %2$s Dateien</string>
 </resources>

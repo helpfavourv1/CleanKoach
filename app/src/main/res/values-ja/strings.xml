@@ -46,8 +46,8 @@
     <string name="tool_network_speed_badge">テスト</string>
 
     <string name="cleanup_sheet_title">クリーンアップ</string>
-    <string name="cleanup_sheet_message">ゴミ箱の %1$s 項目を削除し、アプリのキャッシュを消去しますか？%2$s が解放されます。</string>
-    <string name="cleanup_sheet_detail">クリーンアップ対象：ライブラリのゴミ箱にある写真と動画、そしてこのアプリ自身のキャッシュ。それ以外は触りません。</string>
+    <string name="cleanup_sheet_message">ゴミ箱の %1$s 件とキャッシュ %2$s を削除しますか？</string>
+    <string name="cleanup_sheet_detail">これらはすでに Android のゴミ箱にある項目で、ギャラリーの写真ではありません。Android がもう一度確認を求め、「写真」と表示する場合があります。それ以外には触れません。</string>
     <string name="cleanup_result_freed">解放</string>
 
     <string name="media_disclosure_title">メディアへのアクセスを許可</string>
@@ -205,4 +205,6 @@
 
     <string name="share_text">重複、類似写真、大きいファイルを削除してスマホの容量を空けましょう：%1$s</string>
 
+    <string name="language_system">システムのデフォルト</string>
+    <string name="scan_progress_files">%2$s 件中 %1$s 件のファイルを確認中</string>
 </resources>

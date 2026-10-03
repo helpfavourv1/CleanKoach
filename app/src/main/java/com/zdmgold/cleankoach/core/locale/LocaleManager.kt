@@ -9,7 +9,13 @@ object LocaleManager {
         "en", "es", "pt", "fr", "de", "it", "hi", "in", "ja", "ko", "ru"
     )
 
+    const val SYSTEM = "system"
+
     fun apply(tag: String) {
+        if (tag == SYSTEM) {
+            AppCompatDelegate.setApplicationLocales(LocaleListCompat.getEmptyLocaleList())
+            return
+        }
         val safe = tag.takeIf { it in supported } ?: "en"
         val list = LocaleListCompat.forLanguageTags(safe)
         AppCompatDelegate.setApplicationLocales(list)

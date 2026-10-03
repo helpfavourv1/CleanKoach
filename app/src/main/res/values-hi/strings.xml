@@ -46,8 +46,8 @@
     <string name="tool_network_speed_badge">टेस्ट</string>
 
     <string name="cleanup_sheet_title">साफ़ करें</string>
-    <string name="cleanup_sheet_message">%1$s ट्रैश आइटम हटाएं और ऐप कैश साफ़ करें? इससे %2$s मुक्त होगा।</string>
-    <string name="cleanup_sheet_detail">क्या साफ़ होता है: आपकी लाइब्रेरी में ट्रैश की गई फ़ोटो और वीडियो, और इस ऐप का कैश। और कुछ नहीं छुआ जाता।</string>
+    <string name="cleanup_sheet_message">ट्रैश में %1$s आइटम और %2$s कैश साफ़ करें?</string>
+    <string name="cleanup_sheet_detail">ये आइटम पहले से Android के ट्रैश में हैं, आपकी गैलरी की फ़ोटो नहीं हैं। Android एक बार फिर पुष्टि मांगेगा और इन्हें “फ़ोटो” कह सकता है। और कुछ नहीं छुआ जाता।</string>
     <string name="cleanup_result_freed">मुक्त हुआ</string>
 
     <string name="media_disclosure_title">मीडिया एक्सेस दें</string>
@@ -205,4 +205,6 @@
 
     <string name="share_text">डुप्लिकेट, समान फ़ोटो और बड़ी फ़ाइलें हटाकर फ़ोन स्टोरेज खाली करें: %1$s</string>
 
+    <string name="language_system">सिस्टम डिफ़ॉल्ट</string>
+    <string name="scan_progress_files">%2$s में से %1$s फ़ाइलें जाँची गईं</string>
 </resources>

@@ -46,8 +46,8 @@
     <string name="tool_network_speed_badge">Tester</string>
 
     <string name="cleanup_sheet_title">Nettoyer</string>
-    <string name="cleanup_sheet_message">Supprimer %1$s éléments de la corbeille et vider le cache de l\'app ? Cela libère %2$s.</string>
-    <string name="cleanup_sheet_detail">Ce qui est nettoyé : les photos et vidéos de la corbeille de votre bibliothèque, plus le cache de cette app. Rien d\'autre n\'est touché.</string>
+    <string name="cleanup_sheet_message">Vider %1$s éléments de la corbeille et %2$s de cache ?</string>
+    <string name="cleanup_sheet_detail">Ces éléments sont déjà dans la corbeille d’Android, ce ne sont pas des photos de votre galerie. Android demandera une dernière confirmation et peut les appeler « photos ». Rien d’autre n’est touché.</string>
     <string name="cleanup_result_freed">Libérés</string>
 
     <string name="media_disclosure_title">Autoriser l\'accès aux médias</string>
@@ -205,4 +205,6 @@
 
     <string name="share_text">Libérez de l\'espace sur votre téléphone en supprimant les doublons, les photos similaires et les gros fichiers : %1$s</string>
 
+    <string name="language_system">Par défaut du système</string>
+    <string name="scan_progress_files">Vérification : %1$s sur %2$s fichiers</string>
 </resources>

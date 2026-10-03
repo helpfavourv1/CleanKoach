@@ -3,6 +3,28 @@ package com.zdmgold.cleankoach.feature.home
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.tween
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.withStyle
+import com.zdmgold.cleankoach.core.ui.components.LanguageIconButton
+import com.zdmgold.cleankoach.core.ui.components.ThemeIconButton
+import com.zdmgold.cleankoach.core.ui.theme.LocalDarkTheme
+import com.zdmgold.cleankoach.feature.settings.LanguageOptions
+import com.zdmgold.cleankoach.feature.settings.SettingsViewModel
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -47,10 +69,8 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.media.MediaPermissions
 import com.zdmgold.cleankoach.core.ui.components.PhoneToolCard
-import com.zdmgold.cleankoach.core.ui.components.PrimaryButton
 import com.zdmgold.cleankoach.core.ui.components.SectionHeader
 import com.zdmgold.cleankoach.core.ui.components.SettingsChip
-import com.zdmgold.cleankoach.core.ui.components.StorageRing
 import com.zdmgold.cleankoach.core.ui.components.ToolCard
 import com.zdmgold.cleankoach.core.ui.theme.mediaTint
 import com.zdmgold.cleankoach.core.ui.theme.optimizerTint
@@ -77,6 +97,10 @@ fun HomeScreen(
     viewModel: HomeViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val settingsViewModel: SettingsViewModel = hiltViewModel()
+    val settings by settingsViewModel.state.collectAsStateWithLifecycle()
+    val darkTheme = LocalDarkTheme.current
+    var languageSheetVisible by remember { mutableStateOf(false) }
 
     val permissionLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.RequestMultiplePermissions()
@@ -135,56 +159,117 @@ fun HomeScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    text = stringResource(R.string.app_name),
+                    text = wordmark(stringResource(R.string.app_name)),
                     style = MaterialTheme.typography.headlineSmall,
-                    fontWeight = FontWeight.W600,
-                    color = MaterialTheme.colorScheme.onBackground,
+                    fontWeight = FontWeight.W800,
                     modifier = Modifier.weight(1f)
+                )
+                LanguageIconButton(
+                    onClick = { languageSheetVisible = true },
+                    description = stringResource(R.string.settings_language)
+                )
+                ThemeIconButton(
+                    onClick = {
+                        settingsViewModel.setTheme(if (darkTheme) "light" else "dark")
+                    },
+                    description = stringResource(R.string.settings_theme)
                 )
                 SettingsChip(onClick = onOpenSettings)
             }
 
             Spacer(Modifier.height(4.dp))
 
-            Surface(
-                modifier = Modifier.fillMaxWidth(),
-                shape = MaterialTheme.shapes.large,
-                color = MaterialTheme.colorScheme.surface
+            val fill by animateFloatAsState(
+                targetValue = if (state.scanning) 1f else 0f,
+                animationSpec = tween(
+                    durationMillis = if (state.scanning) 4000 else 600,
+                    easing = LinearEasing
+                ),
+                label = "cleanup_fill"
+            )
+            val heroShape = RoundedCornerShape(20.dp)
+
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(112.dp),
+                horizontalArrangement = Arrangement.spacedBy(4.dp)
             ) {
-                Row(
+                Box(
                     modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(12.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(14.dp)
+                        .weight(1f)
+                        .fillMaxHeight()
+                        .clip(heroShape)
+                        .background(MaterialTheme.colorScheme.surface)
                 ) {
-                    StorageRing(
-                        valueText = ringValue,
-                        progress = if (state.scanning) state.scanProgress else null,
-                        caption = stringResource(R.string.home_ring_caption),
-                        subline = null,
-                        size = 104.dp,
-                        strokeWidth = 10.dp,
-                        valueStyle = MaterialTheme.typography.titleLarge
+                    Box(
+                        modifier = Modifier
+                            .fillMaxHeight()
+                            .fillMaxWidth(fill)
+                            .background(MaterialTheme.colorScheme.primaryContainer)
                     )
-                    Column(modifier = Modifier.weight(1f)) {
+                    Column(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(horizontal = 16.dp),
+                        verticalArrangement = Arrangement.Center
+                    ) {
                         Text(
-                            text = storageLine,
+                            text = ringValue,
+                            style = MaterialTheme.typography.headlineMedium,
+                            fontWeight = FontWeight.W700,
+                            color = MaterialTheme.colorScheme.onSurface
+                        )
+                        Text(
+                            text = stringResource(R.string.home_ring_caption),
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
-                        Spacer(Modifier.height(10.dp))
-                        PrimaryButton(
+                        Spacer(Modifier.height(6.dp))
+                        Text(
+                            text = storageLine,
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            maxLines = 2
+                        )
+                    }
+                }
+                Box(
+                    modifier = Modifier
+                        .width(112.dp)
+                        .fillMaxHeight()
+                        .clip(heroShape)
+                        .background(
+                            if (state.cleanUpButtonEnabled) MaterialTheme.colorScheme.primary
+                            else MaterialTheme.colorScheme.surfaceVariant
+                        )
+                        .clickable(enabled = state.cleanUpButtonEnabled) {
+                            if (!state.mediaPermissionGranted) {
+                                viewModel.showDisclosure()
+                            } else {
+                                viewModel.onCleanUpPressed()
+                            }
+                        }
+                        .padding(8.dp),
+                    contentAlignment = Alignment.Center
+                ) {
+                    val contentColor = if (state.cleanUpButtonEnabled) MaterialTheme.colorScheme.onPrimary
+                    else MaterialTheme.colorScheme.onSurfaceVariant
+                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                        Text(
+                            text = ringValue,
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.W700,
+                            color = contentColor,
+                            textAlign = TextAlign.Center
+                        )
+                        Spacer(Modifier.height(6.dp))
+                        Text(
                             text = stringResource(state.cleanUpLabelRes),
-                            onClick = {
-                                if (!state.mediaPermissionGranted) {
-                                    viewModel.showDisclosure()
-                                } else {
-                                    viewModel.onCleanUpPressed()
-                                }
-                            },
-                            enabled = state.cleanUpButtonEnabled,
-                            loading = state.scanning
+                            style = MaterialTheme.typography.labelLarge,
+                            fontWeight = FontWeight.W700,
+                            color = contentColor,
+                            textAlign = TextAlign.Center
                         )
                     }
                 }
@@ -331,6 +416,24 @@ fun HomeScreen(
             }
         }
 
+        if (languageSheetVisible) {
+            ModalBottomSheet(
+                onDismissRequest = { languageSheetVisible = false },
+                sheetState = rememberModalBottomSheetState()
+            ) {
+                Column(modifier = Modifier.verticalScroll(rememberScrollState())) {
+                    LanguageOptions(
+                        current = settings.language,
+                        onSelect = {
+                            languageSheetVisible = false
+                            settingsViewModel.setLanguage(it)
+                        }
+                    )
+                    Spacer(Modifier.height(16.dp))
+                }
+            }
+        }
+
         if (state.cleanUpSheetVisible) {
             ModalBottomSheet(
                 onDismissRequest = viewModel::onCleanUpCancelled,
@@ -338,7 +441,7 @@ fun HomeScreen(
             ) {
                 CleanUpConfirmSheet(
                     itemCount = state.storage?.trashCount ?: 0,
-                    sizeBytes = state.storage?.totalReclaimableBytes ?: 0L,
+                    sizeBytes = state.storage?.cacheBytes ?: 0L,
                     onConfirm = viewModel::onCleanUpConfirmed,
                     onCancel = viewModel::onCleanUpCancelled
                 )
@@ -371,5 +474,17 @@ fun HomeScreen(
                 )
             }
         }
+    }
+}
+
+@Composable
+private fun wordmark(name: String): androidx.compose.ui.text.AnnotatedString {
+    val dark = LocalDarkTheme.current
+    val orange = MaterialTheme.colorScheme.primary
+    val blue = if (dark) Color(0xFF6FA3FF) else Color(0xFF1F5FD6)
+    val split = name.indexOf("Koach").takeIf { it > 0 } ?: name.length
+    return buildAnnotatedString {
+        withStyle(SpanStyle(color = orange)) { append(name.substring(0, split)) }
+        withStyle(SpanStyle(color = blue)) { append(name.substring(split)) }
     }
 }

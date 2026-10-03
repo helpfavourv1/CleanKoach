@@ -1,8 +1,15 @@
 package com.zdmgold.cleankoach
 
 import android.os.Bundle
+import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.getValue
+import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zdmgold.cleankoach.feature.settings.SettingsViewModel
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
@@ -22,7 +29,28 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            CleanKoachTheme {
+            val settingsViewModel: SettingsViewModel = hiltViewModel()
+            val settings by settingsViewModel.state.collectAsStateWithLifecycle()
+            val systemDark = isSystemInDarkTheme()
+            val darkTheme = when (settings.theme) {
+                "dark" -> true
+                "light" -> false
+                else -> systemDark
+            }
+            DisposableEffect(darkTheme) {
+                enableEdgeToEdge(
+                    statusBarStyle = SystemBarStyle.auto(
+                        android.graphics.Color.TRANSPARENT,
+                        android.graphics.Color.TRANSPARENT
+                    ) { darkTheme },
+                    navigationBarStyle = SystemBarStyle.auto(
+                        android.graphics.Color.argb(0xe6, 0xFF, 0xFF, 0xFF),
+                        android.graphics.Color.argb(0x80, 0x1b, 0x1b, 0x1b)
+                    ) { darkTheme }
+                )
+                onDispose { }
+            }
+            CleanKoachTheme(darkTheme = darkTheme) {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -38,6 +66,7 @@ class MainActivity : AppCompatActivity() {
         runCatching {
             val prefs = getSharedPreferences("settings_prefs", MODE_PRIVATE)
             val stored = prefs.getString("locale", null) ?: return
+            if (stored == LocaleManager.SYSTEM) return
             if (stored != LocaleManager.current()) {
                 LocaleManager.apply(stored)
             }

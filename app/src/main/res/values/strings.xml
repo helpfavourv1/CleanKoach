@@ -52,8 +52,8 @@
 
     <!-- Cleanup confirm sheet -->
     <string name="cleanup_sheet_title">Clean up</string>
-    <string name="cleanup_sheet_message">Delete %1$s trashed items and clear the app cache? This frees %2$s.</string>
-    <string name="cleanup_sheet_detail">What gets cleaned: trashed photos and videos in your library, plus this app\'s own cache. Nothing else is touched.</string>
+    <string name="cleanup_sheet_message">Clear %1$s items in trash and %2$s of cache?</string>
+    <string name="cleanup_sheet_detail">These items are already in Android\'s trash, not photos in your gallery. Android will ask you to confirm once more and may call them “photos”. Nothing else is touched.</string>
     <string name="cleanup_result_freed">Freed</string>
 
     <!-- Media access disclosure -->
@@ -228,4 +228,6 @@
     <!-- Share text -->
     <string name="share_text">Free up phone storage by deleting duplicates, similar photos and large files: %1$s</string>
 
+    <string name="language_system">System default</string>
+    <string name="scan_progress_files">Checking %1$s of %2$s files</string>
 </resources>

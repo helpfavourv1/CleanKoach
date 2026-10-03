@@ -29,6 +29,14 @@ class HomeViewModel @Inject constructor(
     private val _state = MutableStateFlow(HomeUiState())
     val state: StateFlow<HomeUiState> = _state.asStateFlow()
 
+    init {
+        val full = permissionChecker.hasFullMediaAccess()
+        val partial = permissionChecker.hasPartialMediaAccess()
+        _state.update {
+            it.copy(mediaPermissionGranted = full || partial, partialMediaAccess = partial && !full)
+        }
+    }
+
     fun refresh() {
         viewModelScope.launch {
             val full = permissionChecker.hasFullMediaAccess()

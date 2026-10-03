@@ -46,8 +46,8 @@
     <string name="tool_network_speed_badge">테스트</string>
 
     <string name="cleanup_sheet_title">정리</string>
-    <string name="cleanup_sheet_message">휴지통의 %1$s개 항목을 삭제하고 앱 캐시를 비울까요? %2$s가 확보됩니다.</string>
-    <string name="cleanup_sheet_detail">정리 대상: 라이브러리의 휴지통에 있는 사진 및 동영상, 그리고 이 앱의 캐시. 다른 것은 건드리지 않습니다.</string>
+    <string name="cleanup_sheet_message">휴지통의 항목 %1$s개와 캐시 %2$s를 비울까요?</string>
+    <string name="cleanup_sheet_detail">이 항목은 이미 Android 휴지통에 있으며 갤러리의 사진이 아닙니다. Android가 한 번 더 확인을 요청하며 ‘사진’이라고 표시할 수 있습니다. 그 외에는 건드리지 않습니다.</string>
     <string name="cleanup_result_freed">확보됨</string>
 
     <string name="media_disclosure_title">미디어 접근 허용</string>
@@ -205,4 +205,6 @@
 
     <string name="share_text">중복, 비슷한 사진, 큰 파일을 삭제해 휴대폰 저장 공간을 확보하세요: %1$s</string>
 
+    <string name="language_system">시스템 기본값</string>
+    <string name="scan_progress_files">파일 %2$s개 중 %1$s개 확인 중</string>
 </resources>

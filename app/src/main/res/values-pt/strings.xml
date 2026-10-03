@@ -46,8 +46,8 @@
     <string name="tool_network_speed_badge">Testar</string>
 
     <string name="cleanup_sheet_title">Limpar</string>
-    <string name="cleanup_sheet_message">Eliminar %1$s itens no lixo e limpar a cache da app? Isto liberta %2$s.</string>
-    <string name="cleanup_sheet_detail">O que é limpo: fotos e vídeos no lixo da tua biblioteca, mais a cache desta app. Nada mais é tocado.</string>
+    <string name="cleanup_sheet_message">Limpar %1$s itens da lixeira e %2$s de cache?</string>
+    <string name="cleanup_sheet_detail">Estes itens já estão na lixeira do Android, não são fotos da sua galeria. O Android pedirá mais uma confirmação e pode chamá-los de “fotos”. Mais nada é tocado.</string>
     <string name="cleanup_result_freed">Libertados</string>
 
     <string name="media_disclosure_title">Permitir acesso aos media</string>
@@ -205,4 +205,6 @@
 
     <string name="share_text">Liberta espaço no teu telefone eliminando duplicados, fotos semelhantes e ficheiros grandes: %1$s</string>
 
+    <string name="language_system">Padrão do sistema</string>
+    <string name="scan_progress_files">Verificando %1$s de %2$s arquivos</string>
 </resources>

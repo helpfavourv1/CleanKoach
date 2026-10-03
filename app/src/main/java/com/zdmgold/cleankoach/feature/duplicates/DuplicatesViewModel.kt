@@ -21,6 +21,11 @@ class DuplicatesViewModel @Inject constructor(
     val state: StateFlow<DuplicatesUiState> = _state.asStateFlow()
 
     init {
+        viewModelScope.launch {
+            mediaRepository.observeScanStatus().collect { status ->
+                _state.update { it.copy(scanStatus = status) }
+            }
+        }
         load()
     }
 
