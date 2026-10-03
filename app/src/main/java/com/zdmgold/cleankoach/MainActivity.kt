@@ -1,9 +1,9 @@
 package com.zdmgold.cleankoach
 
 import android.os.Bundle
-import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -15,11 +15,11 @@ import com.zdmgold.cleankoach.navigation.CleanKoachNavHost
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class MainActivity : ComponentActivity() {
+class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        applyStoredLocaleSafely()
         super.onCreate(savedInstanceState)
-        applyStoredLocale()
         enableEdgeToEdge()
         setContent {
             CleanKoachTheme {
@@ -34,11 +34,13 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    private fun applyStoredLocale() {
-        val prefs = getSharedPreferences("settings_prefs", MODE_PRIVATE)
-        val stored = prefs.getString("locale", null) ?: return
-        if (stored != LocaleManager.current()) {
-            LocaleManager.apply(stored)
+    private fun applyStoredLocaleSafely() {
+        runCatching {
+            val prefs = getSharedPreferences("settings_prefs", MODE_PRIVATE)
+            val stored = prefs.getString("locale", null) ?: return
+            if (stored != LocaleManager.current()) {
+                LocaleManager.apply(stored)
+            }
         }
     }
 }
