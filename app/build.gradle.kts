@@ -78,6 +78,12 @@ dependencies {
     implementation(libs.hilt.navigation.compose)
 
     implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.billing.ktx)
+    implementation(libs.play.services.ads)
+    implementation(libs.user.messaging.platform)
+    implementation(libs.work.runtime.ktx)
+    implementation(libs.work.hilt)
+    ksp(libs.work.hilt.compiler)
     implementation(libs.okhttp)
     implementation(libs.room.runtime)
     implementation(libs.room.ktx)
