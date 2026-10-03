@@ -29,7 +29,13 @@ class SettingsDataStore(private val context: Context) {
     val storageAlerts: Flow<Boolean> = context.settingsDataStore.data.map { it[STORAGE_ALERTS] ?: true }
 
     suspend fun setTheme(value: String) { context.settingsDataStore.edit { it[THEME] = value } }
-    suspend fun setLanguage(value: String) { context.settingsDataStore.edit { it[LANGUAGE] = value } }
+    suspend fun setLanguage(value: String) {
+        context.settingsDataStore.edit { it[LANGUAGE] = value }
+        context.getSharedPreferences("settings_prefs", Context.MODE_PRIVATE)
+            .edit()
+            .putString("locale", value)
+            .apply()
+    }
     suspend fun setNotificationsEnabled(value: Boolean) { context.settingsDataStore.edit { it[NOTIFICATIONS_ENABLED] = value } }
     suspend fun setWeeklyReminder(value: Boolean) { context.settingsDataStore.edit { it[WEEKLY_REMINDER] = value } }
     suspend fun setStorageAlerts(value: Boolean) { context.settingsDataStore.edit { it[STORAGE_ALERTS] = value } }

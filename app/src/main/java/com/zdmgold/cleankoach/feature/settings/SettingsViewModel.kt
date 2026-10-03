@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.zdmgold.cleankoach.core.data.repository.BillingRepository
 import com.zdmgold.cleankoach.core.data.repository.SettingsRepository
+import com.zdmgold.cleankoach.core.locale.LocaleManager
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -34,6 +35,7 @@ class SettingsViewModel @Inject constructor(
     fun setLanguage(language: String) {
         viewModelScope.launch {
             settingsRepository.setLanguage(language)
+            LocaleManager.apply(language)
         }
     }
 
