@@ -11,8 +11,10 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.ui.components.PrimaryButton
 import com.zdmgold.cleankoach.core.ui.components.SecondaryButton
 
@@ -32,14 +34,14 @@ fun UsageDisclosureContent(
                 .padding(horizontal = 24.dp, vertical = 28.dp)
         ) {
             Text(
-                text = "Usage Access",
+                text = stringResource(R.string.activity_monitor_disclosure_title),
                 style = MaterialTheme.typography.titleLarge,
                 fontWeight = FontWeight.W600,
                 color = MaterialTheme.colorScheme.onSurface
             )
             Spacer(Modifier.height(12.dp))
             Text(
-                text = "Activity Monitor needs Usage Access. The app reads which apps you opened, when, and for how long over the last 24 hours. This data stays on your device and is not uploaded or shared.",
+                text = stringResource(R.string.activity_monitor_disclosure_body),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
@@ -48,8 +50,14 @@ fun UsageDisclosureContent(
                 modifier = Modifier.fillMaxWidth(),
                 verticalArrangement = Arrangement.spacedBy(10.dp)
             ) {
-                PrimaryButton(text = "Continue", onClick = onContinue)
-                SecondaryButton(text = "Not now", onClick = onNotNow)
+                PrimaryButton(
+                    text = stringResource(R.string.action_continue),
+                    onClick = onContinue
+                )
+                SecondaryButton(
+                    text = stringResource(R.string.action_not_now),
+                    onClick = onNotNow
+                )
             }
         }
     }

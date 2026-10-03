@@ -22,10 +22,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.domain.model.SecurityVerdict
 import com.zdmgold.cleankoach.core.ui.components.FullScreenLoading
 import com.zdmgold.cleankoach.core.ui.components.PrimaryButton
@@ -55,10 +57,13 @@ fun WifiSecurityScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 IconButton(onClick = onBack) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                    Icon(
+                        Icons.AutoMirrored.Filled.ArrowBack,
+                        contentDescription = stringResource(R.string.cd_back)
+                    )
                 }
                 Text(
-                    text = "Wi-Fi Security",
+                    text = stringResource(R.string.wifi_security_title),
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.W600,
                     color = MaterialTheme.colorScheme.onBackground,
@@ -80,7 +85,7 @@ fun WifiSecurityScreen(
                     if (report == null) {
                         Card(modifier = Modifier.fillMaxWidth()) {
                             Text(
-                                text = state.error ?: "Unable to inspect connection.",
+                                text = stringResource(R.string.wifi_check_error),
                                 modifier = Modifier.padding(16.dp),
                                 style = MaterialTheme.typography.bodyMedium,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
@@ -88,29 +93,44 @@ fun WifiSecurityScreen(
                         }
                     } else {
                         CheckRow(
-                            title = "Internet access",
-                            detail = if (report.internetAccess) "Connected." else "No active connection."
+                            title = stringResource(R.string.wifi_check_internet_title),
+                            detail = stringResource(
+                                if (report.internetAccess) R.string.wifi_check_internet_connected
+                                else R.string.wifi_check_internet_disconnected
+                            )
                         )
                         Spacer(Modifier.height(10.dp))
                         CheckRow(
-                            title = "Encryption and authentication",
-                            detail = report.encryptionType ?: "unavailable on this device"
+                            title = stringResource(R.string.wifi_check_encryption_title),
+                            detail = report.encryptionType
+                                ?: stringResource(R.string.wifi_check_unavailable)
                         )
                         Spacer(Modifier.height(10.dp))
                         CheckRow(
-                            title = "SSL strip test",
-                            detail = verdictDetail(report.sslStripVerdict, detectedText = "Detected. A device on this network is downgrading HTTPS connections.", safeText = "Not detected."),
+                            title = stringResource(R.string.wifi_check_ssl_strip_title),
+                            detail = verdictDetail(
+                                report.sslStripVerdict,
+                                detectedRes = R.string.wifi_check_ssl_strip_detected,
+                                safeRes = R.string.wifi_check_ssl_strip_safe
+                            ),
                             alert = report.sslStripVerdict == SecurityVerdict.DETECTED
                         )
                         Spacer(Modifier.height(10.dp))
                         CheckRow(
-                            title = "SSL split test",
-                            detail = verdictDetail(report.sslSplitVerdict, detectedText = "Detected. Your connection is passing through an interceptor.", safeText = "Not detected."),
+                            title = stringResource(R.string.wifi_check_ssl_split_title),
+                            detail = verdictDetail(
+                                report.sslSplitVerdict,
+                                detectedRes = R.string.wifi_check_ssl_split_detected,
+                                safeRes = R.string.wifi_check_ssl_split_safe
+                            ),
                             alert = report.sslSplitVerdict == SecurityVerdict.DETECTED
                         )
                         Spacer(Modifier.height(10.dp))
                         Text(
-                            text = "Checked ${DateUtils.relative(report.checkedAt)}",
+                            text = stringResource(
+                                R.string.wifi_check_checked_at,
+                                DateUtils.relative(report.checkedAt)
+                            ),
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
@@ -118,7 +138,7 @@ fun WifiSecurityScreen(
 
                     Spacer(Modifier.height(20.dp))
                     PrimaryButton(
-                        text = "Re-run checks",
+                        text = stringResource(R.string.wifi_check_rerun),
                         onClick = viewModel::runCheck,
                         enabled = !state.loading
                     )
@@ -154,9 +174,13 @@ private fun CheckRow(
     }
 }
 
-private fun verdictDetail(verdict: SecurityVerdict, detectedText: String, safeText: String): String =
-    when (verdict) {
-        SecurityVerdict.DETECTED -> detectedText
-        SecurityVerdict.SECURE -> safeText
-        SecurityVerdict.UNAVAILABLE -> "unavailable on this device"
-    }
+@Composable
+private fun verdictDetail(
+    verdict: SecurityVerdict,
+    detectedRes: Int,
+    safeRes: Int
+): String = when (verdict) {
+    SecurityVerdict.DETECTED -> stringResource(detectedRes)
+    SecurityVerdict.SECURE -> stringResource(safeRes)
+    SecurityVerdict.UNAVAILABLE -> stringResource(R.string.wifi_check_unavailable)
+}

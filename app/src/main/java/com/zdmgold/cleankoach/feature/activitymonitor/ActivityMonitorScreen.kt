@@ -17,7 +17,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.List
+import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material3.Card
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -33,10 +33,12 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.domain.model.AppUsageItem
 import com.zdmgold.cleankoach.core.ui.components.EmptyState
 import com.zdmgold.cleankoach.core.ui.components.FullScreenLoading
@@ -74,10 +76,13 @@ fun ActivityMonitorScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 IconButton(onClick = onBack) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                    Icon(
+                        Icons.AutoMirrored.Filled.ArrowBack,
+                        contentDescription = stringResource(R.string.cd_back)
+                    )
                 }
                 Text(
-                    text = "Activity Monitor",
+                    text = stringResource(R.string.activity_monitor_title),
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.W600,
                     color = MaterialTheme.colorScheme.onBackground,
@@ -89,21 +94,21 @@ fun ActivityMonitorScreen(
                 state.loading -> FullScreenLoading()
 
                 !state.hasAccess -> EmptyState(
-                    title = "Usage access needed",
-                    message = "Allow Usage Access in system settings to see launches and foreground time.",
-                    icon = Icons.Filled.List,
+                    title = stringResource(R.string.activity_monitor_no_access_title),
+                    message = stringResource(R.string.activity_monitor_no_access_message),
+                    icon = Icons.AutoMirrored.Filled.List,
                     action = {
                         PrimaryButton(
-                            text = "Open settings",
+                            text = stringResource(R.string.action_open_settings),
                             onClick = { openUsageAccessSettings(context) }
                         )
                     }
                 )
 
                 state.items.isEmpty() -> EmptyState(
-                    title = "No activity",
-                    message = "Nothing used in the last 24 hours.",
-                    icon = Icons.Filled.List
+                    title = stringResource(R.string.activity_monitor_empty_title),
+                    message = stringResource(R.string.activity_monitor_empty_message),
+                    icon = Icons.AutoMirrored.Filled.List
                 )
 
                 else -> LazyColumn(
@@ -147,13 +152,20 @@ private fun AppUsageCard(item: AppUsageItem) {
             )
             Spacer(Modifier.height(4.dp))
             Text(
-                text = "${item.launchCount} launches · ${DateUtils.relative(item.lastUsedAt)}",
+                text = stringResource(
+                    R.string.activity_monitor_launches,
+                    item.launchCount,
+                    DateUtils.relative(item.lastUsedAt)
+                ),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
             Spacer(Modifier.height(2.dp))
             Text(
-                text = "Foreground: ${DateUtils.duration(item.foregroundMillis)}",
+                text = stringResource(
+                    R.string.activity_monitor_foreground,
+                    DateUtils.duration(item.foregroundMillis)
+                ),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.primary
             )

@@ -20,11 +20,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.ui.components.DeterminateProgress
 import com.zdmgold.cleankoach.core.ui.components.IndeterminateProgress
 import com.zdmgold.cleankoach.core.ui.components.PrimaryButton
@@ -54,10 +56,13 @@ fun NetworkSpeedScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 IconButton(onClick = onBack) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                    Icon(
+                        Icons.AutoMirrored.Filled.ArrowBack,
+                        contentDescription = stringResource(R.string.cd_back)
+                    )
                 }
                 Text(
-                    text = "Network Speed",
+                    text = stringResource(R.string.network_speed_title),
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.W600,
                     color = MaterialTheme.colorScheme.onBackground,
@@ -76,7 +81,7 @@ fun NetworkSpeedScreen(
                 when (state.phase) {
                     SpeedTestPhase.READY -> {
                         Text(
-                            text = "Measure your download speed.",
+                            text = stringResource(R.string.network_speed_ready),
                             style = MaterialTheme.typography.bodyLarge,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                             textAlign = TextAlign.Center
@@ -85,7 +90,7 @@ fun NetworkSpeedScreen(
 
                     SpeedTestPhase.PREPARING -> {
                         Text(
-                            text = "Preparing",
+                            text = stringResource(R.string.network_speed_preparing),
                             style = MaterialTheme.typography.titleMedium,
                             color = MaterialTheme.colorScheme.onSurface
                         )
@@ -95,7 +100,7 @@ fun NetworkSpeedScreen(
 
                     SpeedTestPhase.TESTING -> {
                         Text(
-                            text = "Testing download speed",
+                            text = stringResource(R.string.network_speed_testing),
                             style = MaterialTheme.typography.titleMedium,
                             color = MaterialTheme.colorScheme.onSurface
                         )
@@ -103,7 +108,12 @@ fun NetworkSpeedScreen(
                         DeterminateProgress(progress = 0.5f)
                         Spacer(Modifier.height(12.dp))
                         Text(
-                            text = state.result?.let { FormatUtils.bytes(it.bytesTransferred) + " transferred" } ?: "",
+                            text = state.result?.let {
+                                stringResource(
+                                    R.string.network_speed_transferred,
+                                    FormatUtils.bytes(it.bytesTransferred)
+                                )
+                            } ?: "",
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
@@ -111,7 +121,7 @@ fun NetworkSpeedScreen(
 
                     SpeedTestPhase.DONE -> {
                         Text(
-                            text = "Download speed",
+                            text = stringResource(R.string.network_speed_download_label),
                             style = MaterialTheme.typography.titleMedium,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
@@ -126,7 +136,11 @@ fun NetworkSpeedScreen(
                         Spacer(Modifier.height(8.dp))
                         Text(
                             text = state.result?.let {
-                                "Transferred ${FormatUtils.bytes(it.bytesTransferred)} in ${it.durationMillis / 1000}s"
+                                stringResource(
+                                    R.string.network_speed_transferred_detail,
+                                    FormatUtils.bytes(it.bytesTransferred),
+                                    it.durationMillis / 1000
+                                )
                             } ?: "",
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -136,7 +150,7 @@ fun NetworkSpeedScreen(
 
                     SpeedTestPhase.FAILED -> {
                         Text(
-                            text = "Test failed",
+                            text = stringResource(R.string.network_speed_failed),
                             style = MaterialTheme.typography.titleMedium,
                             color = MaterialTheme.colorScheme.error
                         )
@@ -153,13 +167,15 @@ fun NetworkSpeedScreen(
                 Spacer(Modifier.height(32.dp))
 
                 PrimaryButton(
-                    text = when (state.phase) {
-                        SpeedTestPhase.READY -> "Start test"
-                        SpeedTestPhase.PREPARING,
-                        SpeedTestPhase.TESTING -> "Testing…"
-                        SpeedTestPhase.DONE -> "Test again"
-                        SpeedTestPhase.FAILED -> "Retry"
-                    },
+                    text = stringResource(
+                        when (state.phase) {
+                            SpeedTestPhase.READY -> R.string.network_speed_button_start
+                            SpeedTestPhase.PREPARING,
+                            SpeedTestPhase.TESTING -> R.string.network_speed_button_testing
+                            SpeedTestPhase.DONE -> R.string.network_speed_button_again
+                            SpeedTestPhase.FAILED -> R.string.network_speed_button_retry
+                        }
+                    ),
                     onClick = viewModel::run,
                     enabled = state.phase != SpeedTestPhase.PREPARING &&
                         state.phase != SpeedTestPhase.TESTING
@@ -167,7 +183,7 @@ fun NetworkSpeedScreen(
 
                 Spacer(Modifier.height(12.dp))
                 Text(
-                    text = "Download only. Upload and ping are not measured.",
+                    text = stringResource(R.string.network_speed_footnote),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     textAlign = TextAlign.Center
