@@ -1,10 +1,12 @@
 package com.zdmgold.cleankoach.feature.home
 
+import androidx.activity.result.IntentSenderRequest
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.zdmgold.cleankoach.core.data.prefs.ConsentDataStore
 import com.zdmgold.cleankoach.core.data.repository.MediaRepository
-import com.zdmgold.cleankoach.core.domain.model.CleanupResult
+import com.zdmgold.cleankoach.core.domain.model.StorageStats
+import com.zdmgold.cleankoach.core.util.FormatUtils
 import com.zdmgold.cleankoach.core.media.PermissionChecker
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -22,24 +24,32 @@ class HomeViewModel @Inject constructor(
     private val permissionChecker: PermissionChecker
 ) : ViewModel() {
 
+    private var cleanupBefore: StorageStats? = null
+
     private val _state = MutableStateFlow(HomeUiState())
     val state: StateFlow<HomeUiState> = _state.asStateFlow()
 
-    init {
-        viewModelScope.launch {
-            _state.update {
-                it.copy(mediaPermissionGranted = permissionChecker.hasFullMediaAccess())
-            }
-            refresh()
-        }
-    }
-
     fun refresh() {
         viewModelScope.launch {
-            _state.update { it.copy(loading = true, mediaPermissionGranted = permissionChecker.hasFullMediaAccess()) }
+            val full = permissionChecker.hasFullMediaAccess()
+            val partial = permissionChecker.hasPartialMediaAccess()
+            _state.update {
+                it.copy(
+                    loading = true,
+                    mediaPermissionGranted = full || partial,
+                    partialMediaAccess = partial && !full
+                )
+            }
             val stats = runCatching { mediaRepository.storageStats() }.getOrNull()
             _state.update {
-                it.copy(loading = false, storage = stats)
+                it.copy(
+                    loading = false,
+                    storage = stats,
+                    largeFilesBadge = stats?.largeFilesBytes?.takeIf { b -> b > 0L }?.let(FormatUtils::bytesShort),
+                    screenshotsBadge = stats?.screenshotBytes?.takeIf { b -> b > 0L }?.let(FormatUtils::bytesShort),
+                    photoOptimizerBadge = stats?.photoOptimizerCount?.takeIf { c -> c > 0 }?.let(FormatUtils::count),
+                    videoOptimizerBadge = stats?.videoOptimizerCount?.takeIf { c -> c > 0 }?.let(FormatUtils::count)
+                )
             }
         }
     }
@@ -60,7 +70,6 @@ class HomeViewModel @Inject constructor(
     }
 
     fun onPermissionsResult(granted: Boolean) {
-        _state.update { it.copy(mediaPermissionGranted = granted) }
         refresh()
     }
 
@@ -78,28 +87,49 @@ class HomeViewModel @Inject constructor(
             _state.update {
                 it.copy(cleanUpSheetVisible = false, scanning = true, scanProgress = 0f)
             }
-
-            val result: CleanupResult = runCatching {
-                val cacheFreed = mediaRepository.clearAppCache()
-                val deleteResult = mediaRepository.deleteMedia(emptyList())
-                deleteResult.copy(cacheClearedBytes = cacheFreed)
-            }.getOrElse {
-                CleanupResult(0, 0L, 0L, System.currentTimeMillis())
+            cleanupBefore = runCatching { mediaRepository.storageStats() }.getOrNull()
+            val sender = runCatching {
+                mediaRepository.buildDeleteRequest(mediaRepository.trashedUris())
+            }.getOrNull()
+            if (sender != null) {
+                _state.update { it.copy(deleteRequest = IntentSenderRequest.Builder(sender).build()) }
+            } else {
+                finishCleanUp()
             }
-
-            _state.update {
-                it.copy(
-                    scanning = false,
-                    scanProgress = 1f,
-                    cleanUpResultVisible = true,
-                    lastCleanupResult = CleanUpSummary(
-                        itemCount = result.deletedItemCount,
-                        freedBytes = result.totalFreedBytes
-                    )
-                )
-            }
-            refresh()
         }
+    }
+
+    fun onDeleteRequestLaunched() {
+        _state.update { it.copy(deleteRequest = null) }
+    }
+
+    fun onDeleteDialogClosed() {
+        viewModelScope.launch { finishCleanUp() }
+    }
+
+    private suspend fun finishCleanUp() {
+        val before = cleanupBefore
+        val cacheFreed = runCatching { mediaRepository.clearAppCache() }.getOrDefault(0L)
+        val after = runCatching { mediaRepository.storageStats() }.getOrNull()
+        val trashFreed = if (before != null && after != null) {
+            (before.trashBytes - after.trashBytes).coerceAtLeast(0L)
+        } else 0L
+        val removed = if (before != null && after != null) {
+            (before.trashCount - after.trashCount).coerceAtLeast(0)
+        } else 0
+        cleanupBefore = null
+        _state.update {
+            it.copy(
+                scanning = false,
+                scanProgress = 1f,
+                cleanUpResultVisible = true,
+                lastCleanupResult = CleanUpSummary(
+                    itemCount = removed,
+                    freedBytes = trashFreed + cacheFreed
+                )
+            )
+        }
+        refresh()
     }
 
     fun onResultDismissed() {

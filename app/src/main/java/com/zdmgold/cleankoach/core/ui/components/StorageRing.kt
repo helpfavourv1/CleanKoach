@@ -19,6 +19,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
@@ -32,7 +33,8 @@ fun StorageRing(
     caption: String = "Trash size",
     subline: String? = null,
     size: Dp = 220.dp,
-    strokeWidth: Dp = 16.dp
+    strokeWidth: Dp = 16.dp,
+    valueStyle: TextStyle = MaterialTheme.typography.headlineLarge
 ) {
     val targetProgress = progress ?: 0f
     val animatedProgress by animateFloatAsState(
@@ -86,7 +88,7 @@ fun StorageRing(
             ) {
                 Text(
                     text = valueText,
-                    style = MaterialTheme.typography.headlineLarge,
+                    style = valueStyle,
                     fontWeight = FontWeight.W600,
                     color = MaterialTheme.colorScheme.onBackground
                 )

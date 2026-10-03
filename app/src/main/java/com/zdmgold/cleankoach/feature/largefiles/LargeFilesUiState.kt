@@ -1,12 +1,14 @@
 package com.zdmgold.cleankoach.feature.largefiles
 
+import androidx.activity.result.IntentSenderRequest
 import com.zdmgold.cleankoach.core.domain.model.MediaItem
 
 data class LargeFilesUiState(
     val loading: Boolean = true,
     val items: List<MediaItem> = emptyList(),
     val selectedIds: Set<Long> = emptySet(),
-    val permissionGranted: Boolean = true
+    val permissionGranted: Boolean = true,
+    val deleteRequest: IntentSenderRequest? = null
 ) {
     val selectionCount: Int get() = selectedIds.size
     val selectedBytes: Long

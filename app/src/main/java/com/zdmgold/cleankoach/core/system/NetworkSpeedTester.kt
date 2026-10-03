@@ -5,6 +5,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
+import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.URL
 import javax.inject.Inject
@@ -38,6 +39,8 @@ class NetworkSpeedTester @Inject constructor() {
             }
             conn.disconnect()
         }
+
+        if (bytesRead == 0L) throw IOException("No data received")
 
         val elapsedMs = (System.currentTimeMillis() - start).coerceAtLeast(1L)
         val mbps = if (bytesRead > 0) {

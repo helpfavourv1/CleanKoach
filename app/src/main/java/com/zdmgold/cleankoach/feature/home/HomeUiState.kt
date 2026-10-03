@@ -1,5 +1,6 @@
 package com.zdmgold.cleankoach.feature.home
 
+import androidx.activity.result.IntentSenderRequest
 import androidx.annotation.StringRes
 import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.domain.model.StorageStats
@@ -11,7 +12,8 @@ data class HomeUiState(
     val storage: StorageStats? = null,
     val mediaPermissionGranted: Boolean = false,
     val partialMediaAccess: Boolean = false,
-    val adVisible: Boolean = true,
+    val adVisible: Boolean = false,
+    val deleteRequest: IntentSenderRequest? = null,
     val largeFilesBadge: String? = null,
     val duplicatesBadge: String? = null,
     val similarBadge: String? = null,
@@ -25,6 +27,9 @@ data class HomeUiState(
 ) {
     val cleanUpEnabled: Boolean
         get() = !scanning && (storage?.totalReclaimableBytes ?: 0L) > 0L
+
+    val cleanUpButtonEnabled: Boolean
+        get() = if (mediaPermissionGranted) cleanUpEnabled else !scanning
 
     @get:StringRes
     val cleanUpLabelRes: Int

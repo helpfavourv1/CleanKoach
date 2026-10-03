@@ -44,7 +44,7 @@ fun ToolCard(
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(14.dp)
+                .padding(10.dp)
         ) {
             Row(
                 modifier = Modifier.fillMaxWidth(),
@@ -52,7 +52,7 @@ fun ToolCard(
             ) {
                 Box(
                     modifier = Modifier
-                        .size(36.dp)
+                        .size(32.dp)
                         .background(
                             color = iconContainerColor,
                             shape = RoundedCornerShape(10.dp)
@@ -72,7 +72,7 @@ fun ToolCard(
                 }
             }
 
-            Spacer(Modifier.size(10.dp))
+            Spacer(Modifier.size(8.dp))
 
             Text(
                 text = title,
@@ -86,6 +86,7 @@ fun ToolCard(
             Text(
                 text = description,
                 style = MaterialTheme.typography.bodySmall,
+                maxLines = 2,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
         }

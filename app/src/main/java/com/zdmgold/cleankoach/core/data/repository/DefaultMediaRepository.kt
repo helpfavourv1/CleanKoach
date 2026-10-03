@@ -1,6 +1,7 @@
 package com.zdmgold.cleankoach.core.data.repository
 
 import android.content.Context
+import android.content.IntentSender
 import android.net.Uri
 import android.os.Build
 import android.os.storage.StorageManager
@@ -10,8 +11,10 @@ import com.zdmgold.cleankoach.core.data.db.entity.MediaHashEntity
 import com.zdmgold.cleankoach.core.domain.model.CleanupResult
 import com.zdmgold.cleankoach.core.domain.model.DuplicateGroup
 import com.zdmgold.cleankoach.core.domain.model.MediaItem
+import com.zdmgold.cleankoach.core.domain.model.MediaKind
 import com.zdmgold.cleankoach.core.domain.model.SimilarGroup
 import com.zdmgold.cleankoach.core.domain.model.StorageStats
+import com.zdmgold.cleankoach.core.media.SampledBitmap
 import com.zdmgold.cleankoach.core.media.CacheCleaner
 import com.zdmgold.cleankoach.core.media.DHashCalculator
 import com.zdmgold.cleankoach.core.media.DuplicateGrouper
@@ -44,6 +47,12 @@ class DefaultMediaRepository @Inject constructor(
 ) : MediaRepository {
 
     private val progress = MutableStateFlow(0f)
+
+    private companion object {
+        const val LARGE_FILE_BYTES = 50L * 1024L * 1024L
+        const val PHOTO_OPTIMIZER_BYTES = 1L * 1024L * 1024L
+        const val VIDEO_OPTIMIZER_BYTES = 20L * 1024L * 1024L
+    }
 
     override suspend fun scanLargeFiles(limit: Int): List<MediaItem> = withContext(Dispatchers.IO) {
         scanner.scan()
@@ -139,14 +148,26 @@ class DefaultMediaRepository @Inject constructor(
         val total = runCatching { statsManager.getTotalBytes(uuid) }.getOrDefault(0L)
         val free = runCatching { statsManager.getFreeBytes(uuid) }.getOrDefault(0L)
         val used = (total - free).coerceAtLeast(0L)
-        val trashBytes = runCatching { scanner.trashedBytes() }.getOrDefault(0L)
+        val trashed = runCatching { scanner.trashedItems() }.getOrDefault(emptyList())
         val cacheBytes = cacheCleaner.cacheSizeBytes()
+        val library = runCatching { scanner.scan().filter { !it.isTrashed } }.getOrDefault(emptyList())
 
         StorageStats(
             usedBytes = used,
             totalBytes = total,
-            trashBytes = trashBytes,
-            cacheBytes = cacheBytes
+            trashBytes = trashed.sumOf { it.second },
+            cacheBytes = cacheBytes,
+            trashCount = trashed.size,
+            screenshotBytes = library
+                .filter { it.kind == MediaKind.IMAGE && scanner.isScreenshot(it) }
+                .sumOf { it.sizeBytes },
+            largeFilesBytes = library
+                .filter { it.sizeBytes >= LARGE_FILE_BYTES }
+                .sumOf { it.sizeBytes },
+            photoOptimizerCount = library
+                .count { it.kind == MediaKind.IMAGE && it.sizeBytes >= PHOTO_OPTIMIZER_BYTES },
+            videoOptimizerCount = library
+                .count { it.kind == MediaKind.VIDEO && it.sizeBytes >= VIDEO_OPTIMIZER_BYTES }
         )
     }
 
@@ -182,6 +203,13 @@ class DefaultMediaRepository @Inject constructor(
         cacheCleaner.clear()
     }
 
+    override suspend fun trashedUris(): List<Uri> = withContext(Dispatchers.IO) {
+        runCatching { scanner.trashedItems().map { it.first } }.getOrDefault(emptyList())
+    }
+
+    override fun buildDeleteRequest(uris: List<Uri>): IntentSender? =
+        if (uris.isEmpty()) null else runCatching { trashManager.buildDeleteRequest(uris) }.getOrNull()
+
     override fun observeScanProgress(): Flow<Float> = progress
 
     private fun computeHash(item: MediaItem): MediaHashEntity? {
@@ -194,9 +222,7 @@ class DefaultMediaRepository @Inject constructor(
         }
         val sharpness = if (item.mimeType.startsWith("image/")) {
             runCatching {
-                val bitmap = context.contentResolver.openInputStream(uri)?.use {
-                    android.graphics.BitmapFactory.decodeStream(it)
-                }
+                val bitmap = SampledBitmap.decode(context, uri, 512)
                 bitmap?.let {
                     val score = laplacianSharpness.compute(it)
                     it.recycle()

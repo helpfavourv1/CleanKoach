@@ -3,6 +3,7 @@ package com.zdmgold.cleankoach.core.system
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
+import android.net.wifi.WifiInfo
 import android.net.wifi.WifiManager
 import android.os.Build
 import com.zdmgold.cleankoach.core.domain.model.SecurityVerdict
@@ -10,14 +11,17 @@ import com.zdmgold.cleankoach.core.domain.model.WifiSecurityReport
 import dagger.hilt.android.qualifiers.ApplicationContext
 import java.net.Proxy
 import java.net.URL
+import java.security.KeyStore
+import java.security.cert.CertPathValidator
+import java.security.cert.CertPathValidatorException
+import java.security.cert.CertificateFactory
+import java.security.cert.PKIXParameters
+import java.security.cert.TrustAnchor
 import java.security.cert.X509Certificate
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 import javax.inject.Singleton
 import javax.net.ssl.HttpsURLConnection
-import javax.net.ssl.SSLContext
-import javax.net.ssl.TrustManagerFactory
-import javax.net.ssl.X509TrustManager
 
 @Singleton
 class WifiSecurityInspector @Inject constructor(
@@ -56,13 +60,12 @@ class WifiSecurityInspector @Inject constructor(
 
         return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             when (info.currentSecurityType) {
-                1 -> "Open"
-                2 -> "WEP"
-                4 -> "WPA"
-                5 -> "WPA2"
-                6 -> "WPA3"
-                7 -> "WPA3-Transition"
-                8 -> "WPA3-SAE"
+                WifiInfo.SECURITY_TYPE_OPEN -> "Open"
+                WifiInfo.SECURITY_TYPE_WEP -> "WEP"
+                WifiInfo.SECURITY_TYPE_PSK -> "WPA/WPA2"
+                WifiInfo.SECURITY_TYPE_EAP -> "WPA-Enterprise"
+                WifiInfo.SECURITY_TYPE_SAE -> "WPA3"
+                WifiInfo.SECURITY_TYPE_OWE -> "Enhanced Open"
                 else -> "unavailable on this device"
             }
         } else {
@@ -86,11 +89,20 @@ class WifiSecurityInspector @Inject constructor(
             if (certs.isEmpty()) return SecurityVerdict.UNAVAILABLE
 
             val anchors = systemTrustAnchors()
-            val intercepting = certs.any { cert ->
-                cert is X509Certificate && !isTrustedBySystem(cert, anchors)
+            val chain = certs.filterIsInstance<X509Certificate>()
+                .filterIndexed { index, cert -> index == 0 || cert.subjectX500Principal != cert.issuerX500Principal }
+            if (chain.isEmpty() || anchors.isEmpty()) return SecurityVerdict.UNAVAILABLE
+
+            val trusted = try {
+                val path = CertificateFactory.getInstance("X.509").generateCertPath(chain)
+                val params = PKIXParameters(anchors).apply { isRevocationEnabled = false }
+                CertPathValidator.getInstance("PKIX").validate(path, params)
+                true
+            } catch (e: CertPathValidatorException) {
+                false
             }
 
-            if (intercepting) SecurityVerdict.DETECTED else SecurityVerdict.SECURE
+            if (trusted) SecurityVerdict.SECURE else SecurityVerdict.DETECTED
         }.getOrDefault(SecurityVerdict.UNAVAILABLE)
     }
 
@@ -110,21 +122,14 @@ class WifiSecurityInspector @Inject constructor(
         }.getOrDefault(false)
     }
 
-    private fun systemTrustAnchors(): Array<X509Certificate> {
+    private fun systemTrustAnchors(): Set<TrustAnchor> {
         return runCatching {
-            val tmf = TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm())
-            tmf.init(null as java.security.KeyStore?)
-            tmf.trustManagers
-                .filterIsInstance<X509TrustManager>()
-                .firstOrNull()
-                ?.acceptedIssuers
-                ?: emptyArray()
-        }.getOrDefault(emptyArray())
-    }
-
-    private fun isTrustedBySystem(cert: X509Certificate, anchors: Array<X509Certificate>): Boolean {
-        return anchors.any { anchor ->
-            runCatching { cert.verify(anchor.publicKey); true }.getOrDefault(false)
-        }
+            val store = KeyStore.getInstance("AndroidCAStore")
+            store.load(null, null)
+            store.aliases().toList()
+                .filter { it.startsWith("system:") }
+                .mapNotNull { alias -> (store.getCertificate(alias) as? X509Certificate)?.let { TrustAnchor(it, null) } }
+                .toSet()
+        }.getOrDefault(emptySet())
     }
 }

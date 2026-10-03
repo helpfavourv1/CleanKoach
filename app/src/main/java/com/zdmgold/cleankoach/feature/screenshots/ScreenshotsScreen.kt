@@ -1,5 +1,7 @@
 package com.zdmgold.cleankoach.feature.screenshots
 
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -22,6 +24,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -43,6 +46,19 @@ fun ScreenshotsScreen(
     viewModel: ScreenshotsViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+
+    val deleteLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.StartIntentSenderForResult()
+    ) {
+        viewModel.onDeleteDialogClosed()
+    }
+
+    LaunchedEffect(state.deleteRequest) {
+        state.deleteRequest?.let {
+            deleteLauncher.launch(it)
+            viewModel.onDeleteRequestLaunched()
+        }
+    }
 
     Surface(
         modifier = modifier.fillMaxSize(),

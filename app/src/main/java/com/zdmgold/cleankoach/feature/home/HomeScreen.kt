@@ -3,7 +3,6 @@ package com.zdmgold.cleankoach.feature.home
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -33,6 +32,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -41,10 +41,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.media.MediaPermissions
-import com.zdmgold.cleankoach.core.ui.components.AdBannerPlaceholder
 import com.zdmgold.cleankoach.core.ui.components.PhoneToolCard
 import com.zdmgold.cleankoach.core.ui.components.PrimaryButton
 import com.zdmgold.cleankoach.core.ui.components.SectionHeader
@@ -84,6 +85,23 @@ fun HomeScreen(
         viewModel.onPermissionsResult(granted)
     }
 
+    val deleteLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.StartIntentSenderForResult()
+    ) {
+        viewModel.onDeleteDialogClosed()
+    }
+
+    LaunchedEffect(state.deleteRequest) {
+        state.deleteRequest?.let {
+            deleteLauncher.launch(it)
+            viewModel.onDeleteRequestLaunched()
+        }
+    }
+
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
+        viewModel.refresh()
+    }
+
     val media = mediaTint()
     val optimizer = optimizerTint()
     val tools = toolsTint()
@@ -107,6 +125,7 @@ fun HomeScreen(
             modifier = Modifier
                 .fillMaxSize()
                 .statusBarsPadding()
+                .navigationBarsPadding()
                 .padding(horizontal = 16.dp)
         ) {
             Spacer(Modifier.height(8.dp))
@@ -127,87 +146,51 @@ fun HomeScreen(
 
             Spacer(Modifier.height(4.dp))
 
-            SectionHeader(
-                text = stringResource(R.string.home_section_phone_tools),
-                padding = PaddingValues(horizontal = 4.dp, vertical = 6.dp)
-            )
-
-            Row(
+            Surface(
                 modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.spacedBy(10.dp),
-                verticalAlignment = Alignment.Top
+                shape = MaterialTheme.shapes.large,
+                color = MaterialTheme.colorScheme.surface
             ) {
-                PhoneToolCard(
-                    title = stringResource(R.string.tool_activity_monitor_title),
-                    icon = Icons.AutoMirrored.Filled.List,
-                    iconContainerColor = tools.container,
-                    iconContentColor = tools.content,
-                    badge = stringResource(R.string.tool_activity_monitor_badge),
-                    onClick = onOpenActivityMonitor,
-                    modifier = Modifier.weight(1f)
-                )
-                PhoneToolCard(
-                    title = stringResource(R.string.tool_wifi_security_title),
-                    icon = Icons.Filled.Lock,
-                    iconContainerColor = tools.container,
-                    iconContentColor = tools.content,
-                    badge = stringResource(R.string.tool_wifi_security_badge),
-                    onClick = onOpenWifiSecurity,
-                    modifier = Modifier.weight(1f)
-                )
-                PhoneToolCard(
-                    title = stringResource(R.string.tool_network_speed_title),
-                    icon = Icons.Filled.Refresh,
-                    iconContainerColor = tools.container,
-                    iconContentColor = tools.content,
-                    badge = stringResource(R.string.tool_network_speed_badge),
-                    onClick = onOpenNetworkSpeed,
-                    modifier = Modifier.weight(1f)
-                )
-            }
-
-            Spacer(Modifier.height(10.dp))
-
-            Box(
-                modifier = Modifier.fillMaxWidth(),
-                contentAlignment = Alignment.Center
-            ) {
-                StorageRing(
-                    valueText = ringValue,
-                    progress = if (state.scanning) state.scanProgress else null,
-                    caption = stringResource(R.string.home_ring_caption),
-                    subline = null,
-                    size = 220.dp,
-                    strokeWidth = 16.dp
-                )
-            }
-
-            Spacer(Modifier.height(6.dp))
-
-            Text(
-                text = storageLine,
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.fillMaxWidth(),
-                textAlign = TextAlign.Center
-            )
-
-            Spacer(Modifier.height(14.dp))
-
-            PrimaryButton(
-                text = stringResource(state.cleanUpLabelRes),
-                onClick = {
-                    if (!state.mediaPermissionGranted) {
-                        viewModel.showDisclosure()
-                    } else {
-                        viewModel.onCleanUpPressed()
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(12.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(14.dp)
+                ) {
+                    StorageRing(
+                        valueText = ringValue,
+                        progress = if (state.scanning) state.scanProgress else null,
+                        caption = stringResource(R.string.home_ring_caption),
+                        subline = null,
+                        size = 104.dp,
+                        strokeWidth = 10.dp,
+                        valueStyle = MaterialTheme.typography.titleLarge
+                    )
+                    Column(modifier = Modifier.weight(1f)) {
+                        Text(
+                            text = storageLine,
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                        Spacer(Modifier.height(10.dp))
+                        PrimaryButton(
+                            text = stringResource(state.cleanUpLabelRes),
+                            onClick = {
+                                if (!state.mediaPermissionGranted) {
+                                    viewModel.showDisclosure()
+                                } else {
+                                    viewModel.onCleanUpPressed()
+                                }
+                            },
+                            enabled = state.cleanUpButtonEnabled,
+                            loading = state.scanning
+                        )
                     }
-                },
-                enabled = state.mediaPermissionGranted || !state.scanning,
-                loading = state.scanning
-            )
+                }
+            }
 
-            Spacer(Modifier.height(6.dp))
+            Spacer(Modifier.height(8.dp))
 
             Column(
                 modifier = Modifier
@@ -217,12 +200,12 @@ fun HomeScreen(
             ) {
                 SectionHeader(
                     text = stringResource(R.string.home_section_photos_videos),
-                    padding = PaddingValues(horizontal = 4.dp, vertical = 10.dp)
+                    padding = PaddingValues(horizontal = 4.dp, vertical = 6.dp)
                 )
 
                 Row(
                     modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(10.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
                     verticalAlignment = Alignment.Top
                 ) {
                     ToolCard(
@@ -247,11 +230,11 @@ fun HomeScreen(
                     )
                 }
 
-                Spacer(Modifier.height(10.dp))
+                Spacer(Modifier.height(8.dp))
 
                 Row(
                     modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(10.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
                     verticalAlignment = Alignment.Top
                 ) {
                     ToolCard(
@@ -276,11 +259,11 @@ fun HomeScreen(
                     )
                 }
 
-                Spacer(Modifier.height(10.dp))
+                Spacer(Modifier.height(8.dp))
 
                 Row(
                     modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(10.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
                     verticalAlignment = Alignment.Top
                 ) {
                     ToolCard(
@@ -305,15 +288,47 @@ fun HomeScreen(
                     )
                 }
 
-                Spacer(Modifier.height(16.dp))
+                SectionHeader(
+                    text = stringResource(R.string.home_section_phone_tools),
+                    padding = PaddingValues(horizontal = 4.dp, vertical = 6.dp)
+                )
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalAlignment = Alignment.Top
+                ) {
+                    PhoneToolCard(
+                        title = stringResource(R.string.tool_activity_monitor_title),
+                        icon = Icons.AutoMirrored.Filled.List,
+                        iconContainerColor = tools.container,
+                        iconContentColor = tools.content,
+                        badge = stringResource(R.string.tool_activity_monitor_badge),
+                        onClick = onOpenActivityMonitor,
+                        modifier = Modifier.weight(1f)
+                    )
+                    PhoneToolCard(
+                        title = stringResource(R.string.tool_wifi_security_title),
+                        icon = Icons.Filled.Lock,
+                        iconContainerColor = tools.container,
+                        iconContentColor = tools.content,
+                        badge = stringResource(R.string.tool_wifi_security_badge),
+                        onClick = onOpenWifiSecurity,
+                        modifier = Modifier.weight(1f)
+                    )
+                    PhoneToolCard(
+                        title = stringResource(R.string.tool_network_speed_title),
+                        icon = Icons.Filled.Refresh,
+                        iconContainerColor = tools.container,
+                        iconContentColor = tools.content,
+                        badge = stringResource(R.string.tool_network_speed_badge),
+                        onClick = onOpenNetworkSpeed,
+                        modifier = Modifier.weight(1f)
+                    )
+                }
+
+                Spacer(Modifier.height(8.dp))
             }
-
-            AdBannerPlaceholder(
-                visible = state.adVisible,
-                modifier = Modifier.navigationBarsPadding()
-            )
-
-            Spacer(Modifier.height(4.dp))
         }
 
         if (state.cleanUpSheetVisible) {
@@ -322,7 +337,7 @@ fun HomeScreen(
                 sheetState = rememberModalBottomSheetState()
             ) {
                 CleanUpConfirmSheet(
-                    itemCount = 0,
+                    itemCount = state.storage?.trashCount ?: 0,
                     sizeBytes = state.storage?.totalReclaimableBytes ?: 0L,
                     onConfirm = viewModel::onCleanUpConfirmed,
                     onCancel = viewModel::onCleanUpCancelled

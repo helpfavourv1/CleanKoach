@@ -28,12 +28,14 @@ class MediaStoreScanner @Inject constructor(
     fun scanVideos(): List<MediaItem> = queryVideos()
 
     fun scanScreenshots(): List<MediaItem> =
-        queryImages().filter { item ->
-            val path = item.relativePath ?: ""
-            path.contains("Screenshot", ignoreCase = true) ||
-                item.displayName.contains("Screenshot", ignoreCase = true) ||
-                item.displayName.contains("screenshot", ignoreCase = true)
-        }
+        queryImages().filter { isScreenshot(it) }
+
+    fun isScreenshot(item: MediaItem): Boolean {
+        val path = item.relativePath ?: ""
+        return path.contains("Screenshot", ignoreCase = true) ||
+            item.displayName.contains("Screenshot", ignoreCase = true) ||
+            item.displayName.contains("screenshot", ignoreCase = true)
+    }
 
     private fun queryImages(): List<MediaItem> {
         val projection = arrayOf(
@@ -210,6 +212,36 @@ class MediaStoreScanner @Inject constructor(
         return items
     }
 
-    fun trashedBytes(): Long =
-        scan().filter { it.isTrashed }.sumOf { it.sizeBytes }
+    // MediaStore hides trashed items from every query unless MATCH_ONLY / MATCH_INCLUDE is requested,
+    // so the regular scan() can never see them. Returns (uri, sizeBytes) for each trashed item.
+    fun trashedItems(): List<Pair<Uri, Long>> {
+        if (android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.R) return emptyList()
+        val collections = listOf(
+            MediaStore.Images.Media.getContentUri(MediaStore.VOLUME_EXTERNAL),
+            MediaStore.Video.Media.getContentUri(MediaStore.VOLUME_EXTERNAL),
+            MediaStore.Audio.Media.getContentUri(MediaStore.VOLUME_EXTERNAL)
+        )
+        val args = android.os.Bundle().apply {
+            putInt(MediaStore.QUERY_ARG_MATCH_TRASHED, MediaStore.MATCH_ONLY)
+        }
+        val results = mutableListOf<Pair<Uri, Long>>()
+        collections.forEach { collection ->
+            context.contentResolver.query(
+                collection,
+                arrayOf(MediaStore.MediaColumns._ID, MediaStore.MediaColumns.SIZE),
+                args,
+                null
+            )?.use { cursor ->
+                val idCol = cursor.getColumnIndexOrThrow(MediaStore.MediaColumns._ID)
+                val sizeCol = cursor.getColumnIndexOrThrow(MediaStore.MediaColumns.SIZE)
+                while (cursor.moveToNext()) {
+                    results += ContentUris.withAppendedId(collection, cursor.getLong(idCol)) to
+                        cursor.getLong(sizeCol)
+                }
+            }
+        }
+        return results
+    }
+
+    fun trashedBytes(): Long = trashedItems().sumOf { it.second }
 }

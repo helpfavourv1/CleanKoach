@@ -4,6 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -41,31 +42,35 @@ fun PhoneToolCard(
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(12.dp)
+                .padding(10.dp)
         ) {
-            Box(
-                modifier = Modifier
-                    .size(32.dp)
-                    .background(
-                        color = iconContainerColor,
-                        shape = RoundedCornerShape(9.dp)
-                    ),
-                contentAlignment = Alignment.Center
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                verticalAlignment = Alignment.CenterVertically
             ) {
-                Icon(
-                    imageVector = icon,
-                    contentDescription = null,
-                    tint = iconContentColor,
-                    modifier = Modifier.size(18.dp)
-                )
+                Box(
+                    modifier = Modifier
+                        .size(30.dp)
+                        .background(
+                            color = iconContainerColor,
+                            shape = RoundedCornerShape(9.dp)
+                        ),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Icon(
+                        imageVector = icon,
+                        contentDescription = null,
+                        tint = iconContentColor,
+                        modifier = Modifier.size(18.dp)
+                    )
+                }
+                Spacer(Modifier.weight(1f))
+                if (badge != null) {
+                    Badge(text = badge)
+                }
             }
 
-            if (badge != null) {
-                Spacer(Modifier.size(8.dp))
-                Badge(text = badge)
-            }
-
-            Spacer(Modifier.size(10.dp))
+            Spacer(Modifier.size(8.dp))
 
             Text(
                 text = title,

@@ -14,9 +14,7 @@ class DHashCalculator @Inject constructor(
     @ApplicationContext private val context: Context
 ) {
     fun dhash(uri: Uri): Long? = runCatching {
-        val source = context.contentResolver.openInputStream(uri)?.use { input ->
-            android.graphics.BitmapFactory.decodeStream(input)
-        } ?: return null
+        val source = SampledBitmap.decode(context, uri, 512) ?: return null
 
         val small = source.scale(9, 8, true)
         val pixels = IntArray(9 * 8)

@@ -1,5 +1,10 @@
 package com.zdmgold.cleankoach.feature.settings
 
+import android.Manifest
+import android.content.pm.PackageManager
+import android.os.Build
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -15,11 +20,16 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.core.content.ContextCompat
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
@@ -31,6 +41,27 @@ fun NotificationsScreen(
     viewModel: SettingsViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val context = LocalContext.current
+    var pendingEnable by remember { mutableStateOf<(() -> Unit)?>(null) }
+    val notificationPermission = rememberLauncherForActivityResult(
+        ActivityResultContracts.RequestPermission()
+    ) { granted ->
+        if (granted) pendingEnable?.invoke()
+        pendingEnable = null
+    }
+    val toggle: (Boolean, (Boolean) -> Unit) -> Unit = { enabled, apply ->
+        val needsPermission = enabled &&
+            Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
+            ContextCompat.checkSelfPermission(
+                context, Manifest.permission.POST_NOTIFICATIONS
+            ) != PackageManager.PERMISSION_GRANTED
+        if (needsPermission) {
+            pendingEnable = { apply(true) }
+            notificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS)
+        } else {
+            apply(enabled)
+        }
+    }
 
     Surface(
         modifier = modifier.fillMaxSize(),
@@ -64,17 +95,17 @@ fun NotificationsScreen(
             SettingsRow(
                 label = stringResource(R.string.settings_notifications_allow),
                 switch = state.notificationsEnabled,
-                onSwitchChange = viewModel::setNotifications
+                onSwitchChange = { toggle(it, viewModel::setNotifications) }
             )
             SettingsRow(
                 label = stringResource(R.string.settings_notifications_weekly),
                 switch = state.notificationsEnabled,
-                onSwitchChange = { viewModel.setWeeklyReminder(it) }
+                onSwitchChange = { toggle(it, viewModel::setWeeklyReminder) }
             )
             SettingsRow(
                 label = stringResource(R.string.settings_notifications_storage),
                 switch = state.notificationsEnabled,
-                onSwitchChange = { viewModel.setStorageAlerts(it) }
+                onSwitchChange = { toggle(it, viewModel::setStorageAlerts) }
             )
         }
     }

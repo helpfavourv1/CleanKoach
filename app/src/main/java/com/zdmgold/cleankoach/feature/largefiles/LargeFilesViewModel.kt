@@ -1,5 +1,7 @@
 package com.zdmgold.cleankoach.feature.largefiles
 
+import android.net.Uri
+import androidx.activity.result.IntentSenderRequest
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.zdmgold.cleankoach.core.data.repository.MediaRepository
@@ -57,11 +59,27 @@ class LargeFilesViewModel @Inject constructor(
 
     fun delete() {
         viewModelScope.launch {
-            val ids = _state.value.selectedIds.toList()
-            if (ids.isEmpty()) return@launch
-            runCatching { mediaRepository.deleteMedia(ids) }
-            _state.update { it.copy(selectedIds = emptySet()) }
-            load()
+            val selected = _state.value.items.filter { it.id in _state.value.selectedIds }
+            if (selected.isEmpty()) return@launch
+            val sender = runCatching {
+                mediaRepository.buildDeleteRequest(selected.map { Uri.parse(it.uri) })
+            }.getOrNull()
+            if (sender != null) {
+                _state.update { it.copy(deleteRequest = IntentSenderRequest.Builder(sender).build()) }
+            } else {
+                runCatching { mediaRepository.deleteMedia(selected.map { it.id }) }
+                _state.update { it.copy(selectedIds = emptySet()) }
+                load()
+            }
         }
+    }
+
+    fun onDeleteRequestLaunched() {
+        _state.update { it.copy(deleteRequest = null) }
+    }
+
+    fun onDeleteDialogClosed() {
+        _state.update { it.copy(selectedIds = emptySet()) }
+        load()
     }
 }
