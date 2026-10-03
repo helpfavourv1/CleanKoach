@@ -25,10 +25,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.ui.components.DeterminateProgress
 import com.zdmgold.cleankoach.core.ui.components.EmptyState
 import com.zdmgold.cleankoach.core.ui.components.FullScreenLoading
@@ -60,18 +62,25 @@ fun PhotoOptimizerScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 IconButton(onClick = onBack) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                    Icon(
+                        Icons.AutoMirrored.Filled.ArrowBack,
+                        contentDescription = stringResource(R.string.cd_back)
+                    )
                 }
                 Column(modifier = Modifier.weight(1f)) {
                     Text(
-                        text = "Photo optimizer",
+                        text = stringResource(R.string.photo_optimizer_title),
                         style = MaterialTheme.typography.titleLarge,
                         fontWeight = FontWeight.W600,
                         color = MaterialTheme.colorScheme.onBackground
                     )
                     if (state.items.isNotEmpty()) {
                         Text(
-                            text = "${state.items.size} photos · ${FormatUtils.bytes(state.items.sumOf { it.sizeBytes })}",
+                            text = stringResource(
+                                R.string.photo_optimizer_count_line,
+                                state.items.size,
+                                FormatUtils.bytes(state.items.sumOf { it.sizeBytes })
+                            ),
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
@@ -79,15 +88,26 @@ fun PhotoOptimizerScreen(
                 }
                 if (state.items.isNotEmpty()) {
                     TextButton(onClick = viewModel::toggleAll) {
-                        Text(if (state.allSelected) "Clear" else "All")
+                        Text(
+                            text = if (state.allSelected) stringResource(R.string.action_clear)
+                            else stringResource(R.string.action_all)
+                        )
                     }
                 }
             }
 
             if (state.processing) {
-                Column(modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp)) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp)
+                ) {
                     Text(
-                        text = "Optimizing ${state.processed} of ${state.totalToProcess}",
+                        text = stringResource(
+                            R.string.photo_optimizer_optimizing,
+                            state.processed,
+                            state.totalToProcess
+                        ),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
@@ -95,7 +115,10 @@ fun PhotoOptimizerScreen(
                     DeterminateProgress(progress = state.progress)
                     Spacer(Modifier.height(6.dp))
                     Text(
-                        text = "Saved so far: ${FormatUtils.bytes(state.totalSavedBytes)}",
+                        text = stringResource(
+                            R.string.photo_optimizer_saved_so_far,
+                            FormatUtils.bytes(state.totalSavedBytes)
+                        ),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.primary
                     )
@@ -103,7 +126,9 @@ fun PhotoOptimizerScreen(
                 }
             } else if (state.lastRunSummary != null) {
                 Surface(
-                    modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 8.dp),
                     color = MaterialTheme.colorScheme.primaryContainer,
                     shape = MaterialTheme.shapes.medium
                 ) {
@@ -120,8 +145,8 @@ fun PhotoOptimizerScreen(
                 FullScreenLoading()
             } else if (state.items.isEmpty()) {
                 EmptyState(
-                    title = "No photos to optimize",
-                    message = "Nothing large enough to bother compressing.",
+                    title = stringResource(R.string.photo_optimizer_empty_title),
+                    message = stringResource(R.string.photo_optimizer_empty_message),
                     icon = Icons.Filled.Create
                 )
             } else {
@@ -147,7 +172,10 @@ fun PhotoOptimizerScreen(
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
                             Text(
-                                text = "${state.selectionCount} selected",
+                                text = stringResource(
+                                    R.string.photo_optimizer_selected_line,
+                                    state.selectionCount
+                                ),
                                 style = MaterialTheme.typography.bodySmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
                             )
@@ -159,7 +187,10 @@ fun PhotoOptimizerScreen(
                         }
                         Spacer(Modifier.height(8.dp))
                         PrimaryButton(
-                            text = if (state.processing) "Optimizing…" else "Optimize selected",
+                            text = stringResource(
+                                if (state.processing) R.string.photo_optimizer_button_optimizing
+                                else R.string.photo_optimizer_button_optimize
+                            ),
                             onClick = viewModel::run,
                             enabled = state.canRun,
                             loading = state.processing
