@@ -5,5 +5,8 @@ data class SettingsUiState(
     val language: String = "system",
     val notificationsEnabled: Boolean = false,
     val proEntitled: Boolean = false,
+    val proPrice: String? = null,
+    val proPending: Boolean = false,
+    val proUnavailable: Boolean = false,
     val appVersion: String = ""
 )

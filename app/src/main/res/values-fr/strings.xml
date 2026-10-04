@@ -214,4 +214,7 @@
     <string name="toast_no_mail">Aucune application de messagerie trouvée sur cet appareil.</string>
     <string name="support_mail_subject">Assistance CleanKoach (v%1$s)</string>
     <string name="support_mail_body">Version d’Android : %1$s\nAppareil : %2$s\n\nDécrivez votre problème ci-dessous :\n\n</string>
+    <string name="pro_unavailable">Indisponible pour le moment</string>
+    <string name="pro_pending">Votre paiement est en attente. Pro sera activé dès qu’il sera finalisé.</string>
+    <string name="pro_button_upgrade_price">Passer à Pro pour %1$s</string>
 </resources>

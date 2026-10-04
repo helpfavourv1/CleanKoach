@@ -18,6 +18,10 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
+import androidx.compose.ui.platform.LocalContext
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -28,6 +32,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.ui.components.PrimaryButton
+import com.zdmgold.cleankoach.core.util.ExternalActions
 
 @Composable
 fun ProScreen(
@@ -36,6 +41,10 @@ fun ProScreen(
     viewModel: SettingsViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val context = LocalContext.current
+    val activity = remember(context) { with(ExternalActions) { context.findActivity() } }
+
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.refreshBilling() }
 
     Surface(
         modifier = modifier.fillMaxSize(),
@@ -104,9 +113,28 @@ fun ProScreen(
                     )
                     Spacer(Modifier.height(32.dp))
                     PrimaryButton(
-                        text = stringResource(R.string.pro_button_upgrade),
-                        onClick = viewModel::launchPurchase
+                        text = state.proPrice?.let { stringResource(R.string.pro_button_upgrade_price, it) }
+                            ?: stringResource(R.string.pro_button_upgrade),
+                        onClick = { activity?.let(viewModel::launchPurchase) }
                     )
+                    if (state.proUnavailable) {
+                        Spacer(Modifier.height(10.dp))
+                        Text(
+                            text = stringResource(R.string.pro_unavailable),
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.error,
+                            textAlign = TextAlign.Center
+                        )
+                    }
+                    if (state.proPending) {
+                        Spacer(Modifier.height(10.dp))
+                        Text(
+                            text = stringResource(R.string.pro_pending),
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            textAlign = TextAlign.Center
+                        )
+                    }
                     Spacer(Modifier.height(12.dp))
                     PrimaryButton(
                         text = stringResource(R.string.pro_button_restore),

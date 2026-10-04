@@ -1,5 +1,6 @@
 package com.zdmgold.cleankoach.feature.settings
 
+import android.app.Activity
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.zdmgold.cleankoach.core.data.repository.BillingRepository
@@ -24,6 +25,7 @@ class SettingsViewModel @Inject constructor(
 
     init {
         observe()
+        refreshBilling()
     }
 
     fun setTheme(theme: String) {
@@ -57,8 +59,15 @@ class SettingsViewModel @Inject constructor(
         }
     }
 
-    fun launchPurchase() {
-        viewModelScope.launch { billingRepository.launchPurchase() }
+    fun launchPurchase(activity: Activity) {
+        viewModelScope.launch {
+            val opened = billingRepository.launchPurchase(activity)
+            _state.update { it.copy(proUnavailable = !opened) }
+        }
+    }
+
+    fun refreshBilling() {
+        viewModelScope.launch { billingRepository.refresh() }
     }
 
     fun restorePurchase() {
@@ -84,6 +93,16 @@ class SettingsViewModel @Inject constructor(
         viewModelScope.launch {
             billingRepository.proEntitled.collect { value ->
                 _state.update { it.copy(proEntitled = value) }
+            }
+        }
+        viewModelScope.launch {
+            billingRepository.proPrice.collect { value ->
+                _state.update { it.copy(proPrice = value, proUnavailable = false) }
+            }
+        }
+        viewModelScope.launch {
+            billingRepository.purchasePending.collect { value ->
+                _state.update { it.copy(proPending = value) }
             }
         }
     }

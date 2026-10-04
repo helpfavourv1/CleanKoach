@@ -214,4 +214,7 @@
     <string name="toast_no_mail">この端末にメールアプリが見つかりません。</string>
     <string name="support_mail_subject">CleanKoach サポート (v%1$s)</string>
     <string name="support_mail_body">Android バージョン: %1$s\n端末: %2$s\n\n問題の内容を以下にご記入ください:\n\n</string>
+    <string name="pro_unavailable">現在ご利用いただけません</string>
+    <string name="pro_pending">お支払いは保留中です。完了するとすぐに Pro が有効になります。</string>
+    <string name="pro_button_upgrade_price">%1$s でアップグレード</string>
 </resources>

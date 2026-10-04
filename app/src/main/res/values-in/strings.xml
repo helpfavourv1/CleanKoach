@@ -214,4 +214,7 @@
     <string name="toast_no_mail">Tidak ada aplikasi email di perangkat ini.</string>
     <string name="support_mail_subject">Dukungan CleanKoach (v%1$s)</string>
     <string name="support_mail_body">Versi Android: %1$s\nPerangkat: %2$s\n\nJelaskan masalah Anda di bawah ini:\n\n</string>
+    <string name="pro_unavailable">Belum tersedia saat ini</string>
+    <string name="pro_pending">Pembayaran Anda sedang tertunda. Pro akan aktif begitu pembayaran selesai.</string>
+    <string name="pro_button_upgrade_price">Tingkatkan seharga %1$s</string>
 </resources>

@@ -214,4 +214,7 @@
     <string name="toast_no_mail">Nenhum app de e-mail encontrado neste dispositivo.</string>
     <string name="support_mail_subject">Suporte do CleanKoach (v%1$s)</string>
     <string name="support_mail_body">Versão do Android: %1$s\nDispositivo: %2$s\n\nDescreva seu problema abaixo:\n\n</string>
+    <string name="pro_unavailable">Indisponível agora</string>
+    <string name="pro_pending">Seu pagamento está pendente. O Pro será liberado assim que for concluído.</string>
+    <string name="pro_button_upgrade_price">Atualizar por %1$s</string>
 </resources>

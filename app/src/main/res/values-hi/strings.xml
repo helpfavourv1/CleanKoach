@@ -214,4 +214,7 @@
     <string name="toast_no_mail">इस डिवाइस पर कोई ईमेल ऐप नहीं मिला।</string>
     <string name="support_mail_subject">CleanKoach सहायता (v%1$s)</string>
     <string name="support_mail_body">Android संस्करण: %1$s\nडिवाइस: %2$s\n\nकृपया अपनी समस्या नीचे लिखें:\n\n</string>
+    <string name="pro_unavailable">अभी उपलब्ध नहीं है</string>
+    <string name="pro_pending">आपका भुगतान लंबित है। भुगतान पूरा होते ही Pro चालू हो जाएगा।</string>
+    <string name="pro_button_upgrade_price">%1$s में अपग्रेड करें</string>
 </resources>

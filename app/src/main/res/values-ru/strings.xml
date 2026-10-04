@@ -214,4 +214,7 @@
     <string name="toast_no_mail">На этом устройстве не найдено почтовое приложение.</string>
     <string name="support_mail_subject">Поддержка CleanKoach (v%1$s)</string>
     <string name="support_mail_body">Версия Android: %1$s\nУстройство: %2$s\n\nОпишите проблему ниже:\n\n</string>
+    <string name="pro_unavailable">Сейчас недоступно</string>
+    <string name="pro_pending">Платёж в ожидании. Pro включится сразу после его завершения.</string>
+    <string name="pro_button_upgrade_price">Перейти на Pro за %1$s</string>
 </resources>
