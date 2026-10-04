@@ -21,9 +21,15 @@ object LocaleManager {
         AppCompatDelegate.setApplicationLocales(list)
     }
 
+    /** Android reports modern codes for a few languages; the app stores the legacy ones. */
+    private fun normalize(code: String): String = when (code) {
+        "id" -> "in"
+        else -> code
+    }
+
     fun current(): String {
         val locales = AppCompatDelegate.getApplicationLocales()
         if (locales.isEmpty) return "en"
-        return locales.toLanguageTags().substringBefore(",").substringBefore("-")
+        return normalize(locales.toLanguageTags().substringBefore(",").substringBefore("-"))
     }
 }

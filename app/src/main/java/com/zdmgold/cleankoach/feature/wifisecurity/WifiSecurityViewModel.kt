@@ -25,13 +25,12 @@ class WifiSecurityViewModel @Inject constructor(
 
     fun runCheck() {
         viewModelScope.launch {
-            _state.update { it.copy(loading = true, error = null) }
+            _state.update { it.copy(loading = true) }
             val report = runCatching { securityRepository.inspectWifi() }.getOrNull()
             _state.update {
                 it.copy(
                     loading = false,
-                    report = report,
-                    error = if (report == null) "Could not inspect this connection." else null
+                    report = report
                 )
             }
         }

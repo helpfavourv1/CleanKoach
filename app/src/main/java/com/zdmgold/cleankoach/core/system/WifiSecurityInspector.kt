@@ -60,18 +60,17 @@ class WifiSecurityInspector @Inject constructor(
 
         return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             when (info.currentSecurityType) {
-                WifiInfo.SECURITY_TYPE_OPEN -> "Open"
+                WifiInfo.SECURITY_TYPE_OPEN -> WifiEncryption.OPEN
                 WifiInfo.SECURITY_TYPE_WEP -> "WEP"
                 WifiInfo.SECURITY_TYPE_PSK -> "WPA/WPA2"
                 WifiInfo.SECURITY_TYPE_EAP -> "WPA-Enterprise"
                 WifiInfo.SECURITY_TYPE_SAE -> "WPA3"
-                WifiInfo.SECURITY_TYPE_OWE -> "Enhanced Open"
-                else -> "unavailable on this device"
+                WifiInfo.SECURITY_TYPE_OWE -> WifiEncryption.OWE
+                else -> null
             }
         } else {
-            @Suppress("DEPRECATION")
-            val capabilities = info.ssid?.let { "" } ?: ""
-            if (capabilities.isBlank()) "unavailable on this device" else "unavailable on this device"
+            // Before Android 12 the platform does not expose the security type.
+            null
         }
     }
 
@@ -128,4 +127,10 @@ class WifiSecurityInspector @Inject constructor(
                 .toSet()
         }.getOrDefault(emptySet())
     }
+}
+
+/** Language-neutral codes; the screen turns "OPEN" and "OWE" into translated labels. */
+object WifiEncryption {
+    const val OPEN = "OPEN"
+    const val OWE = "OWE"
 }

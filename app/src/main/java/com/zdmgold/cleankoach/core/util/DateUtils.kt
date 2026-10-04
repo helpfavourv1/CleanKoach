@@ -1,39 +1,30 @@
 package com.zdmgold.cleankoach.core.util
 
+import android.text.format.DateFormat
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 import java.util.concurrent.TimeUnit
+import android.text.format.DateUtils as AndroidDateUtils
 
+/** All text here follows the app language (per-app locale), never a fixed English format. */
 object DateUtils {
-
-    private val dayFormat = SimpleDateFormat("MMM d", Locale.US)
-    private val dayTimeFormat = SimpleDateFormat("MMM d, HH:mm", Locale.US)
 
     fun relative(millis: Long, now: Long = System.currentTimeMillis()): String {
         if (millis <= 0L) return "—"
         val diff = now - millis
-        return when {
-            diff < TimeUnit.MINUTES.toMillis(1) -> "just now"
-            diff < TimeUnit.HOURS.toMillis(1) -> {
-                val m = TimeUnit.MILLISECONDS.toMinutes(diff)
-                "$m min ago"
-            }
-            diff < TimeUnit.DAYS.toMillis(1) -> {
-                val h = TimeUnit.MILLISECONDS.toHours(diff)
-                "$h h ago"
-            }
-            diff < TimeUnit.DAYS.toMillis(7) -> {
-                val d = TimeUnit.MILLISECONDS.toDays(diff)
-                "$d d ago"
-            }
-            else -> dayFormat.format(Date(millis))
-        }
+        if (diff >= TimeUnit.DAYS.toMillis(7)) return formatted(millis, "MMMd")
+        return AndroidDateUtils.getRelativeTimeSpanString(
+            millis,
+            now,
+            AndroidDateUtils.MINUTE_IN_MILLIS,
+            AndroidDateUtils.FORMAT_ABBREV_RELATIVE
+        ).toString()
     }
 
     fun dayAndTime(millis: Long): String {
         if (millis <= 0L) return "—"
-        return dayTimeFormat.format(Date(millis))
+        return formatted(millis, "MMMdHm")
     }
 
     fun duration(millis: Long): String {
@@ -47,5 +38,11 @@ object DateUtils {
             minutes > 0 -> "${minutes}m"
             else -> "${seconds}s"
         }
+    }
+
+    private fun formatted(millis: Long, skeleton: String): String {
+        val locale = Locale.getDefault()
+        val pattern = DateFormat.getBestDateTimePattern(locale, skeleton)
+        return SimpleDateFormat(pattern, locale).format(Date(millis))
     }
 }

@@ -222,4 +222,6 @@
     <string name="home_partial_access_message">Eingeschränkter Fotozugriff. CleanKoach sieht nur die Fotos und Videos, die du ausgewählt hast.</string>
     <string name="home_partial_access_action">Alle erlauben</string>
     <string name="home_nothing_to_clean_message">Gerade nichts zu bereinigen</string>
+    <string name="wifi_encryption_open">Offen</string>
+    <string name="wifi_encryption_owe">Erweitert offen</string>
 </resources>

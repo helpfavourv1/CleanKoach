@@ -222,4 +222,6 @@
     <string name="home_partial_access_message">写真へのアクセスが制限されています。CleanKoach は選択された写真と動画のみ参照できます。</string>
     <string name="home_partial_access_action">すべて許可</string>
     <string name="home_nothing_to_clean_message">今のところ整理するものはありません</string>
+    <string name="wifi_encryption_open">オープン</string>
+    <string name="wifi_encryption_owe">拡張オープン</string>
 </resources>

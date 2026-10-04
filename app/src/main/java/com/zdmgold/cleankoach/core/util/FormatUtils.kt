@@ -17,7 +17,7 @@ object FormatUtils {
         return if (unitIndex == 0) {
             "${value} ${units[0]}"
         } else {
-            String.format(Locale.US, "%.2f %s", size, units[unitIndex])
+            String.format(Locale.getDefault(), "%.2f %s", size, units[unitIndex])
         }
     }
 
@@ -33,15 +33,15 @@ object FormatUtils {
         return if (size >= 100 || unitIndex == 0) {
             "${size.toInt()} ${units[unitIndex]}"
         } else {
-            String.format(Locale.US, "%.1f %s", size, units[unitIndex])
+            String.format(Locale.getDefault(), "%.1f %s", size, units[unitIndex])
         }
     }
 
     fun count(value: Int): String =
-        String.format(Locale.US, "%,d", value)
+        String.format(Locale.getDefault(), "%,d", value)
 
     fun mbps(value: Double): String =
-        String.format(Locale.US, "%.2f Mbps", value)
+        String.format(Locale.getDefault(), "%.2f Mbps", value)
 
 
     fun percent(value: Int): String = "$value%"

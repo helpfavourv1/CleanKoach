@@ -222,4 +222,6 @@
     <string name="home_partial_access_message">फ़ोटो का सीमित एक्सेस। CleanKoach केवल आपके चुने हुए फ़ोटो और वीडियो देख सकता है।</string>
     <string name="home_partial_access_action">सभी की अनुमति दें</string>
     <string name="home_nothing_to_clean_message">अभी साफ़ करने के लिए कुछ नहीं है</string>
+    <string name="wifi_encryption_open">खुला</string>
+    <string name="wifi_encryption_owe">उन्नत खुला</string>
 </resources>

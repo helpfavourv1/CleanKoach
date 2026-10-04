@@ -28,6 +28,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
+import com.zdmgold.cleankoach.core.system.WifiEncryption
 import com.zdmgold.cleankoach.core.domain.model.SecurityVerdict
 import com.zdmgold.cleankoach.core.ui.components.FullScreenLoading
 import com.zdmgold.cleankoach.core.ui.components.PrimaryButton
@@ -102,8 +103,12 @@ fun WifiSecurityScreen(
                         Spacer(Modifier.height(10.dp))
                         CheckRow(
                             title = stringResource(R.string.wifi_check_encryption_title),
-                            detail = report.encryptionType
-                                ?: stringResource(R.string.wifi_check_unavailable)
+                            detail = when (val code = report.encryptionType) {
+                                null -> stringResource(R.string.wifi_check_unavailable)
+                                WifiEncryption.OPEN -> stringResource(R.string.wifi_encryption_open)
+                                WifiEncryption.OWE -> stringResource(R.string.wifi_encryption_owe)
+                                else -> code
+                            }
                         )
                         Spacer(Modifier.height(10.dp))
                         CheckRow(

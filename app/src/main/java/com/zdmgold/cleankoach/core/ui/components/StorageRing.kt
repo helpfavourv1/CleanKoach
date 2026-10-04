@@ -30,8 +30,8 @@ import androidx.compose.ui.unit.dp
 fun StorageRing(
     valueText: AnnotatedString,
     progress: Float?,
+    caption: String,
     modifier: Modifier = Modifier,
-    caption: String = "Trash size",
     subline: String? = null,
     size: Dp = 220.dp,
     strokeWidth: Dp = 16.dp,

@@ -222,4 +222,6 @@
     <string name="home_partial_access_message">Akses foto terbatas. CleanKoach hanya melihat foto dan video yang Anda pilih.</string>
     <string name="home_partial_access_action">Izinkan semua</string>
     <string name="home_nothing_to_clean_message">Tidak ada yang perlu dibersihkan saat ini</string>
+    <string name="wifi_encryption_open">Terbuka</string>
+    <string name="wifi_encryption_owe">Terbuka yang ditingkatkan</string>
 </resources>

@@ -222,4 +222,6 @@
     <string name="home_partial_access_message">Доступ к фото ограничен. CleanKoach видит только выбранные вами фото и видео.</string>
     <string name="home_partial_access_action">Разрешить все</string>
     <string name="home_nothing_to_clean_message">Сейчас нечего очищать</string>
+    <string name="wifi_encryption_open">Открытая</string>
+    <string name="wifi_encryption_owe">Улучшенная открытая</string>
 </resources>
