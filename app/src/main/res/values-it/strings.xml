@@ -217,4 +217,5 @@
     <string name="pro_unavailable">Non disponibile ora</string>
     <string name="pro_pending">Il pagamento è in sospeso. Pro si attiverà non appena sarà completato.</string>
     <string name="pro_button_upgrade_price">Passa a Pro per %1$s</string>
+    <string name="duplicates_delete_line">%1$d da eliminare · %2$s</string>
 </resources>

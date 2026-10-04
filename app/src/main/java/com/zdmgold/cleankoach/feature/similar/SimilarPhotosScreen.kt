@@ -1,5 +1,7 @@
 package com.zdmgold.cleankoach.feature.similar
 
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -23,6 +25,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -33,6 +36,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.domain.model.SimilarGroup
+import com.zdmgold.cleankoach.core.ui.components.DeleteBar
 import com.zdmgold.cleankoach.core.ui.components.EmptyState
 import com.zdmgold.cleankoach.core.ui.components.ScanProgress
 import com.zdmgold.cleankoach.core.ui.components.MediaRow
@@ -45,6 +49,19 @@ fun SimilarPhotosScreen(
     viewModel: SimilarPhotosViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+
+    val deleteLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.StartIntentSenderForResult()
+    ) {
+        viewModel.onDeleteDialogClosed()
+    }
+
+    LaunchedEffect(state.deleteRequest) {
+        state.deleteRequest?.let {
+            deleteLauncher.launch(it)
+            viewModel.onDeleteRequestLaunched()
+        }
+    }
 
     Surface(
         modifier = modifier.fillMaxSize(),
@@ -105,10 +122,21 @@ fun SimilarPhotosScreen(
                     items(state.groups, key = { it.id }) { group ->
                         SimilarGroupCard(
                             group = group,
-                            bestId = group.bestMediaId,
+                            bestId = state.bestIdFor(group),
                             onSetBest = { viewModel.setBest(group.id, it) }
                         )
                     }
+                }
+
+                if (state.canDelete) {
+                    DeleteBar(
+                        summary = stringResource(
+                            R.string.duplicates_delete_line,
+                            state.toDelete.size,
+                            FormatUtils.bytes(state.deleteBytes)
+                        ),
+                        onDelete = viewModel::delete
+                    )
                 }
             }
         }
@@ -159,7 +187,7 @@ private fun SimilarGroupCard(
                         modifier = Modifier.weight(1f)
                     )
                     if (isBest) {
-                        TextButton(onClick = { }) {
+                        TextButton(onClick = { onSetBest(item.id) }) {
                             Text(
                                 text = stringResource(R.string.similar_best_label),
                                 color = MaterialTheme.colorScheme.primary

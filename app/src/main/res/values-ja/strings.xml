@@ -217,4 +217,5 @@
     <string name="pro_unavailable">現在ご利用いただけません</string>
     <string name="pro_pending">お支払いは保留中です。完了するとすぐに Pro が有効になります。</string>
     <string name="pro_button_upgrade_price">%1$s でアップグレード</string>
+    <string name="duplicates_delete_line">%1$d 件を削除 · %2$s</string>
 </resources>

@@ -1,5 +1,7 @@
 package com.zdmgold.cleankoach.feature.similar
 
+import android.net.Uri
+import androidx.activity.result.IntentSenderRequest
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.zdmgold.cleankoach.core.data.repository.MediaRepository
@@ -34,14 +36,37 @@ class SimilarPhotosViewModel @Inject constructor(
             _state.update { it.copy(loading = true) }
             val groups: List<SimilarGroup> = runCatching { mediaRepository.scanSimilarPhotos() }
                 .getOrDefault(emptyList())
-            val defaults = groups.map { it.bestMediaId }.toSet()
             _state.update {
-                it.copy(loading = false, groups = groups, bestIds = defaults)
+                it.copy(loading = false, groups = groups, bestByGroup = emptyMap())
             }
         }
     }
 
     fun setBest(groupId: Long, mediaId: Long) {
-        _state.update { it.copy(bestIds = it.bestIds + mediaId) }
+        _state.update { it.copy(bestByGroup = it.bestByGroup + (groupId to mediaId)) }
+    }
+
+    fun delete() {
+        viewModelScope.launch {
+            val doomed = _state.value.toDelete
+            if (doomed.isEmpty()) return@launch
+            val sender = runCatching {
+                mediaRepository.buildDeleteRequest(doomed.map { Uri.parse(it.uri) })
+            }.getOrNull()
+            if (sender != null) {
+                _state.update { it.copy(deleteRequest = IntentSenderRequest.Builder(sender).build()) }
+            } else {
+                runCatching { mediaRepository.deleteMedia(doomed.map { it.id }) }
+                load()
+            }
+        }
+    }
+
+    fun onDeleteRequestLaunched() {
+        _state.update { it.copy(deleteRequest = null) }
+    }
+
+    fun onDeleteDialogClosed() {
+        load()
     }
 }

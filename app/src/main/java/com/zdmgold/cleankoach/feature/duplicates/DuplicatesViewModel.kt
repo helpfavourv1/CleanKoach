@@ -1,5 +1,7 @@
 package com.zdmgold.cleankoach.feature.duplicates
 
+import android.net.Uri
+import androidx.activity.result.IntentSenderRequest
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.zdmgold.cleankoach.core.data.repository.MediaRepository
@@ -34,18 +36,37 @@ class DuplicatesViewModel @Inject constructor(
             _state.update { it.copy(loading = true) }
             val groups: List<DuplicateGroup> = runCatching { mediaRepository.scanDuplicates() }
                 .getOrDefault(emptyList())
-            val defaults = groups.mapNotNull { it.items.firstOrNull()?.id }.toSet()
             _state.update {
-                it.copy(
-                    loading = false,
-                    groups = groups,
-                    keptIds = defaults
-                )
+                it.copy(loading = false, groups = groups, keptByGroup = emptyMap())
             }
         }
     }
 
     fun setKept(groupId: Long, mediaId: Long) {
-        _state.update { it.copy(keptIds = it.keptIds + mediaId) }
+        _state.update { it.copy(keptByGroup = it.keptByGroup + (groupId to mediaId)) }
+    }
+
+    fun delete() {
+        viewModelScope.launch {
+            val doomed = _state.value.toDelete
+            if (doomed.isEmpty()) return@launch
+            val sender = runCatching {
+                mediaRepository.buildDeleteRequest(doomed.map { Uri.parse(it.uri) })
+            }.getOrNull()
+            if (sender != null) {
+                _state.update { it.copy(deleteRequest = IntentSenderRequest.Builder(sender).build()) }
+            } else {
+                runCatching { mediaRepository.deleteMedia(doomed.map { it.id }) }
+                load()
+            }
+        }
+    }
+
+    fun onDeleteRequestLaunched() {
+        _state.update { it.copy(deleteRequest = null) }
+    }
+
+    fun onDeleteDialogClosed() {
+        load()
     }
 }

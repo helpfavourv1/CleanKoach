@@ -217,4 +217,5 @@
     <string name="pro_unavailable">현재 이용할 수 없습니다</string>
     <string name="pro_pending">결제가 보류 중입니다. 결제가 완료되면 바로 Pro가 활성화됩니다.</string>
     <string name="pro_button_upgrade_price">%1$s에 업그레이드</string>
+    <string name="duplicates_delete_line">삭제 %1$d개 · %2$s</string>
 </resources>
