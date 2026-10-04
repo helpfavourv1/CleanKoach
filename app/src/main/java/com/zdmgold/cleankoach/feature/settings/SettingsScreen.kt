@@ -27,6 +27,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.zdmgold.cleankoach.BuildConfig
 import com.zdmgold.cleankoach.R
 
 @Composable
@@ -145,7 +146,7 @@ fun SettingsScreen(
 
                 SettingsRow(
                     label = stringResource(R.string.settings_about),
-                    value = stringResource(R.string.settings_about_version, "0.1.0"),
+                    value = stringResource(R.string.settings_about_version, BuildConfig.VERSION_NAME),
                     onClick = onOpenAbout
                 )
 
