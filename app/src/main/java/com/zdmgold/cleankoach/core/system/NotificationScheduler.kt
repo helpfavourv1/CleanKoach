@@ -16,9 +16,15 @@ class NotificationScheduler @Inject constructor(
     @ApplicationContext private val context: Context
 ) {
 
+    /** Makes WorkManager match the user's switches. Safe to call any number of times. */
+    fun reconcile(master: Boolean, weekly: Boolean, storage: Boolean) {
+        if (master && weekly) scheduleWeeklyReminder() else cancelWeeklyReminder()
+        if (master && storage) scheduleStorageAlert() else cancelStorageAlert()
+    }
+
     fun scheduleWeeklyReminder() {
         val request = PeriodicWorkRequestBuilder<CleanupWorker>(7, TimeUnit.DAYS)
-            .setInitialDelay(hoursUntilNextSunday10Am(), TimeUnit.MILLISECONDS)
+            .setInitialDelay(millisUntilNextSunday10Am(), TimeUnit.MILLISECONDS)
             .setConstraints(
                 Constraints.Builder()
                     .setRequiredNetworkType(NetworkType.NOT_REQUIRED)
@@ -28,7 +34,7 @@ class NotificationScheduler @Inject constructor(
 
         WorkManager.getInstance(context).enqueueUniquePeriodicWork(
             CleanupWorker.NAME,
-            ExistingPeriodicWorkPolicy.UPDATE,
+            ExistingPeriodicWorkPolicy.KEEP,
             request
         )
     }
@@ -48,7 +54,7 @@ class NotificationScheduler @Inject constructor(
 
         WorkManager.getInstance(context).enqueueUniquePeriodicWork(
             StorageAlertWorker.NAME,
-            ExistingPeriodicWorkPolicy.UPDATE,
+            ExistingPeriodicWorkPolicy.KEEP,
             request
         )
     }
@@ -57,7 +63,7 @@ class NotificationScheduler @Inject constructor(
         WorkManager.getInstance(context).cancelUniqueWork(StorageAlertWorker.NAME)
     }
 
-    private fun hoursUntilNextSunday10Am(): Long {
+    private fun millisUntilNextSunday10Am(): Long {
         val calendar = java.util.Calendar.getInstance()
         val now = calendar.timeInMillis
         calendar.set(java.util.Calendar.DAY_OF_WEEK, java.util.Calendar.SUNDAY)

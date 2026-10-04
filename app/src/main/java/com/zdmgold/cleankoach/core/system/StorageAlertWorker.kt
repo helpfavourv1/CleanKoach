@@ -4,6 +4,9 @@ import android.app.NotificationManager
 import android.content.Context
 import android.os.storage.StorageManager
 import androidx.core.app.NotificationCompat
+import androidx.core.app.NotificationManagerCompat
+import com.zdmgold.cleankoach.core.data.repository.SettingsRepository
+import kotlinx.coroutines.flow.first
 import androidx.core.content.getSystemService
 import androidx.hilt.work.HiltWorker
 import androidx.work.CoroutineWorker
@@ -15,7 +18,8 @@ import dagger.assisted.AssistedInject
 @HiltWorker
 class StorageAlertWorker @AssistedInject constructor(
     @Assisted context: Context,
-    @Assisted params: WorkerParameters
+    @Assisted params: WorkerParameters,
+    private val settings: SettingsRepository
 ) : CoroutineWorker(context, params) {
 
     companion object {
@@ -25,6 +29,9 @@ class StorageAlertWorker @AssistedInject constructor(
     }
 
     override suspend fun doWork(): Result {
+        if (!settings.notificationsEnabled.first() || !settings.storageAlerts.first()) return Result.success()
+        if (!NotificationManagerCompat.from(applicationContext).areNotificationsEnabled()) return Result.success()
+
         val statsManager = applicationContext
             .getSystemService<android.app.usage.StorageStatsManager>()
             ?: return Result.success()
@@ -50,7 +57,8 @@ class StorageAlertWorker @AssistedInject constructor(
             applicationContext,
             NotificationChannels.STORAGE_ALERT
         )
-            .setSmallIcon(android.R.drawable.stat_notify_error)
+            .setSmallIcon(R.drawable.ic_stat_cleankoach)
+            .setContentIntent(NotificationChannels.contentIntent(applicationContext))
             .setContentTitle(
                 applicationContext.getString(R.string.notification_storage_title, percent)
             )

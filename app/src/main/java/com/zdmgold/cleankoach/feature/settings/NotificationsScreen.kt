@@ -99,12 +99,14 @@ fun NotificationsScreen(
             )
             SettingsRow(
                 label = stringResource(R.string.settings_notifications_weekly),
-                switch = state.notificationsEnabled,
+                switch = state.notificationsEnabled && state.weeklyReminder,
+                enabled = state.notificationsEnabled,
                 onSwitchChange = { toggle(it, viewModel::setWeeklyReminder) }
             )
             SettingsRow(
                 label = stringResource(R.string.settings_notifications_storage),
-                switch = state.notificationsEnabled,
+                switch = state.notificationsEnabled && state.storageAlerts,
+                enabled = state.notificationsEnabled,
                 onSwitchChange = { toggle(it, viewModel::setStorageAlerts) }
             )
         }

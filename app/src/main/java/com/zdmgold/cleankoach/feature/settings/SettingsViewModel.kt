@@ -6,6 +6,8 @@ import androidx.lifecycle.viewModelScope
 import com.zdmgold.cleankoach.core.data.repository.BillingRepository
 import com.zdmgold.cleankoach.core.data.repository.SettingsRepository
 import com.zdmgold.cleankoach.core.locale.LocaleManager
+import com.zdmgold.cleankoach.core.system.NotificationScheduler
+import kotlinx.coroutines.flow.first
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -17,7 +19,8 @@ import javax.inject.Inject
 @HiltViewModel
 class SettingsViewModel @Inject constructor(
     private val settingsRepository: SettingsRepository,
-    private val billingRepository: BillingRepository
+    private val billingRepository: BillingRepository,
+    private val scheduler: NotificationScheduler
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(SettingsUiState())
@@ -44,19 +47,30 @@ class SettingsViewModel @Inject constructor(
     fun setNotifications(enabled: Boolean) {
         viewModelScope.launch {
             settingsRepository.setNotificationsEnabled(enabled)
+            reconcileNotifications()
         }
     }
 
     fun setWeeklyReminder(enabled: Boolean) {
         viewModelScope.launch {
             settingsRepository.setWeeklyReminder(enabled)
+            reconcileNotifications()
         }
     }
 
     fun setStorageAlerts(enabled: Boolean) {
         viewModelScope.launch {
             settingsRepository.setStorageAlerts(enabled)
+            reconcileNotifications()
         }
+    }
+
+    private suspend fun reconcileNotifications() {
+        scheduler.reconcile(
+            master = settingsRepository.notificationsEnabled.first(),
+            weekly = settingsRepository.weeklyReminder.first(),
+            storage = settingsRepository.storageAlerts.first()
+        )
     }
 
     fun launchPurchase(activity: Activity) {
@@ -88,6 +102,16 @@ class SettingsViewModel @Inject constructor(
         viewModelScope.launch {
             settingsRepository.notificationsEnabled.collect { value ->
                 _state.update { it.copy(notificationsEnabled = value) }
+            }
+        }
+        viewModelScope.launch {
+            settingsRepository.weeklyReminder.collect { value ->
+                _state.update { it.copy(weeklyReminder = value) }
+            }
+        }
+        viewModelScope.launch {
+            settingsRepository.storageAlerts.collect { value ->
+                _state.update { it.copy(storageAlerts = value) }
             }
         }
         viewModelScope.launch {

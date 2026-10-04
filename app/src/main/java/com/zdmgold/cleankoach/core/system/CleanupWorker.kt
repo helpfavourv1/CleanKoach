@@ -3,6 +3,9 @@ package com.zdmgold.cleankoach.core.system
 import android.app.NotificationManager
 import android.content.Context
 import androidx.core.app.NotificationCompat
+import androidx.core.app.NotificationManagerCompat
+import com.zdmgold.cleankoach.core.data.repository.SettingsRepository
+import kotlinx.coroutines.flow.first
 import androidx.core.content.getSystemService
 import androidx.hilt.work.HiltWorker
 import androidx.work.CoroutineWorker
@@ -14,7 +17,8 @@ import dagger.assisted.AssistedInject
 @HiltWorker
 class CleanupWorker @AssistedInject constructor(
     @Assisted context: Context,
-    @Assisted params: WorkerParameters
+    @Assisted params: WorkerParameters,
+    private val settings: SettingsRepository
 ) : CoroutineWorker(context, params) {
 
     companion object {
@@ -23,6 +27,9 @@ class CleanupWorker @AssistedInject constructor(
     }
 
     override suspend fun doWork(): Result {
+        if (!settings.notificationsEnabled.first() || !settings.weeklyReminder.first()) return Result.success()
+        if (!NotificationManagerCompat.from(applicationContext).areNotificationsEnabled()) return Result.success()
+
         NotificationChannels.ensure(applicationContext)
 
         val manager = applicationContext.getSystemService<NotificationManager>()
@@ -32,7 +39,8 @@ class CleanupWorker @AssistedInject constructor(
             applicationContext,
             NotificationChannels.CLEANUP_REMINDER
         )
-            .setSmallIcon(android.R.drawable.stat_notify_more)
+            .setSmallIcon(R.drawable.ic_stat_cleankoach)
+            .setContentIntent(NotificationChannels.contentIntent(applicationContext))
             .setContentTitle(applicationContext.getString(R.string.notification_cleanup_title))
             .setContentText(applicationContext.getString(R.string.notification_cleanup_body))
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)

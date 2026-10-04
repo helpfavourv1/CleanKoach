@@ -29,7 +29,8 @@ fun SettingsRow(
     leadingIcon: ImageVector? = null,
     value: String? = null,
     switch: Boolean? = null,
-    onSwitchChange: ((Boolean) -> Unit)? = null
+    onSwitchChange: ((Boolean) -> Unit)? = null,
+    enabled: Boolean = true
 ) {
     Row(
         modifier = modifier
@@ -52,12 +53,12 @@ fun SettingsRow(
             text = label,
             style = MaterialTheme.typography.bodyLarge,
             fontWeight = FontWeight.W500,
-            color = MaterialTheme.colorScheme.onSurface,
+            color = MaterialTheme.colorScheme.onSurface.copy(alpha = if (enabled) 1f else 0.38f),
             modifier = Modifier.weight(1f)
         )
         when {
             switch != null && onSwitchChange != null -> {
-                Switch(checked = switch, onCheckedChange = onSwitchChange)
+                Switch(checked = switch, onCheckedChange = onSwitchChange, enabled = enabled)
             }
             value != null -> {
                 Text(
