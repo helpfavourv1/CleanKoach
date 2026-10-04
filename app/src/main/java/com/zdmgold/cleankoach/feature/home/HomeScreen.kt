@@ -77,6 +77,8 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.media.MediaPermissions
+import com.zdmgold.cleankoach.core.ads.rememberAdActions
+import com.zdmgold.cleankoach.core.ui.components.BannerAd
 import com.zdmgold.cleankoach.core.ui.components.PhoneToolCard
 import com.zdmgold.cleankoach.core.ui.components.SectionHeader
 import com.zdmgold.cleankoach.core.ui.components.SettingsChip
@@ -151,6 +153,15 @@ fun HomeScreen(
     }
 
     val hostContext = androidx.compose.ui.platform.LocalContext.current
+    val adActions = rememberAdActions()
+    var resultWasVisible by remember { mutableStateOf(false) }
+    LaunchedEffect(state.cleanUpResultVisible) {
+        // The clean-up result sheet just closed: that is the natural pause for an ad.
+        if (resultWasVisible && !state.cleanUpResultVisible && !state.reviewRequested) {
+            adActions.actionCompleted()
+        }
+        resultWasVisible = state.cleanUpResultVisible
+    }
     LaunchedEffect(state.nothingToClean) {
         if (state.nothingToClean) {
             android.widget.Toast.makeText(
@@ -493,6 +504,8 @@ fun HomeScreen(
 
                 Spacer(Modifier.height(8.dp))
             }
+
+            BannerAd()
         }
 
         if (languageSheetVisible) {

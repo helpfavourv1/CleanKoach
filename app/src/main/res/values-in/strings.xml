@@ -172,7 +172,7 @@
     <string name="pro_active_title">Anda di Pro</string>
     <string name="pro_active_body">Iklan dihapus. Terima kasih telah mendukung CleanKoach.</string>
     <string name="pro_upsell_title">Hapus iklan</string>
-    <string name="pro_upsell_body">Pro menghapus banner iklan. Semua fitur gratis.</string>
+    <string name="pro_upsell_body">Pro menghapus semua iklan. Semua fitur gratis.</string>
     <string name="pro_button_upgrade">Tingkatkan</string>
     <string name="pro_button_restore">Pulihkan pembelian</string>
 
@@ -224,4 +224,5 @@
     <string name="home_nothing_to_clean_message">Tidak ada yang perlu dibersihkan saat ini</string>
     <string name="wifi_encryption_open">Terbuka</string>
     <string name="wifi_encryption_owe">Terbuka yang ditingkatkan</string>
+    <string name="settings_privacy_options">Opsi privasi iklan</string>
 </resources>

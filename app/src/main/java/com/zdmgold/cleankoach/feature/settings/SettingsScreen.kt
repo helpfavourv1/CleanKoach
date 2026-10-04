@@ -20,6 +20,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
@@ -30,7 +31,9 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.BuildConfig
 import com.zdmgold.cleankoach.R
+import com.zdmgold.cleankoach.core.ui.components.BottomAdBar
 import com.zdmgold.cleankoach.core.AppLinks
+import com.zdmgold.cleankoach.core.ads.AdsViewModel
 import com.zdmgold.cleankoach.core.util.ExternalActions
 
 @Composable
@@ -47,6 +50,9 @@ fun SettingsScreen(
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val context = LocalContext.current
+    val adsViewModel: AdsViewModel = hiltViewModel()
+    val activity = remember(context) { with(ExternalActions) { context.findActivity() } }
+    val privacyOptionsRequired = remember { adsViewModel.privacyOptionsRequired }
 
     Surface(
         modifier = modifier.fillMaxSize(),
@@ -138,6 +144,12 @@ fun SettingsScreen(
                     label = stringResource(R.string.settings_privacy_policy),
                     onClick = { ExternalActions.openUrl(context, AppLinks.PRIVACY_URL) }
                 )
+                if (privacyOptionsRequired) {
+                    SettingsRow(
+                        label = stringResource(R.string.settings_privacy_options),
+                        onClick = { activity?.let(adsViewModel::showPrivacyOptions) }
+                    )
+                }
                 SettingsRow(
                     label = stringResource(R.string.settings_terms),
                     onClick = { ExternalActions.openUrl(context, AppLinks.TERMS_URL) }
@@ -161,6 +173,8 @@ fun SettingsScreen(
 
                 Spacer(Modifier.height(24.dp))
             }
+
+            BottomAdBar()
         }
     }
 }

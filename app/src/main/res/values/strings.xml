@@ -190,7 +190,7 @@
     <string name="pro_active_title">You\'re on Pro</string>
     <string name="pro_active_body">Ads are removed. Thank you for supporting CleanKoach.</string>
     <string name="pro_upsell_title">Remove ads</string>
-    <string name="pro_upsell_body">Pro removes the banner ad. Every feature is free.</string>
+    <string name="pro_upsell_body">Pro removes all ads. Every feature is free.</string>
     <string name="pro_button_upgrade">Upgrade</string>
     <string name="pro_button_restore">Restore purchase</string>
 
@@ -247,4 +247,5 @@
     <string name="home_nothing_to_clean_message">Nothing to clean right now</string>
     <string name="wifi_encryption_open">Open</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">Ad privacy options</string>
 </resources>

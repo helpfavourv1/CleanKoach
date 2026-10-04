@@ -172,7 +172,7 @@
     <string name="pro_active_title">आप प्रो पर हैं</string>
     <string name="pro_active_body">विज्ञापन हटा दिए गए हैं। CleanKoach का समर्थन करने के लिए धन्यवाद।</string>
     <string name="pro_upsell_title">विज्ञापन हटाएं</string>
-    <string name="pro_upsell_body">प्रो बैनर विज्ञापन हटा देता है। सभी सुविधाएं मुफ़्त हैं।</string>
+    <string name="pro_upsell_body">Pro सभी विज्ञापन हटा देता है। सभी सुविधाएँ मुफ़्त हैं।</string>
     <string name="pro_button_upgrade">अपग्रेड करें</string>
     <string name="pro_button_restore">खरीद पुनः प्राप्त करें</string>
 
@@ -224,4 +224,5 @@
     <string name="home_nothing_to_clean_message">अभी साफ़ करने के लिए कुछ नहीं है</string>
     <string name="wifi_encryption_open">खुला</string>
     <string name="wifi_encryption_owe">उन्नत खुला</string>
+    <string name="settings_privacy_options">विज्ञापन गोपनीयता विकल्प</string>
 </resources>

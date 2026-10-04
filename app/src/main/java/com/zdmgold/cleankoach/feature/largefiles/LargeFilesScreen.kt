@@ -34,6 +34,8 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
+import com.zdmgold.cleankoach.core.ads.rememberAdActions
+import com.zdmgold.cleankoach.core.ui.components.BottomAdBar
 import com.zdmgold.cleankoach.core.ui.components.EmptyState
 import com.zdmgold.cleankoach.core.ui.components.FullScreenLoading
 import com.zdmgold.cleankoach.core.ui.components.MediaRow
@@ -47,10 +49,12 @@ fun LargeFilesScreen(
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
 
+    val adActions = rememberAdActions()
     val deleteLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.StartIntentSenderForResult()
-    ) {
+    ) { result ->
         viewModel.onDeleteDialogClosed()
+        if (result.resultCode == android.app.Activity.RESULT_OK) adActions.actionCompleted()
     }
 
     LaunchedEffect(state.deleteRequest) {
@@ -111,9 +115,10 @@ fun LargeFilesScreen(
             }
 
             if (state.loading) {
-                FullScreenLoading()
+                FullScreenLoading(Modifier.weight(1f))
             } else if (state.items.isEmpty()) {
                 EmptyState(
+                    modifier = Modifier.weight(1f),
                     title = stringResource(R.string.large_files_empty_title),
                     message = stringResource(R.string.large_files_empty_message),
                     icon = Icons.Filled.Delete
@@ -134,7 +139,6 @@ fun LargeFilesScreen(
                         color = MaterialTheme.colorScheme.surfaceVariant,
                         modifier = Modifier
                             .fillMaxWidth()
-                            .navigationBarsPadding()
                     ) {
                         Row(
                             modifier = Modifier
@@ -161,6 +165,8 @@ fun LargeFilesScreen(
                     }
                 }
             }
+
+            BottomAdBar()
         }
     }
 }

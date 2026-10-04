@@ -172,7 +172,7 @@
     <string name="pro_active_title">Pro をご利用中</string>
     <string name="pro_active_body">広告は削除されました。CleanKoach を応援いただきありがとうございます。</string>
     <string name="pro_upsell_title">広告を削除</string>
-    <string name="pro_upsell_body">Pro はバナー広告を削除します。すべての機能は無料です。</string>
+    <string name="pro_upsell_body">Pro ですべての広告が消えます。すべての機能は無料です。</string>
     <string name="pro_button_upgrade">アップグレード</string>
     <string name="pro_button_restore">購入を復元</string>
 
@@ -224,4 +224,5 @@
     <string name="home_nothing_to_clean_message">今のところ整理するものはありません</string>
     <string name="wifi_encryption_open">オープン</string>
     <string name="wifi_encryption_owe">拡張オープン</string>
+    <string name="settings_privacy_options">広告のプライバシー設定</string>
 </resources>

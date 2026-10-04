@@ -26,6 +26,19 @@ class ConsentManager @Inject constructor(
     private var consentInfo: ConsentInformation? = null
     private var form: ConsentForm? = null
 
+    /** True when Google already allows ads from an earlier consent answer, so ads need not wait. */
+    fun canRequestAdsNow(): Boolean =
+        UserMessagingPlatform.getConsentInformation(context).canRequestAds()
+
+    /** True in regions where the app must offer a way to change the ad consent choice. */
+    fun privacyOptionsRequired(): Boolean =
+        UserMessagingPlatform.getConsentInformation(context).privacyOptionsRequirementStatus ==
+            ConsentInformation.PrivacyOptionsRequirementStatus.REQUIRED
+
+    fun showPrivacyOptions(activity: Activity) {
+        UserMessagingPlatform.showPrivacyOptionsForm(activity) { }
+    }
+
     fun requestConsent(activity: Activity, onComplete: (Boolean) -> Unit) {
         val params = ConsentRequestParameters.Builder()
             .setTagForUnderAgeOfConsent(false)

@@ -28,6 +28,8 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
+import com.zdmgold.cleankoach.core.ads.rememberAdActions
+import com.zdmgold.cleankoach.core.ui.components.BottomAdBar
 import com.zdmgold.cleankoach.core.system.WifiEncryption
 import com.zdmgold.cleankoach.core.domain.model.SecurityVerdict
 import com.zdmgold.cleankoach.core.ui.components.FullScreenLoading
@@ -41,6 +43,7 @@ fun WifiSecurityScreen(
     viewModel: WifiSecurityViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val adActions = rememberAdActions()
 
     Surface(
         modifier = modifier.fillMaxSize(),
@@ -73,7 +76,7 @@ fun WifiSecurityScreen(
             }
 
             if (state.loading) {
-                FullScreenLoading()
+                FullScreenLoading(Modifier.weight(1f))
             } else {
                 val report = state.report
                 Column(
@@ -144,12 +147,18 @@ fun WifiSecurityScreen(
                     Spacer(Modifier.height(20.dp))
                     PrimaryButton(
                         text = stringResource(R.string.wifi_check_rerun),
-                        onClick = viewModel::runCheck,
+                        onClick = {
+                            // Re-running after a finished check is a natural pause for an ad.
+                            if (state.report != null) adActions.actionCompleted()
+                            viewModel.runCheck()
+                        },
                         enabled = !state.loading
                     )
                     Spacer(Modifier.height(20.dp))
                 }
             }
+
+            BottomAdBar()
         }
     }
 }

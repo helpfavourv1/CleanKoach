@@ -19,14 +19,29 @@ import androidx.navigation.compose.rememberNavController
 import com.zdmgold.cleankoach.core.locale.LocaleManager
 import com.zdmgold.cleankoach.core.ui.theme.CleanKoachTheme
 import com.zdmgold.cleankoach.navigation.CleanKoachNavHost
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import com.zdmgold.cleankoach.core.ads.AdsManager
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
+    @Inject
+    lateinit var adsManager: AdsManager
+
     override fun onCreate(savedInstanceState: Bundle?) {
         applyStoredLocaleSafely()
         super.onCreate(savedInstanceState)
+        adsManager.start(this)
+        lifecycle.addObserver(LifecycleEventObserver { _, event ->
+            when (event) {
+                Lifecycle.Event.ON_STOP -> adsManager.onAppBackgrounded()
+                Lifecycle.Event.ON_START -> adsManager.onAppForegrounded(this)
+                else -> Unit
+            }
+        })
         enableEdgeToEdge()
         setContent {
             val settingsViewModel: SettingsViewModel = hiltViewModel()

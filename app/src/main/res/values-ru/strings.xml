@@ -172,7 +172,7 @@
     <string name="pro_active_title">У вас Pro</string>
     <string name="pro_active_body">Реклама отключена. Спасибо за поддержку CleanKoach.</string>
     <string name="pro_upsell_title">Убрать рекламу</string>
-    <string name="pro_upsell_body">Pro убирает баннер рекламы. Все функции бесплатны.</string>
+    <string name="pro_upsell_body">Pro убирает всю рекламу. Все функции бесплатны.</string>
     <string name="pro_button_upgrade">Обновить</string>
     <string name="pro_button_restore">Восстановить покупку</string>
 
@@ -224,4 +224,5 @@
     <string name="home_nothing_to_clean_message">Сейчас нечего очищать</string>
     <string name="wifi_encryption_open">Открытая</string>
     <string name="wifi_encryption_owe">Улучшенная открытая</string>
+    <string name="settings_privacy_options">Настройки конфиденциальности рекламы</string>
 </resources>

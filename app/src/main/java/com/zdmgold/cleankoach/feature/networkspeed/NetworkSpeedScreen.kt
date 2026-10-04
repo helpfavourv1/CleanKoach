@@ -27,6 +27,8 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
+import com.zdmgold.cleankoach.core.ads.rememberAdActions
+import com.zdmgold.cleankoach.core.ui.components.BottomAdBar
 import com.zdmgold.cleankoach.core.system.NetworkSpeedTester
 import com.zdmgold.cleankoach.core.ui.components.DeterminateProgress
 import com.zdmgold.cleankoach.core.ui.components.IndeterminateProgress
@@ -40,6 +42,7 @@ fun NetworkSpeedScreen(
     viewModel: NetworkSpeedViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val adActions = rememberAdActions()
 
     Surface(
         modifier = modifier.fillMaxSize(),
@@ -192,7 +195,10 @@ fun NetworkSpeedScreen(
                             SpeedTestPhase.FAILED -> R.string.network_speed_button_retry
                         }
                     ),
-                    onClick = viewModel::run,
+                    onClick = {
+                        if (state.phase == SpeedTestPhase.DONE) adActions.actionCompleted()
+                        viewModel.run()
+                    },
                     enabled = state.phase != SpeedTestPhase.PREPARING &&
                         state.phase != SpeedTestPhase.TESTING
                 )
@@ -205,6 +211,8 @@ fun NetworkSpeedScreen(
                     textAlign = TextAlign.Center
                 )
             }
+
+            BottomAdBar()
         }
     }
 }

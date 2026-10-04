@@ -35,6 +35,8 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
+import com.zdmgold.cleankoach.core.ads.rememberAdActions
+import com.zdmgold.cleankoach.core.ui.components.BottomAdBar
 import com.zdmgold.cleankoach.core.domain.model.DuplicateGroup
 import com.zdmgold.cleankoach.core.ui.components.DeleteBar
 import com.zdmgold.cleankoach.core.ui.components.EmptyState
@@ -50,10 +52,12 @@ fun DuplicatesScreen(
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
 
+    val adActions = rememberAdActions()
     val deleteLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.StartIntentSenderForResult()
-    ) {
+    ) { result ->
         viewModel.onDeleteDialogClosed()
+        if (result.resultCode == android.app.Activity.RESULT_OK) adActions.actionCompleted()
     }
 
     LaunchedEffect(state.deleteRequest) {
@@ -106,9 +110,10 @@ fun DuplicatesScreen(
             }
 
             if (state.loading) {
-                ScanProgress(state.scanStatus)
+                ScanProgress(state.scanStatus, Modifier.weight(1f))
             } else if (state.groups.isEmpty()) {
                 EmptyState(
+                    modifier = Modifier.weight(1f),
                     title = stringResource(R.string.duplicates_empty_title),
                     message = stringResource(R.string.duplicates_empty_message),
                     icon = Icons.Filled.Star
@@ -139,6 +144,8 @@ fun DuplicatesScreen(
                     )
                 }
             }
+
+            BottomAdBar()
         }
     }
 }

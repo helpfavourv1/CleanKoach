@@ -172,7 +172,7 @@
     <string name="pro_active_title">Estás no Pro</string>
     <string name="pro_active_body">Os anúncios foram removidos. Obrigado por apoiares o CleanKoach.</string>
     <string name="pro_upsell_title">Remover anúncios</string>
-    <string name="pro_upsell_body">O Pro remove o banner de anúncios. Todas as funcionalidades são gratuitas.</string>
+    <string name="pro_upsell_body">O Pro remove todos os anúncios. Todos os recursos são gratuitos.</string>
     <string name="pro_button_upgrade">Atualizar</string>
     <string name="pro_button_restore">Restaurar compra</string>
 
@@ -224,4 +224,5 @@
     <string name="home_nothing_to_clean_message">Nada para limpar agora</string>
     <string name="wifi_encryption_open">Aberta</string>
     <string name="wifi_encryption_owe">Aberta aprimorada</string>
+    <string name="settings_privacy_options">Opções de privacidade de anúncios</string>
 </resources>

@@ -40,6 +40,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
+import com.zdmgold.cleankoach.core.ui.components.BottomAdBar
 import com.zdmgold.cleankoach.core.domain.model.AppUsageItem
 import com.zdmgold.cleankoach.core.ui.components.EmptyState
 import com.zdmgold.cleankoach.core.ui.components.FullScreenLoading
@@ -92,9 +93,10 @@ fun ActivityMonitorScreen(
             }
 
             when {
-                state.loading -> FullScreenLoading()
+                state.loading -> FullScreenLoading(Modifier.weight(1f))
 
                 !state.hasAccess -> EmptyState(
+                    modifier = Modifier.weight(1f),
                     title = stringResource(R.string.activity_monitor_no_access_title),
                     message = stringResource(R.string.activity_monitor_no_access_message),
                     icon = Icons.AutoMirrored.Filled.List,
@@ -107,6 +109,7 @@ fun ActivityMonitorScreen(
                 )
 
                 state.items.isEmpty() -> EmptyState(
+                    modifier = Modifier.weight(1f),
                     title = stringResource(R.string.activity_monitor_empty_title),
                     message = stringResource(R.string.activity_monitor_empty_message),
                     icon = Icons.AutoMirrored.Filled.List
@@ -122,6 +125,8 @@ fun ActivityMonitorScreen(
                     }
                 }
             }
+
+            BottomAdBar()
         }
 
         if (state.disclosureVisible) {

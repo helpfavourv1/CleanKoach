@@ -172,7 +172,7 @@
     <string name="pro_active_title">Vous êtes en Pro</string>
     <string name="pro_active_body">Les pubs sont retirées. Merci de soutenir CleanKoach.</string>
     <string name="pro_upsell_title">Retirer les pubs</string>
-    <string name="pro_upsell_body">Pro retire la bannière publicitaire. Toutes les fonctionnalités sont gratuites.</string>
+    <string name="pro_upsell_body">Pro supprime toutes les publicités. Toutes les fonctionnalités sont gratuites.</string>
     <string name="pro_button_upgrade">Passer à Pro</string>
     <string name="pro_button_restore">Restaurer l\'achat</string>
 
@@ -224,4 +224,5 @@
     <string name="home_nothing_to_clean_message">Rien à nettoyer pour le moment</string>
     <string name="wifi_encryption_open">Ouverte</string>
     <string name="wifi_encryption_owe">Ouverte renforcée</string>
+    <string name="settings_privacy_options">Options de confidentialité des annonces</string>
 </resources>

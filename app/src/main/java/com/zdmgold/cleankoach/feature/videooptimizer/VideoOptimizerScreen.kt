@@ -23,6 +23,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -32,6 +33,8 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
+import com.zdmgold.cleankoach.core.ads.rememberAdActions
+import com.zdmgold.cleankoach.core.ui.components.BottomAdBar
 import com.zdmgold.cleankoach.core.media.VideoCompressor
 import com.zdmgold.cleankoach.core.ui.components.DeterminateProgress
 import com.zdmgold.cleankoach.core.ui.components.EmptyState
@@ -47,6 +50,11 @@ fun VideoOptimizerScreen(
     viewModel: VideoOptimizerViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val adActions = rememberAdActions()
+    LaunchedEffect(state.lastRunSummary) {
+        // A batch just finished: natural pause for an ad.
+        if (state.lastRunSummary != null) adActions.actionCompleted()
+    }
 
     Surface(
         modifier = modifier.fillMaxSize(),
@@ -161,9 +169,10 @@ fun VideoOptimizerScreen(
             }
 
             if (state.loading) {
-                FullScreenLoading()
+                FullScreenLoading(Modifier.weight(1f))
             } else if (state.items.isEmpty()) {
                 EmptyState(
+                    modifier = Modifier.weight(1f),
                     title = stringResource(R.string.video_optimizer_empty_title),
                     message = stringResource(R.string.video_optimizer_empty_message),
                     icon = Icons.Filled.PlayArrow
@@ -183,7 +192,6 @@ fun VideoOptimizerScreen(
                     color = MaterialTheme.colorScheme.surface,
                     modifier = Modifier
                         .fillMaxWidth()
-                        .navigationBarsPadding()
                 ) {
                     Column(modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp)) {
                         Row(
@@ -217,6 +225,8 @@ fun VideoOptimizerScreen(
                     }
                 }
             }
+
+            BottomAdBar()
         }
     }
 }
