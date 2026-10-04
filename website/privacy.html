@@ -13,7 +13,7 @@
         </header>
 
         <h1>Privacy Policy</h1>
-        <p class="updated">Last updated: 3 October 2026</p>
+        <p class="updated">Last updated: 4 October 2026</p>
 
         <p>CleanKoach is a storage cleanup app for Android. This policy explains what data the app accesses, what it does with it, and what it never does.</p>
 
@@ -37,22 +37,35 @@
         <p>If you grant Usage Access, the app reads your app launch history over the last 24 hours to power the Activity Monitor. This data stays on your device and is not uploaded or shared.</p>
 
         <h3>Wi-Fi information</h3>
-        <p>The Wi-Fi Security feature reads the encryption type of your current connection and inspects the certificate chain of an HTTPS test endpoint. No payload is transmitted beyond the TLS handshake, and no results are uploaded.</p>
+        <p>The Wi-Fi Security feature reads the encryption type of your current connection, checks whether a proxy is set for it, and verifies the security certificate of a test website (www.google.com). No payload is transmitted beyond the standard secure-connection handshake, and no results are uploaded.</p>
+
+        <h3>Network speed test</h3>
+        <p>The Network Speed feature downloads a test file from Cloudflare's public speed-test server (speed.cloudflare.com) and measures how fast it arrives. Like any website, that server can see your IP address. CleanKoach does not send any other data and does not store the result anywhere except on your screen.</p>
 
         <h3>Settings</h3>
         <p>Your preferences — theme, language, notification settings — are stored on your device only.</p>
 
         <h2>Advertising</h2>
-        <p>CleanKoach shows ads on the home screen through Google AdMob. When ads are served, Google may collect your advertising ID and standard ad-interaction data as described in Google's privacy policy. This data is not linked to any account, because the app has no accounts.</p>
-        <p>If you upgrade to Pro, ads are removed and no advertising ID is collected by the app from that point forward.</p>
+        <p>CleanKoach shows ads through Google AdMob: a small banner at the bottom of the home screen, the settings screen and the tool screens, and a full-screen ad now and then after you finish an action such as a clean-up. Ads never appear on the Pro purchase screen, while a scan is running, or on top of a permission or consent dialog. When ads are served, Google may collect your advertising ID and standard ad-interaction data as described in Google's privacy policy. This data is not linked to any account, because the app has no accounts.</p>
+        <p>If you upgrade to Pro, all ads are removed and no advertising ID is collected by the app from that point forward.</p>
         <p>In the European Economic Area and the United Kingdom, you will be asked for consent before any ads are served, through Google's User Messaging Platform. You can change your choice at any time in the app's Privacy options.</p>
+
+        <h2>Purchases and ratings</h2>
+        <p>The one-time Pro purchase is processed entirely by Google Play. CleanKoach never sees your payment details; it only learns from Google Play whether Pro is active. After you have completed several clean-ups, the app may ask Google Play to show its rating prompt. What you enter there is handled by Google, not by CleanKoach.</p>
+
+        <h2>Third-party services</h2>
+        <ul>
+            <li><strong>Google AdMob and Google User Messaging Platform</strong> — ads and consent, as described above.</li>
+            <li><strong>Google Play Billing and Google Play In-App Review</strong> — purchases and rating prompts.</li>
+            <li><strong>Cloudflare</strong> — hosts the speed-test file and this website.</li>
+        </ul>
 
         <h2>Permissions</h2>
         <ul>
             <li><strong>Photo, video and audio access</strong> — scans and cleans your media library.</li>
             <li><strong>Usage Access</strong> — powers Activity Monitor only. Optional.</li>
             <li><strong>Notifications</strong> — sends weekly cleanup reminders and storage alerts, if you enable them.</li>
-            <li><strong>Internet</strong> — loads ads and runs the network speed test.</li>
+            <li><strong>Internet</strong> — loads ads, checks purchases and runs the Wi-Fi and network speed tests.</li>
             <li><strong>Network state</strong> — reads whether you have internet access and what type of Wi-Fi you are on.</li>
         </ul>
 
@@ -60,7 +73,7 @@
         <p>CleanKoach is not directed at children under 18. It does not knowingly collect any data from children.</p>
 
         <h2>Your rights</h2>
-        <p>Because CleanKoach does not collect or transmit personal data from your device, there is nothing for us to delete, export, or correct on your behalf. If you want to reset the app's local state, uninstalling the app removes everything.</p>
+        <p>Because CleanKoach does not collect or transmit personal data from your device, there is nothing for us to delete, export, or correct on your behalf. Data that Google collects when ads are served is governed by Google's privacy policy and the choices in the app's Privacy options. If you want to reset the app's local state, uninstalling the app removes everything.</p>
 
         <h2>Changes to this policy</h2>
         <p>If this policy changes, the updated version will appear at this URL with a new "Last updated" date.</p>
