@@ -207,4 +207,11 @@
 
     <string name="language_system">सिस्टम डिफ़ॉल्ट</string>
     <string name="scan_progress_files">%2$s में से %1$s फ़ाइलें जाँची गईं</string>
+    <string name="settings_licenses">ओपन-सोर्स लाइसेंस</string>
+    <string name="licenses_title">ओपन-सोर्स लाइसेंस</string>
+    <string name="licenses_intro">CleanKoach नीचे सूचीबद्ध ओपन-सोर्स सॉफ़्टवेयर से बना है।</string>
+    <string name="toast_no_browser">यह लिंक खोलने के लिए कोई ब्राउज़र नहीं मिला।</string>
+    <string name="toast_no_mail">इस डिवाइस पर कोई ईमेल ऐप नहीं मिला।</string>
+    <string name="support_mail_subject">CleanKoach सहायता (v%1$s)</string>
+    <string name="support_mail_body">Android संस्करण: %1$s\nडिवाइस: %2$s\n\nकृपया अपनी समस्या नीचे लिखें:\n\n</string>
 </resources>

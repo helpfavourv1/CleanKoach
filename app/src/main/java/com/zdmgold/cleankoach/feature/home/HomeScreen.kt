@@ -84,6 +84,7 @@ import com.zdmgold.cleankoach.core.ui.components.ToolCard
 import com.zdmgold.cleankoach.core.ui.theme.mediaTint
 import com.zdmgold.cleankoach.core.ui.theme.optimizerTint
 import com.zdmgold.cleankoach.core.ui.theme.toolsTint
+import com.zdmgold.cleankoach.core.util.ExternalActions
 import com.zdmgold.cleankoach.core.util.FormatUtils
 import com.zdmgold.cleankoach.feature.cleanup.CleanUpConfirmSheet
 import com.zdmgold.cleankoach.feature.cleanup.CleanUpResultSheet
@@ -147,6 +148,14 @@ fun HomeScreen(
 
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
         viewModel.refresh()
+    }
+
+    val hostContext = androidx.compose.ui.platform.LocalContext.current
+    LaunchedEffect(state.reviewRequested, state.cleanUpResultVisible) {
+        if (state.reviewRequested && !state.cleanUpResultVisible) {
+            with(ExternalActions) { hostContext.findActivity() }?.let(ExternalActions::requestInAppReview)
+            viewModel.onReviewHandled()
+        }
     }
 
     val media = mediaTint()

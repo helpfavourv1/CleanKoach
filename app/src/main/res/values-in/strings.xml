@@ -207,4 +207,11 @@
 
     <string name="language_system">Default sistem</string>
     <string name="scan_progress_files">Memeriksa %1$s dari %2$s file</string>
+    <string name="settings_licenses">Lisensi sumber terbuka</string>
+    <string name="licenses_title">Lisensi sumber terbuka</string>
+    <string name="licenses_intro">CleanKoach dibuat dengan perangkat lunak sumber terbuka yang tercantum di bawah.</string>
+    <string name="toast_no_browser">Tidak ada browser untuk membuka tautan ini.</string>
+    <string name="toast_no_mail">Tidak ada aplikasi email di perangkat ini.</string>
+    <string name="support_mail_subject">Dukungan CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">Versi Android: %1$s\nPerangkat: %2$s\n\nJelaskan masalah Anda di bawah ini:\n\n</string>
 </resources>

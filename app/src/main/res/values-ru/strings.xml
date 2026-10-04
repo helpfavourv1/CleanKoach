@@ -207,4 +207,11 @@
 
     <string name="language_system">Как в системе</string>
     <string name="scan_progress_files">Проверено %1$s из %2$s файлов</string>
+    <string name="settings_licenses">Лицензии открытого ПО</string>
+    <string name="licenses_title">Лицензии открытого ПО</string>
+    <string name="licenses_intro">CleanKoach создано с использованием открытого ПО, перечисленного ниже.</string>
+    <string name="toast_no_browser">Не найден браузер для открытия этой ссылки.</string>
+    <string name="toast_no_mail">На этом устройстве не найдено почтовое приложение.</string>
+    <string name="support_mail_subject">Поддержка CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">Версия Android: %1$s\nУстройство: %2$s\n\nОпишите проблему ниже:\n\n</string>
 </resources>

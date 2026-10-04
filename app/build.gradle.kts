@@ -84,6 +84,7 @@ dependencies {
     implementation(libs.billing.ktx)
     implementation(libs.play.services.ads)
     implementation(libs.user.messaging.platform)
+    implementation(libs.play.review.ktx)
     implementation(libs.work.runtime.ktx)
     implementation(libs.work.hilt)
     ksp(libs.work.hilt.compiler)

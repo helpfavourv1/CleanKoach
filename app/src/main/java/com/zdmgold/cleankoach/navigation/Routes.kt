@@ -8,6 +8,7 @@ object Routes {
     const val SETTINGS_NOTIFICATIONS = "settings_notifications"
     const val SETTINGS_PRO = "settings_pro"
     const val SETTINGS_ABOUT = "settings_about"
+    const val SETTINGS_LICENSES = "settings_licenses"
 
     const val LARGE_FILES = "large_files"
     const val DUPLICATES = "duplicates"

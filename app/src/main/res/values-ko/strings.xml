@@ -207,4 +207,11 @@
 
     <string name="language_system">시스템 기본값</string>
     <string name="scan_progress_files">파일 %2$s개 중 %1$s개 확인 중</string>
+    <string name="settings_licenses">오픈소스 라이선스</string>
+    <string name="licenses_title">오픈소스 라이선스</string>
+    <string name="licenses_intro">CleanKoach는 아래의 오픈소스 소프트웨어로 만들어졌습니다.</string>
+    <string name="toast_no_browser">이 링크를 열 브라우저를 찾을 수 없습니다.</string>
+    <string name="toast_no_mail">이 기기에서 이메일 앱을 찾을 수 없습니다.</string>
+    <string name="support_mail_subject">CleanKoach 지원 (v%1$s)</string>
+    <string name="support_mail_body">Android 버전: %1$s\n기기: %2$s\n\n아래에 문제를 설명해 주세요:\n\n</string>
 </resources>

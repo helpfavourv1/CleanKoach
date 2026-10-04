@@ -14,6 +14,7 @@ import com.zdmgold.cleankoach.feature.photooptimizer.PhotoOptimizerScreen
 import com.zdmgold.cleankoach.feature.screenshots.ScreenshotsScreen
 import com.zdmgold.cleankoach.feature.settings.AboutScreen
 import com.zdmgold.cleankoach.feature.settings.LanguageScreen
+import com.zdmgold.cleankoach.feature.settings.LicensesScreen
 import com.zdmgold.cleankoach.feature.settings.NotificationsScreen
 import com.zdmgold.cleankoach.feature.settings.ProScreen
 import com.zdmgold.cleankoach.feature.settings.SettingsScreen
@@ -54,7 +55,8 @@ fun CleanKoachNavHost(
                 onOpenLanguage = { navController.navigate(Routes.SETTINGS_LANGUAGE) },
                 onOpenNotifications = { navController.navigate(Routes.SETTINGS_NOTIFICATIONS) },
                 onOpenPro = { navController.navigate(Routes.SETTINGS_PRO) },
-                onOpenAbout = { navController.navigate(Routes.SETTINGS_ABOUT) }
+                onOpenAbout = { navController.navigate(Routes.SETTINGS_ABOUT) },
+                onOpenLicenses = { navController.navigate(Routes.SETTINGS_LICENSES) }
             )
         }
 
@@ -72,6 +74,10 @@ fun CleanKoachNavHost(
         }
         composable(Routes.SETTINGS_ABOUT) {
             AboutScreen(onBack = { navController.popBackStack() })
+        }
+
+        composable(Routes.SETTINGS_LICENSES) {
+            LicensesScreen(onBack = { navController.popBackStack() })
         }
 
         composable(Routes.LARGE_FILES) {

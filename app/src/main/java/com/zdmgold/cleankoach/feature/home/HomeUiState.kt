@@ -22,6 +22,7 @@ data class HomeUiState(
     val videoOptimizerBadge: String? = null,
     val cleanUpSheetVisible: Boolean = false,
     val cleanUpResultVisible: Boolean = false,
+    val reviewRequested: Boolean = false,
     val lastCleanupResult: CleanUpSummary? = null,
     val mediaDisclosureVisible: Boolean = false
 ) {

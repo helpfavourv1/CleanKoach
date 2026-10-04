@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.zdmgold.cleankoach.core.data.prefs.ConsentDataStore
 import com.zdmgold.cleankoach.core.data.repository.MediaRepository
+import com.zdmgold.cleankoach.core.data.repository.SettingsRepository
 import com.zdmgold.cleankoach.core.domain.model.StorageStats
 import com.zdmgold.cleankoach.core.util.FormatUtils
 import com.zdmgold.cleankoach.core.media.PermissionChecker
@@ -21,7 +22,8 @@ import javax.inject.Inject
 class HomeViewModel @Inject constructor(
     private val mediaRepository: MediaRepository,
     private val consentDataStore: ConsentDataStore,
-    private val permissionChecker: PermissionChecker
+    private val permissionChecker: PermissionChecker,
+    private val settingsRepository: SettingsRepository
 ) : ViewModel() {
 
     private var cleanupBefore: StorageStats? = null
@@ -126,8 +128,11 @@ class HomeViewModel @Inject constructor(
             (before.trashCount - after.trashCount).coerceAtLeast(0)
         } else 0
         cleanupBefore = null
+        val promptReview = runCatching { settingsRepository.recordCleanupAndShouldPromptReview() }
+            .getOrDefault(false)
         _state.update {
             it.copy(
+                reviewRequested = it.reviewRequested || promptReview,
                 scanning = false,
                 scanProgress = 1f,
                 cleanUpResultVisible = true,
@@ -138,6 +143,10 @@ class HomeViewModel @Inject constructor(
             )
         }
         refresh()
+    }
+
+    fun onReviewHandled() {
+        _state.update { it.copy(reviewRequested = false) }
     }
 
     fun onResultDismissed() {

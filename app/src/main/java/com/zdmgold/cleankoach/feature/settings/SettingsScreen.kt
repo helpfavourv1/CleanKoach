@@ -22,6 +22,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -29,6 +30,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.BuildConfig
 import com.zdmgold.cleankoach.R
+import com.zdmgold.cleankoach.core.AppLinks
+import com.zdmgold.cleankoach.core.util.ExternalActions
 
 @Composable
 fun SettingsScreen(
@@ -38,10 +41,12 @@ fun SettingsScreen(
     onOpenNotifications: () -> Unit,
     onOpenPro: () -> Unit,
     onOpenAbout: () -> Unit,
+    onOpenLicenses: () -> Unit,
     modifier: Modifier = Modifier,
     viewModel: SettingsViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val context = LocalContext.current
 
     Surface(
         modifier = modifier.fillMaxSize(),
@@ -120,26 +125,30 @@ fun SettingsScreen(
 
                 SettingsRow(
                     label = stringResource(R.string.settings_share_app),
-                    onClick = { }
+                    onClick = { ExternalActions.shareApp(context) }
                 )
                 SettingsRow(
                     label = stringResource(R.string.settings_rate_app),
-                    onClick = { }
+                    onClick = { ExternalActions.openStorePage(context) }
                 )
 
                 HorizontalDivider(modifier = Modifier.padding(horizontal = 20.dp, vertical = 4.dp))
 
                 SettingsRow(
                     label = stringResource(R.string.settings_privacy_policy),
-                    onClick = { }
+                    onClick = { ExternalActions.openUrl(context, AppLinks.PRIVACY_URL) }
                 )
                 SettingsRow(
                     label = stringResource(R.string.settings_terms),
-                    onClick = { }
+                    onClick = { ExternalActions.openUrl(context, AppLinks.TERMS_URL) }
+                )
+                SettingsRow(
+                    label = stringResource(R.string.settings_licenses),
+                    onClick = onOpenLicenses
                 )
                 SettingsRow(
                     label = stringResource(R.string.settings_support),
-                    onClick = { }
+                    onClick = { ExternalActions.emailSupport(context) }
                 )
 
                 HorizontalDivider(modifier = Modifier.padding(horizontal = 20.dp, vertical = 4.dp))

@@ -207,4 +207,11 @@
 
     <string name="language_system">Padrão do sistema</string>
     <string name="scan_progress_files">Verificando %1$s de %2$s arquivos</string>
+    <string name="settings_licenses">Licenças de código aberto</string>
+    <string name="licenses_title">Licenças de código aberto</string>
+    <string name="licenses_intro">O CleanKoach foi criado com o software de código aberto listado abaixo.</string>
+    <string name="toast_no_browser">Nenhum navegador encontrado para abrir este link.</string>
+    <string name="toast_no_mail">Nenhum app de e-mail encontrado neste dispositivo.</string>
+    <string name="support_mail_subject">Suporte do CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">Versão do Android: %1$s\nDispositivo: %2$s\n\nDescreva seu problema abaixo:\n\n</string>
 </resources>

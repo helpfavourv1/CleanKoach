@@ -230,4 +230,11 @@
 
     <string name="language_system">System default</string>
     <string name="scan_progress_files">Checking %1$s of %2$s files</string>
+    <string name="settings_licenses">Open-source licenses</string>
+    <string name="licenses_title">Open-source licenses</string>
+    <string name="licenses_intro">CleanKoach is built with the open-source software listed below.</string>
+    <string name="toast_no_browser">No browser found to open this link.</string>
+    <string name="toast_no_mail">No email app found on this device.</string>
+    <string name="support_mail_subject">CleanKoach support (v%1$s)</string>
+    <string name="support_mail_body">Android version: %1$s\nDevice: %2$s\n\nPlease describe your issue below:\n\n</string>
 </resources>
