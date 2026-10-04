@@ -23,16 +23,11 @@ class NetworkSpeedViewModel @Inject constructor(
 
     fun run() {
         viewModelScope.launch {
-            _state.update { it.copy(phase = SpeedTestPhase.PREPARING, error = null, result = null) }
+            _state.update { it.copy(phase = SpeedTestPhase.PREPARING, result = null) }
 
             securityRepository.runSpeedTest()
                 .catch { throwable ->
-                    _state.update {
-                        it.copy(
-                            phase = SpeedTestPhase.FAILED,
-                            error = throwable.message ?: "Test failed."
-                        )
-                    }
+                    _state.update { it.copy(phase = SpeedTestPhase.FAILED) }
                 }
                 .onCompletion {
                     if (_state.value.phase == SpeedTestPhase.TESTING) {
@@ -41,11 +36,8 @@ class NetworkSpeedViewModel @Inject constructor(
                 }
                 .collect { result ->
                     _state.update {
-                        it.copy(phase = SpeedTestPhase.TESTING, result = result)
-                    }
-                    _state.update {
                         it.copy(
-                            phase = SpeedTestPhase.DONE,
+                            phase = if (result.inProgress) SpeedTestPhase.TESTING else SpeedTestPhase.DONE,
                             result = result
                         )
                     }

@@ -16,7 +16,7 @@ interface MediaRepository {
     suspend fun scanSimilarPhotos(): List<SimilarGroup>
     suspend fun scanScreenshots(): List<MediaItem>
     suspend fun storageStats(): StorageStats
-    suspend fun deleteMedia(ids: List<Long>): CleanupResult
+    suspend fun deleteMedia(uris: List<Uri>): CleanupResult
     suspend fun clearAppCache(): Long
     suspend fun trashedUris(): List<Uri>
     fun buildDeleteRequest(uris: List<Uri>): IntentSender?

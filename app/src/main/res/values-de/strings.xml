@@ -119,12 +119,12 @@
     <string name="wifi_check_internet_disconnected">Keine aktive Verbindung.</string>
     <string name="wifi_check_encryption_title">Verschlüsselung und Authentifizierung</string>
     <string name="wifi_check_unavailable">auf diesem Gerät nicht verfügbar</string>
-    <string name="wifi_check_ssl_strip_title">SSL-Strip-Test</string>
-    <string name="wifi_check_ssl_strip_detected">Erkannt. Ein Gerät in diesem Netzwerk stuft HTTPS-Verbindungen herab.</string>
-    <string name="wifi_check_ssl_strip_safe">Nicht erkannt.</string>
-    <string name="wifi_check_ssl_split_title">SSL-Split-Test</string>
-    <string name="wifi_check_ssl_split_detected">Erkannt. Deine Verbindung läuft über einen Interceptor.</string>
-    <string name="wifi_check_ssl_split_safe">Nicht erkannt.</string>
+    <string name="wifi_check_ssl_strip_title">Zertifikatsprüfung</string>
+    <string name="wifi_check_ssl_strip_detected">Warnung. Das Zertifikat einer Testseite konnte nicht überprüft werden. Möglicherweise fängt jemand in diesem Netzwerk gesicherten Datenverkehr ab.</string>
+    <string name="wifi_check_ssl_strip_safe">Bestanden. Das Zertifikat der Testseite ist gültig.</string>
+    <string name="wifi_check_ssl_split_title">Proxy-Prüfung</string>
+    <string name="wifi_check_ssl_split_detected">Für diese Verbindung ist ein Proxy eingerichtet. Dein Datenverkehr läuft möglicherweise über einen anderen Server.</string>
+    <string name="wifi_check_ssl_split_safe">Kein Proxy erkannt.</string>
     <string name="wifi_check_checked_at">Geprüft %1$s</string>
     <string name="wifi_check_rerun">Erneut prüfen</string>
     <string name="wifi_check_error">Verbindung konnte nicht geprüft werden.</string>
@@ -218,4 +218,8 @@
     <string name="pro_pending">Deine Zahlung steht noch aus. Pro wird freigeschaltet, sobald sie abgeschlossen ist.</string>
     <string name="pro_button_upgrade_price">Upgrade für %1$s</string>
     <string name="duplicates_delete_line">%1$d zu löschen · %2$s</string>
+    <string name="network_speed_error">Der Testserver ist nicht erreichbar. Prüfe deine Verbindung und versuche es erneut.</string>
+    <string name="home_partial_access_message">Eingeschränkter Fotozugriff. CleanKoach sieht nur die Fotos und Videos, die du ausgewählt hast.</string>
+    <string name="home_partial_access_action">Alle erlauben</string>
+    <string name="home_nothing_to_clean_message">Gerade nichts zu bereinigen</string>
 </resources>

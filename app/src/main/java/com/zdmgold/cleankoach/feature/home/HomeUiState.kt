@@ -1,8 +1,6 @@
 package com.zdmgold.cleankoach.feature.home
 
 import androidx.activity.result.IntentSenderRequest
-import androidx.annotation.StringRes
-import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.domain.model.StorageStats
 
 data class HomeUiState(
@@ -23,24 +21,10 @@ data class HomeUiState(
     val cleanUpSheetVisible: Boolean = false,
     val cleanUpResultVisible: Boolean = false,
     val reviewRequested: Boolean = false,
+    val nothingToClean: Boolean = false,
     val lastCleanupResult: CleanUpSummary? = null,
     val mediaDisclosureVisible: Boolean = false
-) {
-    val cleanUpEnabled: Boolean
-        get() = !scanning && (storage?.totalReclaimableBytes ?: 0L) > 0L
-
-    val cleanUpButtonEnabled: Boolean
-        get() = if (mediaPermissionGranted) cleanUpEnabled else !scanning
-
-    @get:StringRes
-    val cleanUpLabelRes: Int
-        get() = when {
-            scanning -> R.string.home_button_scanning
-            !mediaPermissionGranted -> R.string.home_button_allow_access
-            (storage?.totalReclaimableBytes ?: 0L) <= 0L -> R.string.home_button_nothing_to_clean
-            else -> R.string.home_button_cleanup
-        }
-}
+)
 
 data class CleanUpSummary(
     val itemCount: Int,

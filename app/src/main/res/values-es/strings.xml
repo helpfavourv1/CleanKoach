@@ -119,12 +119,12 @@
     <string name="wifi_check_internet_disconnected">Sin conexión activa.</string>
     <string name="wifi_check_encryption_title">Cifrado y autenticación</string>
     <string name="wifi_check_unavailable">no disponible en este dispositivo</string>
-    <string name="wifi_check_ssl_strip_title">Prueba SSL strip</string>
-    <string name="wifi_check_ssl_strip_detected">Detectado. Un dispositivo en esta red está degradando conexiones HTTPS.</string>
-    <string name="wifi_check_ssl_strip_safe">No detectado.</string>
-    <string name="wifi_check_ssl_split_title">Prueba SSL split</string>
-    <string name="wifi_check_ssl_split_detected">Detectado. Tu conexión pasa por un interceptor.</string>
-    <string name="wifi_check_ssl_split_safe">No detectado.</string>
+    <string name="wifi_check_ssl_strip_title">Comprobación de certificado</string>
+    <string name="wifi_check_ssl_strip_detected">Aviso. No se pudo verificar el certificado de un sitio de prueba. Alguien en esta red podría estar interceptando el tráfico seguro.</string>
+    <string name="wifi_check_ssl_strip_safe">Superada. El certificado del sitio de prueba es válido.</string>
+    <string name="wifi_check_ssl_split_title">Comprobación de proxy</string>
+    <string name="wifi_check_ssl_split_detected">Hay un proxy configurado en esta conexión. Tu tráfico puede pasar por otro servidor.</string>
+    <string name="wifi_check_ssl_split_safe">No se detectó ningún proxy.</string>
     <string name="wifi_check_checked_at">Comprobado %1$s</string>
     <string name="wifi_check_rerun">Volver a comprobar</string>
     <string name="wifi_check_error">No se pudo inspeccionar la conexión.</string>
@@ -218,4 +218,8 @@
     <string name="pro_pending">Tu pago está pendiente. Pro se activará en cuanto se complete.</string>
     <string name="pro_button_upgrade_price">Mejorar por %1$s</string>
     <string name="duplicates_delete_line">%1$d para eliminar · %2$s</string>
+    <string name="network_speed_error">No se pudo conectar con el servidor de prueba. Revisa tu conexión e inténtalo de nuevo.</string>
+    <string name="home_partial_access_message">Acceso limitado a fotos. CleanKoach solo ve las fotos y vídeos que elegiste.</string>
+    <string name="home_partial_access_action">Permitir todo</string>
+    <string name="home_nothing_to_clean_message">Nada que limpiar ahora mismo</string>
 </resources>

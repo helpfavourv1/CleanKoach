@@ -27,6 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
+import com.zdmgold.cleankoach.core.system.NetworkSpeedTester
 import com.zdmgold.cleankoach.core.ui.components.DeterminateProgress
 import com.zdmgold.cleankoach.core.ui.components.IndeterminateProgress
 import com.zdmgold.cleankoach.core.ui.components.PrimaryButton
@@ -105,7 +106,22 @@ fun NetworkSpeedScreen(
                             color = MaterialTheme.colorScheme.onSurface
                         )
                         Spacer(Modifier.height(16.dp))
-                        DeterminateProgress(progress = 0.5f)
+                        Text(
+                            text = state.result?.let { FormatUtils.mbps(it.downloadMbps) } ?: "—",
+                            style = MaterialTheme.typography.displayLarge,
+                            fontWeight = FontWeight.W300,
+                            color = MaterialTheme.colorScheme.onSurface,
+                            textAlign = TextAlign.Center
+                        )
+                        Spacer(Modifier.height(16.dp))
+                        DeterminateProgress(
+                            progress = state.result?.let {
+                                maxOf(
+                                    it.bytesTransferred.toFloat() / NetworkSpeedTester.TEST_BYTES,
+                                    it.durationMillis.toFloat() / NetworkSpeedTester.MAX_DURATION_MS
+                                ).coerceIn(0f, 1f)
+                            } ?: 0f
+                        )
                         Spacer(Modifier.height(12.dp))
                         Text(
                             text = state.result?.let {
@@ -156,7 +172,7 @@ fun NetworkSpeedScreen(
                         )
                         Spacer(Modifier.height(8.dp))
                         Text(
-                            text = state.error ?: "",
+                            text = stringResource(R.string.network_speed_error),
                             style = MaterialTheme.typography.bodyMedium,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                             textAlign = TextAlign.Center

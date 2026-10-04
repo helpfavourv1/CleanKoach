@@ -34,7 +34,7 @@ class WifiSecurityInspector @Inject constructor(
         val internetAccess = checkInternetAccess()
         val encryption = readEncryptionType()
         val stripVerdict = runSslStripTest()
-        val splitVerdict = runSslSplitTest(stripVerdict)
+        val splitVerdict = runSslSplitTest()
 
         return WifiSecurityReport(
             internetAccess = internetAccess,
@@ -106,19 +106,15 @@ class WifiSecurityInspector @Inject constructor(
         }.getOrDefault(SecurityVerdict.UNAVAILABLE)
     }
 
-    private fun runSslSplitTest(strip: SecurityVerdict): SecurityVerdict {
-        val proxy = detectSystemProxy()
-        return when {
-            proxy && strip == SecurityVerdict.DETECTED -> SecurityVerdict.DETECTED
-            proxy -> SecurityVerdict.DETECTED
-            else -> SecurityVerdict.SECURE
-        }
-    }
+    /** Reports whether a proxy is configured for the active connection. */
+    private fun runSslSplitTest(): SecurityVerdict =
+        if (detectProxy()) SecurityVerdict.DETECTED else SecurityVerdict.SECURE
 
-    private fun detectSystemProxy(): Boolean {
+    private fun detectProxy(): Boolean {
         return runCatching {
-            val prop = System.getProperty("http.proxyHost")
-            !prop.isNullOrBlank()
+            val cm = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+            val connectionProxy = cm.defaultProxy?.host
+            !connectionProxy.isNullOrBlank() || !System.getProperty("http.proxyHost").isNullOrBlank()
         }.getOrDefault(false)
     }
 

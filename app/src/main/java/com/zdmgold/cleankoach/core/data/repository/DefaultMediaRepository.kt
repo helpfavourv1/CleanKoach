@@ -174,30 +174,28 @@ class DefaultMediaRepository @Inject constructor(
         )
     }
 
-    override suspend fun deleteMedia(ids: List<Long>): CleanupResult = withContext(Dispatchers.IO) {
-        if (ids.isEmpty()) {
-            val cacheFreed = cacheCleaner.clear()
-            return@withContext trashManager.buildCleanupResult(
-                itemCount = 0,
-                freedBytes = 0L,
-                cacheFreedBytes = cacheFreed
-            )
-        }
-        val uris = ids.map { id ->
-            Uri.withAppendedPath(
-                MediaStore.Images.Media.EXTERNAL_CONTENT_URI,
-                id.toString()
-            )
-        }
-        var freed = 0L
+    /**
+     * Direct delete, used where the system delete dialog does not exist (Android 9 and 10).
+     * Each URI keeps its own collection, so images, videos and audio are all handled correctly.
+     */
+    override suspend fun deleteMedia(uris: List<Uri>): CleanupResult = withContext(Dispatchers.IO) {
+        var deleted = 0
+        var freedBytes = 0L
         uris.forEach { uri ->
-            runCatching {
-                context.contentResolver.delete(uri, null, null)
-            }.onSuccess { count -> if (count > 0) freed += 1L }
+            val size = runCatching {
+                context.contentResolver.query(
+                    uri, arrayOf(MediaStore.MediaColumns.SIZE), null, null, null
+                )?.use { if (it.moveToFirst()) it.getLong(0) else 0L }
+            }.getOrNull() ?: 0L
+            val count = runCatching { context.contentResolver.delete(uri, null, null) }.getOrDefault(0)
+            if (count > 0) {
+                deleted += 1
+                freedBytes += size
+            }
         }
         trashManager.buildCleanupResult(
-            itemCount = uris.size,
-            freedBytes = freed,
+            itemCount = deleted,
+            freedBytes = freedBytes,
             cacheFreedBytes = cacheCleaner.clear()
         )
     }

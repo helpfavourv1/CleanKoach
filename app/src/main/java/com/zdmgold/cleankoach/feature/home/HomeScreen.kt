@@ -151,6 +151,14 @@ fun HomeScreen(
     }
 
     val hostContext = androidx.compose.ui.platform.LocalContext.current
+    LaunchedEffect(state.nothingToClean) {
+        if (state.nothingToClean) {
+            android.widget.Toast.makeText(
+                hostContext, R.string.home_nothing_to_clean_message, android.widget.Toast.LENGTH_SHORT
+            ).show()
+            viewModel.onNothingToCleanShown()
+        }
+    }
     LaunchedEffect(state.reviewRequested, state.cleanUpResultVisible) {
         if (state.reviewRequested && !state.cleanUpResultVisible) {
             with(ExternalActions) { hostContext.findActivity() }?.let(ExternalActions::requestInAppReview)
@@ -329,6 +337,31 @@ fun HomeScreen(
                     .fillMaxWidth()
                     .verticalScroll(rememberScrollState())
             ) {
+                if (state.partialMediaAccess) {
+                    Surface(
+                        shape = RoundedCornerShape(16.dp),
+                        color = MaterialTheme.colorScheme.surfaceVariant,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Row(
+                            modifier = Modifier.padding(start = 14.dp, end = 4.dp, top = 4.dp, bottom = 4.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Text(
+                                text = stringResource(R.string.home_partial_access_message),
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                modifier = Modifier.weight(1f)
+                            )
+                            androidx.compose.material3.TextButton(
+                                onClick = { permissionLauncher.launch(MediaPermissions.required()) }
+                            ) {
+                                Text(stringResource(R.string.home_partial_access_action))
+                            }
+                        }
+                    }
+                    Spacer(Modifier.height(4.dp))
+                }
                 SectionHeader(
                     text = stringResource(R.string.home_section_photos_videos),
                     padding = PaddingValues(horizontal = 4.dp, vertical = 6.dp)

@@ -85,6 +85,11 @@ class HomeViewModel @Inject constructor(
 
     fun onCleanUpPressed() {
         if (_state.value.scanning) return
+        val reclaimable = _state.value.storage?.totalReclaimableBytes
+        if (reclaimable != null && reclaimable <= 0L) {
+            _state.update { it.copy(nothingToClean = true) }
+            return
+        }
         _state.update { it.copy(cleanUpSheetVisible = true) }
     }
 
@@ -143,6 +148,10 @@ class HomeViewModel @Inject constructor(
             )
         }
         refresh()
+    }
+
+    fun onNothingToCleanShown() {
+        _state.update { it.copy(nothingToClean = false) }
     }
 
     fun onReviewHandled() {

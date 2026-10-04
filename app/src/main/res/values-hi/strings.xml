@@ -119,12 +119,12 @@
     <string name="wifi_check_internet_disconnected">कोई सक्रिय कनेक्शन नहीं।</string>
     <string name="wifi_check_encryption_title">एन्क्रिप्शन और प्रमाणीकरण</string>
     <string name="wifi_check_unavailable">इस डिवाइस पर उपलब्ध नहीं</string>
-    <string name="wifi_check_ssl_strip_title">SSL स्ट्रिप टेस्ट</string>
-    <string name="wifi_check_ssl_strip_detected">पता चला। इस नेटवर्क पर कोई डिवाइस HTTPS कनेक्शन को कमज़ोर कर रहा है।</string>
-    <string name="wifi_check_ssl_strip_safe">पता नहीं चला।</string>
-    <string name="wifi_check_ssl_split_title">SSL स्प्लिट टेस्ट</string>
-    <string name="wifi_check_ssl_split_detected">पता चला। आपका कनेक्शन एक इंटरसेप्टर से होकर जा रहा है।</string>
-    <string name="wifi_check_ssl_split_safe">पता नहीं चला।</string>
+    <string name="wifi_check_ssl_strip_title">सर्टिफ़िकेट जाँच</string>
+    <string name="wifi_check_ssl_strip_detected">चेतावनी। एक परीक्षण साइट का सर्टिफ़िकेट सत्यापित नहीं हो सका। इस नेटवर्क पर कोई सुरक्षित ट्रैफ़िक को बीच में रोक रहा हो सकता है।</string>
+    <string name="wifi_check_ssl_strip_safe">सफल। परीक्षण साइट का सर्टिफ़िकेट मान्य है।</string>
+    <string name="wifi_check_ssl_split_title">प्रॉक्सी जाँच</string>
+    <string name="wifi_check_ssl_split_detected">इस कनेक्शन पर प्रॉक्सी सेट है। आपका ट्रैफ़िक किसी दूसरे सर्वर से होकर जा सकता है।</string>
+    <string name="wifi_check_ssl_split_safe">कोई प्रॉक्सी नहीं मिला।</string>
     <string name="wifi_check_checked_at">जाँचा %1$s</string>
     <string name="wifi_check_rerun">दोबारा जाँचें</string>
     <string name="wifi_check_error">कनेक्शन की जाँच नहीं हो सकी।</string>
@@ -218,4 +218,8 @@
     <string name="pro_pending">आपका भुगतान लंबित है। भुगतान पूरा होते ही Pro चालू हो जाएगा।</string>
     <string name="pro_button_upgrade_price">%1$s में अपग्रेड करें</string>
     <string name="duplicates_delete_line">%1$d हटाने के लिए · %2$s</string>
+    <string name="network_speed_error">परीक्षण सर्वर तक नहीं पहुँच सके। अपना कनेक्शन जाँचें और फिर कोशिश करें।</string>
+    <string name="home_partial_access_message">फ़ोटो का सीमित एक्सेस। CleanKoach केवल आपके चुने हुए फ़ोटो और वीडियो देख सकता है।</string>
+    <string name="home_partial_access_action">सभी की अनुमति दें</string>
+    <string name="home_nothing_to_clean_message">अभी साफ़ करने के लिए कुछ नहीं है</string>
 </resources>

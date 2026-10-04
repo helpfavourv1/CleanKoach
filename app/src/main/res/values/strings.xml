@@ -134,12 +134,12 @@
     <string name="wifi_check_internet_disconnected">No active connection.</string>
     <string name="wifi_check_encryption_title">Encryption and authentication</string>
     <string name="wifi_check_unavailable">unavailable on this device</string>
-    <string name="wifi_check_ssl_strip_title">SSL strip test</string>
-    <string name="wifi_check_ssl_strip_detected">Detected. A device on this network is downgrading HTTPS connections.</string>
-    <string name="wifi_check_ssl_strip_safe">Not detected.</string>
-    <string name="wifi_check_ssl_split_title">SSL split test</string>
-    <string name="wifi_check_ssl_split_detected">Detected. Your connection is passing through an interceptor.</string>
-    <string name="wifi_check_ssl_split_safe">Not detected.</string>
+    <string name="wifi_check_ssl_strip_title">Certificate check</string>
+    <string name="wifi_check_ssl_strip_detected">Warning. The certificate of a test site could not be verified. Someone on this network may be intercepting secure traffic.</string>
+    <string name="wifi_check_ssl_strip_safe">Passed. The test site\'s certificate is valid.</string>
+    <string name="wifi_check_ssl_split_title">Proxy check</string>
+    <string name="wifi_check_ssl_split_detected">A proxy is set on this connection. Your traffic may pass through another server.</string>
+    <string name="wifi_check_ssl_split_safe">No proxy detected.</string>
     <string name="wifi_check_checked_at">Checked %1$s</string>
     <string name="wifi_check_rerun">Re-run checks</string>
     <string name="wifi_check_error">Unable to inspect connection.</string>
@@ -241,4 +241,8 @@
     <string name="pro_pending">Your payment is pending. Pro unlocks as soon as it completes.</string>
     <string name="pro_button_upgrade_price">Upgrade for %1$s</string>
     <string name="duplicates_delete_line">%1$d to delete · %2$s</string>
+    <string name="network_speed_error">Couldn\'t reach the test server. Check your connection and try again.</string>
+    <string name="home_partial_access_message">Limited photo access. CleanKoach can only see the photos and videos you selected.</string>
+    <string name="home_partial_access_action">Allow all</string>
+    <string name="home_nothing_to_clean_message">Nothing to clean right now</string>
 </resources>

@@ -119,12 +119,12 @@
     <string name="wifi_check_internet_disconnected">Nessuna connessione attiva.</string>
     <string name="wifi_check_encryption_title">Cifratura e autenticazione</string>
     <string name="wifi_check_unavailable">non disponibile su questo dispositivo</string>
-    <string name="wifi_check_ssl_strip_title">Test SSL strip</string>
-    <string name="wifi_check_ssl_strip_detected">Rilevato. Un dispositivo su questa rete sta declassando le connessioni HTTPS.</string>
-    <string name="wifi_check_ssl_strip_safe">Non rilevato.</string>
-    <string name="wifi_check_ssl_split_title">Test SSL split</string>
-    <string name="wifi_check_ssl_split_detected">Rilevato. La tua connessione passa attraverso un intercettore.</string>
-    <string name="wifi_check_ssl_split_safe">Non rilevato.</string>
+    <string name="wifi_check_ssl_strip_title">Controllo del certificato</string>
+    <string name="wifi_check_ssl_strip_detected">Attenzione. Non è stato possibile verificare il certificato di un sito di prova. Qualcuno su questa rete potrebbe intercettare il traffico protetto.</string>
+    <string name="wifi_check_ssl_strip_safe">Superato. Il certificato del sito di prova è valido.</string>
+    <string name="wifi_check_ssl_split_title">Controllo proxy</string>
+    <string name="wifi_check_ssl_split_detected">Su questa connessione è impostato un proxy. Il tuo traffico potrebbe passare da un altro server.</string>
+    <string name="wifi_check_ssl_split_safe">Nessun proxy rilevato.</string>
     <string name="wifi_check_checked_at">Verificato %1$s</string>
     <string name="wifi_check_rerun">Ripeti verifiche</string>
     <string name="wifi_check_error">Impossibile ispezionare la connessione.</string>
@@ -218,4 +218,8 @@
     <string name="pro_pending">Il pagamento è in sospeso. Pro si attiverà non appena sarà completato.</string>
     <string name="pro_button_upgrade_price">Passa a Pro per %1$s</string>
     <string name="duplicates_delete_line">%1$d da eliminare · %2$s</string>
+    <string name="network_speed_error">Impossibile raggiungere il server di prova. Controlla la connessione e riprova.</string>
+    <string name="home_partial_access_message">Accesso limitato alle foto. CleanKoach vede solo le foto e i video selezionati.</string>
+    <string name="home_partial_access_action">Consenti tutto</string>
+    <string name="home_nothing_to_clean_message">Niente da pulire al momento</string>
 </resources>

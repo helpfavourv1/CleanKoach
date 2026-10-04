@@ -6,6 +6,5 @@ enum class SpeedTestPhase { READY, PREPARING, TESTING, DONE, FAILED }
 
 data class NetworkSpeedUiState(
     val phase: SpeedTestPhase = SpeedTestPhase.READY,
-    val result: SpeedTestResult? = null,
-    val error: String? = null
+    val result: SpeedTestResult? = null
 )

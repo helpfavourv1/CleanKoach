@@ -119,12 +119,12 @@
     <string name="wifi_check_internet_disconnected">有効な接続なし。</string>
     <string name="wifi_check_encryption_title">暗号化と認証</string>
     <string name="wifi_check_unavailable">この端末では利用不可</string>
-    <string name="wifi_check_ssl_strip_title">SSL ストリップ検査</string>
-    <string name="wifi_check_ssl_strip_detected">検出。このネットワーク上のデバイスが HTTPS 接続をダウングレードしています。</string>
-    <string name="wifi_check_ssl_strip_safe">未検出。</string>
-    <string name="wifi_check_ssl_split_title">SSL スプリット検査</string>
-    <string name="wifi_check_ssl_split_detected">検出。接続が傍受者を経由しています。</string>
-    <string name="wifi_check_ssl_split_safe">未検出。</string>
+    <string name="wifi_check_ssl_strip_title">証明書チェック</string>
+    <string name="wifi_check_ssl_strip_detected">警告: テストサイトの証明書を確認できませんでした。このネットワーク上の誰かが、暗号化された通信を傍受している可能性があります。</string>
+    <string name="wifi_check_ssl_strip_safe">合格: テストサイトの証明書は有効です。</string>
+    <string name="wifi_check_ssl_split_title">プロキシチェック</string>
+    <string name="wifi_check_ssl_split_detected">この接続にはプロキシが設定されています。通信が別のサーバーを経由する可能性があります。</string>
+    <string name="wifi_check_ssl_split_safe">プロキシは検出されませんでした。</string>
     <string name="wifi_check_checked_at">%1$s に確認</string>
     <string name="wifi_check_rerun">再検査</string>
     <string name="wifi_check_error">接続を検査できませんでした。</string>
@@ -218,4 +218,8 @@
     <string name="pro_pending">お支払いは保留中です。完了するとすぐに Pro が有効になります。</string>
     <string name="pro_button_upgrade_price">%1$s でアップグレード</string>
     <string name="duplicates_delete_line">%1$d 件を削除 · %2$s</string>
+    <string name="network_speed_error">テストサーバーに接続できませんでした。接続を確認して、もう一度お試しください。</string>
+    <string name="home_partial_access_message">写真へのアクセスが制限されています。CleanKoach は選択された写真と動画のみ参照できます。</string>
+    <string name="home_partial_access_action">すべて許可</string>
+    <string name="home_nothing_to_clean_message">今のところ整理するものはありません</string>
 </resources>

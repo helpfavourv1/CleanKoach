@@ -119,12 +119,12 @@
     <string name="wifi_check_internet_disconnected">Tidak ada koneksi aktif.</string>
     <string name="wifi_check_encryption_title">Enkripsi dan autentikasi</string>
     <string name="wifi_check_unavailable">tidak tersedia di perangkat ini</string>
-    <string name="wifi_check_ssl_strip_title">Uji SSL strip</string>
-    <string name="wifi_check_ssl_strip_detected">Terdeteksi. Perangkat di jaringan ini menurunkan koneksi HTTPS.</string>
-    <string name="wifi_check_ssl_strip_safe">Tidak terdeteksi.</string>
-    <string name="wifi_check_ssl_split_title">Uji SSL split</string>
-    <string name="wifi_check_ssl_split_detected">Terdeteksi. Koneksi Anda melewati pencegat.</string>
-    <string name="wifi_check_ssl_split_safe">Tidak terdeteksi.</string>
+    <string name="wifi_check_ssl_strip_title">Pemeriksaan sertifikat</string>
+    <string name="wifi_check_ssl_strip_detected">Peringatan. Sertifikat situs uji tidak dapat diverifikasi. Seseorang di jaringan ini mungkin menyadap lalu lintas aman.</string>
+    <string name="wifi_check_ssl_strip_safe">Lulus. Sertifikat situs uji valid.</string>
+    <string name="wifi_check_ssl_split_title">Pemeriksaan proxy</string>
+    <string name="wifi_check_ssl_split_detected">Proxy diatur pada koneksi ini. Lalu lintas Anda mungkin melewati server lain.</string>
+    <string name="wifi_check_ssl_split_safe">Proxy tidak terdeteksi.</string>
     <string name="wifi_check_checked_at">Diperiksa %1$s</string>
     <string name="wifi_check_rerun">Periksa ulang</string>
     <string name="wifi_check_error">Tidak dapat memeriksa koneksi.</string>
@@ -218,4 +218,8 @@
     <string name="pro_pending">Pembayaran Anda sedang tertunda. Pro akan aktif begitu pembayaran selesai.</string>
     <string name="pro_button_upgrade_price">Tingkatkan seharga %1$s</string>
     <string name="duplicates_delete_line">%1$d akan dihapus · %2$s</string>
+    <string name="network_speed_error">Tidak dapat menjangkau server uji. Periksa koneksi Anda lalu coba lagi.</string>
+    <string name="home_partial_access_message">Akses foto terbatas. CleanKoach hanya melihat foto dan video yang Anda pilih.</string>
+    <string name="home_partial_access_action">Izinkan semua</string>
+    <string name="home_nothing_to_clean_message">Tidak ada yang perlu dibersihkan saat ini</string>
 </resources>

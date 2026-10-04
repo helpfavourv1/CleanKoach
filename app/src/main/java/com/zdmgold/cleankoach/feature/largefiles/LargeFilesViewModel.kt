@@ -67,7 +67,7 @@ class LargeFilesViewModel @Inject constructor(
             if (sender != null) {
                 _state.update { it.copy(deleteRequest = IntentSenderRequest.Builder(sender).build()) }
             } else {
-                runCatching { mediaRepository.deleteMedia(selected.map { it.id }) }
+                runCatching { mediaRepository.deleteMedia(selected.map { Uri.parse(it.uri) }) }
                 _state.update { it.copy(selectedIds = emptySet()) }
                 load()
             }

@@ -18,6 +18,9 @@ class PermissionChecker @Inject constructor(
         return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             granted(Manifest.permission.READ_MEDIA_IMAGES) &&
                 granted(Manifest.permission.READ_MEDIA_VIDEO)
+        } else if (Build.VERSION.SDK_INT < Build.VERSION_CODES.R) {
+            granted(Manifest.permission.READ_EXTERNAL_STORAGE) &&
+                granted(Manifest.permission.WRITE_EXTERNAL_STORAGE)
         } else {
             granted(Manifest.permission.READ_EXTERNAL_STORAGE)
         }
@@ -31,8 +34,6 @@ class PermissionChecker @Inject constructor(
         ) == PackageManager.PERMISSION_GRANTED
         return partial && !hasFullMediaAccess()
     }
-
-    fun hasUsageAccess(): Boolean = false
 
     private fun granted(permission: String): Boolean =
         ContextCompat.checkSelfPermission(context, permission) == PackageManager.PERMISSION_GRANTED

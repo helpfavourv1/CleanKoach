@@ -119,12 +119,12 @@
     <string name="wifi_check_internet_disconnected">Нет активного подключения.</string>
     <string name="wifi_check_encryption_title">Шифрование и аутентификация</string>
     <string name="wifi_check_unavailable">недоступно на этом устройстве</string>
-    <string name="wifi_check_ssl_strip_title">Тест SSL strip</string>
-    <string name="wifi_check_ssl_strip_detected">Обнаружено. Устройство в этой сети понижает версию HTTPS-соединений.</string>
-    <string name="wifi_check_ssl_strip_safe">Не обнаружено.</string>
-    <string name="wifi_check_ssl_split_title">Тест SSL split</string>
-    <string name="wifi_check_ssl_split_detected">Обнаружено. Ваше соединение проходит через перехватчик.</string>
-    <string name="wifi_check_ssl_split_safe">Не обнаружено.</string>
+    <string name="wifi_check_ssl_strip_title">Проверка сертификата</string>
+    <string name="wifi_check_ssl_strip_detected">Внимание. Не удалось проверить сертификат тестового сайта. Возможно, кто-то в этой сети перехватывает защищённый трафик.</string>
+    <string name="wifi_check_ssl_strip_safe">Пройдена. Сертификат тестового сайта действителен.</string>
+    <string name="wifi_check_ssl_split_title">Проверка прокси</string>
+    <string name="wifi_check_ssl_split_detected">Для этого подключения задан прокси. Ваш трафик может проходить через другой сервер.</string>
+    <string name="wifi_check_ssl_split_safe">Прокси не обнаружен.</string>
     <string name="wifi_check_checked_at">Проверено %1$s</string>
     <string name="wifi_check_rerun">Проверить снова</string>
     <string name="wifi_check_error">Не удалось проверить соединение.</string>
@@ -218,4 +218,8 @@
     <string name="pro_pending">Платёж в ожидании. Pro включится сразу после его завершения.</string>
     <string name="pro_button_upgrade_price">Перейти на Pro за %1$s</string>
     <string name="duplicates_delete_line">К удалению: %1$d · %2$s</string>
+    <string name="network_speed_error">Не удалось связаться с тестовым сервером. Проверьте подключение и повторите попытку.</string>
+    <string name="home_partial_access_message">Доступ к фото ограничен. CleanKoach видит только выбранные вами фото и видео.</string>
+    <string name="home_partial_access_action">Разрешить все</string>
+    <string name="home_nothing_to_clean_message">Сейчас нечего очищать</string>
 </resources>

@@ -119,12 +119,12 @@
     <string name="wifi_check_internet_disconnected">활성 연결 없음.</string>
     <string name="wifi_check_encryption_title">암호화 및 인증</string>
     <string name="wifi_check_unavailable">이 기기에서 사용할 수 없음</string>
-    <string name="wifi_check_ssl_strip_title">SSL 스트립 테스트</string>
-    <string name="wifi_check_ssl_strip_detected">감지됨. 이 네트워크의 기기가 HTTPS 연결을 다운그레이드하고 있습니다.</string>
-    <string name="wifi_check_ssl_strip_safe">감지되지 않음.</string>
-    <string name="wifi_check_ssl_split_title">SSL 스플릿 테스트</string>
-    <string name="wifi_check_ssl_split_detected">감지됨. 연결이 가로채기를 통과하고 있습니다.</string>
-    <string name="wifi_check_ssl_split_safe">감지되지 않음.</string>
+    <string name="wifi_check_ssl_strip_title">인증서 검사</string>
+    <string name="wifi_check_ssl_strip_detected">경고: 테스트 사이트의 인증서를 확인할 수 없습니다. 이 네트워크의 누군가가 보안 트래픽을 가로채고 있을 수 있습니다.</string>
+    <string name="wifi_check_ssl_strip_safe">통과: 테스트 사이트의 인증서가 유효합니다.</string>
+    <string name="wifi_check_ssl_split_title">프록시 검사</string>
+    <string name="wifi_check_ssl_split_detected">이 연결에 프록시가 설정되어 있습니다. 트래픽이 다른 서버를 거칠 수 있습니다.</string>
+    <string name="wifi_check_ssl_split_safe">프록시가 감지되지 않았습니다.</string>
     <string name="wifi_check_checked_at">%1$s에 확인</string>
     <string name="wifi_check_rerun">다시 확인</string>
     <string name="wifi_check_error">연결을 검사할 수 없습니다.</string>
@@ -218,4 +218,8 @@
     <string name="pro_pending">결제가 보류 중입니다. 결제가 완료되면 바로 Pro가 활성화됩니다.</string>
     <string name="pro_button_upgrade_price">%1$s에 업그레이드</string>
     <string name="duplicates_delete_line">삭제 %1$d개 · %2$s</string>
+    <string name="network_speed_error">테스트 서버에 연결할 수 없습니다. 연결을 확인한 후 다시 시도해 주세요.</string>
+    <string name="home_partial_access_message">사진 접근이 제한되어 있습니다. CleanKoach는 선택한 사진과 동영상만 볼 수 있습니다.</string>
+    <string name="home_partial_access_action">모두 허용</string>
+    <string name="home_nothing_to_clean_message">지금은 정리할 항목이 없습니다</string>
 </resources>

@@ -56,7 +56,7 @@ class SimilarPhotosViewModel @Inject constructor(
             if (sender != null) {
                 _state.update { it.copy(deleteRequest = IntentSenderRequest.Builder(sender).build()) }
             } else {
-                runCatching { mediaRepository.deleteMedia(doomed.map { it.id }) }
+                runCatching { mediaRepository.deleteMedia(doomed.map { Uri.parse(it.uri) }) }
                 load()
             }
         }
