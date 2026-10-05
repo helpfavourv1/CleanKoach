@@ -180,17 +180,6 @@
     <string name="about_body">Pulizia archiviazione nativa per Android. Tutto gira sul dispositivo. Né i media, né i dati di utilizzo, né i risultati delle analisi vengono caricati.</string>
     <string name="about_built_with">Costruita con Kotlin, Jetpack Compose e Material 3.</string>
 
-    <string name="language_en">English</string>
-    <string name="language_es">Español</string>
-    <string name="language_pt">Português</string>
-    <string name="language_fr">Français</string>
-    <string name="language_de">Deutsch</string>
-    <string name="language_it">Italiano</string>
-    <string name="language_hi">हिन्दी</string>
-    <string name="language_in">Bahasa Indonesia</string>
-    <string name="language_ja">日本語</string>
-    <string name="language_ko">한국어</string>
-    <string name="language_ru">Русский</string>
 
     <string name="channel_cleanup_name">Promemoria di pulizia</string>
     <string name="channel_cleanup_description">Promemoria settimanali per rivedere file grandi e duplicati.</string>

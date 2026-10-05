@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Înapoi</string>
+    <string name="cd_settings">Setări</string>
+    <string name="action_done">Gata</string>
+    <string name="action_cancel">Anulează</string>
+    <string name="action_delete">Șterge</string>
+    <string name="action_continue">Continuă</string>
+    <string name="action_not_now">Nu acum</string>
+    <string name="action_allow_access">Permite accesul</string>
+    <string name="action_open_settings">Deschide setările</string>
+    <string name="action_all">Toate</string>
+    <string name="action_clear">Șterge</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">Dimensiunea coșului</string>
+    <string name="home_ring_sublabel">Fotografii și videoclipuri din coș, plus memoria cache a aplicațiilor</string>
+    <string name="home_storage_line">%1$s din %2$s utilizați · %3$d%%</string>
+    <string name="home_button_cleanup">CURĂȚĂ</string>
+    <string name="home_button_scanning">Se scanează…</string>
+    <string name="home_button_allow_access">Permite accesul</string>
+    <string name="home_button_nothing_to_clean">Nimic de curățat</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">Instrumente telefon</string>
+    <string name="home_section_photos_videos">Fotografii &amp; videoclipuri</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">Fișiere mari</string>
+    <string name="tool_large_files_desc">Cele mai mari fotografii, videoclipuri și fișiere audio.</string>
+    <string name="tool_duplicates_title">Dubluri</string>
+    <string name="tool_duplicates_desc">Fotografii, videoclipuri și fișiere audio identice.</string>
+    <string name="tool_similar_title">Fotografii similare</string>
+    <string name="tool_similar_desc">Cadre aproape identice, păstrați-o pe cea mai bună.</string>
+    <string name="tool_screenshots_title">Capturi de ecran</string>
+    <string name="tool_screenshots_desc">Toate capturile de ecran, dintr-o singură trecere.</string>
+    <string name="tool_photo_optimizer_title">Optimizare foto</string>
+    <string name="tool_photo_optimizer_desc">Comprimă fotografiile, economisește spațiu.</string>
+    <string name="tool_video_optimizer_title">Optimizare video</string>
+    <string name="tool_video_optimizer_desc">Comprimă videoclipurile, economisește spațiu.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">Monitor de activitate</string>
+    <string name="tool_activity_monitor_badge">24 H</string>
+    <string name="tool_wifi_security_title">Securitate Wi-Fi</string>
+    <string name="tool_wifi_security_badge">Verifică</string>
+    <string name="tool_network_speed_title">Viteza rețelei</string>
+    <string name="tool_network_speed_badge">Test</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">Curățare</string>
+    <string name="cleanup_sheet_message">Ștergeți %1$s elemente din coș și %2$s de cache?</string>
+    <string name="cleanup_sheet_detail">Aceste elemente se află deja în coșul de gunoi Android, nu sunt fotografii din galerie. Android vă va cere încă o confirmare și le poate numi „fotografii”. Nimic altceva nu este modificat.</string>
+    <string name="cleanup_result_freed">Eliberat</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">Permite accesul la media</string>
+    <string name="media_disclosure_body">Pentru a găsi fișiere mari, dubluri și fotografii similare, aplicația are nevoie de acces la fotografiile, videoclipurile și fișierele audio. Fișierele sunt analizate pe dispozitiv și nu sunt încărcate niciodată.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">Fișiere mari</string>
+    <string name="large_files_count_line">%1$d elemente · %2$s</string>
+    <string name="large_files_empty_title">Niciun fișier mare</string>
+    <string name="large_files_empty_message">Biblioteca arată ordonat. Nu există nimic mare de verificat.</string>
+    <string name="large_files_selection_line">%1$d selectate · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">Dubluri</string>
+    <string name="duplicates_group_count_line">%1$d grupuri · %2$s de recuperat</string>
+    <string name="duplicates_empty_title">Nicio dublură</string>
+    <string name="duplicates_empty_message">Fiecare fotografie, videoclip și fișier audio este unic.</string>
+    <string name="duplicates_identical_items">%1$d elemente identice</string>
+    <string name="duplicates_reclaimable_label">%1$s de recuperat</string>
+    <string name="duplicates_keep_label">Păstrează</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">Fotografii similare</string>
+    <string name="similar_group_count_line">%1$d grupuri · %2$s de recuperat</string>
+    <string name="similar_empty_title">Nicio fotografie similară</string>
+    <string name="similar_empty_message">Nimic de aici nu seamănă cu o dublură aproximativă.</string>
+    <string name="similar_shot_count">%1$d cadre similare</string>
+    <string name="similar_best_label">Cea mai bună</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">Capturi de ecran</string>
+    <string name="screenshots_empty_title">Nicio captură de ecran</string>
+    <string name="screenshots_empty_message">Încă nu s-a capturat nimic pe acest dispozitiv.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">Optimizare foto</string>
+    <string name="photo_optimizer_count_line">%1$d fotografii · %2$s</string>
+    <string name="photo_optimizer_optimizing">Se optimizează %1$d din %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Economisit până acum: %1$s</string>
+    <string name="photo_optimizer_empty_title">Nicio fotografie de optimizat</string>
+    <string name="photo_optimizer_empty_message">Nimic suficient de mare pentru a merita comprimat.</string>
+    <string name="photo_optimizer_button_optimize">Optimizează selecția</string>
+    <string name="photo_optimizer_button_optimizing">Se optimizează…</string>
+    <string name="photo_optimizer_selected_line">%1$d selectate</string>
+    <string name="photo_optimizer_summary">Fotografii optimizate: %1$d · economisit %2$s</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">Optimizare video</string>
+    <string name="video_optimizer_count_line">%1$d videoclipuri · %2$s</string>
+    <string name="video_optimizer_optimizing">Se optimizează %1$d din %2$d</string>
+    <string name="video_optimizer_saved_so_far">Economisit până acum: %1$s</string>
+    <string name="video_optimizer_empty_title">Niciun videoclip de optimizat</string>
+    <string name="video_optimizer_empty_message">Nimic suficient de mare pentru a merita comprimat.</string>
+    <string name="video_optimizer_button_optimize">Optimizează selecția</string>
+    <string name="video_optimizer_button_optimizing">Se optimizează…</string>
+    <string name="video_optimizer_selected_line">%1$d selectate</string>
+    <string name="video_optimizer_summary">Videoclipuri optimizate: %1$d · economisit %2$s</string>
+    <string name="video_preset_high">Calitate înaltă</string>
+    <string name="video_preset_balanced">Echilibrat</string>
+    <string name="video_preset_small">Fișier mic</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">Monitor de activitate</string>
+    <string name="activity_monitor_no_access_title">Este necesar accesul la utilizare</string>
+    <string name="activity_monitor_no_access_message">Permiteți Accesul la utilizare în setările sistemului pentru a vedea lansările și timpul în prim-plan.</string>
+    <string name="activity_monitor_empty_title">Nicio activitate</string>
+    <string name="activity_monitor_empty_message">Nimic utilizat în ultimele 24 de ore.</string>
+    <string name="activity_monitor_launches">%1$d lansări · %2$s</string>
+    <string name="activity_monitor_foreground">În prim-plan: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Acces la utilizare</string>
+    <string name="activity_monitor_disclosure_body">Monitorul de activitate are nevoie de Acces la utilizare. Aplicația citește ce aplicații ați deschis, când și pentru cât timp în ultimele 24 de ore. Aceste date rămân pe dispozitiv și nu sunt încărcate sau partajate.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Securitate Wi-Fi</string>
+    <string name="wifi_check_internet_title">Acces la internet</string>
+    <string name="wifi_check_internet_connected">Conectat.</string>
+    <string name="wifi_check_internet_disconnected">Nicio conexiune activă.</string>
+    <string name="wifi_check_encryption_title">Criptare și autentificare</string>
+    <string name="wifi_check_unavailable">indisponibil pe acest dispozitiv</string>
+    <string name="wifi_check_ssl_strip_title">Verificarea certificatului</string>
+    <string name="wifi_check_ssl_strip_detected">Avertisment. Certificatul unui site de test nu a putut fi verificat. Cineva din această rețea ar putea intercepta traficul securizat.</string>
+    <string name="wifi_check_ssl_strip_safe">Reușit. Certificatul site-ului de test este valid.</string>
+    <string name="wifi_check_ssl_split_title">Verificarea proxy</string>
+    <string name="wifi_check_ssl_split_detected">Această conexiune folosește un proxy. Traficul dvs. poate trece printr-un alt server.</string>
+    <string name="wifi_check_ssl_split_safe">Niciun proxy detectat.</string>
+    <string name="wifi_check_checked_at">Verificat %1$s</string>
+    <string name="wifi_check_rerun">Repetă verificările</string>
+    <string name="wifi_check_error">Conexiunea nu poate fi inspectată.</string>
+    <string name="wifi_check_inspect_failed">Această conexiune nu a putut fi inspectată.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">Viteza rețelei</string>
+    <string name="network_speed_ready">Măsurați viteza de descărcare.</string>
+    <string name="network_speed_preparing">Se pregătește</string>
+    <string name="network_speed_testing">Se testează viteza de descărcare</string>
+    <string name="network_speed_transferred">%1$s transferat</string>
+    <string name="network_speed_download_label">Viteza de descărcare</string>
+    <string name="network_speed_transferred_detail">Transferat %1$s în %2$ds</string>
+    <string name="network_speed_failed">Testul a eșuat</string>
+    <string name="network_speed_button_start">Începe testul</string>
+    <string name="network_speed_button_testing">Se testează…</string>
+    <string name="network_speed_button_again">Testează din nou</string>
+    <string name="network_speed_button_retry">Reîncearcă</string>
+    <string name="network_speed_footnote">Doar descărcare. Încărcarea și ping-ul nu sunt măsurate.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">Setări</string>
+    <string name="settings_theme">Temă</string>
+    <string name="settings_theme_light">Luminoasă</string>
+    <string name="settings_theme_dark">Întunecată</string>
+    <string name="settings_theme_system">Sistem</string>
+    <string name="settings_language">Limbă</string>
+    <string name="settings_notifications">Notificări</string>
+    <string name="settings_notifications_on">Activate</string>
+    <string name="settings_notifications_off">Dezactivate</string>
+    <string name="settings_notifications_allow">Permite notificările</string>
+    <string name="settings_notifications_weekly">Memento săptămânal de curățare</string>
+    <string name="settings_notifications_storage">Alerte de stocare</string>
+    <string name="settings_go_pro">Treceți la Pro</string>
+    <string name="settings_pro_active">Pro · activ</string>
+    <string name="settings_pro_remove_ads">Elimină reclamele</string>
+    <string name="settings_restore_purchase">Restaurează achiziția</string>
+    <string name="settings_share_app">Distribuie aplicația</string>
+    <string name="settings_rate_app">Evaluează aplicația</string>
+    <string name="settings_privacy_policy">Politica de confidențialitate</string>
+    <string name="settings_terms">Termenii și condițiile</string>
+    <string name="settings_support">Asistență</string>
+    <string name="settings_about">Despre</string>
+    <string name="settings_about_version">Versiunea %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Folosiți Pro</string>
+    <string name="pro_active_body">Reclamele sunt eliminate. Vă mulțumim că susțineți CleanKoach.</string>
+    <string name="pro_upsell_title">Elimină reclamele</string>
+    <string name="pro_upsell_body">Pro elimină toate reclamele. Toate funcțiile sunt gratuite.</string>
+    <string name="pro_button_upgrade">Treceți la Pro</string>
+    <string name="pro_button_restore">Restaurează achiziția</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">Despre</string>
+    <string name="about_body">Curățare nativă a stocării pentru Android. Totul rulează pe dispozitiv. Niciun fișier media, nicio dată de utilizare și niciun rezultat al scanării nu sunt încărcate vreodată.</string>
+    <string name="about_built_with">Creat cu Kotlin, Jetpack Compose și Material 3.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">Memento-uri de curățare</string>
+    <string name="channel_cleanup_description">Memento-uri săptămânale pentru verificarea fișierelor mari și a dublurilor.</string>
+    <string name="channel_storage_name">Alerte de stocare</string>
+    <string name="channel_storage_description">Alerte când spațiul de stocare al dispozitivului este pe terminate.</string>
+    <string name="notification_cleanup_title">E timpul pentru o curățare</string>
+    <string name="notification_cleanup_body">Verificați fișierele mari, dublurile și capturile de ecran.</string>
+    <string name="notification_storage_title">Stocarea este plină în proporție de %1$d%%</string>
+    <string name="notification_storage_body">Verificați fișierele mari pentru a elibera spațiu.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">Reclamă</string>
+
+    <!-- Share text -->
+    <string name="share_text">Eliberați spațiu pe telefon ștergând dublurile, fotografiile similare și fișierele mari: %1$s</string>
+
+    <string name="language_system">Implicit sistem</string>
+    <string name="scan_progress_files">Se verifică %1$s din %2$s fișiere</string>
+    <string name="settings_licenses">Licențe open-source</string>
+    <string name="licenses_title">Licențe open-source</string>
+    <string name="licenses_intro">CleanKoach este creat cu software open-source listat mai jos.</string>
+    <string name="toast_no_browser">Nu s-a găsit niciun browser pentru a deschide acest link.</string>
+    <string name="toast_no_mail">Nu s-a găsit nicio aplicație de e-mail pe acest dispozitiv.</string>
+    <string name="support_mail_subject">Asistență CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">Versiune Android: %1$s\nDispozitiv: %2$s\n\nDescrieți mai jos problema dvs.:\n\n</string>
+    <string name="pro_unavailable">Indisponibil momentan</string>
+    <string name="pro_pending">Plata este în așteptare. Pro se deblochează imediat ce se finalizează.</string>
+    <string name="pro_button_upgrade_price">Treceți la Pro pentru %1$s</string>
+    <string name="duplicates_delete_line">%1$d de șters · %2$s</string>
+    <string name="network_speed_error">Serverul de test nu a putut fi contactat. Verificați conexiunea și încercați din nou.</string>
+    <string name="home_partial_access_message">Acces limitat la fotografii. CleanKoach poate vedea doar fotografiile și videoclipurile selectate.</string>
+    <string name="home_partial_access_action">Permite tot</string>
+    <string name="home_nothing_to_clean_message">Nimic de curățat acum</string>
+    <string name="wifi_encryption_open">Deschisă</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">Opțiuni de confidențialitate pentru reclame</string>
+</resources>

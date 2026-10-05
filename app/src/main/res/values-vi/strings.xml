@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Quay lại</string>
+    <string name="cd_settings">Cài đặt</string>
+    <string name="action_done">Xong</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="action_delete">Xóa</string>
+    <string name="action_continue">Tiếp tục</string>
+    <string name="action_not_now">Để sau</string>
+    <string name="action_allow_access">Cho phép truy cập</string>
+    <string name="action_open_settings">Mở cài đặt</string>
+    <string name="action_all">Tất cả</string>
+    <string name="action_clear">Xóa sạch</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">Dung lượng thùng rác</string>
+    <string name="home_ring_sublabel">Ảnh, video đã xóa và bộ nhớ đệm ứng dụng</string>
+    <string name="home_storage_line">Đã dùng %1$s/%2$s · %3$d%%</string>
+    <string name="home_button_cleanup">DỌN DẸP</string>
+    <string name="home_button_scanning">Đang quét…</string>
+    <string name="home_button_allow_access">Cho phép truy cập</string>
+    <string name="home_button_nothing_to_clean">Không có gì để dọn</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">Công cụ điện thoại</string>
+    <string name="home_section_photos_videos">Ảnh &amp; Video</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">Tệp lớn</string>
+    <string name="tool_large_files_desc">Ảnh, video và âm thanh nặng nhất.</string>
+    <string name="tool_duplicates_title">Tệp trùng lặp</string>
+    <string name="tool_duplicates_desc">Ảnh, video và âm thanh giống hệt nhau.</string>
+    <string name="tool_similar_title">Ảnh tương tự</string>
+    <string name="tool_similar_desc">Ảnh gần giống nhau, giữ lại ảnh đẹp nhất.</string>
+    <string name="tool_screenshots_title">Ảnh chụp màn hình</string>
+    <string name="tool_screenshots_desc">Mọi ảnh chụp màn hình, xử lý một lần.</string>
+    <string name="tool_photo_optimizer_title">Tối ưu ảnh</string>
+    <string name="tool_photo_optimizer_desc">Nén ảnh, tiết kiệm dung lượng.</string>
+    <string name="tool_video_optimizer_title">Tối ưu video</string>
+    <string name="tool_video_optimizer_desc">Nén video, tiết kiệm dung lượng.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">Giám sát hoạt động</string>
+    <string name="tool_activity_monitor_badge">24 giờ</string>
+    <string name="tool_wifi_security_title">Bảo mật Wi-Fi</string>
+    <string name="tool_wifi_security_badge">Kiểm tra</string>
+    <string name="tool_network_speed_title">Tốc độ mạng</string>
+    <string name="tool_network_speed_badge">Đo thử</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">Dọn dẹp</string>
+    <string name="cleanup_sheet_message">Xóa %1$s mục trong thùng rác và %2$s bộ nhớ đệm?</string>
+    <string name="cleanup_sheet_detail">Các mục này đã nằm trong thùng rác của Android, không phải ảnh trong thư viện của bạn. Android sẽ yêu cầu xác nhận thêm một lần nữa và có thể gọi chúng là “ảnh”. Không có dữ liệu nào khác bị ảnh hưởng.</string>
+    <string name="cleanup_result_freed">Đã giải phóng</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">Cho phép truy cập phương tiện</string>
+    <string name="media_disclosure_body">Để tìm tệp lớn, tệp trùng lặp và ảnh tương tự, ứng dụng cần quyền truy cập ảnh, video và âm thanh của bạn. Tệp được phân tích ngay trên thiết bị và không bao giờ được tải lên.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">Tệp lớn</string>
+    <string name="large_files_count_line">%1$d mục · %2$s</string>
+    <string name="large_files_empty_title">Không có tệp lớn</string>
+    <string name="large_files_empty_message">Thư viện của bạn khá gọn gàng. Không có tệp lớn nào cần xem lại.</string>
+    <string name="large_files_selection_line">Đã chọn %1$d · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">Tệp trùng lặp</string>
+    <string name="duplicates_group_count_line">%1$d nhóm · có thể giải phóng %2$s</string>
+    <string name="duplicates_empty_title">Không có tệp trùng lặp</string>
+    <string name="duplicates_empty_message">Mọi ảnh, video và tệp âm thanh đều là duy nhất.</string>
+    <string name="duplicates_identical_items">%1$d mục giống hệt nhau</string>
+    <string name="duplicates_reclaimable_label">Có thể giải phóng %1$s</string>
+    <string name="duplicates_keep_label">Giữ lại</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">Ảnh tương tự</string>
+    <string name="similar_group_count_line">%1$d nhóm · có thể giải phóng %2$s</string>
+    <string name="similar_empty_title">Không có ảnh tương tự</string>
+    <string name="similar_empty_message">Không có ảnh nào gần giống nhau.</string>
+    <string name="similar_shot_count">%1$d ảnh tương tự</string>
+    <string name="similar_best_label">Tốt nhất</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">Ảnh chụp màn hình</string>
+    <string name="screenshots_empty_title">Không có ảnh chụp màn hình</string>
+    <string name="screenshots_empty_message">Chưa có gì được chụp trên thiết bị này.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">Tối ưu ảnh</string>
+    <string name="photo_optimizer_count_line">%1$d ảnh · %2$s</string>
+    <string name="photo_optimizer_optimizing">Đang tối ưu %1$d/%2$d</string>
+    <string name="photo_optimizer_saved_so_far">Đã tiết kiệm: %1$s</string>
+    <string name="photo_optimizer_empty_title">Không có ảnh cần tối ưu</string>
+    <string name="photo_optimizer_empty_message">Không có ảnh nào đủ lớn để cần nén.</string>
+    <string name="photo_optimizer_button_optimize">Tối ưu mục đã chọn</string>
+    <string name="photo_optimizer_button_optimizing">Đang tối ưu…</string>
+    <string name="photo_optimizer_selected_line">Đã chọn %1$d</string>
+    <string name="photo_optimizer_summary">Đã tối ưu %1$d ảnh · tiết kiệm %2$s</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">Tối ưu video</string>
+    <string name="video_optimizer_count_line">%1$d video · %2$s</string>
+    <string name="video_optimizer_optimizing">Đang tối ưu %1$d/%2$d</string>
+    <string name="video_optimizer_saved_so_far">Đã tiết kiệm: %1$s</string>
+    <string name="video_optimizer_empty_title">Không có video cần tối ưu</string>
+    <string name="video_optimizer_empty_message">Không có video nào đủ lớn để cần nén.</string>
+    <string name="video_optimizer_button_optimize">Tối ưu mục đã chọn</string>
+    <string name="video_optimizer_button_optimizing">Đang tối ưu…</string>
+    <string name="video_optimizer_selected_line">Đã chọn %1$d</string>
+    <string name="video_optimizer_summary">Đã tối ưu %1$d video · tiết kiệm %2$s</string>
+    <string name="video_preset_high">Chất lượng cao</string>
+    <string name="video_preset_balanced">Cân bằng</string>
+    <string name="video_preset_small">Tệp nhỏ</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">Giám sát hoạt động</string>
+    <string name="activity_monitor_no_access_title">Cần quyền truy cập mức sử dụng</string>
+    <string name="activity_monitor_no_access_message">Hãy cho phép Truy cập mức sử dụng trong cài đặt hệ thống để xem số lần mở và thời gian chạy ở nền trước.</string>
+    <string name="activity_monitor_empty_title">Không có hoạt động</string>
+    <string name="activity_monitor_empty_message">Không có gì được sử dụng trong 24 giờ qua.</string>
+    <string name="activity_monitor_launches">%1$d lần mở · %2$s</string>
+    <string name="activity_monitor_foreground">Nền trước: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Truy cập mức sử dụng</string>
+    <string name="activity_monitor_disclosure_body">Giám sát hoạt động cần quyền Truy cập mức sử dụng. Ứng dụng đọc thông tin về các ứng dụng bạn đã mở, thời điểm và thời lượng trong 24 giờ qua. Dữ liệu này được lưu trên thiết bị của bạn và không được tải lên hay chia sẻ.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Bảo mật Wi-Fi</string>
+    <string name="wifi_check_internet_title">Truy cập Internet</string>
+    <string name="wifi_check_internet_connected">Đã kết nối.</string>
+    <string name="wifi_check_internet_disconnected">Không có kết nối đang hoạt động.</string>
+    <string name="wifi_check_encryption_title">Mã hóa và xác thực</string>
+    <string name="wifi_check_unavailable">không khả dụng trên thiết bị này</string>
+    <string name="wifi_check_ssl_strip_title">Kiểm tra chứng chỉ</string>
+    <string name="wifi_check_ssl_strip_detected">Cảnh báo. Không thể xác minh chứng chỉ của một trang kiểm tra. Có thể ai đó trên mạng này đang chặn lưu lượng bảo mật.</string>
+    <string name="wifi_check_ssl_strip_safe">Đạt. Chứng chỉ của trang kiểm tra hợp lệ.</string>
+    <string name="wifi_check_ssl_split_title">Kiểm tra proxy</string>
+    <string name="wifi_check_ssl_split_detected">Kết nối này đang dùng proxy. Lưu lượng của bạn có thể đi qua một máy chủ khác.</string>
+    <string name="wifi_check_ssl_split_safe">Không phát hiện proxy.</string>
+    <string name="wifi_check_checked_at">Đã kiểm tra lúc %1$s</string>
+    <string name="wifi_check_rerun">Kiểm tra lại</string>
+    <string name="wifi_check_error">Không thể kiểm tra kết nối.</string>
+    <string name="wifi_check_inspect_failed">Không thể kiểm tra kết nối này.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">Tốc độ mạng</string>
+    <string name="network_speed_ready">Đo tốc độ tải xuống của bạn.</string>
+    <string name="network_speed_preparing">Đang chuẩn bị</string>
+    <string name="network_speed_testing">Đang đo tốc độ tải xuống</string>
+    <string name="network_speed_transferred">Đã truyền %1$s</string>
+    <string name="network_speed_download_label">Tốc độ tải xuống</string>
+    <string name="network_speed_transferred_detail">Đã truyền %1$s trong %2$d giây</string>
+    <string name="network_speed_failed">Đo thử thất bại</string>
+    <string name="network_speed_button_start">Bắt đầu đo</string>
+    <string name="network_speed_button_testing">Đang đo…</string>
+    <string name="network_speed_button_again">Đo lại</string>
+    <string name="network_speed_button_retry">Thử lại</string>
+    <string name="network_speed_footnote">Chỉ đo tải xuống. Không đo tốc độ tải lên và độ trễ.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">Cài đặt</string>
+    <string name="settings_theme">Giao diện</string>
+    <string name="settings_theme_light">Sáng</string>
+    <string name="settings_theme_dark">Tối</string>
+    <string name="settings_theme_system">Theo hệ thống</string>
+    <string name="settings_language">Ngôn ngữ</string>
+    <string name="settings_notifications">Thông báo</string>
+    <string name="settings_notifications_on">Bật</string>
+    <string name="settings_notifications_off">Tắt</string>
+    <string name="settings_notifications_allow">Cho phép thông báo</string>
+    <string name="settings_notifications_weekly">Nhắc dọn dẹp hằng tuần</string>
+    <string name="settings_notifications_storage">Cảnh báo dung lượng</string>
+    <string name="settings_go_pro">Nâng cấp Pro</string>
+    <string name="settings_pro_active">Pro · đang hoạt động</string>
+    <string name="settings_pro_remove_ads">Xóa quảng cáo</string>
+    <string name="settings_restore_purchase">Khôi phục giao dịch mua</string>
+    <string name="settings_share_app">Chia sẻ ứng dụng</string>
+    <string name="settings_rate_app">Đánh giá ứng dụng</string>
+    <string name="settings_privacy_policy">Chính sách quyền riêng tư</string>
+    <string name="settings_terms">Điều khoản dịch vụ</string>
+    <string name="settings_support">Hỗ trợ</string>
+    <string name="settings_about">Giới thiệu</string>
+    <string name="settings_about_version">Phiên bản %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Bạn đang dùng Pro</string>
+    <string name="pro_active_body">Quảng cáo đã được xóa. Cảm ơn bạn đã ủng hộ CleanKoach.</string>
+    <string name="pro_upsell_title">Xóa quảng cáo</string>
+    <string name="pro_upsell_body">Pro xóa toàn bộ quảng cáo. Mọi tính năng đều miễn phí.</string>
+    <string name="pro_button_upgrade">Nâng cấp</string>
+    <string name="pro_button_restore">Khôi phục giao dịch mua</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">Giới thiệu</string>
+    <string name="about_body">Ứng dụng dọn dẹp bộ nhớ Android thuần. Mọi thứ chạy ngay trên thiết bị. Không có phương tiện, dữ liệu sử dụng hay kết quả quét nào được tải lên.</string>
+    <string name="about_built_with">Xây dựng bằng Kotlin, Jetpack Compose và Material 3.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">Nhắc nhở dọn dẹp</string>
+    <string name="channel_cleanup_description">Nhắc hằng tuần để xem lại tệp lớn và tệp trùng lặp.</string>
+    <string name="channel_storage_name">Cảnh báo dung lượng</string>
+    <string name="channel_storage_description">Cảnh báo khi bộ nhớ thiết bị sắp đầy.</string>
+    <string name="notification_cleanup_title">Đã đến lúc dọn dẹp</string>
+    <string name="notification_cleanup_body">Xem lại tệp lớn, tệp trùng lặp và ảnh chụp màn hình.</string>
+    <string name="notification_storage_title">Bộ nhớ đã đầy %1$d%%</string>
+    <string name="notification_storage_body">Xem lại các tệp lớn để giải phóng dung lượng.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">QC</string>
+
+    <!-- Share text -->
+    <string name="share_text">Giải phóng dung lượng điện thoại bằng cách xóa tệp trùng lặp, ảnh tương tự và tệp lớn: %1$s</string>
+
+    <string name="language_system">Mặc định hệ thống</string>
+    <string name="scan_progress_files">Đang kiểm tra %1$s/%2$s tệp</string>
+    <string name="settings_licenses">Giấy phép nguồn mở</string>
+    <string name="licenses_title">Giấy phép nguồn mở</string>
+    <string name="licenses_intro">CleanKoach được xây dựng bằng phần mềm nguồn mở được liệt kê dưới đây.</string>
+    <string name="toast_no_browser">Không tìm thấy trình duyệt để mở liên kết này.</string>
+    <string name="toast_no_mail">Không tìm thấy ứng dụng email trên thiết bị này.</string>
+    <string name="support_mail_subject">Hỗ trợ CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">Phiên bản Android: %1$s\nThiết bị: %2$s\n\nVui lòng mô tả sự cố của bạn bên dưới:\n\n</string>
+    <string name="pro_unavailable">Hiện không khả dụng</string>
+    <string name="pro_pending">Thanh toán của bạn đang chờ xử lý. Pro sẽ được mở khóa ngay khi hoàn tất.</string>
+    <string name="pro_button_upgrade_price">Nâng cấp với %1$s</string>
+    <string name="duplicates_delete_line">%1$d mục để xóa · %2$s</string>
+    <string name="network_speed_error">Không thể kết nối đến máy chủ đo thử. Hãy kiểm tra kết nối và thử lại.</string>
+    <string name="home_partial_access_message">Quyền truy cập ảnh bị giới hạn. CleanKoach chỉ thấy các ảnh và video bạn đã chọn.</string>
+    <string name="home_partial_access_action">Cho phép tất cả</string>
+    <string name="home_nothing_to_clean_message">Hiện không có gì để dọn</string>
+    <string name="wifi_encryption_open">Mở</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">Tùy chọn quyền riêng tư quảng cáo</string>
+</resources>

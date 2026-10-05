@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Späť</string>
+    <string name="cd_settings">Nastavenia</string>
+    <string name="action_done">Hotovo</string>
+    <string name="action_cancel">Zrušiť</string>
+    <string name="action_delete">Odstrániť</string>
+    <string name="action_continue">Pokračovať</string>
+    <string name="action_not_now">Teraz nie</string>
+    <string name="action_allow_access">Povoliť prístup</string>
+    <string name="action_open_settings">Otvoriť nastavenia</string>
+    <string name="action_all">Všetko</string>
+    <string name="action_clear">Vymazať</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">Veľkosť koša</string>
+    <string name="home_ring_sublabel">Odstránené fotky a videá plus vyrovnávacia pamäť aplikácií</string>
+    <string name="home_storage_line">Využité %1$s z %2$s · %3$d%%</string>
+    <string name="home_button_cleanup">VYČISTIŤ</string>
+    <string name="home_button_scanning">Skenovanie…</string>
+    <string name="home_button_allow_access">Povoliť prístup</string>
+    <string name="home_button_nothing_to_clean">Nie je čo čistiť</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">Nástroje telefónu</string>
+    <string name="home_section_photos_videos">Fotky a videá</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">Veľké súbory</string>
+    <string name="tool_large_files_desc">Najväčšie fotky, videá a zvuk.</string>
+    <string name="tool_duplicates_title">Duplikáty</string>
+    <string name="tool_duplicates_desc">Identické fotky, videá a zvuk.</string>
+    <string name="tool_similar_title">Podobné fotky</string>
+    <string name="tool_similar_desc">Takmer rovnaké zábery, nechajte si najlepší.</string>
+    <string name="tool_screenshots_title">Snímky obrazovky</string>
+    <string name="tool_screenshots_desc">Všetky snímky obrazovky naraz.</string>
+    <string name="tool_photo_optimizer_title">Optimalizácia fotiek</string>
+    <string name="tool_photo_optimizer_desc">Komprimujte fotky a ušetrite miesto.</string>
+    <string name="tool_video_optimizer_title">Optimalizácia videí</string>
+    <string name="tool_video_optimizer_desc">Komprimujte videá a ušetrite miesto.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">Monitor aktivity</string>
+    <string name="tool_activity_monitor_badge">24 h</string>
+    <string name="tool_wifi_security_title">Zabezpečenie Wi-Fi</string>
+    <string name="tool_wifi_security_badge">Kontrola</string>
+    <string name="tool_network_speed_title">Rýchlosť siete</string>
+    <string name="tool_network_speed_badge">Test</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">Vyčistenie</string>
+    <string name="cleanup_sheet_message">Vymazať položky v koši (%1$s) a vyrovnávaciu pamäť (%2$s)?</string>
+    <string name="cleanup_sheet_detail">Tieto položky sú už v koši Androidu, nejde o fotky vo vašej galérii. Android vás požiada o ďalšie potvrdenie a môže ich nazvať „fotkami“. Nič iné sa nezmení.</string>
+    <string name="cleanup_result_freed">Uvoľnené</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">Povoliť prístup k médiám</string>
+    <string name="media_disclosure_body">Na vyhľadanie veľkých súborov, duplikátov a podobných fotiek potrebuje táto aplikácia prístup k vašim fotkám, videám a zvuku. Súbory sa analyzujú vo vašom zariadení a nikdy sa nenahrávajú.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">Veľké súbory</string>
+    <string name="large_files_count_line">Položiek: %1$d · %2$s</string>
+    <string name="large_files_empty_title">Žiadne veľké súbory</string>
+    <string name="large_files_empty_message">Vaša knižnica vyzerá upratane. Nie je čo kontrolovať.</string>
+    <string name="large_files_selection_line">Vybrané: %1$d · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">Duplikáty</string>
+    <string name="duplicates_group_count_line">Skupín: %1$d · možno uvoľniť %2$s</string>
+    <string name="duplicates_empty_title">Žiadne duplikáty</string>
+    <string name="duplicates_empty_message">Každá fotka, video aj zvukový súbor je jedinečný.</string>
+    <string name="duplicates_identical_items">Identických položiek: %1$d</string>
+    <string name="duplicates_reclaimable_label">Možno uvoľniť: %1$s</string>
+    <string name="duplicates_keep_label">Ponechať</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">Podobné fotky</string>
+    <string name="similar_group_count_line">Skupín: %1$d · možno uvoľniť %2$s</string>
+    <string name="similar_empty_title">Žiadne podobné fotky</string>
+    <string name="similar_empty_message">Nič nevyzerá ako takmer duplicitný záber.</string>
+    <string name="similar_shot_count">Podobných záberov: %1$d</string>
+    <string name="similar_best_label">Najlepší</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">Snímky obrazovky</string>
+    <string name="screenshots_empty_title">Žiadne snímky obrazovky</string>
+    <string name="screenshots_empty_message">V tomto zariadení zatiaľ nič nebolo zachytené.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">Optimalizácia fotiek</string>
+    <string name="photo_optimizer_count_line">Fotiek: %1$d · %2$s</string>
+    <string name="photo_optimizer_optimizing">Optimalizácia: %1$d z %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Zatiaľ ušetrené: %1$s</string>
+    <string name="photo_optimizer_empty_title">Žiadne fotky na optimalizáciu</string>
+    <string name="photo_optimizer_empty_message">Nič nie je dosť veľké, aby sa komprimácia oplatila.</string>
+    <string name="photo_optimizer_button_optimize">Optimalizovať vybrané</string>
+    <string name="photo_optimizer_button_optimizing">Optimalizácia…</string>
+    <string name="photo_optimizer_selected_line">Vybrané: %1$d</string>
+    <string name="photo_optimizer_summary">Optimalizované fotky: %1$d · ušetrené %2$s</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">Optimalizácia videí</string>
+    <string name="video_optimizer_count_line">Videí: %1$d · %2$s</string>
+    <string name="video_optimizer_optimizing">Optimalizácia: %1$d z %2$d</string>
+    <string name="video_optimizer_saved_so_far">Zatiaľ ušetrené: %1$s</string>
+    <string name="video_optimizer_empty_title">Žiadne videá na optimalizáciu</string>
+    <string name="video_optimizer_empty_message">Nič nie je dosť veľké, aby sa komprimácia oplatila.</string>
+    <string name="video_optimizer_button_optimize">Optimalizovať vybrané</string>
+    <string name="video_optimizer_button_optimizing">Optimalizácia…</string>
+    <string name="video_optimizer_selected_line">Vybrané: %1$d</string>
+    <string name="video_optimizer_summary">Optimalizované videá: %1$d · ušetrené %2$s</string>
+    <string name="video_preset_high">Vysoká kvalita</string>
+    <string name="video_preset_balanced">Vyvážené</string>
+    <string name="video_preset_small">Malý súbor</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">Monitor aktivity</string>
+    <string name="activity_monitor_no_access_title">Je potrebný prístup k využitiu</string>
+    <string name="activity_monitor_no_access_message">Povoľte v nastaveniach systému prístup k údajom o využití, aby sa zobrazili spustenia a čas v popredí.</string>
+    <string name="activity_monitor_empty_title">Žiadna aktivita</string>
+    <string name="activity_monitor_empty_message">Za posledných 24 hodín sa nič nepoužilo.</string>
+    <string name="activity_monitor_launches">Spustení: %1$d · %2$s</string>
+    <string name="activity_monitor_foreground">V popredí: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Prístup k využitiu</string>
+    <string name="activity_monitor_disclosure_body">Monitor aktivity potrebuje prístup k údajom o využití. Aplikácia číta, ktoré aplikácie ste za posledných 24 hodín otvorili, kedy a ako dlho. Tieto údaje zostávajú vo vašom zariadení a nenahrávajú sa ani nezdieľajú.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Zabezpečenie Wi-Fi</string>
+    <string name="wifi_check_internet_title">Prístup na internet</string>
+    <string name="wifi_check_internet_connected">Pripojené.</string>
+    <string name="wifi_check_internet_disconnected">Žiadne aktívne pripojenie.</string>
+    <string name="wifi_check_encryption_title">Šifrovanie a overovanie</string>
+    <string name="wifi_check_unavailable">v tomto zariadení nedostupné</string>
+    <string name="wifi_check_ssl_strip_title">Kontrola certifikátu</string>
+    <string name="wifi_check_ssl_strip_detected">Upozornenie. Certifikát testovacej stránky sa nepodarilo overiť. Niekto v tejto sieti môže zachytávať zabezpečenú prevádzku.</string>
+    <string name="wifi_check_ssl_strip_safe">V poriadku. Certifikát testovacej stránky je platný.</string>
+    <string name="wifi_check_ssl_split_title">Kontrola proxy</string>
+    <string name="wifi_check_ssl_split_detected">Pre toto pripojenie je nastavený proxy server. Vaša prevádzka môže prechádzať cez iný server.</string>
+    <string name="wifi_check_ssl_split_safe">Proxy nebol zistený.</string>
+    <string name="wifi_check_checked_at">Skontrolované: %1$s</string>
+    <string name="wifi_check_rerun">Skontrolovať znova</string>
+    <string name="wifi_check_error">Pripojenie sa nepodarilo skontrolovať.</string>
+    <string name="wifi_check_inspect_failed">Toto pripojenie sa nepodarilo skontrolovať.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">Rýchlosť siete</string>
+    <string name="network_speed_ready">Zmerajte rýchlosť sťahovania.</string>
+    <string name="network_speed_preparing">Príprava</string>
+    <string name="network_speed_testing">Testovanie rýchlosti sťahovania</string>
+    <string name="network_speed_transferred">Prenesené: %1$s</string>
+    <string name="network_speed_download_label">Rýchlosť sťahovania</string>
+    <string name="network_speed_transferred_detail">Prenesené %1$s za %2$d s</string>
+    <string name="network_speed_failed">Test zlyhal</string>
+    <string name="network_speed_button_start">Spustiť test</string>
+    <string name="network_speed_button_testing">Testovanie…</string>
+    <string name="network_speed_button_again">Testovať znova</string>
+    <string name="network_speed_button_retry">Skúsiť znova</string>
+    <string name="network_speed_footnote">Iba sťahovanie. Odosielanie a odozva sa nemerajú.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">Nastavenia</string>
+    <string name="settings_theme">Motív</string>
+    <string name="settings_theme_light">Svetlý</string>
+    <string name="settings_theme_dark">Tmavý</string>
+    <string name="settings_theme_system">Systémový</string>
+    <string name="settings_language">Jazyk</string>
+    <string name="settings_notifications">Upozornenia</string>
+    <string name="settings_notifications_on">Zapnuté</string>
+    <string name="settings_notifications_off">Vypnuté</string>
+    <string name="settings_notifications_allow">Povoliť upozornenia</string>
+    <string name="settings_notifications_weekly">Týždenná pripomienka vyčistenia</string>
+    <string name="settings_notifications_storage">Upozornenia na úložisko</string>
+    <string name="settings_go_pro">Prejsť na Pro</string>
+    <string name="settings_pro_active">Pro · aktívne</string>
+    <string name="settings_pro_remove_ads">Odstrániť reklamy</string>
+    <string name="settings_restore_purchase">Obnoviť nákup</string>
+    <string name="settings_share_app">Zdieľať aplikáciu</string>
+    <string name="settings_rate_app">Ohodnotiť aplikáciu</string>
+    <string name="settings_privacy_policy">Zásady ochrany osobných údajov</string>
+    <string name="settings_terms">Podmienky používania</string>
+    <string name="settings_support">Podpora</string>
+    <string name="settings_about">O aplikácii</string>
+    <string name="settings_about_version">Verzia %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Máte Pro</string>
+    <string name="pro_active_body">Reklamy sú odstránené. Ďakujeme za podporu CleanKoach.</string>
+    <string name="pro_upsell_title">Odstrániť reklamy</string>
+    <string name="pro_upsell_body">Pro odstráni všetky reklamy. Všetky funkcie sú zadarmo.</string>
+    <string name="pro_button_upgrade">Upgradovať</string>
+    <string name="pro_button_restore">Obnoviť nákup</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">O aplikácii</string>
+    <string name="about_body">Natívne čistenie úložiska pre Android. Všetko beží v zariadení. Žiadne médiá, údaje o používaní ani výsledky skenovania sa nikdy nenahrávajú.</string>
+    <string name="about_built_with">Vytvorené v Kotline, Jetpack Compose a Material 3.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">Pripomienky vyčistenia</string>
+    <string name="channel_cleanup_description">Týždenné pripomienky na kontrolu veľkých súborov a duplikátov.</string>
+    <string name="channel_storage_name">Upozornenia na úložisko</string>
+    <string name="channel_storage_description">Upozornenia, keď v zariadení dochádza úložný priestor.</string>
+    <string name="notification_cleanup_title">Je čas na vyčistenie</string>
+    <string name="notification_cleanup_body">Skontrolujte veľké súbory, duplikáty a snímky obrazovky.</string>
+    <string name="notification_storage_title">Úložisko je zaplnené na %1$d%%</string>
+    <string name="notification_storage_body">Skontrolujte veľké súbory a uvoľnite miesto.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">Reklama</string>
+
+    <!-- Share text -->
+    <string name="share_text">Uvoľnite miesto v telefóne odstránením duplikátov, podobných fotiek a veľkých súborov: %1$s</string>
+
+    <string name="language_system">Predvolený systémový</string>
+    <string name="scan_progress_files">Kontrola súborov: %1$s z %2$s</string>
+    <string name="settings_licenses">Licencie open source</string>
+    <string name="licenses_title">Licencie open source</string>
+    <string name="licenses_intro">CleanKoach je vytvorený s pomocou nižšie uvedeného open source softvéru.</string>
+    <string name="toast_no_browser">Nenašiel sa prehliadač na otvorenie tohto odkazu.</string>
+    <string name="toast_no_mail">V tomto zariadení sa nenašla e-mailová aplikácia.</string>
+    <string name="support_mail_subject">Podpora CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">Verzia Androidu: %1$s\nZariadenie: %2$s\n\nOpíšte svoj problém nižšie:\n\n</string>
+    <string name="pro_unavailable">Momentálne nedostupné</string>
+    <string name="pro_pending">Vaša platba čaká na spracovanie. Pro sa odomkne, hneď ako bude dokončená.</string>
+    <string name="pro_button_upgrade_price">Upgradovať za %1$s</string>
+    <string name="duplicates_delete_line">Na odstránenie: %1$d · %2$s</string>
+    <string name="network_speed_error">Testovací server sa nepodarilo kontaktovať. Skontrolujte pripojenie a skúste to znova.</string>
+    <string name="home_partial_access_message">Obmedzený prístup k fotkám. CleanKoach vidí len fotky a videá, ktoré ste vybrali.</string>
+    <string name="home_partial_access_action">Povoliť všetko</string>
+    <string name="home_nothing_to_clean_message">Teraz nie je čo čistiť</string>
+    <string name="wifi_encryption_open">Otvorená</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">Možnosti ochrany súkromia pri reklamách</string>
+</resources>

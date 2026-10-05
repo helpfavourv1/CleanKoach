@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">వెనుకకు</string>
+    <string name="cd_settings">సెట్టింగ్‌లు</string>
+    <string name="action_done">పూర్తయింది</string>
+    <string name="action_cancel">రద్దు చేయండి</string>
+    <string name="action_delete">తొలగించండి</string>
+    <string name="action_continue">కొనసాగించండి</string>
+    <string name="action_not_now">ఇప్పుడు కాదు</string>
+    <string name="action_allow_access">యాక్సెస్ ఇవ్వండి</string>
+    <string name="action_open_settings">సెట్టింగ్‌లను తెరవండి</string>
+    <string name="action_all">అన్నీ</string>
+    <string name="action_clear">క్లియర్ చేయండి</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">ట్రాష్ పరిమాణం</string>
+    <string name="home_ring_sublabel">ట్రాష్‌లోని ఫోటోలు, వీడియోలు మరియు యాప్ కాష్</string>
+    <string name="home_storage_line">%2$sలో %1$s వాడారు · %3$d%%</string>
+    <string name="home_button_cleanup">క్లీన్ అప్</string>
+    <string name="home_button_scanning">స్కాన్ అవుతోంది…</string>
+    <string name="home_button_allow_access">యాక్సెస్ ఇవ్వండి</string>
+    <string name="home_button_nothing_to_clean">శుభ్రం చేయడానికి ఏమీ లేదు</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">ఫోన్ టూల్స్</string>
+    <string name="home_section_photos_videos">ఫోటోలు &amp; వీడియోలు</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">పెద్ద ఫైళ్లు</string>
+    <string name="tool_large_files_desc">అతి పెద్ద ఫోటోలు, వీడియోలు, ఆడియో.</string>
+    <string name="tool_duplicates_title">డూప్లికేట్‌లు</string>
+    <string name="tool_duplicates_desc">ఒకేలా ఉన్న ఫోటోలు, వీడియోలు, ఆడియో.</string>
+    <string name="tool_similar_title">ఒకేలాంటి ఫోటోలు</string>
+    <string name="tool_similar_desc">దాదాపు ఒకేలా ఉన్నవి, ఉత్తమమైనది ఉంచండి.</string>
+    <string name="tool_screenshots_title">స్క్రీన్‌షాట్‌లు</string>
+    <string name="tool_screenshots_desc">అన్ని స్క్రీన్‌షాట్‌లు, ఒకేసారి.</string>
+    <string name="tool_photo_optimizer_title">ఫోటో ఆప్టిమైజర్</string>
+    <string name="tool_photo_optimizer_desc">ఫోటోలను కుదించి స్థలం ఆదా చేయండి.</string>
+    <string name="tool_video_optimizer_title">వీడియో ఆప్టిమైజర్</string>
+    <string name="tool_video_optimizer_desc">వీడియోలను కుదించి స్థలం ఆదా చేయండి.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">యాక్టివిటీ మానిటర్</string>
+    <string name="tool_activity_monitor_badge">24 గం</string>
+    <string name="tool_wifi_security_title">Wi-Fi భద్రత</string>
+    <string name="tool_wifi_security_badge">తనిఖీ</string>
+    <string name="tool_network_speed_title">నెట్‌వర్క్ వేగం</string>
+    <string name="tool_network_speed_badge">టెస్ట్</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">క్లీన్ అప్</string>
+    <string name="cleanup_sheet_message">ట్రాష్‌లోని %1$s అంశాలను, %2$s కాష్‌ను తొలగించాలా?</string>
+    <string name="cleanup_sheet_detail">ఈ అంశాలు ఇప్పటికే Android ట్రాష్‌లో ఉన్నాయి, మీ గ్యాలరీలోని ఫోటోలు కావు. Android మరోసారి నిర్ధారణ అడుగుతుంది మరియు వీటిని “ఫోటోలు” అని పిలవవచ్చు. మరేదీ తాకబడదు.</string>
+    <string name="cleanup_result_freed">ఖాళీ అయింది</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">మీడియా యాక్సెస్ ఇవ్వండి</string>
+    <string name="media_disclosure_body">పెద్ద ఫైళ్లు, డూప్లికేట్‌లు, ఒకేలాంటి ఫోటోలను కనుగొనడానికి ఈ యాప్‌కు మీ ఫోటోలు, వీడియోలు, ఆడియోకు యాక్సెస్ అవసరం. ఫైళ్లు మీ పరికరంలోనే విశ్లేషించబడతాయి, ఎప్పుడూ అప్‌లోడ్ చేయబడవు.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">పెద్ద ఫైళ్లు</string>
+    <string name="large_files_count_line">%1$d అంశాలు · %2$s</string>
+    <string name="large_files_empty_title">పెద్ద ఫైళ్లు లేవు</string>
+    <string name="large_files_empty_message">మీ లైబ్రరీ చక్కగా ఉంది. సమీక్షించడానికి పెద్దవి ఏవీ లేవు.</string>
+    <string name="large_files_selection_line">%1$d ఎంచుకున్నవి · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">డూప్లికేట్‌లు</string>
+    <string name="duplicates_group_count_line">%1$d గ్రూప్‌లు · %2$s ఖాళీ చేయవచ్చు</string>
+    <string name="duplicates_empty_title">డూప్లికేట్‌లు లేవు</string>
+    <string name="duplicates_empty_message">ప్రతి ఫోటో, వీడియో, ఆడియో ఫైల్ ప్రత్యేకమైనదే.</string>
+    <string name="duplicates_identical_items">%1$d ఒకేలాంటి అంశాలు</string>
+    <string name="duplicates_reclaimable_label">%1$s ఖాళీ చేయవచ్చు</string>
+    <string name="duplicates_keep_label">ఉంచండి</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">ఒకేలాంటి ఫోటోలు</string>
+    <string name="similar_group_count_line">%1$d గ్రూప్‌లు · %2$s ఖాళీ చేయవచ్చు</string>
+    <string name="similar_empty_title">ఒకేలాంటి ఫోటోలు లేవు</string>
+    <string name="similar_empty_message">దాదాపు డూప్లికేట్‌లా కనిపించేవి ఏవీ లేవు.</string>
+    <string name="similar_shot_count">%1$d ఒకేలాంటి ఫోటోలు</string>
+    <string name="similar_best_label">ఉత్తమం</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">స్క్రీన్‌షాట్‌లు</string>
+    <string name="screenshots_empty_title">స్క్రీన్‌షాట్‌లు లేవు</string>
+    <string name="screenshots_empty_message">ఈ పరికరంలో ఇంకా ఏమీ తీయలేదు.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">ఫోటో ఆప్టిమైజర్</string>
+    <string name="photo_optimizer_count_line">%1$d ఫోటోలు · %2$s</string>
+    <string name="photo_optimizer_optimizing">%2$dలో %1$d ఆప్టిమైజ్ అవుతోంది</string>
+    <string name="photo_optimizer_saved_so_far">ఇప్పటివరకు ఆదా: %1$s</string>
+    <string name="photo_optimizer_empty_title">ఆప్టిమైజ్ చేయడానికి ఫోటోలు లేవు</string>
+    <string name="photo_optimizer_empty_message">కుదించడానికి తగినంత పెద్దవి ఏవీ లేవు.</string>
+    <string name="photo_optimizer_button_optimize">ఎంచుకున్నవి ఆప్టిమైజ్ చేయండి</string>
+    <string name="photo_optimizer_button_optimizing">ఆప్టిమైజ్ అవుతోంది…</string>
+    <string name="photo_optimizer_selected_line">%1$d ఎంచుకున్నవి</string>
+    <string name="photo_optimizer_summary">%1$d ఫోటోలు ఆప్టిమైజ్ అయ్యాయి · %2$s ఆదా</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">వీడియో ఆప్టిమైజర్</string>
+    <string name="video_optimizer_count_line">%1$d వీడియోలు · %2$s</string>
+    <string name="video_optimizer_optimizing">%2$dలో %1$d ఆప్టిమైజ్ అవుతోంది</string>
+    <string name="video_optimizer_saved_so_far">ఇప్పటివరకు ఆదా: %1$s</string>
+    <string name="video_optimizer_empty_title">ఆప్టిమైజ్ చేయడానికి వీడియోలు లేవు</string>
+    <string name="video_optimizer_empty_message">కుదించడానికి తగినంత పెద్దవి ఏవీ లేవు.</string>
+    <string name="video_optimizer_button_optimize">ఎంచుకున్నవి ఆప్టిమైజ్ చేయండి</string>
+    <string name="video_optimizer_button_optimizing">ఆప్టిమైజ్ అవుతోంది…</string>
+    <string name="video_optimizer_selected_line">%1$d ఎంచుకున్నవి</string>
+    <string name="video_optimizer_summary">%1$d వీడియోలు ఆప్టిమైజ్ అయ్యాయి · %2$s ఆదా</string>
+    <string name="video_preset_high">అధిక నాణ్యత</string>
+    <string name="video_preset_balanced">సమతుల్యం</string>
+    <string name="video_preset_small">చిన్న ఫైల్</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">యాక్టివిటీ మానిటర్</string>
+    <string name="activity_monitor_no_access_title">వినియోగ యాక్సెస్ అవసరం</string>
+    <string name="activity_monitor_no_access_message">యాప్ ప్రారంభాలు, ఫోర్‌గ్రౌండ్ సమయం చూడటానికి సిస్టమ్ సెట్టింగ్‌లలో వినియోగ యాక్సెస్‌ను అనుమతించండి.</string>
+    <string name="activity_monitor_empty_title">కార్యకలాపం లేదు</string>
+    <string name="activity_monitor_empty_message">గత 24 గంటల్లో ఏదీ ఉపయోగించలేదు.</string>
+    <string name="activity_monitor_launches">%1$d సార్లు ప్రారంభం · %2$s</string>
+    <string name="activity_monitor_foreground">ఫోర్‌గ్రౌండ్: %1$s</string>
+    <string name="activity_monitor_disclosure_title">వినియోగ యాక్సెస్</string>
+    <string name="activity_monitor_disclosure_body">యాక్టివిటీ మానిటర్‌కు వినియోగ యాక్సెస్ అవసరం. గత 24 గంటల్లో మీరు ఏ యాప్‌లను, ఎప్పుడు, ఎంతసేపు తెరిచారో ఈ యాప్ చదువుతుంది. ఈ డేటా మీ పరికరంలోనే ఉంటుంది; అప్‌లోడ్ చేయబడదు, షేర్ చేయబడదు.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Wi-Fi భద్రత</string>
+    <string name="wifi_check_internet_title">ఇంటర్నెట్ యాక్సెస్</string>
+    <string name="wifi_check_internet_connected">కనెక్ట్ అయింది.</string>
+    <string name="wifi_check_internet_disconnected">యాక్టివ్ కనెక్షన్ లేదు.</string>
+    <string name="wifi_check_encryption_title">ఎన్‌క్రిప్షన్ మరియు ప్రమాణీకరణ</string>
+    <string name="wifi_check_unavailable">ఈ పరికరంలో అందుబాటులో లేదు</string>
+    <string name="wifi_check_ssl_strip_title">సర్టిఫికెట్ తనిఖీ</string>
+    <string name="wifi_check_ssl_strip_detected">హెచ్చరిక. ఒక టెస్ట్ సైట్ సర్టిఫికెట్‌ను ధృవీకరించలేకపోయాం. ఈ నెట్‌వర్క్‌లోని ఎవరైనా సురక్షిత ట్రాఫిక్‌ను అడ్డగిస్తూ ఉండవచ్చు.</string>
+    <string name="wifi_check_ssl_strip_safe">ఉత్తీర్ణం. టెస్ట్ సైట్ సర్టిఫికెట్ చెల్లుబాటు అవుతోంది.</string>
+    <string name="wifi_check_ssl_split_title">ప్రాక్సీ తనిఖీ</string>
+    <string name="wifi_check_ssl_split_detected">ఈ కనెక్షన్‌లో ప్రాక్సీ సెట్ చేయబడింది. మీ ట్రాఫిక్ మరొక సర్వర్ ద్వారా వెళ్లవచ్చు.</string>
+    <string name="wifi_check_ssl_split_safe">ప్రాక్సీ కనుగొనబడలేదు.</string>
+    <string name="wifi_check_checked_at">తనిఖీ చేసినది %1$s</string>
+    <string name="wifi_check_rerun">మళ్లీ తనిఖీ చేయండి</string>
+    <string name="wifi_check_error">కనెక్షన్‌ను పరిశీలించలేకపోయాం.</string>
+    <string name="wifi_check_inspect_failed">ఈ కనెక్షన్‌ను పరిశీలించలేకపోయాం.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">నెట్‌వర్క్ వేగం</string>
+    <string name="network_speed_ready">మీ డౌన్‌లోడ్ వేగాన్ని కొలవండి.</string>
+    <string name="network_speed_preparing">సిద్ధమవుతోంది</string>
+    <string name="network_speed_testing">డౌన్‌లోడ్ వేగాన్ని పరీక్షిస్తోంది</string>
+    <string name="network_speed_transferred">%1$s బదిలీ అయింది</string>
+    <string name="network_speed_download_label">డౌన్‌లోడ్ వేగం</string>
+    <string name="network_speed_transferred_detail">%2$d సెకన్లలో %1$s బదిలీ అయింది</string>
+    <string name="network_speed_failed">పరీక్ష విఫలమైంది</string>
+    <string name="network_speed_button_start">టెస్ట్ ప్రారంభించండి</string>
+    <string name="network_speed_button_testing">పరీక్షిస్తోంది…</string>
+    <string name="network_speed_button_again">మళ్లీ టెస్ట్ చేయండి</string>
+    <string name="network_speed_button_retry">మళ్లీ ప్రయత్నించండి</string>
+    <string name="network_speed_footnote">డౌన్‌లోడ్ మాత్రమే. అప్‌లోడ్, పింగ్ కొలవబడవు.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">సెట్టింగ్‌లు</string>
+    <string name="settings_theme">థీమ్</string>
+    <string name="settings_theme_light">లైట్</string>
+    <string name="settings_theme_dark">డార్క్</string>
+    <string name="settings_theme_system">సిస్టమ్</string>
+    <string name="settings_language">భాష</string>
+    <string name="settings_notifications">నోటిఫికేషన్‌లు</string>
+    <string name="settings_notifications_on">ఆన్</string>
+    <string name="settings_notifications_off">ఆఫ్</string>
+    <string name="settings_notifications_allow">నోటిఫికేషన్‌లను అనుమతించండి</string>
+    <string name="settings_notifications_weekly">వారపు క్లీనప్ రిమైండర్</string>
+    <string name="settings_notifications_storage">స్టోరేజ్ అలర్ట్‌లు</string>
+    <string name="settings_go_pro">Pro పొందండి</string>
+    <string name="settings_pro_active">Pro · యాక్టివ్</string>
+    <string name="settings_pro_remove_ads">ప్రకటనలను తొలగించండి</string>
+    <string name="settings_restore_purchase">కొనుగోలును పునరుద్ధరించండి</string>
+    <string name="settings_share_app">ఈ యాప్‌ను షేర్ చేయండి</string>
+    <string name="settings_rate_app">ఈ యాప్‌కు రేటింగ్ ఇవ్వండి</string>
+    <string name="settings_privacy_policy">గోప్యతా విధానం</string>
+    <string name="settings_terms">సేవా నిబంధనలు</string>
+    <string name="settings_support">సపోర్ట్</string>
+    <string name="settings_about">గురించి</string>
+    <string name="settings_about_version">వెర్షన్ %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">మీరు Proలో ఉన్నారు</string>
+    <string name="pro_active_body">ప్రకటనలు తొలగించబడ్డాయి. CleanKoachకు మద్దతు ఇచ్చినందుకు ధన్యవాదాలు.</string>
+    <string name="pro_upsell_title">ప్రకటనలను తొలగించండి</string>
+    <string name="pro_upsell_body">Pro అన్ని ప్రకటనలను తొలగిస్తుంది. అన్ని ఫీచర్లు ఉచితం.</string>
+    <string name="pro_button_upgrade">అప్‌గ్రేడ్</string>
+    <string name="pro_button_restore">కొనుగోలును పునరుద్ధరించండి</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">గురించి</string>
+    <string name="about_body">నేటివ్ Android స్టోరేజ్ క్లీనప్. అంతా పరికరంలోనే నడుస్తుంది. మీడియా, వినియోగ డేటా, స్కాన్ ఫలితాలు ఏవీ ఎప్పుడూ అప్‌లోడ్ చేయబడవు.</string>
+    <string name="about_built_with">Kotlin, Jetpack Compose, Material 3తో రూపొందించబడింది.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">క్లీనప్ రిమైండర్‌లు</string>
+    <string name="channel_cleanup_description">పెద్ద ఫైళ్లు, డూప్లికేట్‌లను సమీక్షించడానికి వారపు రిమైండర్‌లు.</string>
+    <string name="channel_storage_name">స్టోరేజ్ అలర్ట్‌లు</string>
+    <string name="channel_storage_description">పరికర స్టోరేజ్ తక్కువగా ఉన్నప్పుడు అలర్ట్‌లు.</string>
+    <string name="notification_cleanup_title">క్లీనప్ చేయాల్సిన సమయం</string>
+    <string name="notification_cleanup_body">పెద్ద ఫైళ్లు, డూప్లికేట్‌లు, స్క్రీన్‌షాట్‌లను సమీక్షించండి.</string>
+    <string name="notification_storage_title">స్టోరేజ్ %1$d%% నిండింది</string>
+    <string name="notification_storage_body">స్థలం ఖాళీ చేయడానికి పెద్ద ఫైళ్లను సమీక్షించండి.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">ప్రకటన</string>
+
+    <!-- Share text -->
+    <string name="share_text">డూప్లికేట్‌లు, ఒకేలాంటి ఫోటోలు, పెద్ద ఫైళ్లను తొలగించి ఫోన్ స్టోరేజ్ ఖాళీ చేయండి: %1$s</string>
+
+    <string name="language_system">సిస్టమ్ డిఫాల్ట్</string>
+    <string name="scan_progress_files">%2$s ఫైళ్లలో %1$s తనిఖీ చేశాం</string>
+    <string name="settings_licenses">ఓపెన్-సోర్స్ లైసెన్స్‌లు</string>
+    <string name="licenses_title">ఓపెన్-సోర్స్ లైసెన్స్‌లు</string>
+    <string name="licenses_intro">CleanKoach క్రింద జాబితా చేసిన ఓపెన్-సోర్స్ సాఫ్ట్‌వేర్‌తో రూపొందించబడింది.</string>
+    <string name="toast_no_browser">ఈ లింక్‌ను తెరవడానికి బ్రౌజర్ కనుగొనబడలేదు.</string>
+    <string name="toast_no_mail">ఈ పరికరంలో ఇమెయిల్ యాప్ కనుగొనబడలేదు.</string>
+    <string name="support_mail_subject">CleanKoach సపోర్ట్ (v%1$s)</string>
+    <string name="support_mail_body">Android వెర్షన్: %1$s\nపరికరం: %2$s\n\nమీ సమస్యను క్రింద వివరించండి:\n\n</string>
+    <string name="pro_unavailable">ప్రస్తుతం అందుబాటులో లేదు</string>
+    <string name="pro_pending">మీ చెల్లింపు పెండింగ్‌లో ఉంది. అది పూర్తయిన వెంటనే Pro అన్‌లాక్ అవుతుంది.</string>
+    <string name="pro_button_upgrade_price">%1$sకు అప్‌గ్రేడ్ చేయండి</string>
+    <string name="duplicates_delete_line">%1$d తొలగించాలి · %2$s</string>
+    <string name="network_speed_error">టెస్ట్ సర్వర్‌ను చేరుకోలేకపోయాం. మీ కనెక్షన్‌ను తనిఖీ చేసి మళ్లీ ప్రయత్నించండి.</string>
+    <string name="home_partial_access_message">ఫోటో యాక్సెస్ పరిమితం. మీరు ఎంచుకున్న ఫోటోలు, వీడియోలను మాత్రమే CleanKoach చూడగలదు.</string>
+    <string name="home_partial_access_action">అన్నింటికీ అనుమతించండి</string>
+    <string name="home_nothing_to_clean_message">ప్రస్తుతం శుభ్రం చేయడానికి ఏమీ లేదు</string>
+    <string name="wifi_encryption_open">ఓపెన్</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">ప్రకటన గోప్యతా ఎంపికలు</string>
+</resources>

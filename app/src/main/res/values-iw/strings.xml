@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">חזרה</string>
+    <string name="cd_settings">הגדרות</string>
+    <string name="action_done">סיום</string>
+    <string name="action_cancel">ביטול</string>
+    <string name="action_delete">מחיקה</string>
+    <string name="action_continue">המשך</string>
+    <string name="action_not_now">לא עכשיו</string>
+    <string name="action_allow_access">אפשר גישה</string>
+    <string name="action_open_settings">פתח הגדרות</string>
+    <string name="action_all">הכול</string>
+    <string name="action_clear">נקה</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">גודל האשפה</string>
+    <string name="home_ring_sublabel">תמונות וסרטונים באשפה בתוספת מטמון אפליקציות</string>
+    <string name="home_storage_line">%1$s מתוך %2$s בשימוש · %3$d%%</string>
+    <string name="home_button_cleanup">ניקוי</string>
+    <string name="home_button_scanning">סורק…</string>
+    <string name="home_button_allow_access">אפשר גישה</string>
+    <string name="home_button_nothing_to_clean">אין מה לנקות</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">כלי טלפון</string>
+    <string name="home_section_photos_videos">תמונות וסרטונים</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">קבצים גדולים</string>
+    <string name="tool_large_files_desc">התמונות, הסרטונים והאודיו הגדולים ביותר.</string>
+    <string name="tool_duplicates_title">כפילויות</string>
+    <string name="tool_duplicates_desc">תמונות, סרטונים ואודיו זהים.</string>
+    <string name="tool_similar_title">תמונות דומות</string>
+    <string name="tool_similar_desc">צילומים כמעט זהים, שמרו את הטוב ביותר.</string>
+    <string name="tool_screenshots_title">צילומי מסך</string>
+    <string name="tool_screenshots_desc">כל צילומי המסך, במעבר אחד.</string>
+    <string name="tool_photo_optimizer_title">אופטימיזציית תמונות</string>
+    <string name="tool_photo_optimizer_desc">דחסו תמונות וחסכו מקום.</string>
+    <string name="tool_video_optimizer_title">אופטימיזציית סרטונים</string>
+    <string name="tool_video_optimizer_desc">דחסו סרטונים וחסכו מקום.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">מעקב פעילות</string>
+    <string name="tool_activity_monitor_badge">24 ש׳</string>
+    <string name="tool_wifi_security_title">אבטחת Wi-Fi</string>
+    <string name="tool_wifi_security_badge">בדיקה</string>
+    <string name="tool_network_speed_title">מהירות רשת</string>
+    <string name="tool_network_speed_badge">מבחן</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">ניקוי</string>
+    <string name="cleanup_sheet_message">לנקות %1$s פריטים באשפה ו-%2$s של מטמון?</string>
+    <string name="cleanup_sheet_detail">פריטים אלה כבר נמצאים באשפה של Android, ואינם תמונות בגלריה שלכם. Android יבקש אישור נוסף ועשוי לכנות אותם "תמונות". שום דבר אחר לא ייפגע.</string>
+    <string name="cleanup_result_freed">שוחרר</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">אפשר גישה למדיה</string>
+    <string name="media_disclosure_body">כדי למצוא קבצים גדולים, כפילויות ותמונות דומות, האפליקציה צריכה גישה לתמונות, לסרטונים ולאודיו שלכם. הקבצים מנותחים במכשיר ולעולם לא מועלים.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">קבצים גדולים</string>
+    <string name="large_files_count_line">%1$d פריטים · %2$s</string>
+    <string name="large_files_empty_title">אין קבצים גדולים</string>
+    <string name="large_files_empty_message">הספרייה שלכם נראית מסודרת. אין קבצים גדולים לבדיקה.</string>
+    <string name="large_files_selection_line">%1$d נבחרו · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">כפילויות</string>
+    <string name="duplicates_group_count_line">%1$d קבוצות · %2$s לשחרור</string>
+    <string name="duplicates_empty_title">אין כפילויות</string>
+    <string name="duplicates_empty_message">כל תמונה, סרטון וקובץ אודיו ייחודיים.</string>
+    <string name="duplicates_identical_items">%1$d פריטים זהים</string>
+    <string name="duplicates_reclaimable_label">%1$s לשחרור</string>
+    <string name="duplicates_keep_label">שמירה</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">תמונות דומות</string>
+    <string name="similar_group_count_line">%1$d קבוצות · %2$s לשחרור</string>
+    <string name="similar_empty_title">אין תמונות דומות</string>
+    <string name="similar_empty_message">שום דבר כאן לא נראה כמו כפילות.</string>
+    <string name="similar_shot_count">%1$d צילומים דומים</string>
+    <string name="similar_best_label">הטוב ביותר</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">צילומי מסך</string>
+    <string name="screenshots_empty_title">אין צילומי מסך</string>
+    <string name="screenshots_empty_message">עדיין לא צולם דבר במכשיר זה.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">אופטימיזציית תמונות</string>
+    <string name="photo_optimizer_count_line">%1$d תמונות · %2$s</string>
+    <string name="photo_optimizer_optimizing">מבצע אופטימיזציה %1$d מתוך %2$d</string>
+    <string name="photo_optimizer_saved_so_far">נחסך עד כה: %1$s</string>
+    <string name="photo_optimizer_empty_title">אין תמונות לאופטימיזציה</string>
+    <string name="photo_optimizer_empty_message">אין דבר גדול מספיק שכדאי לדחוס.</string>
+    <string name="photo_optimizer_button_optimize">בצע אופטימיזציה לנבחרים</string>
+    <string name="photo_optimizer_button_optimizing">מבצע אופטימיזציה…</string>
+    <string name="photo_optimizer_selected_line">%1$d נבחרו</string>
+    <string name="photo_optimizer_summary">בוצעה אופטימיזציה ל-%1$d תמונות · נחסכו %2$s</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">אופטימיזציית סרטונים</string>
+    <string name="video_optimizer_count_line">%1$d סרטונים · %2$s</string>
+    <string name="video_optimizer_optimizing">מבצע אופטימיזציה %1$d מתוך %2$d</string>
+    <string name="video_optimizer_saved_so_far">נחסך עד כה: %1$s</string>
+    <string name="video_optimizer_empty_title">אין סרטונים לאופטימיזציה</string>
+    <string name="video_optimizer_empty_message">אין דבר גדול מספיק שכדאי לדחוס.</string>
+    <string name="video_optimizer_button_optimize">בצע אופטימיזציה לנבחרים</string>
+    <string name="video_optimizer_button_optimizing">מבצע אופטימיזציה…</string>
+    <string name="video_optimizer_selected_line">%1$d נבחרו</string>
+    <string name="video_optimizer_summary">בוצעה אופטימיזציה ל-%1$d סרטונים · נחסכו %2$s</string>
+    <string name="video_preset_high">איכות גבוהה</string>
+    <string name="video_preset_balanced">מאוזן</string>
+    <string name="video_preset_small">קובץ קטן</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">מעקב פעילות</string>
+    <string name="activity_monitor_no_access_title">נדרשת גישה לנתוני שימוש</string>
+    <string name="activity_monitor_no_access_message">אפשרו גישה לנתוני שימוש בהגדרות המערכת כדי לראות הפעלות וזמן בחזית.</string>
+    <string name="activity_monitor_empty_title">אין פעילות</string>
+    <string name="activity_monitor_empty_message">לא נעשה שימוש בדבר ב-24 השעות האחרונות.</string>
+    <string name="activity_monitor_launches">%1$d הפעלות · %2$s</string>
+    <string name="activity_monitor_foreground">בחזית: %1$s</string>
+    <string name="activity_monitor_disclosure_title">גישה לנתוני שימוש</string>
+    <string name="activity_monitor_disclosure_body">מעקב פעילות זקוק לגישה לנתוני שימוש. האפליקציה קוראת אילו אפליקציות פתחתם, מתי ולכמה זמן ב-24 השעות האחרונות. נתונים אלה נשארים במכשיר ואינם מועלים או משותפים.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">אבטחת Wi-Fi</string>
+    <string name="wifi_check_internet_title">גישה לאינטרנט</string>
+    <string name="wifi_check_internet_connected">מחובר.</string>
+    <string name="wifi_check_internet_disconnected">אין חיבור פעיל.</string>
+    <string name="wifi_check_encryption_title">הצפנה ואימות</string>
+    <string name="wifi_check_unavailable">לא זמין במכשיר זה</string>
+    <string name="wifi_check_ssl_strip_title">בדיקת תעודה</string>
+    <string name="wifi_check_ssl_strip_detected">אזהרה. לא ניתן היה לאמת את התעודה של אתר בדיקה. ייתכן שמישהו ברשת זו מיירט תעבורה מאובטחת.</string>
+    <string name="wifi_check_ssl_strip_safe">עבר בהצלחה. התעודה של אתר הבדיקה תקינה.</string>
+    <string name="wifi_check_ssl_split_title">בדיקת פרוקסי</string>
+    <string name="wifi_check_ssl_split_detected">הוגדר פרוקסי בחיבור זה. ייתכן שהתעבורה שלכם עוברת דרך שרת אחר.</string>
+    <string name="wifi_check_ssl_split_safe">לא זוהה פרוקסי.</string>
+    <string name="wifi_check_checked_at">נבדק %1$s</string>
+    <string name="wifi_check_rerun">הרץ בדיקות מחדש</string>
+    <string name="wifi_check_error">לא ניתן לבדוק את החיבור.</string>
+    <string name="wifi_check_inspect_failed">לא ניתן היה לבדוק חיבור זה.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">מהירות רשת</string>
+    <string name="network_speed_ready">מדדו את מהירות ההורדה שלכם.</string>
+    <string name="network_speed_preparing">מתכונן</string>
+    <string name="network_speed_testing">בודק מהירות הורדה</string>
+    <string name="network_speed_transferred">%1$s הועברו</string>
+    <string name="network_speed_download_label">מהירות הורדה</string>
+    <string name="network_speed_transferred_detail">הועברו %1$s תוך %2$d שניות</string>
+    <string name="network_speed_failed">המבחן נכשל</string>
+    <string name="network_speed_button_start">התחל מבחן</string>
+    <string name="network_speed_button_testing">בודק…</string>
+    <string name="network_speed_button_again">בדוק שוב</string>
+    <string name="network_speed_button_retry">נסה שוב</string>
+    <string name="network_speed_footnote">הורדה בלבד. העלאה ופינג אינם נמדדים.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">הגדרות</string>
+    <string name="settings_theme">ערכת נושא</string>
+    <string name="settings_theme_light">בהירה</string>
+    <string name="settings_theme_dark">כהה</string>
+    <string name="settings_theme_system">מערכת</string>
+    <string name="settings_language">שפה</string>
+    <string name="settings_notifications">התראות</string>
+    <string name="settings_notifications_on">פועל</string>
+    <string name="settings_notifications_off">כבוי</string>
+    <string name="settings_notifications_allow">אפשר התראות</string>
+    <string name="settings_notifications_weekly">תזכורת ניקוי שבועית</string>
+    <string name="settings_notifications_storage">התראות אחסון</string>
+    <string name="settings_go_pro">שדרוג ל-Pro</string>
+    <string name="settings_pro_active">Pro · פעיל</string>
+    <string name="settings_pro_remove_ads">הסרת פרסומות</string>
+    <string name="settings_restore_purchase">שחזור רכישה</string>
+    <string name="settings_share_app">שיתוף האפליקציה</string>
+    <string name="settings_rate_app">דירוג האפליקציה</string>
+    <string name="settings_privacy_policy">מדיניות פרטיות</string>
+    <string name="settings_terms">תנאי שימוש</string>
+    <string name="settings_support">תמיכה</string>
+    <string name="settings_about">אודות</string>
+    <string name="settings_about_version">גרסה %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">אתם ב-Pro</string>
+    <string name="pro_active_body">הפרסומות הוסרו. תודה על התמיכה ב-CleanKoach.</string>
+    <string name="pro_upsell_title">הסרת פרסומות</string>
+    <string name="pro_upsell_body">Pro מסיר את כל הפרסומות. כל התכונות חינמיות.</string>
+    <string name="pro_button_upgrade">שדרוג</string>
+    <string name="pro_button_restore">שחזור רכישה</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">אודות</string>
+    <string name="about_body">ניקוי אחסון מקורי ל-Android. הכול פועל במכשיר. שום מדיה, נתוני שימוש או תוצאות סריקה לא מועלים לעולם.</string>
+    <string name="about_built_with">נבנה באמצעות Kotlin, Jetpack Compose ו-Material 3.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">תזכורות ניקוי</string>
+    <string name="channel_cleanup_description">תזכורות שבועיות לבדיקת קבצים גדולים וכפילויות.</string>
+    <string name="channel_storage_name">התראות אחסון</string>
+    <string name="channel_storage_description">התראות כשנפח האחסון במכשיר נמוך.</string>
+    <string name="notification_cleanup_title">הגיע הזמן לנקות</string>
+    <string name="notification_cleanup_body">בדקו קבצים גדולים, כפילויות וצילומי מסך.</string>
+    <string name="notification_storage_title">האחסון מלא ב-%1$d%%</string>
+    <string name="notification_storage_body">בדקו קבצים גדולים כדי לפנות מקום.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">פרסומת</string>
+
+    <!-- Share text -->
+    <string name="share_text">פנו מקום בטלפון על ידי מחיקת כפילויות, תמונות דומות וקבצים גדולים: %1$s</string>
+
+    <string name="language_system">ברירת המחדל של המערכת</string>
+    <string name="scan_progress_files">בודק %1$s מתוך %2$s קבצים</string>
+    <string name="settings_licenses">רישיונות קוד פתוח</string>
+    <string name="licenses_title">רישיונות קוד פתוח</string>
+    <string name="licenses_intro">CleanKoach נבנתה באמצעות תוכנות קוד פתוח המפורטות להלן.</string>
+    <string name="toast_no_browser">לא נמצא דפדפן לפתיחת הקישור.</string>
+    <string name="toast_no_mail">לא נמצאה אפליקציית דוא״ל במכשיר זה.</string>
+    <string name="support_mail_subject">תמיכה ב-CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">גרסת Android: %1$s\nמכשיר: %2$s\n\nאנא תארו את הבעיה שלכם להלן:\n\n</string>
+    <string name="pro_unavailable">לא זמין כעת</string>
+    <string name="pro_pending">התשלום שלכם בהמתנה. Pro ייפתח ברגע שהתשלום יושלם.</string>
+    <string name="pro_button_upgrade_price">שדרוג ב-%1$s</string>
+    <string name="duplicates_delete_line">%1$d למחיקה · %2$s</string>
+    <string name="network_speed_error">לא ניתן להתחבר לשרת הבדיקה. בדקו את החיבור ונסו שוב.</string>
+    <string name="home_partial_access_message">גישה מוגבלת לתמונות. CleanKoach יכולה לראות רק את התמונות והסרטונים שבחרתם.</string>
+    <string name="home_partial_access_action">אפשר הכול</string>
+    <string name="home_nothing_to_clean_message">אין מה לנקות כרגע</string>
+    <string name="wifi_encryption_open">פתוחה</string>
+    <string name="wifi_encryption_owe">פתוחה משופרת</string>
+    <string name="settings_privacy_options">אפשרויות פרטיות פרסומות</string>
+</resources>

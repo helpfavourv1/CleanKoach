@@ -180,17 +180,6 @@
     <string name="about_body">Android 네이티브 저장 공간 정리 앱. 모든 처리는 기기에서 실행됩니다. 미디어, 사용 데이터, 검사 결과는 절대 업로드되지 않습니다.</string>
     <string name="about_built_with">Kotlin, Jetpack Compose, Material 3로 제작되었습니다.</string>
 
-    <string name="language_en">English</string>
-    <string name="language_es">Español</string>
-    <string name="language_pt">Português</string>
-    <string name="language_fr">Français</string>
-    <string name="language_de">Deutsch</string>
-    <string name="language_it">Italiano</string>
-    <string name="language_hi">हिन्दी</string>
-    <string name="language_in">Bahasa Indonesia</string>
-    <string name="language_ja">日本語</string>
-    <string name="language_ko">한국어</string>
-    <string name="language_ru">Русский</string>
 
     <string name="channel_cleanup_name">정리 알림</string>
     <string name="channel_cleanup_description">큰 파일과 중복을 검토하도록 하는 주간 알림.</string>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">பின்செல்</string>
+    <string name="cd_settings">அமைப்புகள்</string>
+    <string name="action_done">முடிந்தது</string>
+    <string name="action_cancel">ரத்துசெய்</string>
+    <string name="action_delete">நீக்கு</string>
+    <string name="action_continue">தொடரவும்</string>
+    <string name="action_not_now">இப்போது வேண்டாம்</string>
+    <string name="action_allow_access">அணுகலை அனுமதி</string>
+    <string name="action_open_settings">அமைப்புகளைத் திற</string>
+    <string name="action_all">அனைத்தும்</string>
+    <string name="action_clear">அழி</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">குப்பையின் அளவு</string>
+    <string name="home_ring_sublabel">குப்பையிலுள்ள படங்கள், வீடியோக்கள் மற்றும் ஆப் கேஷ்</string>
+    <string name="home_storage_line">%2$s-இல் %1$s பயன்பாடு · %3$d%%</string>
+    <string name="home_button_cleanup">சுத்தம் செய்</string>
+    <string name="home_button_scanning">ஸ்கேன் செய்கிறது…</string>
+    <string name="home_button_allow_access">அணுகலை அனுமதி</string>
+    <string name="home_button_nothing_to_clean">சுத்தம் செய்ய எதுவுமில்லை</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">போன் கருவிகள்</string>
+    <string name="home_section_photos_videos">படங்கள் &amp; வீடியோக்கள்</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">பெரிய கோப்புகள்</string>
+    <string name="tool_large_files_desc">மிகப் பெரிய படங்கள், வீடியோக்கள், ஆடியோ.</string>
+    <string name="tool_duplicates_title">நகல்கள்</string>
+    <string name="tool_duplicates_desc">ஒரே மாதிரியான படங்கள், வீடியோக்கள், ஆடியோ.</string>
+    <string name="tool_similar_title">ஒத்த படங்கள்</string>
+    <string name="tool_similar_desc">கிட்டத்தட்ட ஒரே படங்கள், சிறந்ததை வைத்திருங்கள்.</string>
+    <string name="tool_screenshots_title">ஸ்கிரீன்ஷாட்கள்</string>
+    <string name="tool_screenshots_desc">எல்லா ஸ்கிரீன்ஷாட்களும் ஒரே முறையில்.</string>
+    <string name="tool_photo_optimizer_title">பட ஆப்டிமைசர்</string>
+    <string name="tool_photo_optimizer_desc">படங்களைச் சுருக்கி இடத்தைச் சேமியுங்கள்.</string>
+    <string name="tool_video_optimizer_title">வீடியோ ஆப்டிமைசர்</string>
+    <string name="tool_video_optimizer_desc">வீடியோக்களைச் சுருக்கி இடத்தைச் சேமியுங்கள்.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">செயல்பாட்டுக் கண்காணிப்பு</string>
+    <string name="tool_activity_monitor_badge">24 மணி</string>
+    <string name="tool_wifi_security_title">Wi-Fi பாதுகாப்பு</string>
+    <string name="tool_wifi_security_badge">சோதி</string>
+    <string name="tool_network_speed_title">நெட்வொர்க் வேகம்</string>
+    <string name="tool_network_speed_badge">சோதனை</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">சுத்தம் செய்</string>
+    <string name="cleanup_sheet_message">குப்பையிலுள்ள %1$s உருப்படிகளையும் %2$s கேஷையும் அழிக்கவா?</string>
+    <string name="cleanup_sheet_detail">இந்த உருப்படிகள் ஏற்கனவே Android குப்பையில் உள்ளன; உங்கள் கேலரியில் உள்ள படங்கள் அல்ல. Android இன்னொரு முறை உறுதிப்படுத்தக் கேட்கும், அவற்றை “படங்கள்” என்றும் குறிப்பிடலாம். வேறு எதுவும் தொடப்படாது.</string>
+    <string name="cleanup_result_freed">விடுவிக்கப்பட்டது</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">மீடியா அணுகலை அனுமதிக்கவும்</string>
+    <string name="media_disclosure_body">பெரிய கோப்புகள், நகல்கள் மற்றும் ஒத்த படங்களைக் கண்டறிய, இந்த ஆப்புக்கு உங்கள் படங்கள், வீடியோக்கள் மற்றும் ஆடியோவுக்கான அணுகல் தேவை. கோப்புகள் உங்கள் சாதனத்திலேயே பகுப்பாய்வு செய்யப்படும்; ஒருபோதும் பதிவேற்றப்படாது.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">பெரிய கோப்புகள்</string>
+    <string name="large_files_count_line">%1$d உருப்படிகள் · %2$s</string>
+    <string name="large_files_empty_title">பெரிய கோப்புகள் இல்லை</string>
+    <string name="large_files_empty_message">உங்கள் லைப்ரரி நேர்த்தியாக உள்ளது. பார்க்க பெரிய கோப்புகள் எதுவுமில்லை.</string>
+    <string name="large_files_selection_line">%1$d தேர்வு · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">நகல்கள்</string>
+    <string name="duplicates_group_count_line">%1$d குழுக்கள் · %2$s மீட்கலாம்</string>
+    <string name="duplicates_empty_title">நகல்கள் இல்லை</string>
+    <string name="duplicates_empty_message">ஒவ்வொரு படமும், வீடியோவும், ஆடியோ கோப்பும் தனித்துவமானது.</string>
+    <string name="duplicates_identical_items">%1$d ஒரே மாதிரியான உருப்படிகள்</string>
+    <string name="duplicates_reclaimable_label">%1$s மீட்கலாம்</string>
+    <string name="duplicates_keep_label">வை</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">ஒத்த படங்கள்</string>
+    <string name="similar_group_count_line">%1$d குழுக்கள் · %2$s மீட்கலாம்</string>
+    <string name="similar_empty_title">ஒத்த படங்கள் இல்லை</string>
+    <string name="similar_empty_message">கிட்டத்தட்ட நகலாகத் தோன்றும் எதுவும் இல்லை.</string>
+    <string name="similar_shot_count">%1$d ஒத்த படங்கள்</string>
+    <string name="similar_best_label">சிறந்தது</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">ஸ்கிரீன்ஷாட்கள்</string>
+    <string name="screenshots_empty_title">ஸ்கிரீன்ஷாட்கள் இல்லை</string>
+    <string name="screenshots_empty_message">இந்தச் சாதனத்தில் இன்னும் எதுவும் எடுக்கப்படவில்லை.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">பட ஆப்டிமைசர்</string>
+    <string name="photo_optimizer_count_line">%1$d படங்கள் · %2$s</string>
+    <string name="photo_optimizer_optimizing">%2$d-இல் %1$d ஆப்டிமைஸ் ஆகிறது</string>
+    <string name="photo_optimizer_saved_so_far">இதுவரை சேமிப்பு: %1$s</string>
+    <string name="photo_optimizer_empty_title">ஆப்டிமைஸ் செய்ய படங்கள் இல்லை</string>
+    <string name="photo_optimizer_empty_message">சுருக்கும் அளவுக்குப் பெரியது எதுவுமில்லை.</string>
+    <string name="photo_optimizer_button_optimize">தேர்ந்தவற்றை ஆப்டிமைஸ் செய்</string>
+    <string name="photo_optimizer_button_optimizing">ஆப்டிமைஸ் ஆகிறது…</string>
+    <string name="photo_optimizer_selected_line">%1$d தேர்வு</string>
+    <string name="photo_optimizer_summary">%1$d படங்கள் ஆப்டிமைஸ் செய்யப்பட்டன · %2$s சேமிப்பு</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">வீடியோ ஆப்டிமைசர்</string>
+    <string name="video_optimizer_count_line">%1$d வீடியோக்கள் · %2$s</string>
+    <string name="video_optimizer_optimizing">%2$d-இல் %1$d ஆப்டிமைஸ் ஆகிறது</string>
+    <string name="video_optimizer_saved_so_far">இதுவரை சேமிப்பு: %1$s</string>
+    <string name="video_optimizer_empty_title">ஆப்டிமைஸ் செய்ய வீடியோக்கள் இல்லை</string>
+    <string name="video_optimizer_empty_message">சுருக்கும் அளவுக்குப் பெரியது எதுவுமில்லை.</string>
+    <string name="video_optimizer_button_optimize">தேர்ந்தவற்றை ஆப்டிமைஸ் செய்</string>
+    <string name="video_optimizer_button_optimizing">ஆப்டிமைஸ் ஆகிறது…</string>
+    <string name="video_optimizer_selected_line">%1$d தேர்வு</string>
+    <string name="video_optimizer_summary">%1$d வீடியோக்கள் ஆப்டிமைஸ் செய்யப்பட்டன · %2$s சேமிப்பு</string>
+    <string name="video_preset_high">உயர் தரம்</string>
+    <string name="video_preset_balanced">சமநிலை</string>
+    <string name="video_preset_small">சிறிய கோப்பு</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">செயல்பாட்டுக் கண்காணிப்பு</string>
+    <string name="activity_monitor_no_access_title">பயன்பாட்டு அணுகல் தேவை</string>
+    <string name="activity_monitor_no_access_message">ஆப் தொடக்கங்களையும் முன்புற நேரத்தையும் காண, சிஸ்டம் அமைப்புகளில் பயன்பாட்டு அணுகலை அனுமதிக்கவும்.</string>
+    <string name="activity_monitor_empty_title">செயல்பாடு இல்லை</string>
+    <string name="activity_monitor_empty_message">கடந்த 24 மணிநேரத்தில் எதுவும் பயன்படுத்தப்படவில்லை.</string>
+    <string name="activity_monitor_launches">%1$d முறை தொடக்கம் · %2$s</string>
+    <string name="activity_monitor_foreground">முன்புறம்: %1$s</string>
+    <string name="activity_monitor_disclosure_title">பயன்பாட்டு அணுகல்</string>
+    <string name="activity_monitor_disclosure_body">செயல்பாட்டுக் கண்காணிப்புக்கு பயன்பாட்டு அணுகல் தேவை. கடந்த 24 மணிநேரத்தில் நீங்கள் எந்த ஆப்களை, எப்போது, எவ்வளவு நேரம் திறந்தீர்கள் என்பதை இந்த ஆப் படிக்கும். இந்தத் தரவு உங்கள் சாதனத்திலேயே இருக்கும்; பதிவேற்றப்படாது, பகிரப்படாது.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Wi-Fi பாதுகாப்பு</string>
+    <string name="wifi_check_internet_title">இணைய அணுகல்</string>
+    <string name="wifi_check_internet_connected">இணைக்கப்பட்டுள்ளது.</string>
+    <string name="wifi_check_internet_disconnected">செயலில் உள்ள இணைப்பு இல்லை.</string>
+    <string name="wifi_check_encryption_title">குறியாக்கமும் அங்கீகாரமும்</string>
+    <string name="wifi_check_unavailable">இந்தச் சாதனத்தில் கிடைக்கவில்லை</string>
+    <string name="wifi_check_ssl_strip_title">சான்றிதழ் சோதனை</string>
+    <string name="wifi_check_ssl_strip_detected">எச்சரிக்கை. ஒரு சோதனை தளத்தின் சான்றிதழைச் சரிபார்க்க முடியவில்லை. இந்த நெட்வொர்க்கில் உள்ள யாரோ பாதுகாப்பான போக்குவரத்தை இடைமறிக்கக்கூடும்.</string>
+    <string name="wifi_check_ssl_strip_safe">தேர்ச்சி. சோதனை தளத்தின் சான்றிதழ் செல்லுபடியாகும்.</string>
+    <string name="wifi_check_ssl_split_title">ப்ராக்ஸி சோதனை</string>
+    <string name="wifi_check_ssl_split_detected">இந்த இணைப்பில் ப்ராக்ஸி அமைக்கப்பட்டுள்ளது. உங்கள் போக்குவரத்து வேறொரு சர்வர் வழியாகச் செல்லக்கூடும்.</string>
+    <string name="wifi_check_ssl_split_safe">ப்ராக்ஸி எதுவும் கண்டறியப்படவில்லை.</string>
+    <string name="wifi_check_checked_at">சோதித்த நேரம்: %1$s</string>
+    <string name="wifi_check_rerun">மீண்டும் சோதி</string>
+    <string name="wifi_check_error">இணைப்பைச் சோதிக்க முடியவில்லை.</string>
+    <string name="wifi_check_inspect_failed">இந்த இணைப்பைச் சோதிக்க முடியவில்லை.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">நெட்வொர்க் வேகம்</string>
+    <string name="network_speed_ready">உங்கள் பதிவிறக்க வேகத்தை அளவிடுங்கள்.</string>
+    <string name="network_speed_preparing">தயாராகிறது</string>
+    <string name="network_speed_testing">பதிவிறக்க வேகம் சோதிக்கப்படுகிறது</string>
+    <string name="network_speed_transferred">%1$s மாற்றப்பட்டது</string>
+    <string name="network_speed_download_label">பதிவிறக்க வேகம்</string>
+    <string name="network_speed_transferred_detail">%2$d விநாடிகளில் %1$s மாற்றப்பட்டது</string>
+    <string name="network_speed_failed">சோதனை தோல்வியடைந்தது</string>
+    <string name="network_speed_button_start">சோதனையைத் தொடங்கு</string>
+    <string name="network_speed_button_testing">சோதிக்கிறது…</string>
+    <string name="network_speed_button_again">மீண்டும் சோதி</string>
+    <string name="network_speed_button_retry">மீண்டும் முயற்சி</string>
+    <string name="network_speed_footnote">பதிவிறக்கம் மட்டும். அப்லோடும் பிங்கும் அளவிடப்படாது.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">அமைப்புகள்</string>
+    <string name="settings_theme">தீம்</string>
+    <string name="settings_theme_light">வெளிர்</string>
+    <string name="settings_theme_dark">இருள்</string>
+    <string name="settings_theme_system">சிஸ்டம்</string>
+    <string name="settings_language">மொழி</string>
+    <string name="settings_notifications">அறிவிப்புகள்</string>
+    <string name="settings_notifications_on">இயக்கத்தில்</string>
+    <string name="settings_notifications_off">அணைவில்</string>
+    <string name="settings_notifications_allow">அறிவிப்புகளை அனுமதி</string>
+    <string name="settings_notifications_weekly">வாராந்திர சுத்தம் நினைவூட்டல்</string>
+    <string name="settings_notifications_storage">சேமிப்பக எச்சரிக்கைகள்</string>
+    <string name="settings_go_pro">Pro-வுக்கு மாறுங்கள்</string>
+    <string name="settings_pro_active">Pro · செயலில்</string>
+    <string name="settings_pro_remove_ads">விளம்பரங்களை நீக்கு</string>
+    <string name="settings_restore_purchase">வாங்குதலை மீட்டெடு</string>
+    <string name="settings_share_app">இந்த ஆப்பைப் பகிர்</string>
+    <string name="settings_rate_app">இந்த ஆப்பை மதிப்பிடு</string>
+    <string name="settings_privacy_policy">தனியுரிமைக் கொள்கை</string>
+    <string name="settings_terms">சேவை விதிமுறைகள்</string>
+    <string name="settings_support">ஆதரவு</string>
+    <string name="settings_about">பற்றி</string>
+    <string name="settings_about_version">பதிப்பு %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">நீங்கள் Pro-வில் உள்ளீர்கள்</string>
+    <string name="pro_active_body">விளம்பரங்கள் நீக்கப்பட்டன. CleanKoach-ஐ ஆதரித்ததற்கு நன்றி.</string>
+    <string name="pro_upsell_title">விளம்பரங்களை நீக்கு</string>
+    <string name="pro_upsell_body">Pro எல்லா விளம்பரங்களையும் நீக்கும். எல்லா அம்சங்களும் இலவசம்.</string>
+    <string name="pro_button_upgrade">மேம்படுத்து</string>
+    <string name="pro_button_restore">வாங்குதலை மீட்டெடு</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">பற்றி</string>
+    <string name="about_body">Android-க்கான சேமிப்பக சுத்தம் ஆப். அனைத்தும் சாதனத்திலேயே நடக்கும். மீடியா, பயன்பாட்டுத் தரவு, ஸ்கேன் முடிவுகள் எதுவும் ஒருபோதும் பதிவேற்றப்படாது.</string>
+    <string name="about_built_with">Kotlin, Jetpack Compose, Material 3 கொண்டு உருவாக்கப்பட்டது.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">சுத்தம் நினைவூட்டல்கள்</string>
+    <string name="channel_cleanup_description">பெரிய கோப்புகளையும் நகல்களையும் பார்க்க வாராந்திர நினைவூட்டல்கள்.</string>
+    <string name="channel_storage_name">சேமிப்பக எச்சரிக்கைகள்</string>
+    <string name="channel_storage_description">சாதன சேமிப்பிடம் குறையும்போது எச்சரிக்கைகள்.</string>
+    <string name="notification_cleanup_title">சுத்தம் செய்யும் நேரம்</string>
+    <string name="notification_cleanup_body">பெரிய கோப்புகள், நகல்கள், ஸ்கிரீன்ஷாட்களைப் பாருங்கள்.</string>
+    <string name="notification_storage_title">சேமிப்பிடம் %1$d%% நிரம்பியுள்ளது</string>
+    <string name="notification_storage_body">இடம் விடுவிக்க பெரிய கோப்புகளைப் பாருங்கள்.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">விளம்பரம்</string>
+
+    <!-- Share text -->
+    <string name="share_text">நகல்கள், ஒத்த படங்கள், பெரிய கோப்புகளை நீக்கி போன் சேமிப்பிடத்தை விடுவியுங்கள்: %1$s</string>
+
+    <string name="language_system">சிஸ்டம் இயல்புநிலை</string>
+    <string name="scan_progress_files">%2$s கோப்புகளில் %1$s சோதிக்கப்பட்டன</string>
+    <string name="settings_licenses">ஓப்பன்-சோர்ஸ் உரிமங்கள்</string>
+    <string name="licenses_title">ஓப்பன்-சோர்ஸ் உரிமங்கள்</string>
+    <string name="licenses_intro">CleanKoach கீழே பட்டியலிடப்பட்ட ஓப்பன்-சோர்ஸ் மென்பொருளைக் கொண்டு உருவாக்கப்பட்டது.</string>
+    <string name="toast_no_browser">இந்த இணைப்பைத் திறக்க உலாவி எதுவும் இல்லை.</string>
+    <string name="toast_no_mail">இந்தச் சாதனத்தில் மின்னஞ்சல் ஆப் எதுவும் இல்லை.</string>
+    <string name="support_mail_subject">CleanKoach ஆதரவு (v%1$s)</string>
+    <string name="support_mail_body">Android பதிப்பு: %1$s\nசாதனம்: %2$s\n\nஉங்கள் சிக்கலை கீழே விவரிக்கவும்:\n\n</string>
+    <string name="pro_unavailable">இப்போது கிடைக்கவில்லை</string>
+    <string name="pro_pending">உங்கள் கட்டணம் நிலுவையில் உள்ளது. அது முடிந்ததும் Pro திறக்கப்படும்.</string>
+    <string name="pro_button_upgrade_price">%1$s-க்கு மேம்படுத்து</string>
+    <string name="duplicates_delete_line">%1$d நீக்க · %2$s</string>
+    <string name="network_speed_error">சோதனை சர்வரை அடைய முடியவில்லை. இணைப்பைச் சரிபார்த்து மீண்டும் முயலுங்கள்.</string>
+    <string name="home_partial_access_message">படங்களுக்கான அணுகல் வரம்புடையது. நீங்கள் தேர்ந்தெடுத்த படங்களையும் வீடியோக்களையும் மட்டுமே CleanKoach பார்க்க முடியும்.</string>
+    <string name="home_partial_access_action">அனைத்தையும் அனுமதி</string>
+    <string name="home_nothing_to_clean_message">இப்போது சுத்தம் செய்ய எதுவுமில்லை</string>
+    <string name="wifi_encryption_open">திறந்தது</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">விளம்பர தனியுரிமை விருப்பங்கள்</string>
+</resources>

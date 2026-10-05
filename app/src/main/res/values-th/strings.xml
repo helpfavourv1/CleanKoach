@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">กลับ</string>
+    <string name="cd_settings">การตั้งค่า</string>
+    <string name="action_done">เสร็จสิ้น</string>
+    <string name="action_cancel">ยกเลิก</string>
+    <string name="action_delete">ลบ</string>
+    <string name="action_continue">ดำเนินการต่อ</string>
+    <string name="action_not_now">ไว้ภายหลัง</string>
+    <string name="action_allow_access">อนุญาตการเข้าถึง</string>
+    <string name="action_open_settings">เปิดการตั้งค่า</string>
+    <string name="action_all">ทั้งหมด</string>
+    <string name="action_clear">ล้าง</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">ขนาดถังขยะ</string>
+    <string name="home_ring_sublabel">รูปภาพและวิดีโอที่ลบแล้ว รวมถึงแคชของแอป</string>
+    <string name="home_storage_line">ใช้ไป %1$s จาก %2$s · %3$d%%</string>
+    <string name="home_button_cleanup">ล้างข้อมูล</string>
+    <string name="home_button_scanning">กำลังสแกน…</string>
+    <string name="home_button_allow_access">อนุญาตการเข้าถึง</string>
+    <string name="home_button_nothing_to_clean">ไม่มีสิ่งที่ต้องล้าง</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">เครื่องมือโทรศัพท์</string>
+    <string name="home_section_photos_videos">รูปภาพและวิดีโอ</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">ไฟล์ขนาดใหญ่</string>
+    <string name="tool_large_files_desc">รูปภาพ วิดีโอ และเสียงที่ใหญ่ที่สุด</string>
+    <string name="tool_duplicates_title">ไฟล์ซ้ำ</string>
+    <string name="tool_duplicates_desc">รูปภาพ วิดีโอ และเสียงที่เหมือนกันทุกประการ</string>
+    <string name="tool_similar_title">รูปภาพที่คล้ายกัน</string>
+    <string name="tool_similar_desc">ภาพที่เกือบเหมือนกัน เก็บภาพที่ดีที่สุดไว้</string>
+    <string name="tool_screenshots_title">ภาพหน้าจอ</string>
+    <string name="tool_screenshots_desc">ภาพหน้าจอทั้งหมด จัดการรวดเดียว</string>
+    <string name="tool_photo_optimizer_title">ปรับแต่งรูปภาพ</string>
+    <string name="tool_photo_optimizer_desc">บีบอัดรูปภาพ ประหยัดพื้นที่</string>
+    <string name="tool_video_optimizer_title">ปรับแต่งวิดีโอ</string>
+    <string name="tool_video_optimizer_desc">บีบอัดวิดีโอ ประหยัดพื้นที่</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">ตัวตรวจสอบกิจกรรม</string>
+    <string name="tool_activity_monitor_badge">24 ชม.</string>
+    <string name="tool_wifi_security_title">ความปลอดภัย Wi-Fi</string>
+    <string name="tool_wifi_security_badge">ตรวจสอบ</string>
+    <string name="tool_network_speed_title">ความเร็วเครือข่าย</string>
+    <string name="tool_network_speed_badge">ทดสอบ</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">ล้างข้อมูล</string>
+    <string name="cleanup_sheet_message">ล้าง %1$s รายการในถังขยะและแคช %2$s หรือไม่</string>
+    <string name="cleanup_sheet_detail">รายการเหล่านี้อยู่ในถังขยะของ Android อยู่แล้ว ไม่ใช่รูปภาพในแกลเลอรีของคุณ Android จะขอให้ยืนยันอีกครั้งและอาจเรียกรายการเหล่านี้ว่า “รูปภาพ” ระบบจะไม่แตะต้องข้อมูลอื่น</string>
+    <string name="cleanup_result_freed">พื้นที่ที่ว่างขึ้น</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">อนุญาตการเข้าถึงสื่อ</string>
+    <string name="media_disclosure_body">เพื่อค้นหาไฟล์ขนาดใหญ่ ไฟล์ซ้ำ และรูปภาพที่คล้ายกัน แอปนี้ต้องเข้าถึงรูปภาพ วิดีโอ และเสียงของคุณ ไฟล์จะถูกวิเคราะห์บนอุปกรณ์ของคุณและจะไม่ถูกอัปโหลด</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">ไฟล์ขนาดใหญ่</string>
+    <string name="large_files_count_line">%1$d รายการ · %2$s</string>
+    <string name="large_files_empty_title">ไม่มีไฟล์ขนาดใหญ่</string>
+    <string name="large_files_empty_message">คลังของคุณเป็นระเบียบดี ไม่มีไฟล์ขนาดใหญ่ที่ต้องตรวจสอบ</string>
+    <string name="large_files_selection_line">เลือกแล้ว %1$d · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">ไฟล์ซ้ำ</string>
+    <string name="duplicates_group_count_line">%1$d กลุ่ม · คืนพื้นที่ได้ %2$s</string>
+    <string name="duplicates_empty_title">ไม่มีไฟล์ซ้ำ</string>
+    <string name="duplicates_empty_message">รูปภาพ วิดีโอ และไฟล์เสียงทุกไฟล์ไม่ซ้ำกัน</string>
+    <string name="duplicates_identical_items">%1$d รายการที่เหมือนกัน</string>
+    <string name="duplicates_reclaimable_label">คืนพื้นที่ได้ %1$s</string>
+    <string name="duplicates_keep_label">เก็บไว้</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">รูปภาพที่คล้ายกัน</string>
+    <string name="similar_group_count_line">%1$d กลุ่ม · คืนพื้นที่ได้ %2$s</string>
+    <string name="similar_empty_title">ไม่มีรูปภาพที่คล้ายกัน</string>
+    <string name="similar_empty_message">ไม่พบภาพที่เกือบซ้ำกัน</string>
+    <string name="similar_shot_count">ภาพที่คล้ายกัน %1$d ภาพ</string>
+    <string name="similar_best_label">ดีที่สุด</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">ภาพหน้าจอ</string>
+    <string name="screenshots_empty_title">ไม่มีภาพหน้าจอ</string>
+    <string name="screenshots_empty_message">ยังไม่มีการจับภาพบนอุปกรณ์นี้</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">ปรับแต่งรูปภาพ</string>
+    <string name="photo_optimizer_count_line">%1$d รูป · %2$s</string>
+    <string name="photo_optimizer_optimizing">กำลังปรับแต่ง %1$d จาก %2$d</string>
+    <string name="photo_optimizer_saved_so_far">ประหยัดได้แล้ว: %1$s</string>
+    <string name="photo_optimizer_empty_title">ไม่มีรูปภาพให้ปรับแต่ง</string>
+    <string name="photo_optimizer_empty_message">ไม่มีรูปภาพที่ใหญ่พอให้บีบอัด</string>
+    <string name="photo_optimizer_button_optimize">ปรับแต่งที่เลือก</string>
+    <string name="photo_optimizer_button_optimizing">กำลังปรับแต่ง…</string>
+    <string name="photo_optimizer_selected_line">เลือกแล้ว %1$d</string>
+    <string name="photo_optimizer_summary">ปรับแต่งแล้ว %1$d รูป · ประหยัดได้ %2$s</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">ปรับแต่งวิดีโอ</string>
+    <string name="video_optimizer_count_line">%1$d วิดีโอ · %2$s</string>
+    <string name="video_optimizer_optimizing">กำลังปรับแต่ง %1$d จาก %2$d</string>
+    <string name="video_optimizer_saved_so_far">ประหยัดได้แล้ว: %1$s</string>
+    <string name="video_optimizer_empty_title">ไม่มีวิดีโอให้ปรับแต่ง</string>
+    <string name="video_optimizer_empty_message">ไม่มีวิดีโอที่ใหญ่พอให้บีบอัด</string>
+    <string name="video_optimizer_button_optimize">ปรับแต่งที่เลือก</string>
+    <string name="video_optimizer_button_optimizing">กำลังปรับแต่ง…</string>
+    <string name="video_optimizer_selected_line">เลือกแล้ว %1$d</string>
+    <string name="video_optimizer_summary">ปรับแต่งแล้ว %1$d วิดีโอ · ประหยัดได้ %2$s</string>
+    <string name="video_preset_high">คุณภาพสูง</string>
+    <string name="video_preset_balanced">สมดุล</string>
+    <string name="video_preset_small">ไฟล์เล็ก</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">ตัวตรวจสอบกิจกรรม</string>
+    <string name="activity_monitor_no_access_title">ต้องการสิทธิ์เข้าถึงการใช้งาน</string>
+    <string name="activity_monitor_no_access_message">อนุญาตการเข้าถึงการใช้งานในการตั้งค่าระบบ เพื่อดูจำนวนครั้งที่เปิดและเวลาที่ใช้งานในเบื้องหน้า</string>
+    <string name="activity_monitor_empty_title">ไม่มีกิจกรรม</string>
+    <string name="activity_monitor_empty_message">ไม่มีการใช้งานใน 24 ชั่วโมงที่ผ่านมา</string>
+    <string name="activity_monitor_launches">เปิด %1$d ครั้ง · %2$s</string>
+    <string name="activity_monitor_foreground">เบื้องหน้า: %1$s</string>
+    <string name="activity_monitor_disclosure_title">การเข้าถึงการใช้งาน</string>
+    <string name="activity_monitor_disclosure_body">ตัวตรวจสอบกิจกรรมต้องใช้สิทธิ์เข้าถึงการใช้งาน แอปจะอ่านว่าคุณเปิดแอปใด เมื่อใด และนานเท่าใดในช่วง 24 ชั่วโมงที่ผ่านมา ข้อมูลนี้อยู่บนอุปกรณ์ของคุณและจะไม่ถูกอัปโหลดหรือแชร์</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">ความปลอดภัย Wi-Fi</string>
+    <string name="wifi_check_internet_title">การเข้าถึงอินเทอร์เน็ต</string>
+    <string name="wifi_check_internet_connected">เชื่อมต่อแล้ว</string>
+    <string name="wifi_check_internet_disconnected">ไม่มีการเชื่อมต่อที่ใช้งานอยู่</string>
+    <string name="wifi_check_encryption_title">การเข้ารหัสและการยืนยันตัวตน</string>
+    <string name="wifi_check_unavailable">ไม่พร้อมใช้งานบนอุปกรณ์นี้</string>
+    <string name="wifi_check_ssl_strip_title">การตรวจสอบใบรับรอง</string>
+    <string name="wifi_check_ssl_strip_detected">คำเตือน ไม่สามารถตรวจสอบใบรับรองของเว็บไซต์ทดสอบได้ อาจมีผู้ดักจับการรับส่งข้อมูลที่เข้ารหัสในเครือข่ายนี้</string>
+    <string name="wifi_check_ssl_strip_safe">ผ่าน ใบรับรองของเว็บไซต์ทดสอบถูกต้อง</string>
+    <string name="wifi_check_ssl_split_title">การตรวจสอบพร็อกซี</string>
+    <string name="wifi_check_ssl_split_detected">มีการตั้งค่าพร็อกซีในการเชื่อมต่อนี้ ข้อมูลของคุณอาจผ่านเซิร์ฟเวอร์อื่น</string>
+    <string name="wifi_check_ssl_split_safe">ไม่พบพร็อกซี</string>
+    <string name="wifi_check_checked_at">ตรวจสอบเมื่อ %1$s</string>
+    <string name="wifi_check_rerun">ตรวจสอบอีกครั้ง</string>
+    <string name="wifi_check_error">ไม่สามารถตรวจสอบการเชื่อมต่อได้</string>
+    <string name="wifi_check_inspect_failed">ไม่สามารถตรวจสอบการเชื่อมต่อนี้ได้</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">ความเร็วเครือข่าย</string>
+    <string name="network_speed_ready">วัดความเร็วดาวน์โหลดของคุณ</string>
+    <string name="network_speed_preparing">กำลังเตรียมการ</string>
+    <string name="network_speed_testing">กำลังทดสอบความเร็วดาวน์โหลด</string>
+    <string name="network_speed_transferred">ถ่ายโอนแล้ว %1$s</string>
+    <string name="network_speed_download_label">ความเร็วดาวน์โหลด</string>
+    <string name="network_speed_transferred_detail">ถ่ายโอน %1$s ใน %2$d วินาที</string>
+    <string name="network_speed_failed">การทดสอบล้มเหลว</string>
+    <string name="network_speed_button_start">เริ่มทดสอบ</string>
+    <string name="network_speed_button_testing">กำลังทดสอบ…</string>
+    <string name="network_speed_button_again">ทดสอบอีกครั้ง</string>
+    <string name="network_speed_button_retry">ลองอีกครั้ง</string>
+    <string name="network_speed_footnote">วัดเฉพาะดาวน์โหลด ไม่วัดอัปโหลดและค่าปิง</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">การตั้งค่า</string>
+    <string name="settings_theme">ธีม</string>
+    <string name="settings_theme_light">สว่าง</string>
+    <string name="settings_theme_dark">มืด</string>
+    <string name="settings_theme_system">ตามระบบ</string>
+    <string name="settings_language">ภาษา</string>
+    <string name="settings_notifications">การแจ้งเตือน</string>
+    <string name="settings_notifications_on">เปิด</string>
+    <string name="settings_notifications_off">ปิด</string>
+    <string name="settings_notifications_allow">อนุญาตการแจ้งเตือน</string>
+    <string name="settings_notifications_weekly">เตือนล้างข้อมูลรายสัปดาห์</string>
+    <string name="settings_notifications_storage">การแจ้งเตือนพื้นที่จัดเก็บ</string>
+    <string name="settings_go_pro">อัปเกรดเป็น Pro</string>
+    <string name="settings_pro_active">Pro · ใช้งานอยู่</string>
+    <string name="settings_pro_remove_ads">นำโฆษณาออก</string>
+    <string name="settings_restore_purchase">กู้คืนการซื้อ</string>
+    <string name="settings_share_app">แชร์แอปนี้</string>
+    <string name="settings_rate_app">ให้คะแนนแอปนี้</string>
+    <string name="settings_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="settings_terms">ข้อกำหนดในการให้บริการ</string>
+    <string name="settings_support">ความช่วยเหลือ</string>
+    <string name="settings_about">เกี่ยวกับ</string>
+    <string name="settings_about_version">เวอร์ชัน %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">คุณใช้ Pro อยู่</string>
+    <string name="pro_active_body">นำโฆษณาออกแล้ว ขอบคุณที่สนับสนุน CleanKoach</string>
+    <string name="pro_upsell_title">นำโฆษณาออก</string>
+    <string name="pro_upsell_body">Pro นำโฆษณาทั้งหมดออก ทุกฟีเจอร์ใช้งานได้ฟรี</string>
+    <string name="pro_button_upgrade">อัปเกรด</string>
+    <string name="pro_button_restore">กู้คืนการซื้อ</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">เกี่ยวกับ</string>
+    <string name="about_body">แอปล้างพื้นที่จัดเก็บสำหรับ Android โดยเฉพาะ ทุกอย่างทำงานบนอุปกรณ์ ไม่มีการอัปโหลดสื่อ ข้อมูลการใช้งาน หรือผลการสแกนใดๆ</string>
+    <string name="about_built_with">สร้างด้วย Kotlin, Jetpack Compose และ Material 3</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">การเตือนล้างข้อมูล</string>
+    <string name="channel_cleanup_description">การเตือนรายสัปดาห์เพื่อตรวจสอบไฟล์ขนาดใหญ่และไฟล์ซ้ำ</string>
+    <string name="channel_storage_name">การแจ้งเตือนพื้นที่จัดเก็บ</string>
+    <string name="channel_storage_description">แจ้งเตือนเมื่อพื้นที่จัดเก็บของอุปกรณ์เหลือน้อย</string>
+    <string name="notification_cleanup_title">ถึงเวลาล้างข้อมูลแล้ว</string>
+    <string name="notification_cleanup_body">ตรวจสอบไฟล์ขนาดใหญ่ ไฟล์ซ้ำ และภาพหน้าจอ</string>
+    <string name="notification_storage_title">พื้นที่จัดเก็บเต็ม %1$d%%</string>
+    <string name="notification_storage_body">ตรวจสอบไฟล์ขนาดใหญ่เพื่อเพิ่มพื้นที่ว่าง</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">โฆษณา</string>
+
+    <!-- Share text -->
+    <string name="share_text">เพิ่มพื้นที่ว่างในโทรศัพท์ด้วยการลบไฟล์ซ้ำ รูปภาพที่คล้ายกัน และไฟล์ขนาดใหญ่: %1$s</string>
+
+    <string name="language_system">ค่าเริ่มต้นของระบบ</string>
+    <string name="scan_progress_files">กำลังตรวจสอบ %1$s จาก %2$s ไฟล์</string>
+    <string name="settings_licenses">ใบอนุญาตโอเพนซอร์ส</string>
+    <string name="licenses_title">ใบอนุญาตโอเพนซอร์ส</string>
+    <string name="licenses_intro">CleanKoach สร้างขึ้นด้วยซอฟต์แวร์โอเพนซอร์สที่ระบุไว้ด้านล่าง</string>
+    <string name="toast_no_browser">ไม่พบเบราว์เซอร์สำหรับเปิดลิงก์นี้</string>
+    <string name="toast_no_mail">ไม่พบแอปอีเมลบนอุปกรณ์นี้</string>
+    <string name="support_mail_subject">ความช่วยเหลือ CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">เวอร์ชัน Android: %1$s\nอุปกรณ์: %2$s\n\nโปรดอธิบายปัญหาของคุณด้านล่าง:\n\n</string>
+    <string name="pro_unavailable">ไม่พร้อมใช้งานในขณะนี้</string>
+    <string name="pro_pending">การชำระเงินของคุณอยู่ระหว่างดำเนินการ Pro จะปลดล็อกทันทีเมื่อเสร็จสมบูรณ์</string>
+    <string name="pro_button_upgrade_price">อัปเกรดในราคา %1$s</string>
+    <string name="duplicates_delete_line">ลบ %1$d รายการ · %2$s</string>
+    <string name="network_speed_error">ไม่สามารถเชื่อมต่อเซิร์ฟเวอร์ทดสอบได้ โปรดตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง</string>
+    <string name="home_partial_access_message">เข้าถึงรูปภาพได้อย่างจำกัด CleanKoach เห็นเฉพาะรูปภาพและวิดีโอที่คุณเลือก</string>
+    <string name="home_partial_access_action">อนุญาตทั้งหมด</string>
+    <string name="home_nothing_to_clean_message">ขณะนี้ไม่มีสิ่งที่ต้องล้าง</string>
+    <string name="wifi_encryption_open">เปิด</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">ตัวเลือกความเป็นส่วนตัวของโฆษณา</string>
+</resources>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Wstecz</string>
+    <string name="cd_settings">Ustawienia</string>
+    <string name="action_done">Gotowe</string>
+    <string name="action_cancel">Anuluj</string>
+    <string name="action_delete">Usuń</string>
+    <string name="action_continue">Dalej</string>
+    <string name="action_not_now">Nie teraz</string>
+    <string name="action_allow_access">Zezwól na dostęp</string>
+    <string name="action_open_settings">Otwórz ustawienia</string>
+    <string name="action_all">Wszystkie</string>
+    <string name="action_clear">Wyczyść</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">Rozmiar kosza</string>
+    <string name="home_ring_sublabel">Usunięte zdjęcia i filmy oraz pamięć podręczna aplikacji</string>
+    <string name="home_storage_line">Zajęte: %1$s z %2$s · %3$d%%</string>
+    <string name="home_button_cleanup">WYCZYŚĆ</string>
+    <string name="home_button_scanning">Skanowanie…</string>
+    <string name="home_button_allow_access">Zezwól na dostęp</string>
+    <string name="home_button_nothing_to_clean">Nie ma nic do wyczyszczenia</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">Narzędzia telefonu</string>
+    <string name="home_section_photos_videos">Zdjęcia i filmy</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">Duże pliki</string>
+    <string name="tool_large_files_desc">Największe zdjęcia, filmy i pliki audio.</string>
+    <string name="tool_duplicates_title">Duplikaty</string>
+    <string name="tool_duplicates_desc">Identyczne zdjęcia, filmy i pliki audio.</string>
+    <string name="tool_similar_title">Podobne zdjęcia</string>
+    <string name="tool_similar_desc">Niemal identyczne ujęcia, zachowaj najlepsze.</string>
+    <string name="tool_screenshots_title">Zrzuty ekranu</string>
+    <string name="tool_screenshots_desc">Wszystkie zrzuty za jednym razem.</string>
+    <string name="tool_photo_optimizer_title">Optymalizator zdjęć</string>
+    <string name="tool_photo_optimizer_desc">Kompresuj zdjęcia i oszczędzaj miejsce.</string>
+    <string name="tool_video_optimizer_title">Optymalizator filmów</string>
+    <string name="tool_video_optimizer_desc">Kompresuj filmy i oszczędzaj miejsce.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">Monitor aktywności</string>
+    <string name="tool_activity_monitor_badge">24 godz.</string>
+    <string name="tool_wifi_security_title">Bezpieczeństwo Wi-Fi</string>
+    <string name="tool_wifi_security_badge">Sprawdź</string>
+    <string name="tool_network_speed_title">Szybkość sieci</string>
+    <string name="tool_network_speed_badge">Test</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">Czyszczenie</string>
+    <string name="cleanup_sheet_message">Wyczyścić elementy w koszu (%1$s) i pamięć podręczną (%2$s)?</string>
+    <string name="cleanup_sheet_detail">Te elementy są już w koszu Androida, a nie w galerii. Android poprosi o ponowne potwierdzenie i może nazwać je „zdjęciami”. Nic więcej nie zostanie ruszone.</string>
+    <string name="cleanup_result_freed">Zwolniono</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">Zezwól na dostęp do multimediów</string>
+    <string name="media_disclosure_body">Aby znajdować duże pliki, duplikaty i podobne zdjęcia, aplikacja potrzebuje dostępu do Twoich zdjęć, filmów i plików audio. Pliki są analizowane na urządzeniu i nigdy nie są wysyłane.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">Duże pliki</string>
+    <string name="large_files_count_line">Elementy: %1$d · %2$s</string>
+    <string name="large_files_empty_title">Brak dużych plików</string>
+    <string name="large_files_empty_message">Wszystko wygląda porządnie. Nie ma dużych plików do przejrzenia.</string>
+    <string name="large_files_selection_line">Zaznaczone: %1$d · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">Duplikaty</string>
+    <string name="duplicates_group_count_line">Grupy: %1$d · do odzyskania %2$s</string>
+    <string name="duplicates_empty_title">Brak duplikatów</string>
+    <string name="duplicates_empty_message">Każde zdjęcie, film i plik audio jest unikalny.</string>
+    <string name="duplicates_identical_items">Identyczne elementy: %1$d</string>
+    <string name="duplicates_reclaimable_label">Do odzyskania: %1$s</string>
+    <string name="duplicates_keep_label">Zachowaj</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">Podobne zdjęcia</string>
+    <string name="similar_group_count_line">Grupy: %1$d · do odzyskania %2$s</string>
+    <string name="similar_empty_title">Brak podobnych zdjęć</string>
+    <string name="similar_empty_message">Nic nie przypomina prawie identycznego zdjęcia.</string>
+    <string name="similar_shot_count">Podobne ujęcia: %1$d</string>
+    <string name="similar_best_label">Najlepsze</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">Zrzuty ekranu</string>
+    <string name="screenshots_empty_title">Brak zrzutów ekranu</string>
+    <string name="screenshots_empty_message">Na tym urządzeniu nic jeszcze nie zrobiono.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">Optymalizator zdjęć</string>
+    <string name="photo_optimizer_count_line">Zdjęcia: %1$d · %2$s</string>
+    <string name="photo_optimizer_optimizing">Optymalizacja: %1$d z %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Zaoszczędzono dotąd: %1$s</string>
+    <string name="photo_optimizer_empty_title">Brak zdjęć do optymalizacji</string>
+    <string name="photo_optimizer_empty_message">Nic nie jest na tyle duże, by warto było kompresować.</string>
+    <string name="photo_optimizer_button_optimize">Optymalizuj zaznaczone</string>
+    <string name="photo_optimizer_button_optimizing">Optymalizacja…</string>
+    <string name="photo_optimizer_selected_line">Zaznaczone: %1$d</string>
+    <string name="photo_optimizer_summary">Zoptymalizowano zdjęcia: %1$d · zaoszczędzono %2$s</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">Optymalizator filmów</string>
+    <string name="video_optimizer_count_line">Filmy: %1$d · %2$s</string>
+    <string name="video_optimizer_optimizing">Optymalizacja: %1$d z %2$d</string>
+    <string name="video_optimizer_saved_so_far">Zaoszczędzono dotąd: %1$s</string>
+    <string name="video_optimizer_empty_title">Brak filmów do optymalizacji</string>
+    <string name="video_optimizer_empty_message">Nic nie jest na tyle duże, by warto było kompresować.</string>
+    <string name="video_optimizer_button_optimize">Optymalizuj zaznaczone</string>
+    <string name="video_optimizer_button_optimizing">Optymalizacja…</string>
+    <string name="video_optimizer_selected_line">Zaznaczone: %1$d</string>
+    <string name="video_optimizer_summary">Zoptymalizowano filmy: %1$d · zaoszczędzono %2$s</string>
+    <string name="video_preset_high">Wysoka jakość</string>
+    <string name="video_preset_balanced">Zrównoważony</string>
+    <string name="video_preset_small">Mały plik</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">Monitor aktywności</string>
+    <string name="activity_monitor_no_access_title">Wymagany dostęp do danych o użyciu</string>
+    <string name="activity_monitor_no_access_message">Zezwól na dostęp do danych o użyciu w ustawieniach systemu, aby zobaczyć uruchomienia i czas na pierwszym planie.</string>
+    <string name="activity_monitor_empty_title">Brak aktywności</string>
+    <string name="activity_monitor_empty_message">Przez ostatnie 24 godziny nic nie było używane.</string>
+    <string name="activity_monitor_launches">Uruchomienia: %1$d · %2$s</string>
+    <string name="activity_monitor_foreground">Na pierwszym planie: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Dostęp do danych o użyciu</string>
+    <string name="activity_monitor_disclosure_body">Monitor aktywności wymaga dostępu do danych o użyciu. Aplikacja odczytuje, które aplikacje otwierano, kiedy i na jak długo w ciągu ostatnich 24 godzin. Dane te pozostają na urządzeniu i nie są wysyłane ani udostępniane.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Bezpieczeństwo Wi-Fi</string>
+    <string name="wifi_check_internet_title">Dostęp do internetu</string>
+    <string name="wifi_check_internet_connected">Połączono.</string>
+    <string name="wifi_check_internet_disconnected">Brak aktywnego połączenia.</string>
+    <string name="wifi_check_encryption_title">Szyfrowanie i uwierzytelnianie</string>
+    <string name="wifi_check_unavailable">niedostępne na tym urządzeniu</string>
+    <string name="wifi_check_ssl_strip_title">Kontrola certyfikatu</string>
+    <string name="wifi_check_ssl_strip_detected">Ostrzeżenie. Nie udało się zweryfikować certyfikatu witryny testowej. Ktoś w tej sieci może przechwytywać bezpieczny ruch.</string>
+    <string name="wifi_check_ssl_strip_safe">Pozytywnie. Certyfikat witryny testowej jest prawidłowy.</string>
+    <string name="wifi_check_ssl_split_title">Kontrola serwera proxy</string>
+    <string name="wifi_check_ssl_split_detected">W tym połączeniu ustawiono serwer proxy. Twój ruch może przechodzić przez inny serwer.</string>
+    <string name="wifi_check_ssl_split_safe">Nie wykryto serwera proxy.</string>
+    <string name="wifi_check_checked_at">Sprawdzono: %1$s</string>
+    <string name="wifi_check_rerun">Sprawdź ponownie</string>
+    <string name="wifi_check_error">Nie można sprawdzić połączenia.</string>
+    <string name="wifi_check_inspect_failed">Nie udało się sprawdzić tego połączenia.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">Szybkość sieci</string>
+    <string name="network_speed_ready">Zmierz szybkość pobierania.</string>
+    <string name="network_speed_preparing">Przygotowywanie</string>
+    <string name="network_speed_testing">Testowanie szybkości pobierania</string>
+    <string name="network_speed_transferred">Przesłano: %1$s</string>
+    <string name="network_speed_download_label">Szybkość pobierania</string>
+    <string name="network_speed_transferred_detail">Przesłano %1$s w %2$d s</string>
+    <string name="network_speed_failed">Test nie powiódł się</string>
+    <string name="network_speed_button_start">Rozpocznij test</string>
+    <string name="network_speed_button_testing">Testowanie…</string>
+    <string name="network_speed_button_again">Testuj ponownie</string>
+    <string name="network_speed_button_retry">Spróbuj ponownie</string>
+    <string name="network_speed_footnote">Tylko pobieranie. Wysyłanie i ping nie są mierzone.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">Ustawienia</string>
+    <string name="settings_theme">Motyw</string>
+    <string name="settings_theme_light">Jasny</string>
+    <string name="settings_theme_dark">Ciemny</string>
+    <string name="settings_theme_system">Systemowy</string>
+    <string name="settings_language">Język</string>
+    <string name="settings_notifications">Powiadomienia</string>
+    <string name="settings_notifications_on">Włączone</string>
+    <string name="settings_notifications_off">Wyłączone</string>
+    <string name="settings_notifications_allow">Zezwól na powiadomienia</string>
+    <string name="settings_notifications_weekly">Cotygodniowe przypomnienie o czyszczeniu</string>
+    <string name="settings_notifications_storage">Alerty o pamięci</string>
+    <string name="settings_go_pro">Przejdź na Pro</string>
+    <string name="settings_pro_active">Pro · aktywne</string>
+    <string name="settings_pro_remove_ads">Usuń reklamy</string>
+    <string name="settings_restore_purchase">Przywróć zakup</string>
+    <string name="settings_share_app">Udostępnij aplikację</string>
+    <string name="settings_rate_app">Oceń aplikację</string>
+    <string name="settings_privacy_policy">Polityka prywatności</string>
+    <string name="settings_terms">Warunki korzystania</string>
+    <string name="settings_support">Pomoc</string>
+    <string name="settings_about">Informacje</string>
+    <string name="settings_about_version">Wersja %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Masz wersję Pro</string>
+    <string name="pro_active_body">Reklamy zostały usunięte. Dziękujemy za wsparcie CleanKoach.</string>
+    <string name="pro_upsell_title">Usuń reklamy</string>
+    <string name="pro_upsell_body">Pro usuwa wszystkie reklamy. Wszystkie funkcje są bezpłatne.</string>
+    <string name="pro_button_upgrade">Ulepsz</string>
+    <string name="pro_button_restore">Przywróć zakup</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">Informacje</string>
+    <string name="about_body">Natywne czyszczenie pamięci w Androidzie. Wszystko działa na urządzeniu. Żadne multimedia, dane o użyciu ani wyniki skanowania nie są nigdy wysyłane.</string>
+    <string name="about_built_with">Zbudowano w Kotlinie, Jetpack Compose i Material 3.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">Przypomnienia o czyszczeniu</string>
+    <string name="channel_cleanup_description">Cotygodniowe przypomnienia o przejrzeniu dużych plików i duplikatów.</string>
+    <string name="channel_storage_name">Alerty o pamięci</string>
+    <string name="channel_storage_description">Alerty, gdy w urządzeniu kończy się miejsce.</string>
+    <string name="notification_cleanup_title">Czas na czyszczenie</string>
+    <string name="notification_cleanup_body">Przejrzyj duże pliki, duplikaty i zrzuty ekranu.</string>
+    <string name="notification_storage_title">Pamięć zapełniona w %1$d%%</string>
+    <string name="notification_storage_body">Przejrzyj duże pliki, aby zwolnić miejsce.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">Reklama</string>
+
+    <!-- Share text -->
+    <string name="share_text">Zwolnij miejsce w telefonie, usuwając duplikaty, podobne zdjęcia i duże pliki: %1$s</string>
+
+    <string name="language_system">Domyślny systemu</string>
+    <string name="scan_progress_files">Sprawdzanie plików: %1$s z %2$s</string>
+    <string name="settings_licenses">Licencje open source</string>
+    <string name="licenses_title">Licencje open source</string>
+    <string name="licenses_intro">CleanKoach powstał z użyciem poniższego oprogramowania open source.</string>
+    <string name="toast_no_browser">Nie znaleziono przeglądarki, aby otworzyć ten link.</string>
+    <string name="toast_no_mail">Nie znaleziono aplikacji poczty e-mail na tym urządzeniu.</string>
+    <string name="support_mail_subject">Pomoc CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">Wersja Androida: %1$s\nUrządzenie: %2$s\n\nOpisz problem poniżej:\n\n</string>
+    <string name="pro_unavailable">Obecnie niedostępne</string>
+    <string name="pro_pending">Płatność jest w toku. Pro odblokuje się zaraz po jej zakończeniu.</string>
+    <string name="pro_button_upgrade_price">Ulepsz za %1$s</string>
+    <string name="duplicates_delete_line">Do usunięcia: %1$d · %2$s</string>
+    <string name="network_speed_error">Nie udało się połączyć z serwerem testowym. Sprawdź połączenie i spróbuj ponownie.</string>
+    <string name="home_partial_access_message">Ograniczony dostęp do zdjęć. CleanKoach widzi tylko wybrane zdjęcia i filmy.</string>
+    <string name="home_partial_access_action">Zezwól na wszystko</string>
+    <string name="home_nothing_to_clean_message">Teraz nie ma nic do wyczyszczenia</string>
+    <string name="wifi_encryption_open">Otwarta</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">Opcje prywatności reklam</string>
+</resources>

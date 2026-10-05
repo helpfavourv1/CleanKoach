@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Tilbage</string>
+    <string name="cd_settings">Indstillinger</string>
+    <string name="action_done">Færdig</string>
+    <string name="action_cancel">Annuller</string>
+    <string name="action_delete">Slet</string>
+    <string name="action_continue">Fortsæt</string>
+    <string name="action_not_now">Ikke nu</string>
+    <string name="action_allow_access">Tillad adgang</string>
+    <string name="action_open_settings">Åbn indstillinger</string>
+    <string name="action_all">Alle</string>
+    <string name="action_clear">Ryd</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">Papirkurvens størrelse</string>
+    <string name="home_ring_sublabel">Slettede fotos og videoer samt app-cache</string>
+    <string name="home_storage_line">%1$s af %2$s brugt · %3$d%%</string>
+    <string name="home_button_cleanup">RYD OP</string>
+    <string name="home_button_scanning">Scanner…</string>
+    <string name="home_button_allow_access">Tillad adgang</string>
+    <string name="home_button_nothing_to_clean">Intet at rydde op</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">Telefonværktøjer</string>
+    <string name="home_section_photos_videos">Fotos &amp; videoer</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">Store filer</string>
+    <string name="tool_large_files_desc">Dine største fotos, videoer og lydfiler.</string>
+    <string name="tool_duplicates_title">Dubletter</string>
+    <string name="tool_duplicates_desc">Identiske fotos, videoer og lydfiler.</string>
+    <string name="tool_similar_title">Lignende fotos</string>
+    <string name="tool_similar_desc">Næsten ens billeder, behold det bedste.</string>
+    <string name="tool_screenshots_title">Skærmbilleder</string>
+    <string name="tool_screenshots_desc">Alle skærmbilleder i ét hug.</string>
+    <string name="tool_photo_optimizer_title">Fotooptimering</string>
+    <string name="tool_photo_optimizer_desc">Komprimer fotos og spar plads.</string>
+    <string name="tool_video_optimizer_title">Videooptimering</string>
+    <string name="tool_video_optimizer_desc">Komprimer videoer og spar plads.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">Aktivitetsmonitor</string>
+    <string name="tool_activity_monitor_badge">24 T</string>
+    <string name="tool_wifi_security_title">Wi-Fi-sikkerhed</string>
+    <string name="tool_wifi_security_badge">Tjek</string>
+    <string name="tool_network_speed_title">Netværkshastighed</string>
+    <string name="tool_network_speed_badge">Test</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">Ryd op</string>
+    <string name="cleanup_sheet_message">Vil du tømme %1$s elementer i papirkurven og %2$s cache?</string>
+    <string name="cleanup_sheet_detail">Disse elementer ligger allerede i Androids papirkurv og er ikke fotos i dit galleri. Android beder dig bekræfte en gang til og kalder dem måske “fotos”. Intet andet berøres.</string>
+    <string name="cleanup_result_freed">Frigjort</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">Tillad adgang til medier</string>
+    <string name="media_disclosure_body">For at finde store filer, dubletter og lignende fotos skal appen have adgang til dine fotos, videoer og lydfiler. Filerne analyseres på din enhed og uploades aldrig.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">Store filer</string>
+    <string name="large_files_count_line">%1$d elementer · %2$s</string>
+    <string name="large_files_empty_title">Ingen store filer</string>
+    <string name="large_files_empty_message">Dit bibliotek ser ryddeligt ud. Intet stort at gennemgå.</string>
+    <string name="large_files_selection_line">%1$d valgt · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">Dubletter</string>
+    <string name="duplicates_group_count_line">%1$d grupper · %2$s kan frigøres</string>
+    <string name="duplicates_empty_title">Ingen dubletter</string>
+    <string name="duplicates_empty_message">Alle fotos, videoer og lydfiler er unikke.</string>
+    <string name="duplicates_identical_items">%1$d identiske elementer</string>
+    <string name="duplicates_reclaimable_label">%1$s kan frigøres</string>
+    <string name="duplicates_keep_label">Behold</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">Lignende fotos</string>
+    <string name="similar_group_count_line">%1$d grupper · %2$s kan frigøres</string>
+    <string name="similar_empty_title">Ingen lignende fotos</string>
+    <string name="similar_empty_message">Intet her ligner en næsten identisk dublet.</string>
+    <string name="similar_shot_count">%1$d lignende billeder</string>
+    <string name="similar_best_label">Bedst</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">Skærmbilleder</string>
+    <string name="screenshots_empty_title">Ingen skærmbilleder</string>
+    <string name="screenshots_empty_message">Intet er taget på denne enhed endnu.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">Fotooptimering</string>
+    <string name="photo_optimizer_count_line">%1$d fotos · %2$s</string>
+    <string name="photo_optimizer_optimizing">Optimerer %1$d af %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Sparet indtil videre: %1$s</string>
+    <string name="photo_optimizer_empty_title">Ingen fotos at optimere</string>
+    <string name="photo_optimizer_empty_message">Intet er stort nok til, at det kan betale sig at komprimere.</string>
+    <string name="photo_optimizer_button_optimize">Optimer valgte</string>
+    <string name="photo_optimizer_button_optimizing">Optimerer…</string>
+    <string name="photo_optimizer_selected_line">%1$d valgt</string>
+    <string name="photo_optimizer_summary">%1$d fotos optimeret · %2$s sparet</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">Videooptimering</string>
+    <string name="video_optimizer_count_line">%1$d videoer · %2$s</string>
+    <string name="video_optimizer_optimizing">Optimerer %1$d af %2$d</string>
+    <string name="video_optimizer_saved_so_far">Sparet indtil videre: %1$s</string>
+    <string name="video_optimizer_empty_title">Ingen videoer at optimere</string>
+    <string name="video_optimizer_empty_message">Intet er stort nok til, at det kan betale sig at komprimere.</string>
+    <string name="video_optimizer_button_optimize">Optimer valgte</string>
+    <string name="video_optimizer_button_optimizing">Optimerer…</string>
+    <string name="video_optimizer_selected_line">%1$d valgt</string>
+    <string name="video_optimizer_summary">%1$d videoer optimeret · %2$s sparet</string>
+    <string name="video_preset_high">Høj kvalitet</string>
+    <string name="video_preset_balanced">Balanceret</string>
+    <string name="video_preset_small">Lille fil</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">Aktivitetsmonitor</string>
+    <string name="activity_monitor_no_access_title">Brugsadgang påkrævet</string>
+    <string name="activity_monitor_no_access_message">Tillad brugsadgang i systemindstillingerne for at se opstarter og forgrundstid.</string>
+    <string name="activity_monitor_empty_title">Ingen aktivitet</string>
+    <string name="activity_monitor_empty_message">Intet er brugt inden for de seneste 24 timer.</string>
+    <string name="activity_monitor_launches">%1$d opstarter · %2$s</string>
+    <string name="activity_monitor_foreground">Forgrund: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Brugsadgang</string>
+    <string name="activity_monitor_disclosure_body">Aktivitetsmonitor kræver brugsadgang. Appen læser, hvilke apps du har åbnet, hvornår og hvor længe inden for de seneste 24 timer. Disse data bliver på din enhed og uploades eller deles ikke.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Wi-Fi-sikkerhed</string>
+    <string name="wifi_check_internet_title">Internetadgang</string>
+    <string name="wifi_check_internet_connected">Forbundet.</string>
+    <string name="wifi_check_internet_disconnected">Ingen aktiv forbindelse.</string>
+    <string name="wifi_check_encryption_title">Kryptering og godkendelse</string>
+    <string name="wifi_check_unavailable">ikke tilgængelig på denne enhed</string>
+    <string name="wifi_check_ssl_strip_title">Certifikattjek</string>
+    <string name="wifi_check_ssl_strip_detected">Advarsel. Certifikatet for et testwebsted kunne ikke bekræftes. Nogen på dette netværk opfanger muligvis sikker trafik.</string>
+    <string name="wifi_check_ssl_strip_safe">Bestået. Testwebstedets certifikat er gyldigt.</string>
+    <string name="wifi_check_ssl_split_title">Proxytjek</string>
+    <string name="wifi_check_ssl_split_detected">Der er angivet en proxy på denne forbindelse. Din trafik kan gå via en anden server.</string>
+    <string name="wifi_check_ssl_split_safe">Ingen proxy fundet.</string>
+    <string name="wifi_check_checked_at">Tjekket %1$s</string>
+    <string name="wifi_check_rerun">Kør tjek igen</string>
+    <string name="wifi_check_error">Forbindelsen kunne ikke undersøges.</string>
+    <string name="wifi_check_inspect_failed">Denne forbindelse kunne ikke undersøges.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">Netværkshastighed</string>
+    <string name="network_speed_ready">Mål din downloadhastighed.</string>
+    <string name="network_speed_preparing">Forbereder</string>
+    <string name="network_speed_testing">Tester downloadhastighed</string>
+    <string name="network_speed_transferred">%1$s overført</string>
+    <string name="network_speed_download_label">Downloadhastighed</string>
+    <string name="network_speed_transferred_detail">%1$s overført på %2$d s</string>
+    <string name="network_speed_failed">Testen mislykkedes</string>
+    <string name="network_speed_button_start">Start test</string>
+    <string name="network_speed_button_testing">Tester…</string>
+    <string name="network_speed_button_again">Test igen</string>
+    <string name="network_speed_button_retry">Prøv igen</string>
+    <string name="network_speed_footnote">Kun download. Upload og ping måles ikke.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">Indstillinger</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_light">Lyst</string>
+    <string name="settings_theme_dark">Mørkt</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_language">Sprog</string>
+    <string name="settings_notifications">Notifikationer</string>
+    <string name="settings_notifications_on">Til</string>
+    <string name="settings_notifications_off">Fra</string>
+    <string name="settings_notifications_allow">Tillad notifikationer</string>
+    <string name="settings_notifications_weekly">Ugentlig opryddningspåmindelse</string>
+    <string name="settings_notifications_storage">Lagerpladsadvarsler</string>
+    <string name="settings_go_pro">Få Pro</string>
+    <string name="settings_pro_active">Pro · aktiv</string>
+    <string name="settings_pro_remove_ads">Fjern reklamer</string>
+    <string name="settings_restore_purchase">Gendan køb</string>
+    <string name="settings_share_app">Del denne app</string>
+    <string name="settings_rate_app">Bedøm denne app</string>
+    <string name="settings_privacy_policy">Privatlivspolitik</string>
+    <string name="settings_terms">Servicevilkår</string>
+    <string name="settings_support">Support</string>
+    <string name="settings_about">Om</string>
+    <string name="settings_about_version">Version %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Du har Pro</string>
+    <string name="pro_active_body">Reklamer er fjernet. Tak, fordi du støtter CleanKoach.</string>
+    <string name="pro_upsell_title">Fjern reklamer</string>
+    <string name="pro_upsell_body">Pro fjerner alle reklamer. Alle funktioner er gratis.</string>
+    <string name="pro_button_upgrade">Opgrader</string>
+    <string name="pro_button_restore">Gendan køb</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">Om</string>
+    <string name="about_body">Native Android-oprydning af lagerplads. Alt kører på enheden. Ingen medier, ingen brugsdata og ingen scanningsresultater uploades nogensinde.</string>
+    <string name="about_built_with">Bygget med Kotlin, Jetpack Compose og Material 3.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">Opryddingspåmindelser</string>
+    <string name="channel_cleanup_description">Ugentlige påmindelser om at gennemgå store filer og dubletter.</string>
+    <string name="channel_storage_name">Lagerpladsadvarsler</string>
+    <string name="channel_storage_description">Advarsler, når enhedens lagerplads er ved at løbe tør.</string>
+    <string name="notification_cleanup_title">Tid til at rydde op</string>
+    <string name="notification_cleanup_body">Gennemgå store filer, dubletter og skærmbilleder.</string>
+    <string name="notification_storage_title">Lagerpladsen er %1$d%% fyldt</string>
+    <string name="notification_storage_body">Gennemgå store filer for at frigøre plads.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">Reklame</string>
+
+    <!-- Share text -->
+    <string name="share_text">Frigør plads på din telefon ved at slette dubletter, lignende fotos og store filer: %1$s</string>
+
+    <string name="language_system">Systemstandard</string>
+    <string name="scan_progress_files">Tjekker %1$s af %2$s filer</string>
+    <string name="settings_licenses">Open source-licenser</string>
+    <string name="licenses_title">Open source-licenser</string>
+    <string name="licenses_intro">CleanKoach er bygget med den open source-software, der er angivet nedenfor.</string>
+    <string name="toast_no_browser">Ingen browser fundet til at åbne dette link.</string>
+    <string name="toast_no_mail">Ingen mail-app fundet på denne enhed.</string>
+    <string name="support_mail_subject">CleanKoach support (v%1$s)</string>
+    <string name="support_mail_body">Android-version: %1$s\nEnhed: %2$s\n\nBeskriv dit problem nedenfor:\n\n</string>
+    <string name="pro_unavailable">Ikke tilgængelig lige nu</string>
+    <string name="pro_pending">Din betaling afventer. Pro låses op, så snart den er gennemført.</string>
+    <string name="pro_button_upgrade_price">Opgrader for %1$s</string>
+    <string name="duplicates_delete_line">%1$d til sletning · %2$s</string>
+    <string name="network_speed_error">Testserveren kunne ikke nås. Tjek din forbindelse, og prøv igen.</string>
+    <string name="home_partial_access_message">Begrænset adgang til fotos. CleanKoach kan kun se de fotos og videoer, du har valgt.</string>
+    <string name="home_partial_access_action">Tillad alle</string>
+    <string name="home_nothing_to_clean_message">Intet at rydde op lige nu</string>
+    <string name="wifi_encryption_open">Åben</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">Privatlivsindstillinger for reklamer</string>
+</resources>

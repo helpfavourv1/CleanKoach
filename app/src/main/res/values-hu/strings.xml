@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Vissza</string>
+    <string name="cd_settings">Beállítások</string>
+    <string name="action_done">Kész</string>
+    <string name="action_cancel">Mégse</string>
+    <string name="action_delete">Törlés</string>
+    <string name="action_continue">Tovább</string>
+    <string name="action_not_now">Most nem</string>
+    <string name="action_allow_access">Hozzáférés engedélyezése</string>
+    <string name="action_open_settings">Beállítások megnyitása</string>
+    <string name="action_all">Mind</string>
+    <string name="action_clear">Törlés</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">Kuka mérete</string>
+    <string name="home_ring_sublabel">Kukába helyezett fotók és videók, plusz az alkalmazások gyorsítótára</string>
+    <string name="home_storage_line">%1$s / %2$s használatban · %3$d%%</string>
+    <string name="home_button_cleanup">TISZTÍTÁS</string>
+    <string name="home_button_scanning">Vizsgálat…</string>
+    <string name="home_button_allow_access">Hozzáférés engedélyezése</string>
+    <string name="home_button_nothing_to_clean">Nincs mit tisztítani</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">Telefoneszközök</string>
+    <string name="home_section_photos_videos">Fotók &amp; videók</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">Nagy fájlok</string>
+    <string name="tool_large_files_desc">A legnagyobb fotók, videók és hangfájlok.</string>
+    <string name="tool_duplicates_title">Duplikátumok</string>
+    <string name="tool_duplicates_desc">Azonos fotók, videók és hangfájlok.</string>
+    <string name="tool_similar_title">Hasonló fotók</string>
+    <string name="tool_similar_desc">Szinte egyforma képek, tartsa meg a legjobbat.</string>
+    <string name="tool_screenshots_title">Képernyőképek</string>
+    <string name="tool_screenshots_desc">Minden képernyőkép egy lépésben.</string>
+    <string name="tool_photo_optimizer_title">Fotóoptimalizáló</string>
+    <string name="tool_photo_optimizer_desc">Fotók tömörítése, helytakarékosan.</string>
+    <string name="tool_video_optimizer_title">Videóoptimalizáló</string>
+    <string name="tool_video_optimizer_desc">Videók tömörítése, helytakarékosan.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">Aktivitásfigyelő</string>
+    <string name="tool_activity_monitor_badge">24 ÓRA</string>
+    <string name="tool_wifi_security_title">Wi-Fi biztonság</string>
+    <string name="tool_wifi_security_badge">Ellenőrzés</string>
+    <string name="tool_network_speed_title">Hálózati sebesség</string>
+    <string name="tool_network_speed_badge">Teszt</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">Tisztítás</string>
+    <string name="cleanup_sheet_message">Törli a kukában lévő %1$s elemet és %2$s gyorsítótárat?</string>
+    <string name="cleanup_sheet_detail">Ezek az elemek már az Android kukájában vannak, nem a galéria fotói. Az Android még egyszer megerősítést kér, és „fotóknak” nevezheti őket. Semmi mást nem érint a művelet.</string>
+    <string name="cleanup_result_freed">Felszabadítva</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">Médiahozzáférés engedélyezése</string>
+    <string name="media_disclosure_body">A nagy fájlok, duplikátumok és hasonló fotók megkereséséhez az alkalmazásnak hozzáférésre van szüksége a fotóihoz, videóihoz és hangfájljaihoz. A fájlokat az eszközén elemzi, és soha nem tölti fel őket.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">Nagy fájlok</string>
+    <string name="large_files_count_line">%1$d elem · %2$s</string>
+    <string name="large_files_empty_title">Nincsenek nagy fájlok</string>
+    <string name="large_files_empty_message">A könyvtára rendezettnek tűnik. Nincs átnézendő nagy fájl.</string>
+    <string name="large_files_selection_line">%1$d kiválasztva · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">Duplikátumok</string>
+    <string name="duplicates_group_count_line">%1$d csoport · %2$s felszabadítható</string>
+    <string name="duplicates_empty_title">Nincsenek duplikátumok</string>
+    <string name="duplicates_empty_message">Minden fotó, videó és hangfájl egyedi.</string>
+    <string name="duplicates_identical_items">%1$d azonos elem</string>
+    <string name="duplicates_reclaimable_label">%1$s felszabadítható</string>
+    <string name="duplicates_keep_label">Megtartás</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">Hasonló fotók</string>
+    <string name="similar_group_count_line">%1$d csoport · %2$s felszabadítható</string>
+    <string name="similar_empty_title">Nincsenek hasonló fotók</string>
+    <string name="similar_empty_message">Semmi sem tűnik közel azonos másolatnak.</string>
+    <string name="similar_shot_count">%1$d hasonló felvétel</string>
+    <string name="similar_best_label">Legjobb</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">Képernyőképek</string>
+    <string name="screenshots_empty_title">Nincsenek képernyőképek</string>
+    <string name="screenshots_empty_message">Ezen az eszközön még nem készült képernyőkép.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">Fotóoptimalizáló</string>
+    <string name="photo_optimizer_count_line">%1$d fotó · %2$s</string>
+    <string name="photo_optimizer_optimizing">Optimalizálás: %1$d / %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Eddig megtakarítva: %1$s</string>
+    <string name="photo_optimizer_empty_title">Nincs optimalizálható fotó</string>
+    <string name="photo_optimizer_empty_message">Nincs elég nagy fájl, amelyet érdemes lenne tömöríteni.</string>
+    <string name="photo_optimizer_button_optimize">Kijelöltek optimalizálása</string>
+    <string name="photo_optimizer_button_optimizing">Optimalizálás…</string>
+    <string name="photo_optimizer_selected_line">%1$d kiválasztva</string>
+    <string name="photo_optimizer_summary">%1$d fotó optimalizálva · %2$s megtakarítva</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">Videóoptimalizáló</string>
+    <string name="video_optimizer_count_line">%1$d videó · %2$s</string>
+    <string name="video_optimizer_optimizing">Optimalizálás: %1$d / %2$d</string>
+    <string name="video_optimizer_saved_so_far">Eddig megtakarítva: %1$s</string>
+    <string name="video_optimizer_empty_title">Nincs optimalizálható videó</string>
+    <string name="video_optimizer_empty_message">Nincs elég nagy fájl, amelyet érdemes lenne tömöríteni.</string>
+    <string name="video_optimizer_button_optimize">Kijelöltek optimalizálása</string>
+    <string name="video_optimizer_button_optimizing">Optimalizálás…</string>
+    <string name="video_optimizer_selected_line">%1$d kiválasztva</string>
+    <string name="video_optimizer_summary">%1$d videó optimalizálva · %2$s megtakarítva</string>
+    <string name="video_preset_high">Magas minőség</string>
+    <string name="video_preset_balanced">Kiegyensúlyozott</string>
+    <string name="video_preset_small">Kis fájlméret</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">Aktivitásfigyelő</string>
+    <string name="activity_monitor_no_access_title">Használati hozzáférés szükséges</string>
+    <string name="activity_monitor_no_access_message">Engedélyezze a használati hozzáférést a rendszerbeállításokban az indítások és az előtérben töltött idő megtekintéséhez.</string>
+    <string name="activity_monitor_empty_title">Nincs aktivitás</string>
+    <string name="activity_monitor_empty_message">Az elmúlt 24 órában semmit sem használtak.</string>
+    <string name="activity_monitor_launches">%1$d indítás · %2$s</string>
+    <string name="activity_monitor_foreground">Előtérben: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Használati hozzáférés</string>
+    <string name="activity_monitor_disclosure_body">Az Aktivitásfigyelőnek használati hozzáférésre van szüksége. Az alkalmazás beolvassa, hogy az elmúlt 24 órában mely alkalmazásokat nyitotta meg, mikor és mennyi ideig. Ezek az adatok az eszközén maradnak, nem kerülnek feltöltésre vagy megosztásra.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Wi-Fi biztonság</string>
+    <string name="wifi_check_internet_title">Internet-hozzáférés</string>
+    <string name="wifi_check_internet_connected">Csatlakoztatva.</string>
+    <string name="wifi_check_internet_disconnected">Nincs aktív kapcsolat.</string>
+    <string name="wifi_check_encryption_title">Titkosítás és hitelesítés</string>
+    <string name="wifi_check_unavailable">nem érhető el ezen az eszközön</string>
+    <string name="wifi_check_ssl_strip_title">Tanúsítvány-ellenőrzés</string>
+    <string name="wifi_check_ssl_strip_detected">Figyelmeztetés. Egy tesztwebhely tanúsítványát nem sikerült ellenőrizni. Előfordulhat, hogy valaki ezen a hálózaton lehallgatja a biztonságos forgalmat.</string>
+    <string name="wifi_check_ssl_strip_safe">Megfelelt. A tesztwebhely tanúsítványa érvényes.</string>
+    <string name="wifi_check_ssl_split_title">Proxy-ellenőrzés</string>
+    <string name="wifi_check_ssl_split_detected">Ezen a kapcsolaton proxy van beállítva. A forgalma egy másik szerveren keresztül haladhat.</string>
+    <string name="wifi_check_ssl_split_safe">Nem található proxy.</string>
+    <string name="wifi_check_checked_at">Ellenőrizve: %1$s</string>
+    <string name="wifi_check_rerun">Ellenőrzések újrafuttatása</string>
+    <string name="wifi_check_error">A kapcsolat vizsgálata nem sikerült.</string>
+    <string name="wifi_check_inspect_failed">Ezt a kapcsolatot nem sikerült megvizsgálni.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">Hálózati sebesség</string>
+    <string name="network_speed_ready">Mérje meg a letöltési sebességét.</string>
+    <string name="network_speed_preparing">Előkészítés</string>
+    <string name="network_speed_testing">Letöltési sebesség tesztelése</string>
+    <string name="network_speed_transferred">%1$s átvitele megtörtént</string>
+    <string name="network_speed_download_label">Letöltési sebesség</string>
+    <string name="network_speed_transferred_detail">%1$s átvitele megtörtént %2$d mp alatt</string>
+    <string name="network_speed_failed">A teszt sikertelen</string>
+    <string name="network_speed_button_start">Teszt indítása</string>
+    <string name="network_speed_button_testing">Tesztelés…</string>
+    <string name="network_speed_button_again">Újabb teszt</string>
+    <string name="network_speed_button_retry">Újra</string>
+    <string name="network_speed_footnote">Csak letöltés. A feltöltést és a pinget nem méri.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">Beállítások</string>
+    <string name="settings_theme">Téma</string>
+    <string name="settings_theme_light">Világos</string>
+    <string name="settings_theme_dark">Sötét</string>
+    <string name="settings_theme_system">Rendszer</string>
+    <string name="settings_language">Nyelv</string>
+    <string name="settings_notifications">Értesítések</string>
+    <string name="settings_notifications_on">Be</string>
+    <string name="settings_notifications_off">Ki</string>
+    <string name="settings_notifications_allow">Értesítések engedélyezése</string>
+    <string name="settings_notifications_weekly">Heti tisztítási emlékeztető</string>
+    <string name="settings_notifications_storage">Tárhelyriasztások</string>
+    <string name="settings_go_pro">Váltás Pro-ra</string>
+    <string name="settings_pro_active">Pro · aktív</string>
+    <string name="settings_pro_remove_ads">Hirdetések eltávolítása</string>
+    <string name="settings_restore_purchase">Vásárlás visszaállítása</string>
+    <string name="settings_share_app">Alkalmazás megosztása</string>
+    <string name="settings_rate_app">Alkalmazás értékelése</string>
+    <string name="settings_privacy_policy">Adatvédelmi irányelvek</string>
+    <string name="settings_terms">Szolgáltatási feltételek</string>
+    <string name="settings_support">Támogatás</string>
+    <string name="settings_about">Névjegy</string>
+    <string name="settings_about_version">Verzió: %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Ön Pro előfizető</string>
+    <string name="pro_active_body">A hirdetések el lettek távolítva. Köszönjük, hogy támogatja a CleanKoach-ot.</string>
+    <string name="pro_upsell_title">Hirdetések eltávolítása</string>
+    <string name="pro_upsell_body">A Pro minden hirdetést eltávolít. Minden funkció ingyenes.</string>
+    <string name="pro_button_upgrade">Frissítés</string>
+    <string name="pro_button_restore">Vásárlás visszaállítása</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">Névjegy</string>
+    <string name="about_body">Natív Android tárhelytisztítás. Minden az eszközön fut. Média, használati adatok és vizsgálati eredmények soha nem kerülnek feltöltésre.</string>
+    <string name="about_built_with">Kotlin, Jetpack Compose és Material 3 segítségével készült.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">Tisztítási emlékeztetők</string>
+    <string name="channel_cleanup_description">Heti emlékeztetők a nagy fájlok és duplikátumok átnézéséhez.</string>
+    <string name="channel_storage_name">Tárhelyriasztások</string>
+    <string name="channel_storage_description">Riasztások, ha az eszköz tárhelye fogyóban van.</string>
+    <string name="notification_cleanup_title">Ideje tisztítani</string>
+    <string name="notification_cleanup_body">Nézze át a nagy fájlokat, duplikátumokat és képernyőképeket.</string>
+    <string name="notification_storage_title">A tárhely %1$d%%-ban megtelt</string>
+    <string name="notification_storage_body">Nézze át a nagy fájlokat a hely felszabadításához.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">Hirdetés</string>
+
+    <!-- Share text -->
+    <string name="share_text">Szabadítson fel tárhelyet a telefonján a duplikátumok, hasonló fotók és nagy fájlok törlésével: %1$s</string>
+
+    <string name="language_system">Rendszer alapértelmezése</string>
+    <string name="scan_progress_files">Ellenőrzés: %1$s / %2$s fájl</string>
+    <string name="settings_licenses">Nyílt forráskódú licencek</string>
+    <string name="licenses_title">Nyílt forráskódú licencek</string>
+    <string name="licenses_intro">A CleanKoach az alább felsorolt nyílt forráskódú szoftverekkel készült.</string>
+    <string name="toast_no_browser">Nem található böngésző a hivatkozás megnyitásához.</string>
+    <string name="toast_no_mail">Nem található e-mail alkalmazás ezen az eszközön.</string>
+    <string name="support_mail_subject">CleanKoach támogatás (v%1$s)</string>
+    <string name="support_mail_body">Android-verzió: %1$s\nEszköz: %2$s\n\nKérjük, írja le a problémát alább:\n\n</string>
+    <string name="pro_unavailable">Jelenleg nem érhető el</string>
+    <string name="pro_pending">A fizetése függőben van. A Pro azonnal feloldódik, amint a fizetés befejeződik.</string>
+    <string name="pro_button_upgrade_price">Frissítés: %1$s</string>
+    <string name="duplicates_delete_line">%1$d törlésre · %2$s</string>
+    <string name="network_speed_error">A tesztkiszolgáló nem érhető el. Ellenőrizze a kapcsolatot, és próbálja újra.</string>
+    <string name="home_partial_access_message">Korlátozott fotóhozzáférés. A CleanKoach csak a kiválasztott fotókat és videókat látja.</string>
+    <string name="home_partial_access_action">Mind engedélyezése</string>
+    <string name="home_nothing_to_clean_message">Jelenleg nincs mit tisztítani</string>
+    <string name="wifi_encryption_open">Nyitott</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">Hirdetési adatvédelmi beállítások</string>
+</resources>

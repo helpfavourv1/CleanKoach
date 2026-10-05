@@ -180,17 +180,6 @@
     <string name="about_body">मूल Android स्टोरेज सफ़ाई। सब कुछ डिवाइस पर चलता है। न मीडिया, न उपयोग डेटा, न स्कैन परिणाम कभी अपलोड होते हैं।</string>
     <string name="about_built_with">Kotlin, Jetpack Compose और Material 3 से बनाया गया।</string>
 
-    <string name="language_en">English</string>
-    <string name="language_es">Español</string>
-    <string name="language_pt">Português</string>
-    <string name="language_fr">Français</string>
-    <string name="language_de">Deutsch</string>
-    <string name="language_it">Italiano</string>
-    <string name="language_hi">हिन्दी</string>
-    <string name="language_in">Bahasa Indonesia</string>
-    <string name="language_ja">日本語</string>
-    <string name="language_ko">한국어</string>
-    <string name="language_ru">Русский</string>
 
     <string name="channel_cleanup_name">सफ़ाई अनुस्मारक</string>
     <string name="channel_cleanup_description">बड़ी फ़ाइलों और डुप्लिकेट की समीक्षा के लिए साप्ताहिक अनुस्मारक।</string>

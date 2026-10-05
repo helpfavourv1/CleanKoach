@@ -180,17 +180,6 @@
     <string name="about_body">Nettoyage de stockage natif pour Android. Tout s\'exécute sur l\'appareil. Ni les médias, ni les données d\'utilisation, ni les résultats d\'analyse ne sont envoyés.</string>
     <string name="about_built_with">Construit avec Kotlin, Jetpack Compose et Material 3.</string>
 
-    <string name="language_en">English</string>
-    <string name="language_es">Español</string>
-    <string name="language_pt">Português</string>
-    <string name="language_fr">Français</string>
-    <string name="language_de">Deutsch</string>
-    <string name="language_it">Italiano</string>
-    <string name="language_hi">हिन्दी</string>
-    <string name="language_in">Bahasa Indonesia</string>
-    <string name="language_ja">日本語</string>
-    <string name="language_ko">한국어</string>
-    <string name="language_ru">Русский</string>
 
     <string name="channel_cleanup_name">Rappels de nettoyage</string>
     <string name="channel_cleanup_description">Rappels hebdomadaires pour examiner les gros fichiers et les doublons.</string>

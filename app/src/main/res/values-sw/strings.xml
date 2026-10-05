@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Rudi nyuma</string>
+    <string name="cd_settings">Mipangilio</string>
+    <string name="action_done">Imekamilika</string>
+    <string name="action_cancel">Ghairi</string>
+    <string name="action_delete">Futa</string>
+    <string name="action_continue">Endelea</string>
+    <string name="action_not_now">Si sasa</string>
+    <string name="action_allow_access">Ruhusu ufikiaji</string>
+    <string name="action_open_settings">Fungua mipangilio</string>
+    <string name="action_all">Zote</string>
+    <string name="action_clear">Futa</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">Ukubwa wa tupio</string>
+    <string name="home_ring_sublabel">Picha na video zilizo kwenye tupio pamoja na akiba ya programu</string>
+    <string name="home_storage_line">%1$s kati ya %2$s zimetumika · %3$d%%</string>
+    <string name="home_button_cleanup">SAFISHA</string>
+    <string name="home_button_scanning">Inakagua…</string>
+    <string name="home_button_allow_access">Ruhusu ufikiaji</string>
+    <string name="home_button_nothing_to_clean">Hakuna cha kusafisha</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">Zana za Simu</string>
+    <string name="home_section_photos_videos">Picha na Video</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">Faili kubwa</string>
+    <string name="tool_large_files_desc">Picha, video na sauti kubwa zaidi.</string>
+    <string name="tool_duplicates_title">Nakala rudufu</string>
+    <string name="tool_duplicates_desc">Picha, video na sauti zinazofanana kabisa.</string>
+    <string name="tool_similar_title">Picha zinazofanana</string>
+    <string name="tool_similar_desc">Picha zinazokaribiana, hifadhi bora zaidi.</string>
+    <string name="tool_screenshots_title">Picha za skrini</string>
+    <string name="tool_screenshots_desc">Picha zote za skrini, kwa mara moja.</string>
+    <string name="tool_photo_optimizer_title">Kibana picha</string>
+    <string name="tool_photo_optimizer_desc">Bana picha, okoa nafasi.</string>
+    <string name="tool_video_optimizer_title">Kibana video</string>
+    <string name="tool_video_optimizer_desc">Bana video, okoa nafasi.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">Kifuatilia Shughuli</string>
+    <string name="tool_activity_monitor_badge">SAA 24</string>
+    <string name="tool_wifi_security_title">Usalama wa Wi-Fi</string>
+    <string name="tool_wifi_security_badge">Kagua</string>
+    <string name="tool_network_speed_title">Kasi ya Mtandao</string>
+    <string name="tool_network_speed_badge">Jaribu</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">Safisha</string>
+    <string name="cleanup_sheet_message">Futa vipengee %1$s kwenye tupio na akiba ya %2$s?</string>
+    <string name="cleanup_sheet_detail">Vipengee hivi tayari viko kwenye tupio la Android, si picha zilizo kwenye matunzio yako. Android itakuomba uthibitishe tena na inaweza kuviita “picha”. Hakuna kingine kinachoguswa.</string>
+    <string name="cleanup_result_freed">Imeachwa huru</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">Ruhusu ufikiaji wa media</string>
+    <string name="media_disclosure_body">Ili kupata faili kubwa, nakala rudufu na picha zinazofanana, programu hii inahitaji ufikiaji wa picha, video na sauti zako. Faili huchanganuliwa kwenye kifaa chako na hazipakiwi kamwe.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">Faili kubwa</string>
+    <string name="large_files_count_line">Vipengee %1$d · %2$s</string>
+    <string name="large_files_empty_title">Hakuna faili kubwa</string>
+    <string name="large_files_empty_message">Maktaba yako inaonekana nadhifu. Hakuna kikubwa cha kukagua.</string>
+    <string name="large_files_selection_line">%1$d vimechaguliwa · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">Nakala rudufu</string>
+    <string name="duplicates_group_count_line">Vikundi %1$d · %2$s vinaweza kuokolewa</string>
+    <string name="duplicates_empty_title">Hakuna nakala rudufu</string>
+    <string name="duplicates_empty_message">Kila picha, video na faili ya sauti ni ya kipekee.</string>
+    <string name="duplicates_identical_items">Vipengee %1$d vinavyofanana kabisa</string>
+    <string name="duplicates_reclaimable_label">%1$s vinaweza kuokolewa</string>
+    <string name="duplicates_keep_label">Hifadhi</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">Picha zinazofanana</string>
+    <string name="similar_group_count_line">Vikundi %1$d · %2$s vinaweza kuokolewa</string>
+    <string name="similar_empty_title">Hakuna picha zinazofanana</string>
+    <string name="similar_empty_message">Hakuna kinachoonekana kama nakala inayokaribiana.</string>
+    <string name="similar_shot_count">Picha %1$d zinazofanana</string>
+    <string name="similar_best_label">Bora</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">Picha za skrini</string>
+    <string name="screenshots_empty_title">Hakuna picha za skrini</string>
+    <string name="screenshots_empty_message">Hakuna kilichonaswa kwenye kifaa hiki bado.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">Kibana picha</string>
+    <string name="photo_optimizer_count_line">Picha %1$d · %2$s</string>
+    <string name="photo_optimizer_optimizing">Inaboresha %1$d kati ya %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Zilizookolewa hadi sasa: %1$s</string>
+    <string name="photo_optimizer_empty_title">Hakuna picha za kuboresha</string>
+    <string name="photo_optimizer_empty_message">Hakuna kikubwa cha kutosha kustahili kubanwa.</string>
+    <string name="photo_optimizer_button_optimize">Boresha zilizochaguliwa</string>
+    <string name="photo_optimizer_button_optimizing">Inaboresha…</string>
+    <string name="photo_optimizer_selected_line">%1$d zimechaguliwa</string>
+    <string name="photo_optimizer_summary">Picha %1$d zimeboreshwa · %2$s zimeokolewa</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">Kibana video</string>
+    <string name="video_optimizer_count_line">Video %1$d · %2$s</string>
+    <string name="video_optimizer_optimizing">Inaboresha %1$d kati ya %2$d</string>
+    <string name="video_optimizer_saved_so_far">Zilizookolewa hadi sasa: %1$s</string>
+    <string name="video_optimizer_empty_title">Hakuna video za kuboresha</string>
+    <string name="video_optimizer_empty_message">Hakuna kikubwa cha kutosha kustahili kubanwa.</string>
+    <string name="video_optimizer_button_optimize">Boresha zilizochaguliwa</string>
+    <string name="video_optimizer_button_optimizing">Inaboresha…</string>
+    <string name="video_optimizer_selected_line">%1$d zimechaguliwa</string>
+    <string name="video_optimizer_summary">Video %1$d zimeboreshwa · %2$s zimeokolewa</string>
+    <string name="video_preset_high">Ubora wa juu</string>
+    <string name="video_preset_balanced">Wastani</string>
+    <string name="video_preset_small">Faili ndogo</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">Kifuatilia Shughuli</string>
+    <string name="activity_monitor_no_access_title">Ufikiaji wa matumizi unahitajika</string>
+    <string name="activity_monitor_no_access_message">Ruhusu Ufikiaji wa Matumizi kwenye mipangilio ya mfumo ili uone mara za kufungua na muda wa matumizi.</string>
+    <string name="activity_monitor_empty_title">Hakuna shughuli</string>
+    <string name="activity_monitor_empty_message">Hakuna kilichotumika katika saa 24 zilizopita.</string>
+    <string name="activity_monitor_launches">Mara %1$d za kufungua · %2$s</string>
+    <string name="activity_monitor_foreground">Mbele: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Ufikiaji wa Matumizi</string>
+    <string name="activity_monitor_disclosure_body">Kifuatilia Shughuli kinahitaji Ufikiaji wa Matumizi. Programu husoma ni programu zipi ulizofungua, lini, na kwa muda gani katika saa 24 zilizopita. Data hii hubaki kwenye kifaa chako na haipakiwi wala kushirikiwa.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Usalama wa Wi-Fi</string>
+    <string name="wifi_check_internet_title">Ufikiaji wa intaneti</string>
+    <string name="wifi_check_internet_connected">Imeunganishwa.</string>
+    <string name="wifi_check_internet_disconnected">Hakuna muunganisho unaotumika.</string>
+    <string name="wifi_check_encryption_title">Usimbaji fiche na uthibitishaji</string>
+    <string name="wifi_check_unavailable">haipatikani kwenye kifaa hiki</string>
+    <string name="wifi_check_ssl_strip_title">Ukaguzi wa cheti</string>
+    <string name="wifi_check_ssl_strip_detected">Onyo. Cheti cha tovuti ya majaribio hakikuweza kuthibitishwa. Mtu aliye kwenye mtandao huu anaweza kuwa anaingilia trafiki salama.</string>
+    <string name="wifi_check_ssl_strip_safe">Imefaulu. Cheti cha tovuti ya majaribio ni halali.</string>
+    <string name="wifi_check_ssl_split_title">Ukaguzi wa proksi</string>
+    <string name="wifi_check_ssl_split_detected">Proksi imewekwa kwenye muunganisho huu. Trafiki yako inaweza kupitia seva nyingine.</string>
+    <string name="wifi_check_ssl_split_safe">Hakuna proksi iliyogunduliwa.</string>
+    <string name="wifi_check_checked_at">Imekaguliwa %1$s</string>
+    <string name="wifi_check_rerun">Kagua tena</string>
+    <string name="wifi_check_error">Imeshindwa kukagua muunganisho.</string>
+    <string name="wifi_check_inspect_failed">Haikuweza kukagua muunganisho huu.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">Kasi ya Mtandao</string>
+    <string name="network_speed_ready">Pima kasi yako ya kupakua.</string>
+    <string name="network_speed_preparing">Inajiandaa</string>
+    <string name="network_speed_testing">Inajaribu kasi ya kupakua</string>
+    <string name="network_speed_transferred">%1$s zimehamishwa</string>
+    <string name="network_speed_download_label">Kasi ya kupakua</string>
+    <string name="network_speed_transferred_detail">%1$s zimehamishwa kwa sekunde %2$d</string>
+    <string name="network_speed_failed">Jaribio limeshindwa</string>
+    <string name="network_speed_button_start">Anza jaribio</string>
+    <string name="network_speed_button_testing">Inajaribu…</string>
+    <string name="network_speed_button_again">Jaribu tena</string>
+    <string name="network_speed_button_retry">Jaribu tena</string>
+    <string name="network_speed_footnote">Kupakua tu. Kupakia na ping hazipimwi.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">Mipangilio</string>
+    <string name="settings_theme">Mandhari</string>
+    <string name="settings_theme_light">Nyepesi</string>
+    <string name="settings_theme_dark">Nyeusi</string>
+    <string name="settings_theme_system">Mfumo</string>
+    <string name="settings_language">Lugha</string>
+    <string name="settings_notifications">Arifa</string>
+    <string name="settings_notifications_on">Imewashwa</string>
+    <string name="settings_notifications_off">Imezimwa</string>
+    <string name="settings_notifications_allow">Ruhusu arifa</string>
+    <string name="settings_notifications_weekly">Kikumbusho cha kusafisha kila wiki</string>
+    <string name="settings_notifications_storage">Tahadhari za hifadhi</string>
+    <string name="settings_go_pro">Pata Pro</string>
+    <string name="settings_pro_active">Pro · inatumika</string>
+    <string name="settings_pro_remove_ads">Ondoa matangazo</string>
+    <string name="settings_restore_purchase">Rejesha ununuzi</string>
+    <string name="settings_share_app">Shiriki programu hii</string>
+    <string name="settings_rate_app">Kadiria programu hii</string>
+    <string name="settings_privacy_policy">Sera ya faragha</string>
+    <string name="settings_terms">Masharti ya huduma</string>
+    <string name="settings_support">Msaada</string>
+    <string name="settings_about">Kuhusu</string>
+    <string name="settings_about_version">Toleo %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Uko kwenye Pro</string>
+    <string name="pro_active_body">Matangazo yameondolewa. Asante kwa kusaidia CleanKoach.</string>
+    <string name="pro_upsell_title">Ondoa matangazo</string>
+    <string name="pro_upsell_body">Pro huondoa matangazo yote. Kila kipengele ni bure.</string>
+    <string name="pro_button_upgrade">Boresha</string>
+    <string name="pro_button_restore">Rejesha ununuzi</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">Kuhusu</string>
+    <string name="about_body">Usafishaji asilia wa hifadhi ya Android. Kila kitu hufanyika kwenye kifaa. Hakuna media, data ya matumizi wala matokeo ya ukaguzi yanayopakiwa kamwe.</string>
+    <string name="about_built_with">Imetengenezwa kwa Kotlin, Jetpack Compose, na Material 3.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">Vikumbusho vya kusafisha</string>
+    <string name="channel_cleanup_description">Vikumbusho vya kila wiki vya kukagua faili kubwa na nakala rudufu.</string>
+    <string name="channel_storage_name">Tahadhari za hifadhi</string>
+    <string name="channel_storage_description">Tahadhari wakati hifadhi ya kifaa inapungua.</string>
+    <string name="notification_cleanup_title">Wakati wa kusafisha</string>
+    <string name="notification_cleanup_body">Kagua faili kubwa, nakala rudufu na picha za skrini.</string>
+    <string name="notification_storage_title">Hifadhi imejaa %1$d%%</string>
+    <string name="notification_storage_body">Kagua faili kubwa ili upate nafasi.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">Tangazo</string>
+
+    <!-- Share text -->
+    <string name="share_text">Pata nafasi kwenye simu kwa kufuta nakala rudufu, picha zinazofanana na faili kubwa: %1$s</string>
+
+    <string name="language_system">Chaguo-msingi la mfumo</string>
+    <string name="scan_progress_files">Inakagua faili %1$s kati ya %2$s</string>
+    <string name="settings_licenses">Leseni za chanzo huria</string>
+    <string name="licenses_title">Leseni za chanzo huria</string>
+    <string name="licenses_intro">CleanKoach imetengenezwa kwa programu za chanzo huria zilizoorodheshwa hapa chini.</string>
+    <string name="toast_no_browser">Hakuna kivinjari cha kufungua kiungo hiki.</string>
+    <string name="toast_no_mail">Hakuna programu ya barua pepe kwenye kifaa hiki.</string>
+    <string name="support_mail_subject">Msaada wa CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">Toleo la Android: %1$s\nKifaa: %2$s\n\nTafadhali eleza tatizo lako hapa chini:\n\n</string>
+    <string name="pro_unavailable">Haipatikani sasa</string>
+    <string name="pro_pending">Malipo yako yanasubiri. Pro itafunguka mara tu yatakapokamilika.</string>
+    <string name="pro_button_upgrade_price">Boresha kwa %1$s</string>
+    <string name="duplicates_delete_line">%1$d vya kufuta · %2$s</string>
+    <string name="network_speed_error">Imeshindwa kufikia seva ya jaribio. Kagua muunganisho wako kisha ujaribu tena.</string>
+    <string name="home_partial_access_message">Ufikiaji mdogo wa picha. CleanKoach inaweza kuona picha na video ulizochagua pekee.</string>
+    <string name="home_partial_access_action">Ruhusu zote</string>
+    <string name="home_nothing_to_clean_message">Hakuna cha kusafisha kwa sasa</string>
+    <string name="wifi_encryption_open">Wazi</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">Chaguo za faragha ya matangazo</string>
+</resources>

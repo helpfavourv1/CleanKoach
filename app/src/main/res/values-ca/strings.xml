@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Enrere</string>
+    <string name="cd_settings">Configuració</string>
+    <string name="action_done">Fet</string>
+    <string name="action_cancel">Cancel·la</string>
+    <string name="action_delete">Suprimeix</string>
+    <string name="action_continue">Continua</string>
+    <string name="action_not_now">Ara no</string>
+    <string name="action_allow_access">Permet l\'accés</string>
+    <string name="action_open_settings">Obre la configuració</string>
+    <string name="action_all">Tot</string>
+    <string name="action_clear">Esborra</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">Mida de la paperera</string>
+    <string name="home_ring_sublabel">Fotos i vídeos de la paperera més la memòria cau de les aplicacions</string>
+    <string name="home_storage_line">%1$s de %2$s utilitzats · %3$d%%</string>
+    <string name="home_button_cleanup">NETEJA</string>
+    <string name="home_button_scanning">Analitzant…</string>
+    <string name="home_button_allow_access">Permet l\'accés</string>
+    <string name="home_button_nothing_to_clean">Res per netejar</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">Eines del telèfon</string>
+    <string name="home_section_photos_videos">Fotos &amp; vídeos</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">Fitxers grans</string>
+    <string name="tool_large_files_desc">Les fotos, vídeos i àudios més grans.</string>
+    <string name="tool_duplicates_title">Duplicats</string>
+    <string name="tool_duplicates_desc">Fotos, vídeos i àudios idèntics.</string>
+    <string name="tool_similar_title">Fotos similars</string>
+    <string name="tool_similar_desc">Preses gairebé idèntiques, conserveu la millor.</string>
+    <string name="tool_screenshots_title">Captures de pantalla</string>
+    <string name="tool_screenshots_desc">Totes les captures, d\'una sola vegada.</string>
+    <string name="tool_photo_optimizer_title">Optimitzador de fotos</string>
+    <string name="tool_photo_optimizer_desc">Comprimeix fotos i estalvia espai.</string>
+    <string name="tool_video_optimizer_title">Optimitzador de vídeos</string>
+    <string name="tool_video_optimizer_desc">Comprimeix vídeos i estalvia espai.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">Monitor d\'activitat</string>
+    <string name="tool_activity_monitor_badge">24 H</string>
+    <string name="tool_wifi_security_title">Seguretat Wi-Fi</string>
+    <string name="tool_wifi_security_badge">Comprova</string>
+    <string name="tool_network_speed_title">Velocitat de xarxa</string>
+    <string name="tool_network_speed_badge">Prova</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">Neteja</string>
+    <string name="cleanup_sheet_message">Voleu esborrar %1$s elements de la paperera i %2$s de memòria cau?</string>
+    <string name="cleanup_sheet_detail">Aquests elements ja són a la paperera d\'Android, no són fotos de la galeria. Android us demanarà una confirmació més i pot anomenar-los «fotos». No es toca res més.</string>
+    <string name="cleanup_result_freed">Alliberat</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">Permet l\'accés als continguts</string>
+    <string name="media_disclosure_body">Per trobar fitxers grans, duplicats i fotos similars, l\'aplicació necessita accés a les vostres fotos, vídeos i àudios. Els fitxers s\'analitzen al vostre dispositiu i no es pugen mai.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">Fitxers grans</string>
+    <string name="large_files_count_line">%1$d elements · %2$s</string>
+    <string name="large_files_empty_title">Cap fitxer gran</string>
+    <string name="large_files_empty_message">La vostra biblioteca està ordenada. No hi ha res gran per revisar.</string>
+    <string name="large_files_selection_line">%1$d seleccionats · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">Duplicats</string>
+    <string name="duplicates_group_count_line">%1$d grups · %2$s recuperables</string>
+    <string name="duplicates_empty_title">Cap duplicat</string>
+    <string name="duplicates_empty_message">Totes les fotos, vídeos i àudios són únics.</string>
+    <string name="duplicates_identical_items">%1$d elements idèntics</string>
+    <string name="duplicates_reclaimable_label">%1$s recuperables</string>
+    <string name="duplicates_keep_label">Conserva</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">Fotos similars</string>
+    <string name="similar_group_count_line">%1$d grups · %2$s recuperables</string>
+    <string name="similar_empty_title">Cap foto similar</string>
+    <string name="similar_empty_message">Res d\'aquí sembla un quasi duplicat.</string>
+    <string name="similar_shot_count">%1$d preses similars</string>
+    <string name="similar_best_label">Millor</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">Captures de pantalla</string>
+    <string name="screenshots_empty_title">Cap captura de pantalla</string>
+    <string name="screenshots_empty_message">Encara no s\'ha capturat res en aquest dispositiu.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">Optimitzador de fotos</string>
+    <string name="photo_optimizer_count_line">%1$d fotos · %2$s</string>
+    <string name="photo_optimizer_optimizing">Optimitzant %1$d de %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Estalviat fins ara: %1$s</string>
+    <string name="photo_optimizer_empty_title">Cap foto per optimitzar</string>
+    <string name="photo_optimizer_empty_message">Res prou gran perquè valgui la pena comprimir-ho.</string>
+    <string name="photo_optimizer_button_optimize">Optimitza la selecció</string>
+    <string name="photo_optimizer_button_optimizing">Optimitzant…</string>
+    <string name="photo_optimizer_selected_line">%1$d seleccionades</string>
+    <string name="photo_optimizer_summary">Fotos optimitzades: %1$d · estalviats %2$s</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">Optimitzador de vídeos</string>
+    <string name="video_optimizer_count_line">%1$d vídeos · %2$s</string>
+    <string name="video_optimizer_optimizing">Optimitzant %1$d de %2$d</string>
+    <string name="video_optimizer_saved_so_far">Estalviat fins ara: %1$s</string>
+    <string name="video_optimizer_empty_title">Cap vídeo per optimitzar</string>
+    <string name="video_optimizer_empty_message">Res prou gran perquè valgui la pena comprimir-ho.</string>
+    <string name="video_optimizer_button_optimize">Optimitza la selecció</string>
+    <string name="video_optimizer_button_optimizing">Optimitzant…</string>
+    <string name="video_optimizer_selected_line">%1$d seleccionats</string>
+    <string name="video_optimizer_summary">Vídeos optimitzats: %1$d · estalviats %2$s</string>
+    <string name="video_preset_high">Alta qualitat</string>
+    <string name="video_preset_balanced">Equilibrat</string>
+    <string name="video_preset_small">Fitxer petit</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">Monitor d\'activitat</string>
+    <string name="activity_monitor_no_access_title">Cal l\'accés a l\'ús</string>
+    <string name="activity_monitor_no_access_message">Permeteu l\'accés a l\'ús a la configuració del sistema per veure les obertures i el temps en primer pla.</string>
+    <string name="activity_monitor_empty_title">Cap activitat</string>
+    <string name="activity_monitor_empty_message">No s\'ha utilitzat res en les últimes 24 hores.</string>
+    <string name="activity_monitor_launches">%1$d obertures · %2$s</string>
+    <string name="activity_monitor_foreground">En primer pla: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Accés a l\'ús</string>
+    <string name="activity_monitor_disclosure_body">El monitor d\'activitat necessita l\'accés a l\'ús. L\'aplicació llegeix quines aplicacions heu obert, quan i durant quant de temps en les últimes 24 hores. Aquestes dades es queden al vostre dispositiu i no es pugen ni es comparteixen.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Seguretat Wi-Fi</string>
+    <string name="wifi_check_internet_title">Accés a internet</string>
+    <string name="wifi_check_internet_connected">Connectat.</string>
+    <string name="wifi_check_internet_disconnected">Cap connexió activa.</string>
+    <string name="wifi_check_encryption_title">Xifratge i autenticació</string>
+    <string name="wifi_check_unavailable">no disponible en aquest dispositiu</string>
+    <string name="wifi_check_ssl_strip_title">Comprovació del certificat</string>
+    <string name="wifi_check_ssl_strip_detected">Advertència. No s\'ha pogut verificar el certificat d\'un lloc de prova. Algú d\'aquesta xarxa podria estar interceptant el trànsit segur.</string>
+    <string name="wifi_check_ssl_strip_safe">Correcte. El certificat del lloc de prova és vàlid.</string>
+    <string name="wifi_check_ssl_split_title">Comprovació del servidor intermediari</string>
+    <string name="wifi_check_ssl_split_detected">Aquesta connexió té un servidor intermediari (proxy). El vostre trànsit podria passar per un altre servidor.</string>
+    <string name="wifi_check_ssl_split_safe">No s\'ha detectat cap servidor intermediari.</string>
+    <string name="wifi_check_checked_at">Comprovat %1$s</string>
+    <string name="wifi_check_rerun">Repeteix les comprovacions</string>
+    <string name="wifi_check_error">No es pot inspeccionar la connexió.</string>
+    <string name="wifi_check_inspect_failed">No s\'ha pogut inspeccionar aquesta connexió.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">Velocitat de xarxa</string>
+    <string name="network_speed_ready">Mesureu la velocitat de baixada.</string>
+    <string name="network_speed_preparing">Preparant</string>
+    <string name="network_speed_testing">Provant la velocitat de baixada</string>
+    <string name="network_speed_transferred">%1$s transferits</string>
+    <string name="network_speed_download_label">Velocitat de baixada</string>
+    <string name="network_speed_transferred_detail">Transferits %1$s en %2$ds</string>
+    <string name="network_speed_failed">La prova ha fallat</string>
+    <string name="network_speed_button_start">Inicia la prova</string>
+    <string name="network_speed_button_testing">Provant…</string>
+    <string name="network_speed_button_again">Torna a provar</string>
+    <string name="network_speed_button_retry">Torna-ho a provar</string>
+    <string name="network_speed_footnote">Només baixada. La pujada i el ping no es mesuren.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">Configuració</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_light">Clar</string>
+    <string name="settings_theme_dark">Fosc</string>
+    <string name="settings_theme_system">Sistema</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_notifications">Notificacions</string>
+    <string name="settings_notifications_on">Activades</string>
+    <string name="settings_notifications_off">Desactivades</string>
+    <string name="settings_notifications_allow">Permet les notificacions</string>
+    <string name="settings_notifications_weekly">Recordatori setmanal de neteja</string>
+    <string name="settings_notifications_storage">Alertes d\'emmagatzematge</string>
+    <string name="settings_go_pro">Passa a Pro</string>
+    <string name="settings_pro_active">Pro · actiu</string>
+    <string name="settings_pro_remove_ads">Elimina els anuncis</string>
+    <string name="settings_restore_purchase">Restaura la compra</string>
+    <string name="settings_share_app">Comparteix l\'aplicació</string>
+    <string name="settings_rate_app">Valora l\'aplicació</string>
+    <string name="settings_privacy_policy">Política de privadesa</string>
+    <string name="settings_terms">Condicions del servei</string>
+    <string name="settings_support">Assistència</string>
+    <string name="settings_about">Quant a</string>
+    <string name="settings_about_version">Versió %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Teniu Pro</string>
+    <string name="pro_active_body">Els anuncis s\'han eliminat. Gràcies per donar suport a CleanKoach.</string>
+    <string name="pro_upsell_title">Elimina els anuncis</string>
+    <string name="pro_upsell_body">Pro elimina tots els anuncis. Totes les funcions són gratuïtes.</string>
+    <string name="pro_button_upgrade">Millora</string>
+    <string name="pro_button_restore">Restaura la compra</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">Quant a</string>
+    <string name="about_body">Neteja d\'emmagatzematge nativa per a Android. Tot s\'executa al dispositiu. Mai es puja cap fitxer multimèdia, cap dada d\'ús ni cap resultat de l\'anàlisi.</string>
+    <string name="about_built_with">Creat amb Kotlin, Jetpack Compose i Material 3.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">Recordatoris de neteja</string>
+    <string name="channel_cleanup_description">Recordatoris setmanals per revisar fitxers grans i duplicats.</string>
+    <string name="channel_storage_name">Alertes d\'emmagatzematge</string>
+    <string name="channel_storage_description">Alertes quan l\'emmagatzematge del dispositiu s\'està esgotant.</string>
+    <string name="notification_cleanup_title">És hora de fer neteja</string>
+    <string name="notification_cleanup_body">Reviseu fitxers grans, duplicats i captures de pantalla.</string>
+    <string name="notification_storage_title">L\'emmagatzematge està ple al %1$d%%</string>
+    <string name="notification_storage_body">Reviseu els fitxers grans per alliberar espai.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">Anunci</string>
+
+    <!-- Share text -->
+    <string name="share_text">Allibera espai al telèfon eliminant duplicats, fotos similars i fitxers grans: %1$s</string>
+
+    <string name="language_system">Predeterminat del sistema</string>
+    <string name="scan_progress_files">Comprovant %1$s de %2$s fitxers</string>
+    <string name="settings_licenses">Llicències de codi obert</string>
+    <string name="licenses_title">Llicències de codi obert</string>
+    <string name="licenses_intro">CleanKoach s\'ha creat amb el programari de codi obert que es llista a continuació.</string>
+    <string name="toast_no_browser">No s\'ha trobat cap navegador per obrir aquest enllaç.</string>
+    <string name="toast_no_mail">No s\'ha trobat cap aplicació de correu en aquest dispositiu.</string>
+    <string name="support_mail_subject">Assistència de CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">Versió d\'Android: %1$s\nDispositiu: %2$s\n\nDescriviu el vostre problema a continuació:\n\n</string>
+    <string name="pro_unavailable">No disponible ara</string>
+    <string name="pro_pending">El pagament està pendent. Pro es desbloqueja en quant es completi.</string>
+    <string name="pro_button_upgrade_price">Millora per %1$s</string>
+    <string name="duplicates_delete_line">%1$d per suprimir · %2$s</string>
+    <string name="network_speed_error">No s\'ha pogut connectar amb el servidor de prova. Comproveu la connexió i torneu-ho a provar.</string>
+    <string name="home_partial_access_message">Accés limitat a les fotos. CleanKoach només pot veure les fotos i els vídeos que heu seleccionat.</string>
+    <string name="home_partial_access_action">Permet-ho tot</string>
+    <string name="home_nothing_to_clean_message">Res per netejar ara mateix</string>
+    <string name="wifi_encryption_open">Oberta</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">Opcions de privadesa dels anuncis</string>
+</resources>

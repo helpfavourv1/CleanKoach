@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">بازگشت</string>
+    <string name="cd_settings">تنظیمات</string>
+    <string name="action_done">تمام</string>
+    <string name="action_cancel">لغو</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_continue">ادامه</string>
+    <string name="action_not_now">حالا نه</string>
+    <string name="action_allow_access">اجازه دسترسی</string>
+    <string name="action_open_settings">باز کردن تنظیمات</string>
+    <string name="action_all">همه</string>
+    <string name="action_clear">پاک کردن</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">حجم سطل زباله</string>
+    <string name="home_ring_sublabel">عکس‌ها و ویدیوهای حذف‌شده به‌علاوه حافظه پنهان برنامه‌ها</string>
+    <string name="home_storage_line">%1$s از %2$s استفاده شده · %3$d%%</string>
+    <string name="home_button_cleanup">پاکسازی</string>
+    <string name="home_button_scanning">در حال اسکن…</string>
+    <string name="home_button_allow_access">اجازه دسترسی</string>
+    <string name="home_button_nothing_to_clean">چیزی برای پاکسازی نیست</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">ابزارهای گوشی</string>
+    <string name="home_section_photos_videos">عکس‌ها و ویدیوها</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">فایل‌های حجیم</string>
+    <string name="tool_large_files_desc">بزرگ‌ترین عکس‌ها، ویدیوها و فایل‌های صوتی.</string>
+    <string name="tool_duplicates_title">تکراری‌ها</string>
+    <string name="tool_duplicates_desc">عکس‌ها، ویدیوها و فایل‌های صوتی یکسان.</string>
+    <string name="tool_similar_title">عکس‌های مشابه</string>
+    <string name="tool_similar_desc">عکس‌های تقریباً یکسان، بهترین را نگه دارید.</string>
+    <string name="tool_screenshots_title">اسکرین‌شات‌ها</string>
+    <string name="tool_screenshots_desc">همه اسکرین‌شات‌ها، یک‌جا.</string>
+    <string name="tool_photo_optimizer_title">بهینه‌ساز عکس</string>
+    <string name="tool_photo_optimizer_desc">عکس‌ها را فشرده کنید و فضا آزاد کنید.</string>
+    <string name="tool_video_optimizer_title">بهینه‌ساز ویدیو</string>
+    <string name="tool_video_optimizer_desc">ویدیوها را فشرده کنید و فضا آزاد کنید.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">پایش فعالیت</string>
+    <string name="tool_activity_monitor_badge">۲۴ ساعت</string>
+    <string name="tool_wifi_security_title">امنیت Wi-Fi</string>
+    <string name="tool_wifi_security_badge">بررسی</string>
+    <string name="tool_network_speed_title">سرعت شبکه</string>
+    <string name="tool_network_speed_badge">آزمون</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">پاکسازی</string>
+    <string name="cleanup_sheet_message">%1$s مورد در سطل زباله و %2$s حافظه پنهان پاک شود؟</string>
+    <string name="cleanup_sheet_detail">این موارد از قبل در سطل زباله Android هستند و عکس‌های گالری شما نیستند. Android یک بار دیگر تأیید می‌خواهد و ممکن است آن‌ها را «عکس» بنامد. به هیچ چیز دیگری دست زده نمی‌شود.</string>
+    <string name="cleanup_result_freed">آزاد شد</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">اجازه دسترسی به رسانه</string>
+    <string name="media_disclosure_body">برای یافتن فایل‌های حجیم، تکراری‌ها و عکس‌های مشابه، این برنامه به عکس‌ها، ویدیوها و فایل‌های صوتی شما نیاز دارد. فایل‌ها روی دستگاه شما تحلیل می‌شوند و هرگز آپلود نمی‌شوند.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">فایل‌های حجیم</string>
+    <string name="large_files_count_line">%1$d مورد · %2$s</string>
+    <string name="large_files_empty_title">فایل حجیمی نیست</string>
+    <string name="large_files_empty_message">کتابخانه شما مرتب به نظر می‌رسد. فایل حجیمی برای بررسی نیست.</string>
+    <string name="large_files_selection_line">%1$d انتخاب‌شده · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">تکراری‌ها</string>
+    <string name="duplicates_group_count_line">%1$d گروه · %2$s قابل بازیابی</string>
+    <string name="duplicates_empty_title">تکراری وجود ندارد</string>
+    <string name="duplicates_empty_message">هر عکس، ویدیو و فایل صوتی منحصربه‌فرد است.</string>
+    <string name="duplicates_identical_items">%1$d مورد یکسان</string>
+    <string name="duplicates_reclaimable_label">%1$s قابل بازیابی</string>
+    <string name="duplicates_keep_label">نگه‌داشتن</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">عکس‌های مشابه</string>
+    <string name="similar_group_count_line">%1$d گروه · %2$s قابل بازیابی</string>
+    <string name="similar_empty_title">عکس مشابهی نیست</string>
+    <string name="similar_empty_message">اینجا چیزی شبیه تکراری نیست.</string>
+    <string name="similar_shot_count">%1$d عکس مشابه</string>
+    <string name="similar_best_label">بهترین</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">اسکرین‌شات‌ها</string>
+    <string name="screenshots_empty_title">اسکرین‌شاتی نیست</string>
+    <string name="screenshots_empty_message">هنوز چیزی در این دستگاه ثبت نشده است.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">بهینه‌ساز عکس</string>
+    <string name="photo_optimizer_count_line">%1$d عکس · %2$s</string>
+    <string name="photo_optimizer_optimizing">در حال بهینه‌سازی %1$d از %2$d</string>
+    <string name="photo_optimizer_saved_so_far">تا کنون صرفه‌جویی: %1$s</string>
+    <string name="photo_optimizer_empty_title">عکسی برای بهینه‌سازی نیست</string>
+    <string name="photo_optimizer_empty_message">چیزی به‌اندازه کافی بزرگ برای فشرده‌سازی نیست.</string>
+    <string name="photo_optimizer_button_optimize">بهینه‌سازی انتخاب‌شده‌ها</string>
+    <string name="photo_optimizer_button_optimizing">در حال بهینه‌سازی…</string>
+    <string name="photo_optimizer_selected_line">%1$d انتخاب‌شده</string>
+    <string name="photo_optimizer_summary">%1$d عکس بهینه شد · %2$s صرفه‌جویی</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">بهینه‌ساز ویدیو</string>
+    <string name="video_optimizer_count_line">%1$d ویدیو · %2$s</string>
+    <string name="video_optimizer_optimizing">در حال بهینه‌سازی %1$d از %2$d</string>
+    <string name="video_optimizer_saved_so_far">تا کنون صرفه‌جویی: %1$s</string>
+    <string name="video_optimizer_empty_title">ویدیویی برای بهینه‌سازی نیست</string>
+    <string name="video_optimizer_empty_message">چیزی به‌اندازه کافی بزرگ برای فشرده‌سازی نیست.</string>
+    <string name="video_optimizer_button_optimize">بهینه‌سازی انتخاب‌شده‌ها</string>
+    <string name="video_optimizer_button_optimizing">در حال بهینه‌سازی…</string>
+    <string name="video_optimizer_selected_line">%1$d انتخاب‌شده</string>
+    <string name="video_optimizer_summary">%1$d ویدیو بهینه شد · %2$s صرفه‌جویی</string>
+    <string name="video_preset_high">کیفیت بالا</string>
+    <string name="video_preset_balanced">متعادل</string>
+    <string name="video_preset_small">فایل کم‌حجم</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">پایش فعالیت</string>
+    <string name="activity_monitor_no_access_title">دسترسی به مصرف لازم است</string>
+    <string name="activity_monitor_no_access_message">برای دیدن تعداد اجراها و زمان پیش‌زمینه، در تنظیمات سیستم دسترسی به مصرف را مجاز کنید.</string>
+    <string name="activity_monitor_empty_title">فعالیتی نیست</string>
+    <string name="activity_monitor_empty_message">در ۲۴ ساعت گذشته چیزی استفاده نشده است.</string>
+    <string name="activity_monitor_launches">%1$d بار اجرا · %2$s</string>
+    <string name="activity_monitor_foreground">پیش‌زمینه: %1$s</string>
+    <string name="activity_monitor_disclosure_title">دسترسی به مصرف</string>
+    <string name="activity_monitor_disclosure_body">پایش فعالیت به دسترسی به مصرف نیاز دارد. برنامه می‌خواند که در ۲۴ ساعت گذشته کدام برنامه‌ها را، چه زمانی و چه مدت باز کرده‌اید. این داده‌ها روی دستگاه شما می‌مانند و آپلود یا به اشتراک گذاشته نمی‌شوند.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">امنیت Wi-Fi</string>
+    <string name="wifi_check_internet_title">دسترسی به اینترنت</string>
+    <string name="wifi_check_internet_connected">متصل.</string>
+    <string name="wifi_check_internet_disconnected">اتصال فعالی وجود ندارد.</string>
+    <string name="wifi_check_encryption_title">رمزگذاری و احراز هویت</string>
+    <string name="wifi_check_unavailable">در این دستگاه در دسترس نیست</string>
+    <string name="wifi_check_ssl_strip_title">بررسی گواهی</string>
+    <string name="wifi_check_ssl_strip_detected">هشدار. گواهی یک سایت آزمایشی تأیید نشد. ممکن است فردی در این شبکه ترافیک امن را شنود کند.</string>
+    <string name="wifi_check_ssl_strip_safe">موفق. گواهی سایت آزمایشی معتبر است.</string>
+    <string name="wifi_check_ssl_split_title">بررسی پروکسی</string>
+    <string name="wifi_check_ssl_split_detected">روی این اتصال پروکسی تنظیم شده است. ترافیک شما ممکن است از سرور دیگری عبور کند.</string>
+    <string name="wifi_check_ssl_split_safe">پروکسی شناسایی نشد.</string>
+    <string name="wifi_check_checked_at">بررسی‌شده %1$s</string>
+    <string name="wifi_check_rerun">بررسی دوباره</string>
+    <string name="wifi_check_error">بررسی اتصال ممکن نشد.</string>
+    <string name="wifi_check_inspect_failed">بررسی این اتصال ممکن نشد.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">سرعت شبکه</string>
+    <string name="network_speed_ready">سرعت دانلود خود را اندازه بگیرید.</string>
+    <string name="network_speed_preparing">در حال آماده‌سازی</string>
+    <string name="network_speed_testing">در حال آزمون سرعت دانلود</string>
+    <string name="network_speed_transferred">%1$s منتقل شد</string>
+    <string name="network_speed_download_label">سرعت دانلود</string>
+    <string name="network_speed_transferred_detail">%1$s در %2$d ثانیه منتقل شد</string>
+    <string name="network_speed_failed">آزمون ناموفق بود</string>
+    <string name="network_speed_button_start">شروع آزمون</string>
+    <string name="network_speed_button_testing">در حال آزمون…</string>
+    <string name="network_speed_button_again">آزمون دوباره</string>
+    <string name="network_speed_button_retry">تلاش دوباره</string>
+    <string name="network_speed_footnote">فقط دانلود. آپلود و پینگ سنجیده نمی‌شوند.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_theme">پوسته</string>
+    <string name="settings_theme_light">روشن</string>
+    <string name="settings_theme_dark">تیره</string>
+    <string name="settings_theme_system">سیستم</string>
+    <string name="settings_language">زبان</string>
+    <string name="settings_notifications">اعلان‌ها</string>
+    <string name="settings_notifications_on">روشن</string>
+    <string name="settings_notifications_off">خاموش</string>
+    <string name="settings_notifications_allow">اجازه اعلان‌ها</string>
+    <string name="settings_notifications_weekly">یادآور هفتگی پاکسازی</string>
+    <string name="settings_notifications_storage">هشدارهای حافظه</string>
+    <string name="settings_go_pro">ارتقا به Pro</string>
+    <string name="settings_pro_active">Pro · فعال</string>
+    <string name="settings_pro_remove_ads">حذف تبلیغات</string>
+    <string name="settings_restore_purchase">بازیابی خرید</string>
+    <string name="settings_share_app">اشتراک‌گذاری برنامه</string>
+    <string name="settings_rate_app">امتیاز به برنامه</string>
+    <string name="settings_privacy_policy">سیاست حریم خصوصی</string>
+    <string name="settings_terms">شرایط استفاده از خدمات</string>
+    <string name="settings_support">پشتیبانی</string>
+    <string name="settings_about">درباره</string>
+    <string name="settings_about_version">نسخه %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">شما Pro دارید</string>
+    <string name="pro_active_body">تبلیغات حذف شد. از حمایت شما از CleanKoach سپاسگزاریم.</string>
+    <string name="pro_upsell_title">حذف تبلیغات</string>
+    <string name="pro_upsell_body">Pro همه تبلیغات را حذف می‌کند. همه امکانات رایگان است.</string>
+    <string name="pro_button_upgrade">ارتقا</string>
+    <string name="pro_button_restore">بازیابی خرید</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">درباره</string>
+    <string name="about_body">پاکسازی حافظه بومی Android. همه‌چیز روی دستگاه اجرا می‌شود. هیچ رسانه، داده مصرف یا نتیجه اسکنی هرگز آپلود نمی‌شود.</string>
+    <string name="about_built_with">ساخته‌شده با Kotlin، Jetpack Compose و Material 3.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">یادآورهای پاکسازی</string>
+    <string name="channel_cleanup_description">یادآورهای هفتگی برای بررسی فایل‌های حجیم و تکراری‌ها.</string>
+    <string name="channel_storage_name">هشدارهای حافظه</string>
+    <string name="channel_storage_description">هشدار هنگام کم شدن فضای حافظه دستگاه.</string>
+    <string name="notification_cleanup_title">وقت پاکسازی است</string>
+    <string name="notification_cleanup_body">فایل‌های حجیم، تکراری‌ها و اسکرین‌شات‌ها را بررسی کنید.</string>
+    <string name="notification_storage_title">%1$d%% حافظه پر است</string>
+    <string name="notification_storage_body">برای آزاد کردن فضا، فایل‌های حجیم را بررسی کنید.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">تبلیغ</string>
+
+    <!-- Share text -->
+    <string name="share_text">با حذف تکراری‌ها، عکس‌های مشابه و فایل‌های حجیم، فضای گوشی را آزاد کنید: %1$s</string>
+
+    <string name="language_system">پیش‌فرض سیستم</string>
+    <string name="scan_progress_files">در حال بررسی %1$s از %2$s فایل</string>
+    <string name="settings_licenses">مجوزهای متن‌باز</string>
+    <string name="licenses_title">مجوزهای متن‌باز</string>
+    <string name="licenses_intro">CleanKoach با نرم‌افزارهای متن‌باز فهرست‌شده در زیر ساخته شده است.</string>
+    <string name="toast_no_browser">مرورگری برای باز کردن این پیوند پیدا نشد.</string>
+    <string name="toast_no_mail">برنامه ایمیلی در این دستگاه پیدا نشد.</string>
+    <string name="support_mail_subject">پشتیبانی CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">نسخه Android: %1$s\nدستگاه: %2$s\n\nلطفاً مشکل خود را در زیر شرح دهید:\n\n</string>
+    <string name="pro_unavailable">اکنون در دسترس نیست</string>
+    <string name="pro_pending">پرداخت شما در انتظار است. Pro به‌محض تکمیل پرداخت فعال می‌شود.</string>
+    <string name="pro_button_upgrade_price">ارتقا با %1$s</string>
+    <string name="duplicates_delete_line">%1$d برای حذف · %2$s</string>
+    <string name="network_speed_error">اتصال به سرور آزمون ممکن نشد. اتصال خود را بررسی کنید و دوباره تلاش کنید.</string>
+    <string name="home_partial_access_message">دسترسی به عکس‌ها محدود است. CleanKoach فقط عکس‌ها و ویدیوهای انتخاب‌شده را می‌بیند.</string>
+    <string name="home_partial_access_action">اجازه به همه</string>
+    <string name="home_nothing_to_clean_message">اکنون چیزی برای پاکسازی نیست</string>
+    <string name="wifi_encryption_open">باز</string>
+    <string name="wifi_encryption_owe">باز تقویت‌شده</string>
+    <string name="settings_privacy_options">گزینه‌های حریم خصوصی تبلیغات</string>
+</resources>

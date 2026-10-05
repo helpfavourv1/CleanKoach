@@ -180,17 +180,6 @@
     <string name="about_body">Нативный очиститель памяти для Android. Всё выполняется на устройстве. Ни медиа, ни данные об использовании, ни результаты сканирования не загружаются.</string>
     <string name="about_built_with">Создано на Kotlin, Jetpack Compose и Material 3.</string>
 
-    <string name="language_en">English</string>
-    <string name="language_es">Español</string>
-    <string name="language_pt">Português</string>
-    <string name="language_fr">Français</string>
-    <string name="language_de">Deutsch</string>
-    <string name="language_it">Italiano</string>
-    <string name="language_hi">हिन्दी</string>
-    <string name="language_in">Bahasa Indonesia</string>
-    <string name="language_ja">日本語</string>
-    <string name="language_ko">한국어</string>
-    <string name="language_ru">Русский</string>
 
     <string name="channel_cleanup_name">Напоминания об очистке</string>
     <string name="channel_cleanup_description">Еженедельные напоминания просмотреть большие файлы и дубликаты.</string>

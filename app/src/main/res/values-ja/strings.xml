@@ -180,17 +180,6 @@
     <string name="about_body">Android ネイティブのストレージクリーナー。すべて端末上で実行されます。メディア、使用状況データ、スキャン結果はアップロードされません。</string>
     <string name="about_built_with">Kotlin、Jetpack Compose、Material 3 で構築。</string>
 
-    <string name="language_en">English</string>
-    <string name="language_es">Español</string>
-    <string name="language_pt">Português</string>
-    <string name="language_fr">Français</string>
-    <string name="language_de">Deutsch</string>
-    <string name="language_it">Italiano</string>
-    <string name="language_hi">हिन्दी</string>
-    <string name="language_in">Bahasa Indonesia</string>
-    <string name="language_ja">日本語</string>
-    <string name="language_ko">한국어</string>
-    <string name="language_ru">Русский</string>
 
     <string name="channel_cleanup_name">クリーンアップ通知</string>
     <string name="channel_cleanup_description">大きいファイルと重複を見直す毎週の通知。</string>

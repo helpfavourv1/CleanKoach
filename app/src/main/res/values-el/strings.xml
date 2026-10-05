@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Πίσω</string>
+    <string name="cd_settings">Ρυθμίσεις</string>
+    <string name="action_done">Τέλος</string>
+    <string name="action_cancel">Ακύρωση</string>
+    <string name="action_delete">Διαγραφή</string>
+    <string name="action_continue">Συνέχεια</string>
+    <string name="action_not_now">Όχι τώρα</string>
+    <string name="action_allow_access">Να επιτραπεί η πρόσβαση</string>
+    <string name="action_open_settings">Άνοιγμα ρυθμίσεων</string>
+    <string name="action_all">Όλα</string>
+    <string name="action_clear">Εκκαθάριση</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">Μέγεθος κάδου</string>
+    <string name="home_ring_sublabel">Φωτογραφίες και βίντεο στον κάδο μαζί με την προσωρινή μνήμη εφαρμογών</string>
+    <string name="home_storage_line">%1$s από %2$s σε χρήση · %3$d%%</string>
+    <string name="home_button_cleanup">ΚΑΘΑΡΙΣΜΟΣ</string>
+    <string name="home_button_scanning">Σάρωση…</string>
+    <string name="home_button_allow_access">Να επιτραπεί η πρόσβαση</string>
+    <string name="home_button_nothing_to_clean">Δεν υπάρχει τίποτα προς καθαρισμό</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">Εργαλεία συσκευής</string>
+    <string name="home_section_photos_videos">Φωτογραφίες &amp; βίντεο</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">Μεγάλα αρχεία</string>
+    <string name="tool_large_files_desc">Οι μεγαλύτερες φωτογραφίες, τα βίντεο και οι ήχοι.</string>
+    <string name="tool_duplicates_title">Διπλότυπα</string>
+    <string name="tool_duplicates_desc">Πανομοιότυπες φωτογραφίες, βίντεο και ήχοι.</string>
+    <string name="tool_similar_title">Παρόμοιες φωτογραφίες</string>
+    <string name="tool_similar_desc">Σχεδόν ίδιες λήψεις, κρατήστε την καλύτερη.</string>
+    <string name="tool_screenshots_title">Στιγμιότυπα οθόνης</string>
+    <string name="tool_screenshots_desc">Όλα τα στιγμιότυπα, με μία κίνηση.</string>
+    <string name="tool_photo_optimizer_title">Βελτιστοποίηση φωτογραφιών</string>
+    <string name="tool_photo_optimizer_desc">Συμπίεση φωτογραφιών, εξοικονόμηση χώρου.</string>
+    <string name="tool_video_optimizer_title">Βελτιστοποίηση βίντεο</string>
+    <string name="tool_video_optimizer_desc">Συμπίεση βίντεο, εξοικονόμηση χώρου.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">Παρακολούθηση δραστηριότητας</string>
+    <string name="tool_activity_monitor_badge">24 Ω</string>
+    <string name="tool_wifi_security_title">Ασφάλεια Wi-Fi</string>
+    <string name="tool_wifi_security_badge">Έλεγχος</string>
+    <string name="tool_network_speed_title">Ταχύτητα δικτύου</string>
+    <string name="tool_network_speed_badge">Τεστ</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">Καθαρισμός</string>
+    <string name="cleanup_sheet_message">Εκκαθάριση %1$s στοιχείων στον κάδο και %2$s προσωρινής μνήμης;</string>
+    <string name="cleanup_sheet_detail">Αυτά τα στοιχεία βρίσκονται ήδη στον κάδο του Android και δεν είναι φωτογραφίες της συλλογής σας. Το Android θα ζητήσει άλλη μία επιβεβαίωση και ίσως τα ονομάσει «φωτογραφίες». Δεν επηρεάζεται τίποτα άλλο.</string>
+    <string name="cleanup_result_freed">Ελευθερώθηκαν</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">Πρόσβαση στα πολυμέσα</string>
+    <string name="media_disclosure_body">Για να εντοπίσει μεγάλα αρχεία, διπλότυπα και παρόμοιες φωτογραφίες, η εφαρμογή χρειάζεται πρόσβαση στις φωτογραφίες, τα βίντεο και τους ήχους σας. Τα αρχεία αναλύονται στη συσκευή σας και δεν μεταφορτώνονται ποτέ.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">Μεγάλα αρχεία</string>
+    <string name="large_files_count_line">%1$d στοιχεία · %2$s</string>
+    <string name="large_files_empty_title">Κανένα μεγάλο αρχείο</string>
+    <string name="large_files_empty_message">Η βιβλιοθήκη σας είναι τακτοποιημένη. Δεν υπάρχει κάτι μεγάλο για έλεγχο.</string>
+    <string name="large_files_selection_line">%1$d επιλεγμένα · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">Διπλότυπα</string>
+    <string name="duplicates_group_count_line">%1$d ομάδες · %2$s προς ανάκτηση</string>
+    <string name="duplicates_empty_title">Κανένα διπλότυπο</string>
+    <string name="duplicates_empty_message">Κάθε φωτογραφία, βίντεο και αρχείο ήχου είναι μοναδικό.</string>
+    <string name="duplicates_identical_items">%1$d πανομοιότυπα στοιχεία</string>
+    <string name="duplicates_reclaimable_label">%1$s προς ανάκτηση</string>
+    <string name="duplicates_keep_label">Διατήρηση</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">Παρόμοιες φωτογραφίες</string>
+    <string name="similar_group_count_line">%1$d ομάδες · %2$s προς ανάκτηση</string>
+    <string name="similar_empty_title">Καμία παρόμοια φωτογραφία</string>
+    <string name="similar_empty_message">Τίποτα εδώ δεν μοιάζει με σχεδόν διπλότυπο.</string>
+    <string name="similar_shot_count">%1$d παρόμοιες λήψεις</string>
+    <string name="similar_best_label">Καλύτερη</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">Στιγμιότυπα οθόνης</string>
+    <string name="screenshots_empty_title">Κανένα στιγμιότυπο</string>
+    <string name="screenshots_empty_message">Δεν έχει καταγραφεί τίποτα σε αυτή τη συσκευή ακόμη.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">Βελτιστοποίηση φωτογραφιών</string>
+    <string name="photo_optimizer_count_line">%1$d φωτογραφίες · %2$s</string>
+    <string name="photo_optimizer_optimizing">Βελτιστοποίηση %1$d από %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Εξοικονομήθηκαν έως τώρα: %1$s</string>
+    <string name="photo_optimizer_empty_title">Καμία φωτογραφία για βελτιστοποίηση</string>
+    <string name="photo_optimizer_empty_message">Τίποτα αρκετά μεγάλο ώστε να αξίζει συμπίεση.</string>
+    <string name="photo_optimizer_button_optimize">Βελτιστοποίηση επιλεγμένων</string>
+    <string name="photo_optimizer_button_optimizing">Βελτιστοποίηση…</string>
+    <string name="photo_optimizer_selected_line">%1$d επιλεγμένα</string>
+    <string name="photo_optimizer_summary">Βελτιστοποιήθηκαν %1$d φωτογραφίες · εξοικονομήθηκαν %2$s</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">Βελτιστοποίηση βίντεο</string>
+    <string name="video_optimizer_count_line">%1$d βίντεο · %2$s</string>
+    <string name="video_optimizer_optimizing">Βελτιστοποίηση %1$d από %2$d</string>
+    <string name="video_optimizer_saved_so_far">Εξοικονομήθηκαν έως τώρα: %1$s</string>
+    <string name="video_optimizer_empty_title">Κανένα βίντεο για βελτιστοποίηση</string>
+    <string name="video_optimizer_empty_message">Τίποτα αρκετά μεγάλο ώστε να αξίζει συμπίεση.</string>
+    <string name="video_optimizer_button_optimize">Βελτιστοποίηση επιλεγμένων</string>
+    <string name="video_optimizer_button_optimizing">Βελτιστοποίηση…</string>
+    <string name="video_optimizer_selected_line">%1$d επιλεγμένα</string>
+    <string name="video_optimizer_summary">Βελτιστοποιήθηκαν %1$d βίντεο · εξοικονομήθηκαν %2$s</string>
+    <string name="video_preset_high">Υψηλή ποιότητα</string>
+    <string name="video_preset_balanced">Ισορροπημένη</string>
+    <string name="video_preset_small">Μικρό αρχείο</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">Παρακολούθηση δραστηριότητας</string>
+    <string name="activity_monitor_no_access_title">Απαιτείται πρόσβαση χρήσης</string>
+    <string name="activity_monitor_no_access_message">Επιτρέψτε την Πρόσβαση χρήσης στις ρυθμίσεις συστήματος για να δείτε τις εκκινήσεις και τον χρόνο στο προσκήνιο.</string>
+    <string name="activity_monitor_empty_title">Καμία δραστηριότητα</string>
+    <string name="activity_monitor_empty_message">Δεν χρησιμοποιήθηκε τίποτα τις τελευταίες 24 ώρες.</string>
+    <string name="activity_monitor_launches">%1$d εκκινήσεις · %2$s</string>
+    <string name="activity_monitor_foreground">Στο προσκήνιο: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Πρόσβαση χρήσης</string>
+    <string name="activity_monitor_disclosure_body">Η Παρακολούθηση δραστηριότητας χρειάζεται Πρόσβαση χρήσης. Η εφαρμογή διαβάζει ποιες εφαρμογές ανοίξατε, πότε και για πόση ώρα τις τελευταίες 24 ώρες. Αυτά τα δεδομένα παραμένουν στη συσκευή σας και δεν μεταφορτώνονται ούτε κοινοποιούνται.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Ασφάλεια Wi-Fi</string>
+    <string name="wifi_check_internet_title">Πρόσβαση στο διαδίκτυο</string>
+    <string name="wifi_check_internet_connected">Συνδεδεμένο.</string>
+    <string name="wifi_check_internet_disconnected">Δεν υπάρχει ενεργή σύνδεση.</string>
+    <string name="wifi_check_encryption_title">Κρυπτογράφηση και έλεγχος ταυτότητας</string>
+    <string name="wifi_check_unavailable">μη διαθέσιμο σε αυτή τη συσκευή</string>
+    <string name="wifi_check_ssl_strip_title">Έλεγχος πιστοποιητικού</string>
+    <string name="wifi_check_ssl_strip_detected">Προειδοποίηση. Το πιστοποιητικό ενός ιστότοπου δοκιμής δεν ήταν δυνατό να επαληθευτεί. Κάποιος σε αυτό το δίκτυο ίσως παρακολουθεί την ασφαλή κίνηση.</string>
+    <string name="wifi_check_ssl_strip_safe">Επιτυχία. Το πιστοποιητικό του ιστότοπου δοκιμής είναι έγκυρο.</string>
+    <string name="wifi_check_ssl_split_title">Έλεγχος proxy</string>
+    <string name="wifi_check_ssl_split_detected">Έχει οριστεί proxy σε αυτή τη σύνδεση. Η κίνησή σας ίσως περνά μέσα από άλλον διακομιστή.</string>
+    <string name="wifi_check_ssl_split_safe">Δεν εντοπίστηκε proxy.</string>
+    <string name="wifi_check_checked_at">Έλεγχος: %1$s</string>
+    <string name="wifi_check_rerun">Επανάληψη ελέγχων</string>
+    <string name="wifi_check_error">Δεν είναι δυνατή η επιθεώρηση της σύνδεσης.</string>
+    <string name="wifi_check_inspect_failed">Δεν ήταν δυνατή η επιθεώρηση αυτής της σύνδεσης.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">Ταχύτητα δικτύου</string>
+    <string name="network_speed_ready">Μετρήστε την ταχύτητα λήψης σας.</string>
+    <string name="network_speed_preparing">Προετοιμασία</string>
+    <string name="network_speed_testing">Έλεγχος ταχύτητας λήψης</string>
+    <string name="network_speed_transferred">%1$s μεταφέρθηκαν</string>
+    <string name="network_speed_download_label">Ταχύτητα λήψης</string>
+    <string name="network_speed_transferred_detail">Μεταφέρθηκαν %1$s σε %2$ds</string>
+    <string name="network_speed_failed">Ο έλεγχος απέτυχε</string>
+    <string name="network_speed_button_start">Έναρξη ελέγχου</string>
+    <string name="network_speed_button_testing">Έλεγχος…</string>
+    <string name="network_speed_button_again">Νέος έλεγχος</string>
+    <string name="network_speed_button_retry">Επανάληψη</string>
+    <string name="network_speed_footnote">Μόνο λήψη. Η αποστολή και το ping δεν μετριούνται.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">Ρυθμίσεις</string>
+    <string name="settings_theme">Θέμα</string>
+    <string name="settings_theme_light">Φωτεινό</string>
+    <string name="settings_theme_dark">Σκούρο</string>
+    <string name="settings_theme_system">Σύστημα</string>
+    <string name="settings_language">Γλώσσα</string>
+    <string name="settings_notifications">Ειδοποιήσεις</string>
+    <string name="settings_notifications_on">Ενεργές</string>
+    <string name="settings_notifications_off">Ανενεργές</string>
+    <string name="settings_notifications_allow">Να επιτραπούν οι ειδοποιήσεις</string>
+    <string name="settings_notifications_weekly">Εβδομαδιαία υπενθύμιση καθαρισμού</string>
+    <string name="settings_notifications_storage">Ειδοποιήσεις αποθηκευτικού χώρου</string>
+    <string name="settings_go_pro">Αναβάθμιση σε Pro</string>
+    <string name="settings_pro_active">Pro · ενεργό</string>
+    <string name="settings_pro_remove_ads">Κατάργηση διαφημίσεων</string>
+    <string name="settings_restore_purchase">Επαναφορά αγοράς</string>
+    <string name="settings_share_app">Κοινοποίηση εφαρμογής</string>
+    <string name="settings_rate_app">Αξιολόγηση εφαρμογής</string>
+    <string name="settings_privacy_policy">Πολιτική απορρήτου</string>
+    <string name="settings_terms">Όροι χρήσης</string>
+    <string name="settings_support">Υποστήριξη</string>
+    <string name="settings_about">Πληροφορίες</string>
+    <string name="settings_about_version">Έκδοση %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Έχετε το Pro</string>
+    <string name="pro_active_body">Οι διαφημίσεις έχουν καταργηθεί. Ευχαριστούμε που υποστηρίζετε το CleanKoach.</string>
+    <string name="pro_upsell_title">Κατάργηση διαφημίσεων</string>
+    <string name="pro_upsell_body">Το Pro καταργεί όλες τις διαφημίσεις. Όλες οι λειτουργίες είναι δωρεάν.</string>
+    <string name="pro_button_upgrade">Αναβάθμιση</string>
+    <string name="pro_button_restore">Επαναφορά αγοράς</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">Πληροφορίες</string>
+    <string name="about_body">Εγγενής καθαρισμός αποθηκευτικού χώρου για Android. Όλα εκτελούνται στη συσκευή. Κανένα πολυμέσο, κανένα δεδομένο χρήσης και κανένα αποτέλεσμα σάρωσης δεν μεταφορτώνεται ποτέ.</string>
+    <string name="about_built_with">Δημιουργήθηκε με Kotlin, Jetpack Compose και Material 3.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">Υπενθυμίσεις καθαρισμού</string>
+    <string name="channel_cleanup_description">Εβδομαδιαίες υπενθυμίσεις για έλεγχο μεγάλων αρχείων και διπλοτύπων.</string>
+    <string name="channel_storage_name">Ειδοποιήσεις αποθηκευτικού χώρου</string>
+    <string name="channel_storage_description">Ειδοποιήσεις όταν ο αποθηκευτικός χώρος της συσκευής εξαντλείται.</string>
+    <string name="notification_cleanup_title">Ώρα για καθαρισμό</string>
+    <string name="notification_cleanup_body">Ελέγξτε μεγάλα αρχεία, διπλότυπα και στιγμιότυπα οθόνης.</string>
+    <string name="notification_storage_title">Ο χώρος είναι γεμάτος κατά %1$d%%</string>
+    <string name="notification_storage_body">Ελέγξτε τα μεγάλα αρχεία για να ελευθερώσετε χώρο.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">Διαφήμιση</string>
+
+    <!-- Share text -->
+    <string name="share_text">Ελευθερώστε χώρο στο κινητό σας διαγράφοντας διπλότυπα, παρόμοιες φωτογραφίες και μεγάλα αρχεία: %1$s</string>
+
+    <string name="language_system">Προεπιλογή συστήματος</string>
+    <string name="scan_progress_files">Έλεγχος %1$s από %2$s αρχεία</string>
+    <string name="settings_licenses">Άδειες ανοιχτού κώδικα</string>
+    <string name="licenses_title">Άδειες ανοιχτού κώδικα</string>
+    <string name="licenses_intro">Το CleanKoach δημιουργήθηκε με το λογισμικό ανοιχτού κώδικα που αναφέρεται παρακάτω.</string>
+    <string name="toast_no_browser">Δεν βρέθηκε πρόγραμμα περιήγησης για άνοιγμα αυτού του συνδέσμου.</string>
+    <string name="toast_no_mail">Δεν βρέθηκε εφαρμογή email σε αυτή τη συσκευή.</string>
+    <string name="support_mail_subject">Υποστήριξη CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">Έκδοση Android: %1$s\nΣυσκευή: %2$s\n\nΠεριγράψτε το πρόβλημά σας παρακάτω:\n\n</string>
+    <string name="pro_unavailable">Μη διαθέσιμο αυτή τη στιγμή</string>
+    <string name="pro_pending">Η πληρωμή σας εκκρεμεί. Το Pro ενεργοποιείται μόλις ολοκληρωθεί.</string>
+    <string name="pro_button_upgrade_price">Αναβάθμιση για %1$s</string>
+    <string name="duplicates_delete_line">%1$d προς διαγραφή · %2$s</string>
+    <string name="network_speed_error">Δεν ήταν δυνατή η σύνδεση με τον διακομιστή δοκιμής. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.</string>
+    <string name="home_partial_access_message">Περιορισμένη πρόσβαση σε φωτογραφίες. Το CleanKoach βλέπει μόνο τις φωτογραφίες και τα βίντεο που επιλέξατε.</string>
+    <string name="home_partial_access_action">Να επιτραπούν όλα</string>
+    <string name="home_nothing_to_clean_message">Δεν υπάρχει τίποτα προς καθαρισμό αυτή τη στιγμή</string>
+    <string name="wifi_encryption_open">Ανοιχτό</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">Επιλογές απορρήτου διαφημίσεων</string>
+</resources>

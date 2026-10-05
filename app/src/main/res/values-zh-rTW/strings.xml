@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">返回</string>
+    <string name="cd_settings">設定</string>
+    <string name="action_done">完成</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_delete">刪除</string>
+    <string name="action_continue">繼續</string>
+    <string name="action_not_now">暫不</string>
+    <string name="action_allow_access">允許存取</string>
+    <string name="action_open_settings">開啟設定</string>
+    <string name="action_all">全部</string>
+    <string name="action_clear">清除</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">垃圾桶大小</string>
+    <string name="home_ring_sublabel">已刪除的相片和影片，以及應用程式快取</string>
+    <string name="home_storage_line">已使用 %1$s，共 %2$s · %3$d%%</string>
+    <string name="home_button_cleanup">清理</string>
+    <string name="home_button_scanning">掃描中…</string>
+    <string name="home_button_allow_access">允許存取</string>
+    <string name="home_button_nothing_to_clean">無需清理</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">手機工具</string>
+    <string name="home_section_photos_videos">相片與影片</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">大型檔案</string>
+    <string name="tool_large_files_desc">最大的相片、影片和音訊。</string>
+    <string name="tool_duplicates_title">重複檔案</string>
+    <string name="tool_duplicates_desc">完全相同的相片、影片和音訊。</string>
+    <string name="tool_similar_title">相似相片</string>
+    <string name="tool_similar_desc">幾乎一樣的相片，保留最佳的一張。</string>
+    <string name="tool_screenshots_title">螢幕截圖</string>
+    <string name="tool_screenshots_desc">所有螢幕截圖，一次處理。</string>
+    <string name="tool_photo_optimizer_title">相片最佳化</string>
+    <string name="tool_photo_optimizer_desc">壓縮相片，節省空間。</string>
+    <string name="tool_video_optimizer_title">影片最佳化</string>
+    <string name="tool_video_optimizer_desc">壓縮影片，節省空間。</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">活動監測</string>
+    <string name="tool_activity_monitor_badge">24 小時</string>
+    <string name="tool_wifi_security_title">Wi-Fi 安全性</string>
+    <string name="tool_wifi_security_badge">檢查</string>
+    <string name="tool_network_speed_title">網路速度</string>
+    <string name="tool_network_speed_badge">測速</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">清理</string>
+    <string name="cleanup_sheet_message">要清除垃圾桶中的 %1$s 個項目和 %2$s 快取嗎？</string>
+    <string name="cleanup_sheet_detail">這些項目已在 Android 的垃圾桶中，並非相簿裡的相片。Android 會再請您確認一次，且可能稱之為「相片」。不會動到其他任何內容。</string>
+    <string name="cleanup_result_freed">已釋出</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">允許存取媒體</string>
+    <string name="media_disclosure_body">為了找出大型檔案、重複檔案和相似相片，本應用程式需要存取您的相片、影片和音訊。檔案僅在您的裝置上分析，絕不會上傳。</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">大型檔案</string>
+    <string name="large_files_count_line">%1$d 個項目 · %2$s</string>
+    <string name="large_files_empty_title">沒有大型檔案</string>
+    <string name="large_files_empty_message">您的媒體庫很整潔，沒有需要檢視的大型檔案。</string>
+    <string name="large_files_selection_line">已選取 %1$d 項 · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">重複檔案</string>
+    <string name="duplicates_group_count_line">%1$d 組 · 可釋出 %2$s</string>
+    <string name="duplicates_empty_title">沒有重複檔案</string>
+    <string name="duplicates_empty_message">每個相片、影片和音訊檔案都是唯一的。</string>
+    <string name="duplicates_identical_items">%1$d 個相同項目</string>
+    <string name="duplicates_reclaimable_label">可釋出 %1$s</string>
+    <string name="duplicates_keep_label">保留</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">相似相片</string>
+    <string name="similar_group_count_line">%1$d 組 · 可釋出 %2$s</string>
+    <string name="similar_empty_title">沒有相似相片</string>
+    <string name="similar_empty_message">沒有發現近乎重複的內容。</string>
+    <string name="similar_shot_count">%1$d 張相似相片</string>
+    <string name="similar_best_label">最佳</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">螢幕截圖</string>
+    <string name="screenshots_empty_title">沒有螢幕截圖</string>
+    <string name="screenshots_empty_message">此裝置上尚無螢幕截圖。</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">相片最佳化</string>
+    <string name="photo_optimizer_count_line">%1$d 張相片 · %2$s</string>
+    <string name="photo_optimizer_optimizing">正在最佳化 %1$d/%2$d</string>
+    <string name="photo_optimizer_saved_so_far">已節省：%1$s</string>
+    <string name="photo_optimizer_empty_title">沒有可最佳化的相片</string>
+    <string name="photo_optimizer_empty_message">沒有大到值得壓縮的相片。</string>
+    <string name="photo_optimizer_button_optimize">最佳化所選項目</string>
+    <string name="photo_optimizer_button_optimizing">正在最佳化…</string>
+    <string name="photo_optimizer_selected_line">已選取 %1$d 項</string>
+    <string name="photo_optimizer_summary">已最佳化 %1$d 張相片 · 節省 %2$s</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">影片最佳化</string>
+    <string name="video_optimizer_count_line">%1$d 部影片 · %2$s</string>
+    <string name="video_optimizer_optimizing">正在最佳化 %1$d/%2$d</string>
+    <string name="video_optimizer_saved_so_far">已節省：%1$s</string>
+    <string name="video_optimizer_empty_title">沒有可最佳化的影片</string>
+    <string name="video_optimizer_empty_message">沒有大到值得壓縮的影片。</string>
+    <string name="video_optimizer_button_optimize">最佳化所選項目</string>
+    <string name="video_optimizer_button_optimizing">正在最佳化…</string>
+    <string name="video_optimizer_selected_line">已選取 %1$d 項</string>
+    <string name="video_optimizer_summary">已最佳化 %1$d 部影片 · 節省 %2$s</string>
+    <string name="video_preset_high">高畫質</string>
+    <string name="video_preset_balanced">均衡</string>
+    <string name="video_preset_small">小檔案</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">活動監測</string>
+    <string name="activity_monitor_no_access_title">需要使用情況存取權</string>
+    <string name="activity_monitor_no_access_message">請在系統設定中允許「使用情況存取權」，以查看啟動次數和前景使用時間。</string>
+    <string name="activity_monitor_empty_title">沒有活動</string>
+    <string name="activity_monitor_empty_message">過去 24 小時內沒有使用記錄。</string>
+    <string name="activity_monitor_launches">啟動 %1$d 次 · %2$s</string>
+    <string name="activity_monitor_foreground">前景：%1$s</string>
+    <string name="activity_monitor_disclosure_title">使用情況存取權</string>
+    <string name="activity_monitor_disclosure_body">活動監測需要「使用情況存取權」。應用程式會讀取過去 24 小時內您開啟了哪些應用程式、何時開啟以及使用多久。這些資料會保留在您的裝置上，不會上傳或分享。</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Wi-Fi 安全性</string>
+    <string name="wifi_check_internet_title">網際網路連線</string>
+    <string name="wifi_check_internet_connected">已連線。</string>
+    <string name="wifi_check_internet_disconnected">沒有作用中的連線。</string>
+    <string name="wifi_check_encryption_title">加密與驗證</string>
+    <string name="wifi_check_unavailable">此裝置無法使用</string>
+    <string name="wifi_check_ssl_strip_title">憑證檢查</string>
+    <string name="wifi_check_ssl_strip_detected">警告。無法驗證測試網站的憑證。此網路上的某人可能正在攔截加密流量。</string>
+    <string name="wifi_check_ssl_strip_safe">通過。測試網站的憑證有效。</string>
+    <string name="wifi_check_ssl_split_title">Proxy 檢查</string>
+    <string name="wifi_check_ssl_split_detected">此連線設有 Proxy。您的流量可能會經過其他伺服器。</string>
+    <string name="wifi_check_ssl_split_safe">未偵測到 Proxy。</string>
+    <string name="wifi_check_checked_at">檢查時間：%1$s</string>
+    <string name="wifi_check_rerun">重新檢查</string>
+    <string name="wifi_check_error">無法檢查連線。</string>
+    <string name="wifi_check_inspect_failed">無法檢查此連線。</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">網路速度</string>
+    <string name="network_speed_ready">測量您的下載速度。</string>
+    <string name="network_speed_preparing">準備中</string>
+    <string name="network_speed_testing">正在測試下載速度</string>
+    <string name="network_speed_transferred">已傳輸 %1$s</string>
+    <string name="network_speed_download_label">下載速度</string>
+    <string name="network_speed_transferred_detail">%2$d 秒內傳輸了 %1$s</string>
+    <string name="network_speed_failed">測試失敗</string>
+    <string name="network_speed_button_start">開始測試</string>
+    <string name="network_speed_button_testing">測試中…</string>
+    <string name="network_speed_button_again">再測一次</string>
+    <string name="network_speed_button_retry">重試</string>
+    <string name="network_speed_footnote">僅測量下載，不測量上傳和延遲。</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">設定</string>
+    <string name="settings_theme">主題</string>
+    <string name="settings_theme_light">淺色</string>
+    <string name="settings_theme_dark">深色</string>
+    <string name="settings_theme_system">跟隨系統</string>
+    <string name="settings_language">語言</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_notifications_on">開啟</string>
+    <string name="settings_notifications_off">關閉</string>
+    <string name="settings_notifications_allow">允許通知</string>
+    <string name="settings_notifications_weekly">每週清理提醒</string>
+    <string name="settings_notifications_storage">儲存空間提醒</string>
+    <string name="settings_go_pro">升級 Pro</string>
+    <string name="settings_pro_active">Pro · 已啟用</string>
+    <string name="settings_pro_remove_ads">移除廣告</string>
+    <string name="settings_restore_purchase">恢復購買</string>
+    <string name="settings_share_app">分享此應用程式</string>
+    <string name="settings_rate_app">為此應用程式評分</string>
+    <string name="settings_privacy_policy">隱私權政策</string>
+    <string name="settings_terms">服務條款</string>
+    <string name="settings_support">支援</string>
+    <string name="settings_about">關於</string>
+    <string name="settings_about_version">版本 %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">您已是 Pro 使用者</string>
+    <string name="pro_active_body">廣告已移除。感謝您支持 CleanKoach。</string>
+    <string name="pro_upsell_title">移除廣告</string>
+    <string name="pro_upsell_body">Pro 可移除所有廣告。所有功能皆免費。</string>
+    <string name="pro_button_upgrade">升級</string>
+    <string name="pro_button_restore">恢復購買</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">關於</string>
+    <string name="about_body">原生 Android 儲存空間清理工具。一切都在裝置本機執行。絕不上傳任何媒體、使用資料或掃描結果。</string>
+    <string name="about_built_with">使用 Kotlin、Jetpack Compose 和 Material 3 建置。</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">清理提醒</string>
+    <string name="channel_cleanup_description">每週提醒您檢視大型檔案和重複檔案。</string>
+    <string name="channel_storage_name">儲存空間提醒</string>
+    <string name="channel_storage_description">裝置儲存空間不足時提醒。</string>
+    <string name="notification_cleanup_title">該清理了</string>
+    <string name="notification_cleanup_body">檢視大型檔案、重複檔案和螢幕截圖。</string>
+    <string name="notification_storage_title">儲存空間已使用 %1$d%%</string>
+    <string name="notification_storage_body">檢視大型檔案以釋出空間。</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">廣告</string>
+
+    <!-- Share text -->
+    <string name="share_text">刪除重複檔案、相似相片和大型檔案，釋出手機儲存空間：%1$s</string>
+
+    <string name="language_system">系統預設</string>
+    <string name="scan_progress_files">正在檢查 %1$s/%2$s 個檔案</string>
+    <string name="settings_licenses">開放原始碼授權</string>
+    <string name="licenses_title">開放原始碼授權</string>
+    <string name="licenses_intro">CleanKoach 使用下列開放原始碼軟體建置。</string>
+    <string name="toast_no_browser">找不到可開啟此連結的瀏覽器。</string>
+    <string name="toast_no_mail">此裝置上找不到電子郵件應用程式。</string>
+    <string name="support_mail_subject">CleanKoach 支援 (v%1$s)</string>
+    <string name="support_mail_body">Android 版本：%1$s\n裝置：%2$s\n\n請在下方描述您遇到的問題：\n\n</string>
+    <string name="pro_unavailable">目前無法使用</string>
+    <string name="pro_pending">您的付款正在處理中，完成後將立即解鎖 Pro。</string>
+    <string name="pro_button_upgrade_price">以 %1$s 升級</string>
+    <string name="duplicates_delete_line">待刪除 %1$d 項 · %2$s</string>
+    <string name="network_speed_error">無法連線至測試伺服器。請檢查網路連線後再試一次。</string>
+    <string name="home_partial_access_message">相片存取權受限。CleanKoach 只能看到您選取的相片和影片。</string>
+    <string name="home_partial_access_action">全部允許</string>
+    <string name="home_nothing_to_clean_message">目前無需清理</string>
+    <string name="wifi_encryption_open">開放</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">廣告隱私權選項</string>
+</resources>

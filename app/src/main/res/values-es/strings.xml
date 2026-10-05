@@ -180,17 +180,6 @@
     <string name="about_body">Limpieza de almacenamiento nativa para Android. Todo se ejecuta en el dispositivo. Ni los medios, ni los datos de uso, ni los resultados de análisis se suben nunca.</string>
     <string name="about_built_with">Hecha con Kotlin, Jetpack Compose y Material 3.</string>
 
-    <string name="language_en">English</string>
-    <string name="language_es">Español</string>
-    <string name="language_pt">Português</string>
-    <string name="language_fr">Français</string>
-    <string name="language_de">Deutsch</string>
-    <string name="language_it">Italiano</string>
-    <string name="language_hi">हिन्दी</string>
-    <string name="language_in">Bahasa Indonesia</string>
-    <string name="language_ja">日本語</string>
-    <string name="language_ko">한국어</string>
-    <string name="language_ru">Русский</string>
 
     <string name="channel_cleanup_name">Recordatorios de limpieza</string>
     <string name="channel_cleanup_description">Recordatorios semanales para revisar archivos grandes y duplicados.</string>

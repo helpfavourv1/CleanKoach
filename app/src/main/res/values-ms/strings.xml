@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Kembali</string>
+    <string name="cd_settings">Tetapan</string>
+    <string name="action_done">Selesai</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_delete">Padam</string>
+    <string name="action_continue">Teruskan</string>
+    <string name="action_not_now">Bukan sekarang</string>
+    <string name="action_allow_access">Benarkan akses</string>
+    <string name="action_open_settings">Buka tetapan</string>
+    <string name="action_all">Semua</string>
+    <string name="action_clear">Kosongkan</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">Saiz tong sampah</string>
+    <string name="home_ring_sublabel">Foto dan video dalam tong sampah serta cache apl</string>
+    <string name="home_storage_line">%1$s daripada %2$s digunakan · %3$d%%</string>
+    <string name="home_button_cleanup">BERSIHKAN</string>
+    <string name="home_button_scanning">Mengimbas…</string>
+    <string name="home_button_allow_access">Benarkan akses</string>
+    <string name="home_button_nothing_to_clean">Tiada apa untuk dibersihkan</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">Alat Telefon</string>
+    <string name="home_section_photos_videos">Foto &amp; Video</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">Fail besar</string>
+    <string name="tool_large_files_desc">Foto, video dan audio terbesar.</string>
+    <string name="tool_duplicates_title">Pendua</string>
+    <string name="tool_duplicates_desc">Foto, video dan audio yang serupa.</string>
+    <string name="tool_similar_title">Foto serupa</string>
+    <string name="tool_similar_desc">Gambar hampir sama, simpan yang terbaik.</string>
+    <string name="tool_screenshots_title">Tangkapan skrin</string>
+    <string name="tool_screenshots_desc">Semua tangkapan skrin, sekali gus.</string>
+    <string name="tool_photo_optimizer_title">Pengoptimum foto</string>
+    <string name="tool_photo_optimizer_desc">Mampatkan foto, jimat ruang.</string>
+    <string name="tool_video_optimizer_title">Pengoptimum video</string>
+    <string name="tool_video_optimizer_desc">Mampatkan video, jimat ruang.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">Monitor Aktiviti</string>
+    <string name="tool_activity_monitor_badge">24 J</string>
+    <string name="tool_wifi_security_title">Keselamatan Wi-Fi</string>
+    <string name="tool_wifi_security_badge">Semak</string>
+    <string name="tool_network_speed_title">Kelajuan Rangkaian</string>
+    <string name="tool_network_speed_badge">Uji</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">Bersihkan</string>
+    <string name="cleanup_sheet_message">Kosongkan %1$s item dalam tong sampah dan %2$s cache?</string>
+    <string name="cleanup_sheet_detail">Item ini sudah berada dalam tong sampah Android, bukan foto dalam galeri anda. Android akan meminta pengesahan sekali lagi dan mungkin menyebutnya “foto”. Tiada yang lain akan disentuh.</string>
+    <string name="cleanup_result_freed">Dibebaskan</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">Benarkan akses media</string>
+    <string name="media_disclosure_body">Untuk mencari fail besar, pendua dan foto serupa, apl ini memerlukan akses kepada foto, video dan audio anda. Fail dianalisis pada peranti anda dan tidak pernah dimuat naik.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">Fail besar</string>
+    <string name="large_files_count_line">%1$d item · %2$s</string>
+    <string name="large_files_empty_title">Tiada fail besar</string>
+    <string name="large_files_empty_message">Pustaka anda kelihatan kemas. Tiada fail besar untuk disemak.</string>
+    <string name="large_files_selection_line">%1$d dipilih · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">Pendua</string>
+    <string name="duplicates_group_count_line">%1$d kumpulan · %2$s boleh dituntut semula</string>
+    <string name="duplicates_empty_title">Tiada pendua</string>
+    <string name="duplicates_empty_message">Setiap fail foto, video dan audio adalah unik.</string>
+    <string name="duplicates_identical_items">%1$d item serupa</string>
+    <string name="duplicates_reclaimable_label">%1$s boleh dituntut semula</string>
+    <string name="duplicates_keep_label">Simpan</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">Foto serupa</string>
+    <string name="similar_group_count_line">%1$d kumpulan · %2$s boleh dituntut semula</string>
+    <string name="similar_empty_title">Tiada foto serupa</string>
+    <string name="similar_empty_message">Tiada apa yang kelihatan hampir sama.</string>
+    <string name="similar_shot_count">%1$d gambar serupa</string>
+    <string name="similar_best_label">Terbaik</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">Tangkapan skrin</string>
+    <string name="screenshots_empty_title">Tiada tangkapan skrin</string>
+    <string name="screenshots_empty_message">Belum ada apa-apa ditangkap pada peranti ini.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">Pengoptimum foto</string>
+    <string name="photo_optimizer_count_line">%1$d foto · %2$s</string>
+    <string name="photo_optimizer_optimizing">Mengoptimum %1$d daripada %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Dijimatkan setakat ini: %1$s</string>
+    <string name="photo_optimizer_empty_title">Tiada foto untuk dioptimumkan</string>
+    <string name="photo_optimizer_empty_message">Tiada yang cukup besar untuk dimampatkan.</string>
+    <string name="photo_optimizer_button_optimize">Optimumkan pilihan</string>
+    <string name="photo_optimizer_button_optimizing">Mengoptimum…</string>
+    <string name="photo_optimizer_selected_line">%1$d dipilih</string>
+    <string name="photo_optimizer_summary">%1$d foto dioptimumkan · dijimatkan %2$s</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">Pengoptimum video</string>
+    <string name="video_optimizer_count_line">%1$d video · %2$s</string>
+    <string name="video_optimizer_optimizing">Mengoptimum %1$d daripada %2$d</string>
+    <string name="video_optimizer_saved_so_far">Dijimatkan setakat ini: %1$s</string>
+    <string name="video_optimizer_empty_title">Tiada video untuk dioptimumkan</string>
+    <string name="video_optimizer_empty_message">Tiada yang cukup besar untuk dimampatkan.</string>
+    <string name="video_optimizer_button_optimize">Optimumkan pilihan</string>
+    <string name="video_optimizer_button_optimizing">Mengoptimum…</string>
+    <string name="video_optimizer_selected_line">%1$d dipilih</string>
+    <string name="video_optimizer_summary">%1$d video dioptimumkan · dijimatkan %2$s</string>
+    <string name="video_preset_high">Kualiti tinggi</string>
+    <string name="video_preset_balanced">Seimbang</string>
+    <string name="video_preset_small">Fail kecil</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">Monitor Aktiviti</string>
+    <string name="activity_monitor_no_access_title">Akses penggunaan diperlukan</string>
+    <string name="activity_monitor_no_access_message">Benarkan Akses Penggunaan dalam tetapan sistem untuk melihat bilangan pelancaran dan masa latar depan.</string>
+    <string name="activity_monitor_empty_title">Tiada aktiviti</string>
+    <string name="activity_monitor_empty_message">Tiada apa digunakan dalam 24 jam lepas.</string>
+    <string name="activity_monitor_launches">%1$d pelancaran · %2$s</string>
+    <string name="activity_monitor_foreground">Latar depan: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Akses Penggunaan</string>
+    <string name="activity_monitor_disclosure_body">Monitor Aktiviti memerlukan Akses Penggunaan. Apl membaca apl yang anda buka, bila dan berapa lama dalam tempoh 24 jam lepas. Data ini kekal pada peranti anda dan tidak dimuat naik atau dikongsi.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Keselamatan Wi-Fi</string>
+    <string name="wifi_check_internet_title">Akses internet</string>
+    <string name="wifi_check_internet_connected">Disambungkan.</string>
+    <string name="wifi_check_internet_disconnected">Tiada sambungan aktif.</string>
+    <string name="wifi_check_encryption_title">Penyulitan dan pengesahan</string>
+    <string name="wifi_check_unavailable">tidak tersedia pada peranti ini</string>
+    <string name="wifi_check_ssl_strip_title">Semakan sijil</string>
+    <string name="wifi_check_ssl_strip_detected">Amaran. Sijil tapak ujian tidak dapat disahkan. Seseorang pada rangkaian ini mungkin memintas trafik selamat.</string>
+    <string name="wifi_check_ssl_strip_safe">Lulus. Sijil tapak ujian adalah sah.</string>
+    <string name="wifi_check_ssl_split_title">Semakan proksi</string>
+    <string name="wifi_check_ssl_split_detected">Proksi ditetapkan pada sambungan ini. Trafik anda mungkin melalui pelayan lain.</string>
+    <string name="wifi_check_ssl_split_safe">Tiada proksi dikesan.</string>
+    <string name="wifi_check_checked_at">Disemak %1$s</string>
+    <string name="wifi_check_rerun">Semak semula</string>
+    <string name="wifi_check_error">Tidak dapat memeriksa sambungan.</string>
+    <string name="wifi_check_inspect_failed">Tidak dapat memeriksa sambungan ini.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">Kelajuan Rangkaian</string>
+    <string name="network_speed_ready">Ukur kelajuan muat turun anda.</string>
+    <string name="network_speed_preparing">Bersiap</string>
+    <string name="network_speed_testing">Menguji kelajuan muat turun</string>
+    <string name="network_speed_transferred">%1$s dipindahkan</string>
+    <string name="network_speed_download_label">Kelajuan muat turun</string>
+    <string name="network_speed_transferred_detail">%1$s dipindahkan dalam %2$d saat</string>
+    <string name="network_speed_failed">Ujian gagal</string>
+    <string name="network_speed_button_start">Mulakan ujian</string>
+    <string name="network_speed_button_testing">Menguji…</string>
+    <string name="network_speed_button_again">Uji semula</string>
+    <string name="network_speed_button_retry">Cuba lagi</string>
+    <string name="network_speed_footnote">Muat turun sahaja. Muat naik dan ping tidak diukur.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">Tetapan</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_light">Cerah</string>
+    <string name="settings_theme_dark">Gelap</string>
+    <string name="settings_theme_system">Sistem</string>
+    <string name="settings_language">Bahasa</string>
+    <string name="settings_notifications">Pemberitahuan</string>
+    <string name="settings_notifications_on">Hidup</string>
+    <string name="settings_notifications_off">Mati</string>
+    <string name="settings_notifications_allow">Benarkan pemberitahuan</string>
+    <string name="settings_notifications_weekly">Peringatan pembersihan mingguan</string>
+    <string name="settings_notifications_storage">Amaran storan</string>
+    <string name="settings_go_pro">Dapatkan Pro</string>
+    <string name="settings_pro_active">Pro · aktif</string>
+    <string name="settings_pro_remove_ads">Buang iklan</string>
+    <string name="settings_restore_purchase">Pulihkan pembelian</string>
+    <string name="settings_share_app">Kongsi apl ini</string>
+    <string name="settings_rate_app">Nilai apl ini</string>
+    <string name="settings_privacy_policy">Dasar privasi</string>
+    <string name="settings_terms">Syarat perkhidmatan</string>
+    <string name="settings_support">Sokongan</string>
+    <string name="settings_about">Perihal</string>
+    <string name="settings_about_version">Versi %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Anda menggunakan Pro</string>
+    <string name="pro_active_body">Iklan telah dibuang. Terima kasih kerana menyokong CleanKoach.</string>
+    <string name="pro_upsell_title">Buang iklan</string>
+    <string name="pro_upsell_body">Pro membuang semua iklan. Setiap ciri adalah percuma.</string>
+    <string name="pro_button_upgrade">Naik taraf</string>
+    <string name="pro_button_restore">Pulihkan pembelian</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">Perihal</string>
+    <string name="about_body">Pembersihan storan Android asli. Semuanya berjalan pada peranti. Tiada media, data penggunaan atau hasil imbasan yang dimuat naik.</string>
+    <string name="about_built_with">Dibina dengan Kotlin, Jetpack Compose dan Material 3.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">Peringatan pembersihan</string>
+    <string name="channel_cleanup_description">Peringatan mingguan untuk menyemak fail besar dan pendua.</string>
+    <string name="channel_storage_name">Amaran storan</string>
+    <string name="channel_storage_description">Amaran apabila storan peranti hampir penuh.</string>
+    <string name="notification_cleanup_title">Masa untuk membersihkan</string>
+    <string name="notification_cleanup_body">Semak fail besar, pendua dan tangkapan skrin.</string>
+    <string name="notification_storage_title">Storan %1$d%% penuh</string>
+    <string name="notification_storage_body">Semak fail besar untuk mengosongkan ruang.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">Iklan</string>
+
+    <!-- Share text -->
+    <string name="share_text">Kosongkan storan telefon dengan memadam pendua, foto serupa dan fail besar: %1$s</string>
+
+    <string name="language_system">Lalai sistem</string>
+    <string name="scan_progress_files">Memeriksa %1$s daripada %2$s fail</string>
+    <string name="settings_licenses">Lesen sumber terbuka</string>
+    <string name="licenses_title">Lesen sumber terbuka</string>
+    <string name="licenses_intro">CleanKoach dibina dengan perisian sumber terbuka yang disenaraikan di bawah.</string>
+    <string name="toast_no_browser">Tiada pelayar ditemui untuk membuka pautan ini.</string>
+    <string name="toast_no_mail">Tiada apl e-mel ditemui pada peranti ini.</string>
+    <string name="support_mail_subject">Sokongan CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">Versi Android: %1$s\nPeranti: %2$s\n\nSila huraikan masalah anda di bawah:\n\n</string>
+    <string name="pro_unavailable">Tidak tersedia sekarang</string>
+    <string name="pro_pending">Pembayaran anda belum selesai. Pro akan dibuka sebaik sahaja selesai.</string>
+    <string name="pro_button_upgrade_price">Naik taraf dengan %1$s</string>
+    <string name="duplicates_delete_line">%1$d untuk dipadam · %2$s</string>
+    <string name="network_speed_error">Tidak dapat menghubungi pelayan ujian. Semak sambungan anda dan cuba lagi.</string>
+    <string name="home_partial_access_message">Akses foto terhad. CleanKoach hanya dapat melihat foto dan video yang anda pilih.</string>
+    <string name="home_partial_access_action">Benarkan semua</string>
+    <string name="home_nothing_to_clean_message">Tiada apa untuk dibersihkan sekarang</string>
+    <string name="wifi_encryption_open">Terbuka</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">Pilihan privasi iklan</string>
+</resources>

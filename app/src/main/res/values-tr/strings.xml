@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Geri</string>
+    <string name="cd_settings">Ayarlar</string>
+    <string name="action_done">Bitti</string>
+    <string name="action_cancel">İptal</string>
+    <string name="action_delete">Sil</string>
+    <string name="action_continue">Devam</string>
+    <string name="action_not_now">Şimdi değil</string>
+    <string name="action_allow_access">Erişime izin ver</string>
+    <string name="action_open_settings">Ayarları aç</string>
+    <string name="action_all">Tümü</string>
+    <string name="action_clear">Temizle</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">Çöp boyutu</string>
+    <string name="home_ring_sublabel">Çöpteki fotoğraflar, videolar ve uygulama önbelleği</string>
+    <string name="home_storage_line">%1$s / %2$s kullanıldı · %3$d%%</string>
+    <string name="home_button_cleanup">TEMİZLE</string>
+    <string name="home_button_scanning">Taranıyor…</string>
+    <string name="home_button_allow_access">Erişime izin ver</string>
+    <string name="home_button_nothing_to_clean">Temizlenecek bir şey yok</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">Telefon Araçları</string>
+    <string name="home_section_photos_videos">Fotoğraflar ve Videolar</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">Büyük dosyalar</string>
+    <string name="tool_large_files_desc">En büyük fotoğraf, video ve ses dosyaları.</string>
+    <string name="tool_duplicates_title">Kopyalar</string>
+    <string name="tool_duplicates_desc">Aynı fotoğraf, video ve ses dosyaları.</string>
+    <string name="tool_similar_title">Benzer fotoğraflar</string>
+    <string name="tool_similar_desc">Birbirine çok benzeyen kareler, en iyisini tutun.</string>
+    <string name="tool_screenshots_title">Ekran görüntüleri</string>
+    <string name="tool_screenshots_desc">Tüm ekran görüntüleri, tek seferde.</string>
+    <string name="tool_photo_optimizer_title">Fotoğraf optimize edici</string>
+    <string name="tool_photo_optimizer_desc">Fotoğrafları sıkıştırın, yer kazanın.</string>
+    <string name="tool_video_optimizer_title">Video optimize edici</string>
+    <string name="tool_video_optimizer_desc">Videoları sıkıştırın, yer kazanın.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">Etkinlik İzleyici</string>
+    <string name="tool_activity_monitor_badge">24 S</string>
+    <string name="tool_wifi_security_title">Wi-Fi Güvenliği</string>
+    <string name="tool_wifi_security_badge">Kontrol</string>
+    <string name="tool_network_speed_title">Ağ Hızı</string>
+    <string name="tool_network_speed_badge">Test</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">Temizle</string>
+    <string name="cleanup_sheet_message">Çöpteki %1$s öğe ve %2$s önbellek temizlensin mi?</string>
+    <string name="cleanup_sheet_detail">Bu öğeler zaten Android\'in çöp kutusunda, galerinizdeki fotoğraflar değil. Android bir kez daha onay isteyecek ve bunlara “fotoğraf” diyebilir. Başka hiçbir şeye dokunulmaz.</string>
+    <string name="cleanup_result_freed">Boşaltıldı</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">Medya erişimine izin ver</string>
+    <string name="media_disclosure_body">Büyük dosyaları, kopyaları ve benzer fotoğrafları bulmak için bu uygulamanın fotoğraflarınıza, videolarınıza ve ses dosyalarınıza erişmesi gerekir. Dosyalar cihazınızda analiz edilir ve asla yüklenmez.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">Büyük dosyalar</string>
+    <string name="large_files_count_line">%1$d öğe · %2$s</string>
+    <string name="large_files_empty_title">Büyük dosya yok</string>
+    <string name="large_files_empty_message">Kitaplığınız düzenli görünüyor. İncelenecek büyük dosya yok.</string>
+    <string name="large_files_selection_line">%1$d seçili · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">Kopyalar</string>
+    <string name="duplicates_group_count_line">%1$d grup · %2$s kazanılabilir</string>
+    <string name="duplicates_empty_title">Kopya yok</string>
+    <string name="duplicates_empty_message">Tüm fotoğraf, video ve ses dosyaları benzersiz.</string>
+    <string name="duplicates_identical_items">%1$d aynı öğe</string>
+    <string name="duplicates_reclaimable_label">%1$s kazanılabilir</string>
+    <string name="duplicates_keep_label">Tut</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">Benzer fotoğraflar</string>
+    <string name="similar_group_count_line">%1$d grup · %2$s kazanılabilir</string>
+    <string name="similar_empty_title">Benzer fotoğraf yok</string>
+    <string name="similar_empty_message">Burada kopyaya benzeyen bir şey yok.</string>
+    <string name="similar_shot_count">%1$d benzer kare</string>
+    <string name="similar_best_label">En iyi</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">Ekran görüntüleri</string>
+    <string name="screenshots_empty_title">Ekran görüntüsü yok</string>
+    <string name="screenshots_empty_message">Bu cihazda henüz bir şey yakalanmadı.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">Fotoğraf optimize edici</string>
+    <string name="photo_optimizer_count_line">%1$d fotoğraf · %2$s</string>
+    <string name="photo_optimizer_optimizing">Optimize ediliyor: %1$d / %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Şu ana kadar kazanılan: %1$s</string>
+    <string name="photo_optimizer_empty_title">Optimize edilecek fotoğraf yok</string>
+    <string name="photo_optimizer_empty_message">Sıkıştırmaya değecek kadar büyük bir şey yok.</string>
+    <string name="photo_optimizer_button_optimize">Seçilenleri optimize et</string>
+    <string name="photo_optimizer_button_optimizing">Optimize ediliyor…</string>
+    <string name="photo_optimizer_selected_line">%1$d seçili</string>
+    <string name="photo_optimizer_summary">%1$d fotoğraf optimize edildi · %2$s kazanıldı</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">Video optimize edici</string>
+    <string name="video_optimizer_count_line">%1$d video · %2$s</string>
+    <string name="video_optimizer_optimizing">Optimize ediliyor: %1$d / %2$d</string>
+    <string name="video_optimizer_saved_so_far">Şu ana kadar kazanılan: %1$s</string>
+    <string name="video_optimizer_empty_title">Optimize edilecek video yok</string>
+    <string name="video_optimizer_empty_message">Sıkıştırmaya değecek kadar büyük bir şey yok.</string>
+    <string name="video_optimizer_button_optimize">Seçilenleri optimize et</string>
+    <string name="video_optimizer_button_optimizing">Optimize ediliyor…</string>
+    <string name="video_optimizer_selected_line">%1$d seçili</string>
+    <string name="video_optimizer_summary">%1$d video optimize edildi · %2$s kazanıldı</string>
+    <string name="video_preset_high">Yüksek kalite</string>
+    <string name="video_preset_balanced">Dengeli</string>
+    <string name="video_preset_small">Küçük dosya</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">Etkinlik İzleyici</string>
+    <string name="activity_monitor_no_access_title">Kullanım erişimi gerekli</string>
+    <string name="activity_monitor_no_access_message">Açılışları ve ön plan süresini görmek için sistem ayarlarında Kullanım Erişimi\'ne izin verin.</string>
+    <string name="activity_monitor_empty_title">Etkinlik yok</string>
+    <string name="activity_monitor_empty_message">Son 24 saatte kullanılan bir şey yok.</string>
+    <string name="activity_monitor_launches">%1$d açılış · %2$s</string>
+    <string name="activity_monitor_foreground">Ön planda: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Kullanım Erişimi</string>
+    <string name="activity_monitor_disclosure_body">Etkinlik İzleyici için Kullanım Erişimi gerekir. Uygulama, son 24 saatte hangi uygulamaları ne zaman ve ne kadar süre açtığınızı okur. Bu veriler cihazınızda kalır, yüklenmez ve paylaşılmaz.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Wi-Fi Güvenliği</string>
+    <string name="wifi_check_internet_title">İnternet erişimi</string>
+    <string name="wifi_check_internet_connected">Bağlı.</string>
+    <string name="wifi_check_internet_disconnected">Etkin bağlantı yok.</string>
+    <string name="wifi_check_encryption_title">Şifreleme ve kimlik doğrulama</string>
+    <string name="wifi_check_unavailable">bu cihazda kullanılamıyor</string>
+    <string name="wifi_check_ssl_strip_title">Sertifika kontrolü</string>
+    <string name="wifi_check_ssl_strip_detected">Uyarı. Bir test sitesinin sertifikası doğrulanamadı. Bu ağdaki biri güvenli trafiği ele geçiriyor olabilir.</string>
+    <string name="wifi_check_ssl_strip_safe">Başarılı. Test sitesinin sertifikası geçerli.</string>
+    <string name="wifi_check_ssl_split_title">Proxy kontrolü</string>
+    <string name="wifi_check_ssl_split_detected">Bu bağlantıda bir proxy ayarlı. Trafiğiniz başka bir sunucudan geçebilir.</string>
+    <string name="wifi_check_ssl_split_safe">Proxy algılanmadı.</string>
+    <string name="wifi_check_checked_at">Kontrol: %1$s</string>
+    <string name="wifi_check_rerun">Kontrolleri yeniden çalıştır</string>
+    <string name="wifi_check_error">Bağlantı incelenemedi.</string>
+    <string name="wifi_check_inspect_failed">Bu bağlantı incelenemedi.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">Ağ Hızı</string>
+    <string name="network_speed_ready">İndirme hızınızı ölçün.</string>
+    <string name="network_speed_preparing">Hazırlanıyor</string>
+    <string name="network_speed_testing">İndirme hızı test ediliyor</string>
+    <string name="network_speed_transferred">%1$s aktarıldı</string>
+    <string name="network_speed_download_label">İndirme hızı</string>
+    <string name="network_speed_transferred_detail">%2$d sn içinde %1$s aktarıldı</string>
+    <string name="network_speed_failed">Test başarısız</string>
+    <string name="network_speed_button_start">Testi başlat</string>
+    <string name="network_speed_button_testing">Test ediliyor…</string>
+    <string name="network_speed_button_again">Yeniden test et</string>
+    <string name="network_speed_button_retry">Tekrar dene</string>
+    <string name="network_speed_footnote">Yalnızca indirme. Yükleme ve ping ölçülmez.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_light">Açık</string>
+    <string name="settings_theme_dark">Koyu</string>
+    <string name="settings_theme_system">Sistem</string>
+    <string name="settings_language">Dil</string>
+    <string name="settings_notifications">Bildirimler</string>
+    <string name="settings_notifications_on">Açık</string>
+    <string name="settings_notifications_off">Kapalı</string>
+    <string name="settings_notifications_allow">Bildirimlere izin ver</string>
+    <string name="settings_notifications_weekly">Haftalık temizlik hatırlatıcısı</string>
+    <string name="settings_notifications_storage">Depolama uyarıları</string>
+    <string name="settings_go_pro">Pro\'ya geç</string>
+    <string name="settings_pro_active">Pro · etkin</string>
+    <string name="settings_pro_remove_ads">Reklamları kaldır</string>
+    <string name="settings_restore_purchase">Satın alımı geri yükle</string>
+    <string name="settings_share_app">Uygulamayı paylaş</string>
+    <string name="settings_rate_app">Uygulamayı puanla</string>
+    <string name="settings_privacy_policy">Gizlilik politikası</string>
+    <string name="settings_terms">Hizmet şartları</string>
+    <string name="settings_support">Destek</string>
+    <string name="settings_about">Hakkında</string>
+    <string name="settings_about_version">Sürüm %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Pro kullanıyorsunuz</string>
+    <string name="pro_active_body">Reklamlar kaldırıldı. CleanKoach\'a destek olduğunuz için teşekkür ederiz.</string>
+    <string name="pro_upsell_title">Reklamları kaldır</string>
+    <string name="pro_upsell_body">Pro tüm reklamları kaldırır. Tüm özellikler ücretsizdir.</string>
+    <string name="pro_button_upgrade">Yükselt</string>
+    <string name="pro_button_restore">Satın alımı geri yükle</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">Hakkında</string>
+    <string name="about_body">Yerel Android depolama temizliği. Her şey cihazda çalışır. Hiçbir medya, kullanım verisi veya tarama sonucu asla yüklenmez.</string>
+    <string name="about_built_with">Kotlin, Jetpack Compose ve Material 3 ile geliştirildi.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">Temizlik hatırlatıcıları</string>
+    <string name="channel_cleanup_description">Büyük dosyaları ve kopyaları incelemek için haftalık hatırlatıcılar.</string>
+    <string name="channel_storage_name">Depolama uyarıları</string>
+    <string name="channel_storage_description">Cihaz depolama alanı azaldığında uyarılar.</string>
+    <string name="notification_cleanup_title">Temizlik zamanı</string>
+    <string name="notification_cleanup_body">Büyük dosyaları, kopyaları ve ekran görüntülerini inceleyin.</string>
+    <string name="notification_storage_title">Depolama alanı %%%1$d dolu</string>
+    <string name="notification_storage_body">Yer açmak için büyük dosyaları inceleyin.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">Reklam</string>
+
+    <!-- Share text -->
+    <string name="share_text">Kopyaları, benzer fotoğrafları ve büyük dosyaları silerek telefon depolama alanı açın: %1$s</string>
+
+    <string name="language_system">Sistem varsayılanı</string>
+    <string name="scan_progress_files">%2$s dosyadan %1$s kontrol ediliyor</string>
+    <string name="settings_licenses">Açık kaynak lisansları</string>
+    <string name="licenses_title">Açık kaynak lisansları</string>
+    <string name="licenses_intro">CleanKoach, aşağıda listelenen açık kaynaklı yazılımlarla geliştirilmiştir.</string>
+    <string name="toast_no_browser">Bu bağlantıyı açacak tarayıcı bulunamadı.</string>
+    <string name="toast_no_mail">Bu cihazda e-posta uygulaması bulunamadı.</string>
+    <string name="support_mail_subject">CleanKoach desteği (v%1$s)</string>
+    <string name="support_mail_body">Android sürümü: %1$s\nCihaz: %2$s\n\nLütfen sorununuzu aşağıda açıklayın:\n\n</string>
+    <string name="pro_unavailable">Şu anda kullanılamıyor</string>
+    <string name="pro_pending">Ödemeniz beklemede. Pro, ödeme tamamlanır tamamlanmaz açılır.</string>
+    <string name="pro_button_upgrade_price">%1$s karşılığında yükselt</string>
+    <string name="duplicates_delete_line">%1$d silinecek · %2$s</string>
+    <string name="network_speed_error">Test sunucusuna ulaşılamadı. Bağlantınızı kontrol edip tekrar deneyin.</string>
+    <string name="home_partial_access_message">Sınırlı fotoğraf erişimi. CleanKoach yalnızca seçtiğiniz fotoğrafları ve videoları görebilir.</string>
+    <string name="home_partial_access_action">Tümüne izin ver</string>
+    <string name="home_nothing_to_clean_message">Şu anda temizlenecek bir şey yok</string>
+    <string name="wifi_encryption_open">Açık</string>
+    <string name="wifi_encryption_owe">Gelişmiş Açık</string>
+    <string name="settings_privacy_options">Reklam gizliliği seçenekleri</string>
+</resources>

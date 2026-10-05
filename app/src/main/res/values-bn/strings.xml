@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">পেছনে যান</string>
+    <string name="cd_settings">সেটিংস</string>
+    <string name="action_done">সম্পন্ন</string>
+    <string name="action_cancel">বাতিল</string>
+    <string name="action_delete">মুছুন</string>
+    <string name="action_continue">চালিয়ে যান</string>
+    <string name="action_not_now">এখন নয়</string>
+    <string name="action_allow_access">অ্যাক্সেস দিন</string>
+    <string name="action_open_settings">সেটিংস খুলুন</string>
+    <string name="action_all">সব</string>
+    <string name="action_clear">সাফ করুন</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">ট্র্যাশের আকার</string>
+    <string name="home_ring_sublabel">ট্র্যাশে থাকা ছবি ও ভিডিও এবং অ্যাপ ক্যাশ</string>
+    <string name="home_storage_line">%2$s-এর মধ্যে %1$s ব্যবহৃত · %3$d%%</string>
+    <string name="home_button_cleanup">পরিষ্কার করুন</string>
+    <string name="home_button_scanning">স্ক্যান হচ্ছে…</string>
+    <string name="home_button_allow_access">অ্যাক্সেস দিন</string>
+    <string name="home_button_nothing_to_clean">পরিষ্কার করার কিছু নেই</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">ফোন টুলস</string>
+    <string name="home_section_photos_videos">ছবি ও ভিডিও</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">বড় ফাইল</string>
+    <string name="tool_large_files_desc">সবচেয়ে বড় ছবি, ভিডিও ও অডিও।</string>
+    <string name="tool_duplicates_title">ডুপ্লিকেট</string>
+    <string name="tool_duplicates_desc">হুবহু একই ছবি, ভিডিও ও অডিও।</string>
+    <string name="tool_similar_title">একই রকম ছবি</string>
+    <string name="tool_similar_desc">প্রায় একই ছবি, সেরাটি রাখুন।</string>
+    <string name="tool_screenshots_title">স্ক্রিনশট</string>
+    <string name="tool_screenshots_desc">সব স্ক্রিনশট, একবারেই।</string>
+    <string name="tool_photo_optimizer_title">ছবি অপ্টিমাইজার</string>
+    <string name="tool_photo_optimizer_desc">ছবি কমপ্রেস করে জায়গা বাঁচান।</string>
+    <string name="tool_video_optimizer_title">ভিডিও অপ্টিমাইজার</string>
+    <string name="tool_video_optimizer_desc">ভিডিও কমপ্রেস করে জায়গা বাঁচান।</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">অ্যাক্টিভিটি মনিটর</string>
+    <string name="tool_activity_monitor_badge">২৪ ঘণ্টা</string>
+    <string name="tool_wifi_security_title">Wi-Fi নিরাপত্তা</string>
+    <string name="tool_wifi_security_badge">যাচাই</string>
+    <string name="tool_network_speed_title">নেটওয়ার্ক স্পিড</string>
+    <string name="tool_network_speed_badge">টেস্ট</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">পরিষ্কার করুন</string>
+    <string name="cleanup_sheet_message">ট্র্যাশের %1$s টি আইটেম ও %2$s ক্যাশ সাফ করবেন?</string>
+    <string name="cleanup_sheet_detail">এই আইটেমগুলো আগে থেকেই Android-এর ট্র্যাশে আছে, আপনার গ্যালারির ছবি নয়। Android আরও একবার নিশ্চিত করতে বলবে এবং এগুলোকে “ছবি” বলতে পারে। আর কিছুতে হাত দেওয়া হবে না।</string>
+    <string name="cleanup_result_freed">খালি হয়েছে</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">মিডিয়া অ্যাক্সেস দিন</string>
+    <string name="media_disclosure_body">বড় ফাইল, ডুপ্লিকেট ও একই রকম ছবি খুঁজতে এই অ্যাপের আপনার ছবি, ভিডিও ও অডিওতে অ্যাক্সেস লাগবে। ফাইল আপনার ডিভাইসেই বিশ্লেষণ করা হয় এবং কখনও আপলোড করা হয় না।</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">বড় ফাইল</string>
+    <string name="large_files_count_line">%1$d টি আইটেম · %2$s</string>
+    <string name="large_files_empty_title">কোনো বড় ফাইল নেই</string>
+    <string name="large_files_empty_message">আপনার লাইব্রেরি গোছানো আছে। দেখার মতো বড় কিছু নেই।</string>
+    <string name="large_files_selection_line">%1$d টি বাছাই · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">ডুপ্লিকেট</string>
+    <string name="duplicates_group_count_line">%1$d টি গ্রুপ · %2$s ফেরত পাওয়া যাবে</string>
+    <string name="duplicates_empty_title">কোনো ডুপ্লিকেট নেই</string>
+    <string name="duplicates_empty_message">প্রতিটি ছবি, ভিডিও ও অডিও ফাইল আলাদা।</string>
+    <string name="duplicates_identical_items">%1$d টি হুবহু একই আইটেম</string>
+    <string name="duplicates_reclaimable_label">%1$s ফেরত পাওয়া যাবে</string>
+    <string name="duplicates_keep_label">রাখুন</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">একই রকম ছবি</string>
+    <string name="similar_group_count_line">%1$d টি গ্রুপ · %2$s ফেরত পাওয়া যাবে</string>
+    <string name="similar_empty_title">একই রকম ছবি নেই</string>
+    <string name="similar_empty_message">প্রায় একই রকম কিছু পাওয়া যায়নি।</string>
+    <string name="similar_shot_count">%1$d টি একই রকম ছবি</string>
+    <string name="similar_best_label">সেরা</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">স্ক্রিনশট</string>
+    <string name="screenshots_empty_title">কোনো স্ক্রিনশট নেই</string>
+    <string name="screenshots_empty_message">এই ডিভাইসে এখনও কিছু নেওয়া হয়নি।</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">ছবি অপ্টিমাইজার</string>
+    <string name="photo_optimizer_count_line">%1$d টি ছবি · %2$s</string>
+    <string name="photo_optimizer_optimizing">%2$d টির মধ্যে %1$d টি অপ্টিমাইজ হচ্ছে</string>
+    <string name="photo_optimizer_saved_so_far">এ পর্যন্ত সাশ্রয়: %1$s</string>
+    <string name="photo_optimizer_empty_title">অপ্টিমাইজ করার মতো ছবি নেই</string>
+    <string name="photo_optimizer_empty_message">কমপ্রেস করার মতো বড় কিছু নেই।</string>
+    <string name="photo_optimizer_button_optimize">বাছাইগুলো অপ্টিমাইজ করুন</string>
+    <string name="photo_optimizer_button_optimizing">অপ্টিমাইজ হচ্ছে…</string>
+    <string name="photo_optimizer_selected_line">%1$d টি বাছাই</string>
+    <string name="photo_optimizer_summary">%1$d টি ছবি অপ্টিমাইজ হয়েছে · %2$s সাশ্রয়</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">ভিডিও অপ্টিমাইজার</string>
+    <string name="video_optimizer_count_line">%1$d টি ভিডিও · %2$s</string>
+    <string name="video_optimizer_optimizing">%2$d টির মধ্যে %1$d টি অপ্টিমাইজ হচ্ছে</string>
+    <string name="video_optimizer_saved_so_far">এ পর্যন্ত সাশ্রয়: %1$s</string>
+    <string name="video_optimizer_empty_title">অপ্টিমাইজ করার মতো ভিডিও নেই</string>
+    <string name="video_optimizer_empty_message">কমপ্রেস করার মতো বড় কিছু নেই।</string>
+    <string name="video_optimizer_button_optimize">বাছাইগুলো অপ্টিমাইজ করুন</string>
+    <string name="video_optimizer_button_optimizing">অপ্টিমাইজ হচ্ছে…</string>
+    <string name="video_optimizer_selected_line">%1$d টি বাছাই</string>
+    <string name="video_optimizer_summary">%1$d টি ভিডিও অপ্টিমাইজ হয়েছে · %2$s সাশ্রয়</string>
+    <string name="video_preset_high">উচ্চ মান</string>
+    <string name="video_preset_balanced">সুষম</string>
+    <string name="video_preset_small">ছোট ফাইল</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">অ্যাক্টিভিটি মনিটর</string>
+    <string name="activity_monitor_no_access_title">ব্যবহারের অ্যাক্সেস দরকার</string>
+    <string name="activity_monitor_no_access_message">অ্যাপ চালু করার সংখ্যা ও ফোরগ্রাউন্ড সময় দেখতে সিস্টেম সেটিংসে ইউসেজ অ্যাক্সেস চালু করুন।</string>
+    <string name="activity_monitor_empty_title">কোনো কার্যকলাপ নেই</string>
+    <string name="activity_monitor_empty_message">গত ২৪ ঘণ্টায় কিছু ব্যবহার করা হয়নি।</string>
+    <string name="activity_monitor_launches">%1$d বার চালু · %2$s</string>
+    <string name="activity_monitor_foreground">ফোরগ্রাউন্ড: %1$s</string>
+    <string name="activity_monitor_disclosure_title">ইউসেজ অ্যাক্সেস</string>
+    <string name="activity_monitor_disclosure_body">অ্যাক্টিভিটি মনিটরের জন্য ইউসেজ অ্যাক্সেস দরকার। অ্যাপটি গত ২৪ ঘণ্টায় আপনি কোন অ্যাপ কখন এবং কতক্ষণ খুলেছেন তা পড়ে। এই তথ্য আপনার ডিভাইসেই থাকে এবং আপলোড বা শেয়ার করা হয় না।</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Wi-Fi নিরাপত্তা</string>
+    <string name="wifi_check_internet_title">ইন্টারনেট অ্যাক্সেস</string>
+    <string name="wifi_check_internet_connected">সংযুক্ত।</string>
+    <string name="wifi_check_internet_disconnected">কোনো সক্রিয় সংযোগ নেই।</string>
+    <string name="wifi_check_encryption_title">এনক্রিপশন ও প্রমাণীকরণ</string>
+    <string name="wifi_check_unavailable">এই ডিভাইসে পাওয়া যায় না</string>
+    <string name="wifi_check_ssl_strip_title">সার্টিফিকেট যাচাই</string>
+    <string name="wifi_check_ssl_strip_detected">সতর্কতা। একটি টেস্ট সাইটের সার্টিফিকেট যাচাই করা যায়নি। এই নেটওয়ার্কের কেউ নিরাপদ ট্র্যাফিক আটকে দেখতে পারে।</string>
+    <string name="wifi_check_ssl_strip_safe">উত্তীর্ণ। টেস্ট সাইটের সার্টিফিকেট বৈধ।</string>
+    <string name="wifi_check_ssl_split_title">প্রক্সি যাচাই</string>
+    <string name="wifi_check_ssl_split_detected">এই সংযোগে একটি প্রক্সি সেট করা আছে। আপনার ট্র্যাফিক অন্য সার্ভার হয়ে যেতে পারে।</string>
+    <string name="wifi_check_ssl_split_safe">কোনো প্রক্সি পাওয়া যায়নি।</string>
+    <string name="wifi_check_checked_at">যাচাই করা হয়েছে %1$s</string>
+    <string name="wifi_check_rerun">আবার যাচাই করুন</string>
+    <string name="wifi_check_error">সংযোগ পরীক্ষা করা যায়নি।</string>
+    <string name="wifi_check_inspect_failed">এই সংযোগ পরীক্ষা করা যায়নি।</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">নেটওয়ার্ক স্পিড</string>
+    <string name="network_speed_ready">আপনার ডাউনলোড স্পিড মাপুন।</string>
+    <string name="network_speed_preparing">প্রস্তুত হচ্ছে</string>
+    <string name="network_speed_testing">ডাউনলোড স্পিড পরীক্ষা হচ্ছে</string>
+    <string name="network_speed_transferred">%1$s স্থানান্তরিত</string>
+    <string name="network_speed_download_label">ডাউনলোড স্পিড</string>
+    <string name="network_speed_transferred_detail">%2$d সেকেন্ডে %1$s স্থানান্তরিত</string>
+    <string name="network_speed_failed">পরীক্ষা ব্যর্থ হয়েছে</string>
+    <string name="network_speed_button_start">টেস্ট শুরু করুন</string>
+    <string name="network_speed_button_testing">পরীক্ষা হচ্ছে…</string>
+    <string name="network_speed_button_again">আবার টেস্ট করুন</string>
+    <string name="network_speed_button_retry">আবার চেষ্টা করুন</string>
+    <string name="network_speed_footnote">শুধু ডাউনলোড। আপলোড ও পিং মাপা হয় না।</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">সেটিংস</string>
+    <string name="settings_theme">থিম</string>
+    <string name="settings_theme_light">হালকা</string>
+    <string name="settings_theme_dark">গাঢ়</string>
+    <string name="settings_theme_system">সিস্টেম</string>
+    <string name="settings_language">ভাষা</string>
+    <string name="settings_notifications">বিজ্ঞপ্তি</string>
+    <string name="settings_notifications_on">চালু</string>
+    <string name="settings_notifications_off">বন্ধ</string>
+    <string name="settings_notifications_allow">বিজ্ঞপ্তি চালু করুন</string>
+    <string name="settings_notifications_weekly">সাপ্তাহিক পরিষ্কারের অনুস্মারক</string>
+    <string name="settings_notifications_storage">স্টোরেজ সতর্কতা</string>
+    <string name="settings_go_pro">Pro নিন</string>
+    <string name="settings_pro_active">Pro · সক্রিয়</string>
+    <string name="settings_pro_remove_ads">বিজ্ঞাপন সরান</string>
+    <string name="settings_restore_purchase">ক্রয় পুনরুদ্ধার করুন</string>
+    <string name="settings_share_app">অ্যাপটি শেয়ার করুন</string>
+    <string name="settings_rate_app">অ্যাপটি রেটিং দিন</string>
+    <string name="settings_privacy_policy">গোপনীয়তা নীতি</string>
+    <string name="settings_terms">পরিষেবার শর্তাবলি</string>
+    <string name="settings_support">সহায়তা</string>
+    <string name="settings_about">পরিচিতি</string>
+    <string name="settings_about_version">সংস্করণ %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">আপনি Pro ব্যবহার করছেন</string>
+    <string name="pro_active_body">বিজ্ঞাপন সরানো হয়েছে। CleanKoach-কে সমর্থন করার জন্য ধন্যবাদ।</string>
+    <string name="pro_upsell_title">বিজ্ঞাপন সরান</string>
+    <string name="pro_upsell_body">Pro সব বিজ্ঞাপন সরিয়ে দেয়। সব ফিচার বিনামূল্যে।</string>
+    <string name="pro_button_upgrade">আপগ্রেড</string>
+    <string name="pro_button_restore">ক্রয় পুনরুদ্ধার করুন</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">পরিচিতি</string>
+    <string name="about_body">নেটিভ Android স্টোরেজ পরিষ্কার করার অ্যাপ। সবকিছু ডিভাইসেই চলে। কোনো মিডিয়া, ব্যবহারের তথ্য বা স্ক্যান ফলাফল কখনও আপলোড করা হয় না।</string>
+    <string name="about_built_with">Kotlin, Jetpack Compose ও Material 3 দিয়ে তৈরি।</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">পরিষ্কারের অনুস্মারক</string>
+    <string name="channel_cleanup_description">বড় ফাইল ও ডুপ্লিকেট দেখার সাপ্তাহিক অনুস্মারক।</string>
+    <string name="channel_storage_name">স্টোরেজ সতর্কতা</string>
+    <string name="channel_storage_description">ডিভাইসের স্টোরেজ কমে এলে সতর্কতা।</string>
+    <string name="notification_cleanup_title">পরিষ্কার করার সময় হয়েছে</string>
+    <string name="notification_cleanup_body">বড় ফাইল, ডুপ্লিকেট ও স্ক্রিনশট দেখে নিন।</string>
+    <string name="notification_storage_title">স্টোরেজ %1$d%% ভর্তি</string>
+    <string name="notification_storage_body">জায়গা খালি করতে বড় ফাইল দেখুন।</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">বিজ্ঞাপন</string>
+
+    <!-- Share text -->
+    <string name="share_text">ডুপ্লিকেট, একই রকম ছবি ও বড় ফাইল মুছে ফোনের স্টোরেজ খালি করুন: %1$s</string>
+
+    <string name="language_system">সিস্টেম ডিফল্ট</string>
+    <string name="scan_progress_files">%2$s টির মধ্যে %1$s টি ফাইল যাচাই হচ্ছে</string>
+    <string name="settings_licenses">ওপেন-সোর্স লাইসেন্স</string>
+    <string name="licenses_title">ওপেন-সোর্স লাইসেন্স</string>
+    <string name="licenses_intro">CleanKoach নিচে তালিকাভুক্ত ওপেন-সোর্স সফটওয়্যার দিয়ে তৈরি।</string>
+    <string name="toast_no_browser">এই লিংক খোলার জন্য কোনো ব্রাউজার পাওয়া যায়নি।</string>
+    <string name="toast_no_mail">এই ডিভাইসে কোনো ইমেল অ্যাপ পাওয়া যায়নি।</string>
+    <string name="support_mail_subject">CleanKoach সহায়তা (v%1$s)</string>
+    <string name="support_mail_body">Android সংস্করণ: %1$s\nডিভাইস: %2$s\n\nনিচে আপনার সমস্যার বিবরণ লিখুন:\n\n</string>
+    <string name="pro_unavailable">এখন উপলব্ধ নয়</string>
+    <string name="pro_pending">আপনার পেমেন্ট অপেক্ষমাণ। সম্পন্ন হলেই Pro চালু হবে।</string>
+    <string name="pro_button_upgrade_price">%1$s-এ আপগ্রেড করুন</string>
+    <string name="duplicates_delete_line">%1$d টি মুছবে · %2$s</string>
+    <string name="network_speed_error">টেস্ট সার্ভারে পৌঁছানো যায়নি। সংযোগ পরীক্ষা করে আবার চেষ্টা করুন।</string>
+    <string name="home_partial_access_message">ছবিতে সীমিত অ্যাক্সেস। CleanKoach শুধু আপনার বাছাই করা ছবি ও ভিডিও দেখতে পায়।</string>
+    <string name="home_partial_access_action">সব অনুমতি দিন</string>
+    <string name="home_nothing_to_clean_message">এখন পরিষ্কার করার কিছু নেই</string>
+    <string name="wifi_encryption_open">উন্মুক্ত</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">বিজ্ঞাপনের গোপনীয়তা বিকল্প</string>
+</resources>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">返回</string>
+    <string name="cd_settings">设置</string>
+    <string name="action_done">完成</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_delete">删除</string>
+    <string name="action_continue">继续</string>
+    <string name="action_not_now">暂不</string>
+    <string name="action_allow_access">允许访问</string>
+    <string name="action_open_settings">打开设置</string>
+    <string name="action_all">全部</string>
+    <string name="action_clear">清空</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">回收站大小</string>
+    <string name="home_ring_sublabel">已删除的照片和视频，以及应用缓存</string>
+    <string name="home_storage_line">已用 %1$s，共 %2$s · %3$d%%</string>
+    <string name="home_button_cleanup">清理</string>
+    <string name="home_button_scanning">正在扫描…</string>
+    <string name="home_button_allow_access">允许访问</string>
+    <string name="home_button_nothing_to_clean">无需清理</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">手机工具</string>
+    <string name="home_section_photos_videos">照片和视频</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">大文件</string>
+    <string name="tool_large_files_desc">最大的照片、视频和音频。</string>
+    <string name="tool_duplicates_title">重复文件</string>
+    <string name="tool_duplicates_desc">完全相同的照片、视频和音频。</string>
+    <string name="tool_similar_title">相似照片</string>
+    <string name="tool_similar_desc">几乎一样的照片，保留最佳一张。</string>
+    <string name="tool_screenshots_title">截图</string>
+    <string name="tool_screenshots_desc">所有截图，一次处理。</string>
+    <string name="tool_photo_optimizer_title">照片优化</string>
+    <string name="tool_photo_optimizer_desc">压缩照片，节省空间。</string>
+    <string name="tool_video_optimizer_title">视频优化</string>
+    <string name="tool_video_optimizer_desc">压缩视频，节省空间。</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">活动监测</string>
+    <string name="tool_activity_monitor_badge">24 小时</string>
+    <string name="tool_wifi_security_title">Wi-Fi 安全</string>
+    <string name="tool_wifi_security_badge">检测</string>
+    <string name="tool_network_speed_title">网速</string>
+    <string name="tool_network_speed_badge">测速</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">清理</string>
+    <string name="cleanup_sheet_message">清空回收站中的 %1$s 个项目和 %2$s 缓存？</string>
+    <string name="cleanup_sheet_detail">这些项目已在 Android 回收站中，并非图库里的照片。Android 会再次请您确认，并可能称之为“照片”。不会触及其他任何内容。</string>
+    <string name="cleanup_result_freed">已释放</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">允许访问媒体</string>
+    <string name="media_disclosure_body">为了查找大文件、重复文件和相似照片，本应用需要访问您的照片、视频和音频。文件仅在您的设备上分析，绝不会上传。</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">大文件</string>
+    <string name="large_files_count_line">%1$d 个项目 · %2$s</string>
+    <string name="large_files_empty_title">没有大文件</string>
+    <string name="large_files_empty_message">您的媒体库很整洁，没有需要查看的大文件。</string>
+    <string name="large_files_selection_line">已选 %1$d 项 · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">重复文件</string>
+    <string name="duplicates_group_count_line">%1$d 组 · 可释放 %2$s</string>
+    <string name="duplicates_empty_title">没有重复文件</string>
+    <string name="duplicates_empty_message">每个照片、视频和音频文件都是唯一的。</string>
+    <string name="duplicates_identical_items">%1$d 个相同项目</string>
+    <string name="duplicates_reclaimable_label">可释放 %1$s</string>
+    <string name="duplicates_keep_label">保留</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">相似照片</string>
+    <string name="similar_group_count_line">%1$d 组 · 可释放 %2$s</string>
+    <string name="similar_empty_title">没有相似照片</string>
+    <string name="similar_empty_message">没有发现近乎重复的内容。</string>
+    <string name="similar_shot_count">%1$d 张相似照片</string>
+    <string name="similar_best_label">最佳</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">截图</string>
+    <string name="screenshots_empty_title">没有截图</string>
+    <string name="screenshots_empty_message">此设备上还没有截图。</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">照片优化</string>
+    <string name="photo_optimizer_count_line">%1$d 张照片 · %2$s</string>
+    <string name="photo_optimizer_optimizing">正在优化 %1$d/%2$d</string>
+    <string name="photo_optimizer_saved_so_far">已节省：%1$s</string>
+    <string name="photo_optimizer_empty_title">没有可优化的照片</string>
+    <string name="photo_optimizer_empty_message">没有大到值得压缩的照片。</string>
+    <string name="photo_optimizer_button_optimize">优化所选项</string>
+    <string name="photo_optimizer_button_optimizing">正在优化…</string>
+    <string name="photo_optimizer_selected_line">已选 %1$d 项</string>
+    <string name="photo_optimizer_summary">已优化 %1$d 张照片 · 节省 %2$s</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">视频优化</string>
+    <string name="video_optimizer_count_line">%1$d 个视频 · %2$s</string>
+    <string name="video_optimizer_optimizing">正在优化 %1$d/%2$d</string>
+    <string name="video_optimizer_saved_so_far">已节省：%1$s</string>
+    <string name="video_optimizer_empty_title">没有可优化的视频</string>
+    <string name="video_optimizer_empty_message">没有大到值得压缩的视频。</string>
+    <string name="video_optimizer_button_optimize">优化所选项</string>
+    <string name="video_optimizer_button_optimizing">正在优化…</string>
+    <string name="video_optimizer_selected_line">已选 %1$d 项</string>
+    <string name="video_optimizer_summary">已优化 %1$d 个视频 · 节省 %2$s</string>
+    <string name="video_preset_high">高画质</string>
+    <string name="video_preset_balanced">均衡</string>
+    <string name="video_preset_small">小文件</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">活动监测</string>
+    <string name="activity_monitor_no_access_title">需要使用情况访问权限</string>
+    <string name="activity_monitor_no_access_message">请在系统设置中允许“使用情况访问”，以查看启动次数和前台使用时长。</string>
+    <string name="activity_monitor_empty_title">暂无活动</string>
+    <string name="activity_monitor_empty_message">过去 24 小时内没有使用记录。</string>
+    <string name="activity_monitor_launches">启动 %1$d 次 · %2$s</string>
+    <string name="activity_monitor_foreground">前台：%1$s</string>
+    <string name="activity_monitor_disclosure_title">使用情况访问</string>
+    <string name="activity_monitor_disclosure_body">活动监测需要“使用情况访问”权限。应用会读取过去 24 小时内您打开了哪些应用、何时打开以及使用时长。这些数据保留在您的设备上，不会上传或分享。</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Wi-Fi 安全</string>
+    <string name="wifi_check_internet_title">互联网连接</string>
+    <string name="wifi_check_internet_connected">已连接。</string>
+    <string name="wifi_check_internet_disconnected">没有活动的连接。</string>
+    <string name="wifi_check_encryption_title">加密与认证</string>
+    <string name="wifi_check_unavailable">此设备上不可用</string>
+    <string name="wifi_check_ssl_strip_title">证书检查</string>
+    <string name="wifi_check_ssl_strip_detected">警告。无法验证测试网站的证书。此网络上的某人可能正在拦截加密流量。</string>
+    <string name="wifi_check_ssl_strip_safe">通过。测试网站的证书有效。</string>
+    <string name="wifi_check_ssl_split_title">代理检查</string>
+    <string name="wifi_check_ssl_split_detected">此连接设置了代理。您的流量可能经过其他服务器。</string>
+    <string name="wifi_check_ssl_split_safe">未检测到代理。</string>
+    <string name="wifi_check_checked_at">检查于 %1$s</string>
+    <string name="wifi_check_rerun">重新检查</string>
+    <string name="wifi_check_error">无法检查连接。</string>
+    <string name="wifi_check_inspect_failed">无法检查此连接。</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">网速</string>
+    <string name="network_speed_ready">测量您的下载速度。</string>
+    <string name="network_speed_preparing">正在准备</string>
+    <string name="network_speed_testing">正在测试下载速度</string>
+    <string name="network_speed_transferred">已传输 %1$s</string>
+    <string name="network_speed_download_label">下载速度</string>
+    <string name="network_speed_transferred_detail">%2$d 秒内传输了 %1$s</string>
+    <string name="network_speed_failed">测试失败</string>
+    <string name="network_speed_button_start">开始测试</string>
+    <string name="network_speed_button_testing">正在测试…</string>
+    <string name="network_speed_button_again">再次测试</string>
+    <string name="network_speed_button_retry">重试</string>
+    <string name="network_speed_footnote">仅测量下载，不测量上传和延迟。</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">设置</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_theme_light">浅色</string>
+    <string name="settings_theme_dark">深色</string>
+    <string name="settings_theme_system">跟随系统</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_notifications_on">开</string>
+    <string name="settings_notifications_off">关</string>
+    <string name="settings_notifications_allow">允许通知</string>
+    <string name="settings_notifications_weekly">每周清理提醒</string>
+    <string name="settings_notifications_storage">存储空间提醒</string>
+    <string name="settings_go_pro">升级 Pro</string>
+    <string name="settings_pro_active">Pro · 已启用</string>
+    <string name="settings_pro_remove_ads">移除广告</string>
+    <string name="settings_restore_purchase">恢复购买</string>
+    <string name="settings_share_app">分享此应用</string>
+    <string name="settings_rate_app">为此应用评分</string>
+    <string name="settings_privacy_policy">隐私政策</string>
+    <string name="settings_terms">服务条款</string>
+    <string name="settings_support">支持</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_about_version">版本 %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">您已是 Pro 用户</string>
+    <string name="pro_active_body">广告已移除。感谢您支持 CleanKoach。</string>
+    <string name="pro_upsell_title">移除广告</string>
+    <string name="pro_upsell_body">Pro 可移除所有广告。所有功能均免费。</string>
+    <string name="pro_button_upgrade">升级</string>
+    <string name="pro_button_restore">恢复购买</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">关于</string>
+    <string name="about_body">原生 Android 存储清理工具。一切都在设备本地运行。绝不上传任何媒体、使用数据或扫描结果。</string>
+    <string name="about_built_with">使用 Kotlin、Jetpack Compose 和 Material 3 构建。</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">清理提醒</string>
+    <string name="channel_cleanup_description">每周提醒您查看大文件和重复文件。</string>
+    <string name="channel_storage_name">存储空间提醒</string>
+    <string name="channel_storage_description">设备存储空间不足时提醒。</string>
+    <string name="notification_cleanup_title">该清理了</string>
+    <string name="notification_cleanup_body">查看大文件、重复文件和截图。</string>
+    <string name="notification_storage_title">存储空间已用 %1$d%%</string>
+    <string name="notification_storage_body">查看大文件以释放空间。</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">广告</string>
+
+    <!-- Share text -->
+    <string name="share_text">删除重复文件、相似照片和大文件，释放手机存储空间：%1$s</string>
+
+    <string name="language_system">系统默认</string>
+    <string name="scan_progress_files">正在检查 %1$s/%2$s 个文件</string>
+    <string name="settings_licenses">开源许可</string>
+    <string name="licenses_title">开源许可</string>
+    <string name="licenses_intro">CleanKoach 使用下列开源软件构建。</string>
+    <string name="toast_no_browser">未找到可打开此链接的浏览器。</string>
+    <string name="toast_no_mail">此设备上未找到电子邮件应用。</string>
+    <string name="support_mail_subject">CleanKoach 支持 (v%1$s)</string>
+    <string name="support_mail_body">Android 版本：%1$s\n设备：%2$s\n\n请在下方描述您遇到的问题：\n\n</string>
+    <string name="pro_unavailable">暂不可用</string>
+    <string name="pro_pending">您的付款正在处理中，完成后将立即解锁 Pro。</string>
+    <string name="pro_button_upgrade_price">以 %1$s 升级</string>
+    <string name="duplicates_delete_line">待删除 %1$d 项 · %2$s</string>
+    <string name="network_speed_error">无法连接测试服务器。请检查网络连接后重试。</string>
+    <string name="home_partial_access_message">照片访问受限。CleanKoach 只能看到您选择的照片和视频。</string>
+    <string name="home_partial_access_action">允许全部</string>
+    <string name="home_nothing_to_clean_message">目前无需清理</string>
+    <string name="wifi_encryption_open">开放</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">广告隐私选项</string>
+</resources>

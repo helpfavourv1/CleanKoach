@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Takaisin</string>
+    <string name="cd_settings">Asetukset</string>
+    <string name="action_done">Valmis</string>
+    <string name="action_cancel">Peruuta</string>
+    <string name="action_delete">Poista</string>
+    <string name="action_continue">Jatka</string>
+    <string name="action_not_now">Ei nyt</string>
+    <string name="action_allow_access">Salli käyttö</string>
+    <string name="action_open_settings">Avaa asetukset</string>
+    <string name="action_all">Kaikki</string>
+    <string name="action_clear">Tyhjennä</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">Roskakorin koko</string>
+    <string name="home_ring_sublabel">Poistetut kuvat ja videot sekä sovellusten välimuisti</string>
+    <string name="home_storage_line">%1$s / %2$s käytössä · %3$d%%</string>
+    <string name="home_button_cleanup">SIIVOA</string>
+    <string name="home_button_scanning">Skannataan…</string>
+    <string name="home_button_allow_access">Salli käyttö</string>
+    <string name="home_button_nothing_to_clean">Ei siivottavaa</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">Puhelimen työkalut</string>
+    <string name="home_section_photos_videos">Kuvat &amp; videot</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">Suuret tiedostot</string>
+    <string name="tool_large_files_desc">Suurimmat kuvat, videot ja äänitiedostot.</string>
+    <string name="tool_duplicates_title">Kaksoiskappaleet</string>
+    <string name="tool_duplicates_desc">Identtiset kuvat, videot ja äänitiedostot.</string>
+    <string name="tool_similar_title">Samankaltaiset kuvat</string>
+    <string name="tool_similar_desc">Lähes samanlaiset otokset, säilytä paras.</string>
+    <string name="tool_screenshots_title">Kuvakaappaukset</string>
+    <string name="tool_screenshots_desc">Kaikki kuvakaappaukset kerralla.</string>
+    <string name="tool_photo_optimizer_title">Kuvien optimointi</string>
+    <string name="tool_photo_optimizer_desc">Pakkaa kuvat ja säästä tilaa.</string>
+    <string name="tool_video_optimizer_title">Videoiden optimointi</string>
+    <string name="tool_video_optimizer_desc">Pakkaa videot ja säästä tilaa.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">Toimintaseuranta</string>
+    <string name="tool_activity_monitor_badge">24 H</string>
+    <string name="tool_wifi_security_title">Wi-Fi-turvallisuus</string>
+    <string name="tool_wifi_security_badge">Tarkista</string>
+    <string name="tool_network_speed_title">Verkon nopeus</string>
+    <string name="tool_network_speed_badge">Testi</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">Siivoa</string>
+    <string name="cleanup_sheet_message">Tyhjennetäänkö roskakorista kohteita: %1$s ja välimuistia: %2$s?</string>
+    <string name="cleanup_sheet_detail">Nämä kohteet ovat jo Androidin roskakorissa, eivätkä ne ole galleriasi kuvia. Android pyytää vahvistamaan vielä kerran ja voi kutsua niitä ”kuviksi”. Mitään muuta ei kosketa.</string>
+    <string name="cleanup_result_freed">Vapautettu</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">Salli median käyttö</string>
+    <string name="media_disclosure_body">Suurten tiedostojen, kaksoiskappaleiden ja samankaltaisten kuvien löytämiseksi sovellus tarvitsee pääsyn kuviisi, videoihisi ja äänitiedostoihisi. Tiedostot analysoidaan laitteellasi, eikä niitä koskaan lähetetä minnekään.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">Suuret tiedostot</string>
+    <string name="large_files_count_line">Kohteita: %1$d · %2$s</string>
+    <string name="large_files_empty_title">Ei suuria tiedostoja</string>
+    <string name="large_files_empty_message">Kirjastosi näyttää siistiltä. Ei suuria tarkistettavia tiedostoja.</string>
+    <string name="large_files_selection_line">Valittu: %1$d · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">Kaksoiskappaleet</string>
+    <string name="duplicates_group_count_line">Ryhmiä: %1$d · %2$s vapautettavissa</string>
+    <string name="duplicates_empty_title">Ei kaksoiskappaleita</string>
+    <string name="duplicates_empty_message">Jokainen kuva, video ja äänitiedosto on yksilöllinen.</string>
+    <string name="duplicates_identical_items">Identtisiä kohteita: %1$d</string>
+    <string name="duplicates_reclaimable_label">%1$s vapautettavissa</string>
+    <string name="duplicates_keep_label">Säilytä</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">Samankaltaiset kuvat</string>
+    <string name="similar_group_count_line">Ryhmiä: %1$d · %2$s vapautettavissa</string>
+    <string name="similar_empty_title">Ei samankaltaisia kuvia</string>
+    <string name="similar_empty_message">Mikään täällä ei näytä lähes identtiseltä kaksoiskappaleelta.</string>
+    <string name="similar_shot_count">Samankaltaisia otoksia: %1$d</string>
+    <string name="similar_best_label">Paras</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">Kuvakaappaukset</string>
+    <string name="screenshots_empty_title">Ei kuvakaappauksia</string>
+    <string name="screenshots_empty_message">Tällä laitteella ei ole vielä otettu kuvakaappauksia.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">Kuvien optimointi</string>
+    <string name="photo_optimizer_count_line">Kuvia: %1$d · %2$s</string>
+    <string name="photo_optimizer_optimizing">Optimoidaan %1$d / %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Säästetty tähän mennessä: %1$s</string>
+    <string name="photo_optimizer_empty_title">Ei optimoitavia kuvia</string>
+    <string name="photo_optimizer_empty_message">Mikään ei ole tarpeeksi suuri pakattavaksi.</string>
+    <string name="photo_optimizer_button_optimize">Optimoi valitut</string>
+    <string name="photo_optimizer_button_optimizing">Optimoidaan…</string>
+    <string name="photo_optimizer_selected_line">Valittu: %1$d</string>
+    <string name="photo_optimizer_summary">Optimoitu kuvia: %1$d · säästetty %2$s</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">Videoiden optimointi</string>
+    <string name="video_optimizer_count_line">Videoita: %1$d · %2$s</string>
+    <string name="video_optimizer_optimizing">Optimoidaan %1$d / %2$d</string>
+    <string name="video_optimizer_saved_so_far">Säästetty tähän mennessä: %1$s</string>
+    <string name="video_optimizer_empty_title">Ei optimoitavia videoita</string>
+    <string name="video_optimizer_empty_message">Mikään ei ole tarpeeksi suuri pakattavaksi.</string>
+    <string name="video_optimizer_button_optimize">Optimoi valitut</string>
+    <string name="video_optimizer_button_optimizing">Optimoidaan…</string>
+    <string name="video_optimizer_selected_line">Valittu: %1$d</string>
+    <string name="video_optimizer_summary">Optimoitu videoita: %1$d · säästetty %2$s</string>
+    <string name="video_preset_high">Korkea laatu</string>
+    <string name="video_preset_balanced">Tasapainoinen</string>
+    <string name="video_preset_small">Pieni tiedosto</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">Toimintaseuranta</string>
+    <string name="activity_monitor_no_access_title">Käyttötietojen käyttöoikeus vaaditaan</string>
+    <string name="activity_monitor_no_access_message">Salli käyttötietojen käyttö järjestelmäasetuksissa nähdäksesi käynnistykset ja etualan ajan.</string>
+    <string name="activity_monitor_empty_title">Ei toimintaa</string>
+    <string name="activity_monitor_empty_message">Mitään ei ole käytetty viimeisen 24 tunnin aikana.</string>
+    <string name="activity_monitor_launches">Käynnistyksiä: %1$d · %2$s</string>
+    <string name="activity_monitor_foreground">Etualalla: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Käyttötietojen käyttöoikeus</string>
+    <string name="activity_monitor_disclosure_body">Toimintaseuranta tarvitsee käyttötietojen käyttöoikeuden. Sovellus lukee, mitä sovelluksia avasit, milloin ja kuinka pitkään viimeisen 24 tunnin aikana. Nämä tiedot pysyvät laitteellasi, eikä niitä lähetetä tai jaeta.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Wi-Fi-turvallisuus</string>
+    <string name="wifi_check_internet_title">Internetyhteys</string>
+    <string name="wifi_check_internet_connected">Yhdistetty.</string>
+    <string name="wifi_check_internet_disconnected">Ei aktiivista yhteyttä.</string>
+    <string name="wifi_check_encryption_title">Salaus ja todennus</string>
+    <string name="wifi_check_unavailable">ei saatavilla tällä laitteella</string>
+    <string name="wifi_check_ssl_strip_title">Varmennetarkistus</string>
+    <string name="wifi_check_ssl_strip_detected">Varoitus. Testisivuston varmennetta ei voitu vahvistaa. Joku tässä verkossa voi siepata suojattua liikennettä.</string>
+    <string name="wifi_check_ssl_strip_safe">Läpäisty. Testisivuston varmenne on voimassa.</string>
+    <string name="wifi_check_ssl_split_title">Välityspalvelimen tarkistus</string>
+    <string name="wifi_check_ssl_split_detected">Tälle yhteydelle on määritetty välityspalvelin. Liikenteesi voi kulkea toisen palvelimen kautta.</string>
+    <string name="wifi_check_ssl_split_safe">Välityspalvelinta ei havaittu.</string>
+    <string name="wifi_check_checked_at">Tarkistettu %1$s</string>
+    <string name="wifi_check_rerun">Suorita tarkistukset uudelleen</string>
+    <string name="wifi_check_error">Yhteyttä ei voitu tarkastaa.</string>
+    <string name="wifi_check_inspect_failed">Tätä yhteyttä ei voitu tarkastaa.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">Verkon nopeus</string>
+    <string name="network_speed_ready">Mittaa latausnopeutesi.</string>
+    <string name="network_speed_preparing">Valmistellaan</string>
+    <string name="network_speed_testing">Testataan latausnopeutta</string>
+    <string name="network_speed_transferred">%1$s siirretty</string>
+    <string name="network_speed_download_label">Latausnopeus</string>
+    <string name="network_speed_transferred_detail">%1$s siirretty %2$d s aikana</string>
+    <string name="network_speed_failed">Testi epäonnistui</string>
+    <string name="network_speed_button_start">Aloita testi</string>
+    <string name="network_speed_button_testing">Testataan…</string>
+    <string name="network_speed_button_again">Testaa uudelleen</string>
+    <string name="network_speed_button_retry">Yritä uudelleen</string>
+    <string name="network_speed_footnote">Vain lataus. Lähetysnopeutta ja viivettä ei mitata.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">Asetukset</string>
+    <string name="settings_theme">Teema</string>
+    <string name="settings_theme_light">Vaalea</string>
+    <string name="settings_theme_dark">Tumma</string>
+    <string name="settings_theme_system">Järjestelmä</string>
+    <string name="settings_language">Kieli</string>
+    <string name="settings_notifications">Ilmoitukset</string>
+    <string name="settings_notifications_on">Päällä</string>
+    <string name="settings_notifications_off">Pois</string>
+    <string name="settings_notifications_allow">Salli ilmoitukset</string>
+    <string name="settings_notifications_weekly">Viikoittainen siivousmuistutus</string>
+    <string name="settings_notifications_storage">Tallennustilan hälytykset</string>
+    <string name="settings_go_pro">Hanki Pro</string>
+    <string name="settings_pro_active">Pro · aktiivinen</string>
+    <string name="settings_pro_remove_ads">Poista mainokset</string>
+    <string name="settings_restore_purchase">Palauta osto</string>
+    <string name="settings_share_app">Jaa sovellus</string>
+    <string name="settings_rate_app">Arvioi sovellus</string>
+    <string name="settings_privacy_policy">Tietosuojakäytäntö</string>
+    <string name="settings_terms">Käyttöehdot</string>
+    <string name="settings_support">Tuki</string>
+    <string name="settings_about">Tietoja</string>
+    <string name="settings_about_version">Versio %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">Sinulla on Pro</string>
+    <string name="pro_active_body">Mainokset on poistettu. Kiitos, että tuet CleanKoachia.</string>
+    <string name="pro_upsell_title">Poista mainokset</string>
+    <string name="pro_upsell_body">Pro poistaa kaikki mainokset. Kaikki ominaisuudet ovat ilmaisia.</string>
+    <string name="pro_button_upgrade">Päivitä</string>
+    <string name="pro_button_restore">Palauta osto</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">Tietoja</string>
+    <string name="about_body">Natiivi Android-tallennustilan siivous. Kaikki toimii laitteella. Mediaa, käyttötietoja tai skannaustuloksia ei koskaan lähetetä minnekään.</string>
+    <string name="about_built_with">Tehty Kotlinilla, Jetpack Composella ja Material 3:lla.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">Siivousmuistutukset</string>
+    <string name="channel_cleanup_description">Viikoittaiset muistutukset suurten tiedostojen ja kaksoiskappaleiden tarkistamisesta.</string>
+    <string name="channel_storage_name">Tallennustilan hälytykset</string>
+    <string name="channel_storage_description">Hälytykset, kun laitteen tallennustila on loppumassa.</string>
+    <string name="notification_cleanup_title">Aika siivota</string>
+    <string name="notification_cleanup_body">Tarkista suuret tiedostot, kaksoiskappaleet ja kuvakaappaukset.</string>
+    <string name="notification_storage_title">Tallennustila on %1$d%% täynnä</string>
+    <string name="notification_storage_body">Tarkista suuret tiedostot vapauttaaksesi tilaa.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">Mainos</string>
+
+    <!-- Share text -->
+    <string name="share_text">Vapauta puhelimen tallennustilaa poistamalla kaksoiskappaleita, samankaltaisia kuvia ja suuria tiedostoja: %1$s</string>
+
+    <string name="language_system">Järjestelmän oletus</string>
+    <string name="scan_progress_files">Tarkistetaan tiedostoja: %1$s / %2$s</string>
+    <string name="settings_licenses">Avoimen lähdekoodin lisenssit</string>
+    <string name="licenses_title">Avoimen lähdekoodin lisenssit</string>
+    <string name="licenses_intro">CleanKoach on tehty alla lueteltuja avoimen lähdekoodin ohjelmistoja käyttäen.</string>
+    <string name="toast_no_browser">Linkin avaamiseen ei löytynyt selainta.</string>
+    <string name="toast_no_mail">Laitteelta ei löytynyt sähköpostisovellusta.</string>
+    <string name="support_mail_subject">CleanKoach-tuki (v%1$s)</string>
+    <string name="support_mail_body">Android-versio: %1$s\nLaite: %2$s\n\nKuvaile ongelmasi alla:\n\n</string>
+    <string name="pro_unavailable">Ei saatavilla juuri nyt</string>
+    <string name="pro_pending">Maksusi on odottamassa. Pro avautuu heti, kun maksu on valmis.</string>
+    <string name="pro_button_upgrade_price">Päivitä hintaan %1$s</string>
+    <string name="duplicates_delete_line">Poistettavia: %1$d · %2$s</string>
+    <string name="network_speed_error">Testipalvelimeen ei saatu yhteyttä. Tarkista yhteytesi ja yritä uudelleen.</string>
+    <string name="home_partial_access_message">Rajoitettu kuvien käyttö. CleanKoach näkee vain valitsemasi kuvat ja videot.</string>
+    <string name="home_partial_access_action">Salli kaikki</string>
+    <string name="home_nothing_to_clean_message">Ei siivottavaa juuri nyt</string>
+    <string name="wifi_encryption_open">Avoin</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">Mainosten tietosuojavalinnat</string>
+</resources>

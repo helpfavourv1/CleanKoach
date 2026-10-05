@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">رجوع</string>
+    <string name="cd_settings">الإعدادات</string>
+    <string name="action_done">تم</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_continue">متابعة</string>
+    <string name="action_not_now">ليس الآن</string>
+    <string name="action_allow_access">السماح بالوصول</string>
+    <string name="action_open_settings">فتح الإعدادات</string>
+    <string name="action_all">الكل</string>
+    <string name="action_clear">مسح</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">حجم سلة المحذوفات</string>
+    <string name="home_ring_sublabel">الصور والفيديوهات المحذوفة بالإضافة إلى ذاكرة التخزين المؤقت للتطبيقات</string>
+    <string name="home_storage_line">استُخدم %1$s من %2$s · %3$d%%</string>
+    <string name="home_button_cleanup">تنظيف</string>
+    <string name="home_button_scanning">جارٍ الفحص…</string>
+    <string name="home_button_allow_access">السماح بالوصول</string>
+    <string name="home_button_nothing_to_clean">لا شيء للتنظيف</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">أدوات الهاتف</string>
+    <string name="home_section_photos_videos">الصور والفيديوهات</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">الملفات الكبيرة</string>
+    <string name="tool_large_files_desc">أكبر الصور والفيديوهات والملفات الصوتية.</string>
+    <string name="tool_duplicates_title">المكررات</string>
+    <string name="tool_duplicates_desc">صور وفيديوهات وملفات صوتية متطابقة.</string>
+    <string name="tool_similar_title">صور متشابهة</string>
+    <string name="tool_similar_desc">لقطات شبه متطابقة، احتفظ بالأفضل.</string>
+    <string name="tool_screenshots_title">لقطات الشاشة</string>
+    <string name="tool_screenshots_desc">كل لقطات الشاشة دفعة واحدة.</string>
+    <string name="tool_photo_optimizer_title">تحسين الصور</string>
+    <string name="tool_photo_optimizer_desc">اضغط الصور ووفّر المساحة.</string>
+    <string name="tool_video_optimizer_title">تحسين الفيديو</string>
+    <string name="tool_video_optimizer_desc">اضغط الفيديوهات ووفّر المساحة.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">مراقب النشاط</string>
+    <string name="tool_activity_monitor_badge">24 س</string>
+    <string name="tool_wifi_security_title">أمان Wi-Fi</string>
+    <string name="tool_wifi_security_badge">فحص</string>
+    <string name="tool_network_speed_title">سرعة الشبكة</string>
+    <string name="tool_network_speed_badge">اختبار</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">تنظيف</string>
+    <string name="cleanup_sheet_message">هل تريد مسح %1$s عنصر من سلة المحذوفات و%2$s من ذاكرة التخزين المؤقت؟</string>
+    <string name="cleanup_sheet_detail">هذه العناصر موجودة بالفعل في سلة محذوفات Android، وليست صورًا في معرض الصور لديك. سيطلب Android تأكيدك مرة أخرى وقد يسميها «صورًا». لن يتم المساس بأي شيء آخر.</string>
+    <string name="cleanup_result_freed">تم تحرير</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">السماح بالوصول إلى الوسائط</string>
+    <string name="media_disclosure_body">للعثور على الملفات الكبيرة والمكررات والصور المتشابهة، يحتاج هذا التطبيق إلى الوصول إلى صورك وفيديوهاتك وملفاتك الصوتية. يتم تحليل الملفات على جهازك ولا يتم رفعها أبدًا.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">الملفات الكبيرة</string>
+    <string name="large_files_count_line">%1$d عنصر · %2$s</string>
+    <string name="large_files_empty_title">لا توجد ملفات كبيرة</string>
+    <string name="large_files_empty_message">مكتبتك تبدو مرتبة. لا توجد ملفات كبيرة للمراجعة.</string>
+    <string name="large_files_selection_line">تم تحديد %1$d · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">المكررات</string>
+    <string name="duplicates_group_count_line">%1$d مجموعة · %2$s قابلة للاسترجاع</string>
+    <string name="duplicates_empty_title">لا توجد مكررات</string>
+    <string name="duplicates_empty_message">كل صورة وفيديو وملف صوتي فريد.</string>
+    <string name="duplicates_identical_items">%1$d عنصر متطابق</string>
+    <string name="duplicates_reclaimable_label">%1$s قابلة للاسترجاع</string>
+    <string name="duplicates_keep_label">إبقاء</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">صور متشابهة</string>
+    <string name="similar_group_count_line">%1$d مجموعة · %2$s قابلة للاسترجاع</string>
+    <string name="similar_empty_title">لا توجد صور متشابهة</string>
+    <string name="similar_empty_message">لا يوجد هنا ما يشبه نسخة مكررة.</string>
+    <string name="similar_shot_count">%1$d لقطة متشابهة</string>
+    <string name="similar_best_label">الأفضل</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">لقطات الشاشة</string>
+    <string name="screenshots_empty_title">لا توجد لقطات شاشة</string>
+    <string name="screenshots_empty_message">لم يتم التقاط أي شيء على هذا الجهاز بعد.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">تحسين الصور</string>
+    <string name="photo_optimizer_count_line">%1$d صورة · %2$s</string>
+    <string name="photo_optimizer_optimizing">جارٍ التحسين %1$d من %2$d</string>
+    <string name="photo_optimizer_saved_so_far">ما تم توفيره حتى الآن: %1$s</string>
+    <string name="photo_optimizer_empty_title">لا توجد صور للتحسين</string>
+    <string name="photo_optimizer_empty_message">لا شيء كبير بما يكفي لضغطه.</string>
+    <string name="photo_optimizer_button_optimize">تحسين المحدد</string>
+    <string name="photo_optimizer_button_optimizing">جارٍ التحسين…</string>
+    <string name="photo_optimizer_selected_line">تم تحديد %1$d</string>
+    <string name="photo_optimizer_summary">تم تحسين %1$d صورة · تم توفير %2$s</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">تحسين الفيديو</string>
+    <string name="video_optimizer_count_line">%1$d فيديو · %2$s</string>
+    <string name="video_optimizer_optimizing">جارٍ التحسين %1$d من %2$d</string>
+    <string name="video_optimizer_saved_so_far">ما تم توفيره حتى الآن: %1$s</string>
+    <string name="video_optimizer_empty_title">لا توجد فيديوهات للتحسين</string>
+    <string name="video_optimizer_empty_message">لا شيء كبير بما يكفي لضغطه.</string>
+    <string name="video_optimizer_button_optimize">تحسين المحدد</string>
+    <string name="video_optimizer_button_optimizing">جارٍ التحسين…</string>
+    <string name="video_optimizer_selected_line">تم تحديد %1$d</string>
+    <string name="video_optimizer_summary">تم تحسين %1$d فيديو · تم توفير %2$s</string>
+    <string name="video_preset_high">جودة عالية</string>
+    <string name="video_preset_balanced">متوازن</string>
+    <string name="video_preset_small">ملف صغير</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">مراقب النشاط</string>
+    <string name="activity_monitor_no_access_title">الوصول إلى الاستخدام مطلوب</string>
+    <string name="activity_monitor_no_access_message">اسمح بالوصول إلى بيانات الاستخدام في إعدادات النظام لعرض مرات التشغيل ووقت العمل في الواجهة.</string>
+    <string name="activity_monitor_empty_title">لا يوجد نشاط</string>
+    <string name="activity_monitor_empty_message">لم يتم استخدام أي شيء خلال آخر 24 ساعة.</string>
+    <string name="activity_monitor_launches">%1$d مرة تشغيل · %2$s</string>
+    <string name="activity_monitor_foreground">في الواجهة: %1$s</string>
+    <string name="activity_monitor_disclosure_title">الوصول إلى الاستخدام</string>
+    <string name="activity_monitor_disclosure_body">يحتاج مراقب النشاط إلى الوصول إلى بيانات الاستخدام. يقرأ التطبيق التطبيقات التي فتحتها ومتى ولكم من الوقت خلال آخر 24 ساعة. تبقى هذه البيانات على جهازك ولا يتم رفعها أو مشاركتها.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">أمان Wi-Fi</string>
+    <string name="wifi_check_internet_title">الوصول إلى الإنترنت</string>
+    <string name="wifi_check_internet_connected">متصل.</string>
+    <string name="wifi_check_internet_disconnected">لا يوجد اتصال نشط.</string>
+    <string name="wifi_check_encryption_title">التشفير والمصادقة</string>
+    <string name="wifi_check_unavailable">غير متاح على هذا الجهاز</string>
+    <string name="wifi_check_ssl_strip_title">فحص الشهادة</string>
+    <string name="wifi_check_ssl_strip_detected">تحذير. تعذر التحقق من شهادة موقع الاختبار. قد يعترض شخص ما على هذه الشبكة حركة البيانات الآمنة.</string>
+    <string name="wifi_check_ssl_strip_safe">ناجح. شهادة موقع الاختبار صالحة.</string>
+    <string name="wifi_check_ssl_split_title">فحص الوكيل</string>
+    <string name="wifi_check_ssl_split_detected">تم تعيين وكيل (Proxy) على هذا الاتصال. قد تمر بياناتك عبر خادم آخر.</string>
+    <string name="wifi_check_ssl_split_safe">لم يتم اكتشاف وكيل.</string>
+    <string name="wifi_check_checked_at">تم الفحص %1$s</string>
+    <string name="wifi_check_rerun">إعادة الفحص</string>
+    <string name="wifi_check_error">تعذر فحص الاتصال.</string>
+    <string name="wifi_check_inspect_failed">تعذر فحص هذا الاتصال.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">سرعة الشبكة</string>
+    <string name="network_speed_ready">قِس سرعة التنزيل لديك.</string>
+    <string name="network_speed_preparing">جارٍ التحضير</string>
+    <string name="network_speed_testing">جارٍ اختبار سرعة التنزيل</string>
+    <string name="network_speed_transferred">تم نقل %1$s</string>
+    <string name="network_speed_download_label">سرعة التنزيل</string>
+    <string name="network_speed_transferred_detail">تم نقل %1$s خلال %2$d ثانية</string>
+    <string name="network_speed_failed">فشل الاختبار</string>
+    <string name="network_speed_button_start">بدء الاختبار</string>
+    <string name="network_speed_button_testing">جارٍ الاختبار…</string>
+    <string name="network_speed_button_again">إعادة الاختبار</string>
+    <string name="network_speed_button_retry">إعادة المحاولة</string>
+    <string name="network_speed_footnote">التنزيل فقط. لا يتم قياس الرفع وزمن الاستجابة.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_theme_system">النظام</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_notifications">الإشعارات</string>
+    <string name="settings_notifications_on">مفعّلة</string>
+    <string name="settings_notifications_off">متوقفة</string>
+    <string name="settings_notifications_allow">السماح بالإشعارات</string>
+    <string name="settings_notifications_weekly">تذكير أسبوعي بالتنظيف</string>
+    <string name="settings_notifications_storage">تنبيهات التخزين</string>
+    <string name="settings_go_pro">الترقية إلى Pro</string>
+    <string name="settings_pro_active">Pro · مفعّل</string>
+    <string name="settings_pro_remove_ads">إزالة الإعلانات</string>
+    <string name="settings_restore_purchase">استعادة المشتريات</string>
+    <string name="settings_share_app">مشاركة التطبيق</string>
+    <string name="settings_rate_app">تقييم التطبيق</string>
+    <string name="settings_privacy_policy">سياسة الخصوصية</string>
+    <string name="settings_terms">شروط الخدمة</string>
+    <string name="settings_support">الدعم</string>
+    <string name="settings_about">حول</string>
+    <string name="settings_about_version">الإصدار %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">أنت مشترك في Pro</string>
+    <string name="pro_active_body">تمت إزالة الإعلانات. شكرًا لدعمك CleanKoach.</string>
+    <string name="pro_upsell_title">إزالة الإعلانات</string>
+    <string name="pro_upsell_body">يزيل Pro جميع الإعلانات. جميع الميزات مجانية.</string>
+    <string name="pro_button_upgrade">ترقية</string>
+    <string name="pro_button_restore">استعادة المشتريات</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">حول</string>
+    <string name="about_body">تنظيف تخزين أصلي لنظام Android. كل شيء يعمل على الجهاز. لا يتم رفع أي وسائط أو بيانات استخدام أو نتائج فحص أبدًا.</string>
+    <string name="about_built_with">تم التطوير باستخدام Kotlin وJetpack Compose وMaterial 3.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">تذكيرات التنظيف</string>
+    <string name="channel_cleanup_description">تذكيرات أسبوعية لمراجعة الملفات الكبيرة والمكررات.</string>
+    <string name="channel_storage_name">تنبيهات التخزين</string>
+    <string name="channel_storage_description">تنبيهات عند انخفاض مساحة تخزين الجهاز.</string>
+    <string name="notification_cleanup_title">حان وقت التنظيف</string>
+    <string name="notification_cleanup_body">راجع الملفات الكبيرة والمكررات ولقطات الشاشة.</string>
+    <string name="notification_storage_title">امتلأ %1$d%% من التخزين</string>
+    <string name="notification_storage_body">راجع الملفات الكبيرة لتوفير مساحة.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">إعلان</string>
+
+    <!-- Share text -->
+    <string name="share_text">وفّر مساحة تخزين هاتفك بحذف المكررات والصور المتشابهة والملفات الكبيرة: %1$s</string>
+
+    <string name="language_system">افتراضي النظام</string>
+    <string name="scan_progress_files">جارٍ فحص %1$s من %2$s ملف</string>
+    <string name="settings_licenses">تراخيص المصدر المفتوح</string>
+    <string name="licenses_title">تراخيص المصدر المفتوح</string>
+    <string name="licenses_intro">تم تطوير CleanKoach باستخدام برامج مفتوحة المصدر مدرجة أدناه.</string>
+    <string name="toast_no_browser">لم يتم العثور على متصفح لفتح هذا الرابط.</string>
+    <string name="toast_no_mail">لم يتم العثور على تطبيق بريد إلكتروني على هذا الجهاز.</string>
+    <string name="support_mail_subject">دعم CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">إصدار Android: %1$s\nالجهاز: %2$s\n\nيرجى وصف مشكلتك أدناه:\n\n</string>
+    <string name="pro_unavailable">غير متاح حاليًا</string>
+    <string name="pro_pending">دفعتك قيد المعالجة. سيتم تفعيل Pro فور اكتمالها.</string>
+    <string name="pro_button_upgrade_price">ترقية مقابل %1$s</string>
+    <string name="duplicates_delete_line">%1$d للحذف · %2$s</string>
+    <string name="network_speed_error">تعذر الوصول إلى خادم الاختبار. تحقق من اتصالك وحاول مرة أخرى.</string>
+    <string name="home_partial_access_message">الوصول إلى الصور محدود. يمكن لـ CleanKoach رؤية الصور والفيديوهات التي حددتها فقط.</string>
+    <string name="home_partial_access_action">السماح للكل</string>
+    <string name="home_nothing_to_clean_message">لا شيء للتنظيف الآن</string>
+    <string name="wifi_encryption_open">مفتوحة</string>
+    <string name="wifi_encryption_owe">مفتوحة مُحسّنة</string>
+    <string name="settings_privacy_options">خيارات خصوصية الإعلانات</string>
+</resources>

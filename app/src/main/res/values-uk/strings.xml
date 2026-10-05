@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">CleanKoach</string>
+    <string name="cd_back">Назад</string>
+    <string name="cd_settings">Налаштування</string>
+    <string name="action_done">Готово</string>
+    <string name="action_cancel">Скасувати</string>
+    <string name="action_delete">Видалити</string>
+    <string name="action_continue">Продовжити</string>
+    <string name="action_not_now">Не зараз</string>
+    <string name="action_allow_access">Надати доступ</string>
+    <string name="action_open_settings">Відкрити налаштування</string>
+    <string name="action_all">Усі</string>
+    <string name="action_clear">Очистити</string>
+
+    <!-- Home — ring and cleanup -->
+    <string name="home_ring_caption">Розмір кошика</string>
+    <string name="home_ring_sublabel">Видалені фото й відео та кеш застосунків</string>
+    <string name="home_storage_line">Використано %1$s з %2$s · %3$d%%</string>
+    <string name="home_button_cleanup">ОЧИСТИТИ</string>
+    <string name="home_button_scanning">Сканування…</string>
+    <string name="home_button_allow_access">Надати доступ</string>
+    <string name="home_button_nothing_to_clean">Нічого очищати</string>
+
+    <!-- Home — section headers -->
+    <string name="home_section_phone_tools">Інструменти телефона</string>
+    <string name="home_section_photos_videos">Фото й відео</string>
+
+    <!-- Home — media tool cards -->
+    <string name="tool_large_files_title">Великі файли</string>
+    <string name="tool_large_files_desc">Найбільші фото, відео та аудіо.</string>
+    <string name="tool_duplicates_title">Дублікати</string>
+    <string name="tool_duplicates_desc">Ідентичні фото, відео та аудіо.</string>
+    <string name="tool_similar_title">Схожі фото</string>
+    <string name="tool_similar_desc">Майже однакові кадри, залиште найкращий.</string>
+    <string name="tool_screenshots_title">Знімки екрана</string>
+    <string name="tool_screenshots_desc">Усі знімки екрана за раз.</string>
+    <string name="tool_photo_optimizer_title">Оптимізація фото</string>
+    <string name="tool_photo_optimizer_desc">Стисніть фото, заощадьте місце.</string>
+    <string name="tool_video_optimizer_title">Оптимізація відео</string>
+    <string name="tool_video_optimizer_desc">Стисніть відео, заощадьте місце.</string>
+
+    <!-- Home — phone tool cards -->
+    <string name="tool_activity_monitor_title">Монітор активності</string>
+    <string name="tool_activity_monitor_badge">24 год</string>
+    <string name="tool_wifi_security_title">Безпека Wi-Fi</string>
+    <string name="tool_wifi_security_badge">Перевірка</string>
+    <string name="tool_network_speed_title">Швидкість мережі</string>
+    <string name="tool_network_speed_badge">Тест</string>
+
+    <!-- Cleanup confirm sheet -->
+    <string name="cleanup_sheet_title">Очищення</string>
+    <string name="cleanup_sheet_message">Очистити елементи в кошику (%1$s) і кеш (%2$s)?</string>
+    <string name="cleanup_sheet_detail">Ці елементи вже в кошику Android, а не у вашій галереї. Android попросить підтвердити ще раз і може назвати їх «фото». Нічого іншого не буде зачеплено.</string>
+    <string name="cleanup_result_freed">Звільнено</string>
+
+    <!-- Media access disclosure -->
+    <string name="media_disclosure_title">Дозвіл на доступ до медіа</string>
+    <string name="media_disclosure_body">Щоб знаходити великі файли, дублікати та схожі фото, застосунку потрібен доступ до ваших фото, відео й аудіо. Файли аналізуються на пристрої й ніколи не завантажуються.</string>
+
+    <!-- Large files screen -->
+    <string name="large_files_title">Великі файли</string>
+    <string name="large_files_count_line">Елементів: %1$d · %2$s</string>
+    <string name="large_files_empty_title">Немає великих файлів</string>
+    <string name="large_files_empty_message">Ваша бібліотека в порядку. Немає великих файлів для перегляду.</string>
+    <string name="large_files_selection_line">Вибрано: %1$d · %2$s</string>
+
+    <!-- Duplicates screen -->
+    <string name="duplicates_title">Дублікати</string>
+    <string name="duplicates_group_count_line">Груп: %1$d · можна звільнити %2$s</string>
+    <string name="duplicates_empty_title">Немає дублікатів</string>
+    <string name="duplicates_empty_message">Кожне фото, відео й аудіофайл унікальне.</string>
+    <string name="duplicates_identical_items">Ідентичних елементів: %1$d</string>
+    <string name="duplicates_reclaimable_label">Можна звільнити: %1$s</string>
+    <string name="duplicates_keep_label">Залишити</string>
+
+    <!-- Similar photos screen -->
+    <string name="similar_title">Схожі фото</string>
+    <string name="similar_group_count_line">Груп: %1$d · можна звільнити %2$s</string>
+    <string name="similar_empty_title">Немає схожих фото</string>
+    <string name="similar_empty_message">Нічого, що було б схоже на майже дублікат.</string>
+    <string name="similar_shot_count">Схожих кадрів: %1$d</string>
+    <string name="similar_best_label">Найкраще</string>
+
+    <!-- Screenshots screen -->
+    <string name="screenshots_title">Знімки екрана</string>
+    <string name="screenshots_empty_title">Немає знімків екрана</string>
+    <string name="screenshots_empty_message">На цьому пристрої ще нічого не знято.</string>
+
+    <!-- Photo optimizer -->
+    <string name="photo_optimizer_title">Оптимізація фото</string>
+    <string name="photo_optimizer_count_line">Фото: %1$d · %2$s</string>
+    <string name="photo_optimizer_optimizing">Оптимізація: %1$d з %2$d</string>
+    <string name="photo_optimizer_saved_so_far">Заощаджено досі: %1$s</string>
+    <string name="photo_optimizer_empty_title">Немає фото для оптимізації</string>
+    <string name="photo_optimizer_empty_message">Немає нічого достатньо великого, щоб стискати.</string>
+    <string name="photo_optimizer_button_optimize">Оптимізувати вибране</string>
+    <string name="photo_optimizer_button_optimizing">Оптимізація…</string>
+    <string name="photo_optimizer_selected_line">Вибрано: %1$d</string>
+    <string name="photo_optimizer_summary">Оптимізовано фото: %1$d · заощаджено %2$s</string>
+
+    <!-- Video optimizer -->
+    <string name="video_optimizer_title">Оптимізація відео</string>
+    <string name="video_optimizer_count_line">Відео: %1$d · %2$s</string>
+    <string name="video_optimizer_optimizing">Оптимізація: %1$d з %2$d</string>
+    <string name="video_optimizer_saved_so_far">Заощаджено досі: %1$s</string>
+    <string name="video_optimizer_empty_title">Немає відео для оптимізації</string>
+    <string name="video_optimizer_empty_message">Немає нічого достатньо великого, щоб стискати.</string>
+    <string name="video_optimizer_button_optimize">Оптимізувати вибране</string>
+    <string name="video_optimizer_button_optimizing">Оптимізація…</string>
+    <string name="video_optimizer_selected_line">Вибрано: %1$d</string>
+    <string name="video_optimizer_summary">Оптимізовано відео: %1$d · заощаджено %2$s</string>
+    <string name="video_preset_high">Висока якість</string>
+    <string name="video_preset_balanced">Збалансовано</string>
+    <string name="video_preset_small">Малий розмір</string>
+
+    <!-- Activity Monitor -->
+    <string name="activity_monitor_title">Монітор активності</string>
+    <string name="activity_monitor_no_access_title">Потрібен доступ до статистики використання</string>
+    <string name="activity_monitor_no_access_message">Дозвольте доступ до статистики використання в налаштуваннях системи, щоб бачити запуски й час на передньому плані.</string>
+    <string name="activity_monitor_empty_title">Немає активності</string>
+    <string name="activity_monitor_empty_message">За останні 24 години нічого не використовувалося.</string>
+    <string name="activity_monitor_launches">Запусків: %1$d · %2$s</string>
+    <string name="activity_monitor_foreground">На передньому плані: %1$s</string>
+    <string name="activity_monitor_disclosure_title">Доступ до статистики використання</string>
+    <string name="activity_monitor_disclosure_body">Монітору активності потрібен доступ до статистики використання. Застосунок зчитує, які застосунки ви відкривали, коли та як довго протягом останніх 24 годин. Ці дані залишаються на вашому пристрої й не завантажуються та не передаються.</string>
+
+    <!-- Wi-Fi Security -->
+    <string name="wifi_security_title">Безпека Wi-Fi</string>
+    <string name="wifi_check_internet_title">Доступ до інтернету</string>
+    <string name="wifi_check_internet_connected">Підключено.</string>
+    <string name="wifi_check_internet_disconnected">Немає активного підключення.</string>
+    <string name="wifi_check_encryption_title">Шифрування й автентифікація</string>
+    <string name="wifi_check_unavailable">недоступно на цьому пристрої</string>
+    <string name="wifi_check_ssl_strip_title">Перевірка сертифіката</string>
+    <string name="wifi_check_ssl_strip_detected">Попередження. Не вдалося перевірити сертифікат тестового сайту. Хтось у цій мережі може перехоплювати захищений трафік.</string>
+    <string name="wifi_check_ssl_strip_safe">Пройдено. Сертифікат тестового сайту дійсний.</string>
+    <string name="wifi_check_ssl_split_title">Перевірка проксі</string>
+    <string name="wifi_check_ssl_split_detected">Для цього підключення задано проксі. Ваш трафік може проходити через інший сервер.</string>
+    <string name="wifi_check_ssl_split_safe">Проксі не виявлено.</string>
+    <string name="wifi_check_checked_at">Перевірено: %1$s</string>
+    <string name="wifi_check_rerun">Перевірити знову</string>
+    <string name="wifi_check_error">Не вдалося перевірити підключення.</string>
+    <string name="wifi_check_inspect_failed">Не вдалося перевірити це підключення.</string>
+
+    <!-- Network Speed -->
+    <string name="network_speed_title">Швидкість мережі</string>
+    <string name="network_speed_ready">Виміряйте швидкість завантаження.</string>
+    <string name="network_speed_preparing">Підготовка</string>
+    <string name="network_speed_testing">Тестування швидкості завантаження</string>
+    <string name="network_speed_transferred">Передано: %1$s</string>
+    <string name="network_speed_download_label">Швидкість завантаження</string>
+    <string name="network_speed_transferred_detail">Передано %1$s за %2$d с</string>
+    <string name="network_speed_failed">Тест не вдався</string>
+    <string name="network_speed_button_start">Почати тест</string>
+    <string name="network_speed_button_testing">Тестування…</string>
+    <string name="network_speed_button_again">Повторити тест</string>
+    <string name="network_speed_button_retry">Повторити</string>
+    <string name="network_speed_footnote">Лише завантаження. Вивантаження та пінг не вимірюються.</string>
+
+    <!-- Settings — main -->
+    <string name="settings_title">Налаштування</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_theme_light">Світла</string>
+    <string name="settings_theme_dark">Темна</string>
+    <string name="settings_theme_system">Системна</string>
+    <string name="settings_language">Мова</string>
+    <string name="settings_notifications">Сповіщення</string>
+    <string name="settings_notifications_on">Увімкнено</string>
+    <string name="settings_notifications_off">Вимкнено</string>
+    <string name="settings_notifications_allow">Дозволити сповіщення</string>
+    <string name="settings_notifications_weekly">Щотижневе нагадування про очищення</string>
+    <string name="settings_notifications_storage">Сповіщення про пам’ять</string>
+    <string name="settings_go_pro">Перейти на Pro</string>
+    <string name="settings_pro_active">Pro · активно</string>
+    <string name="settings_pro_remove_ads">Вимкнути рекламу</string>
+    <string name="settings_restore_purchase">Відновити покупку</string>
+    <string name="settings_share_app">Поділитися застосунком</string>
+    <string name="settings_rate_app">Оцінити застосунок</string>
+    <string name="settings_privacy_policy">Політика конфіденційності</string>
+    <string name="settings_terms">Умови використання</string>
+    <string name="settings_support">Підтримка</string>
+    <string name="settings_about">Про застосунок</string>
+    <string name="settings_about_version">Версія %1$s</string>
+
+    <!-- Settings — Pro -->
+    <string name="pro_title">Pro</string>
+    <string name="pro_active_title">У вас Pro</string>
+    <string name="pro_active_body">Рекламу вимкнено. Дякуємо за підтримку CleanKoach.</string>
+    <string name="pro_upsell_title">Вимкнути рекламу</string>
+    <string name="pro_upsell_body">Pro вимикає всю рекламу. Усі функції безкоштовні.</string>
+    <string name="pro_button_upgrade">Оновити</string>
+    <string name="pro_button_restore">Відновити покупку</string>
+
+    <!-- Settings — About -->
+    <string name="about_title">Про застосунок</string>
+    <string name="about_body">Нативне очищення пам’яті Android. Усе працює на пристрої. Жодні медіафайли, дані про використання чи результати сканування ніколи не завантажуються.</string>
+    <string name="about_built_with">Створено на Kotlin, Jetpack Compose і Material 3.</string>
+
+    <!-- Settings — Language names -->
+
+    <!-- Notifications -->
+    <string name="channel_cleanup_name">Нагадування про очищення</string>
+    <string name="channel_cleanup_description">Щотижневі нагадування переглянути великі файли й дублікати.</string>
+    <string name="channel_storage_name">Сповіщення про пам’ять</string>
+    <string name="channel_storage_description">Сповіщення, коли на пристрої закінчується пам’ять.</string>
+    <string name="notification_cleanup_title">Час очистити пристрій</string>
+    <string name="notification_cleanup_body">Перегляньте великі файли, дублікати та знімки екрана.</string>
+    <string name="notification_storage_title">Пам’ять заповнена на %1$d%%</string>
+    <string name="notification_storage_body">Перегляньте великі файли, щоб звільнити місце.</string>
+
+    <!-- Ad -->
+    <string name="ad_placeholder_label">Реклама</string>
+
+    <!-- Share text -->
+    <string name="share_text">Звільніть пам’ять телефона, видаливши дублікати, схожі фото та великі файли: %1$s</string>
+
+    <string name="language_system">Системна</string>
+    <string name="scan_progress_files">Перевірка файлів: %1$s з %2$s</string>
+    <string name="settings_licenses">Ліцензії відкритого коду</string>
+    <string name="licenses_title">Ліцензії відкритого коду</string>
+    <string name="licenses_intro">CleanKoach створено з використанням наведеного нижче програмного забезпечення з відкритим кодом.</string>
+    <string name="toast_no_browser">Не знайдено браузера, щоб відкрити це посилання.</string>
+    <string name="toast_no_mail">На цьому пристрої не знайдено застосунку електронної пошти.</string>
+    <string name="support_mail_subject">Підтримка CleanKoach (v%1$s)</string>
+    <string name="support_mail_body">Версія Android: %1$s\nПристрій: %2$s\n\nОпишіть свою проблему нижче:\n\n</string>
+    <string name="pro_unavailable">Зараз недоступно</string>
+    <string name="pro_pending">Ваш платіж обробляється. Pro розблокується одразу після його завершення.</string>
+    <string name="pro_button_upgrade_price">Оновити за %1$s</string>
+    <string name="duplicates_delete_line">До видалення: %1$d · %2$s</string>
+    <string name="network_speed_error">Не вдалося зв’язатися з тестовим сервером. Перевірте підключення й повторіть спробу.</string>
+    <string name="home_partial_access_message">Обмежений доступ до фото. CleanKoach бачить лише вибрані вами фото й відео.</string>
+    <string name="home_partial_access_action">Дозволити все</string>
+    <string name="home_nothing_to_clean_message">Зараз нічого очищати</string>
+    <string name="wifi_encryption_open">Відкрита</string>
+    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="settings_privacy_options">Параметри конфіденційності реклами</string>
+</resources>
