@@ -42,11 +42,16 @@ jobs:
       - name: Show results
         if: always()
         run: |
-          cat emulator-out/results.txt || true
-          echo "---- fatal exceptions ----"
-          cat emulator-out/fatal.txt || true
-          echo "---- crash reports ----"
-          for f in emulator-out/crash_*.txt; do [ -s "$f" ] && { echo "## $f"; cat "$f"; }; done || true
+          enc() { sed ':a;N;$!ba;s/%/%25/g;s/\r//g;s/\n/%0A/g'; }
+          echo "::notice title=Results::$(cat emulator-out/results.txt 2>/dev/null | enc)"
+          echo "::warning title=Fatal exceptions::$(head -c 3500 emulator-out/fatal.txt 2>/dev/null | enc)"
+          for f in emulator-out/crash_*.txt; do
+            [ -s "$f" ] && echo "::error title=$(basename $f)::$(head -c 3000 "$f" | enc)"
+          done
+          for f in emulator-out/trail_*.txt; do
+            case "$f" in *inapp_fr*|*sys_zh-CN*|*sys_ar*) echo "::notice title=$(basename $f)::$(tail -n 30 "$f" | enc)";; esac
+          done
+          exit 0
 
       - name: Upload evidence
         if: always()
