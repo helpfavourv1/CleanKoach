@@ -44,7 +44,7 @@ fun ToolCard(
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(10.dp)
+                .padding(8.dp)
         ) {
             Row(
                 modifier = Modifier.fillMaxWidth(),
@@ -52,10 +52,10 @@ fun ToolCard(
             ) {
                 Box(
                     modifier = Modifier
-                        .size(32.dp)
+                        .size(28.dp)
                         .background(
                             color = iconContainerColor,
-                            shape = RoundedCornerShape(10.dp)
+                            shape = RoundedCornerShape(9.dp)
                         ),
                     contentAlignment = Alignment.Center
                 ) {
@@ -63,7 +63,7 @@ fun ToolCard(
                         imageVector = icon,
                         contentDescription = null,
                         tint = iconContentColor,
-                        modifier = Modifier.size(20.dp)
+                        modifier = Modifier.size(18.dp)
                     )
                 }
                 Spacer(Modifier.weight(1f))
@@ -72,7 +72,7 @@ fun ToolCard(
                 }
             }
 
-            Spacer(Modifier.size(8.dp))
+            Spacer(Modifier.size(6.dp))
 
             Text(
                 text = title,

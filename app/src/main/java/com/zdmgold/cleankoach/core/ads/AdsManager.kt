@@ -10,6 +10,7 @@ import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.zdmgold.cleankoach.core.analytics.ConsentManager
+import com.zdmgold.cleankoach.core.diagnostics.CrashReporter
 import com.zdmgold.cleankoach.core.data.repository.BillingRepository
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.CoroutineScope
@@ -79,6 +80,7 @@ class AdsManager @Inject constructor(
 
     /** Call once per activity start, before any ad is requested. */
     fun start(activity: Activity) {
+        CrashReporter.note("ads start (activity=${activity.javaClass.simpleName}@${System.identityHashCode(activity)})")
         consentManager.requestConsent(activity) { allowed -> applyConsent(allowed) }
         // Returning users already hold an answer; do not make them wait for the network.
         if (consentManager.canRequestAdsNow()) applyConsent(true)
@@ -89,6 +91,7 @@ class AdsManager @Inject constructor(
     fun showPrivacyOptions(activity: Activity) = consentManager.showPrivacyOptions(activity)
 
     private fun applyConsent(allowed: Boolean) {
+        CrashReporter.note("consent result: allowed=$allowed")
         if (allowed && !proActive && !sdkStarted) {
             sdkStarted = true
             MobileAds.initialize(context) { loadInterstitial() }

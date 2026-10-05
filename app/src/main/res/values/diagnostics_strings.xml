@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Developer diagnostics screen: English only on purpose. -->
+    <string name="settings_diagnostics" translatable="false">Diagnostics</string>
+    <string name="diagnostics_title" translatable="false">Diagnostics</string>
+    <string name="diagnostics_intro" translatable="false">The last crash and the most recent app events, kept on this device only. Copy or share this if something goes wrong.</string>
+    <string name="diagnostics_copy" translatable="false">Copy</string>
+    <string name="diagnostics_share" translatable="false">Share</string>
+    <string name="diagnostics_clear" translatable="false">Clear</string>
+</resources>

@@ -22,6 +22,7 @@ import com.zdmgold.cleankoach.navigation.CleanKoachNavHost
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import com.zdmgold.cleankoach.core.ads.AdsManager
+import com.zdmgold.cleankoach.core.diagnostics.CrashReporter
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
@@ -32,6 +33,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var adsManager: AdsManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        CrashReporter.note("MainActivity onCreate (restored=${savedInstanceState != null})")
         applyStoredLocaleSafely()
         super.onCreate(savedInstanceState)
         adsManager.start(this)
@@ -75,6 +77,11 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+    }
+
+    override fun onDestroy() {
+        CrashReporter.note("MainActivity onDestroy (changingConfig=$isChangingConfigurations, finishing=$isFinishing)")
+        super.onDestroy()
     }
 
     private fun applyStoredLocaleSafely() {

@@ -45,6 +45,7 @@ fun SettingsScreen(
     onOpenPro: () -> Unit,
     onOpenAbout: () -> Unit,
     onOpenLicenses: () -> Unit,
+    onOpenDiagnostics: () -> Unit,
     modifier: Modifier = Modifier,
     viewModel: SettingsViewModel = hiltViewModel()
 ) {
@@ -157,6 +158,10 @@ fun SettingsScreen(
                 SettingsRow(
                     label = stringResource(R.string.settings_licenses),
                     onClick = onOpenLicenses
+                )
+                SettingsRow(
+                    label = stringResource(R.string.settings_diagnostics),
+                    onClick = onOpenDiagnostics
                 )
                 SettingsRow(
                     label = stringResource(R.string.settings_support),

@@ -1,0 +1,56 @@
+name: Emulator language test (no release APK)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  emulator:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v5
+
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Build debug app
+        run: chmod +x ./gradlew && ./gradlew assembleDebug --no-daemon
+
+      - name: Run language test on emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          target: google_apis
+          arch: x86_64
+          disable-animations: true
+          script: bash .github/emulator/repro.sh
+
+      - name: Show results
+        if: always()
+        run: |
+          cat emulator-out/results.txt || true
+          echo "---- fatal exceptions ----"
+          cat emulator-out/fatal.txt || true
+          echo "---- crash reports ----"
+          for f in emulator-out/crash_*.txt; do [ -s "$f" ] && { echo "## $f"; cat "$f"; }; done || true
+
+      - name: Upload evidence
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: emulator-out
+          path: emulator-out/

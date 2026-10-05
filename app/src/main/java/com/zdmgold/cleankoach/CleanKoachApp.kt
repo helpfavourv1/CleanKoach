@@ -10,6 +10,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
+import com.zdmgold.cleankoach.core.diagnostics.CrashReporter
 import com.zdmgold.cleankoach.core.locale.LocaleManager
 import dagger.hilt.android.HiltAndroidApp
 import javax.inject.Inject
@@ -33,6 +34,7 @@ class CleanKoachApp : Application(), Configuration.Provider {
 
     override fun onCreate() {
         super.onCreate()
+        CrashReporter.install(this)
         NotificationChannels.ensure(this)
         // Keep scheduled work in step with the saved switches on every start.
         CoroutineScope(Dispatchers.Default).launch {

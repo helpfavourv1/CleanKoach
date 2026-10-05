@@ -2,6 +2,7 @@ package com.zdmgold.cleankoach.core.locale
 
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.os.LocaleListCompat
+import com.zdmgold.cleankoach.core.diagnostics.CrashReporter
 import java.util.Locale
 
 object LocaleManager {
@@ -16,6 +17,7 @@ object LocaleManager {
     const val SYSTEM = "system"
 
     fun apply(tag: String) {
+        CrashReporter.note("locale apply: $tag (current=${current()})")
         if (tag == SYSTEM) {
             AppCompatDelegate.setApplicationLocales(LocaleListCompat.getEmptyLocaleList())
             return
