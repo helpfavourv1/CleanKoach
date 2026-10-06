@@ -25,7 +25,14 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Compile app and test sources
-        run: ./gradlew compileDebugKotlin compileDebugUnitTestKotlin --no-daemon
+        run: |
+          set -o pipefail
+          ./gradlew compileDebugKotlin compileDebugUnitTestKotlin --no-daemon 2>&1 | tee build.log
+
+      - name: Show compile errors
+        if: failure()
+        run: |
+          grep -E "^e: |error:|What went wrong" -A2 build.log | head -40 | sed 's/%/%25/g' | while IFS= read -r line; do echo "::error::$line"; done
 
       - name: Lint
         run: ./gradlew lintDebug --no-daemon
