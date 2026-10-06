@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Тест</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Очищення</string>
-    <string name="cleanup_sheet_message">Очистити елементи в кошику (%1$s) і кеш (%2$s)?</string>
-    <string name="cleanup_sheet_detail">Ці елементи вже в кошику Android, а не у вашій галереї. Android попросить підтвердити ще раз і може назвати їх «фото». Нічого іншого не буде зачеплено.</string>
     <string name="cleanup_result_freed">Звільнено</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Відкрита</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Параметри конфіденційності реклами</string>
+    <string name="home_cleanup_caption_running">Очищення…</string>
+    <string name="home_cleanup_running">Очищаємо кеш і кошик…</string>
+    <string name="home_cleanup_awaiting_android">Торкніться «Дозволити» в запиті Android. Там може бути «фото».</string>
+    <string name="home_cleanup_done_items">Видалено об’єктів: %1$d. Кеш очищено.</string>
+    <string name="home_cleanup_done_cache">Кеш очищено. Кошик уже був порожній.</string>
+    <string name="delete_bar_android_note">Android попросить підтвердити дію.</string>
 </resources>

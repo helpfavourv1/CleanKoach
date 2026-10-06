@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Test</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Rensa</string>
-    <string name="cleanup_sheet_message">Vill du tömma %1$s objekt i papperskorgen och %2$s cache?</string>
-    <string name="cleanup_sheet_detail">Dessa objekt ligger redan i Androids papperskorg och är inte foton i ditt galleri. Android ber dig bekräfta en gång till och kan kalla dem ”foton”. Inget annat påverkas.</string>
     <string name="cleanup_result_freed">Frigjort</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Öppet</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Annonsintegritet</string>
+    <string name="home_cleanup_caption_running">Rensar…</string>
+    <string name="home_cleanup_running">Rensar cache och papperskorg…</string>
+    <string name="home_cleanup_awaiting_android">Tryck på Tillåt i Androids ruta. Den kan säga ”foton”.</string>
+    <string name="home_cleanup_done_items">%1$d objekt borttagna. Cachen är rensad.</string>
+    <string name="home_cleanup_done_cache">Cachen är rensad. Papperskorgen var redan tom.</string>
+    <string name="delete_bar_android_note">Android ber dig bekräfta.</string>
 </resources>

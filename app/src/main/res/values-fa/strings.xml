@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">آزمون</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">پاکسازی</string>
-    <string name="cleanup_sheet_message">%1$s مورد در سطل زباله و %2$s حافظه پنهان پاک شود؟</string>
-    <string name="cleanup_sheet_detail">این موارد از قبل در سطل زباله Android هستند و عکس‌های گالری شما نیستند. Android یک بار دیگر تأیید می‌خواهد و ممکن است آن‌ها را «عکس» بنامد. به هیچ چیز دیگری دست زده نمی‌شود.</string>
     <string name="cleanup_result_freed">آزاد شد</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">باز</string>
     <string name="wifi_encryption_owe">باز تقویت‌شده</string>
     <string name="settings_privacy_options">گزینه‌های حریم خصوصی تبلیغات</string>
+    <string name="home_cleanup_caption_running">در حال پاک‌سازی…</string>
+    <string name="home_cleanup_running">در حال پاک کردن حافظه نهان و سطل زباله…</string>
+    <string name="home_cleanup_awaiting_android">در پیام Android روی «اجازه دادن» بزنید. ممکن است «عکس‌ها» بنویسد.</string>
+    <string name="home_cleanup_done_items">%1$d مورد حذف شد. حافظه نهان پاک شد.</string>
+    <string name="home_cleanup_done_cache">حافظه نهان پاک شد. سطل زباله از قبل خالی بود.</string>
+    <string name="delete_bar_android_note">Android از شما تأیید می‌خواهد.</string>
 </resources>

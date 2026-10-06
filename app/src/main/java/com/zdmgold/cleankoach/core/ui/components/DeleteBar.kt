@@ -1,6 +1,8 @@
 package com.zdmgold.cleankoach.core.ui.components
 
+import android.os.Build
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -37,12 +39,20 @@ fun DeleteBar(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            Text(
-                text = summary,
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.weight(1f)
-            )
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = summary,
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                    Text(
+                        text = stringResource(R.string.delete_bar_android_note),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
             TextButton(onClick = onDelete) {
                 Icon(Icons.Filled.Delete, contentDescription = null)
                 Spacer(Modifier.padding(horizontal = 4.dp))

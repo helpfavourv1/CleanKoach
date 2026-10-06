@@ -44,10 +44,6 @@
     <string name="tool_wifi_security_badge">जाँचें</string>
     <string name="tool_network_speed_title">नेटवर्क गति</string>
     <string name="tool_network_speed_badge">टेस्ट</string>
-
-    <string name="cleanup_sheet_title">साफ़ करें</string>
-    <string name="cleanup_sheet_message">ट्रैश में %1$s आइटम और %2$s कैश साफ़ करें?</string>
-    <string name="cleanup_sheet_detail">ये आइटम पहले से Android के ट्रैश में हैं, आपकी गैलरी की फ़ोटो नहीं हैं। Android एक बार फिर पुष्टि मांगेगा और इन्हें “फ़ोटो” कह सकता है। और कुछ नहीं छुआ जाता।</string>
     <string name="cleanup_result_freed">मुक्त हुआ</string>
 
     <string name="media_disclosure_title">मीडिया एक्सेस दें</string>
@@ -214,4 +210,10 @@
     <string name="wifi_encryption_open">खुला</string>
     <string name="wifi_encryption_owe">उन्नत खुला</string>
     <string name="settings_privacy_options">विज्ञापन गोपनीयता विकल्प</string>
+    <string name="home_cleanup_caption_running">साफ़ हो रहा है…</string>
+    <string name="home_cleanup_running">कैश और ट्रैश साफ़ किया जा रहा है…</string>
+    <string name="home_cleanup_awaiting_android">Android के प्रॉम्प्ट में अनुमति दें पर टैप करें। इसमें “फ़ोटो” लिखा हो सकता है।</string>
+    <string name="home_cleanup_done_items">%1$d आइटम हटाए गए। कैश साफ़ हो गया।</string>
+    <string name="home_cleanup_done_cache">कैश साफ़ हो गया। ट्रैश पहले से खाली था।</string>
+    <string name="delete_bar_android_note">Android आपसे पुष्टि करने को कहेगा।</string>
 </resources>

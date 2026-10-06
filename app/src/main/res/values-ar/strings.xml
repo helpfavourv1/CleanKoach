@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">اختبار</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">تنظيف</string>
-    <string name="cleanup_sheet_message">هل تريد مسح %1$s عنصر من سلة المحذوفات و%2$s من ذاكرة التخزين المؤقت؟</string>
-    <string name="cleanup_sheet_detail">هذه العناصر موجودة بالفعل في سلة محذوفات Android، وليست صورًا في معرض الصور لديك. سيطلب Android تأكيدك مرة أخرى وقد يسميها «صورًا». لن يتم المساس بأي شيء آخر.</string>
     <string name="cleanup_result_freed">تم تحرير</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">مفتوحة</string>
     <string name="wifi_encryption_owe">مفتوحة مُحسّنة</string>
     <string name="settings_privacy_options">خيارات خصوصية الإعلانات</string>
+    <string name="home_cleanup_caption_running">جارٍ التنظيف…</string>
+    <string name="home_cleanup_running">جارٍ مسح الذاكرة المؤقتة وسلة المهملات…</string>
+    <string name="home_cleanup_awaiting_android">اضغط على «السماح» في رسالة Android. قد تذكر «الصور».</string>
+    <string name="home_cleanup_done_items">تمت إزالة %1$d عنصر. تم مسح الذاكرة المؤقتة.</string>
+    <string name="home_cleanup_done_cache">تم مسح الذاكرة المؤقتة. كانت سلة المهملات فارغة.</string>
+    <string name="delete_bar_android_note">سيطلب Android منك التأكيد.</string>
 </resources>

@@ -44,10 +44,6 @@
     <string name="tool_wifi_security_badge">確認</string>
     <string name="tool_network_speed_title">通信速度</string>
     <string name="tool_network_speed_badge">テスト</string>
-
-    <string name="cleanup_sheet_title">クリーンアップ</string>
-    <string name="cleanup_sheet_message">ゴミ箱の %1$s 件とキャッシュ %2$s を削除しますか？</string>
-    <string name="cleanup_sheet_detail">これらはすでに Android のゴミ箱にある項目で、ギャラリーの写真ではありません。Android がもう一度確認を求め、「写真」と表示する場合があります。それ以外には触れません。</string>
     <string name="cleanup_result_freed">解放</string>
 
     <string name="media_disclosure_title">メディアへのアクセスを許可</string>
@@ -214,4 +210,10 @@
     <string name="wifi_encryption_open">オープン</string>
     <string name="wifi_encryption_owe">拡張オープン</string>
     <string name="settings_privacy_options">広告のプライバシー設定</string>
+    <string name="home_cleanup_caption_running">削除中…</string>
+    <string name="home_cleanup_running">キャッシュとゴミ箱を削除中…</string>
+    <string name="home_cleanup_awaiting_android">Androidの確認画面で「許可」をタップ。「写真」と表示される場合があります。</string>
+    <string name="home_cleanup_done_items">%1$d件を削除しました。キャッシュを消去しました。</string>
+    <string name="home_cleanup_done_cache">キャッシュを消去しました。ゴミ箱は空でした。</string>
+    <string name="delete_bar_android_note">Androidが確認を求めます。</string>
 </resources>

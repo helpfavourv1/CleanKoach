@@ -44,10 +44,6 @@
     <string name="tool_wifi_security_badge">Periksa</string>
     <string name="tool_network_speed_title">Kecepatan Jaringan</string>
     <string name="tool_network_speed_badge">Uji</string>
-
-    <string name="cleanup_sheet_title">Bersihkan</string>
-    <string name="cleanup_sheet_message">Hapus %1$s item di tempat sampah dan %2$s cache?</string>
-    <string name="cleanup_sheet_detail">Item ini sudah ada di tempat sampah Android, bukan foto di galeri Anda. Android akan meminta konfirmasi sekali lagi dan mungkin menyebutnya “foto”. Tidak ada yang lain yang disentuh.</string>
     <string name="cleanup_result_freed">Dibebaskan</string>
 
     <string name="media_disclosure_title">Izinkan akses media</string>
@@ -214,4 +210,10 @@
     <string name="wifi_encryption_open">Terbuka</string>
     <string name="wifi_encryption_owe">Terbuka yang ditingkatkan</string>
     <string name="settings_privacy_options">Opsi privasi iklan</string>
+    <string name="home_cleanup_caption_running">Membersihkan…</string>
+    <string name="home_cleanup_running">Menghapus cache dan sampah…</string>
+    <string name="home_cleanup_awaiting_android">Ketuk Izinkan pada perintah Android. Mungkin tertulis “foto”.</string>
+    <string name="home_cleanup_done_items">%1$d item dihapus. Cache dibersihkan.</string>
+    <string name="home_cleanup_done_cache">Cache dibersihkan. Sampah sudah kosong.</string>
+    <string name="delete_bar_android_note">Android akan meminta konfirmasi Anda.</string>
 </resources>

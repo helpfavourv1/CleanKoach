@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">టెస్ట్</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">క్లీన్ అప్</string>
-    <string name="cleanup_sheet_message">ట్రాష్‌లోని %1$s అంశాలను, %2$s కాష్‌ను తొలగించాలా?</string>
-    <string name="cleanup_sheet_detail">ఈ అంశాలు ఇప్పటికే Android ట్రాష్‌లో ఉన్నాయి, మీ గ్యాలరీలోని ఫోటోలు కావు. Android మరోసారి నిర్ధారణ అడుగుతుంది మరియు వీటిని “ఫోటోలు” అని పిలవవచ్చు. మరేదీ తాకబడదు.</string>
     <string name="cleanup_result_freed">ఖాళీ అయింది</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">ఓపెన్</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">ప్రకటన గోప్యతా ఎంపికలు</string>
+    <string name="home_cleanup_caption_running">శుభ్రం…</string>
+    <string name="home_cleanup_running">కాష్, ట్రాష్ క్లియర్ అవుతున్నాయి…</string>
+    <string name="home_cleanup_awaiting_android">Android ప్రాంప్ట్‌లో అనుమతించు నొక్కండి. అది “ఫోటోలు” అని చూపవచ్చు.</string>
+    <string name="home_cleanup_done_items">%1$d అంశాలు తీసివేయబడ్డాయి. కాష్ క్లియర్ అయింది.</string>
+    <string name="home_cleanup_done_cache">కాష్ క్లియర్ అయింది. ట్రాష్ ఇప్పటికే ఖాళీగా ఉంది.</string>
+    <string name="delete_bar_android_note">నిర్ధారించమని Android అడుగుతుంది.</string>
 </resources>

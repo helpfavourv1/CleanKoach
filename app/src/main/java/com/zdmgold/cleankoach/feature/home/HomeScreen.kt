@@ -89,8 +89,6 @@ import com.zdmgold.cleankoach.core.ui.theme.optimizerTint
 import com.zdmgold.cleankoach.core.ui.theme.toolsTint
 import com.zdmgold.cleankoach.core.util.ExternalActions
 import com.zdmgold.cleankoach.core.util.FormatUtils
-import com.zdmgold.cleankoach.feature.cleanup.CleanUpConfirmSheet
-import com.zdmgold.cleankoach.feature.cleanup.CleanUpResultSheet
 import com.zdmgold.cleankoach.feature.permission.MediaAccessDisclosureContent
 
 @OptIn(androidx.compose.ui.text.ExperimentalTextApi::class)
@@ -163,6 +161,12 @@ fun HomeScreen(
         }
         resultWasVisible = state.cleanUpResultVisible
     }
+    LaunchedEffect(state.cleanUpResultVisible) {
+        if (state.cleanUpResultVisible) {
+            kotlinx.coroutines.delay(6000)
+            viewModel.onResultDismissed()
+        }
+    }
     LaunchedEffect(state.nothingToClean) {
         if (state.nothingToClean) {
             android.widget.Toast.makeText(
@@ -183,8 +187,11 @@ fun HomeScreen(
     val tools = toolsTint()
 
     val storage = state.storage
+    val done = state.cleanUpResultVisible
+    val shownBytes = if (done) (state.lastCleanupResult?.freedBytes ?: 0L)
+    else storage?.totalReclaimableBytes
     val ringValue = buildAnnotatedString {
-        val short = storage?.let { FormatUtils.bytesShort(it.totalReclaimableBytes) }
+        val short = shownBytes?.let { FormatUtils.bytesShort(it) }
         if (short == null) {
             withStyle(SpanStyle(fontSize = 26.sp)) { append("—") }
         } else {
@@ -203,6 +210,20 @@ fun HomeScreen(
             it.percentUsed
         )
     } ?: ""
+    val result = state.lastCleanupResult
+    val chartCaption = when {
+        done -> stringResource(R.string.cleanup_result_freed)
+        state.scanning -> stringResource(R.string.home_cleanup_caption_running)
+        else -> stringResource(R.string.home_ring_caption)
+    }
+    val detailLine = when {
+        done && (result?.itemCount ?: 0) > 0 ->
+            stringResource(R.string.home_cleanup_done_items, result?.itemCount ?: 0)
+        done -> stringResource(R.string.home_cleanup_done_cache)
+        state.awaitingAndroid -> stringResource(R.string.home_cleanup_awaiting_android)
+        state.scanning -> stringResource(R.string.home_cleanup_running)
+        else -> storageLine
+    }
 
     Surface(
         modifier = modifier.fillMaxSize(),
@@ -299,9 +320,19 @@ fun HomeScreen(
             Spacer(Modifier.height(8.dp))
 
             val fill by animateFloatAsState(
-                targetValue = if (state.scanning) 1f else 0f,
+                targetValue = when {
+                    state.cleanUpResultVisible -> 1f
+                    state.awaitingAndroid -> 0.85f
+                    state.scanning -> 1f
+                    else -> 0f
+                },
                 animationSpec = tween(
-                    durationMillis = if (state.scanning) 4000 else 600,
+                    durationMillis = when {
+                        state.cleanUpResultVisible -> 450
+                        state.awaitingAndroid -> 600
+                        state.scanning -> 4000
+                        else -> 900
+                    },
                     easing = LinearEasing
                 ),
                 label = "cleanup_fill"
@@ -324,16 +355,19 @@ fun HomeScreen(
                     TrashChart(
                         valueText = ringValue,
                         progress = fill,
-                        caption = stringResource(R.string.home_ring_caption),
+                        caption = chartCaption,
                         modifier = Modifier
                             .width(112.dp)
                             .fillMaxHeight()
                     )
                     Column(modifier = Modifier.weight(1f)) {
                         Text(
-                            text = storageLine,
+                            text = detailLine,
                             style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            minLines = 2,
+                            maxLines = 2,
+                            overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
                         )
                         Spacer(Modifier.height(8.dp))
                         Box(
@@ -527,32 +561,6 @@ fun HomeScreen(
                     )
                     Spacer(Modifier.height(16.dp))
                 }
-            }
-        }
-
-        if (state.cleanUpSheetVisible) {
-            ModalBottomSheet(
-                onDismissRequest = viewModel::onCleanUpCancelled,
-                sheetState = rememberModalBottomSheetState()
-            ) {
-                CleanUpConfirmSheet(
-                    itemCount = state.storage?.trashCount ?: 0,
-                    sizeBytes = state.storage?.cacheBytes ?: 0L,
-                    onConfirm = viewModel::onCleanUpConfirmed,
-                    onCancel = viewModel::onCleanUpCancelled
-                )
-            }
-        }
-
-        if (state.cleanUpResultVisible) {
-            ModalBottomSheet(
-                onDismissRequest = viewModel::onResultDismissed,
-                sheetState = rememberModalBottomSheetState()
-            ) {
-                CleanUpResultSheet(
-                    freedBytes = state.lastCleanupResult?.freedBytes ?: 0L,
-                    onDismiss = viewModel::onResultDismissed
-                )
             }
         }
 

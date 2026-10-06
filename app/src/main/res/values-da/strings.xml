@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Test</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Ryd op</string>
-    <string name="cleanup_sheet_message">Vil du tømme %1$s elementer i papirkurven og %2$s cache?</string>
-    <string name="cleanup_sheet_detail">Disse elementer ligger allerede i Androids papirkurv og er ikke fotos i dit galleri. Android beder dig bekræfte en gang til og kalder dem måske “fotos”. Intet andet berøres.</string>
     <string name="cleanup_result_freed">Frigjort</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Åben</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Privatlivsindstillinger for reklamer</string>
+    <string name="home_cleanup_caption_running">Rydder op…</string>
+    <string name="home_cleanup_running">Rydder cache og papirkurv…</string>
+    <string name="home_cleanup_awaiting_android">Tryk på Tillad i Androids dialog. Der kan stå “billeder”.</string>
+    <string name="home_cleanup_done_items">%1$d elementer fjernet. Cachen er ryddet.</string>
+    <string name="home_cleanup_done_cache">Cachen er ryddet. Papirkurven var allerede tom.</string>
+    <string name="delete_bar_android_note">Android beder dig om at bekræfte.</string>
 </resources>

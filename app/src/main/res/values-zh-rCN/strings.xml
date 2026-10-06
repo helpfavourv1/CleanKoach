@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">测速</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">清理</string>
-    <string name="cleanup_sheet_message">清空回收站中的 %1$s 个项目和 %2$s 缓存？</string>
-    <string name="cleanup_sheet_detail">这些项目已在 Android 回收站中，并非图库里的照片。Android 会再次请您确认，并可能称之为“照片”。不会触及其他任何内容。</string>
     <string name="cleanup_result_freed">已释放</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">开放</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">广告隐私选项</string>
+    <string name="home_cleanup_caption_running">清理中…</string>
+    <string name="home_cleanup_running">正在清除缓存和回收站…</string>
+    <string name="home_cleanup_awaiting_android">请点按 Android 提示中的“允许”。提示可能写的是“照片”。</string>
+    <string name="home_cleanup_done_items">已移除 %1$d 项。缓存已清除。</string>
+    <string name="home_cleanup_done_cache">缓存已清除。回收站本来就是空的。</string>
+    <string name="delete_bar_android_note">Android 会请你确认。</string>
 </resources>

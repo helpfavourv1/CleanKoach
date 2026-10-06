@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Prova</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Neteja</string>
-    <string name="cleanup_sheet_message">Voleu esborrar %1$s elements de la paperera i %2$s de memòria cau?</string>
-    <string name="cleanup_sheet_detail">Aquests elements ja són a la paperera d\'Android, no són fotos de la galeria. Android us demanarà una confirmació més i pot anomenar-los «fotos». No es toca res més.</string>
     <string name="cleanup_result_freed">Alliberat</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Oberta</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Opcions de privadesa dels anuncis</string>
+    <string name="home_cleanup_caption_running">Netejant…</string>
+    <string name="home_cleanup_running">Esborrant la memòria cau i la paperera…</string>
+    <string name="home_cleanup_awaiting_android">Toca Permet al missatge d’Android. Pot dir «fotos».</string>
+    <string name="home_cleanup_done_items">S’han eliminat %1$d elements. Memòria cau esborrada.</string>
+    <string name="home_cleanup_done_cache">Memòria cau esborrada. La paperera ja era buida.</string>
+    <string name="delete_bar_android_note">Android et demanarà que ho confirmis.</string>
 </resources>

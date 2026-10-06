@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Jaribu</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Safisha</string>
-    <string name="cleanup_sheet_message">Futa vipengee %1$s kwenye tupio na akiba ya %2$s?</string>
-    <string name="cleanup_sheet_detail">Vipengee hivi tayari viko kwenye tupio la Android, si picha zilizo kwenye matunzio yako. Android itakuomba uthibitishe tena na inaweza kuviita “picha”. Hakuna kingine kinachoguswa.</string>
     <string name="cleanup_result_freed">Imeachwa huru</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Wazi</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Chaguo za faragha ya matangazo</string>
+    <string name="home_cleanup_caption_running">Inasafisha…</string>
+    <string name="home_cleanup_running">Inafuta kache na tupio…</string>
+    <string name="home_cleanup_awaiting_android">Gusa Ruhusu kwenye ombi la Android. Linaweza kusema “picha”.</string>
+    <string name="home_cleanup_done_items">Vipengee %1$d vimeondolewa. Kache imefutwa.</string>
+    <string name="home_cleanup_done_cache">Kache imefutwa. Tupio lilikuwa tupu tayari.</string>
+    <string name="delete_bar_android_note">Android itakuomba uthibitishe.</string>
 </resources>

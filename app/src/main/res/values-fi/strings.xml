@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Testi</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Siivoa</string>
-    <string name="cleanup_sheet_message">Tyhjennetäänkö roskakorista kohteita: %1$s ja välimuistia: %2$s?</string>
-    <string name="cleanup_sheet_detail">Nämä kohteet ovat jo Androidin roskakorissa, eivätkä ne ole galleriasi kuvia. Android pyytää vahvistamaan vielä kerran ja voi kutsua niitä ”kuviksi”. Mitään muuta ei kosketa.</string>
     <string name="cleanup_result_freed">Vapautettu</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Avoin</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Mainosten tietosuojavalinnat</string>
+    <string name="home_cleanup_caption_running">Siivotaan…</string>
+    <string name="home_cleanup_running">Tyhjennetään välimuisti ja roskakori…</string>
+    <string name="home_cleanup_awaiting_android">Napauta Androidin kehotteessa Salli. Siinä voi lukea “kuvat”.</string>
+    <string name="home_cleanup_done_items">%1$d kohdetta poistettu. Välimuisti tyhjennetty.</string>
+    <string name="home_cleanup_done_cache">Välimuisti tyhjennetty. Roskakori oli jo tyhjä.</string>
+    <string name="delete_bar_android_note">Android pyytää vahvistuksen.</string>
 </resources>

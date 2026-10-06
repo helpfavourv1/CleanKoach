@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">ทดสอบ</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">ล้างข้อมูล</string>
-    <string name="cleanup_sheet_message">ล้าง %1$s รายการในถังขยะและแคช %2$s หรือไม่</string>
-    <string name="cleanup_sheet_detail">รายการเหล่านี้อยู่ในถังขยะของ Android อยู่แล้ว ไม่ใช่รูปภาพในแกลเลอรีของคุณ Android จะขอให้ยืนยันอีกครั้งและอาจเรียกรายการเหล่านี้ว่า “รูปภาพ” ระบบจะไม่แตะต้องข้อมูลอื่น</string>
     <string name="cleanup_result_freed">พื้นที่ที่ว่างขึ้น</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">เปิด</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">ตัวเลือกความเป็นส่วนตัวของโฆษณา</string>
+    <string name="home_cleanup_caption_running">กำลังล้าง…</string>
+    <string name="home_cleanup_running">กำลังล้างแคชและถังขยะ…</string>
+    <string name="home_cleanup_awaiting_android">แตะ อนุญาต ในข้อความของ Android อาจแสดงว่า “รูปภาพ”</string>
+    <string name="home_cleanup_done_items">ลบแล้ว %1$d รายการ ล้างแคชแล้ว</string>
+    <string name="home_cleanup_done_cache">ล้างแคชแล้ว ถังขยะว่างอยู่แล้ว</string>
+    <string name="delete_bar_android_note">Android จะขอให้คุณยืนยัน</string>
 </resources>

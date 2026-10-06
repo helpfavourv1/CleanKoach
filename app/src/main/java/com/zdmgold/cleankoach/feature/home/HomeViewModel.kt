@@ -84,30 +84,31 @@ class HomeViewModel @Inject constructor(
     }
 
     fun onCleanUpPressed() {
-        if (_state.value.scanning) return
+        if (_state.value.scanning || _state.value.cleanUpResultVisible) return
         val reclaimable = _state.value.storage?.totalReclaimableBytes
         if (reclaimable != null && reclaimable <= 0L) {
             _state.update { it.copy(nothingToClean = true) }
             return
         }
-        _state.update { it.copy(cleanUpSheetVisible = true) }
+        startCleanUp()
     }
 
-    fun onCleanUpCancelled() {
-        _state.update { it.copy(cleanUpSheetVisible = false) }
-    }
-
-    fun onCleanUpConfirmed() {
+    private fun startCleanUp() {
         viewModelScope.launch {
             _state.update {
-                it.copy(cleanUpSheetVisible = false, scanning = true, scanProgress = 0f)
+                it.copy(scanning = true, scanProgress = 0f, awaitingAndroid = false)
             }
             cleanupBefore = runCatching { mediaRepository.storageStats() }.getOrNull()
             val sender = runCatching {
                 mediaRepository.buildDeleteRequest(mediaRepository.trashedUris())
             }.getOrNull()
             if (sender != null) {
-                _state.update { it.copy(deleteRequest = IntentSenderRequest.Builder(sender).build()) }
+                _state.update {
+                    it.copy(
+                        awaitingAndroid = true,
+                        deleteRequest = IntentSenderRequest.Builder(sender).build()
+                    )
+                }
             } else {
                 finishCleanUp()
             }
@@ -139,6 +140,7 @@ class HomeViewModel @Inject constructor(
             it.copy(
                 reviewRequested = it.reviewRequested || promptReview,
                 scanning = false,
+                awaitingAndroid = false,
                 scanProgress = 1f,
                 cleanUpResultVisible = true,
                 lastCleanupResult = CleanUpSummary(

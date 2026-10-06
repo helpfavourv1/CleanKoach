@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">測速</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">清理</string>
-    <string name="cleanup_sheet_message">要清除垃圾桶中的 %1$s 個項目和 %2$s 快取嗎？</string>
-    <string name="cleanup_sheet_detail">這些項目已在 Android 的垃圾桶中，並非相簿裡的相片。Android 會再請您確認一次，且可能稱之為「相片」。不會動到其他任何內容。</string>
     <string name="cleanup_result_freed">已釋出</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">開放</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">廣告隱私權選項</string>
+    <string name="home_cleanup_caption_running">清理中…</string>
+    <string name="home_cleanup_running">正在清除快取和垃圾桶…</string>
+    <string name="home_cleanup_awaiting_android">請輕觸 Android 提示中的「允許」。提示可能寫的是「相片」。</string>
+    <string name="home_cleanup_done_items">已移除 %1$d 個項目。快取已清除。</string>
+    <string name="home_cleanup_done_cache">快取已清除。垃圾桶本來就是空的。</string>
+    <string name="delete_bar_android_note">Android 會請你確認。</string>
 </resources>

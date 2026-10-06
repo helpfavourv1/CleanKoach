@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Đo thử</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Dọn dẹp</string>
-    <string name="cleanup_sheet_message">Xóa %1$s mục trong thùng rác và %2$s bộ nhớ đệm?</string>
-    <string name="cleanup_sheet_detail">Các mục này đã nằm trong thùng rác của Android, không phải ảnh trong thư viện của bạn. Android sẽ yêu cầu xác nhận thêm một lần nữa và có thể gọi chúng là “ảnh”. Không có dữ liệu nào khác bị ảnh hưởng.</string>
     <string name="cleanup_result_freed">Đã giải phóng</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Mở</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Tùy chọn quyền riêng tư quảng cáo</string>
+    <string name="home_cleanup_caption_running">Đang dọn…</string>
+    <string name="home_cleanup_running">Đang xóa bộ nhớ đệm và thùng rác…</string>
+    <string name="home_cleanup_awaiting_android">Nhấn Cho phép trên hộp thoại Android. Có thể ghi “ảnh”.</string>
+    <string name="home_cleanup_done_items">Đã xóa %1$d mục. Đã xóa bộ nhớ đệm.</string>
+    <string name="home_cleanup_done_cache">Đã xóa bộ nhớ đệm. Thùng rác đã trống.</string>
+    <string name="delete_bar_android_note">Android sẽ yêu cầu bạn xác nhận.</string>
 </resources>

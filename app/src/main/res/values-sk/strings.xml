@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Test</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Vyčistenie</string>
-    <string name="cleanup_sheet_message">Vymazať položky v koši (%1$s) a vyrovnávaciu pamäť (%2$s)?</string>
-    <string name="cleanup_sheet_detail">Tieto položky sú už v koši Androidu, nejde o fotky vo vašej galérii. Android vás požiada o ďalšie potvrdenie a môže ich nazvať „fotkami“. Nič iné sa nezmení.</string>
     <string name="cleanup_result_freed">Uvoľnené</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Otvorená</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Možnosti ochrany súkromia pri reklamách</string>
+    <string name="home_cleanup_caption_running">Čistenie…</string>
+    <string name="home_cleanup_running">Čistí sa vyrovnávacia pamäť a kôš…</string>
+    <string name="home_cleanup_awaiting_android">Klepnite na Povoliť vo výzve Androidu. Môže znieť „fotky“.</string>
+    <string name="home_cleanup_done_items">Odstránené položky: %1$d. Vyrovnávacia pamäť vymazaná.</string>
+    <string name="home_cleanup_done_cache">Vyrovnávacia pamäť vymazaná. Kôš bol už prázdny.</string>
+    <string name="delete_bar_android_note">Android vás požiada o potvrdenie.</string>
 </resources>

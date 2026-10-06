@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Test</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Curățare</string>
-    <string name="cleanup_sheet_message">Ștergeți %1$s elemente din coș și %2$s de cache?</string>
-    <string name="cleanup_sheet_detail">Aceste elemente se află deja în coșul de gunoi Android, nu sunt fotografii din galerie. Android vă va cere încă o confirmare și le poate numi „fotografii”. Nimic altceva nu este modificat.</string>
     <string name="cleanup_result_freed">Eliberat</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Deschisă</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Opțiuni de confidențialitate pentru reclame</string>
+    <string name="home_cleanup_caption_running">Se curăță…</string>
+    <string name="home_cleanup_running">Se șterg memoria cache și coșul…</string>
+    <string name="home_cleanup_awaiting_android">Atinge Permite în mesajul Android. Poate scrie „fotografii”.</string>
+    <string name="home_cleanup_done_items">%1$d elemente șterse. Memoria cache a fost golită.</string>
+    <string name="home_cleanup_done_cache">Cache golit. Coșul era deja gol.</string>
+    <string name="delete_bar_android_note">Android îți va cere confirmarea.</string>
 </resources>

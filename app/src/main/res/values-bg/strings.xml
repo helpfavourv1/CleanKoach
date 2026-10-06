@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Тест</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Почистване</string>
-    <string name="cleanup_sheet_message">Да се изчистят ли %1$s елемента от кошчето и %2$s кеш?</string>
-    <string name="cleanup_sheet_detail">Тези елементи вече са в кошчето на Android и не са снимки от галерията ви. Android ще поиска още едно потвърждение и може да ги нарече „снимки“. Нищо друго не се променя.</string>
     <string name="cleanup_result_freed">Освободено</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Отворена</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Опции за поверителност на рекламите</string>
+    <string name="home_cleanup_caption_running">Почистване…</string>
+    <string name="home_cleanup_running">Изчистване на кеша и кошчето…</string>
+    <string name="home_cleanup_awaiting_android">Докоснете „Разрешаване“ в прозореца на Android. Може да пише „снимки“.</string>
+    <string name="home_cleanup_done_items">Премахнати елементи: %1$d. Кешът е изчистен.</string>
+    <string name="home_cleanup_done_cache">Кешът е изчистен. Кошчето вече беше празно.</string>
+    <string name="delete_bar_android_note">Android ще поиска потвърждение.</string>
 </resources>

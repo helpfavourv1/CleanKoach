@@ -44,10 +44,6 @@
     <string name="tool_wifi_security_badge">Verifica</string>
     <string name="tool_network_speed_title">Velocità rete</string>
     <string name="tool_network_speed_badge">Test</string>
-
-    <string name="cleanup_sheet_title">Pulisci</string>
-    <string name="cleanup_sheet_message">Svuotare %1$s elementi nel cestino e %2$s di cache?</string>
-    <string name="cleanup_sheet_detail">Questi elementi sono già nel cestino di Android, non sono foto della tua galleria. Android chiederà un\'ultima conferma e potrebbe chiamarli «foto». Nient\'altro viene toccato.</string>
     <string name="cleanup_result_freed">Liberati</string>
 
     <string name="media_disclosure_title">Consenti accesso ai media</string>
@@ -214,4 +210,10 @@
     <string name="wifi_encryption_open">Aperta</string>
     <string name="wifi_encryption_owe">Aperta avanzata</string>
     <string name="settings_privacy_options">Opzioni privacy per gli annunci</string>
+    <string name="home_cleanup_caption_running">Pulizia…</string>
+    <string name="home_cleanup_running">Svuotamento di cache e cestino…</string>
+    <string name="home_cleanup_awaiting_android">Tocca Consenti nella richiesta di Android. Può dire “foto”.</string>
+    <string name="home_cleanup_done_items">%1$d elementi rimossi. Cache svuotata.</string>
+    <string name="home_cleanup_done_cache">Cache svuotata. Il cestino era già vuoto.</string>
+    <string name="delete_bar_android_note">Android chiederà di confermare.</string>
 </resources>

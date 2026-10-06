@@ -34,6 +34,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.zdmgold.cleankoach.R
+import com.zdmgold.cleankoach.core.ui.components.DeleteBar
 import com.zdmgold.cleankoach.core.ads.rememberAdActions
 import com.zdmgold.cleankoach.core.ui.components.BottomAdBar
 import com.zdmgold.cleankoach.core.ui.components.EmptyState
@@ -135,34 +136,14 @@ fun LargeFilesScreen(
                 }
 
                 if (state.canDelete) {
-                    Surface(
-                        color = MaterialTheme.colorScheme.surfaceVariant,
-                        modifier = Modifier
-                            .fillMaxWidth()
-                    ) {
-                        Row(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(horizontal = 16.dp, vertical = 12.dp),
-                            verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.SpaceBetween
-                        ) {
-                            Text(
-                                text = stringResource(
-                                    R.string.large_files_selection_line,
-                                    state.selectionCount,
-                                    FormatUtils.bytes(state.selectedBytes)
-                                ),
-                                style = MaterialTheme.typography.bodyMedium,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant
-                            )
-                            TextButton(onClick = viewModel::delete) {
-                                Icon(Icons.Filled.Delete, contentDescription = null)
-                                Spacer(Modifier.padding(horizontal = 4.dp))
-                                Text(stringResource(R.string.action_delete))
-                            }
-                        }
-                    }
+                    DeleteBar(
+                        summary = stringResource(
+                            R.string.large_files_selection_line,
+                            state.selectionCount,
+                            FormatUtils.bytes(state.selectedBytes)
+                        ),
+                        onDelete = viewModel::delete
+                    )
                 }
             }
 

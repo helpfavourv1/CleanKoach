@@ -44,10 +44,6 @@
     <string name="tool_wifi_security_badge">Prüfen</string>
     <string name="tool_network_speed_title">Netzwerkgeschwindigkeit</string>
     <string name="tool_network_speed_badge">Testen</string>
-
-    <string name="cleanup_sheet_title">Bereinigen</string>
-    <string name="cleanup_sheet_message">%1$s Elemente im Papierkorb und %2$s Cache leeren?</string>
-    <string name="cleanup_sheet_detail">Diese Elemente liegen bereits im Papierkorb von Android und sind keine Fotos aus deiner Galerie. Android bittet dich noch einmal um Bestätigung und nennt sie möglicherweise „Fotos“. Nichts anderes wird angetastet.</string>
     <string name="cleanup_result_freed">Freigegeben</string>
 
     <string name="media_disclosure_title">Medienzugriff erlauben</string>
@@ -214,4 +210,10 @@
     <string name="wifi_encryption_open">Offen</string>
     <string name="wifi_encryption_owe">Erweitert offen</string>
     <string name="settings_privacy_options">Datenschutzoptionen für Werbung</string>
+    <string name="home_cleanup_caption_running">Bereinigen…</string>
+    <string name="home_cleanup_running">Cache und Papierkorb werden geleert…</string>
+    <string name="home_cleanup_awaiting_android">Tippe in der Android-Abfrage auf Zulassen. Dort steht evtl. „Fotos“.</string>
+    <string name="home_cleanup_done_items">%1$d Elemente entfernt. Cache geleert.</string>
+    <string name="home_cleanup_done_cache">Cache geleert. Der Papierkorb war bereits leer.</string>
+    <string name="delete_bar_android_note">Android bittet dich um Bestätigung.</string>
 </resources>

@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">מבחן</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">ניקוי</string>
-    <string name="cleanup_sheet_message">לנקות %1$s פריטים באשפה ו-%2$s של מטמון?</string>
-    <string name="cleanup_sheet_detail">פריטים אלה כבר נמצאים באשפה של Android, ואינם תמונות בגלריה שלכם. Android יבקש אישור נוסף ועשוי לכנות אותם "תמונות". שום דבר אחר לא ייפגע.</string>
     <string name="cleanup_result_freed">שוחרר</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">פתוחה</string>
     <string name="wifi_encryption_owe">פתוחה משופרת</string>
     <string name="settings_privacy_options">אפשרויות פרטיות פרסומות</string>
+    <string name="home_cleanup_caption_running">מנקה…</string>
+    <string name="home_cleanup_running">מנקה מטמון ופח…</string>
+    <string name="home_cleanup_awaiting_android">הקש על ״אפשר״ בהודעת Android. ייתכן שיופיע “תמונות”.</string>
+    <string name="home_cleanup_done_items">%1$d פריטים הוסרו. המטמון נוקה.</string>
+    <string name="home_cleanup_done_cache">המטמון נוקה. הפח כבר היה ריק.</string>
+    <string name="delete_bar_android_note">Android יבקש ממך לאשר.</string>
 </resources>

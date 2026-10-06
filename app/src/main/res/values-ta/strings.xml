@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">சோதனை</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">சுத்தம் செய்</string>
-    <string name="cleanup_sheet_message">குப்பையிலுள்ள %1$s உருப்படிகளையும் %2$s கேஷையும் அழிக்கவா?</string>
-    <string name="cleanup_sheet_detail">இந்த உருப்படிகள் ஏற்கனவே Android குப்பையில் உள்ளன; உங்கள் கேலரியில் உள்ள படங்கள் அல்ல. Android இன்னொரு முறை உறுதிப்படுத்தக் கேட்கும், அவற்றை “படங்கள்” என்றும் குறிப்பிடலாம். வேறு எதுவும் தொடப்படாது.</string>
     <string name="cleanup_result_freed">விடுவிக்கப்பட்டது</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">திறந்தது</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">விளம்பர தனியுரிமை விருப்பங்கள்</string>
+    <string name="home_cleanup_caption_running">சுத்தம்…</string>
+    <string name="home_cleanup_running">கேச் மற்றும் குப்பையை அழிக்கிறது…</string>
+    <string name="home_cleanup_awaiting_android">Android கேட்கும்போது அனுமதி என்பதைத் தட்டவும். “புகைப்படங்கள்” எனக் காட்டலாம்.</string>
+    <string name="home_cleanup_done_items">%1$d உருப்படிகள் நீக்கப்பட்டன. கேச் அழிக்கப்பட்டது.</string>
+    <string name="home_cleanup_done_cache">கேச் அழிக்கப்பட்டது. குப்பை ஏற்கெனவே காலியாக இருந்தது.</string>
+    <string name="delete_bar_android_note">உறுதிசெய்ய Android கேட்கும்.</string>
 </resources>

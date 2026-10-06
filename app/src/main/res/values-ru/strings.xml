@@ -44,10 +44,6 @@
     <string name="tool_wifi_security_badge">Проверить</string>
     <string name="tool_network_speed_title">Скорость сети</string>
     <string name="tool_network_speed_badge">Тест</string>
-
-    <string name="cleanup_sheet_title">Очистка</string>
-    <string name="cleanup_sheet_message">Очистить %1$s элементов в корзине и %2$s кэша?</string>
-    <string name="cleanup_sheet_detail">Эти элементы уже в корзине Android, это не фото из вашей галереи. Android запросит ещё одно подтверждение и может назвать их «фото». Больше ничего не затрагивается.</string>
     <string name="cleanup_result_freed">Освобождено</string>
 
     <string name="media_disclosure_title">Разрешить доступ к медиа</string>
@@ -214,4 +210,10 @@
     <string name="wifi_encryption_open">Открытая</string>
     <string name="wifi_encryption_owe">Улучшенная открытая</string>
     <string name="settings_privacy_options">Настройки конфиденциальности рекламы</string>
+    <string name="home_cleanup_caption_running">Очистка…</string>
+    <string name="home_cleanup_running">Очищаем кеш и корзину…</string>
+    <string name="home_cleanup_awaiting_android">Нажмите «Разрешить» в запросе Android. Там может быть «фото».</string>
+    <string name="home_cleanup_done_items">Удалено объектов: %1$d. Кеш очищен.</string>
+    <string name="home_cleanup_done_cache">Кеш очищен. Корзина уже была пуста.</string>
+    <string name="delete_bar_android_note">Android попросит подтвердить действие.</string>
 </resources>

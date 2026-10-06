@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Uji</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Bersihkan</string>
-    <string name="cleanup_sheet_message">Kosongkan %1$s item dalam tong sampah dan %2$s cache?</string>
-    <string name="cleanup_sheet_detail">Item ini sudah berada dalam tong sampah Android, bukan foto dalam galeri anda. Android akan meminta pengesahan sekali lagi dan mungkin menyebutnya “foto”. Tiada yang lain akan disentuh.</string>
     <string name="cleanup_result_freed">Dibebaskan</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Terbuka</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Pilihan privasi iklan</string>
+    <string name="home_cleanup_caption_running">Membersihkan…</string>
+    <string name="home_cleanup_running">Mengosongkan cache dan sampah…</string>
+    <string name="home_cleanup_awaiting_android">Ketik Benarkan pada gesaan Android. Mungkin tertulis “foto”.</string>
+    <string name="home_cleanup_done_items">%1$d item dialih keluar. Cache dikosongkan.</string>
+    <string name="home_cleanup_done_cache">Cache dikosongkan. Sampah sudah kosong.</string>
+    <string name="delete_bar_android_note">Android akan meminta anda mengesahkan.</string>
 </resources>

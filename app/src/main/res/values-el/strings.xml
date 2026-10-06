@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Τεστ</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Καθαρισμός</string>
-    <string name="cleanup_sheet_message">Εκκαθάριση %1$s στοιχείων στον κάδο και %2$s προσωρινής μνήμης;</string>
-    <string name="cleanup_sheet_detail">Αυτά τα στοιχεία βρίσκονται ήδη στον κάδο του Android και δεν είναι φωτογραφίες της συλλογής σας. Το Android θα ζητήσει άλλη μία επιβεβαίωση και ίσως τα ονομάσει «φωτογραφίες». Δεν επηρεάζεται τίποτα άλλο.</string>
     <string name="cleanup_result_freed">Ελευθερώθηκαν</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Ανοιχτό</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Επιλογές απορρήτου διαφημίσεων</string>
+    <string name="home_cleanup_caption_running">Καθαρισμός…</string>
+    <string name="home_cleanup_running">Εκκαθάριση προσωρινής μνήμης και κάδου…</string>
+    <string name="home_cleanup_awaiting_android">Πατήστε Να επιτρέπεται στο μήνυμα του Android. Ίσως γράφει «φωτογραφίες».</string>
+    <string name="home_cleanup_done_items">Αφαιρέθηκαν %1$d στοιχεία. Η προσωρινή μνήμη καθαρίστηκε.</string>
+    <string name="home_cleanup_done_cache">Η προσωρινή μνήμη καθαρίστηκε. Ο κάδος ήταν ήδη άδειος.</string>
+    <string name="delete_bar_android_note">Το Android θα ζητήσει επιβεβαίωση.</string>
 </resources>

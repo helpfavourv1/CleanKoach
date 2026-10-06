@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Teszt</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Tisztítás</string>
-    <string name="cleanup_sheet_message">Törli a kukában lévő %1$s elemet és %2$s gyorsítótárat?</string>
-    <string name="cleanup_sheet_detail">Ezek az elemek már az Android kukájában vannak, nem a galéria fotói. Az Android még egyszer megerősítést kér, és „fotóknak” nevezheti őket. Semmi mást nem érint a művelet.</string>
     <string name="cleanup_result_freed">Felszabadítva</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Nyitott</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Hirdetési adatvédelmi beállítások</string>
+    <string name="home_cleanup_caption_running">Tisztítás…</string>
+    <string name="home_cleanup_running">Gyorsítótár és kuka ürítése…</string>
+    <string name="home_cleanup_awaiting_android">Koppintson az Engedélyezés gombra. Írhat „fotókat” is.</string>
+    <string name="home_cleanup_done_items">%1$d elem eltávolítva. Gyorsítótár törölve.</string>
+    <string name="home_cleanup_done_cache">Gyorsítótár törölve. A kuka már üres volt.</string>
+    <string name="delete_bar_android_note">Az Android megerősítést fog kérni.</string>
 </resources>

@@ -44,10 +44,6 @@
     <string name="tool_wifi_security_badge">Verificar</string>
     <string name="tool_network_speed_title">Velocidade de rede</string>
     <string name="tool_network_speed_badge">Testar</string>
-
-    <string name="cleanup_sheet_title">Limpar</string>
-    <string name="cleanup_sheet_message">Limpar %1$s itens da lixeira e %2$s de cache?</string>
-    <string name="cleanup_sheet_detail">Estes itens já estão na lixeira do Android, não são fotos da sua galeria. O Android pedirá mais uma confirmação e pode chamá-los de “fotos”. Mais nada é tocado.</string>
     <string name="cleanup_result_freed">Libertados</string>
 
     <string name="media_disclosure_title">Permitir acesso aos media</string>
@@ -214,4 +210,10 @@
     <string name="wifi_encryption_open">Aberta</string>
     <string name="wifi_encryption_owe">Aberta aprimorada</string>
     <string name="settings_privacy_options">Opções de privacidade de anúncios</string>
+    <string name="home_cleanup_caption_running">Limpando…</string>
+    <string name="home_cleanup_running">Limpando cache e lixeira…</string>
+    <string name="home_cleanup_awaiting_android">Toque em Permitir no aviso do Android. Pode dizer “fotos”.</string>
+    <string name="home_cleanup_done_items">%1$d itens removidos. Cache limpo.</string>
+    <string name="home_cleanup_done_cache">Cache limpo. A lixeira já estava vazia.</string>
+    <string name="delete_bar_android_note">O Android pedirá que você confirme.</string>
 </resources>

@@ -18,7 +18,7 @@ data class HomeUiState(
     val screenshotsBadge: String? = null,
     val photoOptimizerBadge: String? = null,
     val videoOptimizerBadge: String? = null,
-    val cleanUpSheetVisible: Boolean = false,
+    val awaitingAndroid: Boolean = false,
     val cleanUpResultVisible: Boolean = false,
     val reviewRequested: Boolean = false,
     val nothingToClean: Boolean = false,

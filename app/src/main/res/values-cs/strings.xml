@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Test</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Vyčištění</string>
-    <string name="cleanup_sheet_message">Vymazat položky v koši (%1$s) a mezipaměť (%2$s)?</string>
-    <string name="cleanup_sheet_detail">Tyto položky už jsou v koši Androidu, nejde o fotky ve vaší galerii. Android vás požádá o další potvrzení a může je nazvat „fotkami“. Nic dalšího se nezmění.</string>
     <string name="cleanup_result_freed">Uvolněno</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Otevřená</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Možnosti ochrany soukromí u reklam</string>
+    <string name="home_cleanup_caption_running">Čistím…</string>
+    <string name="home_cleanup_running">Mažu mezipaměť a koš…</string>
+    <string name="home_cleanup_awaiting_android">Klepněte na Povolit v dotazu Androidu. Může zmínit „fotky“.</string>
+    <string name="home_cleanup_done_items">Odstraněno položek: %1$d. Mezipaměť vymazána.</string>
+    <string name="home_cleanup_done_cache">Mezipaměť vymazána. Koš byl už prázdný.</string>
+    <string name="delete_bar_android_note">Android vás požádá o potvrzení.</string>
 </resources>

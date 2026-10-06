@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Test</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Clean up</string>
-    <string name="cleanup_sheet_message">Clear %1$s items in trash and %2$s of cache?</string>
-    <string name="cleanup_sheet_detail">These items are already in Android\'s trash, not photos in your gallery. Android will ask you to confirm once more and may call them “photos”. Nothing else is touched.</string>
     <string name="cleanup_result_freed">Freed</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Open</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Ad privacy options</string>
+    <string name="home_cleanup_caption_running">Cleaning…</string>
+    <string name="home_cleanup_running">Clearing cache and trash…</string>
+    <string name="home_cleanup_awaiting_android">Tap Allow on Android’s prompt. It may say “photos”.</string>
+    <string name="home_cleanup_done_items">%1$d items removed. Cache cleared.</string>
+    <string name="home_cleanup_done_cache">Cache cleared. Trash was already empty.</string>
+    <string name="delete_bar_android_note">Android will ask you to confirm.</string>
 </resources>

@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">ٹیسٹ</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">صفائی کریں</string>
-    <string name="cleanup_sheet_message">ٹریش میں موجود %1$s آئٹمز اور %2$s کیش صاف کریں؟</string>
-    <string name="cleanup_sheet_detail">یہ آئٹمز پہلے ہی Android کے ٹریش میں ہیں، آپ کی گیلری کی تصاویر نہیں۔ Android ایک بار پھر تصدیق مانگے گا اور انہیں «تصاویر» کہہ سکتا ہے۔ اس کے علاوہ کسی چیز کو ہاتھ نہیں لگایا جاتا۔</string>
     <string name="cleanup_result_freed">خالی ہوا</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">کھلا</string>
     <string name="wifi_encryption_owe">اینہانسڈ اوپن</string>
     <string name="settings_privacy_options">اشتہاری رازداری کے اختیارات</string>
+    <string name="home_cleanup_caption_running">صفائی…</string>
+    <string name="home_cleanup_running">کیش اور ٹریش صاف ہو رہے ہیں…</string>
+    <string name="home_cleanup_awaiting_android">Android کے پرامپٹ پر اجازت دیں پر ٹیپ کریں۔ اس میں “تصاویر” لکھا ہو سکتا ہے۔</string>
+    <string name="home_cleanup_done_items">%1$d آئٹمز ہٹا دیے گئے۔ کیش صاف ہو گیا۔</string>
+    <string name="home_cleanup_done_cache">کیش صاف ہو گیا۔ ٹریش پہلے ہی خالی تھا۔</string>
+    <string name="delete_bar_android_note">Android آپ سے تصدیق مانگے گا۔</string>
 </resources>

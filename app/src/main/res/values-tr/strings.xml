@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Test</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Temizle</string>
-    <string name="cleanup_sheet_message">Çöpteki %1$s öğe ve %2$s önbellek temizlensin mi?</string>
-    <string name="cleanup_sheet_detail">Bu öğeler zaten Android\'in çöp kutusunda, galerinizdeki fotoğraflar değil. Android bir kez daha onay isteyecek ve bunlara “fotoğraf” diyebilir. Başka hiçbir şeye dokunulmaz.</string>
     <string name="cleanup_result_freed">Boşaltıldı</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Açık</string>
     <string name="wifi_encryption_owe">Gelişmiş Açık</string>
     <string name="settings_privacy_options">Reklam gizliliği seçenekleri</string>
+    <string name="home_cleanup_caption_running">Temizleniyor…</string>
+    <string name="home_cleanup_running">Önbellek ve çöp temizleniyor…</string>
+    <string name="home_cleanup_awaiting_android">Android isteminde İzin Ver’e dokunun. “Fotoğraflar” diyebilir.</string>
+    <string name="home_cleanup_done_items">%1$d öğe kaldırıldı. Önbellek temizlendi.</string>
+    <string name="home_cleanup_done_cache">Önbellek temizlendi. Çöp zaten boştu.</string>
+    <string name="delete_bar_android_note">Android onay isteyecek.</string>
 </resources>

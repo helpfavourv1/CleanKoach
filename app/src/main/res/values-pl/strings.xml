@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Test</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Czyszczenie</string>
-    <string name="cleanup_sheet_message">Wyczyścić elementy w koszu (%1$s) i pamięć podręczną (%2$s)?</string>
-    <string name="cleanup_sheet_detail">Te elementy są już w koszu Androida, a nie w galerii. Android poprosi o ponowne potwierdzenie i może nazwać je „zdjęciami”. Nic więcej nie zostanie ruszone.</string>
     <string name="cleanup_result_freed">Zwolniono</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Otwarta</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Opcje prywatności reklam</string>
+    <string name="home_cleanup_caption_running">Czyszczenie…</string>
+    <string name="home_cleanup_running">Czyszczenie pamięci podręcznej i kosza…</string>
+    <string name="home_cleanup_awaiting_android">Kliknij Zezwól w oknie Androida. Może być „zdjęcia”.</string>
+    <string name="home_cleanup_done_items">Usunięto elementy: %1$d. Wyczyszczono pamięć podręczną.</string>
+    <string name="home_cleanup_done_cache">Wyczyszczono pamięć podręczną. Kosz był już pusty.</string>
+    <string name="delete_bar_android_note">Android poprosi o potwierdzenie.</string>
 </resources>

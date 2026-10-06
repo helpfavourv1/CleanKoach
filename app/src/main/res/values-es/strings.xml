@@ -44,10 +44,6 @@
     <string name="tool_wifi_security_badge">Comprobar</string>
     <string name="tool_network_speed_title">Velocidad de red</string>
     <string name="tool_network_speed_badge">Probar</string>
-
-    <string name="cleanup_sheet_title">Limpiar</string>
-    <string name="cleanup_sheet_message">¿Vaciar %1$s elementos de la papelera y %2$s de caché?</string>
-    <string name="cleanup_sheet_detail">Estos elementos ya están en la papelera de Android, no son fotos de tu galería. Android te pedirá confirmar una vez más y puede llamarlos «fotos». No se toca nada más.</string>
     <string name="cleanup_result_freed">Liberados</string>
 
     <string name="media_disclosure_title">Permitir acceso a medios</string>
@@ -214,4 +210,10 @@
     <string name="wifi_encryption_open">Abierta</string>
     <string name="wifi_encryption_owe">Abierta mejorada</string>
     <string name="settings_privacy_options">Opciones de privacidad de anuncios</string>
+    <string name="home_cleanup_caption_running">Limpiando…</string>
+    <string name="home_cleanup_running">Borrando caché y papelera…</string>
+    <string name="home_cleanup_awaiting_android">Toca Permitir en el aviso de Android. Puede decir «fotos».</string>
+    <string name="home_cleanup_done_items">%1$d elementos eliminados. Caché borrada.</string>
+    <string name="home_cleanup_done_cache">Caché borrada. La papelera ya estaba vacía.</string>
+    <string name="delete_bar_android_note">Android te pedirá que lo confirmes.</string>
 </resources>

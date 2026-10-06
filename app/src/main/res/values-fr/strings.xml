@@ -44,10 +44,6 @@
     <string name="tool_wifi_security_badge">Vérifier</string>
     <string name="tool_network_speed_title">Vitesse du réseau</string>
     <string name="tool_network_speed_badge">Tester</string>
-
-    <string name="cleanup_sheet_title">Nettoyer</string>
-    <string name="cleanup_sheet_message">Vider %1$s éléments de la corbeille et %2$s de cache ?</string>
-    <string name="cleanup_sheet_detail">Ces éléments sont déjà dans la corbeille d’Android, ce ne sont pas des photos de votre galerie. Android demandera une dernière confirmation et peut les appeler « photos ». Rien d’autre n’est touché.</string>
     <string name="cleanup_result_freed">Libérés</string>
 
     <string name="media_disclosure_title">Autoriser l\'accès aux médias</string>
@@ -214,4 +210,10 @@
     <string name="wifi_encryption_open">Ouverte</string>
     <string name="wifi_encryption_owe">Ouverte renforcée</string>
     <string name="settings_privacy_options">Options de confidentialité des annonces</string>
+    <string name="home_cleanup_caption_running">Nettoyage…</string>
+    <string name="home_cleanup_running">Suppression du cache et de la corbeille…</string>
+    <string name="home_cleanup_awaiting_android">Touchez Autoriser dans l’invite Android. Elle peut citer « photos ».</string>
+    <string name="home_cleanup_done_items">%1$d éléments supprimés. Cache vidé.</string>
+    <string name="home_cleanup_done_cache">Cache vidé. La corbeille était déjà vide.</string>
+    <string name="delete_bar_android_note">Android vous demandera de confirmer.</string>
 </resources>

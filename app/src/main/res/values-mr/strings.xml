@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">चाचणी</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">स्वच्छता</string>
-    <string name="cleanup_sheet_message">कचऱ्यातील %1$s आयटम आणि %2$s कॅशे साफ करायचे?</string>
-    <string name="cleanup_sheet_detail">हे आयटम आधीच Android च्या कचऱ्यात आहेत, तुमच्या गॅलरीतील फोटो नाहीत. Android तुम्हाला पुन्हा एकदा पुष्टी करायला सांगेल आणि त्यांना “फोटो” म्हणू शकते. इतर काहीही बदलले जात नाही.</string>
     <string name="cleanup_result_freed">मोकळे झाले</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">खुले</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">जाहिरात गोपनीयता पर्याय</string>
+    <string name="home_cleanup_caption_running">साफ करत आहे…</string>
+    <string name="home_cleanup_running">कॅशे आणि कचरा साफ करत आहे…</string>
+    <string name="home_cleanup_awaiting_android">Android च्या संदेशावर परवानगी द्या वर टॅप करा. “फोटो” दिसू शकते.</string>
+    <string name="home_cleanup_done_items">%1$d आयटम काढले. कॅशे साफ केली.</string>
+    <string name="home_cleanup_done_cache">कॅशे साफ केली. कचरा आधीच रिकामा होता.</string>
+    <string name="delete_bar_android_note">Android तुम्हाला पुष्टी करण्यास सांगेल.</string>
 </resources>

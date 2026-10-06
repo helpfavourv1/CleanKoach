@@ -51,9 +51,6 @@
     <string name="tool_network_speed_badge">Test</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_sheet_title">Opschonen</string>
-    <string name="cleanup_sheet_message">%1$s items in de prullenbak en %2$s cache wissen?</string>
-    <string name="cleanup_sheet_detail">Deze items staan al in de prullenbak van Android en zijn geen foto\'s in je galerij. Android vraagt nog één keer om bevestiging en noemt ze mogelijk \'foto\'s\'. Er wordt verder niets aangeraakt.</string>
     <string name="cleanup_result_freed">Vrijgemaakt</string>
 
     <!-- Media access disclosure -->
@@ -237,4 +234,10 @@
     <string name="wifi_encryption_open">Open</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">Privacyopties voor advertenties</string>
+    <string name="home_cleanup_caption_running">Opruimen…</string>
+    <string name="home_cleanup_running">Cache en prullenbak wissen…</string>
+    <string name="home_cleanup_awaiting_android">Tik op Toestaan in de Android-melding. Er kan “foto’s” staan.</string>
+    <string name="home_cleanup_done_items">%1$d items verwijderd. Cache gewist.</string>
+    <string name="home_cleanup_done_cache">Cache gewist. Prullenbak was al leeg.</string>
+    <string name="delete_bar_android_note">Android vraagt je om te bevestigen.</string>
 </resources>
