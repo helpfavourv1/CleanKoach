@@ -3,6 +3,7 @@ package com.zdmgold.cleankoach.feature.home
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.material.icons.outlined.DarkMode
 import androidx.compose.material.icons.outlined.LightMode
 import androidx.compose.material.icons.outlined.Translate
@@ -13,7 +14,7 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontVariation
 import androidx.compose.ui.unit.sp
-import com.zdmgold.cleankoach.core.ui.components.StorageRing
+import com.zdmgold.cleankoach.core.ui.components.TrashChart
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -256,6 +257,47 @@ fun HomeScreen(
 
             Spacer(Modifier.height(4.dp))
 
+            SectionHeader(
+                text = stringResource(R.string.home_section_phone_tools),
+                padding = PaddingValues(horizontal = 4.dp, vertical = 6.dp)
+            )
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalAlignment = Alignment.Top
+            ) {
+                PhoneToolCard(
+                    title = stringResource(R.string.tool_activity_monitor_title),
+                    icon = Icons.AutoMirrored.Filled.List,
+                    iconContainerColor = tools.container,
+                    iconContentColor = tools.content,
+                    badge = stringResource(R.string.tool_activity_monitor_badge),
+                    onClick = onOpenActivityMonitor,
+                    modifier = Modifier.weight(1f)
+                )
+                PhoneToolCard(
+                    title = stringResource(R.string.tool_wifi_security_title),
+                    icon = Icons.Filled.Lock,
+                    iconContainerColor = tools.container,
+                    iconContentColor = tools.content,
+                    badge = stringResource(R.string.tool_wifi_security_badge),
+                    onClick = onOpenWifiSecurity,
+                    modifier = Modifier.weight(1f)
+                )
+                PhoneToolCard(
+                    title = stringResource(R.string.tool_network_speed_title),
+                    icon = Icons.Filled.Refresh,
+                    iconContainerColor = tools.container,
+                    iconContentColor = tools.content,
+                    badge = stringResource(R.string.tool_network_speed_badge),
+                    onClick = onOpenNetworkSpeed,
+                    modifier = Modifier.weight(1f)
+                )
+            }
+
+            Spacer(Modifier.height(8.dp))
+
             val fill by animateFloatAsState(
                 targetValue = if (state.scanning) 1f else 0f,
                 animationSpec = tween(
@@ -274,17 +316,18 @@ fun HomeScreen(
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
+                        .height(IntrinsicSize.Min)
                         .padding(14.dp),
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(16.dp)
                 ) {
-                    StorageRing(
+                    TrashChart(
                         valueText = ringValue,
                         progress = fill,
                         caption = stringResource(R.string.home_ring_caption),
-                        subline = null,
-                        size = 108.dp,
-                        strokeWidth = 12.dp
+                        modifier = Modifier
+                            .width(112.dp)
+                            .fillMaxHeight()
                     )
                     Column(modifier = Modifier.weight(1f)) {
                         Text(
@@ -329,7 +372,7 @@ fun HomeScreen(
                                 text = stringResource(R.string.home_button_cleanup),
                                 style = TextStyle(
                                     fontFamily = jakartaSans,
-                                    fontSize = 15.sp,
+                                    fontSize = 17.sp,
                                     fontWeight = FontWeight.W700,
                                     letterSpacing = 0.9.sp
                                 ),
@@ -459,45 +502,6 @@ fun HomeScreen(
                         iconContentColor = optimizer.content,
                         badge = state.videoOptimizerBadge,
                         onClick = onOpenVideoOptimizer,
-                        modifier = Modifier.weight(1f)
-                    )
-                }
-
-                SectionHeader(
-                    text = stringResource(R.string.home_section_phone_tools),
-                    padding = PaddingValues(horizontal = 4.dp, vertical = 6.dp)
-                )
-
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(8.dp),
-                    verticalAlignment = Alignment.Top
-                ) {
-                    PhoneToolCard(
-                        title = stringResource(R.string.tool_activity_monitor_title),
-                        icon = Icons.AutoMirrored.Filled.List,
-                        iconContainerColor = tools.container,
-                        iconContentColor = tools.content,
-                        badge = stringResource(R.string.tool_activity_monitor_badge),
-                        onClick = onOpenActivityMonitor,
-                        modifier = Modifier.weight(1f)
-                    )
-                    PhoneToolCard(
-                        title = stringResource(R.string.tool_wifi_security_title),
-                        icon = Icons.Filled.Lock,
-                        iconContainerColor = tools.container,
-                        iconContentColor = tools.content,
-                        badge = stringResource(R.string.tool_wifi_security_badge),
-                        onClick = onOpenWifiSecurity,
-                        modifier = Modifier.weight(1f)
-                    )
-                    PhoneToolCard(
-                        title = stringResource(R.string.tool_network_speed_title),
-                        icon = Icons.Filled.Refresh,
-                        iconContainerColor = tools.container,
-                        iconContentColor = tools.content,
-                        badge = stringResource(R.string.tool_network_speed_badge),
-                        onClick = onOpenNetworkSpeed,
                         modifier = Modifier.weight(1f)
                     )
                 }

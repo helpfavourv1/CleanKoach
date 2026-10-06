@@ -1,15 +1,11 @@
 package com.zdmgold.cleankoach.feature.photooptimizer
 
-import android.content.Context
 import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.zdmgold.cleankoach.core.data.repository.MediaRepository
 import com.zdmgold.cleankoach.core.media.PhotoCompressor
-import com.zdmgold.cleankoach.R
-import com.zdmgold.cleankoach.core.util.FormatUtils
 import dagger.hilt.android.lifecycle.HiltViewModel
-import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -21,7 +17,6 @@ import javax.inject.Inject
 
 @HiltViewModel
 class PhotoOptimizerViewModel @Inject constructor(
-    @ApplicationContext private val context: Context,
     private val mediaRepository: MediaRepository,
     private val photoCompressor: PhotoCompressor
 ) : ViewModel() {
@@ -47,7 +42,7 @@ class PhotoOptimizerViewModel @Inject constructor(
         _state.update { current ->
             val next = if (id in current.selectedIds) current.selectedIds - id
             else current.selectedIds + id
-            current.copy(selectedIds = next, lastRunSummary = null)
+            current.copy(selectedIds = next, lastRunCount = null)
         }
     }
 
@@ -56,7 +51,7 @@ class PhotoOptimizerViewModel @Inject constructor(
             current.copy(
                 selectedIds = if (current.allSelected) emptySet()
                 else current.items.map { it.id }.toSet(),
-                lastRunSummary = null
+                lastRunCount = null
             )
         }
     }
@@ -72,7 +67,7 @@ class PhotoOptimizerViewModel @Inject constructor(
                     processed = 0,
                     totalToProcess = targets.size,
                     totalSavedBytes = 0L,
-                    lastRunSummary = null
+                    lastRunCount = null
                 )
             }
 
@@ -106,17 +101,13 @@ class PhotoOptimizerViewModel @Inject constructor(
                 it.copy(
                     processing = false,
                     selectedIds = emptySet(),
-                    lastRunSummary = context.getString(
-                        R.string.photo_optimizer_summary,
-                        success,
-                        FormatUtils.bytes(totalSaved)
-                    )
+                    lastRunCount = success
                 )
             }
         }
     }
 
     fun clearSummary() {
-        _state.update { it.copy(lastRunSummary = null) }
+        _state.update { it.copy(lastRunCount = null) }
     }
 }

@@ -1,5 +1,6 @@
 package com.zdmgold.cleankoach
 
+import android.content.res.Configuration
 import android.os.Bundle
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
@@ -33,18 +34,10 @@ class MainActivity : AppCompatActivity() {
     lateinit var adsManager: AdsManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        CrashReporter.note("MainActivity onCreate (restored=${savedInstanceState != null})")
-        applyStoredLocaleSafely()
-        super.onCreate(savedInstanceState)
-        adsManager.start(this)
-        lifecycle.addObserver(LifecycleEventObserver { _, event ->
-            when (event) {
-                Lifecycle.Event.ON_STOP -> adsManager.onAppBackgrounded()
-                Lifecycle.Event.ON_START -> adsManager.onAppForegrounded(this)
-                else -> Unit
-            }
-        })
         enableEdgeToEdge()
+        CrashReporter.note("MainActivity onCreate (restored=${savedInstanceState != null})")
+        if (savedInstanceState == null) applyStoredLocaleSafely()
+        super.onCreate(savedInstanceState)
         setContent {
             val settingsViewModel: SettingsViewModel = hiltViewModel()
             val settings by settingsViewModel.state.collectAsStateWithLifecycle()
@@ -77,6 +70,19 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+        adsManager.start(this)
+        lifecycle.addObserver(LifecycleEventObserver { _, event ->
+            when (event) {
+                Lifecycle.Event.ON_STOP -> adsManager.onAppBackgrounded()
+                Lifecycle.Event.ON_START -> adsManager.onAppForegrounded(this)
+                else -> Unit
+            }
+        })
+    }
+
+    override fun onConfigurationChanged(newConfig: Configuration) {
+        super.onConfigurationChanged(newConfig)
+        CrashReporter.note("configuration changed: locales=${newConfig.locales.toLanguageTags()}")
     }
 
     override fun onDestroy() {

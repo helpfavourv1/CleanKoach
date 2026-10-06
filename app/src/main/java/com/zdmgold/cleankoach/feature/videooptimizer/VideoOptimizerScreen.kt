@@ -51,9 +51,9 @@ fun VideoOptimizerScreen(
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val adActions = rememberAdActions()
-    LaunchedEffect(state.lastRunSummary) {
+    LaunchedEffect(state.lastRunCount) {
         // A batch just finished: natural pause for an ad.
-        if (state.lastRunSummary != null) adActions.actionCompleted()
+        if (state.lastRunCount != null) adActions.actionCompleted()
     }
 
     Surface(
@@ -151,7 +151,7 @@ fun VideoOptimizerScreen(
                     )
                     Spacer(Modifier.height(12.dp))
                 }
-            } else if (state.lastRunSummary != null) {
+            } else if (state.lastRunCount != null) {
                 Surface(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -160,7 +160,11 @@ fun VideoOptimizerScreen(
                     shape = MaterialTheme.shapes.medium
                 ) {
                     Text(
-                        text = state.lastRunSummary ?: "",
+                        text = stringResource(
+                            R.string.video_optimizer_summary,
+                            state.lastRunCount ?: 0,
+                            FormatUtils.bytes(state.totalSavedBytes)
+                        ),
                         modifier = Modifier.padding(12.dp),
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onPrimaryContainer
