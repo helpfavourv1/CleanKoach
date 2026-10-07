@@ -127,6 +127,7 @@ fun HomeScreen(
     val darkTheme = LocalDarkTheme.current
     var languageSheetVisible by remember { mutableStateOf(false) }
 
+    val hostContext = androidx.compose.ui.platform.LocalContext.current
     val permissionLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.RequestMultiplePermissions()
     ) { results ->
@@ -140,6 +141,31 @@ fun HomeScreen(
         viewModel.onDeleteDialogClosed()
     }
 
+    // Android 12+: one-time "Media management apps" switch so deleting needs no dialog each time.
+    val manageMediaLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.StartActivityForResult()
+    ) {
+        viewModel.onCleanUpPressed()
+    }
+    val startCleanUp: () -> Unit = start@{
+        val ctx = hostContext
+        val reclaimable = state.storage?.totalReclaimableBytes ?: 0L
+        if (reclaimable > 0L && android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.S &&
+            !android.provider.MediaStore.canManageMedia(ctx)
+        ) {
+            val prefs = ctx.getSharedPreferences("cleankoach_prefs", android.content.Context.MODE_PRIVATE)
+            if (!prefs.getBoolean("manage_media_asked", false)) {
+                prefs.edit().putBoolean("manage_media_asked", true).apply()
+                val intent = android.content.Intent(
+                    android.provider.Settings.ACTION_REQUEST_MANAGE_MEDIA,
+                    android.net.Uri.parse("package:" + ctx.packageName)
+                )
+                if (runCatching { manageMediaLauncher.launch(intent) }.isSuccess) return@start
+            }
+        }
+        viewModel.onCleanUpPressed()
+    }
+
     LaunchedEffect(state.deleteRequest) {
         state.deleteRequest?.let {
             deleteLauncher.launch(it)
@@ -151,7 +177,6 @@ fun HomeScreen(
         viewModel.refresh()
     }
 
-    val hostContext = androidx.compose.ui.platform.LocalContext.current
     val adActions = rememberAdActions()
     var resultWasVisible by remember { mutableStateOf(false) }
     LaunchedEffect(state.cleanUpResultVisible) {
@@ -397,7 +422,7 @@ fun HomeScreen(
                                     if (!state.mediaPermissionGranted) {
                                         viewModel.showDisclosure()
                                     } else {
-                                        viewModel.onCleanUpPressed()
+                                        startCleanUp()
                                     }
                                 },
                             contentAlignment = Alignment.Center
