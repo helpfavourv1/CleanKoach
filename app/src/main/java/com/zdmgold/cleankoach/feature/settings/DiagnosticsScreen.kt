@@ -41,6 +41,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.diagnostics.CrashReporter
+import com.zdmgold.cleankoach.core.diagnostics.TrashProbe
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import androidx.compose.runtime.rememberCoroutineScope
 
 /** Shows the last crash and the recent event trail, with copy and share. Stays on the device. */
 @Composable
@@ -52,7 +57,13 @@ fun DiagnosticsScreen(
     var version by remember { mutableStateOf(0) }
     val crash = remember(version) { CrashReporter.lastCrash() }
     val events = remember(version) { CrashReporter.recentEvents() }
+    var probe by remember { mutableStateOf<String?>(null) }
+    val scope = rememberCoroutineScope()
     val report = buildString {
+        probe?.let {
+            appendLine(it)
+            appendLine("-----")
+        }
         appendLine(crash ?: "No crash recorded.")
         appendLine()
         appendLine("Recent events:")
@@ -101,6 +112,19 @@ fun DiagnosticsScreen(
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
+                Spacer(Modifier.height(12.dp))
+                OutlinedButton(
+                    onClick = {
+                        probe = "Running trash probe..."
+                        scope.launch {
+                            probe = withContext(Dispatchers.IO) {
+                                runCatching { TrashProbe.run(context) }
+                                    .getOrElse { "Trash probe failed: ${it.javaClass.simpleName}: ${it.message}" }
+                            }
+                        }
+                    },
+                    modifier = Modifier.fillMaxWidth()
+                ) { Text("Run trash probe (read-only)") }
                 Spacer(Modifier.height(12.dp))
                 SelectionContainer {
                     Text(
