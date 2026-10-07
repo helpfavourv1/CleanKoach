@@ -9,7 +9,8 @@ import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
-import androidx.compose.ui.draw.clipToBounds
+import androidx.compose.ui.draw.clip
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
@@ -61,7 +62,7 @@ fun TrashChart(
     val phase = if (active) drift else 0f
 
     Box(
-        modifier = modifier.clipToBounds().background(track),
+        modifier = modifier.clip(RoundedCornerShape(6.dp)).background(track),
         contentAlignment = Alignment.Center
     ) {
         Canvas(modifier = Modifier.matchParentSize()) {
