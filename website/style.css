@@ -51,6 +51,9 @@ header {
 }
 
 .wordmark {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
     font-size: 24px;
     font-weight: 600;
     color: var(--text);
@@ -192,4 +195,10 @@ footer a {
     font-size: 14px;
     color: var(--text-muted);
     margin-bottom: 24px;
+}
+
+.wordmark .logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
 }
