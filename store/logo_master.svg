@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024"><defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#2F73EA"/><stop offset="0.55" stop-color="#1F5FD6"/><stop offset="1" stop-color="#0E2F7A"/>
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E9EFFB"/>
   </linearGradient>
   <radialGradient id="glow" cx="0.28" cy="0.18" r="0.75">
-    <stop offset="0" stop-color="#FFF" stop-opacity="0.28"/><stop offset="1" stop-color="#FFF" stop-opacity="0"/>
+    <stop offset="0" stop-color="#FFF" stop-opacity="0"/><stop offset="1" stop-color="#FFF" stop-opacity="0"/>
   </radialGradient>
   <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#D9E4FA"/>
+    <stop offset="0" stop-color="#2F73EA"/><stop offset="1" stop-color="#143F9E"/>
   </linearGradient>
   <linearGradient id="or" gradientUnits="userSpaceOnUse" x1="364" y1="800" x2="660" y2="330">
     <stop offset="0" stop-color="#C45A38"/><stop offset="0.6" stop-color="#EE7E54"/><stop offset="1" stop-color="#FFAA7E"/>
@@ -17,7 +17,7 @@
   <linearGradient id="spark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E3ECFC"/></linearGradient>
   <clipPath id="scr"><rect x="364" y="236" width="296" height="552" rx="46"/></clipPath>
   <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
-    <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#04123A" flood-opacity="0.45"/>
+    <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#0E2F7A" flood-opacity="0.28"/>
   </filter>
 </defs>
 <rect width="1024" height="1024" fill="url(#bg)"/>
