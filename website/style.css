@@ -50,15 +50,31 @@ header {
     margin-bottom: 40px;
 }
 
+@font-face {
+    font-family: "Plus Jakarta Sans";
+    src: url("assets/fonts/PlusJakartaSans.ttf") format("truetype");
+    font-weight: 200 800;
+    font-display: swap;
+}
+
 .wordmark {
     display: inline-flex;
     align-items: center;
     gap: 10px;
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 24px;
-    font-weight: 600;
-    color: var(--text);
+    font-weight: 800;
+    line-height: 1;
     text-decoration: none;
-    letter-spacing: -0.01em;
+    letter-spacing: -1px;
+}
+
+.wordmark .clean {
+    color: #C96342;
+}
+
+.wordmark .koach {
+    color: #1F5FD6;
 }
 
 h1 {
@@ -201,4 +217,13 @@ footer a {
     width: 32px;
     height: 32px;
     border-radius: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .wordmark .clean {
+        color: #E87F58;
+    }
+    .wordmark .koach {
+        color: #6FA3FF;
+    }
 }
