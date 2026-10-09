@@ -10,6 +10,7 @@ import com.zdmgold.cleankoach.feature.duplicates.DuplicatesScreen
 import com.zdmgold.cleankoach.feature.home.HomeScreen
 import com.zdmgold.cleankoach.feature.largefiles.LargeFilesScreen
 import com.zdmgold.cleankoach.feature.networkspeed.NetworkSpeedScreen
+import com.zdmgold.cleankoach.feature.permission.MediaAccessGate
 import com.zdmgold.cleankoach.feature.photooptimizer.PhotoOptimizerScreen
 import com.zdmgold.cleankoach.feature.screenshots.ScreenshotsScreen
 import com.zdmgold.cleankoach.feature.settings.AboutScreen
@@ -87,22 +88,34 @@ fun CleanKoachNavHost(
         }
 
         composable(Routes.LARGE_FILES) {
-            LargeFilesScreen(onBack = { navController.popBackStack() })
+            MediaAccessGate(onBack = { navController.popBackStack() }) {
+                LargeFilesScreen(onBack = { navController.popBackStack() })
+            }
         }
         composable(Routes.DUPLICATES) {
-            DuplicatesScreen(onBack = { navController.popBackStack() })
+            MediaAccessGate(onBack = { navController.popBackStack() }) {
+                DuplicatesScreen(onBack = { navController.popBackStack() })
+            }
         }
         composable(Routes.SIMILAR_PHOTOS) {
-            SimilarPhotosScreen(onBack = { navController.popBackStack() })
+            MediaAccessGate(onBack = { navController.popBackStack() }) {
+                SimilarPhotosScreen(onBack = { navController.popBackStack() })
+            }
         }
         composable(Routes.SCREENSHOTS) {
-            ScreenshotsScreen(onBack = { navController.popBackStack() })
+            MediaAccessGate(onBack = { navController.popBackStack() }) {
+                ScreenshotsScreen(onBack = { navController.popBackStack() })
+            }
         }
         composable(Routes.PHOTO_OPTIMIZER) {
-            PhotoOptimizerScreen(onBack = { navController.popBackStack() })
+            MediaAccessGate(onBack = { navController.popBackStack() }) {
+                PhotoOptimizerScreen(onBack = { navController.popBackStack() })
+            }
         }
         composable(Routes.VIDEO_OPTIMIZER) {
-            VideoOptimizerScreen(onBack = { navController.popBackStack() })
+            MediaAccessGate(onBack = { navController.popBackStack() }) {
+                VideoOptimizerScreen(onBack = { navController.popBackStack() })
+            }
         }
         composable(Routes.ACTIVITY_MONITOR) {
             ActivityMonitorScreen(onBack = { navController.popBackStack() })

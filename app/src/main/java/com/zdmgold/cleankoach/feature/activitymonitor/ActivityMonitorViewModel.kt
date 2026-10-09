@@ -49,6 +49,13 @@ class ActivityMonitorViewModel @Inject constructor(
         }
     }
 
+    fun onUsageAccessRequested(open: () -> Unit) {
+        viewModelScope.launch {
+            val accepted = runCatching { consentDataStore.usageDisclosureAccepted.first() }.getOrDefault(false)
+            if (accepted) open() else _state.update { it.copy(disclosureVisible = true) }
+        }
+    }
+
     fun onDisclosureDismissed() {
         _state.update { it.copy(disclosureVisible = false, loading = false) }
     }

@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import android.provider.Settings
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -23,10 +24,8 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -95,6 +94,21 @@ fun ActivityMonitorScreen(
             when {
                 state.loading -> FullScreenLoading(Modifier.weight(1f))
 
+                state.disclosureVisible -> Box(
+                    modifier = Modifier
+                        .weight(1f)
+                        .fillMaxWidth(),
+                    contentAlignment = Alignment.Center
+                ) {
+                    UsageDisclosureContent(
+                        onContinue = {
+                            viewModel.onDisclosureAccepted()
+                            openUsageAccessSettings(context)
+                        },
+                        onNotNow = viewModel::onDisclosureDismissed
+                    )
+                }
+
                 !state.hasAccess -> EmptyState(
                     modifier = Modifier.weight(1f),
                     title = stringResource(R.string.activity_monitor_no_access_title),
@@ -103,7 +117,7 @@ fun ActivityMonitorScreen(
                     action = {
                         PrimaryButton(
                             text = stringResource(R.string.action_open_settings),
-                            onClick = { openUsageAccessSettings(context) }
+                            onClick = { viewModel.onUsageAccessRequested { openUsageAccessSettings(context) } }
                         )
                     }
                 )
@@ -127,21 +141,6 @@ fun ActivityMonitorScreen(
             }
 
             BottomAdBar()
-        }
-
-        if (state.disclosureVisible) {
-            ModalBottomSheet(
-                onDismissRequest = viewModel::onDisclosureDismissed,
-                sheetState = rememberModalBottomSheetState()
-            ) {
-                UsageDisclosureContent(
-                    onContinue = {
-                        viewModel.onDisclosureAccepted()
-                        openUsageAccessSettings(context)
-                    },
-                    onNotNow = viewModel::onDisclosureDismissed
-                )
-            }
         }
     }
 }

@@ -37,6 +37,13 @@ class HomeViewModel @Inject constructor(
         _state.update {
             it.copy(mediaPermissionGranted = full || partial, partialMediaAccess = partial && !full)
         }
+        // First launch: explain and ask for media access once, up front.
+        if (!(full || partial)) {
+            viewModelScope.launch {
+                val accepted = runCatching { consentDataStore.mediaDisclosureAccepted.first() }.getOrDefault(false)
+                if (!accepted) _state.update { it.copy(mediaDisclosureVisible = true) }
+            }
+        }
     }
 
     fun refresh() {
