@@ -81,7 +81,10 @@ class AdsManager @Inject constructor(
     /** Call once per activity start, before any ad is requested. */
     fun start(activity: Activity) {
         CrashReporter.note("ads start (activity=${activity.javaClass.simpleName}@${System.identityHashCode(activity)})")
-        consentManager.requestConsent(activity) { allowed -> applyConsent(allowed) }
+        consentManager.requestConsent(activity) { allowed ->
+            // A failed or offline refresh must not switch off ads that a saved answer already allows.
+            if (allowed || !consentManager.canRequestAdsNow()) applyConsent(allowed)
+        }
         // Returning users already hold an answer; do not make them wait for the network.
         if (consentManager.canRequestAdsNow()) applyConsent(true)
     }
