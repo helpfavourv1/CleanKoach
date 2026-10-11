@@ -1,5 +1,6 @@
 package com.zdmgold.cleankoach.feature.home
 
+import android.os.SystemClock
 import androidx.activity.result.IntentSenderRequest
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -10,6 +11,7 @@ import com.zdmgold.cleankoach.core.domain.model.StorageStats
 import com.zdmgold.cleankoach.core.util.FormatUtils
 import com.zdmgold.cleankoach.core.media.PermissionChecker
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -27,6 +29,7 @@ class HomeViewModel @Inject constructor(
 ) : ViewModel() {
 
     private var cleanupBefore: StorageStats? = null
+    private var cleanupStartedAt = 0L
 
     private val _state = MutableStateFlow(HomeUiState())
     val state: StateFlow<HomeUiState> = _state.asStateFlow()
@@ -102,6 +105,7 @@ class HomeViewModel @Inject constructor(
 
     private fun startCleanUp() {
         viewModelScope.launch {
+            cleanupStartedAt = SystemClock.elapsedRealtime()
             _state.update {
                 it.copy(scanning = true, scanProgress = 0f, awaitingAndroid = false)
             }
@@ -143,6 +147,9 @@ class HomeViewModel @Inject constructor(
         cleanupBefore = null
         val promptReview = runCatching { settingsRepository.recordCleanupAndShouldPromptReview() }
             .getOrDefault(false)
+        // Keep the clean-up animation on screen long enough to be seen; the numbers stay real.
+        val shown = SystemClock.elapsedRealtime() - cleanupStartedAt
+        if (shown < MIN_CLEANUP_MS) delay(MIN_CLEANUP_MS - shown)
         _state.update {
             it.copy(
                 reviewRequested = it.reviewRequested || promptReview,
@@ -169,5 +176,9 @@ class HomeViewModel @Inject constructor(
 
     fun onResultDismissed() {
         _state.update { it.copy(cleanUpResultVisible = false) }
+    }
+
+    private companion object {
+        const val MIN_CLEANUP_MS = 3500L
     }
 }

@@ -80,6 +80,7 @@ import com.zdmgold.cleankoach.R
 import com.zdmgold.cleankoach.core.media.MediaPermissions
 import com.zdmgold.cleankoach.core.ads.rememberAdActions
 import com.zdmgold.cleankoach.core.ui.components.BannerAd
+import com.zdmgold.cleankoach.core.ui.components.CleanUpOverlay
 import com.zdmgold.cleankoach.core.ui.components.PhoneToolCard
 import com.zdmgold.cleankoach.core.ui.components.SectionHeader
 import com.zdmgold.cleankoach.core.ui.components.SettingsChip
@@ -603,6 +604,17 @@ fun HomeScreen(
                 )
             }
         }
+
+        CleanUpOverlay(
+            visible = state.scanning || state.cleanUpResultVisible,
+            done = state.cleanUpResultVisible,
+            awaitingAndroid = state.awaitingAndroid,
+            freedBytes = state.lastCleanupResult?.freedBytes ?: 0L,
+            caption = chartCaption,
+            detail = detailLine,
+            fontFamily = jakartaSans,
+            onDismiss = viewModel::onResultDismissed
+        )
     }
 }
 
