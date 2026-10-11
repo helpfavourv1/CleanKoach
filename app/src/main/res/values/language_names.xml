@@ -41,4 +41,6 @@
     <string name="language_sk" translatable="false">Slovenčina</string>
     <string name="language_bg" translatable="false">Български</string>
     <string name="language_ca" translatable="false">Català</string>
+    <string name="language_gu" translatable="false">ગુજરાતી</string>
+    <string name="language_ml" translatable="false">മലയാളം</string>
 </resources>

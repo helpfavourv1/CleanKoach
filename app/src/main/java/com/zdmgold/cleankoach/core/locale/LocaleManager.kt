@@ -11,7 +11,8 @@ object LocaleManager {
         "en", "es", "pt", "fr", "de", "it", "hi", "in", "ja", "ko",
         "ru", "ar", "tr", "vi", "th", "pl", "nl", "zh-CN", "zh-TW", "bn",
         "uk", "sv", "ro", "cs", "el", "ms", "fa", "ur", "he", "ta",
-        "te", "mr", "sw", "hu", "da", "fi", "nb", "sk", "bg", "ca"
+        "te", "mr", "sw", "hu", "da", "fi", "nb", "sk", "bg", "ca",
+        "gu", "ml"
     )
 
     const val SYSTEM = "system"

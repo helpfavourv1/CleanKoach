@@ -70,7 +70,9 @@ internal val languages = listOf(
     Language(R.string.language_nb, "nb"),
     Language(R.string.language_sk, "sk"),
     Language(R.string.language_bg, "bg"),
-    Language(R.string.language_ca, "ca")
+    Language(R.string.language_ca, "ca"),
+    Language(R.string.language_gu, "gu"),
+    Language(R.string.language_ml, "ml")
 )
 
 @Composable

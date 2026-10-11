@@ -1,11 +1,16 @@
 package com.zdmgold.cleankoach.core.util
 
+import android.icu.text.DisplayContext
+import android.icu.text.MeasureFormat
+import android.icu.text.RelativeDateTimeFormatter
+import android.icu.util.Measure
+import android.icu.util.MeasureUnit
+import android.icu.util.ULocale
 import android.text.format.DateFormat
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 import java.util.concurrent.TimeUnit
-import android.text.format.DateUtils as AndroidDateUtils
 
 /** All text here follows the app language (per-app locale), never a fixed English format. */
 object DateUtils {
@@ -14,12 +19,24 @@ object DateUtils {
         if (millis <= 0L) return "—"
         val diff = now - millis
         if (diff >= TimeUnit.DAYS.toMillis(7)) return formatted(millis, "MMMd")
-        return AndroidDateUtils.getRelativeTimeSpanString(
-            millis,
-            now,
-            AndroidDateUtils.MINUTE_IN_MILLIS,
-            AndroidDateUtils.FORMAT_ABBREV_RELATIVE
-        ).toString()
+        val formatter = RelativeDateTimeFormatter.getInstance(
+            ULocale.forLocale(Locale.getDefault()),
+            null,
+            RelativeDateTimeFormatter.Style.SHORT,
+            DisplayContext.CAPITALIZATION_NONE
+        )
+        val minutes = TimeUnit.MILLISECONDS.toMinutes(diff.coerceAtLeast(0L))
+        val hours = TimeUnit.MILLISECONDS.toHours(diff.coerceAtLeast(0L))
+        val days = TimeUnit.MILLISECONDS.toDays(diff.coerceAtLeast(0L))
+        return when {
+            minutes < 1 -> formatter.format(
+                RelativeDateTimeFormatter.Direction.THIS,
+                RelativeDateTimeFormatter.AbsoluteUnit.NOW
+            )
+            hours < 1 -> formatter.format(minutes.toDouble(), RelativeDateTimeFormatter.Direction.LAST, RelativeDateTimeFormatter.RelativeUnit.MINUTES)
+            days < 1 -> formatter.format(hours.toDouble(), RelativeDateTimeFormatter.Direction.LAST, RelativeDateTimeFormatter.RelativeUnit.HOURS)
+            else -> formatter.format(days.toDouble(), RelativeDateTimeFormatter.Direction.LAST, RelativeDateTimeFormatter.RelativeUnit.DAYS)
+        }
     }
 
     fun dayAndTime(millis: Long): String {
@@ -28,15 +45,18 @@ object DateUtils {
     }
 
     fun duration(millis: Long): String {
-        if (millis <= 0L) return "0s"
-        val totalSeconds = TimeUnit.MILLISECONDS.toSeconds(millis)
+        val totalSeconds = TimeUnit.MILLISECONDS.toSeconds(millis.coerceAtLeast(0L))
         val hours = totalSeconds / 3600
         val minutes = (totalSeconds % 3600) / 60
         val seconds = totalSeconds % 60
+        val format = MeasureFormat.getInstance(
+            ULocale.forLocale(Locale.getDefault()),
+            MeasureFormat.FormatWidth.NARROW
+        )
         return when {
-            hours > 0 -> "${hours}h ${minutes}m"
-            minutes > 0 -> "${minutes}m"
-            else -> "${seconds}s"
+            hours > 0 -> format.formatMeasures(Measure(hours, MeasureUnit.HOUR), Measure(minutes, MeasureUnit.MINUTE))
+            minutes > 0 -> format.formatMeasures(Measure(minutes, MeasureUnit.MINUTE))
+            else -> format.formatMeasures(Measure(seconds, MeasureUnit.SECOND))
         }
     }
 

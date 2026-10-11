@@ -40,4 +40,6 @@
     <locale android:name="sk" />
     <locale android:name="bg" />
     <locale android:name="ca" />
+    <locale android:name="gu" />
+    <locale android:name="ml" />
 </locale-config>
