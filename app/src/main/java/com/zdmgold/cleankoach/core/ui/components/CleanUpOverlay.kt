@@ -40,6 +40,7 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.lerp as colorLerp
 import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.ui.graphics.drawscope.scale
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
@@ -307,7 +308,7 @@ private fun OverlayContent(
                     val a = (-90f + i * 6f) * DEG_TO_RAD
                     val lit = (i / 60f) < progress.value
                     drawLine(
-                        color = if (lit) lerp(orange, blue, i / 60f).copy(alpha = 0.95f)
+                        color = if (lit) colorLerp(orange, blue, i / 60f).copy(alpha = 0.95f)
                         else Color.White.copy(alpha = 0.12f),
                         start = Offset(c.x + cos(a) * tickIn, c.y + sin(a) * tickIn),
                         end = Offset(c.x + cos(a) * tickOut, c.y + sin(a) * tickOut),
