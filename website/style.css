@@ -422,3 +422,13 @@ details p { margin: 0 0 14px; color: var(--text-muted); }
 .guide-card h2 { margin: 0 0 4px; font-size: 18px; }
 .guide-card p { margin: 0; color: var(--text-muted); font-size: 14px; }
 .guide-card:hover { border-color: var(--accent); }
+figure { margin: 18px 0; }
+figure img { display: block; width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--outline); background: var(--surface); }
+figcaption { margin-top: 8px; font-size: 13px; color: var(--text-muted); }
+.hero-img { margin: 24px 0; }
+@media (max-width: 640px) {
+    .table-wrap table { min-width: 0; font-size: 13px; }
+    .table-wrap th, .table-wrap td { padding: 8px 8px; }
+    .table-wrap tbody th { white-space: normal; }
+    .table-wrap caption { padding: 10px 8px; }
+}

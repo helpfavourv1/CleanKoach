@@ -51,8 +51,7 @@ def alt_tags(slug):
 
 def nav(lang, ui, current=None):
     items = [(ui["nav_features"], "/#features", None), (ui["nav_languages"], "/#languages", None),
-             (ui["nav_guides"], hub_path(lang), "guides"), (ui["nav_privacy"], "/privacy.html", None),
-             (ui["nav_terms"], "/terms.html", None)]
+             (ui["nav_guides"], hub_path(lang), "guides")]
     return '<nav aria-label="Main">' + "".join(
         f'<a href="{h}"' + (' aria-current="page"' if k and k == current else "") + f">{e(t)}</a>" for t, h, k in items) + "</nav>"
 
@@ -140,16 +139,22 @@ def build_article(lang, slug):
         {"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": f["a"]}} for f in a["faqs"]]}
     head = alt_tags(slug) + "\n    " + jsonld([article, breadcrumbs, faq, app])
 
+    hero = ""
+    if a.get("hero"):
+        h = a["hero"]
+        hero = f'<figure class="hero-img"><img src="{h["src"]}" alt="{e(h["alt"])}" width="{h.get("w", 1024)}" height="{h.get("h", 500)}" decoding="async"><figcaption>{e(h["caption"])}</figcaption></figure>'
     toc = "".join(f'<li><a href="#{s["id"]}">{e(s["h2"])}</a></li>' for s in a["sections"]) + f'<li><a href="#faq">{e(ui["faq"])}</a></li>'
     secs = ""
     for s in a["sections"]:
         secs += f'<section id="{s["id"]}"><h2>{e(s["h2"])}</h2>'
+        if "image" in s:
+            im = s["image"]
+            secs += f'<figure><img src="{im["src"]}" alt="{e(im["alt"])}" width="{im.get("w", 640)}" height="{im.get("h", 360)}" loading="lazy" decoding="async"><figcaption>{e(im["caption"])}</figcaption></figure>'
         if "html" in s: secs += s["html"]
-        if "table" in s:
-            t = s["table"]
+        for t in ([s["table"]] if "table" in s else []) + s.get("tables", []):
             secs += '<div class="table-wrap"><table>' + f'<caption>{e(t["caption"])}</caption><thead><tr>' + "".join(f"<th scope=\"col\">{e(h)}</th>" for h in t["headers"]) + "</tr></thead><tbody>"
             for r in t["rows"]:
-                secs += "<tr><th scope=\"row\">" + e(r[0]) + "</th>" + "".join(f"<td>{e(c)}</td>" for c in r[1:]) + "</tr>"
+                secs += "<tr><th scope=\"row\">" + e(r[0]) + "</th>" + "".join(f'<td data-label="{e(t["headers"][i + 1])}">{e(c)}</td>' for i, c in enumerate(r[1:])) + "</tr>"
             secs += "</tbody></table></div>"
         secs += "</section>\n"
     faqs = "".join(f'<details><summary>{e(f["q"])}</summary><p>{e(f["a"])}</p></details>' for f in a["faqs"])
@@ -164,6 +169,7 @@ def build_article(lang, slug):
             <p class="updated">{e(ui["updated"])}: <time datetime="{pub}">{pub}</time></p>
             <aside class="quick" aria-label="{e(ui["quick_answer"])}"><h2>{e(ui["quick_answer"])}</h2>{a["quick_answer"]}</aside>
             {a["intro"]}
+            {hero}
             {store_button(ui)}
             <nav class="toc" aria-label="{e(ui["on_this_page"])}"><h2>{e(ui["on_this_page"])}</h2><ol>{toc}</ol></nav>
 {secs}
