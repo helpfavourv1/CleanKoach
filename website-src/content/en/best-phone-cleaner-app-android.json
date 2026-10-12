@@ -16,7 +16,17 @@
   {
    "id": "what-to-look-for",
    "h2": "What to look for in a phone cleaner",
-   "html": "<p>Storage fills up for five reasons. A good cleaner targets each one.</p><ul><li><strong>Big videos:</strong> a few files can outweigh thousands of small ones.</li><li><strong>Duplicates:</strong> the same file saved twice.</li><li><strong>Near-identical shots:</strong> bursts and retakes.</li><li><strong>Screenshots:</strong> years of them.</li><li><strong>Trash and app cache:</strong> leftovers that still take space.</li></ul><p>Add compression, on-device privacy and a confirmation before anything is deleted.</p>"
+   "html": "<p>Storage fills up for five reasons. A good cleaner targets each one.</p><ul><li><strong>Big videos:</strong> a few files can outweigh thousands of small ones.</li><li><strong>Duplicates:</strong> the same file saved twice.</li><li><strong>Near-identical shots:</strong> bursts and retakes.</li><li><strong>Screenshots:</strong> years of them.</li><li><strong>Trash and app cache:</strong> leftovers that still take space.</li></ul><p>Add compression, on-device privacy and a confirmation before anything is deleted.</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Are phone cleaner apps safe?"
+    ],
+    [
+     "phone-storage-cleaner",
+     "How a phone storage cleaner works"
+    ]
+   ]
   },
   {
    "id": "why-cleankoach",
@@ -26,7 +36,13 @@
     "alt": "Illustration of CleanKoach's Large files list with size bars, a Duplicates card keeping one copy, and a Similar photos group with the best shot marked",
     "caption": "Large files, Duplicates and Similar photos, each with sizes shown before you act."
    },
-   "html": "<ul><li><strong>Large files:</strong> biggest photos, videos and audio, sorted by size.</li><li><strong>Duplicates:</strong> identical files grouped, one copy kept, reclaimable space shown.</li><li><strong>Similar photos:</strong> near-identical shots grouped with the best one marked.</li><li><strong>Screenshots:</strong> every screenshot in a single pass.</li><li><strong>Photo and Video optimizer:</strong> compress what you keep and see the space saved.</li><li><strong>Activity Monitor, Wi-Fi Security, Network Speed:</strong> app usage for the last 24 hours, a connection safety check and a download speed test.</li></ul>"
+   "html": "<ul><li><strong>Large files:</strong> biggest photos, videos and audio, sorted by size.</li><li><strong>Duplicates:</strong> identical files grouped, one copy kept, reclaimable space shown.</li><li><strong>Similar photos:</strong> near-identical shots grouped with the best one marked.</li><li><strong>Screenshots:</strong> every screenshot in a single pass.</li><li><strong>Photo and Video optimizer:</strong> compress what you keep and see the space saved.</li><li><strong>Activity Monitor, Wi-Fi Security, Network Speed:</strong> app usage for the last 24 hours, a connection safety check and a download speed test.</li></ul>",
+   "see": [
+    [
+     "free-phone-cleaner-android",
+     "Free phone cleaner for Android"
+    ]
+   ]
   },
   {
    "id": "clean-up",
@@ -157,12 +173,40 @@
     "alt": "Illustration of a phone with a lock analysing files on the device and a crossed-out cloud showing nothing is uploaded",
     "caption": "Files are analysed on your phone. Nothing is uploaded."
    },
-   "html": "<p>CleanKoach analyses your media on your phone. Your media, usage data and scan results are never uploaded. Usage Access is requested separately and only for Activity Monitor. See the <a href=\"/privacy.html\">privacy policy</a>.</p>"
+   "html": "<p>CleanKoach analyses your media on your phone. Your media, usage data and scan results are never uploaded. Usage Access is requested separately and only for Activity Monitor. See the <a href=\"/privacy.html\">privacy policy</a>.</p>",
+   "see": [
+    [
+     "stop-phone-cleaner-popping-up",
+     "How to stop a phone cleaner popping up"
+    ]
+   ]
   },
   {
    "id": "get-started",
    "h2": "Get CleanKoach",
-   "html": "<p>Built for Android 9 and newer. Browse the <a href=\"/#features\">features</a> or the <a href=\"/#languages\">42 languages</a>, then install from Google Play.</p>"
+   "html": "<p>Built for Android 9 and newer. Browse the <a href=\"/#features\">features</a> or the <a href=\"/#languages\">42 languages</a>, then install from Google Play.</p>",
+   "see": [
+    [
+     "phone-cleaner-iphone",
+     "Phone cleaner for iPhone"
+    ],
+    [
+     "phone-charging-port-cleaner",
+     "Phone charging port cleaner"
+    ],
+    [
+     "phone-speaker-cleaner",
+     "Phone speaker cleaner"
+    ],
+    [
+     "phone-screen-cleaner",
+     "Phone screen cleaner"
+    ],
+    [
+     "phone-cleaning-kit",
+     "Phone cleaning kit"
+    ]
+   ]
   }
  ],
  "faqs": [

@@ -21,6 +21,8 @@ p{{position:absolute;left:80px;bottom:70px;margin:0;font-size:34px;font-weight:5
 <h1>{title}</h1><p>{tagline}</p></body></html>'''
 with sync_playwright() as p:
     b = p.chromium.launch(); pg = b.new_page(viewport={"width":1200,"height":630})
+    tmp = ROOT/"_og_tmp.html"; tmp.write_text(card("Free up phone storage on Android", "Large files, duplicates, similar photos. 42 languages."), encoding="utf8"); pg.goto(tmp.resolve().as_uri()); pg.wait_for_timeout(400); tmp.unlink()
+    pg.screenshot(path=str(OUT/"assets/og"/"site.png")); print("og site")
     for f in sorted((ROOT/"content/en").glob("*.json")):
         if f.name == "ui.json": continue
         a = json.load(open(f, encoding="utf8"))
