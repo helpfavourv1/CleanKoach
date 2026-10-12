@@ -74,7 +74,7 @@ def dump():
     print(len(out), "strings")
 
 def gloss(lang):
-    folder = {"en": "values", "in": "values-in", "he": "values-iw" if False else "values-iw"}.get(lang, f"values-{lang.replace('-CN', '-rCN').replace('-TW', '-rTW')}")
+    folder = {"en": "values", "id": "values-in", "in": "values-in", "he": "values-iw" if False else "values-iw"}.get(lang, f"values-{lang.replace('-CN', '-rCN').replace('-TW', '-rTW')}")
     p = APP_RES / folder / "strings.xml"
     if not p.exists(): p = APP_RES / "values" / "strings.xml"
     s = p.read_text(encoding="utf8")
