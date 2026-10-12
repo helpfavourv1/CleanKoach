@@ -384,3 +384,41 @@ header nav a[aria-current="page"] {
 .cta h2 {
     margin-top: 0;
 }
+
+/* Guides */
+.crumbs { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+.crumbs a { color: var(--text-muted); }
+.guide h1 { margin-top: 0; }
+.guide section { margin-top: 36px; }
+.guide h3 { margin: 22px 0 6px; font-size: 18px; }
+.guide ul, .guide ol { padding-left: 22px; }
+.guide li { margin: 6px 0; }
+.quick {
+    margin: 20px 0 24px;
+    padding: 18px 20px;
+    background: var(--surface);
+    border: 1px solid var(--outline);
+    border-left: 4px solid var(--accent);
+    border-radius: var(--radius);
+}
+.quick h2 { margin: 0 0 6px; font-size: 15px; color: var(--text-muted); }
+.quick p { margin: 0; }
+.toc { margin: 28px 0 0; padding: 16px 20px; background: var(--surface-variant); border-radius: var(--radius); }
+.toc h2 { margin: 0 0 8px; font-size: 15px; color: var(--text-muted); }
+.toc ol { margin: 0; }
+.table-wrap { overflow-x: auto; margin-top: 12px; border: 1px solid var(--outline); border-radius: var(--radius); }
+.table-wrap table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: 14px; }
+.table-wrap caption { text-align: left; padding: 12px 14px; font-weight: 600; color: var(--text-muted); }
+.table-wrap th, .table-wrap td { padding: 10px 14px; text-align: left; border-top: 1px solid var(--outline); vertical-align: top; }
+.table-wrap thead th { background: var(--surface-variant); }
+.table-wrap tbody th { font-weight: 600; white-space: nowrap; }
+details { background: var(--surface); border: 1px solid var(--outline); border-radius: 12px; padding: 0 16px; margin: 10px 0; }
+details summary { cursor: pointer; padding: 14px 0; font-weight: 600; }
+details p { margin: 0 0 14px; color: var(--text-muted); }
+.sources { font-size: 14px; color: var(--text-muted); }
+.related { list-style: none; padding: 0; }
+.guide-list { display: grid; gap: 14px; }
+.guide-card { display: block; padding: 18px 20px; background: var(--surface); border: 1px solid var(--outline); border-radius: var(--radius); text-decoration: none; color: var(--text); }
+.guide-card h2 { margin: 0 0 4px; font-size: 18px; }
+.guide-card p { margin: 0; color: var(--text-muted); font-size: 14px; }
+.guide-card:hover { border-color: var(--accent); }

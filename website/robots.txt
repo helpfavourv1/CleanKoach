@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cleankoach.helpfavourv1.workers.dev/sitemap.xml
