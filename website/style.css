@@ -449,3 +449,6 @@ figcaption { margin-top: 8px; font-size: 13px; color: var(--text-muted); }
 .see { margin: 12px 0 0; font-size: 14px; color: var(--text-muted); }
 .see a { font-weight: 600; }
 main { display: block; }
+
+.crumbs [aria-current="page"] { color: var(--text); }
+footer a { display: inline-block; white-space: nowrap; margin: 0 16px 8px 0; }

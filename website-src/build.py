@@ -148,6 +148,11 @@ def write(rel, content):
 
 def write_dir(path, content): write(path.lstrip("/") + "index.html", content)
 
+def crumb_html(ui, lang, trail):
+    """trail: list of (label, href or None). Home is prepended."""
+    parts = [f'<a href="/">{e(ui["breadcrumb_home"])}</a>'] + [f'<a href="{h}">{e(t)}</a>' if h else f'<span aria-current="page">{e(t)}</span>' for t, h in trail]
+    return f'<nav class="crumbs" aria-label="Breadcrumb">' + " / ".join(parts) + "</nav>"
+
 # ---------- guides ----------
 def linkify_see(lang, arts, see):
     items = [(s, t) for s, t in see if s in arts]
@@ -201,7 +206,7 @@ def build_article(lang, slug):
     if rel:
         related = f'<section><h2>{e(ui["related"])}</h2><ul class="related">' + "".join(f'<li><a href="{art_path(lang, s)}">{e(arts[s]["h1"])}</a></li>' for s in rel) + "</ul></section>"
     body = f'''        <article class="guide">
-            <nav class="crumbs" aria-label="Breadcrumb"><a href="/">{e(ui["breadcrumb_home"])}</a> / <a href="{hub_path(lang)}">{e(ui["breadcrumb_guides"])}</a></nav>
+            {crumb_html(ui, lang, [(ui["breadcrumb_guides"], hub_path(lang)), (a["h1"], None)])}
             <h1>{e(a["h1"])}</h1>
             <p class="updated">{e(ui["updated"])}: <time datetime="{PUB}">{PUB}</time> · <a href="/about/">{e(ui["by_cleankoach"])}</a></p>
             <aside class="quick" aria-label="{e(ui["quick_answer"])}"><h2>{e(ui["quick_answer"])}</h2>{a["quick_answer"]}</aside>
@@ -230,7 +235,8 @@ def build_hub(lang):
                 {"@type": "ListItem", "position": i + 1, "url": url(art_path(lang, s)), "name": a["h1"]} for i, (s, a) in enumerate(arts.items())]}}
     head += jsonld([coll, crumbs([(ui["breadcrumb_home"], BASE + "/"), (ui["breadcrumb_guides"], url(path))]), ORG])
     items = "".join(f'<a class="guide-card" href="{art_path(lang, s)}"><h2>{e(a["h1"])}</h2><p>{e(a["tagline"])}</p></a>' for s, a in arts.items())
-    body = f'''        <section class="hero"><h1>{e(ui["guides_title"])}</h1><p>{e(ui["guides_intro"])}</p></section>
+    body = f'''        {crumb_html(ui, lang, [(ui["breadcrumb_guides"], None)])}
+        <section class="hero"><h1>{e(ui["guides_title"])}</h1><p>{e(ui["guides_intro"])}</p></section>
         <div class="guide-list">{items}</div>'''
     write_dir(path, page(lang, ui, title=ui["guides_title"] + " | CleanKoach", desc=ui["guides_intro"] + " Large files, duplicates, storage and safety.",
                          canonical_path=path, body=body, head_extra=head, og_image=SITE_OG, og_alt=SITE_OG_ALT, og_type="website",
@@ -255,8 +261,8 @@ def build_static():
     guides_cards = "".join(f'<a class="guide-card" href="{art_path("en", s)}"><h2>{e(a["h1"])}</h2><p>{e(a["tagline"])}</p></a>' for s, a in DATA["en"][1].items())
     for p in STATIC:
         body = (ROOT / "pages" / f'{p["src"]}.body.html').read_text(encoding="utf8").replace("<!--guides-->", guides_cards)
-        body = "        " + body.strip()
         name = {"home": "CleanKoach", "web": p["title"].split(" | ")[0], "about": "About", "contact": "Contact"}[p["kind"]]
+        body = "        " + (body.strip() if p["kind"] == "home" else crumb_html(EN_UI, "en", [(name, None)]) + "\n        " + body.strip())
         objs = [ORG]
         if p["kind"] == "home":
             objs = [ORG, APP, {"@context": "https://schema.org", "@type": "WebSite", "name": "CleanKoach", "url": BASE + "/", "inLanguage": "en"}]
