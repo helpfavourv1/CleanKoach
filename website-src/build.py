@@ -56,8 +56,11 @@ def header(lang, ui, current=None):
     return f'''<a class="skip" href="#main">{e(ui["skip"])}</a>
         <header class="site-header">
             <a href="/" class="wordmark"><img src="/assets/favicon-192.png" alt="" width="32" height="32" class="logo"><span><span class="clean">Clean</span><span class="koach">Koach</span></span></a>
-            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="{e(ui["menu"])}"><span class="bars" aria-hidden="true"></span></button>
-            <nav id="site-nav" class="site-nav" aria-label="{e(ui["menu"])}">{links}<a class="menu-cta" href="{PLAY}">{e(ui["google_play"])}</a></nav>
+            <div class="header-tools">
+                <nav id="site-nav" class="site-nav" aria-label="{e(ui["menu"])}">{links}<a class="menu-cta" href="{PLAY}">{e(ui["google_play"])}</a></nav>
+                <button class="theme-toggle" type="button" data-labels="{e(ui["theme_auto"])}|{e(ui["theme_light"])}|{e(ui["theme_dark"])}" data-prefix="{e(ui["theme"])}" aria-label="{e(ui["theme"])}: {e(ui["theme_auto"])}"><svg class="i-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg><svg class="i-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="i-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"/></svg></button>
+                <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="{e(ui["menu"])}"><span class="bars" aria-hidden="true"></span></button>
+            </div>
         </header>'''
 
 def footer(lang, ui, switcher=""):
@@ -70,7 +73,6 @@ def footer(lang, ui, switcher=""):
         </footer>'''
 
 def switcher(lang, ui, alts):
-    if len(alts) < 2: return ""
     lis = "".join(f'<li><a href="{u}" hreflang="{h}" lang="{h}"' + (' aria-current="true"' if c == lang else "") + f'>{e(LANGS[c]["name"])}</a></li>' for c, h, u in alts)
     return f'<details class="lang-switch"><summary>{e(ui["language"])}: {e(LANGS[lang]["name"])}</summary><ul>{lis}</ul></details>'
 
@@ -127,6 +129,7 @@ def page(lang, ui, *, title, desc, canonical_path, body, head_extra="", og_image
     <meta name="twitter:image:alt" content="{e(og_alt)}">
     <link rel="stylesheet" href="/style.css">
     <noscript><style>.menu-toggle{{display:none}}.site-nav{{display:flex!important;position:static!important}}</style></noscript>
+    <script>try{{var t=localStorage.getItem("ck-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}}catch(e){{}}</script>
     <script src="/menu.js" defer></script>
 </head>
 <body>
@@ -272,7 +275,8 @@ def build_static():
                      "isPartOf": {"@type": "WebSite", "name": "CleanKoach", "url": BASE + "/"}},
                     crumbs([(EN_UI["breadcrumb_home"], BASE + "/"), (name, url(p["path"]))]), ORG]
         write(p["out"], page("en", EN_UI, title=p["title"], desc=p["desc"], canonical_path=p["path"], body=body, head_extra=jsonld(objs),
-                             og_image=SITE_OG, og_alt=SITE_OG_ALT, og_type="website"))
+                             og_image=SITE_OG, og_alt=SITE_OG_ALT, og_type="website",
+                             sw=switcher("en", EN_UI, [("en", "en", url(p["path"]))])))
     nf = (ROOT / "pages" / "notfound.body.html").read_text(encoding="utf8")
     write("404.html", page("en", EN_UI, title="Page not found | CleanKoach", desc="This page does not exist.", canonical_path="/404.html",
                            body="        " + nf.strip(), og_image=SITE_OG, og_alt=SITE_OG_ALT, og_type="website", noindex=True))

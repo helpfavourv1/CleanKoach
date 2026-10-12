@@ -24,5 +24,9 @@
  "footer_about": "About",
  "footer_contact": "Contact",
  "language": "Language",
- "by_cleankoach": "By CleanKoach"
+ "by_cleankoach": "By CleanKoach",
+ "theme": "Theme",
+ "theme_auto": "Auto",
+ "theme_light": "Light",
+ "theme_dark": "Dark"
 }

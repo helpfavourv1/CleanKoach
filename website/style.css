@@ -1,4 +1,5 @@
 :root {
+    color-scheme: light dark;
     --bg: #FAFAF8;
     --surface: #FFFFFF;
     --surface-variant: #F2F0EC;
@@ -11,7 +12,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not([data-theme="light"]) {
         --bg: #0F1419;
         --surface: #1A2128;
         --surface-variant: #232B33;
@@ -21,6 +22,17 @@
         --outline: #2F3A42;
     }
 }
+:root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #0F1419;
+    --surface: #1A2128;
+    --surface-variant: #232B33;
+    --text: #F2F0EC;
+    --text-muted: #A8B0B8;
+    --accent: #E87F58;
+    --outline: #2F3A42;
+}
+:root[data-theme="light"] { color-scheme: light; }
 
 * {
     box-sizing: border-box;
@@ -226,13 +238,11 @@ footer a {
 }
 
 @media (prefers-color-scheme: dark) {
-    .wordmark .clean {
-        color: #E87F58;
-    }
-    .wordmark .koach {
-        color: #6FA3FF;
-    }
+    :root:not([data-theme="light"]) .wordmark .clean { color: #E87F58; }
+    :root:not([data-theme="light"]) .wordmark .koach { color: #6FA3FF; }
 }
+:root[data-theme="dark"] .wordmark .clean { color: #E87F58; }
+:root[data-theme="dark"] .wordmark .koach { color: #6FA3FF; }
 
 .languages {
     list-style: none;
@@ -452,3 +462,14 @@ main { display: block; }
 
 .crumbs [aria-current="page"] { color: var(--text); }
 footer a { display: inline-block; white-space: nowrap; margin: 0 16px 8px 0; }
+
+.header-tools { display: flex; align-items: center; gap: 12px; }
+.theme-toggle { width: 44px; height: 44px; padding: 0; border: 1px solid var(--outline); border-radius: 12px; background: var(--surface); color: var(--text); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
+.theme-toggle:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.theme-toggle svg { width: 20px; height: 20px; }
+.theme-toggle .i-light, .theme-toggle .i-dark { display: none; }
+:root[data-theme="light"] .theme-toggle .i-auto, :root[data-theme="dark"] .theme-toggle .i-auto { display: none; }
+:root[data-theme="light"] .theme-toggle .i-light { display: block; }
+:root[data-theme="dark"] .theme-toggle .i-dark { display: block; }
+@media (max-width: 640px) { .header-tools { margin-left: auto; } }
+@media (min-width: 641px) { .site-header .menu-toggle { display: none; } }
