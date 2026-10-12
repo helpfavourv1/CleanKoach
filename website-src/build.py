@@ -12,6 +12,9 @@ SITE = json.load(open(ROOT / "site.json", encoding="utf8"))
 BASE = SITE["base_url"]
 PLAY = SITE["play_url"]
 PUB = SITE["published"]
+import hashlib
+def _v(name): return hashlib.md5((Path(__file__).parent.parent / "website" / name).read_bytes()).hexdigest()[:8]
+CSS_V, JS_V = _v("style.css"), _v("menu.js")
 LANGS = {l["code"]: l for l in SITE["languages"]}
 e = html.escape
 SITE_OG = f"{BASE}/assets/og/site.png"
@@ -127,10 +130,10 @@ def page(lang, ui, *, title, desc, canonical_path, body, head_extra="", og_image
     <meta name="twitter:description" content="{e(desc)}">
     <meta name="twitter:image" content="{og_image}">
     <meta name="twitter:image:alt" content="{e(og_alt)}">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css?v={CSS_V}">
     <noscript><style>.menu-toggle{{display:none}}.site-nav{{display:flex!important;position:static!important}}</style></noscript>
     <script>try{{var t=localStorage.getItem("ck-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}}catch(e){{}}</script>
-    <script src="/menu.js" defer></script>
+    <script src="/menu.js?v={JS_V}" defer></script>
 </head>
 <body>
     <div class="container">
@@ -166,7 +169,7 @@ def build_article(lang, slug):
     ui, arts = DATA[lang]
     a = arts[slug]
     path = art_path(lang, slug)
-    img = f"{BASE}/assets/og/{slug}.png"
+    img = f"{BASE}/assets/og/{slug}.png" if lang == "en" else f"{BASE}/assets/og/{LANGS[lang]['folder']}/{slug}.png"
     alts = alternates(slug)
     head = hreflang_tags([(h, u) for _, h, u in alts]) + "\n    "
     article = {"@context": "https://schema.org", "@type": "Article", "headline": a["title"], "description": a["meta_description"],
@@ -313,7 +316,10 @@ def sitemaps():
   Cache-Control: public, max-age=31536000, immutable
 
 /menu.js
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=31536000, immutable
+
+/style.css
+  Cache-Control: public, max-age=31536000, immutable
 """)
     (OUT / "_redirects").write_text("/index.html / 301\n")
 

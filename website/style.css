@@ -127,7 +127,7 @@ p.muted, .muted {
 }
 
 ul {
-    padding-left: 20px;
+    padding-left: 0; padding-inline-start: 20px;
     margin: 0 0 14px;
 }
 
@@ -341,7 +341,7 @@ footer a {
     flex-direction: column;
     gap: 3px;
     line-height: 1;
-    text-align: left;
+    text-align: start;
     font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
@@ -382,14 +382,14 @@ footer a {
 .guide h1 { margin-top: 0; }
 .guide section { margin-top: 36px; }
 .guide h3 { margin: 22px 0 6px; font-size: 18px; }
-.guide ul, .guide ol { padding-left: 22px; }
+.guide ul, .guide ol { padding-left: 0; padding-inline-start: 22px; }
 .guide li { margin: 6px 0; }
 .quick {
     margin: 20px 0 24px;
     padding: 18px 20px;
     background: var(--surface);
     border: 1px solid var(--outline);
-    border-left: 4px solid var(--accent);
+    border-inline-start: 4px solid var(--accent);
     border-radius: var(--radius);
 }
 .quick h2 { margin: 0 0 6px; font-size: 15px; color: var(--text-muted); }
@@ -399,8 +399,8 @@ footer a {
 .toc ol { margin: 0; }
 .table-wrap { overflow-x: auto; margin-top: 12px; border: 1px solid var(--outline); border-radius: var(--radius); }
 .table-wrap table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: 14px; }
-.table-wrap caption { text-align: left; padding: 12px 14px; font-weight: 600; color: var(--text-muted); }
-.table-wrap th, .table-wrap td { padding: 10px 14px; text-align: left; border-top: 1px solid var(--outline); vertical-align: top; }
+.table-wrap caption { text-align: start; padding: 12px 14px; font-weight: 600; color: var(--text-muted); }
+.table-wrap th, .table-wrap td { padding: 10px 14px; text-align: start; border-top: 1px solid var(--outline); vertical-align: top; }
 .table-wrap thead th { background: var(--surface-variant); }
 .table-wrap tbody th { font-weight: 600; white-space: nowrap; }
 details { background: var(--surface); border: 1px solid var(--outline); border-radius: 12px; padding: 0 16px; margin: 10px 0; }
@@ -425,8 +425,8 @@ figcaption { margin-top: 8px; font-size: 13px; color: var(--text-muted); }
 }
 
 /* Header, menu, skip link, footer extras */
-.skip { position: absolute; left: -9999px; top: 8px; background: var(--surface); color: var(--text); padding: 8px 14px; border-radius: 8px; z-index: 20; }
-.skip:focus { left: 8px; }
+.skip { position: absolute; inset-inline-start: -9999px; top: 8px; background: var(--surface); color: var(--text); padding: 8px 14px; border-radius: 8px; z-index: 20; }
+.skip:focus { inset-inline-start: 8px; }
 .site-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 22px; }
 .site-nav a:not(.menu-cta) { font-size: 15px; font-weight: 600; color: var(--text-muted); text-decoration: none; padding: 6px 0; border-bottom: 2px solid transparent; }
 .site-nav a:not(.menu-cta):hover, .site-nav a[aria-current="page"] { color: var(--text); border-bottom-color: var(--accent); }
@@ -461,7 +461,7 @@ figcaption { margin-top: 8px; font-size: 13px; color: var(--text-muted); }
 main { display: block; }
 
 .crumbs [aria-current="page"] { color: var(--text); }
-footer a { display: inline-block; white-space: nowrap; margin: 0 16px 8px 0; }
+footer a { display: inline-block; white-space: nowrap; margin: 0 0 8px; margin-inline-end: 16px; }
 
 .header-tools { display: flex; align-items: center; gap: 12px; }
 .theme-toggle { width: 44px; height: 44px; padding: 0; border: 1px solid var(--outline); border-radius: 12px; background: var(--surface); color: var(--text); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
@@ -471,5 +471,9 @@ footer a { display: inline-block; white-space: nowrap; margin: 0 16px 8px 0; }
 :root[data-theme="light"] .theme-toggle .i-auto, :root[data-theme="dark"] .theme-toggle .i-auto { display: none; }
 :root[data-theme="light"] .theme-toggle .i-light { display: block; }
 :root[data-theme="dark"] .theme-toggle .i-dark { display: block; }
-@media (max-width: 640px) { .header-tools { margin-left: auto; } }
+@media (max-width: 640px) { .header-tools { margin-inline-start: auto; } }
 @media (min-width: 641px) { .site-header .menu-toggle { display: none; } }
+
+.guide ol.sources, .toc ol { padding-inline-start: 22px; }
+.toc ol { padding-left: 0; }
+[dir="rtl"] .crumbs, [dir="rtl"] .updated { unicode-bidi: plaintext; }
