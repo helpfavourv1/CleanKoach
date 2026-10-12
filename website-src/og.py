@@ -6,7 +6,7 @@ import json, os, sys, re
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).parent; OUT = ROOT.parent / "website"
-SITE = json.load(open(ROOT / "site.json", encoding="utf8")); LANGS = {l["code"]: l for l in SITE["languages"]}
+SITE = json.load(open(ROOT / "site.json", encoding="utf8")); LANGS = {l["code"]: l for l in SITE["languages"]}; LANGS.update({l["folder"]: l for l in SITE["languages"]})
 FONTS = Path(os.environ.get("FONTS_DIR", "/tmp/claude-0/-home-claude/31c370b5-549d-5474-baae-8a84eca4937b/scratchpad/fonts")) / "node_modules/@fontsource"
 SCRIPT = {"ar": "arabic", "fa": "arabic", "ur": "arabic", "he": "hebrew", "th": "thai", "hi": "devanagari", "mr": "devanagari", "bn": "bengali",
           "ta": "tamil", "te": "telugu", "gu": "gujarati", "ml": "malayalam", "ja": "jp", "ko": "kr", "zh-CN": "sc", "zh-TW": "tc"}
