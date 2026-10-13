@@ -19,7 +19,7 @@ if "42" not in ft["quick_answer"]: bad.append(("42 missing in quick answer", "")
 if "9" not in " ".join(v for k, v in ft.items() if k.startswith("faq.3.")): bad.append(("Android 9 missing in faq 3", ""))
 low = unicodedata.normalize("NFC", text.lower())
 for k, term in tr_tool.gloss(lang if lang != "en" else "en").items():
-    t = unicodedata.normalize("NFC", re.sub(r"[^\w\s]", "", term).lower().strip())
+    t = unicodedata.normalize("NFC", re.sub(r"[^\w\s]", "", unicodedata.normalize("NFC", term).lower()).strip())
     if t and t not in unicodedata.normalize("NFC", re.sub(r"[^\w\s]", "", low)): bad.append(("app term not used", f"{k}={term}"))
 if not (60 <= len(tr["meta_description"]) <= 170 or lang in ("ja", "ko", "zh-CN", "zh-TW", "th")): bad.append(("meta description length", len(tr["meta_description"])))
 if len(tr["title"]) > 70: bad.append(("title length", len(tr["title"])))
