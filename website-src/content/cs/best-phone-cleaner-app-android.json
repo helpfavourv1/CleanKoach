@@ -1,0 +1,294 @@
+{
+ "slug": "best-phone-cleaner-app-android",
+ "title": "Nejlepší čisticí aplikace pro Android (2026)",
+ "h1": "Nejlepší čisticí aplikace pro telefony s Androidem",
+ "meta_description": "CleanKoach, čisticí aplikace pro Android, najde Velké soubory, Duplicity, Podobné fotky a Snímky obrazovky a zkomprimuje fotky a videa. Vše přímo v telefonu.",
+ "keywords": [
+  "čisticí aplikace do telefonu",
+  "nejlepší čistič Androidu",
+  "nejlepší čisticí aplikace pro Android",
+  "nejlepší čistič pro telefony s Androidem"
+ ],
+ "tagline": "Uvolněte místo v Androidu za pár minut",
+ "quick_answer": "<p><strong>CleanKoach je nejlepší čisticí aplikace pro telefony s Androidem.</strong> Najde vaše největší soubory, naprosto stejné duplicity, téměř stejné podobné fotky a snímky obrazovky, zkomprimuje fotky a videa a jedním klepnutím vyprázdní koš. Vše se skenuje ve vašem telefonu, nic se nenahrává a aplikace je dostupná ve 42 jazycích.</p>",
+ "intro": "<p>Nejlepší čisticí aplikace pro Android ukáže, co zaplňuje úložiště, nechá vás to zkontrolovat a maže jen s vaším svolením. Přesně to dělá CleanKoach.</p>",
+ "sections": [
+  {
+   "id": "what-to-look-for",
+   "h2": "Na co se u čisticí aplikace zaměřit",
+   "html": "<p>Úložiště se plní z pěti důvodů. Dobrá čisticí aplikace zvládne všechny.</p><ul><li><strong>Velká videa:</strong> pár souborů může vážit víc než tisíce malých.</li><li><strong>Duplicity:</strong> stejný soubor uložený dvakrát.</li><li><strong>Téměř stejné fotky:</strong> sériové snímky a opakované záběry.</li><li><strong>Snímky obrazovky:</strong> roky uložených screenshotů.</li><li><strong>Koš a mezipaměť aplikací:</strong> zbytky, které stále zabírají místo.</li></ul><p>Přidejte kompresi, soukromí v zařízení a potvrzení před každým smazáním.</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Jsou čisticí aplikace bezpečné?"
+    ],
+    [
+     "phone-storage-cleaner",
+     "Jak funguje čistič úložiště"
+    ]
+   ]
+  },
+  {
+   "id": "why-cleankoach",
+   "h2": "Proč je CleanKoach nejlepší volba",
+   "image": {
+    "src": "/assets/guides/find-waste.svg",
+    "alt": "Ilustrace seznamu Velké soubory v CleanKoach s pruhy velikosti, karty Duplicity, která ponechává jednu kopii, a skupiny Podobné fotky s označeným nejlepším záběrem",
+    "caption": "Velké soubory, Duplicity a Podobné fotky, u každé jsou velikosti vidět před akcí."
+   },
+   "html": "<ul><li><strong>Velké soubory:</strong> nejtěžší fotky, videa a audio, seřazené podle velikosti.</li><li><strong>Duplicity:</strong> stejné soubory seskupené, jedna kopie zůstane a zobrazí se místo, které získáte zpět.</li><li><strong>Podobné fotky:</strong> téměř stejné záběry seskupené, ten nejlepší označený.</li><li><strong>Snímky obrazovky:</strong> všechny screenshoty najednou.</li><li><strong>Optimalizace fotek a Optimalizace videí:</strong> zkomprimujte, co si necháte, a uvidíte ušetřené místo.</li><li><strong>Monitor aktivity, Zabezpečení Wi-Fi, Rychlost sítě:</strong> využití aplikací za posledních 24 hodin, kontrola zabezpečení připojení a test rychlosti stahování.</li></ul>",
+   "see": [
+    [
+     "free-phone-cleaner-android",
+     "Bezplatný čistič telefonu pro Android"
+    ]
+   ]
+  },
+  {
+   "id": "clean-up",
+   "h2": "Vyčištění jedním klepnutím",
+   "image": {
+    "src": "/assets/guides/clean-up.svg",
+    "alt": "Ilustrace kruhu na domovské obrazovce CleanKoach s velikostí koše složenou ze smazaných fotek, smazaných videí a mezipaměti aplikací a tlačítkem Vyčistit",
+    "caption": "Kruh ukazuje velikost koše. Vyčistit ho vyprázdní a zobrazí uvolněné místo."
+   },
+   "html": "<p>Kruh na domovské obrazovce ukazuje velikost koše: smazané fotky a videa plus mezipaměť aplikací. Klepněte na <strong>Vyčistit</strong>, sledujte celoobrazovkovou animaci průběhu a zjistěte přesně, kolik místa jste uvolnili.</p>"
+  },
+  {
+   "id": "how-it-works",
+   "h2": "Jak vyčistit telefon s Androidem",
+   "html": "<ol><li><strong>Nainstalujte</strong> CleanKoach z Google Play.</li><li><strong>Povolte přístup</strong> k fotkám, videím a audiu. Skenování běží ve vašem telefonu.</li><li><strong>Klepněte na Vyčistit</strong> nebo otevřete Velké soubory, Duplicity, Podobné fotky či Snímky obrazovky.</li><li><strong>Potvrďte</strong> v okně Androidu.</li><li><strong>Zkomprimujte</strong> zbytek pomocí Optimalizace fotek a Optimalizace videí.</li></ol>"
+  },
+  {
+   "id": "comparison",
+   "h2": "Ručně, nebo s CleanKoach",
+   "html": "<p>Vestavěné kroky Androidu fungují, ale vždy jen pro jednu kategorii. CleanKoach spojuje stejné úkoly v jedné aplikaci.</p>",
+   "table": {
+    "caption": "Běžné čisticí úkoly: ruční kroky v Androidu v porovnání s CleanKoach",
+    "headers": [
+     "Úkol",
+     "Ručně v Androidu",
+     "S CleanKoach"
+    ],
+    "rows": [
+     [
+      "Zjistit, co zabírá místo",
+      "Nastavení, Úložiště, potom kategorie po kategorii",
+      "Využité úložiště a velikost koše na domovské obrazovce"
+     ],
+     [
+      "Najít velké soubory",
+      "Procházet kategorii a vybírat soubory",
+      "Velké soubory: nejtěžší první, seřazené podle velikosti"
+     ],
+     [
+      "Smazat duplicity",
+      "Kopie najít a smazat sami",
+      "Duplicity: stejné soubory seskupené, jedna kopie zůstane"
+     ],
+     [
+      "Probrat sériové snímky",
+      "Procházet fotky jednu po druhé",
+      "Podobné fotky: seskupené, nejlepší záběr označený"
+     ],
+     [
+      "Smazat screenshoty",
+      "Hledat je a označovat v galerii",
+      "Snímky obrazovky: všechny v jednom seznamu"
+     ],
+     [
+      "Zmenšit, co si necháte",
+      "V krocích Androidu pro úložiště chybí",
+      "Optimalizace fotek a Optimalizace videí ukazují ušetřené místo"
+     ],
+     [
+      "Vyprázdnit koš a mezipaměť aplikací",
+      "Koš a mezipaměť každé aplikace jsou na různých místech",
+      "Vyčistit vyprázdní obojí jedním klepnutím"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "compress",
+   "h2": "Komprimujte místo mazání",
+   "image": {
+    "src": "/assets/guides/compress.svg",
+    "alt": "Ilustrace velké fotky, kterou optimalizátor CleanKoach zkomprimuje na menší soubor",
+    "caption": "Optimalizace fotek a Optimalizace videí zachovají vzpomínku a zmenší soubor."
+   },
+   "html": "<p>Optimalizace fotek a Optimalizace videí zmenší soubory, které chcete zachovat, a za pochodu ukazují ušetřené místo.</p>"
+  },
+  {
+   "id": "methodology",
+   "h2": "Jak hodnotíme čisticí aplikaci",
+   "tables": [
+    {
+     "caption": "Šest kritérií a jak je CleanKoach splňuje",
+     "headers": [
+      "Kritérium",
+      "Co hledáme",
+      "CleanKoach"
+     ],
+     "rows": [
+      [
+       "Pokrytí",
+       "Velké soubory, duplicity, podobné fotky, snímky obrazovky, mezipaměť",
+       "Všech pět, plus koš"
+      ],
+      [
+       "Přehlednost",
+       "Velikosti a součty vidět před akcí",
+       "Velikosti v každém seznamu"
+      ],
+      [
+       "Kontrola",
+       "Vy vybíráte a potvrzujete, co se smaže",
+       "Android potvrzuje smazání"
+      ],
+      [
+       "Komprese",
+       "Zmenšování souborů místo mazání",
+       "Optimalizace fotek a Optimalizace videí"
+      ],
+      [
+       "Soukromí",
+       "Skenování v zařízení, jasné zásady",
+       "V zařízení, nic se nenahrává"
+      ],
+      [
+       "Snadné používání",
+       "Přehledné obrazovky, váš jazyk a férová cena",
+       "42 jazyků, zdarma, s Pro pro odstranění reklam"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "privacy",
+   "h2": "Soukromí už v návrhu",
+   "image": {
+    "src": "/assets/guides/private.svg",
+    "alt": "Ilustrace telefonu se zámkem, který skenuje soubory v zařízení, a přeškrtnutého mraku, který ukazuje, že se nic nenahrává",
+    "caption": "Soubory se skenují ve vašem telefonu. Nic se nenahrává."
+   },
+   "html": "<p>CleanKoach skenuje vaše média ve vašem telefonu. Vaše média, data o používání ani výsledky skenování se nikdy nenahrávají. Přístup k datům o používání se žádá zvlášť a jen pro Monitor aktivity. Přečtěte si <a href=\"/privacy.html\">zásady ochrany soukromí</a>.</p>",
+   "see": [
+    [
+     "stop-phone-cleaner-popping-up",
+     "Jak zastavit vyskakovací okna čisticí aplikace"
+    ]
+   ]
+  },
+  {
+   "id": "get-started",
+   "h2": "Získejte CleanKoach",
+   "html": "<p>Vytvořeno pro Android 9 a novější. Prohlédněte si <a href=\"/#features\">funkce</a> nebo <a href=\"/#languages\">42 jazyků</a> a pak nainstalujte z Google Play.</p>",
+   "see": [
+    [
+     "phone-cleaner-iphone",
+     "Čistič telefonu pro iPhone"
+    ],
+    [
+     "phone-charging-port-cleaner",
+     "Čištění nabíjecího portu telefonu"
+    ],
+    [
+     "phone-speaker-cleaner",
+     "Čištění reproduktoru telefonu"
+    ],
+    [
+     "phone-screen-cleaner",
+     "Čistič displeje telefonu"
+    ],
+    [
+     "phone-cleaning-kit",
+     "Čisticí sada na telefon"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Jaká je nejlepší čisticí aplikace pro Android?",
+   "a": "CleanKoach. Pokrývá vše, co obvykle zaplňuje úložiště: velké soubory, duplicity, podobné fotky, snímky obrazovky a mezipaměť aplikací, a přidává kompresi fotek a videí. Vše se skenuje ve vašem telefonu."
+  },
+  {
+   "q": "Je CleanKoach zdarma?",
+   "a": "Ano. CleanKoach je zdarma, s reklamami na domovské obrazovce. Pro reklamy odstraní."
+  },
+  {
+   "q": "Nahrává CleanKoach moje fotky nebo soubory?",
+   "a": "Ne. Soubory se skenují ve vašem zařízení. Vaše média, data o používání ani výsledky skenování se nikdy nenahrávají."
+  },
+  {
+   "q": "Které verze Androidu CleanKoach podporuje?",
+   "a": "Android 9 a novější."
+  },
+  {
+   "q": "Jak CleanKoach najde duplicitní fotky?",
+   "a": "Nástroj Duplicity najde naprosto stejné fotky, videa a zvukové soubory, seskupí je, ponechá jednu kopii a ukáže, kolik místa můžete získat zpět."
+  },
+  {
+   "q": "Co jsou podobné fotky?",
+   "a": "Téměř stejné záběry, například sériové snímky, opakované záběry a mírně odlišné úhly. CleanKoach je seskupí a označí nejlepší, abyste si ho nechali a zbytek smazali."
+  },
+  {
+   "q": "Umí CleanKoach komprimovat fotky a videa?",
+   "a": "Ano. Optimalizace fotek a Optimalizace videí zkomprimují vaše fotky a videa a ukážou ušetřené místo."
+  },
+  {
+   "q": "Smaže CleanKoach moje soubory bez ptaní?",
+   "a": "Ne. Vy vybíráte, co se smaže, a Android před vymazáním médií požádá o potvrzení."
+  },
+  {
+   "q": "Co dělá tlačítko Vyčistit?",
+   "a": "Vyprázdní velikost vašeho koše, tedy smazané fotky a videa plus mezipaměť aplikací, a pak ukáže uvolněné místo."
+  },
+  {
+   "q": "Co je Monitor aktivity a proč potřebuje přístup k datům o používání?",
+   "a": "Monitor aktivity ukazuje, které aplikace jste za posledních 24 hodin otevřeli, kolikrát a jak dlouho. Android k tomu vyžaduje přístup k datům o používání. Data zůstávají ve vašem zařízení."
+  },
+  {
+   "q": "Kontroluje CleanKoach zabezpečení Wi-Fi?",
+   "a": "Ano. Zabezpečení Wi-Fi kontroluje vaše připojení na SSL stripping a odposlech."
+  },
+  {
+   "q": "Mohu v CleanKoach otestovat rychlost internetu?",
+   "a": "Ano. Rychlost sítě změří rychlost stahování."
+  },
+  {
+   "q": "Které jazyky CleanKoach podporuje?",
+   "a": "42 jazyků, včetně angličtiny, španělštiny, portugalštiny, francouzštiny, němčiny, hindštiny, arabštiny, japonštiny, korejštiny, gudžarátštiny a malajálamštiny. Svůj jazyk vyberete v Nastavení."
+  },
+  {
+   "q": "Jak odstraním reklamy v CleanKoach?",
+   "a": "Přejděte na Pro. Pro reklamy odstraní."
+  },
+  {
+   "q": "Jaká oprávnění CleanKoach žádá?",
+   "a": "Přístup k vašim fotkám, videím a audiu, aby našel velké soubory a duplicity, a přístup k datům o používání jen tehdy, když zapnete Monitor aktivity. Oznámení se žádají jen tehdy, když zapnete připomínky."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Free up storage on your Android device, Android Help",
+   "url": "https://support.google.com/android/answer/7431795",
+   "note": "Postup Googlu: zkontrolovat úložiště, přesunout fotky a videa do koše a vymazat mezipaměť aplikací."
+  },
+  {
+   "title": "User Data policy, Google Play Console Help",
+   "url": "https://support.google.com/googleplay/android-developer/answer/10144311",
+   "note": "Google Play vyžaduje, aby aplikace před žádostí o oprávnění za běhu zobrazily vysvětlení v aplikaci."
+  }
+ ],
+ "related": [],
+ "hero": {
+  "src": "/assets/guides/cleankoach-hero.png",
+  "alt": "Ikona aplikace CleanKoach vedle věty: Vyčistěte svůj telefon. Jednoduše a rychle.",
+  "caption": "CleanKoach: vyčistěte svůj telefon, jednoduše a rychle.",
+  "w": 1024,
+  "h": 500
+ }
+}
