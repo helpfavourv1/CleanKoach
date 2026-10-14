@@ -257,7 +257,10 @@ def build_hub(lang):
     body = f'''        {crumb_html(ui, lang, [(ui["breadcrumb_guides"], None)])}
         <section class="hero"><h1>{e(ui["guides_title"])}</h1><p>{e(ui["guides_intro"])}</p></section>
         <div class="guide-list">{items}</div>'''
-    write_dir(path, page(lang, ui, title=ui["guides_title"] + " | CleanKoach", desc=ui["guides_intro"] + " Large files, duplicates, storage and safety.",
+    first = list(arts.values())[0]
+    hub_desc = ui["guides_intro"] + " " + ("Large files, duplicates, storage and safety." if lang == "en" else first["tagline"].rstrip(".") + ".")
+    if len(hub_desc) < 70: hub_desc += " " + first["h1"]
+    write_dir(path, page(lang, ui, title=ui["guides_title"] + " | CleanKoach", desc=hub_desc,
                          canonical_path=path, body=body, head_extra=head, og_image=SITE_OG, og_alt=SITE_OG_ALT, og_type="website",
                          current="guides", sw=switcher(lang, ui, alts)))
 

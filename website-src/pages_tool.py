@@ -37,6 +37,16 @@ def validate(lang):
             if x.strip() and not y.strip(): bad.append((n, i, "empty"))
         for k in ("title", "desc"):
             if not tr[n].get(k): bad.append((n, k, "missing"))
+    D = str.maketrans("٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹", "01234567890123456789")
+    u = lambda n, i: tr[n]["units"][i].translate(D)
+    if "42" not in u("index", 20) or "42" not in u("about", 12): bad.append(("42 missing",))
+    if "2026" not in u("privacy", 1) or "2026" not in u("terms", 1): bad.append(("date year missing",))
+    if "stmakarios@gmail.com" not in u("contact", 1) or "stmakarios@gmail.com" not in u("privacy", 52): bad.append(("email missing",))
+    for n in PAGES:
+        for k, lim in (("title", 62), ("desc", 165)):
+            if len(tr[n][k]) > lim: bad.append((n, k, "too long", len(tr[n][k])))
+        if len(tr[n]["desc"]) < 70: bad.append((n, "desc short", len(tr[n]["desc"])))
+        if "CleanKoach" not in tr[n]["title"]: bad.append((n, "brand missing in title"))
     return bad
 
 if __name__ == "__main__":
