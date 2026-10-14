@@ -31,7 +31,8 @@ for p in pages:
     for m in re.finditer(r"<img [^>]*>", s):
         if "alt=" not in m.group(0): bad.append((rel, "img no alt"))
     for h in re.findall(r'<link rel="alternate" hreflang="[^"]+" href="([^"]+)"', s):
-        t = (OUT / h[len(BASE):].lstrip("/") / "index.html")
+        t = OUT / h[len(BASE):].lstrip("/")
+        t = t if t.is_file() else t / "index.html"
         if not t.is_file(): bad.append((rel, "hreflang target missing", h)); continue
         if "guides" in h and (BASE + ("/" + str(p.parent.relative_to(OUT)) + "/" if str(p.parent.relative_to(OUT)) != "." else "/")) not in t.read_text(encoding="utf8"):
             bad.append((rel, "hreflang not reciprocal", h))

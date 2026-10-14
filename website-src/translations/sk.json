@@ -153,5 +153,6 @@
  "best-phone-cleaner-app-android::faq.14.q": "Aké povolenia CleanKoach žiada?",
  "best-phone-cleaner-app-android::faq.14.a": "Prístup k vašim fotkám, videám a zvuku, aby našiel veľké súbory a duplikáty, a prístup k údajom o používaní iba vtedy, keď zapnete Monitor aktivity. Oznámenia sa žiadajú len vtedy, keď zapnete pripomienky.",
  "best-phone-cleaner-app-android::cite.0.note": "Postup Googlu: skontrolovať úložisko, presunúť fotky a videá do koša a vymazať vyrovnávaciu pamäť aplikácií.",
- "best-phone-cleaner-app-android::cite.1.note": "Google Play vyžaduje, aby aplikácie pred žiadosťou o povolenia počas behu zobrazili vysvetlenie v aplikácii."
+ "best-phone-cleaner-app-android::cite.1.note": "Google Play vyžaduje, aby aplikácie pred žiadosťou o povolenia počas behu zobrazili vysvetlenie v aplikácii.",
+ "ui.by_author": "Autor: Ak"
 }

@@ -153,5 +153,6 @@
  "best-phone-cleaner-app-android::faq.14.q": "CleanKoach 会请求哪些权限?",
  "best-phone-cleaner-app-android::faq.14.a": "访问你的照片、视频和音频,用于查找大文件和重复文件;仅当你开启活动监测时才请求使用情况访问权限。只有在你开启提醒时才会请求通知权限。",
  "best-phone-cleaner-app-android::cite.0.note": "Google 提供的步骤:检查存储空间、把照片和视频移到回收站、清除应用缓存。",
- "best-phone-cleaner-app-android::cite.1.note": "Google Play 要求应用在请求运行时权限之前,先在应用内显示说明。"
+ "best-phone-cleaner-app-android::cite.1.note": "Google Play 要求应用在请求运行时权限之前,先在应用内显示说明。",
+ "ui.by_author": "作者：Ak"
 }

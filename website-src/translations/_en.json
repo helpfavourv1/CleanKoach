@@ -153,5 +153,6 @@
  "best-phone-cleaner-app-android::faq.14.q": "What permissions does CleanKoach ask for?",
  "best-phone-cleaner-app-android::faq.14.a": "Access to your photos, videos and audio so it can find large files and duplicates, and Usage Access only if you turn on Activity Monitor. Notifications are only requested if you switch reminders on.",
  "best-phone-cleaner-app-android::cite.0.note": "Google's own steps for checking storage, moving photos and videos to Trash and clearing app cache.",
- "best-phone-cleaner-app-android::cite.1.note": "Google Play requires apps to show an in-app disclosure before requesting runtime permissions."
+ "best-phone-cleaner-app-android::cite.1.note": "Google Play requires apps to show an in-app disclosure before requesting runtime permissions.",
+ "ui.by_author": "By Ak"
 }

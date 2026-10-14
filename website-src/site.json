@@ -18,10 +18,10 @@
    "dir": "ltr"
   },
   {
-   "code": "pt",
-   "hreflang": "pt",
-   "folder": "pt",
-   "name": "Português",
+   "code": "pt-BR",
+   "hreflang": "pt-BR",
+   "folder": "pt-br",
+   "name": "Português (Brasil)",
    "dir": "ltr"
   },
   {
@@ -57,6 +57,13 @@
    "hreflang": "id",
    "folder": "id",
    "name": "Bahasa Indonesia",
+   "dir": "ltr"
+  },
+  {
+   "code": "fil",
+   "hreflang": "fil",
+   "folder": "fil",
+   "name": "Filipino",
    "dir": "ltr"
   },
   {
@@ -102,13 +109,6 @@
    "dir": "ltr"
   },
   {
-   "code": "th",
-   "hreflang": "th",
-   "folder": "th",
-   "name": "ไทย",
-   "dir": "ltr"
-  },
-  {
    "code": "pl",
    "hreflang": "pl",
    "folder": "pl",
@@ -127,20 +127,6 @@
    "hreflang": "zh-CN",
    "folder": "zh-cn",
    "name": "简体中文",
-   "dir": "ltr"
-  },
-  {
-   "code": "zh-TW",
-   "hreflang": "zh-TW",
-   "folder": "zh-tw",
-   "name": "繁體中文",
-   "dir": "ltr"
-  },
-  {
-   "code": "bn",
-   "hreflang": "bn",
-   "folder": "bn",
-   "name": "বাংলা",
    "dir": "ltr"
   },
   {
@@ -179,60 +165,11 @@
    "dir": "ltr"
   },
   {
-   "code": "ms",
-   "hreflang": "ms",
-   "folder": "ms",
-   "name": "Bahasa Melayu",
-   "dir": "ltr"
-  },
-  {
-   "code": "fa",
-   "hreflang": "fa",
-   "folder": "fa",
-   "name": "فارسی",
-   "dir": "rtl"
-  },
-  {
-   "code": "ur",
-   "hreflang": "ur",
-   "folder": "ur",
-   "name": "اردو",
-   "dir": "rtl"
-  },
-  {
    "code": "he",
    "hreflang": "he",
    "folder": "he",
    "name": "עברית",
    "dir": "rtl"
-  },
-  {
-   "code": "ta",
-   "hreflang": "ta",
-   "folder": "ta",
-   "name": "தமிழ்",
-   "dir": "ltr"
-  },
-  {
-   "code": "te",
-   "hreflang": "te",
-   "folder": "te",
-   "name": "తెలుగు",
-   "dir": "ltr"
-  },
-  {
-   "code": "mr",
-   "hreflang": "mr",
-   "folder": "mr",
-   "name": "मराठी",
-   "dir": "ltr"
-  },
-  {
-   "code": "sw",
-   "hreflang": "sw",
-   "folder": "sw",
-   "name": "Kiswahili",
-   "dir": "ltr"
   },
   {
    "code": "hu",
@@ -275,27 +212,24 @@
    "folder": "bg",
    "name": "Български",
    "dir": "ltr"
-  },
-  {
-   "code": "ca",
-   "hreflang": "ca",
-   "folder": "ca",
-   "name": "Català",
-   "dir": "ltr"
-  },
-  {
-   "code": "gu",
-   "hreflang": "gu",
-   "folder": "gu",
-   "name": "ગુજરાતી",
-   "dir": "ltr"
-  },
-  {
-   "code": "ml",
-   "hreflang": "ml",
-   "folder": "ml",
-   "name": "മലയാളം",
-   "dir": "ltr"
   }
- ]
+ ],
+ "retired_folders": [
+  "bn",
+  "ca",
+  "fa",
+  "gu",
+  "ml",
+  "mr",
+  "ms",
+  "sw",
+  "ta",
+  "te",
+  "th",
+  "ur",
+  "zh-tw"
+ ],
+ "renamed_folders": {
+  "pt": "pt-br"
+ }
 }

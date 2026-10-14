@@ -153,5 +153,6 @@
  "best-phone-cleaner-app-android::faq.14.q": "ما الأذونات التي يطلبها CleanKoach؟",
  "best-phone-cleaner-app-android::faq.14.a": "الوصول إلى صورك ومقاطع الفيديو والصوت للعثور على الملفات الكبيرة والمكررات، والوصول إلى بيانات الاستخدام فقط إذا فعّلت مراقب النشاط. ولا تُطلب الإشعارات إلا إذا فعّلت التذكيرات.",
  "best-phone-cleaner-app-android::cite.0.note": "خطوات Google لفحص التخزين ونقل الصور والفيديو إلى سلة المحذوفات وإفراغ ذاكرة التطبيقات المؤقتة.",
- "best-phone-cleaner-app-android::cite.1.note": "تشترط Google Play أن تعرض التطبيقات شرحًا داخل التطبيق قبل طلب أذونات وقت التشغيل."
+ "best-phone-cleaner-app-android::cite.1.note": "تشترط Google Play أن تعرض التطبيقات شرحًا داخل التطبيق قبل طلب أذونات وقت التشغيل.",
+ "ui.by_author": "بقلم Ak"
 }

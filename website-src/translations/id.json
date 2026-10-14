@@ -153,5 +153,6 @@
  "best-phone-cleaner-app-android::faq.14.q": "Izin apa yang diminta CleanKoach?",
  "best-phone-cleaner-app-android::faq.14.a": "Akses ke foto, video, dan audio Anda untuk menemukan file besar dan duplikat, serta akses data penggunaan hanya jika Anda mengaktifkan Monitor Aktivitas. Notifikasi hanya diminta jika Anda mengaktifkan pengingat.",
  "best-phone-cleaner-app-android::cite.0.note": "Langkah Google untuk memeriksa penyimpanan, memindahkan foto dan video ke sampah, dan mengosongkan cache aplikasi.",
- "best-phone-cleaner-app-android::cite.1.note": "Google Play mewajibkan aplikasi menampilkan penjelasan di dalam aplikasi sebelum meminta izin runtime."
+ "best-phone-cleaner-app-android::cite.1.note": "Google Play mewajibkan aplikasi menampilkan penjelasan di dalam aplikasi sebelum meminta izin runtime.",
+ "ui.by_author": "Oleh Ak"
 }

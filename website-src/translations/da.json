@@ -153,5 +153,6 @@
  "best-phone-cleaner-app-android::faq.14.q": "Hvilke tilladelser beder CleanKoach om?",
  "best-phone-cleaner-app-android::faq.14.a": "Adgang til dine fotos, videoer og lyd for at finde store filer og dubletter, og adgang til brugsdata kun hvis du slår Aktivitetsmonitor til. Notifikationer bliver kun bedt om, hvis du slår påmindelser til.",
  "best-phone-cleaner-app-android::cite.0.note": "Googles trin til at tjekke lageret, flytte fotos og videoer til papirkurven og tømme app-cache.",
- "best-phone-cleaner-app-android::cite.1.note": "Google Play kræver, at apps viser en forklaring i appen, før de beder om kørselstidstilladelser."
+ "best-phone-cleaner-app-android::cite.1.note": "Google Play kræver, at apps viser en forklaring i appen, før de beder om kørselstidstilladelser.",
+ "ui.by_author": "Af Ak"
 }

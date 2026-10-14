@@ -153,5 +153,6 @@
  "best-phone-cleaner-app-android::faq.14.q": "Vilka behörigheter begär CleanKoach?",
  "best-phone-cleaner-app-android::faq.14.a": "Åtkomst till dina foton, videor och ljud för att hitta stora filer och dubbletter, och åtkomst till användningsdata bara om du slår på Aktivitetsmonitor. Aviseringar begärs bara om du slår på påminnelser.",
  "best-phone-cleaner-app-android::cite.0.note": "Googles steg för att kontrollera lagringen, flytta foton och videor till papperskorgen och tömma appcache.",
- "best-phone-cleaner-app-android::cite.1.note": "Google Play kräver att appar visar en förklaring i appen innan de begär körningsbehörigheter."
+ "best-phone-cleaner-app-android::cite.1.note": "Google Play kräver att appar visar en förklaring i appen innan de begär körningsbehörigheter.",
+ "ui.by_author": "Av Ak"
 }

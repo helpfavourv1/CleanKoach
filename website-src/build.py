@@ -5,6 +5,7 @@ Output: ../website/ (served as-is). Only languages/articles that have content ar
 sitemaps cover exactly those. Never edit generated HTML by hand."""
 import json, html, re, shutil
 from pathlib import Path
+import pages_tool
 
 ROOT = Path(__file__).parent
 OUT = ROOT.parent / "website"
@@ -23,6 +24,8 @@ SITE_OG_ALT = "CleanKoach: free up phone storage on Android"
 def load(lang):
     d = ROOT / "content" / lang
     if not (d / "ui.json").exists():
+        d = ROOT / "content" / LANGS[lang]["folder"]
+    if not (d / "ui.json").exists():
         return None
     ui = json.load(open(d / "ui.json", encoding="utf8"))
     arts = {}
@@ -35,6 +38,15 @@ DATA = {c: v for c in LANGS if (v := load(c))}
 EN_UI = DATA["en"][0]
 
 def prefix(lang): return "" if lang == "en" else "/" + LANGS[lang]["folder"]
+
+def load_pages(lang):
+    f = ROOT / "pages_tr" / f"{lang}.json"
+    return json.load(open(f, encoding="utf8")) if f.exists() else None
+PAGES_TR = {c: v for c in LANGS if (v := load_pages(c))}
+def sprefix(lang):
+    """Prefix for static pages (home, about, contact, legal). Falls back to English until a language has its pages translated."""
+    return prefix(lang) if lang in PAGES_TR else ""
+AUTHOR = {"@type": "Person", "name": "Ak", "url": BASE + "/about/"}
 def art_path(lang, slug): return f"{prefix(lang)}/guides/{slug}/"
 def hub_path(lang): return f"{prefix(lang)}/guides/"
 def url(path): return BASE + path
@@ -53,12 +65,13 @@ def store_button(ui):
             f'<span class="store-text"><small>{e(ui["get_it_on"])}</small><b>{e(ui["google_play"])}</b></span></a>')
 
 def header(lang, ui, current=None):
-    items = [(ui["nav_features"], "/#features", None), (ui["nav_languages"], "/#languages", None),
+    sp = sprefix(lang)
+    items = [(ui["nav_features"], sp + "/#features", None), (ui["nav_languages"], sp + "/#languages", None),
              (ui["nav_guides"], hub_path(lang), "guides")]
     links = "".join(f'<a href="{h}"' + (' aria-current="page"' if k and k == current else "") + f">{e(t)}</a>" for t, h, k in items)
     return f'''<a class="skip" href="#main">{e(ui["skip"])}</a>
         <header class="site-header">
-            <a href="/" class="wordmark"><img src="/assets/favicon-192.png" alt="" width="32" height="32" class="logo"><span><span class="clean">Clean</span><span class="koach">Koach</span></span></a>
+            <a href="{sprefix(lang)}/" class="wordmark"><img src="/assets/favicon-192.png" alt="" width="32" height="32" class="logo"><span><span class="clean">Clean</span><span class="koach">Koach</span></span></a>
             <div class="header-tools">
                 <nav id="site-nav" class="site-nav" aria-label="{e(ui["menu"])}">{links}<a class="menu-cta" href="{PLAY}">{e(ui["google_play"])}</a></nav>
                 <button class="theme-toggle" type="button" data-labels="{e(ui["theme_auto"])}|{e(ui["theme_light"])}|{e(ui["theme_dark"])}" data-prefix="{e(ui["theme"])}" aria-label="{e(ui["theme"])}: {e(ui["theme_auto"])}"><svg class="i-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg><svg class="i-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="i-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"/></svg></button>
@@ -69,10 +82,10 @@ def header(lang, ui, current=None):
 def footer(lang, ui, switcher=""):
     return f'''<footer>
             {switcher}
-            <a href="/about/">{e(ui["footer_about"])}</a>
-            <a href="/contact/">{e(ui["footer_contact"])}</a>
-            <a href="/privacy.html">{e(ui["footer_privacy"])}</a>
-            <a href="/terms.html">{e(ui["footer_terms"])}</a>
+            <a href="{sprefix(lang)}/about/">{e(ui["footer_about"])}</a>
+            <a href="{sprefix(lang)}/contact/">{e(ui["footer_contact"])}</a>
+            <a href="{sprefix(lang)}/privacy.html">{e(ui["footer_privacy"])}</a>
+            <a href="{sprefix(lang)}/terms.html">{e(ui["footer_terms"])}</a>
         </footer>'''
 
 def switcher(lang, ui, alts):
@@ -156,7 +169,7 @@ def write_dir(path, content): write(path.lstrip("/") + "index.html", content)
 
 def crumb_html(ui, lang, trail):
     """trail: list of (label, href or None). Home is prepended."""
-    parts = [f'<a href="/">{e(ui["breadcrumb_home"])}</a>'] + [f'<a href="{h}">{e(t)}</a>' if h else f'<span aria-current="page">{e(t)}</span>' for t, h in trail]
+    parts = [f'<a href="{sprefix(lang) + "/"}">{e(ui["breadcrumb_home"])}</a>'] + [f'<a href="{h}">{e(t)}</a>' if h else f'<span aria-current="page">{e(t)}</span>' for t, h in trail]
     return f'<nav class="crumbs" aria-label="Breadcrumb">' + " / ".join(parts) + "</nav>"
 
 # ---------- guides ----------
@@ -175,7 +188,7 @@ def build_article(lang, slug):
     article = {"@context": "https://schema.org", "@type": "Article", "headline": a["title"], "description": a["meta_description"],
                "image": [img], "datePublished": PUB, "dateModified": PUB, "inLanguage": LANGS[lang]["hreflang"],
                "mainEntityOfPage": url(path), "keywords": ", ".join(a["keywords"]),
-               "author": {"@type": "Organization", "name": "CleanKoach", "url": BASE + "/about/"},
+               "author": AUTHOR,
                "publisher": {"@type": "Organization", "name": "CleanKoach", "url": BASE + "/",
                              "logo": {"@type": "ImageObject", "url": BASE + "/assets/favicon-512.png"}}}
     faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
@@ -214,7 +227,7 @@ def build_article(lang, slug):
     body = f'''        <article class="guide">
             {crumb_html(ui, lang, [(ui["breadcrumb_guides"], hub_path(lang)), (a["h1"], None)])}
             <h1>{e(a["h1"])}</h1>
-            <p class="updated">{e(ui["updated"])}: <time datetime="{PUB}">{PUB}</time> · <a href="/about/">{e(ui["by_cleankoach"])}</a></p>
+            <p class="updated">{e(ui["updated"])}: <time datetime="{PUB}">{PUB}</time> · <a href="{sprefix(lang)}/about/">{e(ui["by_author"])}</a></p>
             <aside class="quick" aria-label="{e(ui["quick_answer"])}"><h2>{e(ui["quick_answer"])}</h2>{a["quick_answer"]}</aside>
             {a["intro"]}
             {hero}
@@ -263,25 +276,47 @@ STATIC = [
          desc="Contact CleanKoach for app support, bug reports, feedback and press questions.", kind="contact"),
 ]
 
+LANGS_UL = (ROOT / "pages" / "languages.fragment.html").read_text(encoding="utf8")
+LINK = re.compile(r'href="(/(?!assets/)[^"]*)"')
+
+def static_path(lang, p): return sprefix(lang) + p["path"]
+def static_out(lang, p): return p["out"] if not sprefix(lang) else sprefix(lang).lstrip("/") + "/" + p["out"]
+def static_langs(): return ["en"] + [c for c in DATA if c != "en" and c in PAGES_TR]
+
+def build_static_page(lang, p):
+    ui, arts = DATA[lang]
+    pre = sprefix(lang)
+    raw = (ROOT / "pages" / f'{p["src"]}.body.html').read_text(encoding="utf8")
+    if lang != "en":
+        raw = pages_tool.inject(raw, PAGES_TR[lang][p["src"]]["units"])
+        title, desc = PAGES_TR[lang][p["src"]]["title"], PAGES_TR[lang][p["src"]]["desc"]
+    else:
+        title, desc = p["title"], p["desc"]
+    raw = LINK.sub(lambda m: f'href="{pre}{m.group(1)}"', raw)
+    guides_cards = "".join(f'<a class="guide-card" href="{art_path(lang, s)}"><h2>{e(a["h1"])}</h2><p>{e(a["tagline"])}</p></a>' for s, a in arts.items())
+    body = raw.replace("<!--guides-->", guides_cards).replace("<!--store-->", store_button(ui)).replace("<!--langs-->", LANGS_UL)
+    name = {"home": "CleanKoach"}.get(p["kind"]) or re.search(r"<h1>(.*?)</h1>", raw, re.S).group(1)
+    body = "        " + (body.strip() if p["kind"] == "home" else crumb_html(ui, lang, [(name, None)]) + "\n        " + body.strip())
+    lh = LANGS[lang]["hreflang"]
+    if p["kind"] == "home":
+        objs = [ORG, APP, {"@context": "https://schema.org", "@type": "WebSite", "name": "CleanKoach", "url": BASE + "/", "inLanguage": lh}]
+    else:
+        t = {"about": "AboutPage", "contact": "ContactPage"}.get(p["kind"], "WebPage")
+        main = {"@type": t, "name": title, "description": desc, "url": url(static_path(lang, p)), "inLanguage": lh,
+                "isPartOf": {"@type": "WebSite", "name": "CleanKoach", "url": BASE + "/"}}
+        if p["kind"] == "about": main["mainEntity"] = dict(AUTHOR, worksFor={"@type": "Organization", "name": "CleanKoach", "url": BASE + "/"})
+        objs = [dict({"@context": "https://schema.org"}, **main), crumbs([(ui["breadcrumb_home"], url(pre + "/")), (name, url(static_path(lang, p)))]), ORG]
+    alts = [(c, LANGS[c]["hreflang"], url(static_path(c, p))) for c in static_langs()]
+    head = hreflang_tags([(h, u) for _, h, u in alts]) + "\n    " + jsonld(objs)
+    write(static_out(lang, p), page(lang, ui, title=title, desc=desc, canonical_path=static_path(lang, p), body=body, head_extra=head,
+                                    og_image=SITE_OG, og_alt=SITE_OG_ALT, og_type="website", sw=switcher(lang, ui, alts)))
+
 def build_static():
-    guides_cards = "".join(f'<a class="guide-card" href="{art_path("en", s)}"><h2>{e(a["h1"])}</h2><p>{e(a["tagline"])}</p></a>' for s, a in DATA["en"][1].items())
-    for p in STATIC:
-        body = (ROOT / "pages" / f'{p["src"]}.body.html').read_text(encoding="utf8").replace("<!--guides-->", guides_cards)
-        name = {"home": "CleanKoach", "web": p["title"].split(" | ")[0], "about": "About", "contact": "Contact"}[p["kind"]]
-        body = "        " + (body.strip() if p["kind"] == "home" else crumb_html(EN_UI, "en", [(name, None)]) + "\n        " + body.strip())
-        objs = [ORG]
-        if p["kind"] == "home":
-            objs = [ORG, APP, {"@context": "https://schema.org", "@type": "WebSite", "name": "CleanKoach", "url": BASE + "/", "inLanguage": "en"}]
-        else:
-            t = {"about": "AboutPage", "contact": "ContactPage"}.get(p["kind"], "WebPage")
-            objs = [{"@context": "https://schema.org", "@type": t, "name": p["title"], "description": p["desc"], "url": url(p["path"]),
-                     "isPartOf": {"@type": "WebSite", "name": "CleanKoach", "url": BASE + "/"}},
-                    crumbs([(EN_UI["breadcrumb_home"], BASE + "/"), (name, url(p["path"]))]), ORG]
-        write(p["out"], page("en", EN_UI, title=p["title"], desc=p["desc"], canonical_path=p["path"], body=body, head_extra=jsonld(objs),
-                             og_image=SITE_OG, og_alt=SITE_OG_ALT, og_type="website",
-                             sw=switcher("en", EN_UI, [("en", "en", url(p["path"]))])))
+    for lang in static_langs():
+        for p in STATIC: build_static_page(lang, p)
+    ui = EN_UI
     nf = (ROOT / "pages" / "notfound.body.html").read_text(encoding="utf8")
-    write("404.html", page("en", EN_UI, title="Page not found | CleanKoach", desc="This page does not exist.", canonical_path="/404.html",
+    write("404.html", page("en", ui, title="Page not found | CleanKoach", desc="This page does not exist.", canonical_path="/404.html",
                            body="        " + nf.strip(), og_image=SITE_OG, og_alt=SITE_OG_ALT, og_type="website", noindex=True))
 
 # ---------- sitemaps, robots, headers ----------
@@ -291,12 +326,15 @@ def sitemaps():
     d.mkdir()
     ns = 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"'
     index = []
-    x = f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset {ns}>\n' + "".join(f"  <url><loc>{url(p['path'])}</loc><lastmod>{PUB}</lastmod></url>\n" for p in STATIC) + "</urlset>\n"
-    (d / "sitemap-site.xml").write_text(x); index.append("sitemap-site.xml")
     for c in DATA:
         f = f"sitemap-{LANGS[c]['folder']}.xml"
         hub_alts = "".join(f'    <xhtml:link rel="alternate" hreflang="{LANGS[k]["hreflang"]}" href="{url(hub_path(k))}"/>\n' for k in DATA) + f'    <xhtml:link rel="alternate" hreflang="x-default" href="{url(hub_path("en"))}"/>\n'
-        ents = f"  <url>\n    <loc>{url(hub_path(c))}</loc>\n    <lastmod>{PUB}</lastmod>\n{hub_alts}  </url>\n"
+        ents = ""
+        if c in static_langs():
+            for p in STATIC:
+                al = "".join(f'    <xhtml:link rel="alternate" hreflang="{LANGS[k]["hreflang"]}" href="{url(static_path(k, p))}"/>\n' for k in static_langs()) + f'    <xhtml:link rel="alternate" hreflang="x-default" href="{url(static_path("en", p))}"/>\n'
+                ents += f"  <url>\n    <loc>{url(static_path(c, p))}</loc>\n    <lastmod>{PUB}</lastmod>\n{al}  </url>\n"
+        ents += f"  <url>\n    <loc>{url(hub_path(c))}</loc>\n    <lastmod>{PUB}</lastmod>\n{hub_alts}  </url>\n"
         for s in DATA[c][1]:
             al = "".join(f'    <xhtml:link rel="alternate" hreflang="{h}" href="{u}"/>\n' for _, h, u in alternates(s)) + f'    <xhtml:link rel="alternate" hreflang="x-default" href="{url(art_path("en", s))}"/>\n'
             ents += f"  <url>\n    <loc>{url(art_path(c, s))}</loc>\n    <lastmod>{PUB}</lastmod>\n{al}  </url>\n"
@@ -321,9 +359,17 @@ def sitemaps():
 /style.css
   Cache-Control: public, max-age=31536000, immutable
 """)
-    (OUT / "_redirects").write_text("/index.html / 301\n")
+    red = "/index.html / 301\n"
+    for old, new in SITE.get("renamed_folders", {}).items():
+        red += f"/{old}/guides/* /{new}/guides/:splat 301\n/{old} /{new}/ 301\n/{old}/* /{new}/ 301\n"
+    for old in SITE.get("retired_folders", []):
+        red += f"/{old}/guides/* /guides/:splat 301\n/{old} / 301\n/{old}/* / 301\n"
+    (OUT / "_redirects").write_text(red)
 
 def main():
+    for f in list(SITE.get("renamed_folders", {})) + SITE.get("retired_folders", []):
+        for d in (OUT / f, OUT / "assets" / "og" / f):
+            if d.exists(): shutil.rmtree(d)
     build_static()
     for c in DATA:
         build_hub(c)

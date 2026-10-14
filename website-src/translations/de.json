@@ -153,5 +153,6 @@
  "best-phone-cleaner-app-android::faq.14.q": "Welche Berechtigungen fragt CleanKoach an?",
  "best-phone-cleaner-app-android::faq.14.a": "Zugriff auf Ihre Fotos, Videos und Audiodateien, um Große Dateien und Duplikate zu finden, und den Zugriff auf Nutzungsdaten nur, wenn Sie den Aktivitätsmonitor aktivieren. Benachrichtigungen werden nur angefragt, wenn Sie Erinnerungen aktivieren.",
  "best-phone-cleaner-app-android::cite.0.note": "Googles Schritte, um den Speicher zu prüfen, Fotos und Videos in den Papierkorb zu verschieben und den App-Cache zu leeren.",
- "best-phone-cleaner-app-android::cite.1.note": "Google Play verlangt, dass Apps vor Laufzeitberechtigungen eine Erklärung in der App anzeigen."
+ "best-phone-cleaner-app-android::cite.1.note": "Google Play verlangt, dass Apps vor Laufzeitberechtigungen eine Erklärung in der App anzeigen.",
+ "ui.by_author": "Von Ak"
 }

@@ -153,5 +153,6 @@
  "best-phone-cleaner-app-android::faq.14.q": "CleanKoach yêu cầu những quyền nào?",
  "best-phone-cleaner-app-android::faq.14.a": "Quyền truy cập ảnh, video và âm thanh để tìm tệp lớn và tệp trùng lặp, và quyền truy cập dữ liệu sử dụng chỉ khi bạn bật Giám sát hoạt động. Thông báo chỉ được yêu cầu khi bạn bật nhắc nhở.",
  "best-phone-cleaner-app-android::cite.0.note": "Các bước của Google để kiểm tra bộ nhớ, chuyển ảnh và video vào thùng rác và xóa bộ nhớ đệm ứng dụng.",
- "best-phone-cleaner-app-android::cite.1.note": "Google Play yêu cầu ứng dụng hiển thị lời giải thích trong ứng dụng trước khi xin quyền thời gian chạy."
+ "best-phone-cleaner-app-android::cite.1.note": "Google Play yêu cầu ứng dụng hiển thị lời giải thích trong ứng dụng trước khi xin quyền thời gian chạy.",
+ "ui.by_author": "Tác giả: Ak"
 }

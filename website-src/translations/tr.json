@@ -153,5 +153,6 @@
  "best-phone-cleaner-app-android::faq.14.q": "CleanKoach hangi izinleri ister?",
  "best-phone-cleaner-app-android::faq.14.a": "Büyük dosyaları ve kopyaları bulmak için fotoğraf, video ve ses erişimi; kullanım verilerine erişim ise yalnızca Etkinlik İzleyici'yi açarsanız. Bildirimler yalnızca hatırlatıcıları açarsanız istenir.",
  "best-phone-cleaner-app-android::cite.0.note": "Google'ın depolamayı kontrol etme, fotoğraf ve videoları çöpe taşıma ve uygulama önbelleğini boşaltma adımları.",
- "best-phone-cleaner-app-android::cite.1.note": "Google Play, uygulamaların çalışma zamanı izinleri istemeden önce uygulama içinde bir açıklama göstermesini şart koşar."
+ "best-phone-cleaner-app-android::cite.1.note": "Google Play, uygulamaların çalışma zamanı izinleri istemeden önce uygulama içinde bir açıklama göstermesini şart koşar.",
+ "ui.by_author": "Yazan: Ak"
 }

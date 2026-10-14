@@ -153,5 +153,6 @@
  "best-phone-cleaner-app-android::faq.14.q": "Mitä käyttöoikeuksia CleanKoach pyytää?",
  "best-phone-cleaner-app-android::faq.14.a": "Pääsyn kuviisi, videoihisi ja ääniisi suurten tiedostojen ja kaksoiskappaleiden löytämiseksi sekä pääsyn käyttötietoihin vain, jos otat Toimintaseurannan käyttöön. Ilmoituksia pyydetään vain, jos otat muistutukset käyttöön.",
  "best-phone-cleaner-app-android::cite.0.note": "Googlen ohjeet tallennustilan tarkistamiseen, kuvien ja videoiden siirtämiseen roskakoriin ja sovellusten välimuistin tyhjentämiseen.",
- "best-phone-cleaner-app-android::cite.1.note": "Google Play vaatii, että sovellukset näyttävät selityksen sovelluksessa ennen kuin ne pyytävät ajonaikaisia käyttöoikeuksia."
+ "best-phone-cleaner-app-android::cite.1.note": "Google Play vaatii, että sovellukset näyttävät selityksen sovelluksessa ennen kuin ne pyytävät ajonaikaisia käyttöoikeuksia.",
+ "ui.by_author": "Kirjoittaja: Ak"
 }
