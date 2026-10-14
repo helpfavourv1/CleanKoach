@@ -3,7 +3,7 @@
   pages_tool.py dump  -> prints unit counts per page and writes pages_tr/_en.json
 A page's translatable units are the inner HTML of every h1/h2/h3/p/li in pages/<name>.body.html, in order, plus its <title> and meta description.
 pages_tr/<lang>.json = {"<page>": {"title": ..., "desc": ..., "units": [...]}}."""
-import re, json, sys
+import re, json, sys, html
 from pathlib import Path
 ROOT = Path(__file__).parent
 PAGES = ["index", "about", "contact", "privacy", "terms"]
@@ -44,8 +44,8 @@ def validate(lang):
     if "stmakarios@gmail.com" not in u("contact", 1) or "stmakarios@gmail.com" not in u("privacy", 52): bad.append(("email missing",))
     for n in PAGES:
         for k, lim in (("title", 62), ("desc", 165)):
-            if len(tr[n][k]) > lim: bad.append((n, k, "too long", len(tr[n][k])))
-        if len(tr[n]["desc"]) < 70: bad.append((n, "desc short", len(tr[n]["desc"])))
+            if len(html.escape(tr[n][k])) > lim: bad.append((n, k, "too long", len(tr[n][k])))
+        if len(html.escape(tr[n]["desc"])) < 70: bad.append((n, "desc short", len(tr[n]["desc"])))
         if "CleanKoach" not in tr[n]["title"]: bad.append((n, "brand missing in title"))
     return bad
 
