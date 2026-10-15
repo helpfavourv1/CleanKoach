@@ -1,6 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cleankoach.helpfavourv1.workers.dev/tr/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleankoach.helpfavourv1.workers.dev/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cleankoach.helpfavourv1.workers.dev/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cleankoach.helpfavourv1.workers.dev/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cleankoach.helpfavourv1.workers.dev/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cleankoach.helpfavourv1.workers.dev/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cleankoach.helpfavourv1.workers.dev/it/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://cleankoach.helpfavourv1.workers.dev/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://cleankoach.helpfavourv1.workers.dev/id/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://cleankoach.helpfavourv1.workers.dev/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cleankoach.helpfavourv1.workers.dev/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cleankoach.helpfavourv1.workers.dev/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cleankoach.helpfavourv1.workers.dev/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cleankoach.helpfavourv1.workers.dev/ar/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cleankoach.helpfavourv1.workers.dev/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleankoach.helpfavourv1.workers.dev/"/>
+  </url>
+  <url>
+    <loc>https://cleankoach.helpfavourv1.workers.dev/tr/privacy.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleankoach.helpfavourv1.workers.dev/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cleankoach.helpfavourv1.workers.dev/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cleankoach.helpfavourv1.workers.dev/pt-br/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cleankoach.helpfavourv1.workers.dev/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cleankoach.helpfavourv1.workers.dev/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cleankoach.helpfavourv1.workers.dev/it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://cleankoach.helpfavourv1.workers.dev/hi/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://cleankoach.helpfavourv1.workers.dev/id/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://cleankoach.helpfavourv1.workers.dev/fil/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cleankoach.helpfavourv1.workers.dev/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cleankoach.helpfavourv1.workers.dev/ko/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cleankoach.helpfavourv1.workers.dev/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cleankoach.helpfavourv1.workers.dev/ar/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cleankoach.helpfavourv1.workers.dev/tr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleankoach.helpfavourv1.workers.dev/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://cleankoach.helpfavourv1.workers.dev/tr/terms.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleankoach.helpfavourv1.workers.dev/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cleankoach.helpfavourv1.workers.dev/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cleankoach.helpfavourv1.workers.dev/pt-br/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cleankoach.helpfavourv1.workers.dev/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cleankoach.helpfavourv1.workers.dev/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cleankoach.helpfavourv1.workers.dev/it/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://cleankoach.helpfavourv1.workers.dev/hi/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://cleankoach.helpfavourv1.workers.dev/id/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://cleankoach.helpfavourv1.workers.dev/fil/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cleankoach.helpfavourv1.workers.dev/ja/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cleankoach.helpfavourv1.workers.dev/ko/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cleankoach.helpfavourv1.workers.dev/ru/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cleankoach.helpfavourv1.workers.dev/ar/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cleankoach.helpfavourv1.workers.dev/tr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleankoach.helpfavourv1.workers.dev/terms.html"/>
+  </url>
+  <url>
+    <loc>https://cleankoach.helpfavourv1.workers.dev/tr/about/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleankoach.helpfavourv1.workers.dev/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cleankoach.helpfavourv1.workers.dev/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cleankoach.helpfavourv1.workers.dev/pt-br/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cleankoach.helpfavourv1.workers.dev/fr/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cleankoach.helpfavourv1.workers.dev/de/about/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cleankoach.helpfavourv1.workers.dev/it/about/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://cleankoach.helpfavourv1.workers.dev/hi/about/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://cleankoach.helpfavourv1.workers.dev/id/about/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://cleankoach.helpfavourv1.workers.dev/fil/about/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cleankoach.helpfavourv1.workers.dev/ja/about/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cleankoach.helpfavourv1.workers.dev/ko/about/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cleankoach.helpfavourv1.workers.dev/ru/about/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cleankoach.helpfavourv1.workers.dev/ar/about/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cleankoach.helpfavourv1.workers.dev/tr/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleankoach.helpfavourv1.workers.dev/about/"/>
+  </url>
+  <url>
+    <loc>https://cleankoach.helpfavourv1.workers.dev/tr/contact/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cleankoach.helpfavourv1.workers.dev/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cleankoach.helpfavourv1.workers.dev/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cleankoach.helpfavourv1.workers.dev/pt-br/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cleankoach.helpfavourv1.workers.dev/fr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cleankoach.helpfavourv1.workers.dev/de/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cleankoach.helpfavourv1.workers.dev/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://cleankoach.helpfavourv1.workers.dev/hi/contact/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://cleankoach.helpfavourv1.workers.dev/id/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://cleankoach.helpfavourv1.workers.dev/fil/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cleankoach.helpfavourv1.workers.dev/ja/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cleankoach.helpfavourv1.workers.dev/ko/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cleankoach.helpfavourv1.workers.dev/ru/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cleankoach.helpfavourv1.workers.dev/ar/contact/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cleankoach.helpfavourv1.workers.dev/tr/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cleankoach.helpfavourv1.workers.dev/contact/"/>
+  </url>
+  <url>
     <loc>https://cleankoach.helpfavourv1.workers.dev/tr/guides/</loc>
     <lastmod>2026-10-12</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cleankoach.helpfavourv1.workers.dev/guides/"/>
