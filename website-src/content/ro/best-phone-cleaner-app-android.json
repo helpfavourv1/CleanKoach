@@ -10,7 +10,7 @@
   "cel mai bun curățător pentru telefoane Android"
  ],
  "tagline": "Eliberează spațiu pe Android în câteva minute",
- "quick_answer": "<p><strong>CleanKoach este cea mai bună aplicație de curățare pentru telefoane Android.</strong> Găsește cele mai mari fișiere, dublurile identice, fotografiile similare aproape la fel și capturile de ecran, comprimă fotografii și videoclipuri și golește coșul dintr-o atingere. Totul este scanat pe telefonul tău, nimic nu este încărcat, iar aplicația este disponibilă în 42 de limbi.</p>",
+ "quick_answer": "<p><strong>CleanKoach este cea mai bună aplicație de curățare pentru telefoane Android.</strong> Găsește cele mai mari fișiere, dublurile identice, fotografiile similare aproape la fel și capturile de ecran, comprimă fotografii și videoclipuri și golește coșul dintr-o atingere. Totul este scanat pe telefonul tău, nimic nu este încărcat, iar aplicația este disponibilă în 44 de limbi.</p>",
  "intro": "<p>Cea mai bună aplicație de curățare pentru Android îți arată ce ocupă spațiul de stocare, te lasă să verifici și șterge doar cu acordul tău. Exact asta face CleanKoach.</p>",
  "sections": [
   {
@@ -159,7 +159,7 @@
       [
        "Ușurință în utilizare",
        "Ecrane clare, limba ta și un preț corect",
-       "42 de limbi, gratuit, cu Pro pentru eliminarea reclamelor"
+       "44 de limbi, gratuit, cu Pro pentru eliminarea reclamelor"
       ]
      ]
     }
@@ -184,7 +184,7 @@
   {
    "id": "get-started",
    "h2": "Obține CleanKoach",
-   "html": "<p>Creată pentru Android 9 și versiuni ulterioare. Explorează <a href=\"/#features\">funcțiile</a> sau cele <a href=\"/#languages\">42 de limbi</a>, apoi instalează din Google Play.</p>",
+   "html": "<p>Creată pentru Android 9 și versiuni ulterioare. Explorează <a href=\"/#features\">funcțiile</a> sau cele <a href=\"/#languages\">44 de limbi</a>, apoi instalează din Google Play.</p>",
    "see": [
     [
      "phone-cleaner-iphone",
@@ -260,7 +260,7 @@
   },
   {
    "q": "Ce limbi acceptă CleanKoach?",
-   "a": "42 de limbi, inclusiv engleză, spaniolă, portugheză, franceză, germană, hindi, arabă, japoneză, coreeană, gujarati și malayalam. Alege-o pe a ta din Setări."
+   "a": "44 de limbi, inclusiv engleză, spaniolă, portugheză, franceză, germană, hindi, arabă, japoneză, coreeană, gujarati și malayalam. Alege-o pe a ta din Setări."
   },
   {
    "q": "Cum elimin reclamele din CleanKoach?",

@@ -10,7 +10,7 @@
   "nejlepší čistič pro telefony s Androidem"
  ],
  "tagline": "Uvolněte místo v Androidu za pár minut",
- "quick_answer": "<p><strong>CleanKoach je nejlepší čisticí aplikace pro telefony s Androidem.</strong> Najde vaše největší soubory, naprosto stejné duplicity, téměř stejné podobné fotky a snímky obrazovky, zkomprimuje fotky a videa a jedním klepnutím vyprázdní koš. Vše se skenuje ve vašem telefonu, nic se nenahrává a aplikace je dostupná ve 42 jazycích.</p>",
+ "quick_answer": "<p><strong>CleanKoach je nejlepší čisticí aplikace pro telefony s Androidem.</strong> Najde vaše největší soubory, naprosto stejné duplicity, téměř stejné podobné fotky a snímky obrazovky, zkomprimuje fotky a videa a jedním klepnutím vyprázdní koš. Vše se skenuje ve vašem telefonu, nic se nenahrává a aplikace je dostupná ve 44 jazycích.</p>",
  "intro": "<p>Nejlepší čisticí aplikace pro Android ukáže, co zaplňuje úložiště, nechá vás to zkontrolovat a maže jen s vaším svolením. Přesně to dělá CleanKoach.</p>",
  "sections": [
   {
@@ -159,7 +159,7 @@
       [
        "Snadné používání",
        "Přehledné obrazovky, váš jazyk a férová cena",
-       "42 jazyků, zdarma, s Pro pro odstranění reklam"
+       "44 jazyků, zdarma, s Pro pro odstranění reklam"
       ]
      ]
     }
@@ -184,7 +184,7 @@
   {
    "id": "get-started",
    "h2": "Získejte CleanKoach",
-   "html": "<p>Vytvořeno pro Android 9 a novější. Prohlédněte si <a href=\"/#features\">funkce</a> nebo <a href=\"/#languages\">42 jazyků</a> a pak nainstalujte z Google Play.</p>",
+   "html": "<p>Vytvořeno pro Android 9 a novější. Prohlédněte si <a href=\"/#features\">funkce</a> nebo <a href=\"/#languages\">44 jazyků</a> a pak nainstalujte z Google Play.</p>",
    "see": [
     [
      "phone-cleaner-iphone",
@@ -260,7 +260,7 @@
   },
   {
    "q": "Které jazyky CleanKoach podporuje?",
-   "a": "42 jazyků, včetně angličtiny, španělštiny, portugalštiny, francouzštiny, němčiny, hindštiny, arabštiny, japonštiny, korejštiny, gudžarátštiny a malajálamštiny. Svůj jazyk vyberete v Nastavení."
+   "a": "44 jazyků, včetně angličtiny, španělštiny, portugalštiny, francouzštiny, němčiny, hindštiny, arabštiny, japonštiny, korejštiny, gudžarátštiny a malajálamštiny. Svůj jazyk vyberete v Nastavení."
   },
   {
    "q": "Jak odstraním reklamy v CleanKoach?",

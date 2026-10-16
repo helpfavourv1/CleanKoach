@@ -10,7 +10,7 @@
   "mejor limpiador de móvil Android"
  ],
  "tagline": "Libera espacio en Android en minutos",
- "quick_answer": "<p><strong>CleanKoach es la mejor app para limpiar el móvil Android.</strong> Encuentra tus archivos más grandes, duplicados idénticos, fotos similares casi iguales y capturas de pantalla, comprime fotos y vídeos y vacía la papelera con un toque. Todo se analiza en tu teléfono, no se sube nada y funciona en 42 idiomas.</p>",
+ "quick_answer": "<p><strong>CleanKoach es la mejor app para limpiar el móvil Android.</strong> Encuentra tus archivos más grandes, duplicados idénticos, fotos similares casi iguales y capturas de pantalla, comprime fotos y vídeos y vacía la papelera con un toque. Todo se analiza en tu teléfono, no se sube nada y funciona en 44 idiomas.</p>",
  "intro": "<p>La mejor app limpiadora para Android te muestra qué ocupa tu almacenamiento, te deja revisarlo y lo elimina con tu permiso. Eso es CleanKoach.</p>",
  "sections": [
   {
@@ -159,7 +159,7 @@
       [
        "Facilidad de uso",
        "Pantallas claras, tu idioma y precio justo",
-       "42 idiomas, gratis, con Pro para quitar los anuncios"
+       "44 idiomas, gratis, con Pro para quitar los anuncios"
       ]
      ]
     }
@@ -184,7 +184,7 @@
   {
    "id": "get-started",
    "h2": "Consigue CleanKoach",
-   "html": "<p>Diseñada para Android 9 y posteriores. Mira las <a href=\"/#features\">funciones</a> o los <a href=\"/#languages\">42 idiomas</a> y luego instálala desde Google Play.</p>",
+   "html": "<p>Diseñada para Android 9 y posteriores. Mira las <a href=\"/#features\">funciones</a> o los <a href=\"/#languages\">44 idiomas</a> y luego instálala desde Google Play.</p>",
    "see": [
     [
      "phone-cleaner-iphone",
@@ -260,7 +260,7 @@
   },
   {
    "q": "¿Qué idiomas admite CleanKoach?",
-   "a": "42 idiomas, entre ellos inglés, español, portugués, francés, alemán, hindi, árabe, japonés, coreano, guyaratí y malayalam. Elige el tuyo en Ajustes."
+   "a": "44 idiomas, entre ellos inglés, español, portugués, francés, alemán, hindi, árabe, japonés, coreano, guyaratí y malayalam. Elige el tuyo en Ajustes."
   },
   {
    "q": "¿Cómo quito los anuncios de CleanKoach?",

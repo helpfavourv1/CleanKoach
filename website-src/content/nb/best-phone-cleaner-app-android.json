@@ -10,7 +10,7 @@
   "beste renser for Android-telefoner"
  ],
  "tagline": "Frigjør plass på Android på få minutter",
- "quick_answer": "<p><strong>CleanKoach er den beste oppryddingsappen for Android-telefoner.</strong> Den finner de største filene dine, identiske duplikater, nesten like lignende bilder og skjermbilder, komprimerer bilder og videoer og tømmer papirkurven med ett trykk. Alt skannes på telefonen din, ingenting lastes opp, og appen finnes på 42 språk.</p>",
+ "quick_answer": "<p><strong>CleanKoach er den beste oppryddingsappen for Android-telefoner.</strong> Den finner de største filene dine, identiske duplikater, nesten like lignende bilder og skjermbilder, komprimerer bilder og videoer og tømmer papirkurven med ett trykk. Alt skannes på telefonen din, ingenting lastes opp, og appen finnes på 44 språk.</p>",
  "intro": "<p>Den beste oppryddingsappen for Android viser hva som fyller lagringen, lar deg sjekke det og sletter bare med ditt samtykke. Det er akkurat det CleanKoach gjør.</p>",
  "sections": [
   {
@@ -159,7 +159,7 @@
       [
        "Brukervennlighet",
        "Tydelige skjermer, ditt språk og en rettferdig pris",
-       "42 språk, gratis, med Pro for å fjerne reklame"
+       "44 språk, gratis, med Pro for å fjerne reklame"
       ]
      ]
     }
@@ -184,7 +184,7 @@
   {
    "id": "get-started",
    "h2": "Få CleanKoach",
-   "html": "<p>Laget for Android 9 og nyere. Utforsk <a href=\"/#features\">funksjonene</a> eller de <a href=\"/#languages\">42 språkene</a>, og installer deretter fra Google Play.</p>",
+   "html": "<p>Laget for Android 9 og nyere. Utforsk <a href=\"/#features\">funksjonene</a> eller de <a href=\"/#languages\">44 språkene</a>, og installer deretter fra Google Play.</p>",
    "see": [
     [
      "phone-cleaner-iphone",
@@ -260,7 +260,7 @@
   },
   {
    "q": "Hvilke språk støtter CleanKoach?",
-   "a": "42 språk, blant annet engelsk, spansk, portugisisk, fransk, tysk, hindi, arabisk, japansk, koreansk, gujarati og malayalam. Velg språket ditt i Innstillinger."
+   "a": "44 språk, blant annet engelsk, spansk, portugisisk, fransk, tysk, hindi, arabisk, japansk, koreansk, gujarati og malayalam. Velg språket ditt i Innstillinger."
   },
   {
    "q": "Hvordan fjerner jeg reklamen i CleanKoach?",

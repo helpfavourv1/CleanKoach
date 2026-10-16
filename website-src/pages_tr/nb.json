@@ -1,7 +1,7 @@
 {
  "index": {
   "title": "CleanKoach: rydd opp i Android-telefonen og lagringen",
-  "desc": "Gratis oppryddingsapp for Android. Finner store filer, duplikater, lignende bilder og skjermbilder og komprimerer bilder og videoer. Alt på enheten, 42 språk.",
+  "desc": "Gratis oppryddingsapp for Android. Finner store filer, duplikater, lignende bilder og skjermbilder og komprimerer bilder og videoer. Alt på enheten, 44 språk.",
   "units": [
    "Få tilbake plass på telefonen.",
    "Finn og slett bilder, videoer og lyd du ikke trenger lenger. Alt kjører på enheten din.",
@@ -23,7 +23,7 @@
    "Sjekker tilkoblingen din for SSL stripping og avlytting av data.",
    "Nettverkshastighet",
    "Måler nedlastingshastigheten din.",
-   "Tilgjengelig på 42 språk",
+   "Tilgjengelig på 44 språk",
    "Bruk CleanKoach på ditt eget språk. Bytt når som helst i Innstillinger.",
    "Veiledninger",
    "Rett frem-svar om hvordan du rydder opp i telefonen.",
@@ -49,7 +49,7 @@
    "Slik finansieres den",
    "CleanKoach er gratis å bruke. Annonser vises på startskjermen og mellom handlinger. Pro fjerner dem.",
    "Språk",
-   "Appen er tilgjengelig på 42 språk. Velg ditt i Innstillinger, eller se den <a href=\"/#languages\">fullstendige listen</a>.",
+   "Appen er tilgjengelig på 44 språk. Velg ditt i Innstillinger, eller se den <a href=\"/#languages\">fullstendige listen</a>.",
    "Kontakt",
    "Spørsmål, feilrapporter og tilbakemeldinger er alltid velkomne på <a href=\"/contact/\">kontaktsiden</a>."
   ]

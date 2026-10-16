@@ -39,7 +39,7 @@ def validate(lang):
             if not tr[n].get(k): bad.append((n, k, "missing"))
     D = str.maketrans("٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹", "01234567890123456789")
     u = lambda n, i: tr[n]["units"][i].translate(D)
-    if "42" not in u("index", 20) or "42" not in u("about", 12): bad.append(("42 missing",))
+    if "44" not in u("index", 20) or "44" not in u("about", 12): bad.append(("44 missing",))
     if "2026" not in u("privacy", 1) or "2026" not in u("terms", 1): bad.append(("date year missing",))
     if "stmakarios@gmail.com" not in u("contact", 1) or "stmakarios@gmail.com" not in u("privacy", 52): bad.append(("email missing",))
     for n in PAGES:

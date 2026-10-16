@@ -1,7 +1,7 @@
 {
  "index": {
   "title": "CleanKoach: czyszczenie telefonu i pamięci Android",
-  "desc": "Darmowy cleaner na Androida. Znajduje duże pliki, duplikaty, podobne zdjęcia i zrzuty ekranu, kompresuje zdjęcia i filmy. Wszystko na urządzeniu, 42 języki.",
+  "desc": "Darmowy cleaner na Androida. Znajduje duże pliki, duplikaty, podobne zdjęcia i zrzuty ekranu, kompresuje zdjęcia i filmy. Wszystko na urządzeniu, 44 języki.",
   "units": [
    "Odzyskaj miejsce w telefonie.",
    "Znajdź i usuń zdjęcia, filmy i pliki audio, których już nie potrzebujesz. Wszystko działa na Twoim urządzeniu.",
@@ -23,7 +23,7 @@
    "Sprawdza połączenie pod kątem SSL stripping i przechwytywania danych.",
    "Szybkość sieci",
    "Mierzy prędkość pobierania.",
-   "Dostępna w 42 językach",
+   "Dostępna w 44 językach",
    "Używaj CleanKoach w swoim języku. Zmienisz go w dowolnej chwili w Ustawieniach.",
    "Poradniki",
    "Proste odpowiedzi na pytania o czyszczenie telefonu.",
@@ -49,7 +49,7 @@
    "Jak jest finansowana",
    "CleanKoach jest darmowa. Reklamy pojawiają się na ekranie głównym i między działaniami. Pro je usuwa.",
    "Języki",
-   "Aplikacja jest dostępna w 42 językach. Wybierz swój w Ustawieniach lub zobacz <a href=\"/#languages\">pełną listę</a>.",
+   "Aplikacja jest dostępna w 44 językach. Wybierz swój w Ustawieniach lub zobacz <a href=\"/#languages\">pełną listę</a>.",
    "Kontakt",
    "Pytania, zgłoszenia błędów i opinie są zawsze mile widziane na <a href=\"/contact/\">stronie kontaktowej</a>."
   ]

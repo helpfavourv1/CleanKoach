@@ -47,7 +47,7 @@ def main():
             pg.goto(tmp.resolve().as_uri()); pg.wait_for_timeout(700); tmp.unlink()
             path.parent.mkdir(parents=True, exist_ok=True); pg.screenshot(path=str(path)); print("og", path.relative_to(OUT))
         if "en" in want:
-            shot("en", "Free up phone storage on Android", "Large files, duplicates, similar photos. 42 languages.", OUT / "assets/og/site.png")
+            shot("en", "Free up phone storage on Android", "Large files, duplicates, similar photos. 44 languages.", OUT / "assets/og/site.png")
         for lang in want:
             for f in sorted((ROOT / "content" / lang).glob("*.json")):
                 if f.name == "ui.json": continue

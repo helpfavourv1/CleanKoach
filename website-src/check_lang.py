@@ -16,7 +16,7 @@ for k, v in ft.items():
     plain = re.sub(r"<[^>]+>", "", v).strip()
     if lang != "en" and plain.lower() == re.sub(r"<[^>]+>", "", fe[k]).strip().lower() and len(plain.split()) > 3: bad.append(("identical to English", k))
 _D=str.maketrans("٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹","01234567890123456789")
-if "42" not in ft["quick_answer"].translate(_D): bad.append(("42 missing in quick answer", ""))
+if "44" not in ft["quick_answer"].translate(_D): bad.append(("44 missing in quick answer", ""))
 if "9" not in " ".join(v for k, v in ft.items() if k.startswith("faq.3.")).translate(_D): bad.append(("Android 9 missing in faq 3", ""))
 low = unicodedata.normalize("NFC", text.lower())
 def _fold(x):

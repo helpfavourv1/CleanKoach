@@ -1,7 +1,7 @@
 {
  "index": {
   "title": "CleanKoach: dọn dẹp điện thoại Android và bộ nhớ",
-  "desc": "Trình dọn dẹp miễn phí cho Android. Tìm tệp lớn, tệp trùng lặp, ảnh tương tự và ảnh chụp màn hình, nén ảnh và video. Mọi thứ trên thiết bị, 42 ngôn ngữ.",
+  "desc": "Trình dọn dẹp miễn phí cho Android. Tìm tệp lớn, tệp trùng lặp, ảnh tương tự và ảnh chụp màn hình, nén ảnh và video. Mọi thứ trên thiết bị, 44 ngôn ngữ.",
   "units": [
    "Giải phóng bộ nhớ điện thoại.",
    "Tìm và xóa những ảnh, video và âm thanh bạn không còn cần. Mọi thứ chạy ngay trên thiết bị của bạn.",
@@ -23,7 +23,7 @@
    "Kiểm tra kết nối của bạn trước SSL stripping và việc bị chặn bắt dữ liệu.",
    "Tốc độ mạng",
    "Đo tốc độ tải xuống của bạn.",
-   "Có sẵn bằng 42 ngôn ngữ",
+   "Có sẵn bằng 44 ngôn ngữ",
    "Dùng CleanKoach bằng ngôn ngữ của bạn. Đổi bất cứ lúc nào trong Cài đặt.",
    "Hướng dẫn",
    "Câu trả lời thẳng thắn về cách dọn dẹp điện thoại.",
@@ -49,7 +49,7 @@
    "Nguồn kinh phí",
    "CleanKoach miễn phí sử dụng. Quảng cáo xuất hiện ở màn hình chính và giữa các thao tác. Pro loại bỏ chúng.",
    "Ngôn ngữ",
-   "Ứng dụng có sẵn bằng 42 ngôn ngữ. Chọn ngôn ngữ của bạn trong Cài đặt, hoặc xem <a href=\"/#languages\">danh sách đầy đủ</a>.",
+   "Ứng dụng có sẵn bằng 44 ngôn ngữ. Chọn ngôn ngữ của bạn trong Cài đặt, hoặc xem <a href=\"/#languages\">danh sách đầy đủ</a>.",
    "Liên hệ",
    "Câu hỏi, báo lỗi và phản hồi luôn được chào đón tại <a href=\"/contact/\">trang liên hệ</a>."
   ]

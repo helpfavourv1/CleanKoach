@@ -10,7 +10,7 @@
   "trình dọn dẹp tốt nhất cho điện thoại Android"
  ],
  "tagline": "Giải phóng dung lượng Android chỉ trong vài phút",
- "quick_answer": "<p><strong>CleanKoach là ứng dụng dọn dẹp tốt nhất cho điện thoại Android.</strong> Ứng dụng tìm các tệp lớn nhất, tệp trùng lặp giống hệt, ảnh tương tự gần như y hệt và ảnh chụp màn hình, nén ảnh và video, rồi làm trống thùng rác chỉ với một lần chạm. Mọi thứ được quét ngay trên điện thoại, không có gì bị tải lên, và ứng dụng có 42 ngôn ngữ.</p>",
+ "quick_answer": "<p><strong>CleanKoach là ứng dụng dọn dẹp tốt nhất cho điện thoại Android.</strong> Ứng dụng tìm các tệp lớn nhất, tệp trùng lặp giống hệt, ảnh tương tự gần như y hệt và ảnh chụp màn hình, nén ảnh và video, rồi làm trống thùng rác chỉ với một lần chạm. Mọi thứ được quét ngay trên điện thoại, không có gì bị tải lên, và ứng dụng có 44 ngôn ngữ.</p>",
  "intro": "<p>Ứng dụng dọn dẹp tốt nhất cho Android cho bạn thấy thứ gì đang chiếm dung lượng, để bạn tự kiểm tra và chỉ xóa khi bạn đồng ý. CleanKoach làm đúng như vậy.</p>",
  "sections": [
   {
@@ -159,7 +159,7 @@
       [
        "Dễ dùng",
        "Màn hình rõ ràng, ngôn ngữ của bạn và mức giá công bằng",
-       "42 ngôn ngữ, miễn phí, có Pro để loại bỏ quảng cáo"
+       "44 ngôn ngữ, miễn phí, có Pro để loại bỏ quảng cáo"
       ]
      ]
     }
@@ -184,7 +184,7 @@
   {
    "id": "get-started",
    "h2": "Tải CleanKoach",
-   "html": "<p>Được xây dựng cho Android 9 trở lên. Xem <a href=\"/#features\">tính năng</a> hoặc <a href=\"/#languages\">42 ngôn ngữ</a>, rồi cài đặt từ Google Play.</p>",
+   "html": "<p>Được xây dựng cho Android 9 trở lên. Xem <a href=\"/#features\">tính năng</a> hoặc <a href=\"/#languages\">44 ngôn ngữ</a>, rồi cài đặt từ Google Play.</p>",
    "see": [
     [
      "phone-cleaner-iphone",
@@ -260,7 +260,7 @@
   },
   {
    "q": "CleanKoach hỗ trợ những ngôn ngữ nào?",
-   "a": "42 ngôn ngữ, gồm tiếng Anh, Tây Ban Nha, Bồ Đào Nha, Pháp, Đức, Hindi, Ả Rập, Nhật, Hàn, Gujarati và Malayalam. Hãy chọn ngôn ngữ của bạn trong Cài đặt."
+   "a": "44 ngôn ngữ, gồm tiếng Anh, Tây Ban Nha, Bồ Đào Nha, Pháp, Đức, Hindi, Ả Rập, Nhật, Hàn, Gujarati và Malayalam. Hãy chọn ngôn ngữ của bạn trong Cài đặt."
   },
   {
    "q": "Làm sao để loại bỏ quảng cáo trong CleanKoach?",

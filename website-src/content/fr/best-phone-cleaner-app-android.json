@@ -10,7 +10,7 @@
   "meilleur nettoyeur pour téléphone Android"
  ],
  "tagline": "Libérez de l'espace sur Android en quelques minutes",
- "quick_answer": "<p><strong>CleanKoach est la meilleure appli de nettoyage pour téléphone Android.</strong> Elle trouve vos fichiers les plus gros, les doublons identiques, les photos similaires quasi identiques et les captures d'écran, compresse photos et vidéos, et vide la corbeille en un geste. Tout est analysé sur votre téléphone, rien n'est envoyé et l'appli fonctionne en 42 langues.</p>",
+ "quick_answer": "<p><strong>CleanKoach est la meilleure appli de nettoyage pour téléphone Android.</strong> Elle trouve vos fichiers les plus gros, les doublons identiques, les photos similaires quasi identiques et les captures d'écran, compresse photos et vidéos, et vide la corbeille en un geste. Tout est analysé sur votre téléphone, rien n'est envoyé et l'appli fonctionne en 44 langues.</p>",
  "intro": "<p>La meilleure appli de nettoyage pour Android montre ce qui occupe votre stockage, vous laisse le vérifier et le supprime avec votre accord. C'est exactement ce que fait CleanKoach.</p>",
  "sections": [
   {
@@ -159,7 +159,7 @@
       [
        "Facilité d'usage",
        "Écrans clairs, votre langue et un tarif juste",
-       "42 langues, gratuit, avec Pro pour supprimer les publicités"
+       "44 langues, gratuit, avec Pro pour supprimer les publicités"
       ]
      ]
     }
@@ -184,7 +184,7 @@
   {
    "id": "get-started",
    "h2": "Obtenez CleanKoach",
-   "html": "<p>Conçue pour Android 9 et versions ultérieures. Parcourez les <a href=\"/#features\">fonctionnalités</a> ou les <a href=\"/#languages\">42 langues</a>, puis installez depuis Google Play.</p>",
+   "html": "<p>Conçue pour Android 9 et versions ultérieures. Parcourez les <a href=\"/#features\">fonctionnalités</a> ou les <a href=\"/#languages\">44 langues</a>, puis installez depuis Google Play.</p>",
    "see": [
     [
      "phone-cleaner-iphone",
@@ -260,7 +260,7 @@
   },
   {
    "q": "Quelles langues CleanKoach prend-elle en charge ?",
-   "a": "42 langues, dont l'anglais, l'espagnol, le portugais, le français, l'allemand, l'hindi, l'arabe, le japonais, le coréen, le gujarati et le malayalam. Choisissez la vôtre dans les Paramètres."
+   "a": "44 langues, dont l'anglais, l'espagnol, le portugais, le français, l'allemand, l'hindi, l'arabe, le japonais, le coréen, le gujarati et le malayalam. Choisissez la vôtre dans les Paramètres."
   },
   {
    "q": "Comment supprimer les publicités de CleanKoach ?",

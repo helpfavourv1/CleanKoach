@@ -267,7 +267,7 @@ def build_hub(lang):
 # ---------- static pages ----------
 STATIC = [
     dict(src="index", out="index.html", path="/", title="CleanKoach: Android Phone Cleaner and Storage Cleanup",
-         desc="Free Android phone cleaner. Find large files, duplicates, similar photos and screenshots, and compress photos and videos. On-device, in 42 languages.",
+         desc="Free Android phone cleaner. Find large files, duplicates, similar photos and screenshots, and compress photos and videos. On-device, in 44 languages.",
          kind="home"),
     dict(src="privacy", out="privacy.html", path="/privacy.html", title="Privacy Policy | CleanKoach",
          desc="What the CleanKoach app and website access, what they do with it, and what they never do. Nothing is uploaded.", kind="web"),

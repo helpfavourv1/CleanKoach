@@ -1,7 +1,7 @@
 {
  "index": {
   "title": "CleanKoach : nettoyeur de téléphone Android et de stockage",
-  "desc": "Nettoyeur gratuit pour Android. Trouve gros fichiers, doublons, photos similaires, captures, et compresse photos et vidéos. Sur l'appareil, en 42 langues.",
+  "desc": "Nettoyeur gratuit pour Android. Trouve gros fichiers, doublons, photos similaires, captures, et compresse photos et vidéos. Sur l'appareil, en 44 langues.",
   "units": [
    "Libérez de la place sur votre téléphone.",
    "Trouvez et supprimez les photos, vidéos et fichiers audio dont vous n'avez plus besoin. Tout s'exécute sur votre appareil.",
@@ -23,7 +23,7 @@
    "Teste votre connexion contre le SSL stripping et l'interception.",
    "Vitesse du réseau",
    "Mesure votre vitesse de téléchargement.",
-   "Disponible en 42 langues",
+   "Disponible en 44 langues",
    "Utilisez CleanKoach dans votre langue. Changez-la à tout moment dans les Paramètres.",
    "Guides",
    "Des réponses claires pour nettoyer votre téléphone.",
@@ -49,7 +49,7 @@
    "Comment elle est financée",
    "CleanKoach est gratuite. Des publicités s'affichent sur l'écran d'accueil et entre les actions. Pro les supprime.",
    "Langues",
-   "L'appli est disponible en 42 langues. Choisissez la vôtre dans les Paramètres ou consultez la <a href=\"/#languages\">liste complète</a>.",
+   "L'appli est disponible en 44 langues. Choisissez la vôtre dans les Paramètres ou consultez la <a href=\"/#languages\">liste complète</a>.",
    "Nous contacter",
    "Vos questions, rapports de bugs et retours sont les bienvenus sur la <a href=\"/contact/\">page de contact</a>."
   ]

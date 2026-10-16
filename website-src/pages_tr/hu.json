@@ -1,7 +1,7 @@
 {
  "index": {
   "title": "CleanKoach: Android telefon és tárhely tisztítása",
-  "desc": "Ingyenes tisztító Androidra. Megtalálja a nagy fájlokat, duplikátumokat, hasonló fotókat és képernyőképeket, és tömöríti a médiát. Minden az eszközön, 42 nyelven.",
+  "desc": "Ingyenes tisztító Androidra. Megtalálja a nagy fájlokat, duplikátumokat, hasonló fotókat és képernyőképeket, és tömöríti a médiát. Minden az eszközön, 44 nyelven.",
   "units": [
    "Szabadíts fel helyet a telefonodon.",
    "Találd meg és töröld a már nem szükséges fotókat, videókat és hangfájlokat. Minden az eszközödön fut.",
@@ -23,7 +23,7 @@
    "Ellenőrzi a kapcsolatodat SSL stripping és adatlehallgatás ellen.",
    "Hálózati sebesség",
    "Megméri a letöltési sebességedet.",
-   "42 nyelven érhető el",
+   "44 nyelven érhető el",
    "Használd a CleanKoach alkalmazást a saját nyelveden. Bármikor megváltoztathatod a Beállításokban.",
    "Útmutatók",
    "Egyenes válaszok a telefon tisztításáról.",
@@ -49,7 +49,7 @@
    "Hogyan finanszírozzuk",
    "A CleanKoach ingyenesen használható. A hirdetések a főképernyőn és a műveletek között jelennek meg. A Pro eltávolítja őket.",
    "Nyelvek",
-   "Az alkalmazás 42 nyelven érhető el. Válaszd ki a sajátodat a Beállításokban, vagy nézd meg a <a href=\"/#languages\">teljes listát</a>.",
+   "Az alkalmazás 44 nyelven érhető el. Válaszd ki a sajátodat a Beállításokban, vagy nézd meg a <a href=\"/#languages\">teljes listát</a>.",
    "Kapcsolat",
    "Kérdéseket, hibajelentéseket és visszajelzéseket mindig szívesen fogadunk a <a href=\"/contact/\">kapcsolat oldalon</a>."
   ]

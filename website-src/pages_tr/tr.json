@@ -1,7 +1,7 @@
 {
  "index": {
   "title": "CleanKoach: Android telefon temizleyici ve depolama",
-  "desc": "Android için ücretsiz temizleyici. Büyük dosyaları, kopyaları, benzer fotoğrafları, ekran görüntülerini bulur, fotoğraf ve videoları sıkıştırır. Cihazda, 42 dilde.",
+  "desc": "Android için ücretsiz temizleyici. Büyük dosyaları, kopyaları, benzer fotoğrafları, ekran görüntülerini bulur, fotoğraf ve videoları sıkıştırır. Cihazda, 44 dilde.",
   "units": [
    "Telefon depolamanızda yer açın.",
    "Artık ihtiyacınız olmayan fotoğrafları, videoları ve ses dosyalarını bulup silin. Her şey cihazınızda çalışır.",
@@ -23,7 +23,7 @@
    "Bağlantınızı SSL stripping ve araya girme saldırılarına karşı sınar.",
    "Ağ Hızı",
    "İndirme hızınızı ölçer.",
-   "42 dilde kullanılabilir",
+   "44 dilde kullanılabilir",
    "CleanKoach'u kendi dilinizde kullanın. Ayarlar'dan istediğiniz zaman değiştirin.",
    "Rehberler",
    "Telefonunuzu temizlemeye dair net cevaplar.",
@@ -49,7 +49,7 @@
    "Nasıl finanse edilir",
    "CleanKoach'u kullanmak ücretsizdir. Reklamlar ana ekranda ve işlemler arasında görünür. Pro bunları kaldırır.",
    "Diller",
-   "Uygulama 42 dilde kullanılabilir. Dilinizi Ayarlar'dan seçin veya <a href=\"/#languages\">tam listeye</a> göz atın.",
+   "Uygulama 44 dilde kullanılabilir. Dilinizi Ayarlar'dan seçin veya <a href=\"/#languages\">tam listeye</a> göz atın.",
    "Bize ulaşın",
    "Sorularınızı, hata bildirimlerinizi ve geri bildirimlerinizi <a href=\"/contact/\">iletişim sayfasında</a> bekliyoruz."
   ]

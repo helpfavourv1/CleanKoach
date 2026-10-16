@@ -3,7 +3,8 @@
     <!-- Language names are always shown in their own language. -->
     <string name="language_en" translatable="false">English</string>
     <string name="language_es" translatable="false">Español</string>
-    <string name="language_pt" translatable="false">Português</string>
+    <string name="language_pt" translatable="false">Português (Portugal)</string>
+    <string name="language_pt_BR" translatable="false">Português (Brasil)</string>
     <string name="language_fr" translatable="false">Français</string>
     <string name="language_de" translatable="false">Deutsch</string>
     <string name="language_it" translatable="false">Italiano</string>
@@ -43,4 +44,5 @@
     <string name="language_ca" translatable="false">Català</string>
     <string name="language_gu" translatable="false">ગુજરાતી</string>
     <string name="language_ml" translatable="false">മലയാളം</string>
+    <string name="language_fil" translatable="false">Filipino</string>
 </resources>

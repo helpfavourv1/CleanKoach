@@ -10,7 +10,7 @@
   "pembersih terbaik untuk ponsel Android"
  ],
  "tagline": "Bebaskan ruang di Android dalam hitungan menit",
- "quick_answer": "<p><strong>CleanKoach adalah aplikasi pembersih terbaik untuk ponsel Android.</strong> Aplikasi ini menemukan file terbesar Anda, duplikat yang identik, foto serupa yang hampir sama, dan tangkapan layar, mengompres foto dan video, serta mengosongkan sampah dengan satu ketukan. Semuanya dipindai di ponsel Anda, tidak ada yang diunggah, dan aplikasinya tersedia dalam 42 bahasa.</p>",
+ "quick_answer": "<p><strong>CleanKoach adalah aplikasi pembersih terbaik untuk ponsel Android.</strong> Aplikasi ini menemukan file terbesar Anda, duplikat yang identik, foto serupa yang hampir sama, dan tangkapan layar, mengompres foto dan video, serta mengosongkan sampah dengan satu ketukan. Semuanya dipindai di ponsel Anda, tidak ada yang diunggah, dan aplikasinya tersedia dalam 44 bahasa.</p>",
  "intro": "<p>Aplikasi pembersih terbaik untuk Android menunjukkan apa yang memenuhi penyimpanan, membiarkan Anda memeriksanya, dan menghapusnya hanya dengan persetujuan Anda. Itulah yang dilakukan CleanKoach.</p>",
  "sections": [
   {
@@ -159,7 +159,7 @@
       [
        "Kemudahan",
        "Layar jelas, bahasa Anda, dan harga wajar",
-       "42 bahasa, gratis, dengan Pro untuk menghapus iklan"
+       "44 bahasa, gratis, dengan Pro untuk menghapus iklan"
       ]
      ]
     }
@@ -184,7 +184,7 @@
   {
    "id": "get-started",
    "h2": "Dapatkan CleanKoach",
-   "html": "<p>Dibuat untuk Android 9 dan yang lebih baru. Lihat <a href=\"/#features\">fitur</a> atau <a href=\"/#languages\">42 bahasa</a>, lalu pasang dari Google Play.</p>",
+   "html": "<p>Dibuat untuk Android 9 dan yang lebih baru. Lihat <a href=\"/#features\">fitur</a> atau <a href=\"/#languages\">44 bahasa</a>, lalu pasang dari Google Play.</p>",
    "see": [
     [
      "phone-cleaner-iphone",
@@ -260,7 +260,7 @@
   },
   {
    "q": "Bahasa apa saja yang didukung CleanKoach?",
-   "a": "42 bahasa, termasuk Inggris, Spanyol, Portugis, Prancis, Jerman, Hindi, Arab, Jepang, Korea, Gujarati, dan Malayalam. Pilih bahasa Anda di Setelan."
+   "a": "44 bahasa, termasuk Inggris, Spanyol, Portugis, Prancis, Jerman, Hindi, Arab, Jepang, Korea, Gujarati, dan Malayalam. Pilih bahasa Anda di Setelan."
   },
   {
    "q": "Bagaimana cara menghapus iklan di CleanKoach?",

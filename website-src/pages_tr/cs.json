@@ -1,7 +1,7 @@
 {
  "index": {
   "title": "CleanKoach: čištění telefonu a úložiště Androidu",
-  "desc": "Bezplatná čistička pro Android. Najde velké soubory, duplicity, podobné fotky a snímky obrazovky, zkomprimuje fotky i videa. Vše v zařízení, 42 jazyků.",
+  "desc": "Bezplatná čistička pro Android. Najde velké soubory, duplicity, podobné fotky a snímky obrazovky, zkomprimuje fotky i videa. Vše v zařízení, 44 jazyků.",
   "units": [
    "Získejte zpět místo v telefonu.",
    "Najděte a smažte fotky, videa a zvuky, které už nepotřebujete. Vše běží ve vašem zařízení.",
@@ -23,7 +23,7 @@
    "Zkontroluje vaše připojení z hlediska SSL stripping a zachytávání dat.",
    "Rychlost sítě",
    "Změří rychlost stahování.",
-   "K dispozici ve 42 jazycích",
+   "K dispozici ve 44 jazycích",
    "Používejte CleanKoach ve svém jazyce. Změnit ho můžete kdykoli v Nastavení.",
    "Průvodci",
    "Přímé odpovědi na otázky o čištění telefonu.",
@@ -49,7 +49,7 @@
    "Jak se financuje",
    "CleanKoach je zdarma. Reklamy se zobrazují na hlavní obrazovce a mezi akcemi. Pro je odstraní.",
    "Jazyky",
-   "Aplikace je k dispozici ve 42 jazycích. Svůj vyberte v Nastavení nebo si prohlédněte <a href=\"/#languages\">úplný seznam</a>.",
+   "Aplikace je k dispozici ve 44 jazycích. Svůj vyberte v Nastavení nebo si prohlédněte <a href=\"/#languages\">úplný seznam</a>.",
    "Kontakt",
    "Dotazy, hlášení chyb a zpětná vazba jsou vždy vítány na <a href=\"/contact/\">stránce kontaktu</a>."
   ]

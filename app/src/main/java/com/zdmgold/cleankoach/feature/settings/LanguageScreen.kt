@@ -34,6 +34,7 @@ internal val languages = listOf(
     Language(R.string.language_en, "en"),
     Language(R.string.language_es, "es"),
     Language(R.string.language_pt, "pt"),
+    Language(R.string.language_pt_BR, "pt-BR"),
     Language(R.string.language_fr, "fr"),
     Language(R.string.language_de, "de"),
     Language(R.string.language_it, "it"),
@@ -72,7 +73,8 @@ internal val languages = listOf(
     Language(R.string.language_bg, "bg"),
     Language(R.string.language_ca, "ca"),
     Language(R.string.language_gu, "gu"),
-    Language(R.string.language_ml, "ml")
+    Language(R.string.language_ml, "ml"),
+    Language(R.string.language_fil, "fil")
 )
 
 @Composable

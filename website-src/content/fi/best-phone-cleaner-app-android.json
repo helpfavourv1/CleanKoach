@@ -10,7 +10,7 @@
   "paras puhdistin Android-puhelimelle"
  ],
  "tagline": "Vapauta tilaa Androidilla muutamassa minuutissa",
- "quick_answer": "<p><strong>CleanKoach on paras puhdistussovellus Android-puhelimille.</strong> Se löytää suurimmat tiedostosi, täysin samanlaiset kaksoiskappaleet, lähes samanlaiset samankaltaiset kuvat ja kuvakaappaukset, pakkaa kuvat ja videot ja tyhjentää roskakorin yhdellä napautuksella. Kaikki skannataan puhelimessasi, mitään ei lähetetä, ja sovellus on saatavilla 42 kielellä.</p>",
+ "quick_answer": "<p><strong>CleanKoach on paras puhdistussovellus Android-puhelimille.</strong> Se löytää suurimmat tiedostosi, täysin samanlaiset kaksoiskappaleet, lähes samanlaiset samankaltaiset kuvat ja kuvakaappaukset, pakkaa kuvat ja videot ja tyhjentää roskakorin yhdellä napautuksella. Kaikki skannataan puhelimessasi, mitään ei lähetetä, ja sovellus on saatavilla 44 kielellä.</p>",
  "intro": "<p>Paras Androidin puhdistussovellus näyttää, mikä täyttää tallennustilan, antaa sinun tarkistaa asian ja poistaa vain suostumuksellasi. Juuri niin CleanKoach toimii.</p>",
  "sections": [
   {
@@ -159,7 +159,7 @@
       [
        "Helppokäyttöisyys",
        "Selkeät näytöt, oma kielesi ja reilu hinta",
-       "42 kieltä, ilmainen, Prolla mainokset pois"
+       "44 kieltä, ilmainen, Prolla mainokset pois"
       ]
      ]
     }
@@ -184,7 +184,7 @@
   {
    "id": "get-started",
    "h2": "Hanki CleanKoach",
-   "html": "<p>Tehty Android 9:lle ja uudemmille. Tutustu <a href=\"/#features\">ominaisuuksiin</a> tai <a href=\"/#languages\">42 kieleen</a> ja asenna sitten Google Playsta.</p>",
+   "html": "<p>Tehty Android 9:lle ja uudemmille. Tutustu <a href=\"/#features\">ominaisuuksiin</a> tai <a href=\"/#languages\">44 kieleen</a> ja asenna sitten Google Playsta.</p>",
    "see": [
     [
      "phone-cleaner-iphone",
@@ -260,7 +260,7 @@
   },
   {
    "q": "Mitä kieliä CleanKoach tukee?",
-   "a": "42 kieltä, muun muassa englanti, espanja, portugali, ranska, saksa, hindi, arabia, japani, korea, gujarati ja malajalam. Valitse kielesi Asetuksista."
+   "a": "44 kieltä, muun muassa englanti, espanja, portugali, ranska, saksa, hindi, arabia, japani, korea, gujarati ja malajalam. Valitse kielesi Asetuksista."
   },
   {
    "q": "Miten poistan mainokset CleanKoachista?",

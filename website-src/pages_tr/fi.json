@@ -1,7 +1,7 @@
 {
  "index": {
   "title": "CleanKoach: siivoa Android-puhelin ja tallennustila",
-  "desc": "Ilmainen siivoaja Androidille. Löytää suuret tiedostot, kaksoiskappaleet, samankaltaiset kuvat ja kuvakaappaukset sekä pakkaa median. Kaikki laitteella, 42 kieltä.",
+  "desc": "Ilmainen siivoaja Androidille. Löytää suuret tiedostot, kaksoiskappaleet, samankaltaiset kuvat ja kuvakaappaukset sekä pakkaa median. Kaikki laitteella, 44 kieltä.",
   "units": [
    "Vapauta tilaa puhelimestasi.",
    "Löydä ja poista kuvat, videot ja äänet, joita et enää tarvitse. Kaikki toimii laitteellasi.",
@@ -23,7 +23,7 @@
    "Tarkistaa yhteytesi SSL stripping -hyökkäyksen ja tiedon sieppauksen varalta.",
    "Verkon nopeus",
    "Mittaa latausnopeutesi.",
-   "Saatavilla 42 kielellä",
+   "Saatavilla 44 kielellä",
    "Käytä CleanKoachia omalla kielelläsi. Voit vaihtaa kielen milloin tahansa Asetuksista.",
    "Oppaat",
    "Suoria vastauksia puhelimen siivoamiseen.",
@@ -49,7 +49,7 @@
    "Miten se rahoitetaan",
    "CleanKoach on ilmainen. Mainokset näkyvät aloitusnäytöllä ja toimintojen välissä. Pro poistaa ne.",
    "Kielet",
-   "Sovellus on saatavilla 42 kielellä. Valitse omasi Asetuksista tai katso <a href=\"/#languages\">koko luettelo</a>.",
+   "Sovellus on saatavilla 44 kielellä. Valitse omasi Asetuksista tai katso <a href=\"/#languages\">koko luettelo</a>.",
    "Yhteystiedot",
    "Kysymykset, virheilmoitukset ja palaute ovat aina tervetulleita <a href=\"/contact/\">yhteystietosivulle</a>."
   ]

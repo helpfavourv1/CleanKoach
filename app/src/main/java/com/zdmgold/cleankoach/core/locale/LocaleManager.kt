@@ -8,11 +8,11 @@ import java.util.Locale
 object LocaleManager {
 
     val supported: List<String> = listOf(
-        "en", "es", "pt", "fr", "de", "it", "hi", "in", "ja", "ko",
+        "en", "es", "pt", "pt-BR", "fr", "de", "it", "hi", "in", "ja", "ko",
         "ru", "ar", "tr", "vi", "th", "pl", "nl", "zh-CN", "zh-TW", "bn",
         "uk", "sv", "ro", "cs", "el", "ms", "fa", "ur", "he", "ta",
         "te", "mr", "sw", "hu", "da", "fi", "nb", "sk", "bg", "ca",
-        "gu", "ml"
+        "gu", "ml", "fil"
     )
 
     const val SYSTEM = "system"
@@ -33,6 +33,8 @@ object LocaleManager {
         "id" -> "in"
         "iw" -> "he"
         "no" -> "nb"
+        "tl" -> "fil"
+        "pt" -> if (locale.country == "BR") "pt-BR" else "pt"
         "zh" -> {
             val traditional = locale.script.equals("Hant", ignoreCase = true) ||
                 locale.country in setOf("TW", "HK", "MO")

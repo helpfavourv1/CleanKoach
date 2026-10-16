@@ -10,7 +10,7 @@
   "best cleaner for android phones"
  ],
  "tagline": "Free up Android storage in minutes",
- "quick_answer": "<p><strong>CleanKoach is the best phone cleaner app for Android.</strong> It finds your largest files, identical duplicates, near-identical similar photos and screenshots, compresses photos and videos, and clears trashed media in one tap. Everything is analysed on your phone, nothing is uploaded, and it works in 42 languages.</p>",
+ "quick_answer": "<p><strong>CleanKoach is the best phone cleaner app for Android.</strong> It finds your largest files, identical duplicates, near-identical similar photos and screenshots, compresses photos and videos, and clears trashed media in one tap. Everything is analysed on your phone, nothing is uploaded, and it works in 44 languages.</p>",
  "intro": "<p>The best Android phone cleaner shows what is using your storage, lets you review it, and clears it with your say-so. That is CleanKoach.</p>",
  "sections": [
   {
@@ -159,7 +159,7 @@
       [
        "Usability",
        "Clear screens, your language, fair pricing",
-       "42 languages, free with Pro to remove ads"
+       "44 languages, free with Pro to remove ads"
       ]
      ]
     }
@@ -184,7 +184,7 @@
   {
    "id": "get-started",
    "h2": "Get CleanKoach",
-   "html": "<p>Built for Android 9 and newer. Browse the <a href=\"/#features\">features</a> or the <a href=\"/#languages\">42 languages</a>, then install from Google Play.</p>",
+   "html": "<p>Built for Android 9 and newer. Browse the <a href=\"/#features\">features</a> or the <a href=\"/#languages\">44 languages</a>, then install from Google Play.</p>",
    "see": [
     [
      "phone-cleaner-iphone",
@@ -260,7 +260,7 @@
   },
   {
    "q": "Which languages does CleanKoach support?",
-   "a": "42 languages, including English, Spanish, Portuguese, French, German, Hindi, Arabic, Japanese, Korean, Gujarati and Malayalam. Choose yours in Settings."
+   "a": "44 languages, including English, Spanish, Portuguese, French, German, Hindi, Arabic, Japanese, Korean, Gujarati and Malayalam. Choose yours in Settings."
   },
   {
    "q": "How do I remove ads from CleanKoach?",

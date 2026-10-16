@@ -10,7 +10,7 @@
   "legjobb tisztító Android telefonhoz"
  ],
  "tagline": "Szabadíts fel helyet Androidon pár perc alatt",
- "quick_answer": "<p><strong>A CleanKoach a legjobb tisztító alkalmazás Android telefonokhoz.</strong> Megtalálja a legnagyobb fájlokat, az azonos duplikátumokat, a szinte egyforma hasonló fotókat és a képernyőképeket, tömöríti a fotókat és videókat, és egyetlen érintéssel kiüríti a kukát. Minden a telefonodon lesz átvizsgálva, semmi sem töltődik fel, és az alkalmazás 42 nyelven érhető el.</p>",
+ "quick_answer": "<p><strong>A CleanKoach a legjobb tisztító alkalmazás Android telefonokhoz.</strong> Megtalálja a legnagyobb fájlokat, az azonos duplikátumokat, a szinte egyforma hasonló fotókat és a képernyőképeket, tömöríti a fotókat és videókat, és egyetlen érintéssel kiüríti a kukát. Minden a telefonodon lesz átvizsgálva, semmi sem töltődik fel, és az alkalmazás 44 nyelven érhető el.</p>",
  "intro": "<p>A legjobb Android tisztító alkalmazás megmutatja, mi tölti meg a tárhelyet, hagyja, hogy ellenőrizd, és csak a beleegyezéseddel töröl. A CleanKoach pontosan ezt teszi.</p>",
  "sections": [
   {
@@ -159,7 +159,7 @@
       [
        "Használhatóság",
        "Áttekinthető képernyők, a te nyelved és tisztességes ár",
-       "42 nyelv, ingyenes, a Pro-val reklámmentes"
+       "44 nyelv, ingyenes, a Pro-val reklámmentes"
       ]
      ]
     }
@@ -184,7 +184,7 @@
   {
    "id": "get-started",
    "h2": "Szerezd meg a CleanKoach-ot",
-   "html": "<p>Android 9 és újabb verziókhoz készült. Nézd meg a <a href=\"/#features\">funkciókat</a> vagy a <a href=\"/#languages\">42 nyelvet</a>, majd telepítsd a Google Playről.</p>",
+   "html": "<p>Android 9 és újabb verziókhoz készült. Nézd meg a <a href=\"/#features\">funkciókat</a> vagy a <a href=\"/#languages\">44 nyelvet</a>, majd telepítsd a Google Playről.</p>",
    "see": [
     [
      "phone-cleaner-iphone",
@@ -260,7 +260,7 @@
   },
   {
    "q": "Mely nyelveket támogatja a CleanKoach?",
-   "a": "42 nyelvet, köztük az angolt, spanyolt, portugált, franciát, németet, hindit, arabot, japánt, koreait, gudzsarátit és malajálamot. A nyelvedet a Beállításokban választhatod ki."
+   "a": "44 nyelvet, köztük az angolt, spanyolt, portugált, franciát, németet, hindit, arabot, japánt, koreait, gudzsarátit és malajálamot. A nyelvedet a Beállításokban választhatod ki."
   },
   {
    "q": "Hogyan távolítom el a reklámokat a CleanKoach-ból?",

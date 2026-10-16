@@ -1,7 +1,7 @@
 {
  "index": {
   "title": "CleanKoach: rensa Android-telefon och lagring",
-  "desc": "Gratis rensare för Android. Hittar stora filer, dubbletter, liknande foton och skärmbilder samt komprimerar foton och videor. Allt på enheten, 42 språk.",
+  "desc": "Gratis rensare för Android. Hittar stora filer, dubbletter, liknande foton och skärmbilder samt komprimerar foton och videor. Allt på enheten, 44 språk.",
   "units": [
    "Frigör utrymme på telefonen.",
    "Hitta och ta bort foton, videor och ljud du inte längre behöver. Allt körs på din enhet.",
@@ -23,7 +23,7 @@
    "Kontrollerar din anslutning mot SSL stripping och avlyssning.",
    "Nätverkshastighet",
    "Mäter din nedladdningshastighet.",
-   "Finns på 42 språk",
+   "Finns på 44 språk",
    "Använd CleanKoach på ditt språk. Ändra när som helst i Inställningar.",
    "Guider",
    "Raka svar om hur du rensar din telefon.",
@@ -49,7 +49,7 @@
    "Hur den finansieras",
    "CleanKoach är gratis att använda. Annonser visas på startskärmen och mellan åtgärder. Pro tar bort dem.",
    "Språk",
-   "Appen finns på 42 språk. Välj ditt i Inställningar eller se den <a href=\"/#languages\">fullständiga listan</a>.",
+   "Appen finns på 44 språk. Välj ditt i Inställningar eller se den <a href=\"/#languages\">fullständiga listan</a>.",
    "Kontakt",
    "Frågor, felrapporter och feedback är alltid välkomna på <a href=\"/contact/\">kontaktsidan</a>."
   ]
