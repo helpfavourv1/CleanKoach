@@ -154,5 +154,6 @@
  "best-phone-cleaner-app-android::faq.14.q": "Quais permissões o CleanKoach pede?",
  "best-phone-cleaner-app-android::faq.14.a": "Acesso às suas fotos, vídeos e áudios para encontrar arquivos grandes e duplicados, e acesso aos dados de uso somente quando você ativa o Monitor de atividade. As notificações só são pedidas quando você ativa os lembretes.",
  "best-phone-cleaner-app-android::cite.0.note": "Passos do Google: verifique o armazenamento, mova fotos e vídeos para a lixeira e limpe o cache dos apps.",
- "best-phone-cleaner-app-android::cite.1.note": "O Google Play exige que os apps mostrem uma explicação dentro do app antes de pedir permissões em tempo de execução."
+ "best-phone-cleaner-app-android::cite.1.note": "O Google Play exige que os apps mostrem uma explicação dentro do app antes de pedir permissões em tempo de execução.",
+ "ui.coming_soon": "Em breve"
 }

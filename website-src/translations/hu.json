@@ -154,5 +154,6 @@
  "best-phone-cleaner-app-android::faq.14.a": "Hozzáférést a fotóidhoz, videóidhoz és hangfájljaidhoz a nagy fájlok és duplikátumok megtalálásához, a használati adatokhoz pedig csak akkor, ha bekapcsolod az Aktivitásfigyelőt. Az értesítéseket csak akkor kéri, ha bekapcsolod az emlékeztetőket.",
  "best-phone-cleaner-app-android::cite.0.note": "A Google lépései a tárhely ellenőrzéséhez, a fotók és videók kukába helyezéséhez és az alkalmazás-gyorsítótár kiürítéséhez.",
  "best-phone-cleaner-app-android::cite.1.note": "A Google Play megköveteli, hogy az alkalmazások az alkalmazáson belül magyarázatot jelenítsenek meg, mielőtt futásidejű engedélyeket kérnének.",
- "ui.by_author": "Szerző: Ak"
+ "ui.by_author": "Szerző: Ak",
+ "ui.coming_soon": "Hamarosan"
 }

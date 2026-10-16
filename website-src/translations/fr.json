@@ -154,5 +154,6 @@
  "best-phone-cleaner-app-android::faq.14.a": "L'accès à vos photos, vidéos et audios pour trouver les gros fichiers et les doublons, et l'Accès aux données d'utilisation uniquement si vous activez le Moniteur d'activité. Les notifications ne sont demandées que si vous activez les rappels.",
  "best-phone-cleaner-app-android::cite.0.note": "Les étapes de Google pour vérifier le stockage, déplacer photos et vidéos vers la corbeille et vider le cache des applis.",
  "best-phone-cleaner-app-android::cite.1.note": "Google Play exige que les applis affichent une explication dans l'appli avant de demander des autorisations d'exécution.",
- "ui.by_author": "Par Ak"
+ "ui.by_author": "Par Ak",
+ "ui.coming_soon": "Bientôt disponible"
 }

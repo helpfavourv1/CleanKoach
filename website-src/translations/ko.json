@@ -154,5 +154,6 @@
  "best-phone-cleaner-app-android::faq.14.a": "큰 파일과 중복을 찾기 위한 사진, 동영상, 오디오 접근 권한과, 활동 모니터를 켠 경우에만 사용 데이터 접근 권한을 요청합니다. 알림은 미리 알림을 켠 경우에만 요청합니다.",
  "best-phone-cleaner-app-android::cite.0.note": "저장공간 확인, 사진과 동영상을 휴지통으로 이동, 앱 캐시 비우기에 대한 Google의 안내 단계입니다.",
  "best-phone-cleaner-app-android::cite.1.note": "Google Play는 앱이 런타임 권한을 요청하기 전에 앱 안에서 설명을 보여 주도록 요구합니다.",
- "ui.by_author": "작성자: Ak"
+ "ui.by_author": "작성자: Ak",
+ "ui.coming_soon": "출시 예정"
 }

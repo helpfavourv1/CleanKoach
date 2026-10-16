@@ -154,5 +154,6 @@
  "best-phone-cleaner-app-android::faq.14.a": "Acceso a tus fotos, vídeos y audio para encontrar archivos grandes y duplicados, y Acceso de uso solo si activas el Monitor de actividad. Las notificaciones solo se piden si activas los recordatorios.",
  "best-phone-cleaner-app-android::cite.0.note": "Los pasos de Google para revisar el almacenamiento, mover fotos y vídeos a la papelera y borrar la caché de las apps.",
  "best-phone-cleaner-app-android::cite.1.note": "Google Play exige que las apps muestren una explicación en la app antes de pedir permisos en tiempo de ejecución.",
- "ui.by_author": "Por Ak"
+ "ui.by_author": "Por Ak",
+ "ui.coming_soon": "Próximamente"
 }

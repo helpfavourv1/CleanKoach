@@ -154,5 +154,6 @@
  "best-phone-cleaner-app-android::faq.14.q": "Anong mga pahintulot ang hinihingi ng CleanKoach?",
  "best-phone-cleaner-app-android::faq.14.a": "Access sa mga litrato, video at audio mo para makahanap ng malalaking file at duplicates, at access sa data ng paggamit lang kapag in-on mo ang Activity Monitor. Hinihingi lang ang notifications kapag in-on mo ang mga paalala.",
  "best-phone-cleaner-app-android::cite.0.note": "Mga hakbang ng Google: suriin ang storage, ilipat sa trash ang mga litrato at video, at i-clear ang app cache.",
- "best-phone-cleaner-app-android::cite.1.note": "Hinihiling ng Google Play na magpakita ang mga app ng paliwanag sa loob ng app bago humingi ng runtime permission."
+ "best-phone-cleaner-app-android::cite.1.note": "Hinihiling ng Google Play na magpakita ang mga app ng paliwanag sa loob ng app bago humingi ng runtime permission.",
+ "ui.coming_soon": "Malapit na"
 }

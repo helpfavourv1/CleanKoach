@@ -60,9 +60,11 @@ def hreflang_tags(items):
 
 # ---------- shared chrome ----------
 def store_button(ui):
-    return (f'<a class="store" href="{PLAY}" aria-label="{e(ui["get_it_on"])} {e(ui["google_play"])}">'
-            f'<img class="store-icon" src="/assets/favicon-192.png" alt="" width="40" height="40">'
-            f'<span class="store-text"><small>{e(ui["get_it_on"])}</small><b>{e(ui["google_play"])}</b></span></a>')
+    g = f'{ui["get_it_on"]} {ui["google_play"]}'
+    return (f'<div class="stores">'
+            f'<a class="store" href="{PLAY}" aria-label="{e(g)}"><img src="/assets/badge-google-play.png" alt="{e(g)}" width="180" height="61"></a>'
+            f'<span class="store store-soon" role="img" aria-label="App Store, {e(ui["coming_soon"])}"><img src="/assets/badge-app-store.png" alt="" width="180" height="61"><em>{e(ui["coming_soon"])}</em></span>'
+            f'</div>')
 
 def header(lang, ui, current=None):
     sp = sprefix(lang)
