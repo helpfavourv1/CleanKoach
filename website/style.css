@@ -407,7 +407,8 @@ figcaption { margin-top: 8px; font-size: 13px; color: var(--text-muted); }
     .site-header.open .site-nav { display: flex; }
     .site-nav a:not(.menu-cta) { padding: 14px 0; font-size: 17px; border-bottom: 1px solid var(--outline); }
     .site-nav a[aria-current="page"] { color: var(--accent); }
-    .menu-cta { display: block; margin-top: 14px; padding: 13px 16px; text-align: center; font-weight: 700; color: #fff; background: #0B0F14; border-radius: 12px; text-decoration: none; }
+    .menu-cta { display: block; margin-top: 14px; }
+    .menu-cta .stores { margin-top: 0; }
     .menu-cta:hover { text-decoration: none; opacity: 0.92; }
 }
 .lang-switch { flex-basis: 100%; margin-bottom: 8px; }
