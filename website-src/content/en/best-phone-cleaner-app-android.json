@@ -52,7 +52,7 @@
     "alt": "Illustration of the CleanKoach home screen ring showing trash size made of trashed photos, trashed videos and app cache, with a Clean Up button",
     "caption": "The home ring shows your trash size. Clean Up clears it and reports the space freed."
    },
-   "html": "<p>The ring on the home screen shows your trash size: trashed photos and videos plus app cache. Tap <strong>Clean Up</strong>, watch the full-screen progress animation, and see exactly how much space you freed.</p>"
+   "html": "<p>The ring on the home screen shows your trash size: trashed photos and videos plus CleanKoach's own cache. Tap <strong>Clean Up</strong>, watch the full-screen progress animation, and see exactly how much space you freed.</p>"
   },
   {
    "id": "how-it-works",
@@ -102,9 +102,9 @@
       "Photo and Video optimizer show space saved"
      ],
      [
-      "Clear trash and app cache",
-      "Trash and each app's cache in separate places",
-      "Clean Up clears both in one tap"
+      "Clear trash",
+      "Trash in the gallery, cache in app settings",
+      "Clean Up clears trashed photos and videos and CleanKoach's own cache in one tap"
      ]
     ]
    }
@@ -133,8 +133,8 @@
      "rows": [
       [
        "Coverage",
-       "Large files, duplicates, similar photos, screenshots, cache",
-       "All five, plus trash"
+       "Large files, duplicates, similar photos, screenshots, trash",
+       "All five"
       ],
       [
        "Visibility",
@@ -212,7 +212,7 @@
  "faqs": [
   {
    "q": "What is the best phone cleaner app for Android?",
-   "a": "CleanKoach. It covers every common storage hog: large files, duplicate files, similar photos, screenshots and app cache, and it adds photo and video compression, all analysed on your phone."
+   "a": "CleanKoach. It covers every common storage hog: large files, duplicate files, similar photos, screenshots and trash, and it adds photo and video compression, all analysed on your phone."
   },
   {
    "q": "Is CleanKoach free?",
@@ -244,7 +244,7 @@
   },
   {
    "q": "What does the Clean Up button do?",
-   "a": "It clears your trash size, which is trashed photos and videos plus app cache, and then shows how much space you freed."
+   "a": "It clears your trash size, which is trashed photos and videos plus CleanKoach's own cache, and then shows how much space you freed."
   },
   {
    "q": "What is Activity Monitor and why does it need Usage Access?",

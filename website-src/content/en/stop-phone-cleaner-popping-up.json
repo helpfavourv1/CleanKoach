@@ -1,0 +1,145 @@
+{
+ "slug": "stop-phone-cleaner-popping-up",
+ "title": "How to Stop a Phone Cleaner Popping Up",
+ "h1": "How to stop a phone cleaner popping up",
+ "meta_description": "Phone cleaner pop-ups on Android usually come from website notifications or an app. Find the source, switch it off and stop it coming back, step by step.",
+ "keywords": [
+  "stop phone cleaner popping up",
+  "phone cleaner pop up",
+  "phone cleaner notifications",
+  "remove phone cleaner pop ups"
+ ],
+ "tagline": "Find the source, then switch it off",
+ "quick_answer": "<p><strong>To stop a phone cleaner popping up, find out what is showing it, then switch that off.</strong> The cause is usually a website with notifications allowed, an app with permission to show over other apps, or a cleaner app's own alerts. Long-press the pop-up to see which app sent it, then block or uninstall it.</p>",
+ "intro": "<p>A pop-up that says your phone needs cleaning is not always from a cleaner you installed. Work through the sources below, from most to least likely.</p>",
+ "sections": [
+  {
+   "id": "causes",
+   "h2": "Where the pop-up comes from",
+   "html": "<ul><li><strong>A website:</strong> you allowed notifications from a site in your browser, and it now sends alerts.</li><li><strong>An app's notifications:</strong> an installed app sends alerts that look like system warnings.</li><li><strong>An app showing over others:</strong> an app with permission to display over other apps.</li><li><strong>A page inside your browser:</strong> a fake alert on a web page, which closes when you close the tab.</li></ul>"
+  },
+  {
+   "id": "find",
+   "h2": "Find out which app or site it is",
+   "html": "<ol><li><strong>Long-press the notification.</strong> Android shows the app or site name.</li><li><strong>Check where it appears.</strong> In the notification shade it is a notification. Over another app it is an overlay. Inside a web page it is the site.</li><li><strong>Note the name</strong>, then use the table below.</li></ol>"
+  },
+  {
+   "id": "fixes",
+   "h2": "Fixes by source",
+   "html": "<p>Menu names vary a little between phone makers.</p>",
+   "table": {
+    "caption": "Where the pop-up appears, its likely cause and the fix",
+    "headers": [
+     "Where you see it",
+     "Likely cause",
+     "Fix"
+    ],
+    "rows": [
+     [
+      "Notification shade, named after a website",
+      "Browser notifications allowed for a site",
+      "In your browser's settings, open Site settings, then Notifications, and block that site"
+     ],
+     [
+      "Notification shade, named after an app",
+      "The app's own notifications",
+      "Long-press it and turn off that app's notifications, or uninstall the app"
+     ],
+     [
+      "Over other apps",
+      "Permission to display over other apps",
+      "In Settings, Apps, Special access, Display over other apps, turn it off for that app"
+     ],
+     [
+      "Inside a web page only",
+      "A fake alert on the site",
+      "Close the tab and do not tap anything on it"
+     ],
+     [
+      "Keeps coming back after uninstalling",
+      "A second app or a site you still allow",
+      "Repeat the steps, then run a Play Protect scan"
+     ]
+    ]
+   },
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Are phone cleaner apps safe?"
+    ]
+   ]
+  },
+  {
+   "id": "browser",
+   "h2": "Block website notifications in Chrome",
+   "html": "<p>Open Chrome, then Settings, then Site settings, then Notifications. Move any site you do not trust to the blocked list, or turn notifications off entirely. Chrome can also use quieter messaging, so sites can ask without a pop-up.</p>"
+  },
+  {
+   "id": "scan",
+   "h2": "Check with Google Play Protect",
+   "html": "<p>Open the Play Store, tap your profile icon, tap Play Protect and run a scan. Make sure <strong>Scan apps with Play Protect</strong> is on. It checks apps for harmful behaviour and can warn you about or remove them.</p>"
+  },
+  {
+   "id": "cleankoach",
+   "h2": "What about CleanKoach?",
+   "html": "<p>CleanKoach does not show pop-ups over other apps and does not ask for permission to. Its only notifications are a weekly cleanup reminder and storage alerts, and both are off until you turn them on. To switch them off, open CleanKoach, then Settings, and turn off the notification options, or use Android's notification settings for the app.</p>",
+   "see": [
+    [
+     "free-phone-cleaner-android",
+     "Free phone cleaner for Android"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Why does a phone cleaner keep popping up?",
+   "a": "Usually a website you allowed notifications from, an app with permission to show over other apps, or a cleaner app sending alerts."
+  },
+  {
+   "q": "How do I find which app is showing the pop-up?",
+   "a": "Long-press the notification. Android shows the app or site that sent it."
+  },
+  {
+   "q": "How do I stop website notifications on Android?",
+   "a": "In Chrome, open Settings, Site settings, Notifications and block the site. Other browsers have a similar setting."
+  },
+  {
+   "q": "What is Display over other apps?",
+   "a": "An Android permission that lets an app draw on top of other apps. Turn it off for any app that does not need it."
+  },
+  {
+   "q": "Is a pop-up saying my phone has a virus real?",
+   "a": "Almost never when it comes from a web page or an unknown app. Close the tab and do not tap it. Run a Play Protect scan if you are unsure."
+  },
+  {
+   "q": "Does CleanKoach pop up on my screen?",
+   "a": "No. CleanKoach does not display over other apps. Its weekly reminder and storage alerts are optional and off until you turn them on."
+  },
+  {
+   "q": "How do I turn off CleanKoach reminders?",
+   "a": "Open CleanKoach, go to Settings and switch off the notification options, or use Android's notification settings for the app."
+  },
+  {
+   "q": "What if the pop-up returns after I uninstall the app?",
+   "a": "Another app or a site you still allow is sending it. Repeat the steps and run a Play Protect scan."
+  },
+  {
+   "q": "Should I install another cleaner to stop pop-ups?",
+   "a": "No. Remove the source instead. Another app adds another thing that can show alerts."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Use notifications to get alerts, Google Chrome Help",
+   "url": "https://support.google.com/chrome/answer/3220216",
+   "note": "How Chrome lets you block a site from sending notifications and use quieter messaging."
+  },
+  {
+   "title": "Use Google Play Protect to help keep your apps safe and your data private, Google Play Help",
+   "url": "https://support.google.com/googleplay/answer/2812853",
+   "note": "How Play Protect checks apps for harmful behaviour, and how to confirm that it is switched on."
+  }
+ ],
+ "related": []
+}

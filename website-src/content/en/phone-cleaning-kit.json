@@ -1,0 +1,159 @@
+{
+ "slug": "phone-cleaning-kit",
+ "title": "Phone Cleaning Kit: What to Put In It",
+ "h1": "Phone cleaning kit",
+ "meta_description": "A phone cleaning kit needs only a few items: a microfibre cloth, a soft brush and safe wipes. See what to include, what to skip and where CleanKoach fits in.",
+ "keywords": [
+  "phone cleaning kit",
+  "phone cleaning kit essentials",
+  "what is in a phone cleaning kit",
+  "phone cleaner kit"
+ ],
+ "tagline": "The few things worth having, and what to skip",
+ "quick_answer": "<p><strong>A good phone cleaning kit is small:</strong> a soft microfibre cloth, a soft dry brush, safe disinfecting wipes and a charging-port-safe way to remove lint. For the files inside the phone, add CleanKoach, a free app that clears storage.</p>",
+ "intro": "<p>Kits sold online are often padded with items you will not use. This list covers what Apple and Google actually describe, with the digital half covered by CleanKoach.</p>",
+ "sections": [
+  {
+   "id": "physical",
+   "h2": "The physical kit",
+   "html": "<ul><li><strong>Soft, lint-free cloth:</strong> Apple and Google both name it first. A microfibre cloth is the usual choice.</li><li><strong>Soft, dry brush:</strong> for dust at the edges and the speaker grille.</li><li><strong>Disinfecting wipes:</strong> 70% isopropyl alcohol wipes, which Apple and Google allow, with no bleach.</li><li><strong>A torch:</strong> to look into the charging port before cleaning it.</li></ul>"
+  },
+  {
+   "id": "digital",
+   "h2": "The digital half",
+   "html": "<p>A cloth cannot free storage. CleanKoach is the digital kit: Large files, Duplicates, Similar photos, Screenshots, the Photo and Video optimizers and one-tap Clean Up. Every feature is free.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Best phone cleaner app for Android"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Which item for which job",
+   "html": "<p>One item per job keeps the kit small.</p>",
+   "table": {
+    "caption": "Items for a phone cleaning kit and the job each does",
+    "headers": [
+     "Item",
+     "Job",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "Microfibre cloth",
+      "Screen, back and sides",
+      "Dry for dust, slightly damp for grime"
+     ],
+     [
+      "Soft dry brush",
+      "Speaker grille and edges",
+      "Use lightly"
+     ],
+     [
+      "70% isopropyl alcohol wipes",
+      "Disinfecting",
+      "No bleach"
+     ],
+     [
+      "Torch",
+      "Looking into the port",
+      "Do not push anything in"
+     ],
+     [
+      "CleanKoach",
+      "Storage, duplicates, photos and videos",
+      "Free on Android"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "skip",
+   "h2": "What to leave out",
+   "html": "<ul><li><strong>Aerosol sprays and bleach:</strong> Apple advises against them.</li><li><strong>Compressed air:</strong> Apple and Google advise against it.</li><li><strong>Metal picks:</strong> they can damage ports and speaker mesh.</li><li><strong>Anything abrasive:</strong> it can scratch the screen and wear its coating.</li></ul>",
+   "see": [
+    [
+     "phone-screen-cleaner",
+     "Phone screen cleaner"
+    ],
+    [
+     "phone-charging-port-cleaner",
+     "Phone charging port cleaner"
+    ],
+    [
+     "phone-speaker-cleaner",
+     "Phone speaker cleaner"
+    ]
+   ]
+  },
+  {
+   "id": "routine",
+   "h2": "A simple routine",
+   "html": "<ol><li><strong>Weekly:</strong> wipe the screen and back with a dry cloth.</li><li><strong>Monthly:</strong> check the charging port and speaker grille, and review Large files in CleanKoach.</li><li><strong>Now and then:</strong> disinfect with a wipe and remove the case to clean under it.</li></ol>"
+  },
+  {
+   "id": "android",
+   "h2": "On Android? Start here",
+   "html": "<p>Install CleanKoach from Google Play, allow access to photos, videos and audio and open Large files. It is built for Android 9 and newer.</p>",
+   "see": [
+    [
+     "phone-cleaner-iphone",
+     "Phone cleaner for iPhone"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What should a phone cleaning kit include?",
+   "a": "A soft lint-free cloth, a soft dry brush, 70% isopropyl alcohol wipes and a torch. Add CleanKoach for storage on Android."
+  },
+  {
+   "q": "Do I need a special phone cleaning kit?",
+   "a": "No. The core items are cheap and common. Both Apple and Google advise a soft, lint-free cloth."
+  },
+  {
+   "q": "Is isopropyl alcohol safe for phones?",
+   "a": "Apple and Google both allow 70% isopropyl alcohol wipes on the outside. Do not use bleach."
+  },
+  {
+   "q": "What should I never use?",
+   "a": "Aerosol sprays, bleach, abrasive materials, compressed air and metal tools in openings."
+  },
+  {
+   "q": "Does CleanKoach clean the hardware?",
+   "a": "No. CleanKoach clears storage. It does not clean screens, speakers or ports."
+  },
+  {
+   "q": "Can CleanKoach replace a cleaning kit?",
+   "a": "No. A kit cleans the outside. CleanKoach cleans the files inside. You need both."
+  },
+  {
+   "q": "Is CleanKoach free?",
+   "a": "Yes. Every feature is free. A one-time Pro purchase removes the ads."
+  },
+  {
+   "q": "Is there an iPhone version of CleanKoach?",
+   "a": "No. CleanKoach is for Android only."
+  },
+  {
+   "q": "How often should I clean my phone?",
+   "a": "Wipe the screen weekly, check ports and speakers monthly, and review storage monthly."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Apple's advice on wipes, soft lint-free cloths, compressed air and moisture in openings."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Google's advice on cloths, wipes, 70% isopropyl alcohol and what to avoid."
+  }
+ ],
+ "related": []
+}

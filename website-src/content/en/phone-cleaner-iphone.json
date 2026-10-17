@@ -1,0 +1,150 @@
+{
+ "slug": "phone-cleaner-iphone",
+ "title": "Phone Cleaner for iPhone: What Works",
+ "h1": "Phone cleaner for iPhone",
+ "meta_description": "There is no CleanKoach for iPhone. CleanKoach is an Android app. Here is how to free up iPhone storage with the tools built into iOS, step by step.",
+ "keywords": [
+  "phone cleaner iphone",
+  "iphone cleaner app",
+  "clean iphone storage",
+  "free up iphone storage"
+ ],
+ "tagline": "CleanKoach is Android only. Here is what iPhone offers",
+ "quick_answer": "<p><strong>CleanKoach is an Android app and there is no iPhone version today.</strong> To free up space on an iPhone, use the tools built into iOS: check Settings, General, iPhone Storage, follow its recommendations, offload apps you rarely use and turn on Optimize iPhone Storage if you use iCloud Photos.</p>",
+ "intro": "<p>If you landed here looking for a cleaner for an iPhone, it is better to know the answer straight away. CleanKoach is built natively for Android. The steps below use only what Apple provides.</p>",
+ "sections": [
+  {
+   "id": "android-only",
+   "h2": "CleanKoach is for Android",
+   "html": "<p>CleanKoach is a native Android app, built for Android 9 and newer, and it is available on Google Play. There is no version for iPhone or iPad today, so there is nothing to install on an iPhone.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Best phone cleaner app for Android"
+    ]
+   ]
+  },
+  {
+   "id": "check",
+   "h2": "Check what is using your iPhone storage",
+   "html": "<ol><li>Open <strong>Settings</strong>, then <strong>General</strong>.</li><li>Tap <strong>iPhone Storage</strong>. You see recommendations and a list of apps with the space each uses.</li><li>Tap an app's name for details.</li></ol><p>Apple notes that cached and temporary data might not count as usage in this list.</p>"
+  },
+  {
+   "id": "recommendations",
+   "h2": "Use the built-in recommendations",
+   "html": "<p>If storage is full, tap <strong>Show All</strong> in the Storage section to see recommendations. Tap <strong>Enable</strong> to turn one on, or tap it to review what you can delete. On iOS 17 and later, the Recommended for You list in Apple's photo storage steps can flag photos, large files or backups that you might not need.</p>"
+  },
+  {
+   "id": "apps",
+   "h2": "Offload or delete apps",
+   "html": "<p>Open an app's entry in iPhone Storage and choose to offload it. That frees the space the app takes up and keeps its documents and data. Deleting the app removes its related data as well.</p>"
+  },
+  {
+   "id": "photos",
+   "h2": "Manage photos and videos",
+   "html": "<p>Photos and videos are usually the biggest item. If you use iCloud Photos, turn on <strong>Optimize iPhone Storage</strong>: full-resolution originals stay in iCloud and smaller copies stay on the phone when space is needed. Apple also suggests merging duplicate photos and videos. This depends on having enough iCloud storage.</p>"
+  },
+  {
+   "id": "comparison",
+   "h2": "Android and iPhone side by side",
+   "html": "<p>The same jobs exist on both, in different places.</p>",
+   "table": {
+    "caption": "Storage jobs on Android with CleanKoach and on iPhone",
+    "headers": [
+     "Job",
+     "On Android",
+     "On iPhone"
+    ],
+    "rows": [
+     [
+      "See what uses space",
+      "Home screen storage and Android Settings",
+      "Settings, General, iPhone Storage"
+     ],
+     [
+      "Find big files",
+      "CleanKoach Large files",
+      "iPhone Storage recommendations and per-app details"
+     ],
+     [
+      "Remove duplicates",
+      "CleanKoach Duplicates",
+      "Merge duplicates in Photos"
+     ],
+     [
+      "Free space from apps",
+      "Android Settings",
+      "Offload or delete apps in iPhone Storage"
+     ],
+     [
+      "Shrink photos",
+      "CleanKoach Photo optimizer",
+      "Optimize iPhone Storage with iCloud Photos"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "care",
+   "h2": "A note on cleaner apps for iPhone",
+   "html": "<p>Apple's own storage tools cover most needs. If you try a third-party app, check what it asks for and whether it needs an account, just as you would on Android.</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Are phone cleaner apps safe?"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Is there a CleanKoach app for iPhone?",
+   "a": "No. CleanKoach is an Android app and there is no iPhone version today."
+  },
+  {
+   "q": "How do I clean up my iPhone storage?",
+   "a": "Open Settings, General, iPhone Storage, follow the recommendations, and offload or delete apps you do not use."
+  },
+  {
+   "q": "What does offloading an app do?",
+   "a": "It frees the space the app uses and keeps its documents and data. You can reinstall the app later."
+  },
+  {
+   "q": "How do I find what is using my iPhone storage?",
+   "a": "Settings, General, iPhone Storage shows a list of apps and what each uses, plus recommendations."
+  },
+  {
+   "q": "How can I save space on iPhone photos?",
+   "a": "With iCloud Photos on, turn on Optimize iPhone Storage so smaller copies stay on the phone. You can also merge duplicates in Photos."
+  },
+  {
+   "q": "Does iPhone have a duplicate finder?",
+   "a": "Apple suggests merging duplicate photos and videos in Photos to free up space."
+  },
+  {
+   "q": "Can I use CleanKoach on an iPad?",
+   "a": "No. CleanKoach is for Android phones and tablets."
+  },
+  {
+   "q": "Which Android versions does CleanKoach support?",
+   "a": "Android 9 and newer."
+  },
+  {
+   "q": "Where can I get CleanKoach?",
+   "a": "On Google Play, for Android."
+  }
+ ],
+ "citations": [
+  {
+   "title": "How to check the storage on your iPhone and iPad, Apple Support",
+   "url": "https://support.apple.com/en-us/108429",
+   "note": "Apple's steps for checking iPhone storage, using recommendations and offloading apps."
+  },
+  {
+   "title": "Manage your photo and video storage, Apple Support",
+   "url": "https://support.apple.com/en-us/105061",
+   "note": "Apple's guidance on Optimize iPhone Storage, iCloud Photos and merging duplicates."
+  }
+ ],
+ "related": []
+}

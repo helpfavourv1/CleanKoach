@@ -1,0 +1,189 @@
+{
+ "slug": "is-phone-cleaner-app-safe",
+ "title": "Are Phone Cleaner Apps Safe? What to Check",
+ "h1": "Are phone cleaner apps safe?",
+ "meta_description": "Are phone cleaner apps safe? Learn the warning signs, the permissions a cleaner really needs and how CleanKoach handles your files, ads and data on your phone.",
+ "keywords": [
+  "are phone cleaner apps safe",
+  "is phone cleaner app safe",
+  "are cleaner apps safe",
+  "phone cleaner permissions"
+ ],
+ "tagline": "Warning signs, permissions and what to verify",
+ "quick_answer": "<p><strong>Some phone cleaner apps are safe and some are not, so check before you install.</strong> A safe cleaner asks only for the permissions it needs, works without an account, analyses files on your phone and does not scare you into tapping. CleanKoach analyses files on your device, never uploads them and has no accounts.</p>",
+ "intro": "<p>Cleaner apps have a mixed reputation because a few behave badly. Here is what to look for, what CleanKoach asks for and why, and how you can check any app yourself.</p>",
+ "sections": [
+  {
+   "id": "risks",
+   "h2": "What can go wrong with a cleaner",
+   "html": "<ul><li><strong>Fake alerts:</strong> warnings that your phone is infected or overheating, used to push you to tap.</li><li><strong>Too many permissions:</strong> access to contacts, messages or location that a cleaner does not need.</li><li><strong>Files sent away:</strong> photos or scan results uploaded to a server.</li><li><strong>Hidden costs:</strong> a free scan that ends in a surprise subscription.</li><li><strong>Aggressive ads:</strong> pop-ups outside the app.</li></ul>",
+   "see": [
+    [
+     "stop-phone-cleaner-popping-up",
+     "How to stop a phone cleaner popping up"
+    ]
+   ]
+  },
+  {
+   "id": "checklist",
+   "h2": "A checklist before you install",
+   "html": "<p>Spend one minute on the store page.</p>",
+   "table": {
+    "caption": "Safe signs and warning signs for a phone cleaner",
+    "headers": [
+     "Check",
+     "Safe sign",
+     "Warning sign"
+    ],
+    "rows": [
+     [
+      "Permissions",
+      "Photos, videos and audio, plus optional extras explained",
+      "Contacts, messages, location or call logs"
+     ],
+     [
+      "Account",
+      "None needed",
+      "Forced sign-in"
+     ],
+     [
+      "Where files go",
+      "Analysed on the phone",
+      "Uploaded to servers"
+     ],
+     [
+      "Pricing",
+      "Clear and stated up front",
+      "Free scan, then a surprise charge"
+     ],
+     [
+      "Alerts",
+      "None unless you opt in",
+      "Fake virus or overheating warnings"
+     ],
+     [
+      "Privacy policy",
+      "Specific about what is and is not collected",
+      "Missing or vague"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "permissions",
+   "h2": "What CleanKoach asks for, and why",
+   "html": "<p>Each permission has one job.</p>",
+   "table": {
+    "caption": "CleanKoach permissions and what each is used for",
+    "headers": [
+     "Permission",
+     "Used for",
+     "Optional?"
+    ],
+    "rows": [
+     [
+      "Photos, videos and audio",
+      "Finding large files, duplicates, similar photos and screenshots",
+      "Needed for the cleaning tools"
+     ],
+     [
+      "Media management (Android 12 and newer)",
+      "Deleting the items you chose without a prompt each time",
+      "Yes"
+     ],
+     [
+      "Usage Access",
+      "Activity Monitor only",
+      "Yes"
+     ],
+     [
+      "Notifications",
+      "Weekly cleanup reminders and storage alerts",
+      "Yes, only if you turn them on"
+     ],
+     [
+      "Internet and network state",
+      "Loading ads, checking purchases, Wi-Fi Security and Network Speed",
+      "Used when those features run"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "never",
+   "h2": "What CleanKoach never does",
+   "html": "<ul><li>It does not upload your photos, videos or audio.</li><li>It does not upload scan results, usage statistics or Wi-Fi test results.</li><li>It has no accounts.</li><li>It does not delete anything until you choose it and confirm.</li></ul><p>The <a href=\"/privacy.html\">privacy policy</a> lists each of these in detail.</p>"
+  },
+  {
+   "id": "ads-data",
+   "h2": "Ads and your data, stated plainly",
+   "html": "<p>CleanKoach shows ads through Google AdMob. When ads are served, Google may collect your advertising ID and standard ad-interaction data under Google's own privacy policy. That is separate from your files, which stay on your phone. In the European Economic Area and the United Kingdom you are asked for consent first. If you buy Pro, the ads are removed and the app no longer collects an advertising ID.</p>",
+   "see": [
+    [
+     "free-phone-cleaner-android",
+     "Free phone cleaner for Android"
+    ]
+   ]
+  },
+  {
+   "id": "verify",
+   "h2": "How to check any app yourself",
+   "html": "<ol><li><strong>Read the permissions</strong> before installing and again in Android Settings under Apps.</li><li><strong>Read the privacy policy</strong> and look for what is collected.</li><li><strong>Keep Google Play Protect on.</strong> It checks apps for harmful behaviour.</li><li><strong>Deny what is not needed.</strong> A good cleaner still works without optional permissions.</li><li><strong>Uninstall</strong> anything that pops up outside the app or frightens you.</li></ol>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Are phone cleaner apps safe?",
+   "a": "Some are and some are not. Check the permissions, whether it needs an account, where files are analysed and how it handles alerts and ads."
+  },
+  {
+   "q": "Is CleanKoach safe?",
+   "a": "CleanKoach analyses your files on your phone, never uploads them, has no accounts and deletes nothing until you choose it and Android confirms."
+  },
+  {
+   "q": "What permissions does a cleaner really need?",
+   "a": "Access to photos, videos and audio is enough for the main tools. Anything else should be optional and explained."
+  },
+  {
+   "q": "Does CleanKoach read my messages or contacts?",
+   "a": "No. It does not ask for access to contacts, messages or location."
+  },
+  {
+   "q": "Why does CleanKoach need Usage Access?",
+   "a": "Only for Activity Monitor, which shows app usage over the last 24 hours. It is optional and the data stays on your device."
+  },
+  {
+   "q": "Does CleanKoach collect any data through ads?",
+   "a": "When ads are served, Google may collect your advertising ID and ad-interaction data as described in Google's privacy policy. Pro removes the ads and the app then no longer collects an advertising ID."
+  },
+  {
+   "q": "Can a cleaner app harm my phone?",
+   "a": "A badly made or malicious one can, by deleting files you wanted or by pushing unwanted apps. Check permissions and reviews first, and keep Play Protect on."
+  },
+  {
+   "q": "How do I check an app I already installed?",
+   "a": "Open Android Settings, then Apps, choose the app and review its permissions. Run a Play Protect scan from the Play Store."
+  },
+  {
+   "q": "Will CleanKoach show fake virus warnings?",
+   "a": "No. CleanKoach does not show fake virus alerts. Its only notifications are optional weekly cleanup reminders and storage alerts that you turn on yourself."
+  },
+  {
+   "q": "Do I need to pay for CleanKoach to be safe?",
+   "a": "No. Every feature is free. Pro only removes ads."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Use Google Play Protect to help keep your apps safe and your data private, Google Play Help",
+   "url": "https://support.google.com/googleplay/answer/2812853",
+   "note": "How Play Protect checks apps for harmful behaviour, and how to confirm that it is switched on."
+  },
+  {
+   "title": "User Data policy, Google Play Console Help",
+   "url": "https://support.google.com/googleplay/android-developer/answer/10144311",
+   "note": "Google Play requires apps to show an in-app disclosure before requesting runtime permissions."
+  }
+ ],
+ "related": []
+}

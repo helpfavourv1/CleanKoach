@@ -1,0 +1,159 @@
+{
+ "slug": "phone-storage-cleaner",
+ "title": "Phone Storage Cleaner: How It Works",
+ "h1": "How a phone storage cleaner works",
+ "meta_description": "A phone storage cleaner finds what fills your Android storage and helps you clear it safely. See how CleanKoach scans, what it removes and what it never touches.",
+ "keywords": [
+  "phone storage cleaner",
+  "android storage cleaner",
+  "how phone cleaner works",
+  "free up phone storage"
+ ],
+ "tagline": "What a storage cleaner scans, and what it leaves alone",
+ "quick_answer": "<p><strong>A phone storage cleaner lists what is filling your storage so you can remove it.</strong> CleanKoach reads your photo, video and audio library on the phone, shows your largest files, finds identical duplicates and near-identical photos, gathers screenshots and clears trash. You choose what goes, and nothing is uploaded.</p>",
+ "intro": "<p>Storage fills slowly and then all at once. A cleaner does the searching for you. This guide explains what CleanKoach looks at, how it decides, and where its limits are.</p>",
+ "sections": [
+  {
+   "id": "where-space-goes",
+   "h2": "Where your storage goes",
+   "html": "<ul><li><strong>Big files:</strong> a handful of videos can outweigh thousands of photos.</li><li><strong>Exact duplicates:</strong> the same file saved twice, often by a chat app or a backup.</li><li><strong>Near-identical photos:</strong> bursts and repeated takes.</li><li><strong>Screenshots:</strong> years of them.</li><li><strong>Trash:</strong> deleted media that has not been emptied yet.</li><li><strong>Cache:</strong> temporary files that apps keep.</li><li><strong>Apps and their data:</strong> managed in Android's own storage settings.</li></ul>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Best phone cleaner app for Android"
+    ]
+   ]
+  },
+  {
+   "id": "how-it-scans",
+   "h2": "How CleanKoach scans",
+   "html": "<ol><li><strong>It reads your media library</strong> once you allow access to photos, videos and audio. Everything happens on your phone.</li><li><strong>Large files</strong> are sorted by size, biggest first.</li><li><strong>Duplicates</strong> are found by comparing file contents with a SHA-256 fingerprint, so two files with different names but identical contents are grouped, and two with the same name but different contents are not.</li><li><strong>Similar photos</strong> are found by comparing a small fingerprint of how each picture looks. Photos that look almost the same are grouped, and the largest file in each group is suggested as the one to keep. You can pick another.</li><li><strong>Screenshots</strong> are gathered into one list.</li></ol>"
+  },
+  {
+   "id": "tools",
+   "h2": "Which tool answers which question",
+   "html": "<p>Each tool shows sizes before you act.</p>",
+   "table": {
+    "caption": "CleanKoach tools and the question each answers",
+    "headers": [
+     "Tool",
+     "Question it answers",
+     "What you see"
+    ],
+    "rows": [
+     [
+      "Large files",
+      "What is taking the most room?",
+      "Photos, videos and audio sorted by size"
+     ],
+     [
+      "Duplicates",
+      "Do I have exact copies?",
+      "Groups of identical files and the space you can reclaim"
+     ],
+     [
+      "Similar photos",
+      "Do I have repeated shots?",
+      "Groups of near-identical photos, with a suggested one to keep"
+     ],
+     [
+      "Screenshots",
+      "Can I clear old screenshots in one go?",
+      "Every screenshot in a single list"
+     ],
+     [
+      "Photo optimizer and Video optimizer",
+      "Can I keep it but smaller?",
+      "Compressed copies and the space saved"
+     ],
+     [
+      "Clean Up",
+      "What can go in one tap?",
+      "Trashed photos and videos plus the app's own cache"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "control",
+   "h2": "You stay in control",
+   "html": "<p>CleanKoach never deletes on its own. You select files, and Android asks you to confirm before media is deleted. On Android 12 and newer you can optionally allow media management, which lets CleanKoach delete the items you chose without a prompt each time. You can switch that off in Android Settings whenever you like.</p>"
+  },
+  {
+   "id": "compress",
+   "h2": "Compressing frees space only when you delete the original",
+   "html": "<p>Photo optimizer and Video optimizer save a smaller copy to a CleanKoach folder and leave the original where it is. That keeps your memory safe, but the space is only freed once you remove the original yourself. Check the smaller copy first, then delete the original.</p>"
+  },
+  {
+   "id": "limits",
+   "h2": "What a storage cleaner cannot do",
+   "html": "<ul><li>It does not remove your apps. Uninstall them in Android Settings.</li><li>Clean Up clears the trash and CleanKoach's own cache. It does not clear other apps' caches or data.</li><li>It does not make your phone faster by itself. Free space gives your phone room to work, nothing more.</li></ul><p>For apps and their data, use Android's storage settings.</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Are phone cleaner apps safe?"
+    ]
+   ]
+  },
+  {
+   "id": "routine",
+   "h2": "Keep storage free",
+   "html": "<p>Review Large files once a month, clear Screenshots after big events, and run Duplicates after a chat app backup. Weekly cleanup reminders are optional and can be switched off in Settings.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "What is a phone storage cleaner?",
+   "a": "An app that shows what is using your phone's storage and helps you remove it. CleanKoach covers large files, duplicates, similar photos, screenshots and trash."
+  },
+  {
+   "q": "How does CleanKoach find duplicates?",
+   "a": "It compares the contents of files using a SHA-256 fingerprint, so identical files are grouped even when their names differ."
+  },
+  {
+   "q": "How does it find similar photos?",
+   "a": "It compares a small fingerprint of how each photo looks. Photos that look almost the same are grouped and the largest is suggested as the one to keep."
+  },
+  {
+   "q": "Can I change which similar photo is kept?",
+   "a": "Yes. The largest file is only a suggestion. You can pick a different photo to keep in each group."
+  },
+  {
+   "q": "Does CleanKoach delete files without asking?",
+   "a": "No. You choose what to remove, and Android asks you to confirm before media is deleted, unless you allowed the optional media management permission."
+  },
+  {
+   "q": "What is media management permission?",
+   "a": "An optional Android 12 and newer permission that lets CleanKoach delete the items you chose without asking each time. You can switch it off in Android Settings."
+  },
+  {
+   "q": "Does Clean Up clear other apps' caches?",
+   "a": "No. Clean Up clears trashed photos and videos and CleanKoach's own cache."
+  },
+  {
+   "q": "Does compressing a photo free space straight away?",
+   "a": "Not by itself. The smaller copy is saved next to the original, so space is freed when you delete the original."
+  },
+  {
+   "q": "Does a storage cleaner speed up my phone?",
+   "a": "Not directly. It frees space. CleanKoach does not claim to boost speed."
+  },
+  {
+   "q": "Are my files uploaded?",
+   "a": "No. Files are analysed on your phone. Your media, usage data and scan results are never uploaded."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Free up storage on your Android device, Android Help",
+   "url": "https://support.google.com/android/answer/7431795",
+   "note": "Google's own steps for checking storage, moving photos and videos to Trash and clearing app cache."
+  },
+  {
+   "title": "User Data policy, Google Play Console Help",
+   "url": "https://support.google.com/googleplay/android-developer/answer/10144311",
+   "note": "Google Play requires apps to show an in-app disclosure before requesting runtime permissions."
+  }
+ ],
+ "related": []
+}

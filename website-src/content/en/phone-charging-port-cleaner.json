@@ -1,0 +1,115 @@
+{
+ "slug": "phone-charging-port-cleaner",
+ "title": "Phone Charging Port Cleaner: Safe Steps",
+ "h1": "Phone charging port cleaner",
+ "meta_description": "CleanKoach is a software cleaner and cannot clean a charging port. Here is how to clean one safely: power off, remove debris gently and keep liquids out.",
+ "keywords": [
+  "phone charging port cleaner",
+  "clean phone charging port",
+  "charging port cleaning",
+  "phone charger port not working"
+ ],
+ "tagline": "CleanKoach cleans storage, not ports. Here is the safe way",
+ "quick_answer": "<p><strong>An app cannot clean a charging port, and CleanKoach does not try.</strong> CleanKoach clears storage. To clean the port, turn the phone off, unplug everything, tap loose debris out with the port facing down, never push anything in and keep liquids away. If it still will not charge, ask a repair shop.</p>",
+ "intro": "<p>A phone that charges slowly or not at all is often blocked by pocket lint. That is a physical problem, so software cannot fix it. These steps are cautious by design.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "What software can and cannot do",
+   "html": "<p>CleanKoach frees storage space. It cannot touch the hardware, so it cannot clear lint from a charging port, and any app that claims to is not telling the truth. Use a cleaner app for storage and the steps below for the port.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Best phone cleaner app for Android"
+    ]
+   ]
+  },
+  {
+   "id": "signs",
+   "h2": "Signs the port needs attention",
+   "html": "<ul><li>The cable has to be held at an angle to charge.</li><li>Charging is slow or keeps stopping.</li><li>The cable feels loose in the port.</li><li>Your phone shows a liquid or debris warning.</li></ul>"
+  },
+  {
+   "id": "steps",
+   "h2": "How to clean the port",
+   "html": "<ol><li><strong>Turn the phone off</strong> and unplug the charger, cable and any headphones.</li><li><strong>Look into the port</strong> with a torch. Lint packed at the bottom is the usual cause.</li><li><strong>Tap out loose debris.</strong> Hold the port facing down and gently tap the phone against your hand.</li><li><strong>If the port is wet,</strong> leave the phone off on a flat surface to dry at room temperature.</li><li><strong>Try a different cable.</strong> A worn cable can look like a port fault.</li></ol>"
+  },
+  {
+   "id": "avoid",
+   "h2": "What to avoid",
+   "html": "<ul><li><strong>Metal tools:</strong> pins and needles can scratch the contacts or short them.</li><li><strong>Liquids:</strong> keep water, soap and cleaning products out of openings.</li><li><strong>Compressed air:</strong> both Apple and Google advise against it, so do not use it.</li><li><strong>Charging while wet:</strong> wait until the port is dry.</li></ul><p>Apple and Google both say to keep moisture out of openings.</p>"
+  },
+  {
+   "id": "help",
+   "h2": "When to get help",
+   "html": "<p>If the port looks burned, melted or corroded, the warning lasts two hours or more, or the phone is too hot to touch, stop charging and contact the maker or a repair shop. A loose or damaged port needs a repair, not more cleaning.</p>"
+  },
+  {
+   "id": "messages",
+   "h2": "If you see a liquid or debris warning",
+   "html": "<p>Some phones warn you when they detect moisture or debris in the port. On a Pixel, unplug everything, let the phone cool, dry the port and wait a few minutes for the all-clear message. Other makers have similar steps in their support pages.</p>"
+  },
+  {
+   "id": "care",
+   "h2": "Keep the port clean",
+   "html": "<p>Carry the phone in a pocket without loose fabric and cover the port with a plug if your case has one. Check the port when charging slows down, not after it stops.</p>",
+   "see": [
+    [
+     "phone-cleaning-kit",
+     "Phone cleaning kit"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Can an app clean my phone's charging port?",
+   "a": "No. A charging port is hardware. CleanKoach clears storage and cannot clean ports."
+  },
+  {
+   "q": "How do I clean a charging port safely?",
+   "a": "Turn the phone off, unplug everything, tap loose debris out with the port facing down, and keep liquids and metal tools away."
+  },
+  {
+   "q": "Can I use a toothpick or a pin?",
+   "a": "Avoid anything you push into the port, and never use metal. Google's guidance says not to insert anything into the port."
+  },
+  {
+   "q": "Is compressed air safe for a charging port?",
+   "a": "Apple says not to use it on iPhone and Google advises against it on Pixel, so do not use it."
+  },
+  {
+   "q": "What if my phone says there is liquid or debris in the port?",
+   "a": "Unplug everything, let it cool, dry the port and wait for the all-clear message. If the warning lasts two hours or more, contact the maker."
+  },
+  {
+   "q": "Why is my phone charging slowly?",
+   "a": "A blocked port, a worn cable or a weak charger. Try another cable and charger first, then check the port."
+  },
+  {
+   "q": "Should I charge a wet phone?",
+   "a": "No. Let the port dry first."
+  },
+  {
+   "q": "When should I take it to a repair shop?",
+   "a": "If the port is burned, melted, corroded, loose, or the phone gets too hot to touch."
+  },
+  {
+   "q": "Does CleanKoach affect charging?",
+   "a": "No. CleanKoach frees storage and does not change how your phone charges."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Fix Unplug charger or Liquid or debris message, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/9280079",
+   "note": "Google's steps for a wet or debris-blocked USB port, including drying and when to get help."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Google's cleaning advice, including keeping moisture out of openings and not using compressed air."
+  }
+ ],
+ "related": []
+}

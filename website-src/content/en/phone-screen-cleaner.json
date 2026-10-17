@@ -1,0 +1,151 @@
+{
+ "slug": "phone-screen-cleaner",
+ "title": "Phone Screen Cleaner: How to Clean Safely",
+ "h1": "Phone screen cleaner",
+ "meta_description": "CleanKoach cannot clean a phone screen, because it clears storage. Here is how to clean a screen safely with a soft cloth, and what to avoid so it is not scratched.",
+ "keywords": [
+  "phone screen cleaner",
+  "clean phone screen",
+  "how to clean phone screen",
+  "phone screen cleaning"
+ ],
+ "tagline": "CleanKoach cleans storage, not glass. Here is the safe way",
+ "quick_answer": "<p><strong>No app cleans a phone screen, and CleanKoach does not claim to.</strong> To clean the glass, turn the phone off, unplug it, wipe with a soft, lint-free cloth, use a slightly damp one for grime, never spray liquid directly on the phone and keep moisture out of the openings.</p>",
+ "intro": "<p>A smeared screen is the easiest phone problem to fix, and the easiest to make worse. Both Apple and Google give the same core advice.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Why an app cannot do this",
+   "html": "<p>A screen collects oil and dust on the glass. CleanKoach works on files and storage, so it has no effect on the glass. Use it for storage and a cloth for the screen.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Best phone cleaner app for Android"
+    ]
+   ]
+  },
+  {
+   "id": "basic",
+   "h2": "The basic clean",
+   "html": "<ol><li><strong>Turn the phone off</strong> and unplug all cables.</li><li><strong>Wipe with a soft, lint-free cloth.</strong> A dry microfibre cloth removes dust, smudges and streaks.</li><li><strong>For grime,</strong> use a slightly damp cloth, or a screen wipe or glasses cleaner on Pixel.</li><li><strong>Wipe gently.</strong> Avoid excessive rubbing.</li><li><strong>Let it dry</strong> before you turn it on.</li></ol>"
+  },
+  {
+   "id": "disinfect",
+   "h2": "Disinfecting the screen",
+   "html": "<p>Apple says you may use a 70% isopropyl alcohol wipe, a 75% ethyl alcohol wipe or Clorox Disinfecting Wipes on the outside of an iPhone, then wipe with a soft, slightly damp, lint-free cloth. Google says household disinfecting wipes or 70% isopropyl alcohol wipes can be used on a Pixel, including on the screen. Apple advises against bleach and hydrogen peroxide, and Google advises against bleach.</p><p>Wipes, not liquid: do not pour or spray anything onto the phone.</p>"
+  },
+  {
+   "id": "avoid",
+   "h2": "What to avoid",
+   "html": "<ul><li><strong>Aerosol sprays and bleach:</strong> Apple says not to use aerosol sprays, bleaches or abrasives.</li><li><strong>Spraying directly:</strong> do not spray cleaner onto the phone.</li><li><strong>Moisture in openings:</strong> keep it out of the ports and speakers.</li><li><strong>Abrasive materials:</strong> Apple says cleaning products and abrasives can diminish the oil-repellent coating and might scratch the screen.</li><li><strong>Soaking:</strong> do not submerge the phone in any cleaning agent.</li></ul>",
+   "see": [
+    [
+     "phone-speaker-cleaner",
+     "Phone speaker cleaner"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Marks and what removes them",
+   "html": "<p>Match the method to the mark.</p>",
+   "table": {
+    "caption": "Common screen marks and how to remove them",
+    "headers": [
+     "Mark",
+     "What removes it",
+     "Avoid"
+    ],
+    "rows": [
+     [
+      "Dust and fingerprints",
+      "Dry, soft, lint-free cloth",
+      "Rubbing hard"
+     ],
+     [
+      "Streaks",
+      "Dry cloth, then a slightly damp one",
+      "Spraying liquid on the glass"
+     ],
+     [
+      "Makeup or denim colour",
+      "Slightly damp, lint-free cloth",
+      "Abrasive pads"
+     ],
+     [
+      "Germs",
+      "70% isopropyl alcohol wipe, as Apple and Google allow",
+      "Bleach, and hydrogen peroxide on iPhone"
+     ],
+     [
+      "Pocket lint at the edges",
+      "Dry cloth, then a soft dry brush",
+      "Sharp tools"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "protector",
+   "h2": "Screen protectors and cases",
+   "html": "<p>If you use a screen protector, clean the protector the same way. Remove the case now and then and wipe the phone and case separately so grit does not scratch the back or edges.</p>",
+   "see": [
+    [
+     "phone-cleaning-kit",
+     "Phone cleaning kit"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Can an app clean my phone screen?",
+   "a": "No. A screen is glass. CleanKoach clears storage and cannot clean a screen."
+  },
+  {
+   "q": "What is the safest way to clean a phone screen?",
+   "a": "Turn the phone off, unplug it and wipe with a soft, lint-free cloth. Use a slightly damp cloth for grime."
+  },
+  {
+   "q": "Can I use isopropyl alcohol on my phone screen?",
+   "a": "Apple allows a 70% isopropyl alcohol wipe on an iPhone's outside and Google allows 70% isopropyl alcohol wipes on a Pixel, including the screen. Use a wipe, not liquid."
+  },
+  {
+   "q": "Can I use bleach or hydrogen peroxide?",
+   "a": "No. Apple advises against both on iPhone, and Google advises against bleach on Pixel."
+  },
+  {
+   "q": "Should I spray cleaner on the screen?",
+   "a": "No. Do not spray cleaner directly on the phone. Use a wipe or a damp cloth."
+  },
+  {
+   "q": "Why does my screen get greasy?",
+   "a": "Skin oil and dust collect on the glass. A dry microfibre cloth removes most of it."
+  },
+  {
+   "q": "Can cleaning damage the screen coating?",
+   "a": "Apple says cleaning products and abrasive materials can diminish the oil-repellent coating and might scratch the screen, so keep it gentle."
+  },
+  {
+   "q": "How often should I clean my phone?",
+   "a": "As often as it looks dirty. Wipe the screen when you notice smudges."
+  },
+  {
+   "q": "Does CleanKoach clean my screen?",
+   "a": "No. CleanKoach clears storage, not glass."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Apple's advice on wipes, soft lint-free cloths and what can damage the screen coating."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Google's advice on cloths, wipes, 70% isopropyl alcohol and what to avoid."
+  }
+ ],
+ "related": []
+}

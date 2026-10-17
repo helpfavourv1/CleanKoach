@@ -1,0 +1,145 @@
+{
+ "slug": "phone-speaker-cleaner",
+ "title": "Phone Speaker Cleaner: Safe Ways to Clean",
+ "h1": "Phone speaker cleaner",
+ "meta_description": "CleanKoach cannot clean a phone speaker, because it is software. Here is how to clean muffled speakers gently, and what to avoid, without damaging the phone.",
+ "keywords": [
+  "phone speaker cleaner",
+  "clean phone speaker",
+  "muffled phone speaker",
+  "phone speaker dust"
+ ],
+ "tagline": "CleanKoach cleans storage, not speakers. Here is the gentle way",
+ "quick_answer": "<p><strong>No app can clean a phone speaker, and CleanKoach does not claim to.</strong> A muffled speaker is usually blocked by dust or lint. Turn the phone off, wipe the grille with a dry soft cloth, use a soft dry brush gently, keep moisture out of the openings and avoid compressed air.</p>",
+ "intro": "<p>If calls sound faint or music is muffled, first rule out a software cause, then look at the speaker grille. Here is a cautious order of steps.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Software cannot clean a speaker",
+   "html": "<p>Sound is made by a physical part. CleanKoach frees storage space. It does not affect the speaker, and a \"speaker cleaner\" app cannot remove dust. Some apps play tones and claim to clear water, but cleaning the grille by hand is what removes dust.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Best phone cleaner app for Android"
+    ]
+   ]
+  },
+  {
+   "id": "rule-out",
+   "h2": "Rule out the easy causes first",
+   "html": "<ol><li><strong>Check volume and mode.</strong> Silent mode, a low volume slider or Do Not Disturb can look like a fault.</li><li><strong>Check Bluetooth.</strong> Audio may be going to an earbud or speaker you forgot.</li><li><strong>Remove the case.</strong> Some cases cover or partly block the speaker.</li><li><strong>Restart the phone.</strong></li></ol>"
+  },
+  {
+   "id": "clean",
+   "h2": "How to clean the grille",
+   "html": "<ol><li><strong>Turn the phone off</strong> and unplug cables.</li><li><strong>Wipe the surface</strong> with a soft, lint-free cloth. Use a dry one for dust.</li><li><strong>Brush gently.</strong> A clean, soft, dry brush, such as an unused soft toothbrush, loosens dust. Brush lightly across the grille.</li><li><strong>Turn the phone grille-side down</strong> and tap it lightly against your hand to shake out loose dust.</li><li><strong>Test the sound</strong> with a song or a call.</li></ol>"
+  },
+  {
+   "id": "avoid",
+   "h2": "What to avoid",
+   "html": "<ul><li><strong>Liquids in openings:</strong> Apple and Google both say to keep moisture and soap out of openings.</li><li><strong>Compressed air:</strong> Apple says not to use it on iPhone and Google advises against it on Pixel.</li><li><strong>Sharp tools:</strong> a pin can tear the speaker mesh.</li><li><strong>Hard pressing:</strong> the mesh is thin.</li></ul>",
+   "see": [
+    [
+     "phone-charging-port-cleaner",
+     "Phone charging port cleaner"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Symptoms and likely causes",
+   "html": "<p>Not every faint sound is dust.</p>",
+   "table": {
+    "caption": "Speaker symptoms, likely cause and first step",
+    "headers": [
+     "Symptom",
+     "Likely cause",
+     "First step"
+    ],
+    "rows": [
+     [
+      "Quiet everywhere",
+      "Volume, silent mode or a case",
+      "Check volume and remove the case"
+     ],
+     [
+      "Muffled only on calls",
+      "Dust over the earpiece grille",
+      "Dry cloth, then a soft dry brush"
+     ],
+     [
+      "Crackling at high volume",
+      "Debris or a damaged speaker",
+      "Clean gently, then test; if it continues, ask a repair shop"
+     ],
+     [
+      "No sound only in one app",
+      "App settings",
+      "Check that app's volume and restart it"
+     ],
+     [
+      "Sound after a splash",
+      "Moisture",
+      "Power off and let it dry; do not use heat"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "help",
+   "h2": "When to get help",
+   "html": "<p>If the sound is still faint or distorted after cleaning, or the phone has been in liquid, ask the maker or a repair shop. Do not open the phone yourself.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Can an app clean my phone speaker?",
+   "a": "No. A speaker is hardware. CleanKoach frees storage space and cannot clean speakers."
+  },
+  {
+   "q": "Why is my phone speaker muffled?",
+   "a": "Often dust or lint over the grille, a case that blocks it, or a volume or audio setting. Check settings and the case first."
+  },
+  {
+   "q": "How do I clean a phone speaker safely?",
+   "a": "Turn the phone off, wipe with a soft dry cloth, brush the grille gently with a soft dry brush and shake out loose dust."
+  },
+  {
+   "q": "Can I use compressed air on a speaker?",
+   "a": "Apple says not to use it on iPhone and Google advises against it on Pixel, so avoid it."
+  },
+  {
+   "q": "Can I use liquid or alcohol on the grille?",
+   "a": "Keep liquids out of openings. Apple and Google both advise keeping moisture out."
+  },
+  {
+   "q": "Do speaker cleaner apps that play sound work?",
+   "a": "They cannot remove dust. Cleaning the grille by hand is what removes it."
+  },
+  {
+   "q": "Is a toothbrush safe for the speaker?",
+   "a": "A clean, soft, dry brush used lightly is gentler than a pin. Do not press hard."
+  },
+  {
+   "q": "What if the speaker still sounds bad after cleaning?",
+   "a": "Ask the maker or a repair shop. It may be a damaged speaker."
+  },
+  {
+   "q": "Does CleanKoach affect phone sound?",
+   "a": "No. CleanKoach does not change audio settings or hardware."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Google's cleaning advice: use a soft lint-free cloth, keep moisture out of openings and avoid compressed air."
+  },
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Apple's guidance on avoiding moisture in openings and not using compressed air."
+  }
+ ],
+ "related": []
+}
