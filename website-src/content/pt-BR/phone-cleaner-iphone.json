@@ -1,0 +1,150 @@
+{
+ "slug": "phone-cleaner-iphone",
+ "title": "Limpador de celular para iPhone: o que funciona",
+ "h1": "Limpador de celular para iPhone",
+ "meta_description": "Não existe CleanKoach para iPhone. O CleanKoach é um app para Android. Veja, passo a passo, como liberar armazenamento no iPhone com as ferramentas do próprio iOS.",
+ "keywords": [
+  "limpador de celular iphone",
+  "app de limpeza para iphone",
+  "limpar o armazenamento do iphone",
+  "liberar armazenamento no iphone"
+ ],
+ "tagline": "O CleanKoach é só para Android. Veja o que o iPhone oferece",
+ "quick_answer": "<p><strong>O CleanKoach é um app para Android e hoje não existe versão para iPhone.</strong> Para liberar espaço em um iPhone, use as ferramentas do próprio iOS: confira Ajustes, Geral, Armazenamento do iPhone, siga as recomendações, descarregue os apps que você quase não usa e ative Otimizar Armazenamento do iPhone se você usa Fotos do iCloud.</p>",
+ "intro": "<p>Se você chegou aqui procurando um limpador para iPhone, é melhor saber a resposta logo. O CleanKoach foi criado nativamente para Android. Os passos abaixo usam apenas o que a Apple oferece.</p>",
+ "sections": [
+  {
+   "id": "android-only",
+   "h2": "O CleanKoach é para Android",
+   "html": "<p>O CleanKoach é um app nativo para Android, feito para Android 9 e posteriores, e está disponível no Google Play. Hoje não existe versão para iPhone nem para iPad, então não há nada para instalar em um iPhone.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Melhor app de limpeza para Android"
+    ]
+   ]
+  },
+  {
+   "id": "check",
+   "h2": "Veja o que está ocupando o armazenamento do iPhone",
+   "html": "<ol><li>Abra <strong>Ajustes</strong> e depois <strong>Geral</strong>.</li><li>Toque em <strong>Armazenamento do iPhone</strong>. Você vê recomendações e uma lista de apps com o espaço que cada um usa.</li><li>Toque no nome de um app para ver os detalhes.</li></ol><p>A Apple observa que dados em cache e temporários podem não ser contados como uso nessa lista.</p>"
+  },
+  {
+   "id": "recommendations",
+   "h2": "Use as recomendações integradas",
+   "html": "<p>Se o armazenamento estiver cheio, toque em <strong>Mostrar Tudo</strong> na seção Armazenamento para ver as recomendações. Toque em <strong>Ativar</strong> para ligar uma delas ou toque nela para revisar o que você pode apagar. No iOS 17 e posteriores, a lista Recomendado para Você nos passos da Apple sobre armazenamento de fotos pode apontar fotos, arquivos grandes ou backups de que você talvez não precise.</p>"
+  },
+  {
+   "id": "apps",
+   "h2": "Descarregue ou apague apps",
+   "html": "<p>Abra a entrada de um app em Armazenamento do iPhone e escolha descarregá-lo. Isso libera o espaço que o app ocupa e mantém os documentos e os dados dele. Apagar o app remove também os dados relacionados.</p>"
+  },
+  {
+   "id": "photos",
+   "h2": "Gerencie fotos e vídeos",
+   "html": "<p>Fotos e vídeos costumam ser o item mais pesado. Se você usa Fotos do iCloud, ative <strong>Otimizar Armazenamento do iPhone</strong>: os originais em resolução total ficam no iCloud e cópias menores ficam no celular quando é preciso espaço. A Apple também sugere mesclar fotos e vídeos duplicados. Isso depende de ter armazenamento suficiente no iCloud.</p>"
+  },
+  {
+   "id": "comparison",
+   "h2": "Android e iPhone lado a lado",
+   "html": "<p>As mesmas tarefas existem nos dois, em lugares diferentes.</p>",
+   "table": {
+    "caption": "Tarefas de armazenamento no Android com o CleanKoach e no iPhone",
+    "headers": [
+     "Tarefa",
+     "No Android",
+     "No iPhone"
+    ],
+    "rows": [
+     [
+      "Ver o que ocupa espaço",
+      "Armazenamento na tela inicial e Configurações do Android",
+      "Ajustes, Geral, Armazenamento do iPhone"
+     ],
+     [
+      "Encontrar arquivos grandes",
+      "Arquivos grandes do CleanKoach",
+      "Recomendações de Armazenamento do iPhone e detalhes por app"
+     ],
+     [
+      "Remover duplicados",
+      "Duplicados do CleanKoach",
+      "Mesclar duplicados no app Fotos"
+     ],
+     [
+      "Liberar espaço de apps",
+      "Configurações do Android",
+      "Descarregar ou apagar apps em Armazenamento do iPhone"
+     ],
+     [
+      "Reduzir fotos",
+      "Otimizador de fotos do CleanKoach",
+      "Otimizar Armazenamento do iPhone com Fotos do iCloud"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "care",
+   "h2": "Uma observação sobre apps de limpeza para iPhone",
+   "html": "<p>As ferramentas de armazenamento da própria Apple atendem à maioria das necessidades. Se você testar um app de terceiros, verifique o que ele pede e se exige uma conta, como faria no Android.</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Os apps de limpeza são seguros?"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Existe um app CleanKoach para iPhone?",
+   "a": "Não. O CleanKoach é um app para Android e hoje não existe versão para iPhone."
+  },
+  {
+   "q": "Como limpo o armazenamento do meu iPhone?",
+   "a": "Abra Ajustes, Geral, Armazenamento do iPhone, siga as recomendações e descarregue ou apague os apps que você não usa."
+  },
+  {
+   "q": "O que faz descarregar um app?",
+   "a": "Libera o espaço que o app usa e mantém os documentos e os dados dele. Você pode reinstalar o app depois."
+  },
+  {
+   "q": "Como descubro o que está ocupando o armazenamento do meu iPhone?",
+   "a": "Ajustes, Geral, Armazenamento do iPhone mostra uma lista de apps com o que cada um usa, além de recomendações."
+  },
+  {
+   "q": "Como economizar espaço com as fotos do iPhone?",
+   "a": "Com Fotos do iCloud ativado, ligue Otimizar Armazenamento do iPhone para que cópias menores fiquem no celular. Você também pode mesclar duplicados no app Fotos."
+  },
+  {
+   "q": "O iPhone tem um localizador de duplicados?",
+   "a": "A Apple sugere mesclar fotos e vídeos duplicados no app Fotos para liberar espaço."
+  },
+  {
+   "q": "Posso usar o CleanKoach em um iPad?",
+   "a": "Não. O CleanKoach é para celulares e tablets Android."
+  },
+  {
+   "q": "Quais versões do Android o CleanKoach suporta?",
+   "a": "Android 9 e posteriores."
+  },
+  {
+   "q": "Onde posso baixar o CleanKoach?",
+   "a": "No Google Play, para Android."
+  }
+ ],
+ "citations": [
+  {
+   "title": "How to check the storage on your iPhone and iPad, Apple Support",
+   "url": "https://support.apple.com/en-us/108429",
+   "note": "Passos da Apple para verificar o armazenamento do iPhone, usar as recomendações e descarregar apps."
+  },
+  {
+   "title": "Manage your photo and video storage, Apple Support",
+   "url": "https://support.apple.com/en-us/105061",
+   "note": "Orientações da Apple sobre Otimizar Armazenamento do iPhone, Fotos do iCloud e mesclagem de duplicados."
+  }
+ ],
+ "related": []
+}

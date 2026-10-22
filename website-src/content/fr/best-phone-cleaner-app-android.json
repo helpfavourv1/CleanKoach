@@ -52,7 +52,7 @@
     "alt": "Illustration de l'anneau de l'écran d'accueil de CleanKoach avec la taille de la corbeille composée de photos supprimées, de vidéos supprimées et du cache des applis, et un bouton Nettoyer",
     "caption": "L'anneau indique la taille de votre corbeille. Nettoyer la vide et affiche l'espace libéré."
    },
-   "html": "<p>L'anneau de l'écran d'accueil indique la taille de votre corbeille : photos et vidéos supprimées plus cache des applis. Touchez <strong>Nettoyer</strong>, regardez l'animation de progression en plein écran et voyez exactement combien d'espace vous avez libéré.</p>"
+   "html": "<p>L'anneau de l'écran d'accueil indique la taille de votre corbeille : photos et vidéos supprimées, plus le cache propre à CleanKoach. Touchez <strong>Nettoyer</strong>, regardez l'animation de progression en plein écran et voyez exactement combien d'espace vous avez libéré.</p>"
   },
   {
    "id": "how-it-works",
@@ -102,9 +102,9 @@
       "L'Optimiseur de photos et de vidéos affichent l'espace gagné"
      ],
      [
-      "Vider la corbeille et le cache des applis",
-      "La corbeille et le cache de chaque appli sont à des endroits différents",
-      "Nettoyer vide les deux en un geste"
+      "Vider la corbeille",
+      "Corbeille dans la galerie, cache dans les paramètres des applis",
+      "Nettoyer vide les photos et vidéos supprimées et le cache propre à CleanKoach en un geste"
      ]
     ]
    }
@@ -133,8 +133,8 @@
      "rows": [
       [
        "Couverture",
-       "Gros fichiers, doublons, photos similaires, captures d'écran, cache",
-       "Les cinq, plus la corbeille"
+       "Gros fichiers, doublons, photos similaires, captures d'écran, corbeille",
+       "Les cinq"
       ],
       [
        "Visibilité",
@@ -212,7 +212,7 @@
  "faqs": [
   {
    "q": "Quelle est la meilleure appli de nettoyage pour Android ?",
-   "a": "CleanKoach. Elle couvre tout ce qui remplit d'habitude le stockage : gros fichiers, doublons, photos similaires, captures d'écran et cache des applis, et ajoute la compression des photos et vidéos, le tout analysé sur votre téléphone."
+   "a": "CleanKoach. Elle couvre tout ce qui remplit d'ordinaire le stockage : gros fichiers, doublons, photos similaires, captures d'écran et corbeille, et elle ajoute la compression des photos et des vidéos, le tout analysé sur votre téléphone."
   },
   {
    "q": "CleanKoach est-elle gratuite ?",
@@ -244,7 +244,7 @@
   },
   {
    "q": "Que fait le bouton Nettoyer ?",
-   "a": "Il vide la taille de votre corbeille, c'est-à-dire les photos et vidéos supprimées plus le cache des applis, puis indique l'espace libéré."
+   "a": "Elle vide la taille de votre corbeille, c'est-à-dire les photos et vidéos supprimées plus le cache propre à CleanKoach, puis affiche l'espace libéré."
   },
   {
    "q": "Qu'est-ce que le Moniteur d'activité et pourquoi demande-t-il l'Accès aux données d'utilisation ?",

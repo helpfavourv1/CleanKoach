@@ -1,0 +1,159 @@
+{
+ "slug": "phone-cleaning-kit",
+ "title": "Kit di pulizia per telefono: cosa metterci",
+ "h1": "Kit di pulizia per telefono",
+ "meta_description": "Un kit per pulire il telefono richiede pochi elementi: un panno morbido, una spazzola e salviette sicure. Cosa includere, cosa evitare e il ruolo di CleanKoach.",
+ "keywords": [
+  "kit di pulizia per telefono",
+  "elementi essenziali kit pulizia telefono",
+  "cosa c'è in un kit di pulizia per telefono",
+  "kit per pulire il telefono"
+ ],
+ "tagline": "Le poche cose che valgono la pena e cosa evitare",
+ "quick_answer": "<p><strong>Un buon kit di pulizia per telefono è piccolo:</strong> un panno morbido in microfibra, una spazzola morbida asciutta, salviette disinfettanti sicure e un modo per rimuovere la lanugine senza danneggiare la porta di ricarica. Per i file dentro il telefono, aggiungi CleanKoach, un'app gratuita che libera la memoria.</p>",
+ "intro": "<p>I kit venduti online sono spesso gonfiati con elementi che non userai. Questo elenco comprende ciò che Apple e Google descrivono davvero, con la parte digitale affidata a CleanKoach.</p>",
+ "sections": [
+  {
+   "id": "physical",
+   "h2": "Il kit fisico",
+   "html": "<ul><li><strong>Panno morbido che non lascia pelucchi:</strong> Apple e Google lo indicano entrambe per primo. Di solito si sceglie un panno in microfibra.</li><li><strong>Spazzola morbida asciutta:</strong> per la polvere sui bordi e sulla griglia dell'altoparlante.</li><li><strong>Salviette disinfettanti:</strong> salviette con alcol isopropilico al 70%, che Apple e Google consentono, senza candeggina.</li><li><strong>Una torcia:</strong> per guardare dentro la porta di ricarica prima di pulirla.</li></ul>"
+  },
+  {
+   "id": "digital",
+   "h2": "La parte digitale",
+   "html": "<p>Un panno non può liberare memoria. CleanKoach è il kit digitale: File grandi, Duplicati, Foto simili, Screenshot, Ottimizzatore foto e Ottimizzatore video e Pulisci con un tocco. Ogni funzione è gratuita.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La migliore app di pulizia per telefono Android"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Quale elemento per quale compito",
+   "html": "<p>Un elemento per ogni compito mantiene il kit piccolo.</p>",
+   "table": {
+    "caption": "Elementi di un kit di pulizia per telefono e compito di ciascuno",
+    "headers": [
+     "Elemento",
+     "Compito",
+     "Note"
+    ],
+    "rows": [
+     [
+      "Panno in microfibra",
+      "Schermo, retro e lati",
+      "Asciutto per la polvere, leggermente umido per lo sporco"
+     ],
+     [
+      "Spazzola morbida asciutta",
+      "Griglia dell'altoparlante e bordi",
+      "Usala con leggerezza"
+     ],
+     [
+      "Salviette con alcol isopropilico al 70%",
+      "Disinfezione",
+      "Niente candeggina"
+     ],
+     [
+      "Torcia",
+      "Guardare dentro la porta",
+      "Non infilare nulla all'interno"
+     ],
+     [
+      "CleanKoach",
+      "Memoria, duplicati, foto e video",
+      "Gratis su Android"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "skip",
+   "h2": "Cosa lasciare fuori",
+   "html": "<ul><li><strong>Spray aerosol e candeggina:</strong> Apple li sconsiglia.</li><li><strong>Aria compressa:</strong> Apple e Google la sconsigliano.</li><li><strong>Punte metalliche:</strong> possono danneggiare le porte e la rete dell'altoparlante.</li><li><strong>Qualsiasi cosa abrasiva:</strong> può graffiare lo schermo e consumarne il rivestimento.</li></ul>",
+   "see": [
+    [
+     "phone-screen-cleaner",
+     "Detergente per schermo del telefono"
+    ],
+    [
+     "phone-charging-port-cleaner",
+     "Pulizia della porta di ricarica del telefono"
+    ],
+    [
+     "phone-speaker-cleaner",
+     "Pulizia dell'altoparlante del telefono"
+    ]
+   ]
+  },
+  {
+   "id": "routine",
+   "h2": "Una routine semplice",
+   "html": "<ol><li><strong>Ogni settimana:</strong> pulisci schermo e retro con un panno asciutto.</li><li><strong>Ogni mese:</strong> controlla la porta di ricarica e la griglia dell'altoparlante e rivedi File grandi in CleanKoach.</li><li><strong>Ogni tanto:</strong> disinfetta con una salvietta e togli la custodia per pulire sotto.</li></ol>"
+  },
+  {
+   "id": "android",
+   "h2": "Hai Android? Parti da qui",
+   "html": "<p>Installa CleanKoach da Google Play, consenti l'accesso a foto, video e audio e apri File grandi. È progettata per Android 9 e versioni successive.</p>",
+   "see": [
+    [
+     "phone-cleaner-iphone",
+     "Cleaner per telefono iPhone"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Cosa dovrebbe includere un kit di pulizia per telefono?",
+   "a": "Un panno morbido che non lascia pelucchi, una spazzola morbida asciutta, salviette con alcol isopropilico al 70% e una torcia. Aggiungi CleanKoach per la memoria su Android."
+  },
+  {
+   "q": "Mi serve un kit di pulizia speciale per il telefono?",
+   "a": "No. Gli elementi di base sono economici e comuni. Sia Apple sia Google consigliano un panno morbido che non lascia pelucchi."
+  },
+  {
+   "q": "L'alcol isopropilico è sicuro per i telefoni?",
+   "a": "Apple e Google consentono entrambe le salviette con alcol isopropilico al 70% sull'esterno. Non usare la candeggina."
+  },
+  {
+   "q": "Cosa non devo usare mai?",
+   "a": "Spray aerosol, candeggina, materiali abrasivi, aria compressa e utensili metallici nelle aperture."
+  },
+  {
+   "q": "CleanKoach pulisce l'hardware?",
+   "a": "No. CleanKoach libera la memoria. Non pulisce schermi, altoparlanti o porte."
+  },
+  {
+   "q": "CleanKoach può sostituire un kit di pulizia?",
+   "a": "No. Un kit pulisce l'esterno. CleanKoach pulisce i file all'interno. Servono entrambi."
+  },
+  {
+   "q": "CleanKoach è gratuita?",
+   "a": "Sì. Ogni funzione è gratuita. Un acquisto Pro una tantum rimuove la pubblicità."
+  },
+  {
+   "q": "Esiste una versione di CleanKoach per iPhone?",
+   "a": "No. CleanKoach è solo per Android."
+  },
+  {
+   "q": "Ogni quanto devo pulire il telefono?",
+   "a": "Pulisci lo schermo ogni settimana, controlla porte e altoparlanti ogni mese e rivedi la memoria ogni mese."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "I consigli di Apple su salviette, panni morbidi che non lasciano pelucchi, aria compressa e umidità nelle aperture."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "I consigli di Google su panni, salviette, alcol isopropilico al 70% e cosa evitare."
+  }
+ ],
+ "related": []
+}

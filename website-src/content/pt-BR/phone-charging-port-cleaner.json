@@ -1,0 +1,115 @@
+{
+ "slug": "phone-charging-port-cleaner",
+ "title": "Limpeza da porta de carregamento do celular",
+ "h1": "Limpeza da porta de carregamento do celular",
+ "meta_description": "O CleanKoach é um limpador de software e não limpa porta de carregamento. Veja como limpar uma com segurança: desligue, remova a sujeira com cuidado, evite líquidos.",
+ "keywords": [
+  "limpeza da porta de carregamento do celular",
+  "limpar a porta de carregamento do celular",
+  "limpeza de porta de carregamento",
+  "porta do carregador do celular não funciona"
+ ],
+ "tagline": "O CleanKoach limpa armazenamento, não portas. Veja o jeito seguro",
+ "quick_answer": "<p><strong>Um app não limpa uma porta de carregamento, e o CleanKoach nem tenta.</strong> O CleanKoach libera armazenamento. Para limpar a porta, desligue o celular, desconecte tudo, bata de leve para soltar a sujeira com a porta virada para baixo, nunca enfie nada nela e mantenha líquidos longe. Se mesmo assim não carregar, procure uma assistência técnica.</p>",
+ "intro": "<p>Um celular que carrega devagar ou não carrega costuma estar com a porta entupida de fiapos do bolso. É um problema físico, então nenhum software resolve. Estes passos são cautelosos de propósito.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "O que um software pode e não pode fazer",
+   "html": "<p>O CleanKoach libera espaço de armazenamento. Ele não mexe no hardware, então não tira fiapos de uma porta de carregamento, e qualquer app que diga o contrário não está falando a verdade. Use um app de limpeza para o armazenamento e os passos abaixo para a porta.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Melhor app de limpeza para Android"
+    ]
+   ]
+  },
+  {
+   "id": "signs",
+   "h2": "Sinais de que a porta precisa de atenção",
+   "html": "<ul><li>É preciso segurar o cabo inclinado para carregar.</li><li>O carregamento é lento ou para toda hora.</li><li>O cabo fica folgado na porta.</li><li>O celular mostra um aviso de líquido ou sujeira.</li></ul>"
+  },
+  {
+   "id": "steps",
+   "h2": "Como limpar a porta",
+   "html": "<ol><li><strong>Desligue o celular</strong> e desconecte o carregador, o cabo e qualquer fone de ouvido.</li><li><strong>Olhe dentro da porta</strong> com uma lanterna. Fiapos acumulados no fundo são a causa mais comum.</li><li><strong>Bata de leve para soltar a sujeira.</strong> Segure o celular com a porta virada para baixo e bata de leve contra a palma da mão.</li><li><strong>Se a porta estiver molhada,</strong> deixe o celular desligado sobre uma superfície plana para secar em temperatura ambiente.</li><li><strong>Teste outro cabo.</strong> Um cabo gasto pode parecer defeito na porta.</li></ol>"
+  },
+  {
+   "id": "avoid",
+   "h2": "O que evitar",
+   "html": "<ul><li><strong>Ferramentas de metal:</strong> alfinetes e agulhas podem arranhar os contatos ou causar curto-circuito.</li><li><strong>Líquidos:</strong> mantenha água, sabão e produtos de limpeza longe das aberturas.</li><li><strong>Ar comprimido:</strong> a Apple e o Google desaconselham, então não use.</li><li><strong>Carregar o celular molhado:</strong> espere a porta secar.</li></ul><p>A Apple e o Google dizem para manter a umidade longe das aberturas.</p>"
+  },
+  {
+   "id": "help",
+   "h2": "Quando procurar ajuda",
+   "html": "<p>Se a porta parecer queimada, derretida ou corroída, se o aviso durar duas horas ou mais, ou se o celular estiver quente demais para segurar, pare de carregar e entre em contato com o fabricante ou com uma assistência técnica. Uma porta folgada ou danificada precisa de reparo, não de mais limpeza.</p>"
+  },
+  {
+   "id": "messages",
+   "h2": "Se aparecer um aviso de líquido ou sujeira",
+   "html": "<p>Alguns celulares avisam quando detectam umidade ou sujeira na porta. Em um Pixel, desconecte tudo, deixe o celular esfriar, seque a porta e espere alguns minutos pela mensagem de liberação. Outros fabricantes têm passos parecidos nas páginas de suporte.</p>"
+  },
+  {
+   "id": "care",
+   "h2": "Mantenha a porta limpa",
+   "html": "<p>Leve o celular em um bolso sem tecido solto e tampe a porta com um protetor, se a sua capa tiver um. Confira a porta quando o carregamento começar a ficar lento, não depois que parar.</p>",
+   "see": [
+    [
+     "phone-cleaning-kit",
+     "Kit de limpeza para celular"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Um app consegue limpar a porta de carregamento do meu celular?",
+   "a": "Não. Uma porta de carregamento é hardware. O CleanKoach libera armazenamento e não limpa portas."
+  },
+  {
+   "q": "Como limpo uma porta de carregamento com segurança?",
+   "a": "Desligue o celular, desconecte tudo, bata de leve para soltar a sujeira com a porta virada para baixo e mantenha líquidos e ferramentas de metal longe."
+  },
+  {
+   "q": "Posso usar um palito de dente ou um alfinete?",
+   "a": "Evite qualquer coisa que precise ser enfiada na porta e nunca use metal. A orientação do Google é não inserir nada na porta."
+  },
+  {
+   "q": "O ar comprimido é seguro para uma porta de carregamento?",
+   "a": "A Apple diz para não usar no iPhone e o Google desaconselha no Pixel, então não use."
+  },
+  {
+   "q": "E se o meu celular avisar que há líquido ou sujeira na porta?",
+   "a": "Desconecte tudo, deixe esfriar, seque a porta e espere a mensagem de liberação. Se o aviso durar duas horas ou mais, entre em contato com o fabricante."
+  },
+  {
+   "q": "Por que o meu celular está carregando devagar?",
+   "a": "Pode ser uma porta entupida, um cabo gasto ou um carregador fraco. Teste primeiro outro cabo e outro carregador e depois confira a porta."
+  },
+  {
+   "q": "Devo carregar um celular molhado?",
+   "a": "Não. Deixe a porta secar primeiro."
+  },
+  {
+   "q": "Quando devo levar a uma assistência técnica?",
+   "a": "Se a porta estiver queimada, derretida, corroída ou folgada, ou se o celular ficar quente demais para segurar."
+  },
+  {
+   "q": "O CleanKoach afeta o carregamento?",
+   "a": "Não. O CleanKoach libera armazenamento e não muda a forma como o celular carrega."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Fix Unplug charger or Liquid or debris message, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/9280079",
+   "note": "Passos do Google para uma porta USB molhada ou bloqueada por sujeira, incluindo a secagem e quando procurar ajuda."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Orientações de limpeza do Google, incluindo manter a umidade longe das aberturas e não usar ar comprimido."
+  }
+ ],
+ "related": []
+}

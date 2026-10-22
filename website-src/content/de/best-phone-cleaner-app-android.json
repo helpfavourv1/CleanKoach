@@ -52,7 +52,7 @@
     "alt": "Illustration des CleanKoach-Rings auf dem Startbildschirm mit der Papierkorbgröße aus gelöschten Fotos, gelöschten Videos und App-Cache sowie einer Schaltfläche Bereinigen",
     "caption": "Der Ring zeigt die Größe Ihres Papierkorbs. Bereinigen leert ihn und zeigt den freigegebenen Platz."
    },
-   "html": "<p>Der Ring auf dem Startbildschirm zeigt die Größe Ihres Papierkorbs: gelöschte Fotos und Videos plus App-Cache. Tippen Sie auf <strong>Bereinigen</strong>, sehen Sie die Fortschrittsanimation im Vollbild und erfahren Sie genau, wie viel Platz Sie freigegeben haben.</p>"
+   "html": "<p>Der Ring auf dem Startbildschirm zeigt die Größe Ihres Papierkorbs: gelöschte Fotos und Videos plus der eigene Cache von CleanKoach. Tippen Sie auf <strong>Bereinigen</strong>, sehen Sie die Fortschrittsanimation im Vollbild und erfahren Sie genau, wie viel Platz Sie freigegeben haben.</p>"
   },
   {
    "id": "how-it-works",
@@ -102,9 +102,9 @@
       "Foto-Optimierer und Video-Optimierer zeigen den gesparten Platz"
      ],
      [
-      "Papierkorb und App-Cache leeren",
-      "Papierkorb und Cache jeder App liegen an verschiedenen Orten",
-      "Bereinigen leert beides mit einem Fingertipp"
+      "Papierkorb leeren",
+      "Papierkorb in der Galerie, Cache in den App-Einstellungen",
+      "Bereinigen leert gelöschte Fotos und Videos sowie den eigenen Cache von CleanKoach mit einem Fingertipp"
      ]
     ]
    }
@@ -133,8 +133,8 @@
      "rows": [
       [
        "Abdeckung",
-       "Große Dateien, Duplikate, Ähnliche Fotos, Screenshots, Cache",
-       "Alle fünf, dazu der Papierkorb"
+       "Große Dateien, Duplikate, Ähnliche Fotos, Screenshots, Papierkorb",
+       "Alle fünf"
       ],
       [
        "Transparenz",
@@ -212,7 +212,7 @@
  "faqs": [
   {
    "q": "Was ist die beste Cleaner-App für Android?",
-   "a": "CleanKoach. Sie deckt alles ab, was den Speicher üblicherweise füllt: Große Dateien, Duplikate, Ähnliche Fotos, Screenshots und App-Cache, und komprimiert zusätzlich Fotos und Videos, alles auf Ihrem Handy geprüft."
+   "a": "CleanKoach. Die App deckt alles ab, was den Speicher üblicherweise füllt: Große Dateien, doppelte Dateien, Ähnliche Fotos, Screenshots und Papierkorb, und komprimiert zusätzlich Fotos und Videos, alles auf Ihrem Handy geprüft."
   },
   {
    "q": "Ist CleanKoach kostenlos?",
@@ -244,7 +244,7 @@
   },
   {
    "q": "Was macht die Schaltfläche Bereinigen?",
-   "a": "Sie leert Ihren Papierkorb, also gelöschte Fotos und Videos plus App-Cache, und zeigt dann den freigegebenen Platz."
+   "a": "Sie leert Ihren Papierkorb, also gelöschte Fotos und Videos plus der eigene Cache von CleanKoach, und zeigt dann den freigegebenen Platz."
   },
   {
    "q": "Was ist der Aktivitätsmonitor und warum braucht er den Zugriff auf Nutzungsdaten?",

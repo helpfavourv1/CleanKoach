@@ -1,0 +1,115 @@
+{
+ "slug": "phone-charging-port-cleaner",
+ "title": "Nettoyer le port de charge d'un téléphone",
+ "h1": "Nettoyer le port de charge d'un téléphone",
+ "meta_description": "CleanKoach ne peut pas nettoyer un port de charge. Voici comment le faire sans risque : éteignez, retirez doucement les débris, évitez les liquides.",
+ "keywords": [
+  "nettoyer port de charge téléphone",
+  "nettoyer le port de charge d'un téléphone",
+  "nettoyage du port de charge",
+  "port de charge du téléphone ne fonctionne pas"
+ ],
+ "tagline": "CleanKoach nettoie le stockage, pas les ports. Voici la méthode sûre",
+ "quick_answer": "<p><strong>Une appli ne peut pas nettoyer un port de charge, et CleanKoach n'essaie pas.</strong> CleanKoach libère du stockage. Pour nettoyer le port, éteignez le téléphone, débranchez tout, faites tomber les débris en tapotant, port vers le bas, n'enfoncez jamais rien dedans et tenez les liquides à l'écart. Si le téléphone ne charge toujours pas, adressez-vous à un réparateur.</p>",
+ "intro": "<p>Un téléphone qui charge lentement ou pas du tout est souvent bloqué par des peluches de poche. C'est un problème physique, qu'un logiciel ne peut pas résoudre. Ces étapes sont prudentes par conception.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Ce que le logiciel peut et ne peut pas faire",
+   "html": "<p>CleanKoach libère de l'espace de stockage. Elle ne peut pas agir sur le matériel, donc elle ne peut pas retirer les peluches d'un port de charge, et toute appli qui prétend le faire ne dit pas la vérité. Utilisez une appli de nettoyage pour le stockage et les étapes ci-dessous pour le port.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La meilleure appli de nettoyage pour Android"
+    ]
+   ]
+  },
+  {
+   "id": "signs",
+   "h2": "Signes que le port demande de l'attention",
+   "html": "<ul><li>Il faut tenir le câble en biais pour que ça charge.</li><li>La charge est lente ou s'interrompt sans cesse.</li><li>Le câble bouge dans le port.</li><li>Votre téléphone affiche un avertissement de liquide ou de débris.</li></ul>"
+  },
+  {
+   "id": "steps",
+   "h2": "Comment nettoyer le port",
+   "html": "<ol><li><strong>Éteignez le téléphone</strong> et débranchez le chargeur, le câble et les éventuels écouteurs.</li><li><strong>Regardez dans le port</strong> avec une lampe torche. Des peluches tassées au fond en sont la cause habituelle.</li><li><strong>Faites tomber les débris.</strong> Tenez le port vers le bas et tapotez doucement le téléphone contre votre main.</li><li><strong>Si le port est mouillé,</strong> laissez le téléphone éteint sur une surface plane, à température ambiante, le temps qu'il sèche.</li><li><strong>Essayez un autre câble.</strong> Un câble usé peut ressembler à une panne du port.</li></ol>"
+  },
+  {
+   "id": "avoid",
+   "h2": "Ce qu'il faut éviter",
+   "html": "<ul><li><strong>Outils en métal :</strong> les épingles et les aiguilles peuvent rayer les contacts ou provoquer un court-circuit.</li><li><strong>Liquides :</strong> gardez l'eau, le savon et les produits d'entretien hors des ouvertures.</li><li><strong>Air comprimé :</strong> Apple et Google le déconseillent tous deux, ne l'utilisez donc pas.</li><li><strong>Charger un port mouillé :</strong> attendez qu'il soit sec.</li></ul><p>Apple et Google indiquent tous deux de tenir l'humidité hors des ouvertures.</p>"
+  },
+  {
+   "id": "help",
+   "h2": "Quand demander de l'aide",
+   "html": "<p>Si le port paraît brûlé, fondu ou corrodé, si l'avertissement dure deux heures ou plus, ou si le téléphone est trop chaud pour être touché, arrêtez la charge et contactez le fabricant ou un réparateur. Un port lâche ou endommagé nécessite une réparation, pas un nettoyage de plus.</p>"
+  },
+  {
+   "id": "messages",
+   "h2": "Si vous voyez un avertissement de liquide ou de débris",
+   "html": "<p>Certains téléphones vous avertissent lorsqu'ils détectent de l'humidité ou des débris dans le port. Sur un Pixel, débranchez tout, laissez le téléphone refroidir, séchez le port et attendez quelques minutes le message de fin d'alerte. Les autres fabricants proposent des étapes similaires sur leurs pages d'assistance.</p>"
+  },
+  {
+   "id": "care",
+   "h2": "Garder le port propre",
+   "html": "<p>Transportez le téléphone dans une poche sans tissu qui s'effiloche et protégez le port avec un bouchon si votre coque en a un. Vérifiez le port quand la charge ralentit, pas après qu'elle s'est arrêtée.</p>",
+   "see": [
+    [
+     "phone-cleaning-kit",
+     "Kit de nettoyage pour téléphone"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Une appli peut-elle nettoyer le port de charge de mon téléphone ?",
+   "a": "Non. Un port de charge est du matériel. CleanKoach libère du stockage et ne peut pas nettoyer les ports."
+  },
+  {
+   "q": "Comment nettoyer un port de charge sans risque ?",
+   "a": "Éteignez le téléphone, débranchez tout, faites tomber les débris en tapotant, port vers le bas, et tenez les liquides et les outils en métal à l'écart."
+  },
+  {
+   "q": "Puis-je utiliser un cure-dent ou une épingle ?",
+   "a": "Évitez tout ce que vous enfonceriez dans le port, et n'utilisez jamais de métal. Les consignes de Google disent de ne rien insérer dans le port."
+  },
+  {
+   "q": "L'air comprimé est-il sans danger pour un port de charge ?",
+   "a": "Apple déconseille de l'utiliser sur iPhone et Google le déconseille sur Pixel, ne l'utilisez donc pas."
+  },
+  {
+   "q": "Que faire si mon téléphone indique du liquide ou des débris dans le port ?",
+   "a": "Débranchez tout, laissez refroidir, séchez le port et attendez le message de fin d'alerte. Si l'avertissement dure deux heures ou plus, contactez le fabricant."
+  },
+  {
+   "q": "Pourquoi mon téléphone charge-t-il lentement ?",
+   "a": "Un port bouché, un câble usé ou un chargeur faible. Essayez d'abord un autre câble et un autre chargeur, puis vérifiez le port."
+  },
+  {
+   "q": "Dois-je charger un téléphone mouillé ?",
+   "a": "Non. Laissez d'abord le port sécher."
+  },
+  {
+   "q": "Quand l'apporter chez un réparateur ?",
+   "a": "Si le port est brûlé, fondu, corrodé ou lâche, ou si le téléphone devient trop chaud pour être touché."
+  },
+  {
+   "q": "CleanKoach a-t-elle un effet sur la charge ?",
+   "a": "Non. CleanKoach libère du stockage et ne change pas la façon dont votre téléphone charge."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Fix Unplug charger or Liquid or debris message, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/9280079",
+   "note": "Les étapes de Google pour un port USB mouillé ou bouché par des débris, y compris le séchage et le moment de demander de l'aide."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Les conseils de nettoyage de Google, notamment tenir l'humidité hors des ouvertures et ne pas utiliser d'air comprimé."
+  }
+ ],
+ "related": []
+}

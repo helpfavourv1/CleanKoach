@@ -1,0 +1,159 @@
+{
+ "slug": "phone-cleaning-kit",
+ "title": "Kit de limpieza para el móvil: qué incluir",
+ "h1": "Kit de limpieza para el móvil",
+ "meta_description": "Un kit de limpieza para el móvil necesita pocas cosas: un paño de microfibra, un cepillo suave y toallitas seguras. Qué incluir, qué evitar y dónde entra CleanKoach.",
+ "keywords": [
+  "kit de limpieza para el móvil",
+  "imprescindibles del kit de limpieza para el móvil",
+  "qué lleva un kit de limpieza para el móvil",
+  "kit limpiador de móvil"
+ ],
+ "tagline": "Las pocas cosas que valen la pena y lo que conviene evitar",
+ "quick_answer": "<p><strong>Un buen kit de limpieza para el móvil es pequeño:</strong> un paño suave de microfibra, un cepillo suave y seco, toallitas desinfectantes seguras y una forma segura para el puerto de carga de quitar la pelusa. Para los archivos del interior del teléfono, añade CleanKoach, una app gratuita que libera almacenamiento.</p>",
+ "intro": "<p>Los kits que se venden por internet suelen venir rellenos de cosas que no vas a usar. Esta lista recoge lo que Apple y Google describen realmente, y la parte digital la cubre CleanKoach.</p>",
+ "sections": [
+  {
+   "id": "physical",
+   "h2": "El kit físico",
+   "html": "<ul><li><strong>Paño suave que no suelte pelusa:</strong> Apple y Google lo nombran en primer lugar. Un paño de microfibra es la opción habitual.</li><li><strong>Cepillo suave y seco:</strong> para el polvo de los bordes y de la rejilla del altavoz.</li><li><strong>Toallitas desinfectantes:</strong> toallitas con alcohol isopropílico al 70%, que Apple y Google permiten, sin lejía.</li><li><strong>Una linterna:</strong> para mirar dentro del puerto de carga antes de limpiarlo.</li></ul>"
+  },
+  {
+   "id": "digital",
+   "h2": "La parte digital",
+   "html": "<p>Un paño no puede liberar almacenamiento. CleanKoach es el kit digital: Archivos grandes, Duplicados, Fotos similares, Capturas, los Optimizadores de fotos y de vídeos y Limpiar con un toque. Todas las funciones son gratuitas.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La mejor app para limpiar el móvil Android"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Qué elemento para cada tarea",
+   "html": "<p>Un elemento por tarea mantiene el kit pequeño.</p>",
+   "table": {
+    "caption": "Elementos de un kit de limpieza para el móvil y la tarea de cada uno",
+    "headers": [
+     "Elemento",
+     "Tarea",
+     "Notas"
+    ],
+    "rows": [
+     [
+      "Paño de microfibra",
+      "Pantalla, parte trasera y laterales",
+      "Seco para el polvo, ligeramente húmedo para la suciedad"
+     ],
+     [
+      "Cepillo suave y seco",
+      "Rejilla del altavoz y bordes",
+      "Úsalo con suavidad"
+     ],
+     [
+      "Toallitas con alcohol isopropílico al 70%",
+      "Desinfección",
+      "Sin lejía"
+     ],
+     [
+      "Linterna",
+      "Mirar dentro del puerto",
+      "No metas nada dentro"
+     ],
+     [
+      "CleanKoach",
+      "Almacenamiento, duplicados, fotos y vídeos",
+      "Gratis en Android"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "skip",
+   "h2": "Qué dejar fuera",
+   "html": "<ul><li><strong>Aerosoles y lejía:</strong> Apple los desaconseja.</li><li><strong>Aire comprimido:</strong> Apple y Google lo desaconsejan.</li><li><strong>Ganchos metálicos:</strong> pueden dañar los puertos y la malla del altavoz.</li><li><strong>Cualquier cosa abrasiva:</strong> puede rayar la pantalla y desgastar su revestimiento.</li></ul>",
+   "see": [
+    [
+     "phone-screen-cleaner",
+     "Limpiador de pantalla del móvil"
+    ],
+    [
+     "phone-charging-port-cleaner",
+     "Limpiador del puerto de carga del móvil"
+    ],
+    [
+     "phone-speaker-cleaner",
+     "Limpiador del altavoz del móvil"
+    ]
+   ]
+  },
+  {
+   "id": "routine",
+   "h2": "Una rutina sencilla",
+   "html": "<ol><li><strong>Cada semana:</strong> limpia la pantalla y la parte trasera con un paño seco.</li><li><strong>Cada mes:</strong> revisa el puerto de carga y la rejilla del altavoz, y repasa Archivos grandes en CleanKoach.</li><li><strong>De vez en cuando:</strong> desinfecta con una toallita y quita la funda para limpiar debajo.</li></ol>"
+  },
+  {
+   "id": "android",
+   "h2": "¿Usas Android? Empieza aquí",
+   "html": "<p>Instala CleanKoach desde Google Play, permite el acceso a fotos, vídeos y audio y abre Archivos grandes. Está diseñada para Android 9 y posteriores.</p>",
+   "see": [
+    [
+     "phone-cleaner-iphone",
+     "Limpiador de móvil para iPhone"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "¿Qué debe incluir un kit de limpieza para el móvil?",
+   "a": "Un paño suave que no suelte pelusa, un cepillo suave y seco, toallitas con alcohol isopropílico al 70% y una linterna. Añade CleanKoach para el almacenamiento en Android."
+  },
+  {
+   "q": "¿Necesito un kit de limpieza especial para el móvil?",
+   "a": "No. Los elementos básicos son baratos y comunes. Apple y Google aconsejan un paño suave que no suelte pelusa."
+  },
+  {
+   "q": "¿Es seguro el alcohol isopropílico en los móviles?",
+   "a": "Apple y Google permiten toallitas con alcohol isopropílico al 70% por fuera. No uses lejía."
+  },
+  {
+   "q": "¿Qué no debo usar nunca?",
+   "a": "Aerosoles, lejía, materiales abrasivos, aire comprimido y herramientas metálicas en las aberturas."
+  },
+  {
+   "q": "¿Limpia CleanKoach el hardware?",
+   "a": "No. CleanKoach libera almacenamiento. No limpia pantallas, altavoces ni puertos."
+  },
+  {
+   "q": "¿Puede CleanKoach sustituir a un kit de limpieza?",
+   "a": "No. Un kit limpia el exterior. CleanKoach limpia los archivos del interior. Necesitas ambos."
+  },
+  {
+   "q": "¿CleanKoach es gratis?",
+   "a": "Sí. Todas las funciones son gratuitas. Una compra única de Pro quita los anuncios."
+  },
+  {
+   "q": "¿Hay una versión de CleanKoach para iPhone?",
+   "a": "No. CleanKoach es solo para Android."
+  },
+  {
+   "q": "¿Cada cuánto debo limpiar mi móvil?",
+   "a": "Limpia la pantalla cada semana, revisa los puertos y los altavoces cada mes y revisa el almacenamiento cada mes."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Los consejos de Apple sobre toallitas, paños suaves que no sueltan pelusa, aire comprimido y humedad en las aberturas."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Los consejos de Google sobre paños, toallitas, alcohol isopropílico al 70% y qué evitar."
+  }
+ ],
+ "related": []
+}

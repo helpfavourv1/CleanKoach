@@ -1,0 +1,159 @@
+{
+ "slug": "phone-storage-cleaner",
+ "title": "Speicher-Cleaner fürs Handy: So funktioniert er",
+ "h1": "So funktioniert ein Handy-Speicher-Cleaner",
+ "meta_description": "Ein Speicher-Cleaner findet, was Ihren Android-Speicher füllt, und hilft beim sicheren Leeren. So prüft CleanKoach, was es entfernt und was es nie anfasst.",
+ "keywords": [
+  "Handy-Speicher-Cleaner",
+  "Android-Speicher-Cleaner",
+  "wie funktioniert ein Handy-Cleaner",
+  "Handyspeicher freigeben"
+ ],
+ "tagline": "Was ein Speicher-Cleaner prüft und was er in Ruhe lässt",
+ "quick_answer": "<p><strong>Ein Handy-Speicher-Cleaner listet auf, was Ihren Speicher füllt, damit Sie es entfernen können.</strong> CleanKoach liest Ihre Foto-, Video- und Audiobibliothek auf dem Handy, zeigt Ihre größten Dateien, findet identische Duplikate und nahezu gleiche Fotos, sammelt Screenshots und leert den Papierkorb. Sie entscheiden, was verschwindet, und nichts wird hochgeladen.</p>",
+ "intro": "<p>Speicher füllt sich langsam und dann plötzlich ganz. Ein Cleaner übernimmt die Suche für Sie. Dieser Ratgeber erklärt, was CleanKoach sich ansieht, wie es entscheidet und wo seine Grenzen liegen.</p>",
+ "sections": [
+  {
+   "id": "where-space-goes",
+   "h2": "Wohin Ihr Speicher verschwindet",
+   "html": "<ul><li><strong>Große Dateien:</strong> eine Handvoll Videos kann tausende Fotos überwiegen.</li><li><strong>Exakte Duplikate:</strong> dieselbe Datei zweimal gespeichert, oft durch eine Chat-App oder ein Backup.</li><li><strong>Nahezu gleiche Fotos:</strong> Serienbilder und wiederholte Aufnahmen.</li><li><strong>Screenshots:</strong> jahrelang angesammelt.</li><li><strong>Papierkorb:</strong> gelöschte Medien, die noch nicht endgültig entfernt wurden.</li><li><strong>Cache:</strong> temporäre Dateien, die Apps aufbewahren.</li><li><strong>Apps und ihre Daten:</strong> werden in den Speichereinstellungen von Android verwaltet.</li></ul>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Beste Cleaner-App für Android"
+    ]
+   ]
+  },
+  {
+   "id": "how-it-scans",
+   "h2": "So prüft CleanKoach",
+   "html": "<ol><li><strong>Es liest Ihre Medienbibliothek,</strong> sobald Sie den Zugriff auf Fotos, Videos und Audiodateien erlauben. Alles geschieht auf Ihrem Handy.</li><li><strong>Große Dateien</strong> werden nach Größe sortiert, die größte zuerst.</li><li><strong>Duplikate</strong> werden gefunden, indem der Dateiinhalt mit einem SHA-256-Fingerabdruck verglichen wird. Zwei Dateien mit unterschiedlichen Namen, aber identischem Inhalt werden also gruppiert, zwei mit gleichem Namen, aber unterschiedlichem Inhalt nicht.</li><li><strong>Ähnliche Fotos</strong> werden gefunden, indem ein kleiner Fingerabdruck davon verglichen wird, wie jedes Bild aussieht. Fotos, die fast gleich aussehen, werden gruppiert, und die größte Datei jeder Gruppe wird zum Behalten vorgeschlagen. Sie können eine andere wählen.</li><li><strong>Screenshots</strong> werden in einer Liste gesammelt.</li></ol>"
+  },
+  {
+   "id": "tools",
+   "h2": "Welches Werkzeug welche Frage beantwortet",
+   "html": "<p>Jedes Werkzeug zeigt Größen, bevor Sie handeln.</p>",
+   "table": {
+    "caption": "CleanKoach-Werkzeuge und die Frage, die jedes beantwortet",
+    "headers": [
+     "Werkzeug",
+     "Frage, die es beantwortet",
+     "Was Sie sehen"
+    ],
+    "rows": [
+     [
+      "Große Dateien",
+      "Was nimmt am meisten Platz ein?",
+      "Fotos, Videos und Audiodateien nach Größe sortiert"
+     ],
+     [
+      "Duplikate",
+      "Habe ich exakte Kopien?",
+      "Gruppen identischer Dateien und der Platz, den Sie zurückgewinnen können"
+     ],
+     [
+      "Ähnliche Fotos",
+      "Habe ich wiederholte Aufnahmen?",
+      "Gruppen nahezu gleicher Fotos, mit einem Vorschlag zum Behalten"
+     ],
+     [
+      "Screenshots",
+      "Kann ich alte Screenshots auf einmal löschen?",
+      "Jeder Screenshot in einer einzigen Liste"
+     ],
+     [
+      "Foto-Optimierer und Video-Optimierer",
+      "Kann ich es behalten, aber kleiner?",
+      "Komprimierte Kopien und der gesparte Platz"
+     ],
+     [
+      "Bereinigen",
+      "Was kann mit einem Fingertipp weg?",
+      "Gelöschte Fotos und Videos sowie der eigene Cache der App"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "control",
+   "h2": "Sie behalten die Kontrolle",
+   "html": "<p>CleanKoach löscht nie von allein. Sie wählen Dateien aus, und Android bittet um Bestätigung, bevor Medien gelöscht werden. Ab Android 12 können Sie optional die Medienverwaltung erlauben, damit CleanKoach die von Ihnen gewählten Elemente löschen kann, ohne jedes Mal nachzufragen. Sie können das jederzeit in den Android-Einstellungen ausschalten.</p>"
+  },
+  {
+   "id": "compress",
+   "h2": "Komprimieren schafft nur Platz, wenn Sie das Original löschen",
+   "html": "<p>Foto-Optimierer und Video-Optimierer speichern eine kleinere Kopie in einem CleanKoach-Ordner und lassen das Original, wo es ist. So bleibt Ihre Erinnerung sicher, aber der Platz wird erst frei, wenn Sie das Original selbst entfernen. Prüfen Sie zuerst die kleinere Kopie, löschen Sie dann das Original.</p>"
+  },
+  {
+   "id": "limits",
+   "h2": "Was ein Speicher-Cleaner nicht kann",
+   "html": "<ul><li>Er entfernt Ihre Apps nicht. Deinstallieren Sie sie in den Android-Einstellungen.</li><li>Bereinigen leert den Papierkorb und den eigenen Cache von CleanKoach. Es leert nicht die Caches oder Daten anderer Apps.</li><li>Er macht Ihr Handy nicht von allein schneller. Freier Speicher gibt Ihrem Handy Raum zum Arbeiten, mehr nicht.</li></ul><p>Für Apps und ihre Daten nutzen Sie die Speichereinstellungen von Android.</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Sind Cleaner-Apps sicher?"
+    ]
+   ]
+  },
+  {
+   "id": "routine",
+   "h2": "Speicher dauerhaft frei halten",
+   "html": "<p>Sehen Sie Große Dateien einmal im Monat durch, leeren Sie Screenshots nach großen Ereignissen und starten Sie Duplikate nach einem Chat-App-Backup. Wöchentliche Bereinigungserinnerungen sind optional und lassen sich in den Einstellungen ausschalten.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Was ist ein Handy-Speicher-Cleaner?",
+   "a": "Eine App, die zeigt, was den Speicher Ihres Handys belegt, und beim Entfernen hilft. CleanKoach deckt Große Dateien, Duplikate, Ähnliche Fotos, Screenshots und Papierkorb ab."
+  },
+  {
+   "q": "Wie findet CleanKoach Duplikate?",
+   "a": "Es vergleicht den Inhalt von Dateien mit einem SHA-256-Fingerabdruck, sodass identische Dateien auch dann gruppiert werden, wenn ihre Namen sich unterscheiden."
+  },
+  {
+   "q": "Wie findet es ähnliche Fotos?",
+   "a": "Es vergleicht einen kleinen Fingerabdruck davon, wie jedes Foto aussieht. Fotos, die fast gleich aussehen, werden gruppiert, und das größte wird zum Behalten vorgeschlagen."
+  },
+  {
+   "q": "Kann ich ändern, welches ähnliche Foto behalten wird?",
+   "a": "Ja. Die größte Datei ist nur ein Vorschlag. Sie können in jeder Gruppe ein anderes Foto zum Behalten wählen."
+  },
+  {
+   "q": "Löscht CleanKoach Dateien, ohne zu fragen?",
+   "a": "Nein. Sie wählen, was entfernt wird, und Android bittet um Bestätigung, bevor Medien gelöscht werden, es sei denn, Sie haben die optionale Berechtigung zur Medienverwaltung erlaubt."
+  },
+  {
+   "q": "Was ist die Berechtigung zur Medienverwaltung?",
+   "a": "Eine optionale Berechtigung ab Android 12, mit der CleanKoach die von Ihnen gewählten Elemente löschen kann, ohne jedes Mal nachzufragen. Sie können sie in den Android-Einstellungen ausschalten."
+  },
+  {
+   "q": "Leert Bereinigen die Caches anderer Apps?",
+   "a": "Nein. Bereinigen leert gelöschte Fotos und Videos sowie den eigenen Cache von CleanKoach."
+  },
+  {
+   "q": "Schafft das Komprimieren eines Fotos sofort Platz?",
+   "a": "Nicht von allein. Die kleinere Kopie wird neben dem Original gespeichert, der Platz wird also frei, wenn Sie das Original löschen."
+  },
+  {
+   "q": "Beschleunigt ein Speicher-Cleaner mein Handy?",
+   "a": "Nicht direkt. Er schafft Speicherplatz. CleanKoach verspricht keine höhere Geschwindigkeit."
+  },
+  {
+   "q": "Werden meine Dateien hochgeladen?",
+   "a": "Nein. Dateien werden auf Ihrem Handy geprüft. Ihre Medien, Nutzungsdaten und Prüfergebnisse werden nie hochgeladen."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Free up storage on your Android device, Android Help",
+   "url": "https://support.google.com/android/answer/7431795",
+   "note": "Googles eigene Schritte, um den Speicher zu prüfen, Fotos und Videos in den Papierkorb zu verschieben und den App-Cache zu leeren."
+  },
+  {
+   "title": "User Data policy, Google Play Console Help",
+   "url": "https://support.google.com/googleplay/android-developer/answer/10144311",
+   "note": "Google Play verlangt, dass Apps vor Laufzeitberechtigungen eine Erklärung in der App anzeigen."
+  }
+ ],
+ "related": []
+}

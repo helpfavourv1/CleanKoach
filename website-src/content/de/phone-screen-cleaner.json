@@ -1,0 +1,151 @@
+{
+ "slug": "phone-screen-cleaner",
+ "title": "Handy-Bildschirmreiniger: sicher reinigen",
+ "h1": "Handy-Bildschirmreiniger",
+ "meta_description": "CleanKoach kann keinen Handy-Bildschirm reinigen, denn es leert den Speicher. So reinigen Sie einen Bildschirm sicher mit einem weichen Tuch und vermeiden Kratzer.",
+ "keywords": [
+  "Handy-Bildschirmreiniger",
+  "Handy-Bildschirm reinigen",
+  "wie reinige ich den Handy-Bildschirm",
+  "Handy-Bildschirm säubern"
+ ],
+ "tagline": "CleanKoach reinigt Speicher, kein Glas. So geht es sicher",
+ "quick_answer": "<p><strong>Keine App reinigt einen Handy-Bildschirm, und CleanKoach behauptet das auch nicht.</strong> Um das Glas zu reinigen, schalten Sie das Handy aus, ziehen Sie alles ab, wischen Sie mit einem weichen, fusselfreien Tuch, nehmen Sie bei Schmutz ein leicht feuchtes, sprühen Sie nie Flüssigkeit direkt auf das Handy und halten Sie Feuchtigkeit aus den Öffnungen fern.</p>",
+ "intro": "<p>Ein verschmierter Bildschirm ist das am leichtesten zu behebende Handyproblem und das am leichtesten zu verschlimmernde. Apple und Google geben beide denselben Kernrat.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Warum eine App das nicht kann",
+   "html": "<p>Auf einem Bildschirm sammeln sich Fett und Staub auf dem Glas. CleanKoach arbeitet mit Dateien und Speicher, hat also keine Wirkung auf das Glas. Nutzen Sie die App für den Speicher und ein Tuch für den Bildschirm.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Beste Cleaner-App für Android"
+    ]
+   ]
+  },
+  {
+   "id": "basic",
+   "h2": "Die einfache Reinigung",
+   "html": "<ol><li><strong>Schalten Sie das Handy aus</strong> und ziehen Sie alle Kabel ab.</li><li><strong>Wischen Sie mit einem weichen, fusselfreien Tuch.</strong> Ein trockenes Mikrofasertuch entfernt Staub, Flecken und Schlieren.</li><li><strong>Bei Schmutz</strong> nehmen Sie ein leicht feuchtes Tuch oder beim Pixel ein Bildschirmtuch oder einen Brillenreiniger.</li><li><strong>Wischen Sie sanft.</strong> Vermeiden Sie übermäßiges Reiben.</li><li><strong>Lassen Sie es trocknen,</strong> bevor Sie das Handy einschalten.</li></ol>"
+  },
+  {
+   "id": "disinfect",
+   "h2": "Den Bildschirm desinfizieren",
+   "html": "<p>Apple sagt, Sie dürfen auf der Außenseite eines iPhone ein Tuch mit 70% Isopropylalkohol, ein Tuch mit 75% Ethylalkohol oder Clorox Disinfecting Wipes verwenden und danach mit einem weichen, leicht feuchten, fusselfreien Tuch nachwischen. Google sagt, bei einem Pixel können haushaltsübliche Desinfektionstücher oder Tücher mit 70% Isopropylalkohol verwendet werden, auch auf dem Bildschirm. Apple rät von Bleichmittel und Wasserstoffperoxid ab, und Google rät von Bleichmittel ab.</p><p>Tücher, keine Flüssigkeit: gießen oder sprühen Sie nichts auf das Handy.</p>"
+  },
+  {
+   "id": "avoid",
+   "h2": "Was Sie vermeiden sollten",
+   "html": "<ul><li><strong>Aerosolsprays und Bleichmittel:</strong> Apple sagt, man solle keine Aerosolsprays, Bleichmittel oder Scheuermittel verwenden.</li><li><strong>Direkt aufsprühen:</strong> sprühen Sie keinen Reiniger auf das Handy.</li><li><strong>Feuchtigkeit in Öffnungen:</strong> halten Sie sie aus Anschlüssen und Lautsprechern fern.</li><li><strong>Scheuernde Materialien:</strong> Apple sagt, Reinigungsmittel und Scheuermittel können die fettabweisende Beschichtung abnutzen und den Bildschirm möglicherweise zerkratzen.</li><li><strong>Einweichen:</strong> tauchen Sie das Handy in kein Reinigungsmittel.</li></ul>",
+   "see": [
+    [
+     "phone-speaker-cleaner",
+     "Reiniger für den Handy-Lautsprecher"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Flecken und was sie entfernt",
+   "html": "<p>Passen Sie die Methode an den Fleck an.</p>",
+   "table": {
+    "caption": "Häufige Bildschirmflecken und wie man sie entfernt",
+    "headers": [
+     "Fleck",
+     "Was ihn entfernt",
+     "Vermeiden"
+    ],
+    "rows": [
+     [
+      "Staub und Fingerabdrücke",
+      "Trockenes, weiches, fusselfreies Tuch",
+      "Fest reiben"
+     ],
+     [
+      "Schlieren",
+      "Trockenes Tuch, dann ein leicht feuchtes",
+      "Flüssigkeit auf das Glas sprühen"
+     ],
+     [
+      "Make-up oder Jeansfarbe",
+      "Leicht feuchtes, fusselfreies Tuch",
+      "Scheuerschwämme"
+     ],
+     [
+      "Keime",
+      "Tuch mit 70% Isopropylalkohol, wie Apple und Google es erlauben",
+      "Bleichmittel und beim iPhone Wasserstoffperoxid"
+     ],
+     [
+      "Taschenflusen an den Rändern",
+      "Trockenes Tuch, dann eine weiche trockene Bürste",
+      "Scharfe Werkzeuge"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "protector",
+   "h2": "Displayschutz und Hüllen",
+   "html": "<p>Wenn Sie eine Displayschutzfolie verwenden, reinigen Sie die Folie auf dieselbe Weise. Nehmen Sie die Hülle hin und wieder ab und wischen Sie Handy und Hülle getrennt ab, damit Schmutzkörner Rückseite oder Ränder nicht zerkratzen.</p>",
+   "see": [
+    [
+     "phone-cleaning-kit",
+     "Handy-Reinigungsset"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Kann eine App meinen Handy-Bildschirm reinigen?",
+   "a": "Nein. Ein Bildschirm ist Glas. CleanKoach leert den Speicher und kann keinen Bildschirm reinigen."
+  },
+  {
+   "q": "Was ist der sicherste Weg, einen Handy-Bildschirm zu reinigen?",
+   "a": "Schalten Sie das Handy aus, ziehen Sie alles ab und wischen Sie mit einem weichen, fusselfreien Tuch. Nehmen Sie bei Schmutz ein leicht feuchtes Tuch."
+  },
+  {
+   "q": "Kann ich Isopropylalkohol auf meinem Handy-Bildschirm verwenden?",
+   "a": "Apple erlaubt ein Tuch mit 70% Isopropylalkohol auf der Außenseite eines iPhone, und Google erlaubt Tücher mit 70% Isopropylalkohol auf einem Pixel, auch auf dem Bildschirm. Verwenden Sie ein Tuch, keine Flüssigkeit."
+  },
+  {
+   "q": "Kann ich Bleichmittel oder Wasserstoffperoxid verwenden?",
+   "a": "Nein. Apple rät beim iPhone von beidem ab, und Google rät beim Pixel von Bleichmittel ab."
+  },
+  {
+   "q": "Sollte ich Reiniger auf den Bildschirm sprühen?",
+   "a": "Nein. Sprühen Sie Reiniger nicht direkt auf das Handy. Verwenden Sie ein Tuch oder ein feuchtes Tuch."
+  },
+  {
+   "q": "Warum wird mein Bildschirm fettig?",
+   "a": "Hautfett und Staub sammeln sich auf dem Glas. Ein trockenes Mikrofasertuch entfernt das meiste davon."
+  },
+  {
+   "q": "Kann Reinigen die Bildschirmbeschichtung beschädigen?",
+   "a": "Apple sagt, Reinigungsmittel und scheuernde Materialien können die fettabweisende Beschichtung abnutzen und den Bildschirm möglicherweise zerkratzen, gehen Sie also behutsam vor."
+  },
+  {
+   "q": "Wie oft sollte ich mein Handy reinigen?",
+   "a": "So oft, wie es schmutzig aussieht. Wischen Sie den Bildschirm ab, wenn Sie Flecken bemerken."
+  },
+  {
+   "q": "Reinigt CleanKoach meinen Bildschirm?",
+   "a": "Nein. CleanKoach leert den Speicher, nicht das Glas."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Apples Hinweise zu Tüchern, weichen fusselfreien Tüchern und was die Bildschirmbeschichtung beschädigen kann."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Googles Hinweise zu Tüchern, Desinfektionstüchern, 70% Isopropylalkohol und was Sie vermeiden sollten."
+  }
+ ],
+ "related": []
+}

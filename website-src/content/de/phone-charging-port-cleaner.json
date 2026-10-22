@@ -1,0 +1,115 @@
+{
+ "slug": "phone-charging-port-cleaner",
+ "title": "Reiniger für den Ladeanschluss: sicher vorgehen",
+ "h1": "Reiniger für den Handy-Ladeanschluss",
+ "meta_description": "CleanKoach ist Software und kann keinen Ladeanschluss reinigen. So gehen Sie sicher vor: ausschalten, Schmutz vorsichtig entfernen, Flüssigkeiten fernhalten.",
+ "keywords": [
+  "Reiniger für Handy-Ladeanschluss",
+  "Handy-Ladeanschluss reinigen",
+  "Ladeanschluss reinigen",
+  "Handy-Ladeanschluss funktioniert nicht"
+ ],
+ "tagline": "CleanKoach reinigt Speicher, keine Anschlüsse. So geht es sicher",
+ "quick_answer": "<p><strong>Eine App kann keinen Ladeanschluss reinigen, und CleanKoach versucht es nicht.</strong> CleanKoach leert den Speicher. Um den Anschluss zu reinigen, schalten Sie das Handy aus, ziehen Sie alles ab, klopfen Sie losen Schmutz mit nach unten gehaltenem Anschluss heraus, stecken Sie nie etwas hinein und halten Sie Flüssigkeiten fern. Lädt es trotzdem nicht, fragen Sie eine Reparaturwerkstatt.</p>",
+ "intro": "<p>Ein Handy, das langsam oder gar nicht lädt, ist oft durch Taschenflusen blockiert. Das ist ein physisches Problem, das Software nicht beheben kann. Diese Schritte sind bewusst vorsichtig gehalten.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Was Software kann und was nicht",
+   "html": "<p>CleanKoach schafft Speicherplatz. Die App kann die Hardware nicht berühren, also auch keine Flusen aus einem Ladeanschluss entfernen, und jede App, die das behauptet, sagt nicht die Wahrheit. Nutzen Sie eine Cleaner-App für den Speicher und die folgenden Schritte für den Anschluss.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Beste Cleaner-App für Android"
+    ]
+   ]
+  },
+  {
+   "id": "signs",
+   "h2": "Anzeichen, dass der Anschluss Aufmerksamkeit braucht",
+   "html": "<ul><li>Das Kabel muss schräg gehalten werden, damit geladen wird.</li><li>Das Laden ist langsam oder bricht immer wieder ab.</li><li>Das Kabel sitzt locker im Anschluss.</li><li>Ihr Handy zeigt eine Warnung wegen Flüssigkeit oder Schmutz.</li></ul>"
+  },
+  {
+   "id": "steps",
+   "h2": "So reinigen Sie den Anschluss",
+   "html": "<ol><li><strong>Schalten Sie das Handy aus</strong> und ziehen Sie Ladegerät, Kabel und Kopfhörer ab.</li><li><strong>Leuchten Sie mit einer Taschenlampe in den Anschluss.</strong> Festgepresste Flusen am Grund sind die übliche Ursache.</li><li><strong>Klopfen Sie losen Schmutz heraus.</strong> Halten Sie den Anschluss nach unten und klopfen Sie das Handy leicht gegen Ihre Hand.</li><li><strong>Ist der Anschluss nass,</strong> lassen Sie das Handy ausgeschaltet auf einer ebenen Fläche bei Raumtemperatur trocknen.</li><li><strong>Probieren Sie ein anderes Kabel.</strong> Ein abgenutztes Kabel kann wie ein Anschlussfehler wirken.</li></ol>"
+  },
+  {
+   "id": "avoid",
+   "h2": "Was Sie vermeiden sollten",
+   "html": "<ul><li><strong>Metallwerkzeuge:</strong> Nadeln und Stecknadeln können die Kontakte zerkratzen oder kurzschließen.</li><li><strong>Flüssigkeiten:</strong> halten Sie Wasser, Seife und Reinigungsmittel aus den Öffnungen fern.</li><li><strong>Druckluft:</strong> Apple und Google raten beide davon ab, also verwenden Sie sie nicht.</li><li><strong>Laden im nassen Zustand:</strong> warten Sie, bis der Anschluss trocken ist.</li></ul><p>Apple und Google sagen beide, dass keine Feuchtigkeit in Öffnungen gelangen soll.</p>"
+  },
+  {
+   "id": "help",
+   "h2": "Wann Sie Hilfe holen sollten",
+   "html": "<p>Sieht der Anschluss verbrannt, geschmolzen oder korrodiert aus, dauert die Warnung zwei Stunden oder länger an oder ist das Handy zu heiß zum Anfassen, beenden Sie das Laden und wenden Sie sich an den Hersteller oder eine Reparaturwerkstatt. Ein lockerer oder beschädigter Anschluss braucht eine Reparatur, nicht noch mehr Reinigung.</p>"
+  },
+  {
+   "id": "messages",
+   "h2": "Wenn Sie eine Warnung wegen Flüssigkeit oder Schmutz sehen",
+   "html": "<p>Manche Handys warnen Sie, wenn sie Feuchtigkeit oder Schmutz im Anschluss erkennen. Ziehen Sie bei einem Pixel alles ab, lassen Sie das Handy abkühlen, trocknen Sie den Anschluss und warten Sie einige Minuten auf die Entwarnung. Andere Hersteller haben ähnliche Schritte auf ihren Support-Seiten.</p>"
+  },
+  {
+   "id": "care",
+   "h2": "Den Anschluss sauber halten",
+   "html": "<p>Tragen Sie das Handy in einer Tasche ohne lose Stofffasern und decken Sie den Anschluss mit einem Stöpsel ab, falls Ihre Hülle einen hat. Prüfen Sie den Anschluss, wenn das Laden langsamer wird, nicht erst, wenn es aufgehört hat.</p>",
+   "see": [
+    [
+     "phone-cleaning-kit",
+     "Handy-Reinigungsset"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Kann eine App den Ladeanschluss meines Handys reinigen?",
+   "a": "Nein. Ein Ladeanschluss ist Hardware. CleanKoach leert den Speicher und kann keine Anschlüsse reinigen."
+  },
+  {
+   "q": "Wie reinige ich einen Ladeanschluss sicher?",
+   "a": "Schalten Sie das Handy aus, ziehen Sie alles ab, klopfen Sie losen Schmutz mit nach unten gehaltenem Anschluss heraus und halten Sie Flüssigkeiten und Metallwerkzeuge fern."
+  },
+  {
+   "q": "Kann ich einen Zahnstocher oder eine Nadel verwenden?",
+   "a": "Vermeiden Sie alles, was Sie in den Anschluss schieben, und verwenden Sie nie Metall. Googles Hinweise sagen, dass nichts in den Anschluss gesteckt werden soll."
+  },
+  {
+   "q": "Ist Druckluft für einen Ladeanschluss sicher?",
+   "a": "Apple sagt, man solle sie beim iPhone nicht verwenden, und Google rät beim Pixel davon ab, also verwenden Sie sie nicht."
+  },
+  {
+   "q": "Was, wenn mein Handy meldet, dass Flüssigkeit oder Schmutz im Anschluss ist?",
+   "a": "Ziehen Sie alles ab, lassen Sie es abkühlen, trocknen Sie den Anschluss und warten Sie auf die Entwarnung. Dauert die Warnung zwei Stunden oder länger an, wenden Sie sich an den Hersteller."
+  },
+  {
+   "q": "Warum lädt mein Handy langsam?",
+   "a": "Ein blockierter Anschluss, ein abgenutztes Kabel oder ein schwaches Ladegerät. Probieren Sie zuerst ein anderes Kabel und Ladegerät, prüfen Sie dann den Anschluss."
+  },
+  {
+   "q": "Sollte ich ein nasses Handy laden?",
+   "a": "Nein. Lassen Sie den Anschluss zuerst trocknen."
+  },
+  {
+   "q": "Wann sollte ich es zur Reparatur bringen?",
+   "a": "Wenn der Anschluss verbrannt, geschmolzen, korrodiert oder locker ist oder das Handy zu heiß zum Anfassen wird."
+  },
+  {
+   "q": "Beeinflusst CleanKoach das Laden?",
+   "a": "Nein. CleanKoach schafft Speicherplatz und ändert nichts daran, wie Ihr Handy lädt."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Fix Unplug charger or Liquid or debris message, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/9280079",
+   "note": "Googles Schritte für einen nassen oder durch Schmutz blockierten USB-Anschluss, einschließlich Trocknen und wann man Hilfe holen sollte."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Googles Reinigungshinweise, einschließlich Feuchtigkeit aus Öffnungen fernhalten und keine Druckluft verwenden."
+  }
+ ],
+ "related": []
+}

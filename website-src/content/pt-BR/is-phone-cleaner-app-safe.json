@@ -1,0 +1,189 @@
+{
+ "slug": "is-phone-cleaner-app-safe",
+ "title": "Apps de limpeza são seguros? O que verificar",
+ "h1": "Os apps de limpeza para celular são seguros?",
+ "meta_description": "Os apps de limpeza são seguros? Veja os sinais de alerta, as permissões de que um limpador precisa e como o CleanKoach trata seus arquivos, anúncios e dados.",
+ "keywords": [
+  "os apps de limpeza para celular são seguros",
+  "app de limpeza para celular é seguro",
+  "os apps limpadores são seguros",
+  "permissões de app de limpeza para celular"
+ ],
+ "tagline": "Sinais de alerta, permissões e o que verificar",
+ "quick_answer": "<p><strong>Alguns apps de limpeza para celular são seguros e outros não, então verifique antes de instalar.</strong> Um limpador seguro pede só as permissões de que precisa, funciona sem conta, analisa os arquivos no seu celular e não assusta você para que toque. O CleanKoach analisa os arquivos no seu aparelho, nunca os envia e não tem contas.</p>",
+ "intro": "<p>Os apps de limpeza têm fama ambígua porque alguns se comportam mal. Veja o que observar, o que o CleanKoach pede e por quê, e como você mesmo pode verificar qualquer app.</p>",
+ "sections": [
+  {
+   "id": "risks",
+   "h2": "O que pode dar errado com um limpador",
+   "html": "<ul><li><strong>Alertas falsos:</strong> avisos de que o celular está infectado ou superaquecendo, usados para levar você a tocar.</li><li><strong>Permissões demais:</strong> acesso a contatos, mensagens ou localização de que um limpador não precisa.</li><li><strong>Arquivos enviados para fora:</strong> fotos ou resultados da análise enviados a um servidor.</li><li><strong>Custos ocultos:</strong> uma análise grátis que termina em uma assinatura surpresa.</li><li><strong>Anúncios agressivos:</strong> pop-ups fora do app.</li></ul>",
+   "see": [
+    [
+     "stop-phone-cleaner-popping-up",
+     "Como impedir os pop-ups dos apps de limpeza"
+    ]
+   ]
+  },
+  {
+   "id": "checklist",
+   "h2": "Uma lista de verificação antes de instalar",
+   "html": "<p>Dedique um minuto à página da loja.</p>",
+   "table": {
+    "caption": "Sinais de segurança e sinais de alerta em um app de limpeza",
+    "headers": [
+     "Verificação",
+     "Sinal de segurança",
+     "Sinal de alerta"
+    ],
+    "rows": [
+     [
+      "Permissões",
+      "Fotos, vídeos e áudios, mais extras opcionais explicados",
+      "Contatos, mensagens, localização ou registro de chamadas"
+     ],
+     [
+      "Conta",
+      "Não é necessária",
+      "Login obrigatório"
+     ],
+     [
+      "Para onde vão os arquivos",
+      "Analisados no celular",
+      "Enviados a servidores"
+     ],
+     [
+      "Preço",
+      "Claro e informado desde o início",
+      "Análise grátis e depois uma cobrança surpresa"
+     ],
+     [
+      "Alertas",
+      "Nenhum, a menos que você ative",
+      "Avisos falsos de vírus ou de superaquecimento"
+     ],
+     [
+      "Política de privacidade",
+      "Específica sobre o que é e o que não é coletado",
+      "Ausente ou vaga"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "permissions",
+   "h2": "O que o CleanKoach pede, e por quê",
+   "html": "<p>Cada permissão tem uma única função.</p>",
+   "table": {
+    "caption": "Permissões do CleanKoach e para que cada uma é usada",
+    "headers": [
+     "Permissão",
+     "Para que serve",
+     "Opcional?"
+    ],
+    "rows": [
+     [
+      "Fotos, vídeos e áudios",
+      "Encontrar arquivos grandes, duplicados, fotos semelhantes e capturas de tela",
+      "Necessária para as ferramentas de limpeza"
+     ],
+     [
+      "Gerenciamento de mídia (Android 12 e posteriores)",
+      "Apagar os itens escolhidos sem um aviso a cada vez",
+      "Sim"
+     ],
+     [
+      "Acesso aos dados de uso",
+      "Somente o Monitor de atividade",
+      "Sim"
+     ],
+     [
+      "Notificações",
+      "Lembretes semanais de limpeza e alertas de armazenamento",
+      "Sim, só se você ativá-las"
+     ],
+     [
+      "Internet e estado da rede",
+      "Carregar anúncios, verificar compras, Segurança do Wi-Fi e Velocidade da rede",
+      "Usada quando esses recursos são executados"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "never",
+   "h2": "O que o CleanKoach nunca faz",
+   "html": "<ul><li>Não envia as suas fotos, vídeos ou áudios.</li><li>Não envia resultados de análises, estatísticas de uso nem resultados de testes de Wi-Fi.</li><li>Não tem contas.</li><li>Não apaga nada até você escolher e confirmar.</li></ul><p>A <a href=\"/privacy.html\">política de privacidade</a> lista cada um desses pontos em detalhes.</p>"
+  },
+  {
+   "id": "ads-data",
+   "h2": "Anúncios e seus dados, ditos com clareza",
+   "html": "<p>O CleanKoach exibe anúncios por meio do Google AdMob. Quando os anúncios são exibidos, o Google pode coletar o seu ID de publicidade e dados padrão de interação com os anúncios, conforme a política de privacidade do próprio Google. Isso é separado dos seus arquivos, que ficam no seu celular. No Espaço Econômico Europeu e no Reino Unido, o consentimento é pedido antes. Se você comprar o Pro, os anúncios são removidos e o app deixa de coletar um ID de publicidade.</p>",
+   "see": [
+    [
+     "free-phone-cleaner-android",
+     "Limpador de celular grátis para Android"
+    ]
+   ]
+  },
+  {
+   "id": "verify",
+   "h2": "Como verificar qualquer app por conta própria",
+   "html": "<ol><li><strong>Leia as permissões</strong> antes de instalar e de novo nas Configurações do Android, em Apps.</li><li><strong>Leia a política de privacidade</strong> e procure o que é coletado.</li><li><strong>Mantenha o Google Play Protect ativado.</strong> Ele verifica se os apps têm comportamento nocivo.</li><li><strong>Negue o que não for necessário.</strong> Um bom limpador continua funcionando sem as permissões opcionais.</li><li><strong>Desinstale</strong> qualquer app que apareça fora dele ou que assuste você.</li></ol>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Os apps de limpeza para celular são seguros?",
+   "a": "Alguns são e outros não. Verifique as permissões, se ele exige conta, onde os arquivos são analisados e como ele lida com alertas e anúncios."
+  },
+  {
+   "q": "O CleanKoach é seguro?",
+   "a": "O CleanKoach analisa seus arquivos no seu celular, nunca os envia, não tem contas e não apaga nada até você escolher e o Android confirmar."
+  },
+  {
+   "q": "De quais permissões um limpador realmente precisa?",
+   "a": "O acesso a fotos, vídeos e áudios basta para as ferramentas principais. Qualquer outra coisa deve ser opcional e explicada."
+  },
+  {
+   "q": "O CleanKoach lê as minhas mensagens ou contatos?",
+   "a": "Não. Ele não pede acesso a contatos, mensagens nem localização."
+  },
+  {
+   "q": "Por que o CleanKoach precisa de acesso aos dados de uso?",
+   "a": "Somente para o Monitor de atividade, que mostra o uso dos apps nas últimas 24 horas. É opcional, e os dados ficam no seu aparelho."
+  },
+  {
+   "q": "O CleanKoach coleta algum dado por meio dos anúncios?",
+   "a": "Quando os anúncios são exibidos, o Google pode coletar o seu ID de publicidade e dados de interação com os anúncios, conforme descrito na política de privacidade do Google. O Pro remove os anúncios, e então o app deixa de coletar um ID de publicidade."
+  },
+  {
+   "q": "Um app de limpeza pode prejudicar o meu celular?",
+   "a": "Um app mal feito ou malicioso pode, apagando arquivos que você queria ou empurrando apps indesejados. Verifique as permissões e as avaliações antes e mantenha o Play Protect ativado."
+  },
+  {
+   "q": "Como verifico um app que já instalei?",
+   "a": "Abra as Configurações do Android, depois Apps, escolha o app e revise as permissões. Execute uma verificação do Play Protect pela Play Store."
+  },
+  {
+   "q": "O CleanKoach mostra avisos falsos de vírus?",
+   "a": "Não. O CleanKoach não mostra alertas falsos de vírus. As únicas notificações são lembretes semanais de limpeza e alertas de armazenamento opcionais, que você mesmo ativa."
+  },
+  {
+   "q": "Preciso pagar pelo CleanKoach para ele ser seguro?",
+   "a": "Não. Todos os recursos são gratuitos. O Pro apenas remove os anúncios."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Use Google Play Protect to help keep your apps safe and your data private, Google Play Help",
+   "url": "https://support.google.com/googleplay/answer/2812853",
+   "note": "Como o Play Protect verifica se os apps têm comportamento nocivo e como confirmar que ele está ativado."
+  },
+  {
+   "title": "User Data policy, Google Play Console Help",
+   "url": "https://support.google.com/googleplay/android-developer/answer/10144311",
+   "note": "O Google Play exige que os apps mostrem uma explicação dentro do app antes de pedir permissões em tempo de execução."
+  }
+ ],
+ "related": []
+}

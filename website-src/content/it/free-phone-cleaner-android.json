@@ -1,0 +1,160 @@
+{
+ "slug": "free-phone-cleaner-android",
+ "title": "Cleaner gratuito per Android: CleanKoach",
+ "h1": "Cleaner gratuito per telefono Android",
+ "meta_description": "CleanKoach è un cleaner gratuito per Android. Ogni funzione è gratis e un acquisto Pro una tantum rimuove la pubblicità. I file sono analizzati sul telefono.",
+ "keywords": [
+  "cleaner gratuito per telefono",
+  "cleaner Android gratuito",
+  "cleaner gratuito per telefono Android",
+  "app gratuita per liberare memoria"
+ ],
+ "tagline": "Tutte le funzioni gratis, pubblicità rimovibile a scelta",
+ "quick_answer": "<p><strong>Sì, CleanKoach è un cleaner gratuito per telefoni Android.</strong> Ogni funzione è gratis: File grandi, Duplicati, Foto simili, Screenshot, Ottimizzatore foto e Ottimizzatore video, Monitor attività, Sicurezza Wi-Fi e Velocità rete. L'app mostra pubblicità e un acquisto Pro una tantum la rimuove. Non ci sono account né abbonamenti.</p>",
+ "intro": "<p>Un cleaner gratuito non dovrebbe trattenere i suoi strumenti per venderti un upgrade. Ecco cosa ti offre CleanKoach senza pagare, come funziona la pubblicità e cosa cambia con Pro.</p>",
+ "sections": [
+  {
+   "id": "what-is-free",
+   "h2": "Cosa è gratis in CleanKoach",
+   "html": "<p>Tutto. Pro non sblocca strumenti, perché non ce n'è nessuno bloccato.</p><ul><li><strong>File grandi:</strong> le tue foto, i tuoi video e i tuoi audio più pesanti, ordinati per dimensione.</li><li><strong>Duplicati:</strong> file identici raggruppati, una copia resta.</li><li><strong>Foto simili:</strong> scatti quasi identici raggruppati, con il più grande suggerito da tenere.</li><li><strong>Screenshot:</strong> tutti gli screenshot in un unico elenco.</li><li><strong>Ottimizzatore foto e Ottimizzatore video:</strong> comprimono ciò che conservi.</li><li><strong>Pulisci:</strong> svuota foto e video eliminati e la cache dell'app con un tocco.</li><li><strong>Monitor attività, Sicurezza Wi-Fi e Velocità rete:</strong> uso delle app, controllo della connessione e test della velocità di download.</li></ul>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La migliore app di pulizia per telefono Android"
+    ]
+   ]
+  },
+  {
+   "id": "ads",
+   "h2": "Come funziona la pubblicità",
+   "html": "<p>CleanKoach mostra pubblicità tramite Google AdMob: un piccolo banner nella parte inferiore della schermata iniziale, delle impostazioni e delle schermate degli strumenti, e ogni tanto un annuncio a schermo intero dopo che hai completato un'azione, come una pulizia.</p><p>Gli annunci non compaiono mai durante una scansione, nella schermata di acquisto di Pro né sopra una finestra di autorizzazione o di consenso. Nello Spazio economico europeo e nel Regno Unito ti viene chiesto il consenso prima che vengano mostrati annunci, e puoi cambiare la tua scelta in seguito nelle Opzioni privacy dell'app.</p>"
+  },
+  {
+   "id": "pro",
+   "h2": "Cosa fa Pro",
+   "html": "<p>Pro è un acquisto una tantum gestito da Google Play. Rimuove tutta la pubblicità. Non sblocca funzioni, perché ogni funzione è già gratuita. Se reinstalli CleanKoach o cambi telefono, tocca <strong>Ripristina acquisto</strong>. Il prezzo mostrato nella schermata Pro è quello che Google Play applica nel tuo paese.</p>"
+  },
+  {
+   "id": "comparison",
+   "h2": "Gratis e Pro a confronto",
+   "html": "<p>L'unica cosa che cambia con Pro è la pubblicità.</p>",
+   "table": {
+    "caption": "Cosa cambia quando acquisti Pro",
+    "headers": [
+     "Voce",
+     "Gratis",
+     "Pro"
+    ],
+    "rows": [
+     [
+      "Funzioni",
+      "Tutte disponibili",
+      "Tutte disponibili"
+     ],
+     [
+      "Pubblicità",
+      "Banner e ogni tanto un annuncio a schermo intero",
+      "Nessuna"
+     ],
+     [
+      "Pagamento",
+      "Nessuno",
+      "Acquisto una tantum tramite Google Play"
+     ],
+     [
+      "Account",
+      "Non necessario",
+      "Non necessario"
+     ],
+     [
+      "Dove vengono analizzati i file",
+      "Sul tuo telefono",
+      "Sul tuo telefono"
+     ],
+     [
+      "ID pubblicità",
+      "Usato dagli annunci quando vengono mostrati",
+      "Non raccolto dall'app dopo il passaggio a Pro"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "judge",
+   "h2": "Come valutare un cleaner gratuito",
+   "html": "<p>Le app gratuite devono guadagnare in qualche modo. Prima di installarne una, controlla:</p><ul><li><strong>Gli strumenti sono davvero utilizzabili?</strong> Alcune app eseguono la scansione gratis e poi bloccano la pulizia dietro un pagamento.</li><li><strong>Dice come guadagna?</strong> Pubblicità e un acquisto una tantum sono facili da spiegare. Le affermazioni vaghe no.</li><li><strong>Chiede autorizzazioni sensate?</strong> L'accesso ai contenuti multimediali è normale. Contatti, messaggi o posizione no.</li><li><strong>Richiede un account?</strong> Un cleaner non ha motivo di farlo.</li><li><strong>Ti spaventa?</strong> Falsi avvisi di virus e conti alla rovescia sono segnali d'allarme.</li></ul>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Le app di pulizia sono sicure?"
+    ]
+   ]
+  },
+  {
+   "id": "start",
+   "h2": "Inizia a pulire gratis",
+   "html": "<ol><li><strong>Installa</strong> CleanKoach da Google Play.</li><li><strong>Consenti l'accesso</strong> a foto, video e audio. L'analisi avviene sul telefono.</li><li><strong>Apri uno strumento</strong> come File grandi o Duplicati e controlla le dimensioni mostrate.</li><li><strong>Seleziona e conferma.</strong> Android ti chiede di confermare prima di eliminare i contenuti multimediali.</li></ol><p>Progettata per Android 9 e versioni successive.</p>",
+   "see": [
+    [
+     "phone-storage-cleaner",
+     "Come funziona un cleaner di memoria"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "CleanKoach è davvero gratuita?",
+   "a": "Sì. Ogni funzione è gratuita. L'app mostra pubblicità e un acquisto Pro una tantum la rimuove."
+  },
+  {
+   "q": "C'è una prova o un limite di tempo?",
+   "a": "No. Non c'è nessuna prova che scade e nessuna funzione smette di funzionare. Pro rimuove solo la pubblicità."
+  },
+  {
+   "q": "Quanto costa Pro?",
+   "a": "Il prezzo è mostrato nella schermata Pro dell'app. È stabilito tramite Google Play per il tuo paese e si paga una sola volta."
+  },
+  {
+   "q": "Pro è un abbonamento?",
+   "a": "No. Pro è un acquisto una tantum."
+  },
+  {
+   "q": "Dove compare la pubblicità?",
+   "a": "Come piccolo banner nella parte inferiore della schermata iniziale, delle impostazioni e degli strumenti, e ogni tanto come annuncio a schermo intero dopo che hai completato un'azione, come una pulizia."
+  },
+  {
+   "q": "Mi serve un account per usare CleanKoach?",
+   "a": "No. CleanKoach non ha account."
+  },
+  {
+   "q": "La versione gratuita carica le mie foto?",
+   "a": "No. I file vengono analizzati sul tuo dispositivo. I tuoi contenuti, i dati di utilizzo e i risultati delle analisi non vengono mai caricati."
+  },
+  {
+   "q": "Posso riavere il mio acquisto Pro su un nuovo telefono?",
+   "a": "Sì. Installa CleanKoach, apri la schermata Pro e tocca Ripristina acquisto. Usa lo stesso account Google con cui l'hai acquistato."
+  },
+  {
+   "q": "Esiste un cleaner gratuito per iPhone?",
+   "a": "CleanKoach è solo per Android. La nostra guida per iPhone descrive gli strumenti per la memoria integrati in iOS."
+  },
+  {
+   "q": "Quali versioni di Android sono supportate?",
+   "a": "Android 9 e versioni successive."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Free up storage on your Android device, Android Help",
+   "url": "https://support.google.com/android/answer/7431795",
+   "note": "I passaggi di Google per controllare la memoria, spostare foto e video nel cestino e svuotare la cache delle app."
+  },
+  {
+   "title": "Use Google Play Protect to help keep your apps safe and your data private, Google Play Help",
+   "url": "https://support.google.com/googleplay/answer/2812853",
+   "note": "Come Play Protect controlla le app alla ricerca di comportamenti dannosi e come verificare che sia attivo."
+  }
+ ],
+ "related": []
+}

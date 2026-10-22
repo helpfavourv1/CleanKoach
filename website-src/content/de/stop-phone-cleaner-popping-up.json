@@ -1,0 +1,145 @@
+{
+ "slug": "stop-phone-cleaner-popping-up",
+ "title": "Cleaner-Pop-ups auf dem Handy stoppen",
+ "h1": "So stoppen Sie Handy-Cleaner-Pop-ups",
+ "meta_description": "Cleaner-Pop-ups auf Android kommen meist von Website-Benachrichtigungen oder einer App. Finden Sie die Quelle, schalten Sie sie ab und stoppen Sie die Rückkehr.",
+ "keywords": [
+  "Handy-Cleaner-Pop-ups stoppen",
+  "Handy-Cleaner Pop-up",
+  "Handy-Cleaner Benachrichtigungen",
+  "Handy-Cleaner-Pop-ups entfernen"
+ ],
+ "tagline": "Die Quelle finden, dann abschalten",
+ "quick_answer": "<p><strong>Um Handy-Cleaner-Pop-ups zu stoppen, finden Sie heraus, was sie anzeigt, und schalten Sie das ab.</strong> Die Ursache ist meist eine Website mit erlaubten Benachrichtigungen, eine App mit der Erlaubnis, über anderen Apps einzublenden, oder die eigenen Hinweise einer Cleaner-App. Halten Sie das Pop-up gedrückt, um zu sehen, welche App es gesendet hat, und blockieren oder deinstallieren Sie sie dann.</p>",
+ "intro": "<p>Ein Pop-up, das sagt, Ihr Handy müsse bereinigt werden, stammt nicht immer von einem Cleaner, den Sie installiert haben. Gehen Sie die folgenden Quellen durch, von der wahrscheinlichsten zur unwahrscheinlichsten.</p>",
+ "sections": [
+  {
+   "id": "causes",
+   "h2": "Woher das Pop-up kommt",
+   "html": "<ul><li><strong>Eine Website:</strong> Sie haben Benachrichtigungen einer Seite in Ihrem Browser erlaubt, und sie sendet jetzt Hinweise.</li><li><strong>Benachrichtigungen einer App:</strong> eine installierte App sendet Hinweise, die wie Systemwarnungen aussehen.</li><li><strong>Eine App, die über anderen einblendet:</strong> eine App mit der Erlaubnis, über anderen Apps anzuzeigen.</li><li><strong>Eine Seite in Ihrem Browser:</strong> eine gefälschte Warnung auf einer Webseite, die verschwindet, wenn Sie den Tab schließen.</li></ul>"
+  },
+  {
+   "id": "find",
+   "h2": "Herausfinden, welche App oder Seite es ist",
+   "html": "<ol><li><strong>Halten Sie die Benachrichtigung gedrückt.</strong> Android zeigt den Namen der App oder Seite.</li><li><strong>Prüfen Sie, wo sie erscheint.</strong> Im Benachrichtigungsbereich ist es eine Benachrichtigung. Über einer anderen App ist es ein Overlay. Innerhalb einer Webseite ist es die Seite.</li><li><strong>Notieren Sie den Namen</strong> und nutzen Sie dann die Tabelle unten.</li></ol>"
+  },
+  {
+   "id": "fixes",
+   "h2": "Lösungen nach Quelle",
+   "html": "<p>Die Menünamen unterscheiden sich je nach Handyhersteller ein wenig.</p>",
+   "table": {
+    "caption": "Wo das Pop-up erscheint, die wahrscheinliche Ursache und die Lösung",
+    "headers": [
+     "Wo Sie es sehen",
+     "Wahrscheinliche Ursache",
+     "Lösung"
+    ],
+    "rows": [
+     [
+      "Benachrichtigungsbereich, nach einer Website benannt",
+      "Browser-Benachrichtigungen für eine Seite erlaubt",
+      "Öffnen Sie in den Einstellungen Ihres Browsers Websiteeinstellungen, dann Benachrichtigungen, und blockieren Sie diese Seite"
+     ],
+     [
+      "Benachrichtigungsbereich, nach einer App benannt",
+      "Die eigenen Benachrichtigungen der App",
+      "Halten Sie sie gedrückt und schalten Sie die Benachrichtigungen dieser App aus, oder deinstallieren Sie die App"
+     ],
+     [
+      "Über anderen Apps",
+      "Erlaubnis, über anderen Apps anzuzeigen",
+      "Schalten Sie in den Einstellungen unter Apps, Spezieller App-Zugriff, Über anderen Apps einblenden die Option für diese App aus"
+     ],
+     [
+      "Nur innerhalb einer Webseite",
+      "Eine gefälschte Warnung auf der Seite",
+      "Schließen Sie den Tab und tippen Sie dort nichts an"
+     ],
+     [
+      "Kommt nach dem Deinstallieren immer wieder",
+      "Eine zweite App oder eine Seite, die Sie weiterhin erlauben",
+      "Wiederholen Sie die Schritte und starten Sie dann einen Play-Protect-Scan"
+     ]
+    ]
+   },
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Sind Cleaner-Apps sicher?"
+    ]
+   ]
+  },
+  {
+   "id": "browser",
+   "h2": "Website-Benachrichtigungen in Chrome blockieren",
+   "html": "<p>Öffnen Sie Chrome, dann Einstellungen, dann Websiteeinstellungen, dann Benachrichtigungen. Verschieben Sie jede Seite, der Sie nicht trauen, in die Liste der blockierten Seiten, oder schalten Sie Benachrichtigungen ganz aus. Chrome kann außerdem dezentere Hinweise nutzen, sodass Seiten ohne Pop-up anfragen können.</p>"
+  },
+  {
+   "id": "scan",
+   "h2": "Mit Google Play Protect prüfen",
+   "html": "<p>Öffnen Sie den Play Store, tippen Sie auf Ihr Profilsymbol, tippen Sie auf Play Protect und starten Sie einen Scan. Achten Sie darauf, dass <strong>Apps mit Play Protect scannen</strong> eingeschaltet ist. Es prüft Apps auf schädliches Verhalten und kann Sie warnen oder sie entfernen.</p>"
+  },
+  {
+   "id": "cleankoach",
+   "h2": "Und CleanKoach?",
+   "html": "<p>CleanKoach zeigt keine Pop-ups über anderen Apps und fragt auch keine Erlaubnis dafür an. Die einzigen Benachrichtigungen sind eine wöchentliche Bereinigungserinnerung und Speicherhinweise, und beide sind aus, bis Sie sie einschalten. Um sie auszuschalten, öffnen Sie CleanKoach, dann Einstellungen, und schalten Sie die Benachrichtigungsoptionen aus, oder nutzen Sie die Benachrichtigungseinstellungen von Android für die App.</p>",
+   "see": [
+    [
+     "free-phone-cleaner-android",
+     "Kostenloser Handy-Cleaner für Android"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Warum poppt ein Handy-Cleaner immer wieder auf?",
+   "a": "Meist eine Website, für die Sie Benachrichtigungen erlaubt haben, eine App mit der Erlaubnis, über anderen Apps anzuzeigen, oder eine Cleaner-App, die Hinweise sendet."
+  },
+  {
+   "q": "Wie finde ich heraus, welche App das Pop-up anzeigt?",
+   "a": "Halten Sie die Benachrichtigung gedrückt. Android zeigt die App oder Seite, die sie gesendet hat."
+  },
+  {
+   "q": "Wie stoppe ich Website-Benachrichtigungen auf Android?",
+   "a": "Öffnen Sie in Chrome Einstellungen, Websiteeinstellungen, Benachrichtigungen und blockieren Sie die Seite. Andere Browser haben eine ähnliche Einstellung."
+  },
+  {
+   "q": "Was ist Über anderen Apps einblenden?",
+   "a": "Eine Android-Berechtigung, mit der eine App über anderen Apps zeichnen darf. Schalten Sie sie für jede App aus, die sie nicht braucht."
+  },
+  {
+   "q": "Ist ein Pop-up echt, das sagt, mein Handy habe einen Virus?",
+   "a": "Fast nie, wenn es von einer Webseite oder einer unbekannten App kommt. Schließen Sie den Tab und tippen Sie es nicht an. Starten Sie einen Play-Protect-Scan, wenn Sie unsicher sind."
+  },
+  {
+   "q": "Poppt CleanKoach auf meinem Bildschirm auf?",
+   "a": "Nein. CleanKoach blendet nicht über anderen Apps ein. Die wöchentliche Erinnerung und die Speicherhinweise sind optional und aus, bis Sie sie einschalten."
+  },
+  {
+   "q": "Wie schalte ich die CleanKoach-Erinnerungen aus?",
+   "a": "Öffnen Sie CleanKoach, gehen Sie zu den Einstellungen und schalten Sie die Benachrichtigungsoptionen aus, oder nutzen Sie die Benachrichtigungseinstellungen von Android für die App."
+  },
+  {
+   "q": "Was, wenn das Pop-up nach dem Deinstallieren der App zurückkehrt?",
+   "a": "Eine andere App oder eine Seite, die Sie weiterhin erlauben, sendet es. Wiederholen Sie die Schritte und starten Sie einen Play-Protect-Scan."
+  },
+  {
+   "q": "Sollte ich einen weiteren Cleaner installieren, um Pop-ups zu stoppen?",
+   "a": "Nein. Entfernen Sie stattdessen die Quelle. Eine weitere App ist eine weitere Sache, die Hinweise anzeigen kann."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Use notifications to get alerts, Google Chrome Help",
+   "url": "https://support.google.com/chrome/answer/3220216",
+   "note": "Wie Chrome es Ihnen ermöglicht, eine Seite am Senden von Benachrichtigungen zu hindern und dezentere Hinweise zu nutzen."
+  },
+  {
+   "title": "Use Google Play Protect to help keep your apps safe and your data private, Google Play Help",
+   "url": "https://support.google.com/googleplay/answer/2812853",
+   "note": "Wie Play Protect Apps auf schädliches Verhalten prüft und wie Sie bestätigen, dass es aktiviert ist."
+  }
+ ],
+ "related": []
+}

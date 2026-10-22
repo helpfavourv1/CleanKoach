@@ -52,7 +52,7 @@
     "alt": "Ilustração do círculo da tela inicial do CleanKoach com o tamanho do lixo formado por fotos apagadas, vídeos apagados e cache dos apps, e o botão LIMPAR",
     "caption": "O círculo mostra o tamanho do lixo. LIMPAR esvazia tudo e mostra o espaço liberado."
    },
-   "html": "<p>O círculo da tela inicial mostra o tamanho do lixo na lixeira: fotos e vídeos apagados mais o cache dos apps. Toque em <strong>LIMPAR</strong>, acompanhe a animação de progresso em tela cheia e veja exatamente quanto espaço você liberou.</p>"
+   "html": "<p>O círculo da tela inicial mostra o tamanho da sua lixeira: fotos e vídeos apagados mais o cache do próprio CleanKoach. Toque em <strong>LIMPAR</strong>, acompanhe a animação de progresso em tela cheia e veja exatamente quanto espaço você liberou.</p>"
   },
   {
    "id": "how-it-works",
@@ -102,9 +102,9 @@
       "O Otimizador de fotos e o Otimizador de vídeos mostram o espaço economizado"
      ],
      [
-      "Esvaziar a lixeira e o cache dos apps",
-      "A lixeira e o cache de cada app ficam em lugares diferentes",
-      "LIMPAR esvazia os dois com um toque"
+      "Esvaziar a lixeira",
+      "Lixeira na galeria, cache nas configurações dos apps",
+      "LIMPAR esvazia as fotos e os vídeos apagados e o cache do próprio CleanKoach com um toque"
      ]
     ]
    }
@@ -133,8 +133,8 @@
      "rows": [
       [
        "Cobertura",
-       "Arquivos grandes, duplicados, fotos semelhantes, capturas de tela, cache",
-       "Os cinco, mais a lixeira"
+       "Arquivos grandes, duplicados, fotos semelhantes, capturas de tela, lixeira",
+       "Os cinco"
       ],
       [
        "Clareza",
@@ -212,7 +212,7 @@
  "faqs": [
   {
    "q": "Qual é o melhor app de limpeza para Android?",
-   "a": "O CleanKoach. Ele cobre tudo o que costuma encher o armazenamento: arquivos grandes, duplicados, fotos semelhantes, capturas de tela e cache dos apps, e ainda acrescenta compressão de fotos e vídeos. Tudo é analisado no seu celular."
+   "a": "O CleanKoach. Ele cobre tudo o que costuma encher o armazenamento: arquivos grandes, arquivos duplicados, fotos semelhantes, capturas de tela e lixeira, e ainda acrescenta compressão de fotos e vídeos, tudo analisado no seu celular."
   },
   {
    "q": "O CleanKoach é grátis?",
@@ -244,7 +244,7 @@
   },
   {
    "q": "O que o botão LIMPAR faz?",
-   "a": "Ele esvazia o tamanho do seu lixo, ou seja, as fotos e os vídeos apagados mais o cache dos apps, e depois mostra o espaço liberado."
+   "a": "Ele esvazia o tamanho da sua lixeira, ou seja, as fotos e os vídeos apagados mais o cache do próprio CleanKoach, e depois mostra quanto espaço você liberou."
   },
   {
    "q": "O que é o Monitor de atividade e por que ele precisa de acesso aos dados de uso?",

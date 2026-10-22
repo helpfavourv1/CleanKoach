@@ -1,0 +1,189 @@
+{
+ "slug": "is-phone-cleaner-app-safe",
+ "title": "Sind Cleaner-Apps sicher? Das sollten Sie prüfen",
+ "h1": "Sind Handy-Cleaner-Apps sicher?",
+ "meta_description": "Sind Cleaner-Apps sicher? Warnsignale, nötige Berechtigungen und wie CleanKoach mit Ihren Dateien, der Werbung und Ihren Daten auf dem Handy umgeht.",
+ "keywords": [
+  "sind Handy-Cleaner-Apps sicher",
+  "ist eine Handy-Cleaner-App sicher",
+  "sind Cleaner-Apps sicher",
+  "Berechtigungen von Handy-Cleaner-Apps"
+ ],
+ "tagline": "Warnsignale, Berechtigungen und was Sie prüfen sollten",
+ "quick_answer": "<p><strong>Manche Handy-Cleaner-Apps sind sicher, andere nicht, prüfen Sie also vor der Installation.</strong> Ein sicherer Cleaner fragt nur die Berechtigungen an, die er braucht, funktioniert ohne Konto, analysiert Dateien auf Ihrem Handy und schüchtert Sie nicht zum Antippen ein. CleanKoach analysiert Dateien auf Ihrem Gerät, lädt sie nie hoch und hat keine Konten.</p>",
+ "intro": "<p>Cleaner-Apps haben einen gemischten Ruf, weil sich einige schlecht verhalten. Hier steht, worauf Sie achten sollten, was CleanKoach anfragt und warum und wie Sie jede App selbst überprüfen können.</p>",
+ "sections": [
+  {
+   "id": "risks",
+   "h2": "Was bei einem Cleaner schiefgehen kann",
+   "html": "<ul><li><strong>Gefälschte Warnungen:</strong> Hinweise, Ihr Handy sei infiziert oder überhitzt, um Sie zum Antippen zu drängen.</li><li><strong>Zu viele Berechtigungen:</strong> Zugriff auf Kontakte, Nachrichten oder Standort, den ein Cleaner nicht braucht.</li><li><strong>Weggeschickte Dateien:</strong> Fotos oder Prüfergebnisse, die auf einen Server hochgeladen werden.</li><li><strong>Versteckte Kosten:</strong> ein kostenloser Scan, der in einem unerwarteten Abo endet.</li><li><strong>Aggressive Werbung:</strong> Pop-ups außerhalb der App.</li></ul>",
+   "see": [
+    [
+     "stop-phone-cleaner-popping-up",
+     "So hindern Sie eine Cleaner-App an Pop-ups"
+    ]
+   ]
+  },
+  {
+   "id": "checklist",
+   "h2": "Eine Checkliste vor der Installation",
+   "html": "<p>Nehmen Sie sich eine Minute für die Store-Seite.</p>",
+   "table": {
+    "caption": "Sichere Zeichen und Warnsignale bei einem Handy-Cleaner",
+    "headers": [
+     "Prüfpunkt",
+     "Sicheres Zeichen",
+     "Warnsignal"
+    ],
+    "rows": [
+     [
+      "Berechtigungen",
+      "Fotos, Videos und Audiodateien, dazu erklärte optionale Extras",
+      "Kontakte, Nachrichten, Standort oder Anrufliste"
+     ],
+     [
+      "Konto",
+      "Nicht nötig",
+      "Erzwungene Anmeldung"
+     ],
+     [
+      "Wohin die Dateien gehen",
+      "Auf dem Handy analysiert",
+      "Auf Server hochgeladen"
+     ],
+     [
+      "Preise",
+      "Klar und von Anfang an genannt",
+      "Kostenloser Scan, dann eine unerwartete Abbuchung"
+     ],
+     [
+      "Warnungen",
+      "Keine, außer Sie aktivieren sie",
+      "Gefälschte Virus- oder Überhitzungswarnungen"
+     ],
+     [
+      "Datenschutzerklärung",
+      "Konkret, was erfasst wird und was nicht",
+      "Fehlt oder ist vage"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "permissions",
+   "h2": "Was CleanKoach anfragt und warum",
+   "html": "<p>Jede Berechtigung hat genau eine Aufgabe.</p>",
+   "table": {
+    "caption": "Berechtigungen von CleanKoach und wofür jede genutzt wird",
+    "headers": [
+     "Berechtigung",
+     "Verwendet für",
+     "Optional?"
+    ],
+    "rows": [
+     [
+      "Fotos, Videos und Audiodateien",
+      "Große Dateien, Duplikate, Ähnliche Fotos und Screenshots finden",
+      "Für die Bereinigungswerkzeuge nötig"
+     ],
+     [
+      "Medienverwaltung (Android 12 und neuer)",
+      "Die gewählten Elemente löschen, ohne jedes Mal nachzufragen",
+      "Ja"
+     ],
+     [
+      "Zugriff auf Nutzungsdaten",
+      "Nur für den Aktivitätsmonitor",
+      "Ja"
+     ],
+     [
+      "Benachrichtigungen",
+      "Wöchentliche Bereinigungserinnerungen und Speicherhinweise",
+      "Ja, nur wenn Sie sie aktivieren"
+     ],
+     [
+      "Internet und Netzwerkstatus",
+      "Werbung laden, Käufe prüfen, WLAN-Sicherheit und Netzwerkgeschwindigkeit",
+      "Wird genutzt, wenn diese Funktionen laufen"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "never",
+   "h2": "Was CleanKoach nie tut",
+   "html": "<ul><li>Es lädt Ihre Fotos, Videos oder Audiodateien nicht hoch.</li><li>Es lädt keine Prüfergebnisse, Nutzungsstatistiken oder WLAN-Testergebnisse hoch.</li><li>Es hat keine Konten.</li><li>Es löscht nichts, bevor Sie es auswählen und bestätigen.</li></ul><p>Die <a href=\"/privacy.html\">Datenschutzerklärung</a> führt jeden dieser Punkte im Detail auf.</p>"
+  },
+  {
+   "id": "ads-data",
+   "h2": "Werbung und Ihre Daten, ganz klar gesagt",
+   "html": "<p>CleanKoach zeigt Werbung über Google AdMob. Wenn Werbung ausgespielt wird, kann Google Ihre Werbe-ID und übliche Daten zur Anzeigeninteraktion nach Googles eigener Datenschutzerklärung erfassen. Das ist getrennt von Ihren Dateien, die auf Ihrem Handy bleiben. Im Europäischen Wirtschaftsraum und im Vereinigten Königreich werden Sie zuerst um Einwilligung gebeten. Wenn Sie Pro kaufen, wird die Werbung entfernt, und die App erfasst keine Werbe-ID mehr.</p>",
+   "see": [
+    [
+     "free-phone-cleaner-android",
+     "Kostenloser Handy-Cleaner für Android"
+    ]
+   ]
+  },
+  {
+   "id": "verify",
+   "h2": "So prüfen Sie jede App selbst",
+   "html": "<ol><li><strong>Lesen Sie die Berechtigungen</strong> vor der Installation und noch einmal in den Android-Einstellungen unter Apps.</li><li><strong>Lesen Sie die Datenschutzerklärung</strong> und achten Sie darauf, was erfasst wird.</li><li><strong>Lassen Sie Google Play Protect eingeschaltet.</strong> Es prüft Apps auf schädliches Verhalten.</li><li><strong>Verweigern Sie, was nicht nötig ist.</strong> Ein guter Cleaner funktioniert auch ohne optionale Berechtigungen.</li><li><strong>Deinstallieren Sie</strong> alles, was außerhalb der App aufpoppt oder Ihnen Angst macht.</li></ol>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Sind Handy-Cleaner-Apps sicher?",
+   "a": "Manche ja, manche nicht. Prüfen Sie die Berechtigungen, ob ein Konto nötig ist, wo Dateien analysiert werden und wie die App mit Warnungen und Werbung umgeht."
+  },
+  {
+   "q": "Ist CleanKoach sicher?",
+   "a": "CleanKoach analysiert Ihre Dateien auf Ihrem Handy, lädt sie nie hoch, hat keine Konten und löscht nichts, bevor Sie es auswählen und Android es bestätigt."
+  },
+  {
+   "q": "Welche Berechtigungen braucht ein Cleaner wirklich?",
+   "a": "Der Zugriff auf Fotos, Videos und Audiodateien reicht für die Hauptwerkzeuge. Alles andere sollte optional und erklärt sein."
+  },
+  {
+   "q": "Liest CleanKoach meine Nachrichten oder Kontakte?",
+   "a": "Nein. Es fragt keinen Zugriff auf Kontakte, Nachrichten oder Standort an."
+  },
+  {
+   "q": "Warum braucht CleanKoach den Zugriff auf Nutzungsdaten?",
+   "a": "Nur für den Aktivitätsmonitor, der die App-Nutzung der letzten 24 Stunden zeigt. Er ist optional, und die Daten bleiben auf Ihrem Gerät."
+  },
+  {
+   "q": "Erfasst CleanKoach über die Werbung Daten?",
+   "a": "Wenn Werbung ausgespielt wird, kann Google Ihre Werbe-ID und Daten zur Anzeigeninteraktion erfassen, wie in Googles Datenschutzerklärung beschrieben. Pro entfernt die Werbung, und die App erfasst dann keine Werbe-ID mehr."
+  },
+  {
+   "q": "Kann eine Cleaner-App mein Handy beschädigen?",
+   "a": "Eine schlecht gemachte oder bösartige kann es, indem sie Dateien löscht, die Sie behalten wollten, oder unerwünschte Apps aufdrängt. Prüfen Sie vorher Berechtigungen und Bewertungen und lassen Sie Play Protect eingeschaltet."
+  },
+  {
+   "q": "Wie prüfe ich eine App, die ich schon installiert habe?",
+   "a": "Öffnen Sie die Android-Einstellungen, dann Apps, wählen Sie die App und prüfen Sie ihre Berechtigungen. Starten Sie im Play Store einen Play-Protect-Scan."
+  },
+  {
+   "q": "Zeigt CleanKoach gefälschte Virenwarnungen?",
+   "a": "Nein. CleanKoach zeigt keine gefälschten Virenwarnungen. Die einzigen Benachrichtigungen sind optionale wöchentliche Bereinigungserinnerungen und Speicherhinweise, die Sie selbst aktivieren."
+  },
+  {
+   "q": "Muss ich für CleanKoach bezahlen, damit es sicher ist?",
+   "a": "Nein. Jede Funktion ist kostenlos. Pro entfernt nur die Werbung."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Use Google Play Protect to help keep your apps safe and your data private, Google Play Help",
+   "url": "https://support.google.com/googleplay/answer/2812853",
+   "note": "Wie Play Protect Apps auf schädliches Verhalten prüft und wie Sie bestätigen, dass es aktiviert ist."
+  },
+  {
+   "title": "User Data policy, Google Play Console Help",
+   "url": "https://support.google.com/googleplay/android-developer/answer/10144311",
+   "note": "Google Play verlangt, dass Apps vor Laufzeitberechtigungen eine Erklärung in der App anzeigen."
+  }
+ ],
+ "related": []
+}

@@ -1,0 +1,150 @@
+{
+ "slug": "phone-cleaner-iphone",
+ "title": "Cleaner per iPhone: cosa funziona davvero",
+ "h1": "Cleaner per telefono iPhone",
+ "meta_description": "Non esiste CleanKoach per iPhone: è un'app per Android. Ecco come liberare spazio su iPhone con gli strumenti integrati in iOS, passo dopo passo.",
+ "keywords": [
+  "cleaner telefono iphone",
+  "app di pulizia iphone",
+  "pulire la memoria di iphone",
+  "liberare spazio su iphone"
+ ],
+ "tagline": "CleanKoach è solo per Android. Ecco cosa offre iPhone",
+ "quick_answer": "<p><strong>CleanKoach è un'app per Android e al momento non esiste una versione per iPhone.</strong> Per liberare spazio su un iPhone, usa gli strumenti integrati in iOS: apri Impostazioni, Generali, Spazio iPhone, segui i suggerimenti, rimuovi le app che usi di rado e attiva Ottimizza spazio iPhone se usi Foto di iCloud.</p>",
+ "intro": "<p>Se sei arrivato qui cercando un cleaner per iPhone, è meglio sapere subito la risposta. CleanKoach è sviluppata in modo nativo per Android. I passaggi seguenti usano solo ciò che offre Apple.</p>",
+ "sections": [
+  {
+   "id": "android-only",
+   "h2": "CleanKoach è per Android",
+   "html": "<p>CleanKoach è un'app Android nativa, progettata per Android 9 e versioni successive, disponibile su Google Play. Al momento non esiste una versione per iPhone o iPad, quindi non c'è nulla da installare su un iPhone.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La migliore app di pulizia per telefono Android"
+    ]
+   ]
+  },
+  {
+   "id": "check",
+   "h2": "Controlla cosa occupa la memoria del tuo iPhone",
+   "html": "<ol><li>Apri <strong>Impostazioni</strong>, poi <strong>Generali</strong>.</li><li>Tocca <strong>Spazio iPhone</strong>. Vedi i suggerimenti e un elenco di app con lo spazio usato da ciascuna.</li><li>Tocca il nome di un'app per i dettagli.</li></ol><p>Apple precisa che i dati in cache e temporanei potrebbero non essere conteggiati come utilizzo in questo elenco.</p>"
+  },
+  {
+   "id": "recommendations",
+   "h2": "Usa i suggerimenti integrati",
+   "html": "<p>Se la memoria è piena, tocca <strong>Mostra tutto</strong> nella sezione Spazio per vedere i suggerimenti. Tocca <strong>Attiva</strong> per attivarne uno, oppure toccalo per controllare cosa puoi eliminare. Su iOS 17 e versioni successive, l'elenco Consigliati per te nei passaggi di Apple sullo spazio per le foto può segnalare foto, file grandi o backup che potresti non volere.</p>"
+  },
+  {
+   "id": "apps",
+   "h2": "Rimuovi o elimina le app",
+   "html": "<p>Apri la voce di un'app in Spazio iPhone e scegli di rimuoverla. Così liberi lo spazio occupato dall'app e conservi i suoi documenti e dati. Eliminare l'app rimuove anche i dati correlati.</p>"
+  },
+  {
+   "id": "photos",
+   "h2": "Gestisci foto e video",
+   "html": "<p>Foto e video sono di solito la voce più grande. Se usi Foto di iCloud, attiva <strong>Ottimizza spazio iPhone</strong>: gli originali a piena risoluzione restano in iCloud e sul telefono rimangono copie più piccole quando serve spazio. Apple suggerisce anche di unire foto e video duplicati. Dipende dall'avere abbastanza spazio su iCloud.</p>"
+  },
+  {
+   "id": "comparison",
+   "h2": "Android e iPhone a confronto",
+   "html": "<p>Le stesse operazioni esistono su entrambi, in posti diversi.</p>",
+   "table": {
+    "caption": "Operazioni sulla memoria su Android con CleanKoach e su iPhone",
+    "headers": [
+     "Operazione",
+     "Su Android",
+     "Su iPhone"
+    ],
+    "rows": [
+     [
+      "Vedere cosa occupa spazio",
+      "Memoria nella schermata iniziale e Impostazioni di Android",
+      "Impostazioni, Generali, Spazio iPhone"
+     ],
+     [
+      "Trovare i file pesanti",
+      "File grandi di CleanKoach",
+      "Suggerimenti di Spazio iPhone e dettagli per app"
+     ],
+     [
+      "Rimuovere i duplicati",
+      "Duplicati di CleanKoach",
+      "Unire i duplicati in Foto"
+     ],
+     [
+      "Liberare spazio dalle app",
+      "Impostazioni di Android",
+      "Rimuovere o eliminare le app in Spazio iPhone"
+     ],
+     [
+      "Ridurre le foto",
+      "Ottimizzatore foto di CleanKoach",
+      "Ottimizza spazio iPhone con Foto di iCloud"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "care",
+   "h2": "Una nota sulle app di pulizia per iPhone",
+   "html": "<p>Gli strumenti per la memoria di Apple coprono la maggior parte delle esigenze. Se provi un'app di terze parti, controlla cosa chiede e se richiede un account, proprio come faresti su Android.</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Le app di pulizia sono sicure?"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Esiste un'app CleanKoach per iPhone?",
+   "a": "No. CleanKoach è un'app per Android e al momento non esiste una versione per iPhone."
+  },
+  {
+   "q": "Come pulisco la memoria del mio iPhone?",
+   "a": "Apri Impostazioni, Generali, Spazio iPhone, segui i suggerimenti e rimuovi o elimina le app che non usi."
+  },
+  {
+   "q": "Cosa fa la rimozione di un'app?",
+   "a": "Libera lo spazio usato dall'app e conserva i suoi documenti e dati. Puoi reinstallare l'app in seguito."
+  },
+  {
+   "q": "Come trovo cosa occupa la memoria del mio iPhone?",
+   "a": "Impostazioni, Generali, Spazio iPhone mostra un elenco di app con lo spazio usato da ciascuna, oltre ai suggerimenti."
+  },
+  {
+   "q": "Come posso risparmiare spazio con le foto su iPhone?",
+   "a": "Con Foto di iCloud attivo, attiva Ottimizza spazio iPhone così sul telefono restano copie più piccole. Puoi anche unire i duplicati in Foto."
+  },
+  {
+   "q": "iPhone ha uno strumento per trovare i duplicati?",
+   "a": "Apple suggerisce di unire le foto e i video duplicati in Foto per liberare spazio."
+  },
+  {
+   "q": "Posso usare CleanKoach su un iPad?",
+   "a": "No. CleanKoach è per telefoni e tablet Android."
+  },
+  {
+   "q": "Quali versioni di Android supporta CleanKoach?",
+   "a": "Android 9 e versioni successive."
+  },
+  {
+   "q": "Dove posso ottenere CleanKoach?",
+   "a": "Su Google Play, per Android."
+  }
+ ],
+ "citations": [
+  {
+   "title": "How to check the storage on your iPhone and iPad, Apple Support",
+   "url": "https://support.apple.com/en-us/108429",
+   "note": "I passaggi di Apple per controllare lo spazio su iPhone, usare i suggerimenti e rimuovere le app."
+  },
+  {
+   "title": "Manage your photo and video storage, Apple Support",
+   "url": "https://support.apple.com/en-us/105061",
+   "note": "Le indicazioni di Apple su Ottimizza spazio iPhone, Foto di iCloud e unione dei duplicati."
+  }
+ ],
+ "related": []
+}

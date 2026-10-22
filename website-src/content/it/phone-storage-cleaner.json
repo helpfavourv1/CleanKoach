@@ -1,0 +1,159 @@
+{
+ "slug": "phone-storage-cleaner",
+ "title": "Cleaner di memoria per telefono: come funziona",
+ "h1": "Come funziona un cleaner di memoria",
+ "meta_description": "Un cleaner di memoria trova ciò che riempie la memoria di Android e ti aiuta a liberarla in sicurezza. Scopri come analizza CleanKoach e cosa non tocca mai.",
+ "keywords": [
+  "cleaner di memoria per telefono",
+  "cleaner di memoria Android",
+  "come funziona un'app di pulizia",
+  "liberare memoria del telefono"
+ ],
+ "tagline": "Cosa analizza un cleaner di memoria e cosa lascia stare",
+ "quick_answer": "<p><strong>Un cleaner di memoria elenca ciò che sta riempiendo la memoria, così puoi rimuoverlo.</strong> CleanKoach legge la tua libreria di foto, video e audio sul telefono, mostra i file più grandi, trova i duplicati identici e le foto quasi identiche, raccoglie gli screenshot e svuota il cestino. Scegli tu cosa eliminare e nulla viene caricato.</p>",
+ "intro": "<p>La memoria si riempie lentamente e poi all'improvviso. Un cleaner fa la ricerca al posto tuo. Questa guida spiega cosa guarda CleanKoach, come decide e dove sono i suoi limiti.</p>",
+ "sections": [
+  {
+   "id": "where-space-goes",
+   "h2": "Dove va a finire la memoria",
+   "html": "<ul><li><strong>File grandi:</strong> una manciata di video può pesare più di migliaia di foto.</li><li><strong>Duplicati esatti:</strong> lo stesso file salvato due volte, spesso da un'app di messaggistica o da un backup.</li><li><strong>Foto quasi identiche:</strong> raffiche e scatti ripetuti.</li><li><strong>Screenshot:</strong> anni di screenshot.</li><li><strong>Cestino:</strong> contenuti multimediali eliminati ma non ancora svuotati.</li><li><strong>Cache:</strong> file temporanei che le app conservano.</li><li><strong>App e relativi dati:</strong> si gestiscono nelle impostazioni di memoria di Android.</li></ul>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La migliore app di pulizia per telefono Android"
+    ]
+   ]
+  },
+  {
+   "id": "how-it-scans",
+   "h2": "Come analizza CleanKoach",
+   "html": "<ol><li><strong>Legge la tua libreria multimediale</strong> una volta che consenti l'accesso a foto, video e audio. Tutto avviene sul tuo telefono.</li><li><strong>File grandi</strong> sono ordinati per dimensione, dal più grande.</li><li><strong>Duplicati</strong> vengono trovati confrontando il contenuto dei file con un'impronta SHA-256, quindi due file con nomi diversi ma contenuto identico vengono raggruppati, mentre due con lo stesso nome ma contenuto diverso no.</li><li><strong>Foto simili</strong> vengono trovate confrontando una piccola impronta dell'aspetto di ciascuna immagine. Le foto che sembrano quasi uguali vengono raggruppate e il file più grande di ogni gruppo è suggerito come quello da tenere. Puoi sceglierne un altro.</li><li><strong>Screenshot</strong> sono raccolti in un unico elenco.</li></ol>"
+  },
+  {
+   "id": "tools",
+   "h2": "Quale strumento risponde a quale domanda",
+   "html": "<p>Ogni strumento mostra le dimensioni prima che tu agisca.</p>",
+   "table": {
+    "caption": "Gli strumenti di CleanKoach e la domanda a cui risponde ciascuno",
+    "headers": [
+     "Strumento",
+     "Domanda a cui risponde",
+     "Cosa vedi"
+    ],
+    "rows": [
+     [
+      "File grandi",
+      "Cosa occupa più spazio?",
+      "Foto, video e audio ordinati per dimensione"
+     ],
+     [
+      "Duplicati",
+      "Ho copie esatte?",
+      "Gruppi di file identici e lo spazio che puoi recuperare"
+     ],
+     [
+      "Foto simili",
+      "Ho scatti ripetuti?",
+      "Gruppi di foto quasi identiche, con una suggerita da tenere"
+     ],
+     [
+      "Screenshot",
+      "Posso eliminare i vecchi screenshot in un colpo solo?",
+      "Ogni screenshot in un unico elenco"
+     ],
+     [
+      "Ottimizzatore foto e Ottimizzatore video",
+      "Posso tenerlo ma più piccolo?",
+      "Copie compresse e lo spazio risparmiato"
+     ],
+     [
+      "Pulisci",
+      "Cosa può andare via con un tocco?",
+      "Foto e video eliminati più la cache dell'app"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "control",
+   "h2": "Il controllo resta a te",
+   "html": "<p>CleanKoach non elimina mai nulla da sola. Selezioni tu i file e Android chiede conferma prima di eliminare i contenuti multimediali. Su Android 12 e versioni successive puoi consentire facoltativamente la gestione dei contenuti multimediali, che permette a CleanKoach di eliminare gli elementi che hai scelto senza una richiesta di conferma ogni volta. Puoi disattivarla nelle Impostazioni di Android quando vuoi.</p>"
+  },
+  {
+   "id": "compress",
+   "h2": "La compressione libera spazio solo quando elimini l'originale",
+   "html": "<p>Ottimizzatore foto e Ottimizzatore video salvano una copia più piccola in una cartella di CleanKoach e lasciano l'originale dov'è. Così i tuoi ricordi sono al sicuro, ma lo spazio viene liberato solo quando rimuovi tu l'originale. Controlla prima la copia più piccola, poi elimina l'originale.</p>"
+  },
+  {
+   "id": "limits",
+   "h2": "Cosa non può fare un cleaner di memoria",
+   "html": "<ul><li>Non rimuove le tue app. Disinstallale dalle Impostazioni di Android.</li><li>Pulisci svuota il cestino e la cache di CleanKoach. Non svuota le cache né i dati delle altre app.</li><li>Non rende il telefono più veloce da solo. Lo spazio libero dà al telefono margine di manovra, nient'altro.</li></ul><p>Per le app e i loro dati, usa le impostazioni di memoria di Android.</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Le app di pulizia sono sicure?"
+    ]
+   ]
+  },
+  {
+   "id": "routine",
+   "h2": "Mantieni libera la memoria",
+   "html": "<p>Controlla File grandi una volta al mese, svuota Screenshot dopo grandi eventi ed esegui Duplicati dopo un backup di un'app di messaggistica. I promemoria settimanali di pulizia sono facoltativi e si possono disattivare nelle Impostazioni.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Cos'è un cleaner di memoria per telefono?",
+   "a": "Un'app che mostra cosa occupa la memoria del telefono e ti aiuta a rimuoverlo. CleanKoach copre file grandi, duplicati, foto simili, screenshot e cestino."
+  },
+  {
+   "q": "Come trova i duplicati CleanKoach?",
+   "a": "Confronta il contenuto dei file con un'impronta SHA-256, quindi i file identici vengono raggruppati anche se i nomi sono diversi."
+  },
+  {
+   "q": "Come trova le foto simili?",
+   "a": "Confronta una piccola impronta dell'aspetto di ogni foto. Le foto che sembrano quasi uguali vengono raggruppate e la più grande è suggerita come quella da tenere."
+  },
+  {
+   "q": "Posso cambiare quale foto simile viene tenuta?",
+   "a": "Sì. Il file più grande è solo un suggerimento. In ogni gruppo puoi scegliere un'altra foto da tenere."
+  },
+  {
+   "q": "CleanKoach elimina i file senza chiedere?",
+   "a": "No. Scegli tu cosa rimuovere e Android chiede conferma prima di eliminare i contenuti multimediali, a meno che tu non abbia consentito l'autorizzazione facoltativa di gestione dei contenuti multimediali."
+  },
+  {
+   "q": "Cos'è l'autorizzazione di gestione dei contenuti multimediali?",
+   "a": "Un'autorizzazione facoltativa di Android 12 e versioni successive che permette a CleanKoach di eliminare gli elementi che hai scelto senza chiedere ogni volta. Puoi disattivarla nelle Impostazioni di Android."
+  },
+  {
+   "q": "Pulisci svuota le cache delle altre app?",
+   "a": "No. Pulisci svuota foto e video eliminati e la cache di CleanKoach."
+  },
+  {
+   "q": "Comprimere una foto libera spazio subito?",
+   "a": "Non da solo. La copia più piccola viene salvata accanto all'originale, quindi lo spazio si libera quando elimini l'originale."
+  },
+  {
+   "q": "Un cleaner di memoria rende il telefono più veloce?",
+   "a": "Non direttamente. Libera spazio. CleanKoach non promette di aumentare la velocità."
+  },
+  {
+   "q": "I miei file vengono caricati?",
+   "a": "No. I file vengono analizzati sul tuo telefono. I tuoi contenuti, i dati di utilizzo e i risultati delle analisi non vengono mai caricati."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Free up storage on your Android device, Android Help",
+   "url": "https://support.google.com/android/answer/7431795",
+   "note": "I passaggi di Google per controllare la memoria, spostare foto e video nel cestino e svuotare la cache delle app."
+  },
+  {
+   "title": "User Data policy, Google Play Console Help",
+   "url": "https://support.google.com/googleplay/android-developer/answer/10144311",
+   "note": "Google Play richiede alle app di mostrare una spiegazione nell'app prima di chiedere le autorizzazioni di runtime."
+  }
+ ],
+ "related": []
+}

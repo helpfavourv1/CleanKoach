@@ -1,0 +1,159 @@
+{
+ "slug": "phone-cleaning-kit",
+ "title": "Kit de nettoyage pour téléphone : le contenu",
+ "h1": "Kit de nettoyage pour téléphone",
+ "meta_description": "Un kit de nettoyage pour téléphone ne demande que quelques éléments : microfibre, brosse douce, lingettes sûres. Contenu, éléments à éviter et rôle de CleanKoach.",
+ "keywords": [
+  "kit de nettoyage téléphone",
+  "kit de nettoyage téléphone essentiel",
+  "que contient un kit de nettoyage pour téléphone",
+  "kit nettoyeur de téléphone"
+ ],
+ "tagline": "Les quelques éléments utiles, et ce qu'il faut éviter",
+ "quick_answer": "<p><strong>Un bon kit de nettoyage pour téléphone est petit :</strong> un chiffon doux en microfibre, une brosse douce et sèche, des lingettes désinfectantes sûres et un moyen de retirer les peluches sans risque pour le port de charge. Pour les fichiers à l'intérieur du téléphone, ajoutez CleanKoach, une appli gratuite qui libère du stockage.</p>",
+ "intro": "<p>Les kits vendus en ligne sont souvent gonflés d'éléments inutiles. Cette liste reprend ce que décrivent réellement Apple et Google, la partie numérique étant couverte par CleanKoach.</p>",
+ "sections": [
+  {
+   "id": "physical",
+   "h2": "Le kit physique",
+   "html": "<ul><li><strong>Chiffon doux, non pelucheux :</strong> Apple et Google le citent tous deux en premier. Un chiffon en microfibre est le choix habituel.</li><li><strong>Brosse douce et sèche :</strong> pour la poussière sur les bords et la grille du haut-parleur.</li><li><strong>Lingettes désinfectantes :</strong> lingettes à l'alcool isopropylique à 70%, autorisées par Apple et Google, sans eau de Javel.</li><li><strong>Une lampe torche :</strong> pour regarder dans le port de charge avant de le nettoyer.</li></ul>"
+  },
+  {
+   "id": "digital",
+   "h2": "La moitié numérique",
+   "html": "<p>Un chiffon ne peut pas libérer de stockage. CleanKoach est le kit numérique : Gros fichiers, Doublons, Photos similaires, Captures d'écran, Optimiseur de photos et Optimiseur de vidéos, et Nettoyer en un geste. Toutes les fonctions sont gratuites.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La meilleure appli de nettoyage pour Android"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Quel élément pour quelle tâche",
+   "html": "<p>Un élément par tâche garde le kit léger.</p>",
+   "table": {
+    "caption": "Éléments d'un kit de nettoyage pour téléphone et tâche de chacun",
+    "headers": [
+     "Élément",
+     "Tâche",
+     "Remarques"
+    ],
+    "rows": [
+     [
+      "Chiffon en microfibre",
+      "Écran, dos et côtés",
+      "Sec pour la poussière, légèrement humide pour la crasse"
+     ],
+     [
+      "Brosse douce et sèche",
+      "Grille du haut-parleur et bords",
+      "À utiliser légèrement"
+     ],
+     [
+      "Lingettes à l'alcool isopropylique à 70%",
+      "Désinfection",
+      "Sans eau de Javel"
+     ],
+     [
+      "Lampe torche",
+      "Regarder dans le port",
+      "Ne rien enfoncer dedans"
+     ],
+     [
+      "CleanKoach",
+      "Stockage, doublons, photos et vidéos",
+      "Gratuite sur Android"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "skip",
+   "h2": "Ce qu'il faut laisser de côté",
+   "html": "<ul><li><strong>Aérosols et eau de Javel :</strong> Apple les déconseille.</li><li><strong>Air comprimé :</strong> Apple et Google le déconseillent.</li><li><strong>Pointes en métal :</strong> elles peuvent abîmer les ports et la grille des haut-parleurs.</li><li><strong>Tout ce qui est abrasif :</strong> cela peut rayer l'écran et user son revêtement.</li></ul>",
+   "see": [
+    [
+     "phone-screen-cleaner",
+     "Nettoyer l'écran d'un téléphone"
+    ],
+    [
+     "phone-charging-port-cleaner",
+     "Nettoyer le port de charge d'un téléphone"
+    ],
+    [
+     "phone-speaker-cleaner",
+     "Nettoyer le haut-parleur d'un téléphone"
+    ]
+   ]
+  },
+  {
+   "id": "routine",
+   "h2": "Une routine simple",
+   "html": "<ol><li><strong>Chaque semaine :</strong> essuyez l'écran et le dos avec un chiffon sec.</li><li><strong>Chaque mois :</strong> vérifiez le port de charge et la grille du haut-parleur, et passez en revue Gros fichiers dans CleanKoach.</li><li><strong>De temps en temps :</strong> désinfectez avec une lingette et retirez la coque pour nettoyer dessous.</li></ol>"
+  },
+  {
+   "id": "android",
+   "h2": "Sur Android ? Commencez ici",
+   "html": "<p>Installez CleanKoach depuis Google Play, autorisez l'accès aux photos, vidéos et audios, puis ouvrez Gros fichiers. Elle est conçue pour Android 9 et versions ultérieures.</p>",
+   "see": [
+    [
+     "phone-cleaner-iphone",
+     "Nettoyeur de téléphone pour iPhone"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Que doit contenir un kit de nettoyage pour téléphone ?",
+   "a": "Un chiffon doux non pelucheux, une brosse douce et sèche, des lingettes à l'alcool isopropylique à 70% et une lampe torche. Ajoutez CleanKoach pour le stockage sur Android."
+  },
+  {
+   "q": "Ai-je besoin d'un kit de nettoyage spécial pour téléphone ?",
+   "a": "Non. Les éléments de base sont bon marché et courants. Apple et Google conseillent tous deux un chiffon doux et non pelucheux."
+  },
+  {
+   "q": "L'alcool isopropylique est-il sans danger pour les téléphones ?",
+   "a": "Apple et Google autorisent tous deux les lingettes à l'alcool isopropylique à 70% sur l'extérieur. N'utilisez pas d'eau de Javel."
+  },
+  {
+   "q": "Que ne faut-il jamais utiliser ?",
+   "a": "Les aérosols, l'eau de Javel, les matériaux abrasifs, l'air comprimé et les outils en métal dans les ouvertures."
+  },
+  {
+   "q": "CleanKoach nettoie-t-elle le matériel ?",
+   "a": "Non. CleanKoach libère du stockage. Elle ne nettoie ni les écrans, ni les haut-parleurs, ni les ports."
+  },
+  {
+   "q": "CleanKoach peut-elle remplacer un kit de nettoyage ?",
+   "a": "Non. Un kit nettoie l'extérieur. CleanKoach nettoie les fichiers à l'intérieur. Il vous faut les deux."
+  },
+  {
+   "q": "CleanKoach est-elle gratuite ?",
+   "a": "Oui. Toutes les fonctions sont gratuites. Un achat Pro unique supprime les publicités."
+  },
+  {
+   "q": "Existe-t-il une version iPhone de CleanKoach ?",
+   "a": "Non. CleanKoach est réservée à Android."
+  },
+  {
+   "q": "À quelle fréquence faut-il nettoyer son téléphone ?",
+   "a": "Essuyez l'écran chaque semaine, vérifiez les ports et les haut-parleurs chaque mois, et passez en revue le stockage chaque mois."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Les conseils d'Apple sur les lingettes, les chiffons doux non pelucheux, l'air comprimé et l'humidité dans les ouvertures."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Les conseils de Google sur les chiffons, les lingettes, l'alcool isopropylique à 70% et ce qu'il faut éviter."
+  }
+ ],
+ "related": []
+}

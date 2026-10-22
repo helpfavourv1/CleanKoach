@@ -1,0 +1,151 @@
+{
+ "slug": "phone-screen-cleaner",
+ "title": "Nettoyer un écran de téléphone sans risque",
+ "h1": "Nettoyer l'écran d'un téléphone",
+ "meta_description": "CleanKoach ne nettoie pas l'écran d'un téléphone : elle libère du stockage. Voici comment nettoyer un écran avec un chiffon doux et éviter de le rayer.",
+ "keywords": [
+  "nettoyer écran téléphone",
+  "nettoyer l'écran d'un téléphone",
+  "comment nettoyer un écran de téléphone",
+  "nettoyage d'écran de téléphone"
+ ],
+ "tagline": "CleanKoach nettoie le stockage, pas le verre. Voici la méthode sûre",
+ "quick_answer": "<p><strong>Aucune appli ne nettoie l'écran d'un téléphone, et CleanKoach ne prétend pas le faire.</strong> Pour nettoyer le verre, éteignez le téléphone, débranchez-le, essuyez avec un chiffon doux non pelucheux, utilisez-en un légèrement humide pour la crasse, ne vaporisez jamais de liquide directement sur le téléphone et tenez l'humidité hors des ouvertures.</p>",
+ "intro": "<p>Un écran couvert de traces est le problème de téléphone le plus facile à régler, et le plus facile à aggraver. Apple et Google donnent le même conseil de base.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Pourquoi une appli ne peut pas le faire",
+   "html": "<p>Un écran accumule du gras et de la poussière sur le verre. CleanKoach agit sur les fichiers et le stockage, elle n'a donc aucun effet sur le verre. Utilisez-la pour le stockage et un chiffon pour l'écran.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La meilleure appli de nettoyage pour Android"
+    ]
+   ]
+  },
+  {
+   "id": "basic",
+   "h2": "Le nettoyage de base",
+   "html": "<ol><li><strong>Éteignez le téléphone</strong> et débranchez tous les câbles.</li><li><strong>Essuyez avec un chiffon doux non pelucheux.</strong> Un chiffon sec en microfibre retire la poussière, les traces et les marques.</li><li><strong>Pour la crasse,</strong> utilisez un chiffon légèrement humide, ou, sur un Pixel, une lingette pour écran ou un nettoyant pour lunettes.</li><li><strong>Essuyez doucement.</strong> Évitez de frotter trop fort.</li><li><strong>Laissez sécher</strong> avant de rallumer.</li></ol>"
+  },
+  {
+   "id": "disinfect",
+   "h2": "Désinfecter l'écran",
+   "html": "<p>Apple indique que vous pouvez utiliser une lingette à l'alcool isopropylique à 70%, une lingette à l'alcool éthylique à 75% ou des lingettes désinfectantes Clorox sur l'extérieur d'un iPhone, puis essuyer avec un chiffon doux, légèrement humide et non pelucheux. Google indique que les lingettes désinfectantes ménagères ou les lingettes à l'alcool isopropylique à 70% peuvent être utilisées sur un Pixel, y compris sur l'écran. Apple déconseille l'eau de Javel et le peroxyde d'hydrogène, et Google déconseille l'eau de Javel.</p><p>Des lingettes, pas du liquide : ne versez et ne vaporisez rien sur le téléphone.</p>"
+  },
+  {
+   "id": "avoid",
+   "h2": "Ce qu'il faut éviter",
+   "html": "<ul><li><strong>Aérosols et eau de Javel :</strong> Apple indique de ne pas utiliser d'aérosols, d'eau de Javel ni d'abrasifs.</li><li><strong>Vaporiser directement :</strong> ne vaporisez pas de produit nettoyant sur le téléphone.</li><li><strong>Humidité dans les ouvertures :</strong> gardez-la hors des ports et des haut-parleurs.</li><li><strong>Matériaux abrasifs :</strong> selon Apple, les produits de nettoyage et les abrasifs peuvent diminuer le revêtement oléophobe et risquent de rayer l'écran.</li><li><strong>Trempage :</strong> ne plongez pas le téléphone dans un produit nettoyant.</li></ul>",
+   "see": [
+    [
+     "phone-speaker-cleaner",
+     "Nettoyer le haut-parleur d'un téléphone"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Les traces et ce qui les enlève",
+   "html": "<p>Adaptez la méthode à la trace.</p>",
+   "table": {
+    "caption": "Traces courantes sur un écran et comment les enlever",
+    "headers": [
+     "Trace",
+     "Ce qui l'enlève",
+     "À éviter"
+    ],
+    "rows": [
+     [
+      "Poussière et traces de doigts",
+      "Chiffon sec, doux et non pelucheux",
+      "Frotter fort"
+     ],
+     [
+      "Traînées",
+      "Chiffon sec, puis légèrement humide",
+      "Vaporiser du liquide sur le verre"
+     ],
+     [
+      "Maquillage ou teinture de jean",
+      "Chiffon légèrement humide et non pelucheux",
+      "Tampons abrasifs"
+     ],
+     [
+      "Microbes",
+      "Lingette à l'alcool isopropylique à 70%, comme l'autorisent Apple et Google",
+      "Eau de Javel, et peroxyde d'hydrogène sur iPhone"
+     ],
+     [
+      "Peluches de poche sur les bords",
+      "Chiffon sec, puis brosse douce et sèche",
+      "Outils pointus"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "protector",
+   "h2": "Protections d'écran et coques",
+   "html": "<p>Si vous utilisez une protection d'écran, nettoyez-la de la même façon. Retirez la coque de temps en temps et essuyez le téléphone et la coque séparément pour que les grains de poussière ne rayent pas le dos ni les bords.</p>",
+   "see": [
+    [
+     "phone-cleaning-kit",
+     "Kit de nettoyage pour téléphone"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Une appli peut-elle nettoyer l'écran de mon téléphone ?",
+   "a": "Non. Un écran est en verre. CleanKoach libère du stockage et ne peut pas nettoyer un écran."
+  },
+  {
+   "q": "Quelle est la façon la plus sûre de nettoyer un écran de téléphone ?",
+   "a": "Éteignez le téléphone, débranchez-le et essuyez avec un chiffon doux non pelucheux. Utilisez un chiffon légèrement humide pour la crasse."
+  },
+  {
+   "q": "Puis-je utiliser de l'alcool isopropylique sur l'écran de mon téléphone ?",
+   "a": "Apple autorise une lingette à l'alcool isopropylique à 70% sur l'extérieur d'un iPhone, et Google autorise les lingettes à l'alcool isopropylique à 70% sur un Pixel, écran compris. Utilisez une lingette, pas du liquide."
+  },
+  {
+   "q": "Puis-je utiliser de l'eau de Javel ou du peroxyde d'hydrogène ?",
+   "a": "Non. Apple déconseille les deux sur iPhone, et Google déconseille l'eau de Javel sur Pixel."
+  },
+  {
+   "q": "Dois-je vaporiser du produit nettoyant sur l'écran ?",
+   "a": "Non. Ne vaporisez pas de produit nettoyant directement sur le téléphone. Utilisez une lingette ou un chiffon humide."
+  },
+  {
+   "q": "Pourquoi mon écran devient-il gras ?",
+   "a": "Le sébum de la peau et la poussière se déposent sur le verre. Un chiffon sec en microfibre en retire la plus grande partie."
+  },
+  {
+   "q": "Le nettoyage peut-il abîmer le revêtement de l'écran ?",
+   "a": "Selon Apple, les produits de nettoyage et les matériaux abrasifs peuvent diminuer le revêtement oléophobe et risquent de rayer l'écran : restez donc délicat."
+  },
+  {
+   "q": "À quelle fréquence faut-il nettoyer son téléphone ?",
+   "a": "Aussi souvent qu'il paraît sale. Essuyez l'écran dès que vous remarquez des traces."
+  },
+  {
+   "q": "CleanKoach nettoie-t-elle mon écran ?",
+   "a": "Non. CleanKoach libère du stockage, pas du verre."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Les conseils d'Apple sur les lingettes, les chiffons doux non pelucheux et ce qui peut abîmer le revêtement de l'écran."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Les conseils de Google sur les chiffons, les lingettes, l'alcool isopropylique à 70% et ce qu'il faut éviter."
+  }
+ ],
+ "related": []
+}

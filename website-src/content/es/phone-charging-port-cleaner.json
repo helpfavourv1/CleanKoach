@@ -1,0 +1,115 @@
+{
+ "slug": "phone-charging-port-cleaner",
+ "title": "Limpiador del puerto de carga del móvil",
+ "h1": "Limpiador del puerto de carga del móvil",
+ "meta_description": "CleanKoach es software y no puede limpiar un puerto de carga. Así se limpia uno con seguridad: apaga, retira la suciedad con cuidado y evita los líquidos.",
+ "keywords": [
+  "limpiador del puerto de carga del móvil",
+  "limpiar el puerto de carga del móvil",
+  "limpieza del puerto de carga",
+  "el puerto del cargador del móvil no funciona"
+ ],
+ "tagline": "CleanKoach limpia el almacenamiento, no los puertos. Esta es la forma segura",
+ "quick_answer": "<p><strong>Una app no puede limpiar un puerto de carga, y CleanKoach no lo intenta.</strong> CleanKoach libera almacenamiento. Para limpiar el puerto, apaga el teléfono, desconecta todo, golpea suavemente para sacar la suciedad suelta con el puerto hacia abajo, no metas nunca nada dentro y mantén los líquidos lejos. Si sigue sin cargar, consulta a un taller de reparación.</p>",
+ "intro": "<p>Un teléfono que carga despacio o no carga suele tener el puerto obstruido por pelusa del bolsillo. Es un problema físico, así que el software no puede solucionarlo. Estos pasos son cautelosos a propósito.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Lo que el software puede y no puede hacer",
+   "html": "<p>CleanKoach libera espacio de almacenamiento. No puede tocar el hardware, así que no puede quitar la pelusa de un puerto de carga, y cualquier app que diga que puede no está diciendo la verdad. Usa una app limpiadora para el almacenamiento y los pasos de abajo para el puerto.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La mejor app para limpiar el móvil Android"
+    ]
+   ]
+  },
+  {
+   "id": "signs",
+   "h2": "Señales de que el puerto necesita atención",
+   "html": "<ul><li>Hay que sujetar el cable inclinado para que cargue.</li><li>La carga es lenta o se interrumpe una y otra vez.</li><li>El cable queda suelto en el puerto.</li><li>Tu teléfono muestra un aviso de líquido o de suciedad.</li></ul>"
+  },
+  {
+   "id": "steps",
+   "h2": "Cómo limpiar el puerto",
+   "html": "<ol><li><strong>Apaga el teléfono</strong> y desconecta el cargador, el cable y los auriculares.</li><li><strong>Mira dentro del puerto</strong> con una linterna. La pelusa compactada en el fondo es la causa habitual.</li><li><strong>Saca la suciedad suelta con golpecitos.</strong> Sujeta el teléfono con el puerto hacia abajo y dale golpecitos suaves contra la mano.</li><li><strong>Si el puerto está mojado,</strong> deja el teléfono apagado sobre una superficie plana para que se seque a temperatura ambiente.</li><li><strong>Prueba con otro cable.</strong> Un cable gastado puede parecer un fallo del puerto.</li></ol>"
+  },
+  {
+   "id": "avoid",
+   "h2": "Qué evitar",
+   "html": "<ul><li><strong>Herramientas metálicas:</strong> los alfileres y las agujas pueden rayar los contactos o provocar un cortocircuito.</li><li><strong>Líquidos:</strong> mantén el agua, el jabón y los productos de limpieza lejos de las aberturas.</li><li><strong>Aire comprimido:</strong> tanto Apple como Google desaconsejan usarlo, así que no lo uses.</li><li><strong>Cargar con el puerto mojado:</strong> espera a que esté seco.</li></ul><p>Apple y Google coinciden en que hay que mantener la humedad fuera de las aberturas.</p>"
+  },
+  {
+   "id": "help",
+   "h2": "Cuándo buscar ayuda",
+   "html": "<p>Si el puerto parece quemado, derretido o corroído, el aviso dura dos horas o más, o el teléfono está demasiado caliente para tocarlo, deja de cargar y contacta con el fabricante o con un taller de reparación. Un puerto suelto o dañado necesita una reparación, no más limpieza.</p>"
+  },
+  {
+   "id": "messages",
+   "h2": "Si ves un aviso de líquido o de suciedad",
+   "html": "<p>Algunos teléfonos te avisan cuando detectan humedad o suciedad en el puerto. En un Pixel, desconecta todo, deja que el teléfono se enfríe, seca el puerto y espera unos minutos hasta que aparezca el mensaje de que ya todo está bien. Otros fabricantes tienen pasos similares en sus páginas de asistencia.</p>"
+  },
+  {
+   "id": "care",
+   "h2": "Mantén limpio el puerto",
+   "html": "<p>Lleva el teléfono en un bolsillo sin tela suelta y tapa el puerto con un tapón si tu funda lo incluye. Revisa el puerto cuando la carga se ralentice, no cuando se detenga.</p>",
+   "see": [
+    [
+     "phone-cleaning-kit",
+     "Kit de limpieza para el móvil"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "¿Puede una app limpiar el puerto de carga de mi móvil?",
+   "a": "No. Un puerto de carga es hardware. CleanKoach libera almacenamiento y no puede limpiar puertos."
+  },
+  {
+   "q": "¿Cómo limpio un puerto de carga con seguridad?",
+   "a": "Apaga el teléfono, desconecta todo, saca la suciedad suelta con golpecitos con el puerto hacia abajo y mantén lejos los líquidos y las herramientas metálicas."
+  },
+  {
+   "q": "¿Puedo usar un palillo o un alfiler?",
+   "a": "Evita cualquier cosa que tengas que meter en el puerto y no uses nunca metal. Las indicaciones de Google dicen que no se debe introducir nada en el puerto."
+  },
+  {
+   "q": "¿Es seguro el aire comprimido en un puerto de carga?",
+   "a": "Apple dice que no se use en el iPhone y Google lo desaconseja en el Pixel, así que no lo uses."
+  },
+  {
+   "q": "¿Qué hago si mi teléfono dice que hay líquido o suciedad en el puerto?",
+   "a": "Desconecta todo, deja que se enfríe, seca el puerto y espera al mensaje de que ya todo está bien. Si el aviso dura dos horas o más, contacta con el fabricante."
+  },
+  {
+   "q": "¿Por qué mi teléfono carga despacio?",
+   "a": "Por un puerto obstruido, un cable gastado o un cargador débil. Prueba primero con otro cable y otro cargador, y después revisa el puerto."
+  },
+  {
+   "q": "¿Debo cargar un teléfono mojado?",
+   "a": "No. Deja que el puerto se seque primero."
+  },
+  {
+   "q": "¿Cuándo debo llevarlo a un taller de reparación?",
+   "a": "Si el puerto está quemado, derretido, corroído o suelto, o si el teléfono se calienta demasiado para tocarlo."
+  },
+  {
+   "q": "¿Afecta CleanKoach a la carga?",
+   "a": "No. CleanKoach libera almacenamiento y no cambia la forma en que carga tu teléfono."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Fix Unplug charger or Liquid or debris message, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/9280079",
+   "note": "Los pasos de Google para un puerto USB mojado u obstruido por suciedad, incluido el secado y cuándo buscar ayuda."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Los consejos de limpieza de Google, como mantener la humedad fuera de las aberturas y no usar aire comprimido."
+  }
+ ],
+ "related": []
+}

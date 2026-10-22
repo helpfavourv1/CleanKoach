@@ -1,0 +1,145 @@
+{
+ "slug": "phone-speaker-cleaner",
+ "title": "Limpeza do alto-falante do celular",
+ "h1": "Limpeza do alto-falante do celular",
+ "meta_description": "O CleanKoach não limpa o alto-falante do celular, porque é um software. Veja como limpar com delicadeza alto-falantes abafados e o que evitar, sem danificar nada.",
+ "keywords": [
+  "limpeza do alto-falante do celular",
+  "limpar o alto-falante do celular",
+  "alto-falante do celular abafado",
+  "poeira no alto-falante do celular"
+ ],
+ "tagline": "O CleanKoach limpa armazenamento, não alto-falantes. Veja o jeito delicado",
+ "quick_answer": "<p><strong>Nenhum app limpa o alto-falante do celular, e o CleanKoach não diz que limpa.</strong> Um alto-falante abafado costuma estar bloqueado por poeira ou fiapos. Desligue o celular, passe um pano macio e seco na grade, use uma escova macia e seca com delicadeza, mantenha a umidade longe das aberturas e evite ar comprimido.</p>",
+ "intro": "<p>Se as chamadas soam baixas ou a música está abafada, primeiro descarte uma causa de software e depois olhe a grade do alto-falante. Esta é uma ordem cautelosa de passos.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Software não limpa alto-falante",
+   "html": "<p>O som é produzido por uma peça física. O CleanKoach libera espaço de armazenamento. Ele não afeta o alto-falante, e um app \"limpador de alto-falante\" não remove poeira. Alguns apps tocam tons e dizem expulsar água, mas o que remove a poeira é limpar a grade manualmente.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Melhor app de limpeza para Android"
+    ]
+   ]
+  },
+  {
+   "id": "rule-out",
+   "h2": "Descarte primeiro as causas fáceis",
+   "html": "<ol><li><strong>Verifique o volume e o modo.</strong> O modo silencioso, um controle de volume baixo ou o Não perturbe podem parecer um defeito.</li><li><strong>Verifique o Bluetooth.</strong> O áudio pode estar indo para um fone ou uma caixa de som que você esqueceu.</li><li><strong>Tire a capa.</strong> Algumas capas cobrem ou bloqueiam em parte o alto-falante.</li><li><strong>Reinicie o celular.</strong></li></ol>"
+  },
+  {
+   "id": "clean",
+   "h2": "Como limpar a grade",
+   "html": "<ol><li><strong>Desligue o celular</strong> e desconecte os cabos.</li><li><strong>Limpe a superfície</strong> com um pano macio que não solte fiapos. Use um pano seco para poeira.</li><li><strong>Escove com delicadeza.</strong> Uma escova limpa, macia e seca, como uma escova de dentes macia sem uso, solta a poeira. Passe-a de leve pela grade.</li><li><strong>Vire o celular com a grade para baixo</strong> e bata de leve contra a palma da mão para soltar a poeira.</li><li><strong>Teste o som</strong> com uma música ou uma chamada.</li></ol>"
+  },
+  {
+   "id": "avoid",
+   "h2": "O que evitar",
+   "html": "<ul><li><strong>Líquidos nas aberturas:</strong> a Apple e o Google dizem para manter umidade e sabão longe das aberturas.</li><li><strong>Ar comprimido:</strong> a Apple diz para não usar no iPhone e o Google desaconselha no Pixel.</li><li><strong>Ferramentas pontiagudas:</strong> um alfinete pode rasgar a tela do alto-falante.</li><li><strong>Pressionar com força:</strong> a tela é fina.</li></ul>",
+   "see": [
+    [
+     "phone-charging-port-cleaner",
+     "Limpeza da porta de carregamento do celular"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Sintomas e causas prováveis",
+   "html": "<p>Nem todo som baixo é poeira.</p>",
+   "table": {
+    "caption": "Sintomas do alto-falante, causa provável e primeiro passo",
+    "headers": [
+     "Sintoma",
+     "Causa provável",
+     "Primeiro passo"
+    ],
+    "rows": [
+     [
+      "Baixo em tudo",
+      "Volume, modo silencioso ou uma capa",
+      "Verifique o volume e tire a capa"
+     ],
+     [
+      "Abafado só nas chamadas",
+      "Poeira sobre a grade do alto-falante de chamadas",
+      "Pano seco e depois uma escova macia e seca"
+     ],
+     [
+      "Chiado em volume alto",
+      "Sujeira ou alto-falante danificado",
+      "Limpe com delicadeza e teste; se continuar, procure uma assistência técnica"
+     ],
+     [
+      "Sem som só em um app",
+      "Configurações do app",
+      "Verifique o volume desse app e reinicie-o"
+     ],
+     [
+      "Som ruim depois de um respingo",
+      "Umidade",
+      "Desligue e deixe secar; não use calor"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "help",
+   "h2": "Quando procurar ajuda",
+   "html": "<p>Se o som continuar baixo ou distorcido depois da limpeza, ou se o celular entrou em contato com líquido, procure o fabricante ou uma assistência técnica. Não abra o celular por conta própria.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Um app consegue limpar o alto-falante do meu celular?",
+   "a": "Não. Um alto-falante é hardware. O CleanKoach libera espaço de armazenamento e não limpa alto-falantes."
+  },
+  {
+   "q": "Por que o alto-falante do meu celular está abafado?",
+   "a": "Em geral, por poeira ou fiapos sobre a grade, uma capa que a bloqueia ou uma configuração de volume ou de áudio. Verifique primeiro as configurações e a capa."
+  },
+  {
+   "q": "Como limpo o alto-falante do celular com segurança?",
+   "a": "Desligue o celular, passe um pano macio e seco, escove a grade com delicadeza com uma escova macia e seca e sacuda para soltar a poeira."
+  },
+  {
+   "q": "Posso usar ar comprimido no alto-falante?",
+   "a": "A Apple diz para não usar no iPhone e o Google desaconselha no Pixel, então evite."
+  },
+  {
+   "q": "Posso usar líquido ou álcool na grade?",
+   "a": "Mantenha líquidos longe das aberturas. A Apple e o Google aconselham manter a umidade longe."
+  },
+  {
+   "q": "Os apps de limpeza de alto-falante que tocam sons funcionam?",
+   "a": "Eles não conseguem remover poeira. O que a remove é limpar a grade manualmente."
+  },
+  {
+   "q": "Uma escova de dentes é segura para o alto-falante?",
+   "a": "Uma escova limpa, macia e seca, usada com leveza, é mais delicada que um alfinete. Não pressione com força."
+  },
+  {
+   "q": "E se o alto-falante continuar com som ruim depois da limpeza?",
+   "a": "Procure o fabricante ou uma assistência técnica. Pode ser um alto-falante danificado."
+  },
+  {
+   "q": "O CleanKoach afeta o som do celular?",
+   "a": "Não. O CleanKoach não altera configurações de áudio nem o hardware."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Orientações de limpeza do Google: use um pano macio que não solte fiapos, mantenha a umidade longe das aberturas e evite ar comprimido."
+  },
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Orientações da Apple sobre evitar umidade nas aberturas e não usar ar comprimido."
+  }
+ ],
+ "related": []
+}

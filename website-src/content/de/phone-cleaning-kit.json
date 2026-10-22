@@ -1,0 +1,159 @@
+{
+ "slug": "phone-cleaning-kit",
+ "title": "Handy-Reinigungsset: Was hineingehört",
+ "h1": "Handy-Reinigungsset",
+ "meta_description": "Ein Handy-Reinigungsset braucht nur wenig: ein Mikrofasertuch, eine weiche Bürste und sichere Tücher. Was hineingehört, was nicht und wo CleanKoach passt.",
+ "keywords": [
+  "Handy-Reinigungsset",
+  "Handy-Reinigungsset Grundausstattung",
+  "was gehört in ein Handy-Reinigungsset",
+  "Handy-Cleaner-Set"
+ ],
+ "tagline": "Die wenigen Dinge, die sich lohnen, und was Sie weglassen können",
+ "quick_answer": "<p><strong>Ein gutes Handy-Reinigungsset ist klein:</strong> ein weiches Mikrofasertuch, eine weiche trockene Bürste, sichere Desinfektionstücher und eine für den Ladeanschluss unbedenkliche Möglichkeit, Flusen zu entfernen. Für die Dateien im Handy kommt CleanKoach dazu, eine kostenlose App, die den Speicher leert.</p>",
+ "intro": "<p>Online verkaufte Sets sind oft mit Dingen aufgebläht, die Sie nie benutzen. Diese Liste behandelt, was Apple und Google tatsächlich beschreiben, die digitale Hälfte übernimmt CleanKoach.</p>",
+ "sections": [
+  {
+   "id": "physical",
+   "h2": "Das physische Set",
+   "html": "<ul><li><strong>Weiches, fusselfreies Tuch:</strong> Apple und Google nennen es beide zuerst. Ein Mikrofasertuch ist die übliche Wahl.</li><li><strong>Weiche, trockene Bürste:</strong> für Staub an den Rändern und am Lautsprechergitter.</li><li><strong>Desinfektionstücher:</strong> Tücher mit 70% Isopropylalkohol, die Apple und Google erlauben, ohne Bleichmittel.</li><li><strong>Eine Taschenlampe:</strong> um vor der Reinigung in den Ladeanschluss zu schauen.</li></ul>"
+  },
+  {
+   "id": "digital",
+   "h2": "Die digitale Hälfte",
+   "html": "<p>Ein Tuch kann keinen Speicher freigeben. CleanKoach ist das digitale Set: Große Dateien, Duplikate, Ähnliche Fotos, Screenshots, Foto-Optimierer und Video-Optimierer und Bereinigen mit einem Fingertipp. Jede Funktion ist kostenlos.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Beste Cleaner-App für Android"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Welches Teil für welche Aufgabe",
+   "html": "<p>Ein Teil pro Aufgabe hält das Set klein.</p>",
+   "table": {
+    "caption": "Teile für ein Handy-Reinigungsset und die jeweilige Aufgabe",
+    "headers": [
+     "Teil",
+     "Aufgabe",
+     "Hinweise"
+    ],
+    "rows": [
+     [
+      "Mikrofasertuch",
+      "Bildschirm, Rück- und Seitenteile",
+      "Trocken für Staub, leicht feucht für Schmutz"
+     ],
+     [
+      "Weiche trockene Bürste",
+      "Lautsprechergitter und Ränder",
+      "Leicht anwenden"
+     ],
+     [
+      "Tücher mit 70% Isopropylalkohol",
+      "Desinfizieren",
+      "Kein Bleichmittel"
+     ],
+     [
+      "Taschenlampe",
+      "In den Anschluss schauen",
+      "Nichts hineinschieben"
+     ],
+     [
+      "CleanKoach",
+      "Speicher, Duplikate, Fotos und Videos",
+      "Kostenlos auf Android"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "skip",
+   "h2": "Was Sie weglassen sollten",
+   "html": "<ul><li><strong>Aerosolsprays und Bleichmittel:</strong> Apple rät davon ab.</li><li><strong>Druckluft:</strong> Apple und Google raten davon ab.</li><li><strong>Metallspitzen:</strong> sie können Anschlüsse und Lautsprechergitter beschädigen.</li><li><strong>Alles Scheuernde:</strong> es kann den Bildschirm zerkratzen und seine Beschichtung abnutzen.</li></ul>",
+   "see": [
+    [
+     "phone-screen-cleaner",
+     "Handy-Bildschirmreiniger"
+    ],
+    [
+     "phone-charging-port-cleaner",
+     "Reiniger für den Ladeanschluss"
+    ],
+    [
+     "phone-speaker-cleaner",
+     "Reiniger für den Handy-Lautsprecher"
+    ]
+   ]
+  },
+  {
+   "id": "routine",
+   "h2": "Eine einfache Routine",
+   "html": "<ol><li><strong>Wöchentlich:</strong> wischen Sie Bildschirm und Rückseite mit einem trockenen Tuch ab.</li><li><strong>Monatlich:</strong> prüfen Sie Ladeanschluss und Lautsprechergitter und sehen Sie sich Große Dateien in CleanKoach an.</li><li><strong>Hin und wieder:</strong> desinfizieren Sie mit einem Tuch und nehmen Sie die Hülle ab, um darunter zu reinigen.</li></ol>"
+  },
+  {
+   "id": "android",
+   "h2": "Auf Android? Hier beginnen",
+   "html": "<p>Installieren Sie CleanKoach aus Google Play, erlauben Sie den Zugriff auf Fotos, Videos und Audiodateien und öffnen Sie Große Dateien. Für Android 9 und neuer entwickelt.</p>",
+   "see": [
+    [
+     "phone-cleaner-iphone",
+     "Handy-Cleaner für das iPhone"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Was sollte ein Handy-Reinigungsset enthalten?",
+   "a": "Ein weiches, fusselfreies Tuch, eine weiche trockene Bürste, Tücher mit 70% Isopropylalkohol und eine Taschenlampe. Für den Speicher auf Android kommt CleanKoach dazu."
+  },
+  {
+   "q": "Brauche ich ein spezielles Handy-Reinigungsset?",
+   "a": "Nein. Die wichtigsten Teile sind günstig und weit verbreitet. Apple und Google raten beide zu einem weichen, fusselfreien Tuch."
+  },
+  {
+   "q": "Ist Isopropylalkohol für Handys sicher?",
+   "a": "Apple und Google erlauben beide Tücher mit 70% Isopropylalkohol auf der Außenseite. Verwenden Sie kein Bleichmittel."
+  },
+  {
+   "q": "Was sollte ich nie verwenden?",
+   "a": "Aerosolsprays, Bleichmittel, scheuernde Materialien, Druckluft und Metallwerkzeuge in Öffnungen."
+  },
+  {
+   "q": "Reinigt CleanKoach die Hardware?",
+   "a": "Nein. CleanKoach leert den Speicher. Es reinigt weder Bildschirme noch Lautsprecher oder Anschlüsse."
+  },
+  {
+   "q": "Kann CleanKoach ein Reinigungsset ersetzen?",
+   "a": "Nein. Ein Set reinigt die Außenseite. CleanKoach reinigt die Dateien im Inneren. Sie brauchen beides."
+  },
+  {
+   "q": "Ist CleanKoach kostenlos?",
+   "a": "Ja. Jede Funktion ist kostenlos. Ein einmaliger Pro-Kauf entfernt die Werbung."
+  },
+  {
+   "q": "Gibt es eine iPhone-Version von CleanKoach?",
+   "a": "Nein. CleanKoach gibt es nur für Android."
+  },
+  {
+   "q": "Wie oft sollte ich mein Handy reinigen?",
+   "a": "Wischen Sie den Bildschirm wöchentlich ab, prüfen Sie Anschlüsse und Lautsprecher monatlich und kontrollieren Sie den Speicher monatlich."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Apples Hinweise zu Tüchern, weichen fusselfreien Tüchern, Druckluft und Feuchtigkeit in Öffnungen."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Googles Hinweise zu Tüchern, Desinfektionstüchern, 70% Isopropylalkohol und was Sie vermeiden sollten."
+  }
+ ],
+ "related": []
+}

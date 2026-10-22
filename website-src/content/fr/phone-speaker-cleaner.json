@@ -1,0 +1,145 @@
+{
+ "slug": "phone-speaker-cleaner",
+ "title": "Nettoyer le haut-parleur d'un téléphone",
+ "h1": "Nettoyer le haut-parleur d'un téléphone",
+ "meta_description": "CleanKoach ne peut pas nettoyer un haut-parleur, car c'est un logiciel. Voici comment nettoyer un haut-parleur étouffé avec douceur, sans abîmer le téléphone.",
+ "keywords": [
+  "nettoyeur de haut-parleur de téléphone",
+  "nettoyer le haut-parleur d'un téléphone",
+  "haut-parleur de téléphone étouffé",
+  "poussière haut-parleur téléphone"
+ ],
+ "tagline": "CleanKoach nettoie le stockage, pas les haut-parleurs. Voici la méthode douce",
+ "quick_answer": "<p><strong>Aucune appli ne peut nettoyer le haut-parleur d'un téléphone, et CleanKoach ne prétend pas le faire.</strong> Un haut-parleur étouffé est généralement bouché par de la poussière ou des peluches. Éteignez le téléphone, essuyez la grille avec un chiffon doux et sec, passez doucement une brosse douce et sèche, tenez l'humidité hors des ouvertures et évitez l'air comprimé.</p>",
+ "intro": "<p>Si les appels sonnent faiblement ou si la musique est étouffée, écartez d'abord une cause logicielle, puis examinez la grille du haut-parleur. Voici un ordre d'étapes prudent.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Un logiciel ne peut pas nettoyer un haut-parleur",
+   "html": "<p>Le son est produit par une pièce physique. CleanKoach libère de l'espace de stockage. Elle n'agit pas sur le haut-parleur, et une appli de « nettoyage de haut-parleur » ne peut pas retirer la poussière. Certaines applis jouent des tonalités et prétendent évacuer l'eau, mais c'est le nettoyage manuel de la grille qui retire la poussière.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La meilleure appli de nettoyage pour Android"
+    ]
+   ]
+  },
+  {
+   "id": "rule-out",
+   "h2": "Écartez d'abord les causes simples",
+   "html": "<ol><li><strong>Vérifiez le volume et le mode.</strong> Le mode silencieux, un curseur de volume bas ou Ne pas déranger peuvent ressembler à une panne.</li><li><strong>Vérifiez le Bluetooth.</strong> Le son est peut-être dirigé vers des écouteurs ou une enceinte oubliés.</li><li><strong>Retirez la coque.</strong> Certaines coques couvrent ou bloquent en partie le haut-parleur.</li><li><strong>Redémarrez le téléphone.</strong></li></ol>"
+  },
+  {
+   "id": "clean",
+   "h2": "Comment nettoyer la grille",
+   "html": "<ol><li><strong>Éteignez le téléphone</strong> et débranchez les câbles.</li><li><strong>Essuyez la surface</strong> avec un chiffon doux non pelucheux. Utilisez-en un sec pour la poussière.</li><li><strong>Brossez doucement.</strong> Une brosse propre, douce et sèche, comme une brosse à dents souple inutilisée, décolle la poussière. Brossez légèrement sur la grille.</li><li><strong>Tournez le téléphone grille vers le bas</strong> et tapotez-le légèrement contre votre main pour faire tomber la poussière détachée.</li><li><strong>Testez le son</strong> avec une chanson ou un appel.</li></ol>"
+  },
+  {
+   "id": "avoid",
+   "h2": "Ce qu'il faut éviter",
+   "html": "<ul><li><strong>Liquides dans les ouvertures :</strong> Apple et Google indiquent tous deux de tenir l'humidité et le savon hors des ouvertures.</li><li><strong>Air comprimé :</strong> Apple indique de ne pas l'utiliser sur iPhone et Google le déconseille sur Pixel.</li><li><strong>Outils pointus :</strong> une épingle peut déchirer la grille du haut-parleur.</li><li><strong>Appuyer fort :</strong> la grille est fine.</li></ul>",
+   "see": [
+    [
+     "phone-charging-port-cleaner",
+     "Nettoyer le port de charge d'un téléphone"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Symptômes et causes probables",
+   "html": "<p>Un son faible n'est pas toujours dû à la poussière.</p>",
+   "table": {
+    "caption": "Symptômes du haut-parleur, cause probable et première étape",
+    "headers": [
+     "Symptôme",
+     "Cause probable",
+     "Première étape"
+    ],
+    "rows": [
+     [
+      "Faible partout",
+      "Volume, mode silencieux ou coque",
+      "Vérifiez le volume et retirez la coque"
+     ],
+     [
+      "Étouffé seulement pendant les appels",
+      "Poussière sur la grille de l'écouteur",
+      "Chiffon sec, puis brosse douce et sèche"
+     ],
+     [
+      "Grésillements à volume élevé",
+      "Débris ou haut-parleur endommagé",
+      "Nettoyez doucement, puis testez ; si cela continue, adressez-vous à un réparateur"
+     ],
+     [
+      "Pas de son dans une seule appli",
+      "Paramètres de l'appli",
+      "Vérifiez le volume de cette appli et redémarrez-la"
+     ],
+     [
+      "Son altéré après une éclaboussure",
+      "Humidité",
+      "Éteignez et laissez sécher ; n'utilisez pas de chaleur"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "help",
+   "h2": "Quand demander de l'aide",
+   "html": "<p>Si le son reste faible ou déformé après le nettoyage, ou si le téléphone a été en contact avec un liquide, adressez-vous au fabricant ou à un réparateur. N'ouvrez pas le téléphone vous-même.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Une appli peut-elle nettoyer le haut-parleur de mon téléphone ?",
+   "a": "Non. Un haut-parleur est du matériel. CleanKoach libère de l'espace de stockage et ne peut pas nettoyer les haut-parleurs."
+  },
+  {
+   "q": "Pourquoi le haut-parleur de mon téléphone est-il étouffé ?",
+   "a": "Souvent à cause de poussière ou de peluches sur la grille, d'une coque qui la bloque, ou d'un réglage de volume ou d'audio. Vérifiez d'abord les réglages et la coque."
+  },
+  {
+   "q": "Comment nettoyer le haut-parleur d'un téléphone sans risque ?",
+   "a": "Éteignez le téléphone, essuyez avec un chiffon doux et sec, brossez doucement la grille avec une brosse douce et sèche et faites tomber la poussière détachée."
+  },
+  {
+   "q": "Puis-je utiliser de l'air comprimé sur un haut-parleur ?",
+   "a": "Apple indique de ne pas l'utiliser sur iPhone et Google le déconseille sur Pixel : évitez-le donc."
+  },
+  {
+   "q": "Puis-je utiliser du liquide ou de l'alcool sur la grille ?",
+   "a": "Gardez les liquides hors des ouvertures. Apple et Google conseillent tous deux de tenir l'humidité à l'écart."
+  },
+  {
+   "q": "Les applis de nettoyage de haut-parleur qui jouent un son fonctionnent-elles ?",
+   "a": "Elles ne peuvent pas retirer la poussière. C'est le nettoyage manuel de la grille qui la retire."
+  },
+  {
+   "q": "Une brosse à dents convient-elle pour le haut-parleur ?",
+   "a": "Une brosse propre, douce et sèche, utilisée légèrement, est plus délicate qu'une épingle. N'appuyez pas fort."
+  },
+  {
+   "q": "Que faire si le haut-parleur sonne toujours mal après le nettoyage ?",
+   "a": "Adressez-vous au fabricant ou à un réparateur. Le haut-parleur est peut-être endommagé."
+  },
+  {
+   "q": "CleanKoach a-t-elle un effet sur le son du téléphone ?",
+   "a": "Non. CleanKoach ne modifie ni les réglages audio ni le matériel."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Les conseils de nettoyage de Google : utilisez un chiffon doux non pelucheux, tenez l'humidité hors des ouvertures et évitez l'air comprimé."
+  },
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Les conseils d'Apple pour éviter l'humidité dans les ouvertures et ne pas utiliser d'air comprimé."
+  }
+ ],
+ "related": []
+}

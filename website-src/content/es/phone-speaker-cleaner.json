@@ -1,0 +1,145 @@
+{
+ "slug": "phone-speaker-cleaner",
+ "title": "Limpiador del altavoz del móvil: formas seguras",
+ "h1": "Limpiador del altavoz del móvil",
+ "meta_description": "CleanKoach no puede limpiar el altavoz del móvil, porque es software. Así se limpian con suavidad los altavoces apagados y qué evitar para no dañar el teléfono.",
+ "keywords": [
+  "limpiador del altavoz del móvil",
+  "limpiar el altavoz del móvil",
+  "altavoz del móvil apagado",
+  "polvo en el altavoz del móvil"
+ ],
+ "tagline": "CleanKoach limpia el almacenamiento, no los altavoces. Esta es la forma suave",
+ "quick_answer": "<p><strong>Ninguna app puede limpiar el altavoz de un móvil, y CleanKoach no dice que lo haga.</strong> Un altavoz que suena apagado suele estar obstruido por polvo o pelusa. Apaga el teléfono, pasa un paño suave y seco por la rejilla, usa un cepillo suave y seco con delicadeza, mantén la humedad fuera de las aberturas y evita el aire comprimido.</p>",
+ "intro": "<p>Si las llamadas se oyen débiles o la música suena apagada, descarta primero una causa de software y luego mira la rejilla del altavoz. Este es un orden de pasos prudente.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "El software no puede limpiar un altavoz",
+   "html": "<p>El sonido lo produce una pieza física. CleanKoach libera espacio de almacenamiento. No afecta al altavoz, y una app de \"limpiador de altavoz\" no puede quitar el polvo. Algunas apps reproducen tonos y dicen expulsar el agua, pero lo que quita el polvo es limpiar la rejilla a mano.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La mejor app para limpiar el móvil Android"
+    ]
+   ]
+  },
+  {
+   "id": "rule-out",
+   "h2": "Descarta primero las causas fáciles",
+   "html": "<ol><li><strong>Comprueba el volumen y el modo.</strong> El modo silencio, un control de volumen bajo o No molestar pueden parecer una avería.</li><li><strong>Comprueba el Bluetooth.</strong> Puede que el audio vaya a unos auriculares o a un altavoz que olvidaste.</li><li><strong>Quita la funda.</strong> Algunas fundas cubren o bloquean en parte el altavoz.</li><li><strong>Reinicia el teléfono.</strong></li></ol>"
+  },
+  {
+   "id": "clean",
+   "h2": "Cómo limpiar la rejilla",
+   "html": "<ol><li><strong>Apaga el teléfono</strong> y desconecta los cables.</li><li><strong>Limpia la superficie</strong> con un paño suave que no suelte pelusa. Usa uno seco para el polvo.</li><li><strong>Cepilla con suavidad.</strong> Un cepillo limpio, suave y seco, como un cepillo de dientes suave sin usar, suelta el polvo. Cepilla ligeramente sobre la rejilla.</li><li><strong>Pon el teléfono con la rejilla hacia abajo</strong> y dale golpecitos suaves contra la mano para sacar el polvo suelto.</li><li><strong>Prueba el sonido</strong> con una canción o una llamada.</li></ol>"
+  },
+  {
+   "id": "avoid",
+   "h2": "Qué evitar",
+   "html": "<ul><li><strong>Líquidos en las aberturas:</strong> Apple y Google coinciden en que hay que mantener la humedad y el jabón fuera de las aberturas.</li><li><strong>Aire comprimido:</strong> Apple dice que no se use en el iPhone y Google lo desaconseja en el Pixel.</li><li><strong>Herramientas afiladas:</strong> un alfiler puede romper la malla del altavoz.</li><li><strong>Presionar fuerte:</strong> la malla es fina.</li></ul>",
+   "see": [
+    [
+     "phone-charging-port-cleaner",
+     "Limpiador del puerto de carga del móvil"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Síntomas y causas probables",
+   "html": "<p>No todo sonido débil es polvo.</p>",
+   "table": {
+    "caption": "Síntomas del altavoz, causa probable y primer paso",
+    "headers": [
+     "Síntoma",
+     "Causa probable",
+     "Primer paso"
+    ],
+    "rows": [
+     [
+      "Se oye bajo en todo",
+      "Volumen, modo silencio o una funda",
+      "Comprueba el volumen y quita la funda"
+     ],
+     [
+      "Apagado solo en las llamadas",
+      "Polvo sobre la rejilla del auricular",
+      "Paño seco y luego un cepillo suave y seco"
+     ],
+     [
+      "Crepitación con el volumen alto",
+      "Suciedad o un altavoz dañado",
+      "Limpia con suavidad y prueba; si continúa, consulta a un taller de reparación"
+     ],
+     [
+      "Sin sonido solo en una app",
+      "Ajustes de la app",
+      "Comprueba el volumen de esa app y reiníciala"
+     ],
+     [
+      "Sonido tras una salpicadura",
+      "Humedad",
+      "Apágalo y deja que se seque; no uses calor"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "help",
+   "h2": "Cuándo buscar ayuda",
+   "html": "<p>Si el sonido sigue débil o distorsionado después de limpiar, o el teléfono ha estado en contacto con líquido, consulta al fabricante o a un taller de reparación. No abras el teléfono tú mismo.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "¿Puede una app limpiar el altavoz de mi móvil?",
+   "a": "No. Un altavoz es hardware. CleanKoach libera espacio de almacenamiento y no puede limpiar altavoces."
+  },
+  {
+   "q": "¿Por qué suena apagado el altavoz de mi móvil?",
+   "a": "A menudo por polvo o pelusa sobre la rejilla, una funda que la tapa o un ajuste de volumen o de audio. Comprueba primero los ajustes y la funda."
+  },
+  {
+   "q": "¿Cómo limpio el altavoz del móvil con seguridad?",
+   "a": "Apaga el teléfono, pasa un paño suave y seco, cepilla la rejilla con delicadeza con un cepillo suave y seco y sacude el polvo suelto."
+  },
+  {
+   "q": "¿Puedo usar aire comprimido en un altavoz?",
+   "a": "Apple dice que no se use en el iPhone y Google lo desaconseja en el Pixel, así que evítalo."
+  },
+  {
+   "q": "¿Puedo usar líquido o alcohol en la rejilla?",
+   "a": "Mantén los líquidos fuera de las aberturas. Apple y Google aconsejan mantener la humedad fuera."
+  },
+  {
+   "q": "¿Funcionan las apps limpiadoras de altavoz que reproducen sonido?",
+   "a": "No pueden quitar el polvo. Lo que lo quita es limpiar la rejilla a mano."
+  },
+  {
+   "q": "¿Es seguro un cepillo de dientes para el altavoz?",
+   "a": "Un cepillo limpio, suave y seco usado con ligereza es más delicado que un alfiler. No presiones fuerte."
+  },
+  {
+   "q": "¿Qué hago si el altavoz sigue sonando mal después de limpiarlo?",
+   "a": "Consulta al fabricante o a un taller de reparación. Puede que el altavoz esté dañado."
+  },
+  {
+   "q": "¿Afecta CleanKoach al sonido del móvil?",
+   "a": "No. CleanKoach no cambia los ajustes de audio ni el hardware."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Los consejos de limpieza de Google: usar un paño suave que no suelte pelusa, mantener la humedad fuera de las aberturas y evitar el aire comprimido."
+  },
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Las indicaciones de Apple sobre evitar la humedad en las aberturas y no usar aire comprimido."
+  }
+ ],
+ "related": []
+}

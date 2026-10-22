@@ -1,0 +1,145 @@
+{
+ "slug": "stop-phone-cleaner-popping-up",
+ "title": "Arrêter les fenêtres d'un nettoyeur",
+ "h1": "Comment arrêter les fenêtres intempestives d'un nettoyeur de téléphone",
+ "meta_description": "Les fenêtres de nettoyeur sur Android viennent de notifications de sites ou d'une appli. Repérez la source, désactivez-la et empêchez son retour, pas à pas.",
+ "keywords": [
+  "arrêter fenêtres intempestives nettoyeur téléphone",
+  "fenêtre intempestive nettoyeur de téléphone",
+  "notifications nettoyeur de téléphone",
+  "supprimer fenêtres intempestives nettoyeur téléphone"
+ ],
+ "tagline": "Repérez la source, puis désactivez-la",
+ "quick_answer": "<p><strong>Pour arrêter les fenêtres intempestives d'un nettoyeur de téléphone, trouvez ce qui les affiche, puis désactivez-le.</strong> La cause est généralement un site web dont les notifications sont autorisées, une appli autorisée à s'afficher par-dessus d'autres applis, ou les alertes propres à une appli de nettoyage. Appuyez longuement sur la fenêtre pour voir quelle appli l'a envoyée, puis bloquez-la ou désinstallez-la.</p>",
+ "intro": "<p>Une fenêtre qui annonce que votre téléphone a besoin d'être nettoyé ne vient pas toujours d'un nettoyeur que vous avez installé. Passez en revue les sources ci-dessous, de la plus probable à la moins probable.</p>",
+ "sections": [
+  {
+   "id": "causes",
+   "h2": "D'où vient la fenêtre intempestive",
+   "html": "<ul><li><strong>Un site web :</strong> vous avez autorisé les notifications d'un site dans votre navigateur, et il envoie maintenant des alertes.</li><li><strong>Les notifications d'une appli :</strong> une appli installée envoie des alertes qui ressemblent à des avertissements du système.</li><li><strong>Une appli affichée par-dessus les autres :</strong> une appli autorisée à s'afficher par-dessus d'autres applis.</li><li><strong>Une page dans votre navigateur :</strong> une fausse alerte sur une page web, qui disparaît quand vous fermez l'onglet.</li></ul>"
+  },
+  {
+   "id": "find",
+   "h2": "Trouver de quelle appli ou de quel site il s'agit",
+   "html": "<ol><li><strong>Appuyez longuement sur la notification.</strong> Android affiche le nom de l'appli ou du site.</li><li><strong>Regardez où elle s'affiche.</strong> Dans le volet de notifications, c'est une notification. Par-dessus une autre appli, c'est une superposition. Dans une page web, c'est le site.</li><li><strong>Notez le nom</strong>, puis utilisez le tableau ci-dessous.</li></ol>"
+  },
+  {
+   "id": "fixes",
+   "h2": "Solutions selon la source",
+   "html": "<p>Les noms de menus varient un peu selon les fabricants de téléphones.</p>",
+   "table": {
+    "caption": "Où la fenêtre apparaît, sa cause probable et la solution",
+    "headers": [
+     "Où vous la voyez",
+     "Cause probable",
+     "Solution"
+    ],
+    "rows": [
+     [
+      "Volet de notifications, au nom d'un site web",
+      "Notifications du navigateur autorisées pour un site",
+      "Dans les paramètres de votre navigateur, ouvrez Paramètres du site, puis Notifications, et bloquez ce site"
+     ],
+     [
+      "Volet de notifications, au nom d'une appli",
+      "Les notifications propres à l'appli",
+      "Appuyez longuement dessus et désactivez les notifications de cette appli, ou désinstallez l'appli"
+     ],
+     [
+      "Par-dessus d'autres applis",
+      "Autorisation d'affichage par-dessus d'autres applis",
+      "Dans Paramètres, Applications, Accès spécial, Affichage par-dessus d'autres applis, désactivez-le pour cette appli"
+     ],
+     [
+      "Dans une page web uniquement",
+      "Une fausse alerte sur le site",
+      "Fermez l'onglet et ne touchez rien dessus"
+     ],
+     [
+      "Revient après la désinstallation",
+      "Une deuxième appli ou un site toujours autorisé",
+      "Répétez les étapes, puis lancez une analyse Play Protect"
+     ]
+    ]
+   },
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Les applis de nettoyage sont-elles sûres ?"
+    ]
+   ]
+  },
+  {
+   "id": "browser",
+   "h2": "Bloquer les notifications de sites web dans Chrome",
+   "html": "<p>Ouvrez Chrome, puis Paramètres, puis Paramètres du site, puis Notifications. Déplacez tout site auquel vous ne faites pas confiance vers la liste des sites bloqués, ou désactivez complètement les notifications. Chrome peut aussi utiliser des messages plus discrets, afin que les sites puissent demander sans fenêtre intempestive.</p>"
+  },
+  {
+   "id": "scan",
+   "h2": "Vérifier avec Google Play Protect",
+   "html": "<p>Ouvrez le Play Store, touchez l'icône de votre profil, touchez Play Protect et lancez une analyse. Vérifiez que <strong>Analyser les applis avec Play Protect</strong> est activé. Il vérifie le comportement nuisible des applis et peut vous avertir à leur sujet ou les supprimer.</p>"
+  },
+  {
+   "id": "cleankoach",
+   "h2": "Et CleanKoach ?",
+   "html": "<p>CleanKoach n'affiche pas de fenêtres par-dessus d'autres applis et ne demande pas l'autorisation de le faire. Ses seules notifications sont un rappel de nettoyage hebdomadaire et des alertes de stockage, et les deux sont désactivés tant que vous ne les activez pas. Pour les désactiver, ouvrez CleanKoach, puis Paramètres, et désactivez les options de notification, ou utilisez les paramètres de notification d'Android pour l'appli.</p>",
+   "see": [
+    [
+     "free-phone-cleaner-android",
+     "Nettoyeur de téléphone gratuit pour Android"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Pourquoi un nettoyeur de téléphone s'affiche-t-il sans cesse ?",
+   "a": "Généralement à cause d'un site web dont vous avez autorisé les notifications, d'une appli autorisée à s'afficher par-dessus d'autres applis, ou d'une appli de nettoyage qui envoie des alertes."
+  },
+  {
+   "q": "Comment trouver quelle appli affiche la fenêtre ?",
+   "a": "Appuyez longuement sur la notification. Android affiche l'appli ou le site qui l'a envoyée."
+  },
+  {
+   "q": "Comment arrêter les notifications de sites web sur Android ?",
+   "a": "Dans Chrome, ouvrez Paramètres, Paramètres du site, Notifications et bloquez le site. Les autres navigateurs ont un réglage similaire."
+  },
+  {
+   "q": "Qu'est-ce que l'affichage par-dessus d'autres applis ?",
+   "a": "Une autorisation Android qui permet à une appli de s'afficher par-dessus d'autres applis. Désactivez-la pour toute appli qui n'en a pas besoin."
+  },
+  {
+   "q": "Une fenêtre indiquant que mon téléphone a un virus est-elle réelle ?",
+   "a": "Presque jamais quand elle vient d'une page web ou d'une appli inconnue. Fermez l'onglet et ne la touchez pas. Lancez une analyse Play Protect en cas de doute."
+  },
+  {
+   "q": "CleanKoach s'affiche-t-elle à l'écran de façon intempestive ?",
+   "a": "Non. CleanKoach ne s'affiche pas par-dessus d'autres applis. Son rappel hebdomadaire et ses alertes de stockage sont facultatifs et désactivés tant que vous ne les activez pas."
+  },
+  {
+   "q": "Comment désactiver les rappels de CleanKoach ?",
+   "a": "Ouvrez CleanKoach, allez dans Paramètres et désactivez les options de notification, ou utilisez les paramètres de notification d'Android pour l'appli."
+  },
+  {
+   "q": "Et si la fenêtre revient après la désinstallation de l'appli ?",
+   "a": "Une autre appli ou un site toujours autorisé l'envoie. Répétez les étapes et lancez une analyse Play Protect."
+  },
+  {
+   "q": "Dois-je installer un autre nettoyeur pour arrêter les fenêtres intempestives ?",
+   "a": "Non. Supprimez plutôt la source. Une appli de plus, c'est une source de plus qui peut afficher des alertes."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Use notifications to get alerts, Google Chrome Help",
+   "url": "https://support.google.com/chrome/answer/3220216",
+   "note": "Comment Chrome vous permet de bloquer l'envoi de notifications par un site et d'utiliser des messages plus discrets."
+  },
+  {
+   "title": "Use Google Play Protect to help keep your apps safe and your data private, Google Play Help",
+   "url": "https://support.google.com/googleplay/answer/2812853",
+   "note": "Comment Play Protect vérifie le comportement nuisible des applis, et comment confirmer qu'il est activé."
+  }
+ ],
+ "related": []
+}

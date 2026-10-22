@@ -1,0 +1,145 @@
+{
+ "slug": "stop-phone-cleaner-popping-up",
+ "title": "Cómo evitar que aparezca un limpiador de móvil",
+ "h1": "Cómo evitar que aparezca un limpiador de móvil",
+ "meta_description": "Las ventanas emergentes de limpiadores en Android suelen venir de notificaciones web o de una app. Encuentra el origen, desactívalo y evita que vuelva.",
+ "keywords": [
+  "evitar que aparezca un limpiador de móvil",
+  "ventana emergente de limpiador de móvil",
+  "notificaciones de limpiador de móvil",
+  "quitar ventanas emergentes de limpiador de móvil"
+ ],
+ "tagline": "Encuentra el origen y desactívalo",
+ "quick_answer": "<p><strong>Para evitar que aparezca un limpiador de móvil, averigua qué lo muestra y desactívalo.</strong> La causa suele ser un sitio web con notificaciones permitidas, una app con permiso para mostrarse sobre otras apps o las propias alertas de una app limpiadora. Mantén pulsada la ventana emergente para ver qué app la envió y luego bloquéala o desinstálala.</p>",
+ "intro": "<p>Una ventana emergente que dice que tu teléfono necesita limpieza no siempre viene de un limpiador que hayas instalado. Repasa los orígenes de abajo, del más al menos probable.</p>",
+ "sections": [
+  {
+   "id": "causes",
+   "h2": "De dónde viene la ventana emergente",
+   "html": "<ul><li><strong>Un sitio web:</strong> permitiste las notificaciones de un sitio en tu navegador y ahora envía alertas.</li><li><strong>Las notificaciones de una app:</strong> una app instalada envía alertas que parecen avisos del sistema.</li><li><strong>Una app que se muestra sobre otras:</strong> una app con permiso para mostrarse sobre otras apps.</li><li><strong>Una página dentro de tu navegador:</strong> una falsa alerta en una página web, que se cierra al cerrar la pestaña.</li></ul>"
+  },
+  {
+   "id": "find",
+   "h2": "Averigua qué app o sitio es",
+   "html": "<ol><li><strong>Mantén pulsada la notificación.</strong> Android muestra el nombre de la app o del sitio.</li><li><strong>Comprueba dónde aparece.</strong> En el panel de notificaciones es una notificación. Sobre otra app es una superposición. Dentro de una página web es el sitio.</li><li><strong>Anota el nombre</strong> y luego usa la tabla de abajo.</li></ol>"
+  },
+  {
+   "id": "fixes",
+   "h2": "Soluciones según el origen",
+   "html": "<p>Los nombres de los menús varían un poco entre fabricantes de teléfonos.</p>",
+   "table": {
+    "caption": "Dónde aparece la ventana emergente, su causa probable y la solución",
+    "headers": [
+     "Dónde la ves",
+     "Causa probable",
+     "Solución"
+    ],
+    "rows": [
+     [
+      "Panel de notificaciones, con el nombre de un sitio web",
+      "Notificaciones del navegador permitidas para un sitio",
+      "En los ajustes de tu navegador, abre Configuración del sitio, luego Notificaciones, y bloquea ese sitio"
+     ],
+     [
+      "Panel de notificaciones, con el nombre de una app",
+      "Las notificaciones de la propia app",
+      "Mantenla pulsada y desactiva las notificaciones de esa app, o desinstala la app"
+     ],
+     [
+      "Sobre otras apps",
+      "Permiso para mostrarse sobre otras apps",
+      "En Ajustes, Aplicaciones, Acceso especial, Mostrar sobre otras aplicaciones, desactívalo para esa app"
+     ],
+     [
+      "Solo dentro de una página web",
+      "Una falsa alerta en el sitio",
+      "Cierra la pestaña y no toques nada en ella"
+     ],
+     [
+      "Sigue volviendo después de desinstalar",
+      "Una segunda app o un sitio que sigues permitiendo",
+      "Repite los pasos y luego ejecuta un análisis de Play Protect"
+     ]
+    ]
+   },
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "¿Son seguras las apps limpiadoras?"
+    ]
+   ]
+  },
+  {
+   "id": "browser",
+   "h2": "Bloquea las notificaciones de sitios web en Chrome",
+   "html": "<p>Abre Chrome, luego Configuración, luego Configuración del sitio y después Notificaciones. Pasa a la lista de bloqueados cualquier sitio en el que no confíes, o desactiva las notificaciones por completo. Chrome también puede usar mensajes más discretos, de modo que los sitios puedan preguntar sin una ventana emergente.</p>"
+  },
+  {
+   "id": "scan",
+   "h2": "Comprueba con Google Play Protect",
+   "html": "<p>Abre Play Store, toca el icono de tu perfil, toca Play Protect y ejecuta un análisis. Asegúrate de que <strong>Analizar aplicaciones con Play Protect</strong> esté activado. Comprueba que las apps no tengan un comportamiento dañino y puede avisarte de ellas o eliminarlas.</p>"
+  },
+  {
+   "id": "cleankoach",
+   "h2": "¿Y CleanKoach?",
+   "html": "<p>CleanKoach no muestra ventanas emergentes sobre otras apps y no pide permiso para hacerlo. Sus únicas notificaciones son un recordatorio semanal de limpieza y alertas de almacenamiento, y ambos están desactivados hasta que los activas. Para desactivarlos, abre CleanKoach, entra en Ajustes y desactiva las opciones de notificaciones, o usa los ajustes de notificaciones de Android para la app.</p>",
+   "see": [
+    [
+     "free-phone-cleaner-android",
+     "Limpiador de móvil gratis para Android"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "¿Por qué sigue apareciendo un limpiador de móvil?",
+   "a": "Normalmente es un sitio web cuyas notificaciones permitiste, una app con permiso para mostrarse sobre otras apps o una app limpiadora que envía alertas."
+  },
+  {
+   "q": "¿Cómo averiguo qué app muestra la ventana emergente?",
+   "a": "Mantén pulsada la notificación. Android muestra la app o el sitio que la envió."
+  },
+  {
+   "q": "¿Cómo evito las notificaciones de sitios web en Android?",
+   "a": "En Chrome, abre Configuración, Configuración del sitio, Notificaciones y bloquea el sitio. Otros navegadores tienen un ajuste similar."
+  },
+  {
+   "q": "¿Qué es Mostrar sobre otras aplicaciones?",
+   "a": "Un permiso de Android que deja a una app dibujar encima de otras apps. Desactívalo en cualquier app que no lo necesite."
+  },
+  {
+   "q": "¿Es real una ventana emergente que dice que mi teléfono tiene un virus?",
+   "a": "Casi nunca cuando viene de una página web o de una app desconocida. Cierra la pestaña y no la toques. Ejecuta un análisis de Play Protect si tienes dudas."
+  },
+  {
+   "q": "¿Aparece CleanKoach de golpe en mi pantalla?",
+   "a": "No. CleanKoach no se muestra sobre otras apps. Su recordatorio semanal y sus alertas de almacenamiento son opcionales y están desactivados hasta que los activas."
+  },
+  {
+   "q": "¿Cómo desactivo los recordatorios de CleanKoach?",
+   "a": "Abre CleanKoach, ve a Ajustes y desactiva las opciones de notificaciones, o usa los ajustes de notificaciones de Android para la app."
+  },
+  {
+   "q": "¿Qué hago si la ventana emergente vuelve después de desinstalar la app?",
+   "a": "La envía otra app o un sitio que sigues permitiendo. Repite los pasos y ejecuta un análisis de Play Protect."
+  },
+  {
+   "q": "¿Debo instalar otro limpiador para evitar las ventanas emergentes?",
+   "a": "No. Quita el origen. Otra app añade otra cosa más que puede mostrar alertas."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Use notifications to get alerts, Google Chrome Help",
+   "url": "https://support.google.com/chrome/answer/3220216",
+   "note": "Cómo te permite Chrome bloquear que un sitio envíe notificaciones y usar mensajes más discretos."
+  },
+  {
+   "title": "Use Google Play Protect to help keep your apps safe and your data private, Google Play Help",
+   "url": "https://support.google.com/googleplay/answer/2812853",
+   "note": "Cómo comprueba Play Protect que las apps no tengan un comportamiento dañino y cómo confirmar que está activado."
+  }
+ ],
+ "related": []
+}

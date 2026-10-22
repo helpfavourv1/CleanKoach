@@ -52,7 +52,7 @@
     "alt": "Illustrazione dell'anello nella schermata iniziale di CleanKoach con la dimensione del cestino composta da foto eliminate, video eliminati e cache delle app, e un pulsante Pulisci",
     "caption": "L'anello mostra la dimensione del cestino. Pulisci lo svuota e mostra lo spazio liberato."
    },
-   "html": "<p>L'anello nella schermata iniziale mostra la dimensione del cestino: foto e video eliminati più cache delle app. Tocca <strong>Pulisci</strong>, guarda l'animazione di avanzamento a schermo intero e scopri esattamente quanto spazio hai liberato.</p>"
+   "html": "<p>L'anello nella schermata iniziale mostra la dimensione del cestino: foto e video eliminati più la cache di CleanKoach. Tocca <strong>Pulisci</strong>, guarda l'animazione di avanzamento a schermo intero e scopri esattamente quanto spazio hai liberato.</p>"
   },
   {
    "id": "how-it-works",
@@ -102,9 +102,9 @@
       "Ottimizzatore foto e Ottimizzatore video mostrano lo spazio risparmiato"
      ],
      [
-      "Svuotare cestino e cache delle app",
-      "Cestino e cache di ogni app si trovano in posti diversi",
-      "Pulisci svuota entrambi con un tocco"
+      "Svuotare il cestino",
+      "Cestino nella galleria, cache nelle impostazioni delle app",
+      "Pulisci svuota foto e video eliminati e la cache di CleanKoach con un tocco"
      ]
     ]
    }
@@ -133,8 +133,8 @@
      "rows": [
       [
        "Copertura",
-       "File grandi, duplicati, foto simili, screenshot, cache",
-       "Tutti e cinque, più il cestino"
+       "File grandi, duplicati, foto simili, screenshot, cestino",
+       "Tutti e cinque"
       ],
       [
        "Visibilità",
@@ -212,7 +212,7 @@
  "faqs": [
   {
    "q": "Qual è la migliore app di pulizia per Android?",
-   "a": "CleanKoach. Copre tutto ciò che di solito riempie la memoria: file grandi, duplicati, foto simili, screenshot e cache delle app, e aggiunge la compressione di foto e video. Tutto viene analizzato sul telefono."
+   "a": "CleanKoach. Copre tutto ciò che di solito riempie la memoria: file grandi, file duplicati, foto simili, screenshot e cestino, e aggiunge la compressione di foto e video. Tutto viene analizzato sul telefono."
   },
   {
    "q": "CleanKoach è gratuita?",
@@ -244,7 +244,7 @@
   },
   {
    "q": "Cosa fa il pulsante Pulisci?",
-   "a": "Svuota la dimensione del cestino, cioè foto e video eliminati più la cache delle app, poi mostra lo spazio liberato."
+   "a": "Svuota la dimensione del cestino, cioè foto e video eliminati più la cache di CleanKoach, poi mostra quanto spazio hai liberato."
   },
   {
    "q": "Cos'è il Monitor attività e perché chiede l'accesso ai dati di utilizzo?",

@@ -1,0 +1,151 @@
+{
+ "slug": "phone-screen-cleaner",
+ "title": "Pulire lo schermo del telefono in sicurezza",
+ "h1": "Detergente per schermo del telefono",
+ "meta_description": "CleanKoach non può pulire lo schermo di un telefono, perché libera la memoria. Ecco come pulirlo in sicurezza con un panno morbido e cosa evitare per non graffiarlo.",
+ "keywords": [
+  "detergente per schermo del telefono",
+  "pulire lo schermo del telefono",
+  "come pulire lo schermo del telefono",
+  "pulizia schermo telefono"
+ ],
+ "tagline": "CleanKoach pulisce la memoria, non il vetro. Ecco il modo sicuro",
+ "quick_answer": "<p><strong>Nessuna app pulisce lo schermo di un telefono e CleanKoach non dice di farlo.</strong> Per pulire il vetro, spegni il telefono, scollegalo, passa un panno morbido che non lascia pelucchi, usane uno leggermente umido per lo sporco, non spruzzare mai liquidi direttamente sul telefono e tieni l'umidità lontana dalle aperture.</p>",
+ "intro": "<p>Uno schermo pieno di aloni è il problema più facile da risolvere su un telefono, e il più facile da peggiorare. Sia Apple sia Google danno lo stesso consiglio di base.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Perché un'app non può farlo",
+   "html": "<p>Uno schermo accumula unto e polvere sul vetro. CleanKoach lavora su file e memoria, quindi non ha alcun effetto sul vetro. Usala per la memoria e usa un panno per lo schermo.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La migliore app di pulizia per telefono Android"
+    ]
+   ]
+  },
+  {
+   "id": "basic",
+   "h2": "La pulizia di base",
+   "html": "<ol><li><strong>Spegni il telefono</strong> e scollega tutti i cavi.</li><li><strong>Passa un panno morbido che non lascia pelucchi.</strong> Un panno in microfibra asciutto elimina polvere, macchie e aloni.</li><li><strong>Per lo sporco,</strong> usa un panno leggermente umido, oppure una salvietta per schermi o un detergente per occhiali su un Pixel.</li><li><strong>Passa con delicatezza.</strong> Evita di strofinare troppo.</li><li><strong>Lascia asciugare</strong> prima di accendere il telefono.</li></ol>"
+  },
+  {
+   "id": "disinfect",
+   "h2": "Disinfettare lo schermo",
+   "html": "<p>Apple dice che puoi usare una salvietta con alcol isopropilico al 70%, una salvietta con alcol etilico al 75% o le salviette disinfettanti Clorox sull'esterno di un iPhone, poi passare un panno morbido, leggermente umido e che non lascia pelucchi. Google dice che su un Pixel, schermo compreso, si possono usare salviette disinfettanti per la casa o salviette con alcol isopropilico al 70%. Apple sconsiglia candeggina e perossido di idrogeno, e Google sconsiglia la candeggina.</p><p>Salviette, non liquidi: non versare né spruzzare nulla sul telefono.</p>"
+  },
+  {
+   "id": "avoid",
+   "h2": "Cosa evitare",
+   "html": "<ul><li><strong>Spray aerosol e candeggina:</strong> Apple dice di non usare spray aerosol, candeggine o abrasivi.</li><li><strong>Spruzzare direttamente:</strong> non spruzzare il detergente sul telefono.</li><li><strong>Umidità nelle aperture:</strong> tienila lontana da porte e altoparlanti.</li><li><strong>Materiali abrasivi:</strong> Apple dice che i prodotti per la pulizia e gli abrasivi possono ridurre il rivestimento oleorepellente e potrebbero graffiare lo schermo.</li><li><strong>Immersione:</strong> non immergere il telefono in nessun detergente.</li></ul>",
+   "see": [
+    [
+     "phone-speaker-cleaner",
+     "Pulizia dell'altoparlante del telefono"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Macchie e cosa le elimina",
+   "html": "<p>Abbina il metodo alla macchia.</p>",
+   "table": {
+    "caption": "Macchie comuni sullo schermo e come eliminarle",
+    "headers": [
+     "Macchia",
+     "Cosa la elimina",
+     "Da evitare"
+    ],
+    "rows": [
+     [
+      "Polvere e impronte",
+      "Panno asciutto, morbido e che non lascia pelucchi",
+      "Strofinare con forza"
+     ],
+     [
+      "Aloni",
+      "Panno asciutto, poi uno leggermente umido",
+      "Spruzzare liquido sul vetro"
+     ],
+     [
+      "Trucco o colore dei jeans",
+      "Panno leggermente umido che non lascia pelucchi",
+      "Spugnette abrasive"
+     ],
+     [
+      "Germi",
+      "Salvietta con alcol isopropilico al 70%, come consentono Apple e Google",
+      "Candeggina e, su iPhone, perossido di idrogeno"
+     ],
+     [
+      "Lanugine delle tasche sui bordi",
+      "Panno asciutto, poi una spazzola morbida asciutta",
+      "Utensili appuntiti"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "protector",
+   "h2": "Pellicole protettive e custodie",
+   "html": "<p>Se usi una pellicola protettiva, puliscila allo stesso modo. Di tanto in tanto togli la custodia e pulisci separatamente telefono e custodia, così i granelli non graffiano il retro o i bordi.</p>",
+   "see": [
+    [
+     "phone-cleaning-kit",
+     "Kit di pulizia per telefono"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Un'app può pulire lo schermo del mio telefono?",
+   "a": "No. Uno schermo è di vetro. CleanKoach libera la memoria e non può pulire uno schermo."
+  },
+  {
+   "q": "Qual è il modo più sicuro per pulire lo schermo di un telefono?",
+   "a": "Spegni il telefono, scollegalo e passa un panno morbido che non lascia pelucchi. Usa un panno leggermente umido per lo sporco."
+  },
+  {
+   "q": "Posso usare alcol isopropilico sullo schermo del telefono?",
+   "a": "Apple consente una salvietta con alcol isopropilico al 70% sull'esterno di un iPhone e Google consente salviette con alcol isopropilico al 70% su un Pixel, schermo compreso. Usa una salvietta, non il liquido."
+  },
+  {
+   "q": "Posso usare candeggina o perossido di idrogeno?",
+   "a": "No. Apple sconsiglia entrambi su iPhone e Google sconsiglia la candeggina su Pixel."
+  },
+  {
+   "q": "Devo spruzzare il detergente sullo schermo?",
+   "a": "No. Non spruzzare il detergente direttamente sul telefono. Usa una salvietta o un panno umido."
+  },
+  {
+   "q": "Perché il mio schermo diventa unto?",
+   "a": "Il sebo della pelle e la polvere si depositano sul vetro. Un panno in microfibra asciutto ne elimina la maggior parte."
+  },
+  {
+   "q": "La pulizia può danneggiare il rivestimento dello schermo?",
+   "a": "Apple dice che i prodotti per la pulizia e i materiali abrasivi possono ridurre il rivestimento oleorepellente e potrebbero graffiare lo schermo, quindi vai con delicatezza."
+  },
+  {
+   "q": "Ogni quanto devo pulire il telefono?",
+   "a": "Ogni volta che sembra sporco. Pulisci lo schermo quando noti delle macchie."
+  },
+  {
+   "q": "CleanKoach pulisce il mio schermo?",
+   "a": "No. CleanKoach libera la memoria, non il vetro."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "I consigli di Apple su salviette, panni morbidi che non lasciano pelucchi e ciò che può danneggiare il rivestimento dello schermo."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "I consigli di Google su panni, salviette, alcol isopropilico al 70% e cosa evitare."
+  }
+ ],
+ "related": []
+}

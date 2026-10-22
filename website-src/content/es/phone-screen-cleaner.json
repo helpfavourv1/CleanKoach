@@ -1,0 +1,151 @@
+{
+ "slug": "phone-screen-cleaner",
+ "title": "Limpiador de pantalla del móvil: cómo hacerlo",
+ "h1": "Limpiador de pantalla del móvil",
+ "meta_description": "CleanKoach no puede limpiar la pantalla del móvil, porque libera almacenamiento. Así se limpia con seguridad con un paño suave y qué evitar para no rayarla.",
+ "keywords": [
+  "limpiador de pantalla del móvil",
+  "limpiar la pantalla del móvil",
+  "cómo limpiar la pantalla del móvil",
+  "limpieza de la pantalla del móvil"
+ ],
+ "tagline": "CleanKoach limpia el almacenamiento, no el cristal. Esta es la forma segura",
+ "quick_answer": "<p><strong>Ninguna app limpia la pantalla de un móvil, y CleanKoach no dice que lo haga.</strong> Para limpiar el cristal, apaga el teléfono, desenchúfalo, pásale un paño suave que no suelte pelusa, usa uno ligeramente húmedo para la suciedad, no rocíes nunca líquido directamente sobre el teléfono y mantén la humedad fuera de las aberturas.</p>",
+ "intro": "<p>Una pantalla manchada es el problema más fácil de arreglar de un móvil, y el más fácil de empeorar. Apple y Google dan el mismo consejo básico.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Por qué una app no puede hacerlo",
+   "html": "<p>Una pantalla acumula grasa y polvo en el cristal. CleanKoach trabaja con archivos y almacenamiento, así que no tiene ningún efecto sobre el cristal. Úsala para el almacenamiento y un paño para la pantalla.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La mejor app para limpiar el móvil Android"
+    ]
+   ]
+  },
+  {
+   "id": "basic",
+   "h2": "La limpieza básica",
+   "html": "<ol><li><strong>Apaga el teléfono</strong> y desconecta todos los cables.</li><li><strong>Pasa un paño suave que no suelte pelusa.</strong> Un paño de microfibra seco quita el polvo, las manchas y las marcas.</li><li><strong>Para la suciedad,</strong> usa un paño ligeramente húmedo, o una toallita para pantallas o un limpiador de gafas en un Pixel.</li><li><strong>Limpia con suavidad.</strong> Evita frotar en exceso.</li><li><strong>Deja que se seque</strong> antes de encenderlo.</li></ol>"
+  },
+  {
+   "id": "disinfect",
+   "h2": "Desinfectar la pantalla",
+   "html": "<p>Apple dice que puedes usar una toallita con alcohol isopropílico al 70%, una toallita con alcohol etílico al 75% o toallitas desinfectantes Clorox en el exterior de un iPhone, y luego pasar un paño suave, ligeramente húmedo y que no suelte pelusa. Google dice que se pueden usar toallitas desinfectantes domésticas o toallitas con alcohol isopropílico al 70% en un Pixel, también en la pantalla. Apple desaconseja la lejía y el peróxido de hidrógeno, y Google desaconseja la lejía.</p><p>Toallitas, no líquido: no viertas ni rocíes nada sobre el teléfono.</p>"
+  },
+  {
+   "id": "avoid",
+   "h2": "Qué evitar",
+   "html": "<ul><li><strong>Aerosoles y lejía:</strong> Apple dice que no se usen aerosoles, lejías ni abrasivos.</li><li><strong>Rociar directamente:</strong> no rocíes limpiador sobre el teléfono.</li><li><strong>Humedad en las aberturas:</strong> mantenla fuera de los puertos y los altavoces.</li><li><strong>Materiales abrasivos:</strong> Apple dice que los productos de limpieza y los abrasivos pueden reducir el revestimiento oleofóbico y podrían rayar la pantalla.</li><li><strong>Sumergir:</strong> no sumerjas el teléfono en ningún producto de limpieza.</li></ul>",
+   "see": [
+    [
+     "phone-speaker-cleaner",
+     "Limpiador del altavoz del móvil"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Marcas y qué las quita",
+   "html": "<p>Elige el método según la marca.</p>",
+   "table": {
+    "caption": "Marcas habituales en la pantalla y cómo quitarlas",
+    "headers": [
+     "Marca",
+     "Qué la quita",
+     "Evitar"
+    ],
+    "rows": [
+     [
+      "Polvo y huellas dactilares",
+      "Paño seco, suave y que no suelte pelusa",
+      "Frotar fuerte"
+     ],
+     [
+      "Marcas de limpieza",
+      "Paño seco y luego uno ligeramente húmedo",
+      "Rociar líquido sobre el cristal"
+     ],
+     [
+      "Maquillaje o color de los vaqueros",
+      "Paño ligeramente húmedo que no suelte pelusa",
+      "Estropajos abrasivos"
+     ],
+     [
+      "Gérmenes",
+      "Toallita con alcohol isopropílico al 70%, como permiten Apple y Google",
+      "Lejía, y peróxido de hidrógeno en el iPhone"
+     ],
+     [
+      "Pelusa del bolsillo en los bordes",
+      "Paño seco y luego un cepillo suave y seco",
+      "Herramientas afiladas"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "protector",
+   "h2": "Protectores de pantalla y fundas",
+   "html": "<p>Si usas un protector de pantalla, límpialo de la misma manera. Quita la funda de vez en cuando y limpia el teléfono y la funda por separado para que la suciedad no raye la parte trasera ni los bordes.</p>",
+   "see": [
+    [
+     "phone-cleaning-kit",
+     "Kit de limpieza para el móvil"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "¿Puede una app limpiar la pantalla de mi móvil?",
+   "a": "No. Una pantalla es de cristal. CleanKoach libera almacenamiento y no puede limpiar una pantalla."
+  },
+  {
+   "q": "¿Cuál es la forma más segura de limpiar la pantalla del móvil?",
+   "a": "Apaga el teléfono, desenchúfalo y pásale un paño suave que no suelte pelusa. Usa un paño ligeramente húmedo para la suciedad."
+  },
+  {
+   "q": "¿Puedo usar alcohol isopropílico en la pantalla del móvil?",
+   "a": "Apple permite una toallita con alcohol isopropílico al 70% en el exterior de un iPhone y Google permite toallitas con alcohol isopropílico al 70% en un Pixel, también en la pantalla. Usa una toallita, no líquido."
+  },
+  {
+   "q": "¿Puedo usar lejía o peróxido de hidrógeno?",
+   "a": "No. Apple desaconseja ambos en el iPhone y Google desaconseja la lejía en el Pixel."
+  },
+  {
+   "q": "¿Debo rociar limpiador sobre la pantalla?",
+   "a": "No. No rocíes limpiador directamente sobre el teléfono. Usa una toallita o un paño húmedo."
+  },
+  {
+   "q": "¿Por qué mi pantalla se pone grasienta?",
+   "a": "La grasa de la piel y el polvo se acumulan en el cristal. Un paño de microfibra seco quita la mayor parte."
+  },
+  {
+   "q": "¿Puede la limpieza dañar el revestimiento de la pantalla?",
+   "a": "Apple dice que los productos de limpieza y los materiales abrasivos pueden reducir el revestimiento oleofóbico y podrían rayar la pantalla, así que sé delicado."
+  },
+  {
+   "q": "¿Cada cuánto debo limpiar mi móvil?",
+   "a": "Tan a menudo como se vea sucio. Limpia la pantalla cuando notes manchas."
+  },
+  {
+   "q": "¿Limpia CleanKoach mi pantalla?",
+   "a": "No. CleanKoach libera almacenamiento, no cristal."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Los consejos de Apple sobre toallitas, paños suaves que no sueltan pelusa y qué puede dañar el revestimiento de la pantalla."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Los consejos de Google sobre paños, toallitas, alcohol isopropílico al 70% y qué evitar."
+  }
+ ],
+ "related": []
+}

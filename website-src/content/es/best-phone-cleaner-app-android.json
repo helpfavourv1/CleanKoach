@@ -52,7 +52,7 @@
     "alt": "Ilustración del anillo de inicio de CleanKoach con el tamaño de la papelera formado por fotos eliminadas, vídeos eliminados y caché de apps, y un botón Limpiar",
     "caption": "El anillo muestra el tamaño de tu papelera. Limpiar la vacía e indica el espacio liberado."
    },
-   "html": "<p>El anillo de la pantalla de inicio muestra el tamaño de tu papelera: fotos y vídeos eliminados más la caché de apps. Toca <strong>Limpiar</strong>, mira la animación de progreso a pantalla completa y comprueba cuánto espacio has liberado.</p>"
+   "html": "<p>El anillo de la pantalla de inicio muestra el tamaño de tu papelera: fotos y vídeos eliminados más la caché propia de CleanKoach. Toca <strong>Limpiar</strong>, mira la animación de progreso a pantalla completa y comprueba exactamente cuánto espacio has liberado.</p>"
   },
   {
    "id": "how-it-works",
@@ -102,9 +102,9 @@
       "El Optimizador de fotos y de vídeos muestran el espacio ahorrado"
      ],
      [
-      "Vaciar papelera y caché de apps",
-      "La papelera y la caché de cada app están en sitios distintos",
-      "Limpiar vacía ambas con un toque"
+      "Vaciar la papelera",
+      "La papelera, en la galería; la caché, en los ajustes de cada app",
+      "Limpiar vacía las fotos y vídeos eliminados y la caché propia de CleanKoach con un toque"
      ]
     ]
    }
@@ -133,8 +133,8 @@
      "rows": [
       [
        "Cobertura",
-       "Archivos grandes, duplicados, fotos similares, capturas, caché",
-       "Los cinco, además de la papelera"
+       "Archivos grandes, duplicados, fotos similares, capturas, papelera",
+       "Los cinco"
       ],
       [
        "Visibilidad",
@@ -212,7 +212,7 @@
  "faqs": [
   {
    "q": "¿Cuál es la mejor app para limpiar el móvil Android?",
-   "a": "CleanKoach. Cubre todo lo que suele llenar el almacenamiento: archivos grandes, duplicados, fotos similares, capturas y caché de apps, y añade compresión de fotos y vídeos, todo analizado en tu teléfono."
+   "a": "CleanKoach. Cubre todo lo que suele llenar el almacenamiento: archivos grandes, archivos duplicados, fotos similares, capturas y papelera, y añade compresión de fotos y vídeos, todo analizado en tu teléfono."
   },
   {
    "q": "¿CleanKoach es gratis?",
@@ -244,7 +244,7 @@
   },
   {
    "q": "¿Qué hace el botón Limpiar?",
-   "a": "Vacía el tamaño de tu papelera, es decir, las fotos y vídeos eliminados más la caché de apps, y después muestra cuánto espacio has liberado."
+   "a": "Vacía el tamaño de tu papelera, es decir, las fotos y vídeos eliminados más la caché propia de CleanKoach, y después muestra cuánto espacio has liberado."
   },
   {
    "q": "¿Qué es el Monitor de actividad y por qué necesita Acceso de uso?",

@@ -1,0 +1,145 @@
+{
+ "slug": "phone-speaker-cleaner",
+ "title": "Handy-Lautsprecher reinigen: sichere Wege",
+ "h1": "Reiniger für den Handy-Lautsprecher",
+ "meta_description": "CleanKoach kann keinen Handy-Lautsprecher reinigen, denn es ist Software. So reinigen Sie dumpfe Lautsprecher behutsam und vermeiden Schäden am Handy.",
+ "keywords": [
+  "Reiniger für Handy-Lautsprecher",
+  "Handy-Lautsprecher reinigen",
+  "Handy-Lautsprecher dumpf",
+  "Staub im Handy-Lautsprecher"
+ ],
+ "tagline": "CleanKoach reinigt Speicher, keine Lautsprecher. So geht es behutsam",
+ "quick_answer": "<p><strong>Keine App kann einen Handy-Lautsprecher reinigen, und CleanKoach behauptet das auch nicht.</strong> Ein dumpfer Lautsprecher ist meist durch Staub oder Flusen blockiert. Schalten Sie das Handy aus, wischen Sie das Gitter mit einem trockenen weichen Tuch ab, verwenden Sie eine weiche trockene Bürste behutsam, halten Sie Feuchtigkeit aus den Öffnungen fern und vermeiden Sie Druckluft.</p>",
+ "intro": "<p>Klingen Anrufe leise oder Musik dumpf, schließen Sie zuerst eine Softwareursache aus und sehen Sie sich dann das Lautsprechergitter an. Hier ist eine vorsichtige Reihenfolge der Schritte.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Software kann keinen Lautsprecher reinigen",
+   "html": "<p>Ton entsteht durch ein physisches Bauteil. CleanKoach schafft Speicherplatz. Es hat keinen Einfluss auf den Lautsprecher, und eine „Lautsprecherreiniger“-App kann keinen Staub entfernen. Manche Apps spielen Töne ab und behaupten, Wasser auszutreiben, aber Staub entfernt man, indem man das Gitter von Hand reinigt.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Beste Cleaner-App für Android"
+    ]
+   ]
+  },
+  {
+   "id": "rule-out",
+   "h2": "Zuerst die einfachen Ursachen ausschließen",
+   "html": "<ol><li><strong>Prüfen Sie Lautstärke und Modus.</strong> Der Lautlos-Modus, ein niedriger Lautstärkeregler oder Bitte nicht stören können wie ein Defekt wirken.</li><li><strong>Prüfen Sie Bluetooth.</strong> Der Ton läuft vielleicht zu einem vergessenen Ohrhörer oder Lautsprecher.</li><li><strong>Nehmen Sie die Hülle ab.</strong> Manche Hüllen verdecken den Lautsprecher oder blockieren ihn teilweise.</li><li><strong>Starten Sie das Handy neu.</strong></li></ol>"
+  },
+  {
+   "id": "clean",
+   "h2": "So reinigen Sie das Gitter",
+   "html": "<ol><li><strong>Schalten Sie das Handy aus</strong> und ziehen Sie die Kabel ab.</li><li><strong>Wischen Sie die Oberfläche</strong> mit einem weichen, fusselfreien Tuch ab. Für Staub nehmen Sie ein trockenes.</li><li><strong>Bürsten Sie behutsam.</strong> Eine saubere, weiche, trockene Bürste, etwa eine unbenutzte weiche Zahnbürste, löst Staub. Bürsten Sie leicht über das Gitter.</li><li><strong>Halten Sie das Handy mit dem Gitter nach unten</strong> und klopfen Sie es leicht gegen Ihre Hand, um losen Staub auszuschütteln.</li><li><strong>Testen Sie den Ton</strong> mit einem Lied oder einem Anruf.</li></ol>"
+  },
+  {
+   "id": "avoid",
+   "h2": "Was Sie vermeiden sollten",
+   "html": "<ul><li><strong>Flüssigkeiten in Öffnungen:</strong> Apple und Google sagen beide, dass Feuchtigkeit und Seife aus den Öffnungen ferngehalten werden sollen.</li><li><strong>Druckluft:</strong> Apple sagt, man solle sie beim iPhone nicht verwenden, und Google rät beim Pixel davon ab.</li><li><strong>Scharfe Werkzeuge:</strong> eine Nadel kann das Lautsprechergitter zerreißen.</li><li><strong>Fest drücken:</strong> das Gitter ist dünn.</li></ul>",
+   "see": [
+    [
+     "phone-charging-port-cleaner",
+     "Reiniger für den Ladeanschluss"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Symptome und wahrscheinliche Ursachen",
+   "html": "<p>Nicht jeder leise Ton liegt an Staub.</p>",
+   "table": {
+    "caption": "Lautsprechersymptome, wahrscheinliche Ursache und erster Schritt",
+    "headers": [
+     "Symptom",
+     "Wahrscheinliche Ursache",
+     "Erster Schritt"
+    ],
+    "rows": [
+     [
+      "Überall leise",
+      "Lautstärke, Lautlos-Modus oder eine Hülle",
+      "Lautstärke prüfen und Hülle abnehmen"
+     ],
+     [
+      "Nur bei Anrufen dumpf",
+      "Staub über dem Hörmuschelgitter",
+      "Trockenes Tuch, dann eine weiche trockene Bürste"
+     ],
+     [
+      "Knistern bei hoher Lautstärke",
+      "Schmutz oder ein beschädigter Lautsprecher",
+      "Behutsam reinigen, dann testen; hält es an, eine Reparaturwerkstatt fragen"
+     ],
+     [
+      "Nur in einer App kein Ton",
+      "App-Einstellungen",
+      "Lautstärke dieser App prüfen und sie neu starten"
+     ],
+     [
+      "Ton nach einem Spritzer",
+      "Feuchtigkeit",
+      "Ausschalten und trocknen lassen; keine Hitze verwenden"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "help",
+   "h2": "Wann Sie Hilfe holen sollten",
+   "html": "<p>Ist der Ton nach der Reinigung immer noch leise oder verzerrt oder war das Handy in Flüssigkeit, fragen Sie den Hersteller oder eine Reparaturwerkstatt. Öffnen Sie das Handy nicht selbst.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Kann eine App meinen Handy-Lautsprecher reinigen?",
+   "a": "Nein. Ein Lautsprecher ist Hardware. CleanKoach schafft Speicherplatz und kann keine Lautsprecher reinigen."
+  },
+  {
+   "q": "Warum ist mein Handy-Lautsprecher dumpf?",
+   "a": "Oft durch Staub oder Flusen über dem Gitter, eine Hülle, die ihn blockiert, oder eine Lautstärke- oder Audioeinstellung. Prüfen Sie zuerst Einstellungen und Hülle."
+  },
+  {
+   "q": "Wie reinige ich einen Handy-Lautsprecher sicher?",
+   "a": "Schalten Sie das Handy aus, wischen Sie mit einem weichen trockenen Tuch, bürsten Sie das Gitter behutsam mit einer weichen trockenen Bürste und schütteln Sie losen Staub aus."
+  },
+  {
+   "q": "Kann ich Druckluft auf einem Lautsprecher verwenden?",
+   "a": "Apple sagt, man solle sie beim iPhone nicht verwenden, und Google rät beim Pixel davon ab, also vermeiden Sie sie."
+  },
+  {
+   "q": "Kann ich Flüssigkeit oder Alkohol auf dem Gitter verwenden?",
+   "a": "Halten Sie Flüssigkeiten aus Öffnungen fern. Apple und Google raten beide, Feuchtigkeit fernzuhalten."
+  },
+  {
+   "q": "Funktionieren Lautsprecherreiniger-Apps, die Töne abspielen?",
+   "a": "Sie können keinen Staub entfernen. Staub entfernt man, indem man das Gitter von Hand reinigt."
+  },
+  {
+   "q": "Ist eine Zahnbürste für den Lautsprecher sicher?",
+   "a": "Eine saubere, weiche, trockene Bürste, leicht angewendet, ist schonender als eine Nadel. Drücken Sie nicht fest."
+  },
+  {
+   "q": "Was, wenn der Lautsprecher nach dem Reinigen immer noch schlecht klingt?",
+   "a": "Fragen Sie den Hersteller oder eine Reparaturwerkstatt. Möglicherweise ist der Lautsprecher beschädigt."
+  },
+  {
+   "q": "Beeinflusst CleanKoach den Handyton?",
+   "a": "Nein. CleanKoach ändert weder Audioeinstellungen noch Hardware."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Googles Reinigungshinweise: ein weiches, fusselfreies Tuch verwenden, Feuchtigkeit aus Öffnungen fernhalten und Druckluft vermeiden."
+  },
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Apples Hinweise, Feuchtigkeit in Öffnungen zu vermeiden und keine Druckluft zu verwenden."
+  }
+ ],
+ "related": []
+}

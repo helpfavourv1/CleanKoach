@@ -1,0 +1,145 @@
+{
+ "slug": "phone-speaker-cleaner",
+ "title": "Pulizia dell'altoparlante: metodi sicuri",
+ "h1": "Pulizia dell'altoparlante del telefono",
+ "meta_description": "CleanKoach non può pulire l'altoparlante di un telefono, perché è software. Ecco come pulire con delicatezza un altoparlante ovattato e cosa evitare.",
+ "keywords": [
+  "pulizia altoparlante telefono",
+  "pulire l'altoparlante del telefono",
+  "altoparlante del telefono ovattato",
+  "polvere nell'altoparlante del telefono"
+ ],
+ "tagline": "CleanKoach pulisce la memoria, non gli altoparlanti. Ecco il modo delicato",
+ "quick_answer": "<p><strong>Nessuna app può pulire l'altoparlante di un telefono e CleanKoach non dice di farlo.</strong> Un altoparlante ovattato è di solito ostruito da polvere o lanugine. Spegni il telefono, pulisci la griglia con un panno morbido asciutto, usa con delicatezza una spazzola morbida asciutta, tieni l'umidità lontana dalle aperture ed evita l'aria compressa.</p>",
+ "intro": "<p>Se le chiamate si sentono poco o la musica è ovattata, escludi prima una causa software, poi controlla la griglia dell'altoparlante. Ecco un ordine prudente di passaggi.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Il software non può pulire un altoparlante",
+   "html": "<p>Il suono è prodotto da un componente fisico. CleanKoach libera spazio di memoria. Non agisce sull'altoparlante e un'app «per pulire l'altoparlante» non può rimuovere la polvere. Alcune app riproducono toni e dicono di eliminare l'acqua, ma è la pulizia manuale della griglia a rimuovere la polvere.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La migliore app di pulizia per telefono Android"
+    ]
+   ]
+  },
+  {
+   "id": "rule-out",
+   "h2": "Escludi prima le cause più semplici",
+   "html": "<ol><li><strong>Controlla volume e modalità.</strong> La modalità silenziosa, un volume basso o Non disturbare possono sembrare un guasto.</li><li><strong>Controlla il Bluetooth.</strong> L'audio potrebbe andare a un auricolare o a un altoparlante che hai dimenticato.</li><li><strong>Togli la custodia.</strong> Alcune custodie coprono o bloccano in parte l'altoparlante.</li><li><strong>Riavvia il telefono.</strong></li></ol>"
+  },
+  {
+   "id": "clean",
+   "h2": "Come pulire la griglia",
+   "html": "<ol><li><strong>Spegni il telefono</strong> e scollega i cavi.</li><li><strong>Pulisci la superficie</strong> con un panno morbido che non lascia pelucchi. Usane uno asciutto per la polvere.</li><li><strong>Spazzola con delicatezza.</strong> Una spazzola pulita, morbida e asciutta, come uno spazzolino morbido mai usato, stacca la polvere. Passala leggermente sulla griglia.</li><li><strong>Gira il telefono con la griglia verso il basso</strong> e battilo leggermente contro la mano per far uscire la polvere sciolta.</li><li><strong>Prova il suono</strong> con un brano o una chiamata.</li></ol>"
+  },
+  {
+   "id": "avoid",
+   "h2": "Cosa evitare",
+   "html": "<ul><li><strong>Liquidi nelle aperture:</strong> Apple e Google dicono entrambe di tenere umidità e sapone lontani dalle aperture.</li><li><strong>Aria compressa:</strong> Apple dice di non usarla su iPhone e Google la sconsiglia su Pixel.</li><li><strong>Utensili appuntiti:</strong> uno spillo può strappare la rete dell'altoparlante.</li><li><strong>Premere con forza:</strong> la rete è sottile.</li></ul>",
+   "see": [
+    [
+     "phone-charging-port-cleaner",
+     "Pulizia della porta di ricarica del telefono"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Sintomi e cause probabili",
+   "html": "<p>Non tutti i suoni deboli sono dovuti alla polvere.</p>",
+   "table": {
+    "caption": "Sintomi dell'altoparlante, causa probabile e primo passo",
+    "headers": [
+     "Sintomo",
+     "Causa probabile",
+     "Primo passo"
+    ],
+    "rows": [
+     [
+      "Basso ovunque",
+      "Volume, modalità silenziosa o una custodia",
+      "Controlla il volume e togli la custodia"
+     ],
+     [
+      "Ovattato solo nelle chiamate",
+      "Polvere sulla griglia dell'auricolare",
+      "Panno asciutto, poi una spazzola morbida asciutta"
+     ],
+     [
+      "Crepitii ad alto volume",
+      "Residui o altoparlante danneggiato",
+      "Pulisci con delicatezza, poi prova; se continua, rivolgiti a un centro di assistenza"
+     ],
+     [
+      "Nessun suono solo in un'app",
+      "Impostazioni dell'app",
+      "Controlla il volume di quell'app e riavviala"
+     ],
+     [
+      "Suono alterato dopo uno spruzzo",
+      "Umidità",
+      "Spegni e lascia asciugare; non usare il calore"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "help",
+   "h2": "Quando chiedere aiuto",
+   "html": "<p>Se dopo la pulizia il suono è ancora debole o distorto, o se il telefono è finito in un liquido, rivolgiti al produttore o a un centro di assistenza. Non aprire il telefono da solo.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Un'app può pulire l'altoparlante del mio telefono?",
+   "a": "No. Un altoparlante è hardware. CleanKoach libera spazio di memoria e non può pulire gli altoparlanti."
+  },
+  {
+   "q": "Perché l'altoparlante del mio telefono è ovattato?",
+   "a": "Spesso per la polvere o la lanugine sulla griglia, una custodia che la blocca o un'impostazione di volume o audio. Controlla prima le impostazioni e la custodia."
+  },
+  {
+   "q": "Come pulisco l'altoparlante del telefono in sicurezza?",
+   "a": "Spegni il telefono, passa un panno morbido asciutto, spazzola la griglia con delicatezza con una spazzola morbida asciutta e fai uscire la polvere sciolta."
+  },
+  {
+   "q": "Posso usare l'aria compressa su un altoparlante?",
+   "a": "Apple dice di non usarla su iPhone e Google la sconsiglia su Pixel, quindi evitala."
+  },
+  {
+   "q": "Posso usare liquidi o alcol sulla griglia?",
+   "a": "Tieni i liquidi lontani dalle aperture. Apple e Google consigliano entrambe di tenere l'umidità lontana."
+  },
+  {
+   "q": "Le app per pulire l'altoparlante che riproducono suoni funzionano?",
+   "a": "Non possono rimuovere la polvere. È la pulizia manuale della griglia a rimuoverla."
+  },
+  {
+   "q": "Lo spazzolino è sicuro per l'altoparlante?",
+   "a": "Una spazzola pulita, morbida e asciutta usata con leggerezza è più delicata di uno spillo. Non premere con forza."
+  },
+  {
+   "q": "E se l'altoparlante suona ancora male dopo la pulizia?",
+   "a": "Rivolgiti al produttore o a un centro di assistenza. Potrebbe essere un altoparlante danneggiato."
+  },
+  {
+   "q": "CleanKoach influisce sull'audio del telefono?",
+   "a": "No. CleanKoach non modifica le impostazioni audio né l'hardware."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "I consigli di pulizia di Google: usare un panno morbido che non lascia pelucchi, tenere l'umidità lontana dalle aperture ed evitare l'aria compressa."
+  },
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Le indicazioni di Apple su come evitare l'umidità nelle aperture e non usare l'aria compressa."
+  }
+ ],
+ "related": []
+}

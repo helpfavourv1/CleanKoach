@@ -1,0 +1,151 @@
+{
+ "slug": "phone-screen-cleaner",
+ "title": "Limpador de tela de celular: como limpar",
+ "h1": "Limpador de tela de celular",
+ "meta_description": "O CleanKoach não limpa a tela do celular, porque libera armazenamento. Veja como limpar a tela com segurança usando um pano macio e o que evitar para não riscá-la.",
+ "keywords": [
+  "limpador de tela de celular",
+  "limpar a tela do celular",
+  "como limpar a tela do celular",
+  "limpeza da tela do celular"
+ ],
+ "tagline": "O CleanKoach limpa armazenamento, não vidro. Veja o jeito seguro",
+ "quick_answer": "<p><strong>Nenhum app limpa a tela do celular, e o CleanKoach não diz que limpa.</strong> Para limpar o vidro, desligue o celular, desconecte-o, passe um pano macio que não solte fiapos, use um pano levemente úmido para sujeira, nunca borrife líquido diretamente no celular e mantenha a umidade longe das aberturas.</p>",
+ "intro": "<p>Uma tela manchada é o problema de celular mais fácil de resolver e o mais fácil de piorar. A Apple e o Google dão o mesmo conselho básico.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Por que um app não consegue fazer isso",
+   "html": "<p>Uma tela acumula oleosidade e poeira no vidro. O CleanKoach trabalha com arquivos e armazenamento, então não tem efeito sobre o vidro. Use-o para o armazenamento e um pano para a tela.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Melhor app de limpeza para Android"
+    ]
+   ]
+  },
+  {
+   "id": "basic",
+   "h2": "A limpeza básica",
+   "html": "<ol><li><strong>Desligue o celular</strong> e desconecte todos os cabos.</li><li><strong>Passe um pano macio que não solte fiapos.</strong> Um pano seco de microfibra remove poeira, manchas e marcas.</li><li><strong>Para sujeira,</strong> use um pano levemente úmido ou, em um Pixel, um lenço para telas ou um limpador de óculos.</li><li><strong>Passe o pano com delicadeza.</strong> Evite esfregar demais.</li><li><strong>Deixe secar</strong> antes de ligar o celular.</li></ol>"
+  },
+  {
+   "id": "disinfect",
+   "h2": "Como desinfetar a tela",
+   "html": "<p>A Apple diz que você pode usar um lenço com álcool isopropílico a 70%, um lenço com álcool etílico a 75% ou lenços desinfetantes Clorox na parte externa de um iPhone e depois passar um pano macio, levemente úmido e que não solte fiapos. O Google diz que é possível usar lenços desinfetantes de uso doméstico ou lenços com álcool isopropílico a 70% em um Pixel, inclusive na tela. A Apple desaconselha água sanitária e peróxido de hidrogênio, e o Google desaconselha água sanitária.</p><p>Lenços, não líquido: não despeje nem borrife nada no celular.</p>"
+  },
+  {
+   "id": "avoid",
+   "h2": "O que evitar",
+   "html": "<ul><li><strong>Sprays aerossol e água sanitária:</strong> a Apple diz para não usar sprays aerossol, alvejantes nem abrasivos.</li><li><strong>Borrifar diretamente:</strong> não borrife produto de limpeza no celular.</li><li><strong>Umidade nas aberturas:</strong> mantenha-a longe das portas e dos alto-falantes.</li><li><strong>Materiais abrasivos:</strong> a Apple diz que produtos de limpeza e abrasivos podem reduzir o revestimento oleofóbico e talvez riscar a tela.</li><li><strong>Imersão:</strong> não mergulhe o celular em nenhum produto de limpeza.</li></ul>",
+   "see": [
+    [
+     "phone-speaker-cleaner",
+     "Limpeza do alto-falante do celular"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Manchas e o que as remove",
+   "html": "<p>Combine o método com a mancha.</p>",
+   "table": {
+    "caption": "Manchas comuns na tela e como removê-las",
+    "headers": [
+     "Mancha",
+     "O que a remove",
+     "Evite"
+    ],
+    "rows": [
+     [
+      "Poeira e digitais",
+      "Pano seco, macio e que não solta fiapos",
+      "Esfregar com força"
+     ],
+     [
+      "Listras",
+      "Pano seco e depois um levemente úmido",
+      "Borrifar líquido no vidro"
+     ],
+     [
+      "Maquiagem ou tinta de jeans",
+      "Pano levemente úmido que não solta fiapos",
+      "Esponjas abrasivas"
+     ],
+     [
+      "Germes",
+      "Lenço com álcool isopropílico a 70%, como a Apple e o Google permitem",
+      "Água sanitária e, no iPhone, peróxido de hidrogênio"
+     ],
+     [
+      "Fiapos de bolso nas bordas",
+      "Pano seco e depois uma escova macia e seca",
+      "Ferramentas pontiagudas"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "protector",
+   "h2": "Películas protetoras e capas",
+   "html": "<p>Se você usa uma película protetora, limpe a película do mesmo jeito. Tire a capa de vez em quando e limpe o celular e a capa separadamente, para que a sujeira não arranhe a parte de trás nem as bordas.</p>",
+   "see": [
+    [
+     "phone-cleaning-kit",
+     "Kit de limpeza para celular"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Um app consegue limpar a tela do meu celular?",
+   "a": "Não. Uma tela é de vidro. O CleanKoach libera armazenamento e não limpa telas."
+  },
+  {
+   "q": "Qual é a forma mais segura de limpar a tela do celular?",
+   "a": "Desligue o celular, desconecte-o e passe um pano macio que não solte fiapos. Use um pano levemente úmido para sujeira."
+  },
+  {
+   "q": "Posso usar álcool isopropílico na tela do celular?",
+   "a": "A Apple permite um lenço com álcool isopropílico a 70% na parte externa do iPhone, e o Google permite lenços com álcool isopropílico a 70% em um Pixel, inclusive na tela. Use um lenço, não líquido."
+  },
+  {
+   "q": "Posso usar água sanitária ou peróxido de hidrogênio?",
+   "a": "Não. A Apple desaconselha os dois no iPhone, e o Google desaconselha água sanitária no Pixel."
+  },
+  {
+   "q": "Devo borrifar produto de limpeza na tela?",
+   "a": "Não. Não borrife produto de limpeza diretamente no celular. Use um lenço ou um pano úmido."
+  },
+  {
+   "q": "Por que a minha tela fica gordurosa?",
+   "a": "A oleosidade da pele e a poeira se acumulam no vidro. Um pano seco de microfibra remove quase tudo."
+  },
+  {
+   "q": "A limpeza pode danificar o revestimento da tela?",
+   "a": "A Apple diz que produtos de limpeza e materiais abrasivos podem reduzir o revestimento oleofóbico e talvez riscar a tela, então vá com delicadeza."
+  },
+  {
+   "q": "Com que frequência devo limpar o celular?",
+   "a": "Sempre que ele parecer sujo. Limpe a tela quando notar manchas."
+  },
+  {
+   "q": "O CleanKoach limpa a minha tela?",
+   "a": "Não. O CleanKoach libera armazenamento, não limpa vidro."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Orientações da Apple sobre lenços, panos macios que não soltam fiapos e o que pode danificar o revestimento da tela."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Orientações do Google sobre panos, lenços, álcool isopropílico a 70% e o que evitar."
+  }
+ ],
+ "related": []
+}

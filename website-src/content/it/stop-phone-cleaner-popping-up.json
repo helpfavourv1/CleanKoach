@@ -1,0 +1,145 @@
+{
+ "slug": "stop-phone-cleaner-popping-up",
+ "title": "Come impedire i popup di un'app di pulizia",
+ "h1": "Come impedire a un'app di pulizia di mostrare finestre popup",
+ "meta_description": "I popup delle app di pulizia su Android arrivano di solito da notifiche di siti web o da un'app. Trova la fonte, disattivala e impedisci che torni.",
+ "keywords": [
+  "impedire popup app di pulizia",
+  "popup app di pulizia telefono",
+  "notifiche app di pulizia telefono",
+  "rimuovere popup app di pulizia"
+ ],
+ "tagline": "Trova la fonte, poi disattivala",
+ "quick_answer": "<p><strong>Per impedire a un'app di pulizia di mostrare popup, scopri cosa li mostra, poi disattivalo.</strong> La causa è di solito un sito web con le notifiche consentite, un'app con l'autorizzazione a comparire sopra le altre app o gli avvisi di un'app di pulizia. Tieni premuto il popup per vedere quale app lo ha inviato, poi bloccala o disinstallala.</p>",
+ "intro": "<p>Un popup che dice che il telefono ha bisogno di essere pulito non arriva sempre da un'app di pulizia che hai installato. Controlla le fonti qui sotto, dalla più alla meno probabile.</p>",
+ "sections": [
+  {
+   "id": "causes",
+   "h2": "Da dove arriva il popup",
+   "html": "<ul><li><strong>Un sito web:</strong> hai consentito le notifiche di un sito nel browser e ora invia avvisi.</li><li><strong>Le notifiche di un'app:</strong> un'app installata invia avvisi che sembrano avvisi di sistema.</li><li><strong>Un'app che compare sopra le altre:</strong> un'app con l'autorizzazione a comparire sopra le altre app.</li><li><strong>Una pagina nel browser:</strong> un falso avviso in una pagina web, che si chiude quando chiudi la scheda.</li></ul>"
+  },
+  {
+   "id": "find",
+   "h2": "Scopri di quale app o sito si tratta",
+   "html": "<ol><li><strong>Tieni premuta la notifica.</strong> Android mostra il nome dell'app o del sito.</li><li><strong>Controlla dove compare.</strong> Nel pannello delle notifiche è una notifica. Sopra un'altra app è una sovrapposizione. All'interno di una pagina web è il sito.</li><li><strong>Annota il nome</strong>, poi usa la tabella qui sotto.</li></ol>"
+  },
+  {
+   "id": "fixes",
+   "h2": "Soluzioni in base alla fonte",
+   "html": "<p>I nomi dei menu variano un po' da un produttore all'altro.</p>",
+   "table": {
+    "caption": "Dove compare il popup, causa probabile e soluzione",
+    "headers": [
+     "Dove lo vedi",
+     "Causa probabile",
+     "Soluzione"
+    ],
+    "rows": [
+     [
+      "Pannello delle notifiche, con il nome di un sito web",
+      "Notifiche del browser consentite per un sito",
+      "Nelle impostazioni del browser, apri Impostazioni sito, poi Notifiche, e blocca quel sito"
+     ],
+     [
+      "Pannello delle notifiche, con il nome di un'app",
+      "Le notifiche dell'app stessa",
+      "Tienila premuta e disattiva le notifiche di quell'app, oppure disinstalla l'app"
+     ],
+     [
+      "Sopra le altre app",
+      "Autorizzazione a comparire sopra le altre app",
+      "In Impostazioni, App, Accesso speciale, Visualizza sopra altre app, disattivala per quell'app"
+     ],
+     [
+      "Solo all'interno di una pagina web",
+      "Un falso avviso sul sito",
+      "Chiudi la scheda e non toccare nulla al suo interno"
+     ],
+     [
+      "Continua a tornare dopo la disinstallazione",
+      "Una seconda app o un sito che consenti ancora",
+      "Ripeti i passaggi, poi esegui una scansione di Play Protect"
+     ]
+    ]
+   },
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Le app di pulizia sono sicure?"
+    ]
+   ]
+  },
+  {
+   "id": "browser",
+   "h2": "Blocca le notifiche dei siti web in Chrome",
+   "html": "<p>Apri Chrome, poi Impostazioni, poi Impostazioni sito, poi Notifiche. Sposta nell'elenco dei bloccati i siti di cui non ti fidi, oppure disattiva del tutto le notifiche. Chrome può anche usare messaggi più discreti, così i siti possono chiedere senza un popup.</p>"
+  },
+  {
+   "id": "scan",
+   "h2": "Controlla con Google Play Protect",
+   "html": "<p>Apri il Play Store, tocca l'icona del tuo profilo, tocca Play Protect ed esegui una scansione. Assicurati che <strong>Analizza le app con Play Protect</strong> sia attivo. Controlla le app alla ricerca di comportamenti dannosi e può avvisarti o rimuoverle.</p>"
+  },
+  {
+   "id": "cleankoach",
+   "h2": "E CleanKoach?",
+   "html": "<p>CleanKoach non mostra popup sopra le altre app e non chiede l'autorizzazione per farlo. Le sue uniche notifiche sono un promemoria settimanale di pulizia e gli avvisi sulla memoria, ed entrambi restano disattivati finché non li attivi tu. Per disattivarli, apri CleanKoach, poi Impostazioni, e disattiva le opzioni di notifica, oppure usa le impostazioni delle notifiche di Android per l'app.</p>",
+   "see": [
+    [
+     "free-phone-cleaner-android",
+     "Cleaner gratuito per telefono Android"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Perché un'app di pulizia continua a comparire?",
+   "a": "Di solito è un sito web di cui hai consentito le notifiche, un'app con l'autorizzazione a comparire sopra le altre app o un'app di pulizia che invia avvisi."
+  },
+  {
+   "q": "Come trovo quale app mostra il popup?",
+   "a": "Tieni premuta la notifica. Android mostra l'app o il sito che l'ha inviata."
+  },
+  {
+   "q": "Come fermo le notifiche dei siti web su Android?",
+   "a": "In Chrome, apri Impostazioni, Impostazioni sito, Notifiche e blocca il sito. Gli altri browser hanno un'impostazione simile."
+  },
+  {
+   "q": "Cos'è Visualizza sopra altre app?",
+   "a": "Un'autorizzazione di Android che permette a un'app di disegnare sopra le altre app. Disattivala per qualsiasi app che non ne ha bisogno."
+  },
+  {
+   "q": "Un popup che dice che il mio telefono ha un virus è vero?",
+   "a": "Quasi mai quando arriva da una pagina web o da un'app sconosciuta. Chiudi la scheda e non toccarlo. Esegui una scansione di Play Protect se hai dubbi."
+  },
+  {
+   "q": "CleanKoach compare sul mio schermo?",
+   "a": "No. CleanKoach non compare sopra le altre app. Il suo promemoria settimanale e gli avvisi sulla memoria sono facoltativi e restano disattivati finché non li attivi tu."
+  },
+  {
+   "q": "Come disattivo i promemoria di CleanKoach?",
+   "a": "Apri CleanKoach, vai in Impostazioni e disattiva le opzioni di notifica, oppure usa le impostazioni delle notifiche di Android per l'app."
+  },
+  {
+   "q": "E se il popup torna dopo che ho disinstallato l'app?",
+   "a": "Lo invia un'altra app o un sito che consenti ancora. Ripeti i passaggi ed esegui una scansione di Play Protect."
+  },
+  {
+   "q": "Devo installare un'altra app di pulizia per fermare i popup?",
+   "a": "No. Rimuovi invece la fonte. Un'altra app aggiunge un'altra cosa che può mostrare avvisi."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Use notifications to get alerts, Google Chrome Help",
+   "url": "https://support.google.com/chrome/answer/3220216",
+   "note": "Come Chrome ti permette di bloccare l'invio di notifiche da un sito e di usare messaggi più discreti."
+  },
+  {
+   "title": "Use Google Play Protect to help keep your apps safe and your data private, Google Play Help",
+   "url": "https://support.google.com/googleplay/answer/2812853",
+   "note": "Come Play Protect controlla le app alla ricerca di comportamenti dannosi e come verificare che sia attivo."
+  }
+ ],
+ "related": []
+}

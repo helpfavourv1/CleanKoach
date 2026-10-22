@@ -1,0 +1,159 @@
+{
+ "slug": "phone-storage-cleaner",
+ "title": "Nettoyeur de stockage : comment ça marche",
+ "h1": "Comment fonctionne un nettoyeur de stockage de téléphone",
+ "meta_description": "Un nettoyeur de stockage repère ce qui remplit votre stockage Android et vous aide à le libérer sans risque. Voyez ce que CleanKoach analyse et supprime.",
+ "keywords": [
+  "nettoyeur de stockage téléphone",
+  "nettoyeur de stockage android",
+  "comment fonctionne un nettoyeur de téléphone",
+  "libérer du stockage sur un téléphone"
+ ],
+ "tagline": "Ce qu'un nettoyeur analyse, et ce qu'il laisse tranquille",
+ "quick_answer": "<p><strong>Un nettoyeur de stockage de téléphone liste ce qui remplit votre stockage pour que vous puissiez le supprimer.</strong> CleanKoach lit votre bibliothèque de photos, vidéos et audios sur le téléphone, affiche vos fichiers les plus gros, trouve les doublons identiques et les photos quasi identiques, regroupe les captures d'écran et vide la corbeille. Vous choisissez ce qui part, et rien n'est envoyé.</p>",
+ "intro": "<p>Le stockage se remplit lentement, puis d'un coup. Un nettoyeur fait la recherche à votre place. Ce guide explique ce que regarde CleanKoach, comment elle décide, et où se situent ses limites.</p>",
+ "sections": [
+  {
+   "id": "where-space-goes",
+   "h2": "Où va votre stockage",
+   "html": "<ul><li><strong>Gros fichiers :</strong> une poignée de vidéos peut peser plus que des milliers de photos.</li><li><strong>Doublons exacts :</strong> le même fichier enregistré deux fois, souvent par une appli de messagerie ou une sauvegarde.</li><li><strong>Photos quasi identiques :</strong> rafales et prises répétées.</li><li><strong>Captures d'écran :</strong> des années de captures.</li><li><strong>Corbeille :</strong> médias supprimés qui n'ont pas encore été vidés.</li><li><strong>Cache :</strong> fichiers temporaires que conservent les applis.</li><li><strong>Applis et leurs données :</strong> gérées dans les paramètres de stockage d'Android.</li></ul>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "La meilleure appli de nettoyage pour Android"
+    ]
+   ]
+  },
+  {
+   "id": "how-it-scans",
+   "h2": "Comment CleanKoach analyse",
+   "html": "<ol><li><strong>Elle lit votre bibliothèque de médias</strong> dès que vous autorisez l'accès aux photos, vidéos et audios. Tout se passe sur votre téléphone.</li><li><strong>Gros fichiers</strong> est trié par taille, du plus gros au plus petit.</li><li><strong>Doublons</strong> sont trouvés en comparant le contenu des fichiers grâce à une empreinte SHA-256 : deux fichiers aux noms différents mais au contenu identique sont regroupés, et deux fichiers de même nom mais de contenu différent ne le sont pas.</li><li><strong>Photos similaires</strong> sont trouvées en comparant une petite empreinte de l'apparence de chaque image. Les photos qui se ressemblent presque sont regroupées, et le fichier le plus volumineux de chaque groupe est suggéré comme celui à garder. Vous pouvez en choisir un autre.</li><li><strong>Captures d'écran</strong> sont rassemblées dans une seule liste.</li></ol>"
+  },
+  {
+   "id": "tools",
+   "h2": "Quel outil répond à quelle question",
+   "html": "<p>Chaque outil affiche les tailles avant que vous n'agissiez.</p>",
+   "table": {
+    "caption": "Outils de CleanKoach et question à laquelle chacun répond",
+    "headers": [
+     "Outil",
+     "Question à laquelle il répond",
+     "Ce que vous voyez"
+    ],
+    "rows": [
+     [
+      "Gros fichiers",
+      "Qu'est-ce qui prend le plus de place ?",
+      "Photos, vidéos et audios triés par taille"
+     ],
+     [
+      "Doublons",
+      "Ai-je des copies exactes ?",
+      "Groupes de fichiers identiques et espace récupérable"
+     ],
+     [
+      "Photos similaires",
+      "Ai-je des prises répétées ?",
+      "Groupes de photos quasi identiques, avec une suggestion de celle à garder"
+     ],
+     [
+      "Captures d'écran",
+      "Puis-je supprimer d'un coup les anciennes captures d'écran ?",
+      "Toutes les captures d'écran dans une seule liste"
+     ],
+     [
+      "Optimiseur de photos et Optimiseur de vidéos",
+      "Puis-je le garder en plus léger ?",
+      "Copies compressées et espace gagné"
+     ],
+     [
+      "Nettoyer",
+      "Qu'est-ce qui peut partir en un geste ?",
+      "Photos et vidéos supprimées, plus le cache propre à l'appli"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "control",
+   "h2": "Vous gardez le contrôle",
+   "html": "<p>CleanKoach ne supprime jamais rien de son propre chef. Vous sélectionnez les fichiers, et Android vous demande de confirmer avant de supprimer des médias. Sous Android 12 et versions ultérieures, vous pouvez autoriser en option la gestion des médias, qui permet à CleanKoach de supprimer les éléments choisis sans confirmation à chaque fois. Vous pouvez la désactiver à tout moment dans les Paramètres d'Android.</p>"
+  },
+  {
+   "id": "compress",
+   "h2": "La compression ne libère de l'espace que si vous supprimez l'original",
+   "html": "<p>L'Optimiseur de photos et l'Optimiseur de vidéos enregistrent une copie plus petite dans un dossier CleanKoach et laissent l'original où il est. Vos souvenirs sont ainsi en sécurité, mais l'espace n'est libéré que lorsque vous supprimez vous-même l'original. Vérifiez d'abord la copie plus petite, puis supprimez l'original.</p>"
+  },
+  {
+   "id": "limits",
+   "h2": "Ce qu'un nettoyeur de stockage ne peut pas faire",
+   "html": "<ul><li>Il ne supprime pas vos applis. Désinstallez-les dans les Paramètres d'Android.</li><li>Nettoyer vide la corbeille et le cache propre à CleanKoach. Il ne vide pas le cache ni les données des autres applis.</li><li>Il ne rend pas votre téléphone plus rapide à lui seul. L'espace libre laisse simplement de la marge à votre téléphone pour fonctionner.</li></ul><p>Pour les applis et leurs données, utilisez les paramètres de stockage d'Android.</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Les applis de nettoyage sont-elles sûres ?"
+    ]
+   ]
+  },
+  {
+   "id": "routine",
+   "h2": "Garder du stockage libre",
+   "html": "<p>Passez en revue Gros fichiers une fois par mois, videz Captures d'écran après les grands événements et lancez Doublons après une sauvegarde d'appli de messagerie. Les rappels de nettoyage hebdomadaires sont facultatifs et peuvent être désactivés dans les Paramètres.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Qu'est-ce qu'un nettoyeur de stockage de téléphone ?",
+   "a": "Une appli qui montre ce qui occupe le stockage de votre téléphone et vous aide à le supprimer. CleanKoach couvre les gros fichiers, les doublons, les photos similaires, les captures d'écran et la corbeille."
+  },
+  {
+   "q": "Comment CleanKoach trouve-t-elle les doublons ?",
+   "a": "Elle compare le contenu des fichiers grâce à une empreinte SHA-256 : les fichiers identiques sont donc regroupés même quand leurs noms diffèrent."
+  },
+  {
+   "q": "Comment trouve-t-elle les photos similaires ?",
+   "a": "Elle compare une petite empreinte de l'apparence de chaque photo. Les photos qui se ressemblent presque sont regroupées et la plus volumineuse est suggérée comme celle à garder."
+  },
+  {
+   "q": "Puis-je changer la photo similaire conservée ?",
+   "a": "Oui. Le fichier le plus volumineux n'est qu'une suggestion. Vous pouvez choisir une autre photo à garder dans chaque groupe."
+  },
+  {
+   "q": "CleanKoach supprime-t-elle des fichiers sans demander ?",
+   "a": "Non. Vous choisissez ce qui est supprimé, et Android vous demande de confirmer avant de supprimer des médias, sauf si vous avez accordé l'autorisation facultative de gestion des médias."
+  },
+  {
+   "q": "Qu'est-ce que l'autorisation de gestion des médias ?",
+   "a": "Une autorisation facultative d'Android 12 et versions ultérieures qui permet à CleanKoach de supprimer les éléments choisis sans demander à chaque fois. Vous pouvez la désactiver dans les Paramètres d'Android."
+  },
+  {
+   "q": "Nettoyer vide-t-il le cache des autres applis ?",
+   "a": "Non. Nettoyer vide les photos et vidéos supprimées et le cache propre à CleanKoach."
+  },
+  {
+   "q": "Compresser une photo libère-t-il de l'espace tout de suite ?",
+   "a": "Pas à lui seul. La copie plus petite est enregistrée à côté de l'original : l'espace est donc libéré quand vous supprimez l'original."
+  },
+  {
+   "q": "Un nettoyeur de stockage accélère-t-il mon téléphone ?",
+   "a": "Pas directement. Il libère de l'espace. CleanKoach ne prétend pas améliorer la vitesse."
+  },
+  {
+   "q": "Mes fichiers sont-ils envoyés ?",
+   "a": "Non. Les fichiers sont analysés sur votre téléphone. Vos médias, vos données d'utilisation et vos résultats d'analyse ne sont jamais envoyés."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Free up storage on your Android device, Android Help",
+   "url": "https://support.google.com/android/answer/7431795",
+   "note": "Les étapes de Google pour vérifier le stockage, déplacer des photos et vidéos vers la corbeille et vider le cache des applis."
+  },
+  {
+   "title": "User Data policy, Google Play Console Help",
+   "url": "https://support.google.com/googleplay/android-developer/answer/10144311",
+   "note": "Google Play exige que les applis affichent une information dans l'appli avant de demander des autorisations d'exécution."
+  }
+ ],
+ "related": []
+}
