@@ -52,7 +52,7 @@
     "alt": "Guhit ng bilog sa home screen ng CleanKoach na may Laki ng basurahan na binubuo ng mga na-delete na litrato, na-delete na video at app cache, at ang LINISIN button",
     "caption": "Ipinapakita ng bilog ang Laki ng basurahan. Inaalis ito ng LINISIN at ipinapakita ang naibakanteng espasyo."
    },
-   "html": "<p>Ipinapakita ng bilog sa home screen ang Laki ng basurahan: mga na-delete na litrato at video kasama ang app cache. I-tap ang <strong>LINISIN</strong>, panoorin ang full-screen na animation ng progreso at alamin kung eksaktong gaano karaming espasyo ang naibakante mo.</p>"
+   "html": "<p>Ipinapakita ng bilog sa home screen ang Laki ng basurahan: mga na-delete na litrato at video kasama ang sariling cache ng CleanKoach. I-tap ang <strong>LINISIN</strong>, panoorin ang full-screen na animation ng progreso at alamin kung eksaktong gaano karaming espasyo ang naibakante mo.</p>"
   },
   {
    "id": "how-it-works",
@@ -102,9 +102,9 @@
       "Ipinapakita ng Photo optimizer at Video optimizer ang natipid na espasyo"
      ],
      [
-      "Alisin ang laman ng trash at app cache",
-      "Magkakaiba ang lokasyon ng trash at cache ng bawat app",
-      "Inaalis ng LINISIN ang dalawa sa isang tap"
+      "Alisin ang laman ng trash",
+      "Trash sa gallery, cache sa settings ng app",
+      "Inaalis ng LINISIN ang mga na-delete na litrato at video at ang sariling cache ng CleanKoach sa isang tap"
      ]
     ]
    }
@@ -133,8 +133,8 @@
      "rows": [
       [
        "Saklaw",
-       "Malalaking file, duplicates, similar photos, screenshots, cache",
-       "Lahat ng lima, pati trash"
+       "Malalaking file, mga duplicate, magkakahawig na larawan, mga screenshot, trash",
+       "Lahat ng lima"
       ],
       [
        "Linaw",
@@ -212,7 +212,7 @@
  "faqs": [
   {
    "q": "Ano ang pinakamahusay na cleaner app para sa Android?",
-   "a": "Ang CleanKoach. Sakop nito ang karaniwang pumupuno sa storage: malalaking file, duplicates, similar photos, screenshots at app cache, at nagdaragdag ng compression ng litrato at video. Sa phone mo ginagawa ang lahat ng scan."
+   "a": "Ang CleanKoach. Sakop nito ang lahat ng karaniwang pumupuno sa storage: malalaking file, magkaparehong file, magkakahawig na larawan, mga screenshot at trash, at nagdaragdag ito ng compression ng litrato at video, na lahat ay sinusuri sa phone mo."
   },
   {
    "q": "Libre ba ang CleanKoach?",
@@ -244,7 +244,7 @@
   },
   {
    "q": "Ano ang ginagawa ng LINISIN button?",
-   "a": "Inaalis nito ang laman ng iyong Laki ng basurahan, ibig sabihin ang mga na-delete na litrato at video kasama ang app cache, at saka ipinapakita ang naibakanteng espasyo."
+   "a": "Inaalis nito ang laman ng iyong Laki ng basurahan, ibig sabihin ang mga na-delete na litrato at video kasama ang sariling cache ng CleanKoach, at saka ipinapakita kung gaano karaming espasyo ang naibakante mo."
   },
   {
    "q": "Ano ang Activity Monitor at bakit nito kailangan ng access sa data ng paggamit?",

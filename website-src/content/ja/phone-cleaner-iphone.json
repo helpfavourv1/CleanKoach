@@ -1,0 +1,150 @@
+{
+ "slug": "phone-cleaner-iphone",
+ "title": "iPhone向けスマホクリーナー:使える方法",
+ "h1": "iPhone向けスマホクリーナー",
+ "meta_description": "iPhone向けのCleanKoachはありません。CleanKoachはAndroidアプリです。iOSに内蔵されたツールでiPhoneの空き容量を増やす方法を、手順に沿ってご紹介します。",
+ "keywords": [
+  "iPhone クリーナー",
+  "iPhone クリーナーアプリ",
+  "iPhone ストレージ 整理",
+  "iPhone 空き容量 増やす"
+ ],
+ "tagline": "CleanKoachはAndroid専用です。iPhoneでできること",
+ "quick_answer": "<p><strong>CleanKoachはAndroidアプリで、現在iPhone版はありません。</strong>iPhoneの空き容量を増やすには、iOSに内蔵されたツールを使います。設定、一般、iPhoneストレージの順に開いて確認し、おすすめの項目に従い、あまり使わないAppを取り除き、iCloud写真を使っている場合は「iPhoneのストレージを最適化」をオンにします。</p>",
+ "intro": "<p>iPhone向けのクリーナーを探してこのページに来られた方には、先に答えをお伝えしたほうがよいでしょう。CleanKoachはAndroid向けにネイティブで作られています。以下の手順では、Appleが提供するものだけを使います。</p>",
+ "sections": [
+  {
+   "id": "android-only",
+   "h2": "CleanKoachはAndroid向けです",
+   "html": "<p>CleanKoachはAndroid 9以降向けに作られたネイティブのAndroidアプリで、Google Playで入手できます。現在、iPhoneやiPad向けのバージョンはないため、iPhoneにインストールするものはありません。</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Android向けおすすめクリーナーアプリ"
+    ]
+   ]
+  },
+  {
+   "id": "check",
+   "h2": "iPhoneのストレージを使っているものを確認",
+   "html": "<ol><li><strong>設定</strong>を開き、<strong>一般</strong>をタップします。</li><li><strong>iPhoneストレージ</strong>をタップします。おすすめの項目と、各Appが使っている容量の一覧が表示されます。</li><li>詳細を見るには、Appの名前をタップします。</li></ol><p>Appleによると、キャッシュや一時的なデータは、この一覧では使用量に含まれない場合があります。</p>"
+  },
+  {
+   "id": "recommendations",
+   "h2": "内蔵のおすすめを使う",
+   "html": "<p>ストレージがいっぱいの場合は、ストレージのセクションで<strong>すべてを表示</strong>をタップして、おすすめを確認します。<strong>有効にする</strong>をタップするとオンになり、項目をタップすると削除できるものを確認できます。iOS 17以降では、Appleの写真ストレージの手順にある「あなたへのおすすめ」の一覧で、不要かもしれない写真、大きなファイル、バックアップが表示されることがあります。</p>"
+  },
+  {
+   "id": "apps",
+   "h2": "Appを取り除く、または削除する",
+   "html": "<p>iPhoneストレージでAppの項目を開き、取り除くを選びます。これでAppが使っている容量が空き、書類とデータは残ります。Appを削除すると、関連するデータも削除されます。</p>"
+  },
+  {
+   "id": "photos",
+   "h2": "写真とビデオを管理する",
+   "html": "<p>写真とビデオが、通常はいちばん容量を使っています。iCloud写真を使っている場合は、<strong>iPhoneのストレージを最適化</strong>をオンにしましょう。フル解像度のオリジナルはiCloudに残り、容量が必要なときに、より小さなコピーがスマホに残ります。Appleは、重複した写真とビデオの統合も勧めています。これには、iCloudのストレージ容量が十分にあることが前提です。</p>"
+  },
+  {
+   "id": "comparison",
+   "h2": "AndroidとiPhoneの比較",
+   "html": "<p>どちらにも同じ作業がありますが、場所が違います。</p>",
+   "table": {
+    "caption": "AndroidのCleanKoachとiPhoneでの、ストレージの作業",
+    "headers": [
+     "作業",
+     "Androidの場合",
+     "iPhoneの場合"
+    ],
+    "rows": [
+     [
+      "容量を使っているものを確認",
+      "ホーム画面のストレージ表示とAndroidの設定",
+      "設定、一般、iPhoneストレージ"
+     ],
+     [
+      "大きいファイルを探す",
+      "CleanKoachの大きいファイル",
+      "iPhoneストレージのおすすめとApp別の詳細"
+     ],
+     [
+      "重複を削除",
+      "CleanKoachの重複",
+      "写真Appで重複を統合"
+     ],
+     [
+      "Appの容量を空ける",
+      "Androidの設定",
+      "iPhoneストレージでAppを取り除く、または削除"
+     ],
+     [
+      "写真を小さくする",
+      "CleanKoachの写真最適化",
+      "iCloud写真で「iPhoneのストレージを最適化」"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "care",
+   "h2": "iPhone向けクリーナーアプリについて",
+   "html": "<p>ほとんどの用途は、Apple標準のストレージ機能でまかなえます。サードパーティ製のアプリを試す場合は、Androidのときと同じように、求める権限とアカウントの要否を確認しましょう。</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "クリーナーアプリは安全?"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "iPhone向けのCleanKoachアプリはありますか?",
+   "a": "いいえ。CleanKoachはAndroidアプリで、現在iPhone版はありません。"
+  },
+  {
+   "q": "iPhoneのストレージを整理するには?",
+   "a": "設定、一般、iPhoneストレージの順に開き、おすすめに従って、使っていないAppを取り除くか削除します。"
+  },
+  {
+   "q": "Appを取り除くとどうなりますか?",
+   "a": "Appが使っている容量が空き、書類とデータは残ります。Appはあとから再インストールできます。"
+  },
+  {
+   "q": "iPhoneのストレージを使っているものを調べるには?",
+   "a": "設定、一般、iPhoneストレージを開くと、Appの一覧と各Appの使用量、おすすめが表示されます。"
+  },
+  {
+   "q": "iPhoneの写真の容量を節約するには?",
+   "a": "iCloud写真をオンにして、「iPhoneのストレージを最適化」をオンにすると、より小さなコピーがスマホに残ります。写真Appで重複を統合することもできます。"
+  },
+  {
+   "q": "iPhoneに重複を探す機能はありますか?",
+   "a": "Appleは、容量を空けるために、写真Appで重複した写真とビデオを統合することを勧めています。"
+  },
+  {
+   "q": "iPadでCleanKoachを使えますか?",
+   "a": "いいえ。CleanKoachはAndroidのスマホとタブレット向けです。"
+  },
+  {
+   "q": "CleanKoachが対応するAndroidのバージョンは?",
+   "a": "Android 9以降です。"
+  },
+  {
+   "q": "CleanKoachはどこで入手できますか?",
+   "a": "Android向けに、Google Playで入手できます。"
+  }
+ ],
+ "citations": [
+  {
+   "title": "How to check the storage on your iPhone and iPad, Apple Support",
+   "url": "https://support.apple.com/en-us/108429",
+   "note": "Appleによる、iPhoneのストレージの確認、おすすめの利用、Appを取り除く手順。"
+  },
+  {
+   "title": "Manage your photo and video storage, Apple Support",
+   "url": "https://support.apple.com/en-us/105061",
+   "note": "Appleによる、「iPhoneのストレージを最適化」、iCloud写真、重複の統合に関するガイダンス。"
+  }
+ ],
+ "related": []
+}

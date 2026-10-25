@@ -1,0 +1,159 @@
+{
+ "slug": "phone-cleaning-kit",
+ "title": "Kit Pembersih Ponsel: Apa Saja Isinya",
+ "h1": "Kit pembersih ponsel",
+ "meta_description": "Kit pembersih ponsel hanya butuh beberapa item: kain mikrofiber, sikat lembut, dan tisu aman. Lihat apa yang disertakan, apa yang dilewati, dan peran CleanKoach.",
+ "keywords": [
+  "kit pembersih ponsel",
+  "perlengkapan kit pembersih ponsel",
+  "isi kit pembersih ponsel",
+  "kit pembersih hp"
+ ],
+ "tagline": "Beberapa hal yang layak dimiliki, dan apa yang dilewati",
+ "quick_answer": "<p><strong>Kit pembersih ponsel yang baik itu kecil:</strong> kain mikrofiber lembut, sikat kering lembut, tisu disinfektan yang aman, dan cara aman untuk Anda mengangkat serpihan kain dari port pengisi daya. Untuk file di dalam ponsel, tambahkan CleanKoach, aplikasi gratis yang mengosongkan penyimpanan.</p>",
+ "intro": "<p>Kit yang dijual online sering diisi barang yang tidak akan Anda pakai. Daftar ini mencakup apa yang sebenarnya dijelaskan Apple dan Google, dengan sisi digitalnya ditangani CleanKoach.</p>",
+ "sections": [
+  {
+   "id": "physical",
+   "h2": "Kit fisik",
+   "html": "<ul><li><strong>Kain lembut bebas serpihan:</strong> Apple dan Google sama-sama menyebutnya pertama. Kain mikrofiber adalah pilihan yang umum.</li><li><strong>Sikat kering lembut:</strong> untuk debu di tepi dan kisi speaker.</li><li><strong>Tisu disinfektan:</strong> tisu isopropil alkohol 70%, yang diperbolehkan Apple dan Google, tanpa pemutih.</li><li><strong>Senter:</strong> untuk melihat ke dalam port pengisi daya sebelum membersihkannya.</li></ul>"
+  },
+  {
+   "id": "digital",
+   "h2": "Sisi digitalnya",
+   "html": "<p>Kain tidak bisa membebaskan penyimpanan. CleanKoach adalah kit digitalnya: File besar, Duplikat, Foto serupa, Tangkapan layar, Pengoptimal foto dan Pengoptimal video, serta BERSIHKAN dengan satu ketukan. Setiap fitur gratis.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Aplikasi pembersih ponsel terbaik untuk Android"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Item mana untuk tugas mana",
+   "html": "<p>Satu item per tugas menjaga kit tetap kecil.</p>",
+   "table": {
+    "caption": "Item untuk kit pembersih ponsel dan tugas masing-masing",
+    "headers": [
+     "Item",
+     "Tugas",
+     "Catatan"
+    ],
+    "rows": [
+     [
+      "Kain mikrofiber",
+      "Layar, punggung, dan sisi ponsel",
+      "Kering untuk debu, sedikit lembap untuk kotoran"
+     ],
+     [
+      "Sikat kering lembut",
+      "Kisi speaker dan tepi",
+      "Pakai dengan ringan"
+     ],
+     [
+      "Tisu isopropil alkohol 70%",
+      "Disinfeksi",
+      "Tanpa pemutih"
+     ],
+     [
+      "Senter",
+      "Melihat ke dalam port",
+      "Jangan dorong apa pun ke dalam"
+     ],
+     [
+      "CleanKoach",
+      "Penyimpanan, duplikat, foto, dan video",
+      "Gratis di Android"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "skip",
+   "h2": "Yang tidak perlu disertakan",
+   "html": "<ul><li><strong>Semprotan aerosol dan pemutih:</strong> Apple menyarankan untuk tidak memakainya.</li><li><strong>Udara bertekanan:</strong> Apple dan Google menyarankan untuk tidak memakainya.</li><li><strong>Pencungkil logam:</strong> bisa merusak port dan kasa speaker.</li><li><strong>Apa pun yang abrasif:</strong> bisa menggores layar dan mengikis lapisannya.</li></ul>",
+   "see": [
+    [
+     "phone-screen-cleaner",
+     "Pembersih layar ponsel"
+    ],
+    [
+     "phone-charging-port-cleaner",
+     "Pembersih port pengisi daya ponsel"
+    ],
+    [
+     "phone-speaker-cleaner",
+     "Pembersih speaker ponsel"
+    ]
+   ]
+  },
+  {
+   "id": "routine",
+   "h2": "Rutinitas sederhana",
+   "html": "<ol><li><strong>Mingguan:</strong> lap layar dan punggung ponsel dengan kain kering.</li><li><strong>Bulanan:</strong> periksa port pengisi daya dan kisi speaker, lalu tinjau File besar di CleanKoach.</li><li><strong>Sesekali:</strong> disinfeksi dengan tisu dan lepas casing untuk membersihkan bagian bawahnya.</li></ol>"
+  },
+  {
+   "id": "android",
+   "h2": "Pakai Android? Mulai dari sini",
+   "html": "<p>Pasang CleanKoach dari Google Play, izinkan akses ke foto, video, dan audio, lalu buka File besar. Aplikasi ini dibuat untuk Android 9 dan yang lebih baru.</p>",
+   "see": [
+    [
+     "phone-cleaner-iphone",
+     "Pembersih ponsel untuk iPhone"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Apa saja yang harus ada di kit pembersih ponsel?",
+   "a": "Kain lembut bebas serpihan, sikat kering lembut, tisu isopropil alkohol 70%, dan senter. Tambahkan CleanKoach untuk penyimpanan di Android."
+  },
+  {
+   "q": "Apakah saya perlu kit pembersih ponsel khusus?",
+   "a": "Tidak. Item intinya murah dan umum. Apple maupun Google menyarankan kain lembut bebas serpihan."
+  },
+  {
+   "q": "Apakah isopropil alkohol aman untuk ponsel?",
+   "a": "Apple dan Google sama-sama memperbolehkan tisu isopropil alkohol 70% di bagian luar. Jangan gunakan pemutih."
+  },
+  {
+   "q": "Apa yang tidak boleh saya pakai?",
+   "a": "Semprotan aerosol, pemutih, bahan abrasif, udara bertekanan, dan alat logam di lubang-lubang ponsel."
+  },
+  {
+   "q": "Apakah CleanKoach membersihkan perangkat keras?",
+   "a": "Tidak. CleanKoach mengosongkan penyimpanan. Aplikasi ini tidak membersihkan layar, speaker, atau port."
+  },
+  {
+   "q": "Bisakah CleanKoach menggantikan kit pembersih?",
+   "a": "Tidak. Kit membersihkan bagian luar. CleanKoach membersihkan file di dalam. Anda butuh keduanya."
+  },
+  {
+   "q": "Apakah CleanKoach gratis?",
+   "a": "Ya. Setiap fitur gratis. Pembelian Pro sekali bayar menghapus iklan."
+  },
+  {
+   "q": "Apakah ada versi iPhone dari CleanKoach?",
+   "a": "Tidak. CleanKoach hanya untuk Android."
+  },
+  {
+   "q": "Seberapa sering saya harus membersihkan ponsel?",
+   "a": "Lap layar setiap minggu, periksa port dan speaker setiap bulan, dan tinjau penyimpanan setiap bulan."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Saran Apple tentang tisu, kain lembut bebas serpihan, udara bertekanan, dan kelembapan di lubang-lubang ponsel."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Saran Google tentang kain, tisu, isopropil alkohol 70%, dan apa yang harus dihindari."
+  }
+ ],
+ "related": []
+}

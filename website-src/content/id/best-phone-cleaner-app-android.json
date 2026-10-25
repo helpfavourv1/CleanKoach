@@ -52,7 +52,7 @@
     "alt": "Ilustrasi cincin layar utama CleanKoach dengan ukuran sampah yang terdiri dari foto dihapus, video dihapus, dan cache aplikasi, serta tombol Bersihkan",
     "caption": "Cincin menunjukkan ukuran sampah Anda. Bersihkan mengosongkannya dan menampilkan ruang yang dibebaskan."
    },
-   "html": "<p>Cincin di layar utama menunjukkan ukuran sampah Anda: foto dan video yang dihapus ditambah cache aplikasi. Ketuk <strong>Bersihkan</strong>, tonton animasi kemajuan layar penuh, dan lihat persis berapa banyak ruang yang Anda bebaskan.</p>"
+   "html": "<p>Cincin di layar utama menunjukkan ukuran sampah Anda: foto dan video yang dihapus ditambah cache CleanKoach sendiri. Ketuk <strong>BERSIHKAN</strong>, tonton animasi kemajuan layar penuh, dan lihat persis berapa banyak ruang yang Anda bebaskan.</p>"
   },
   {
    "id": "how-it-works",
@@ -102,9 +102,9 @@
       "Pengoptimal foto dan Pengoptimal video menampilkan ruang yang dihemat"
      ],
      [
-      "Mengosongkan sampah dan cache aplikasi",
-      "Sampah dan cache tiap aplikasi ada di tempat berbeda",
-      "Bersihkan mengosongkan keduanya dengan satu ketukan"
+      "Mengosongkan sampah",
+      "Sampah di galeri, cache di setelan aplikasi",
+      "BERSIHKAN mengosongkan foto dan video yang dihapus serta cache CleanKoach sendiri dengan satu ketukan"
      ]
     ]
    }
@@ -133,8 +133,8 @@
      "rows": [
       [
        "Cakupan",
-       "File besar, duplikat, foto serupa, tangkapan layar, cache",
-       "Kelimanya, ditambah sampah"
+       "File besar, duplikat, foto serupa, tangkapan layar, sampah",
+       "Kelimanya"
       ],
       [
        "Kejelasan",
@@ -212,7 +212,7 @@
  "faqs": [
   {
    "q": "Apa aplikasi pembersih terbaik untuk Android?",
-   "a": "CleanKoach. Aplikasi ini mencakup semua yang biasanya memenuhi penyimpanan: file besar, duplikat, foto serupa, tangkapan layar, dan cache aplikasi, serta menambahkan kompresi foto dan video, semuanya dipindai di ponsel Anda."
+   "a": "CleanKoach. Aplikasi ini mencakup setiap penyedot penyimpanan yang umum: file besar, file duplikat, foto serupa, tangkapan layar, dan sampah, ditambah kompresi foto dan video, semuanya dianalisis di ponsel Anda."
   },
   {
    "q": "Apakah CleanKoach gratis?",
@@ -244,7 +244,7 @@
   },
   {
    "q": "Apa fungsi tombol Bersihkan?",
-   "a": "Tombol ini mengosongkan ukuran sampah Anda, yaitu foto dan video yang dihapus ditambah cache aplikasi, lalu menampilkan ruang yang dibebaskan."
+   "a": "Tombol ini mengosongkan ukuran sampah Anda, yaitu foto dan video yang dihapus ditambah cache CleanKoach sendiri, lalu menampilkan berapa banyak ruang yang Anda bebaskan."
   },
   {
    "q": "Apa itu Monitor Aktivitas dan mengapa memerlukan akses data penggunaan?",

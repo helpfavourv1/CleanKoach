@@ -1,0 +1,189 @@
+{
+ "slug": "is-phone-cleaner-app-safe",
+ "title": "Apakah Aplikasi Pembersih Ponsel Aman?",
+ "h1": "Apakah aplikasi pembersih ponsel aman?",
+ "meta_description": "Apakah aplikasi pembersih ponsel aman? Pelajari tanda bahaya, izin yang benar-benar dibutuhkan pembersih, dan cara CleanKoach menangani file, iklan, dan data Anda.",
+ "keywords": [
+  "apakah aplikasi pembersih ponsel aman",
+  "apakah aplikasi pembersih hp aman",
+  "apakah aplikasi pembersih aman",
+  "izin pembersih ponsel"
+ ],
+ "tagline": "Tanda bahaya, izin, dan apa yang perlu diperiksa",
+ "quick_answer": "<p><strong>Sebagian aplikasi pembersih ponsel aman dan sebagian tidak, jadi periksa sebelum memasang.</strong> Pembersih yang aman hanya meminta izin yang dibutuhkan, berfungsi tanpa akun, menganalisis file di ponsel Anda, dan tidak menakut-nakuti Anda agar mengetuk. CleanKoach menganalisis file di perangkat Anda, tidak pernah mengunggahnya, dan tidak memiliki akun.</p>",
+ "intro": "<p>Aplikasi pembersih punya reputasi beragam karena segelintir di antaranya berperilaku buruk. Berikut hal yang perlu dicari, apa yang diminta CleanKoach beserta alasannya, dan cara Anda bisa memeriksa aplikasi mana pun sendiri.</p>",
+ "sections": [
+  {
+   "id": "risks",
+   "h2": "Apa yang bisa salah pada pembersih",
+   "html": "<ul><li><strong>Peringatan palsu:</strong> peringatan bahwa ponsel Anda terinfeksi atau terlalu panas, dipakai untuk mendorong Anda mengetuk.</li><li><strong>Terlalu banyak izin:</strong> akses ke kontak, pesan, atau lokasi yang tidak dibutuhkan pembersih.</li><li><strong>File dikirim keluar:</strong> foto atau hasil pemindaian diunggah ke server.</li><li><strong>Biaya tersembunyi:</strong> pemindaian gratis yang berakhir dengan langganan mendadak.</li><li><strong>Iklan agresif:</strong> pop-up di luar aplikasi.</li></ul>",
+   "see": [
+    [
+     "stop-phone-cleaner-popping-up",
+     "Cara menghentikan pop-up pembersih ponsel"
+    ]
+   ]
+  },
+  {
+   "id": "checklist",
+   "h2": "Daftar periksa sebelum memasang",
+   "html": "<p>Luangkan satu menit di halaman toko aplikasi.</p>",
+   "table": {
+    "caption": "Tanda aman dan tanda bahaya untuk pembersih ponsel",
+    "headers": [
+     "Periksa",
+     "Tanda aman",
+     "Tanda bahaya"
+    ],
+    "rows": [
+     [
+      "Izin",
+      "Foto, video, dan audio, ditambah tambahan opsional yang dijelaskan",
+      "Kontak, pesan, lokasi, atau log panggilan"
+     ],
+     [
+      "Akun",
+      "Tidak diperlukan",
+      "Wajib masuk akun"
+     ],
+     [
+      "Ke mana file pergi",
+      "Dianalisis di ponsel",
+      "Diunggah ke server"
+     ],
+     [
+      "Harga",
+      "Jelas dan dinyatakan di awal",
+      "Pemindaian gratis, lalu tagihan mendadak"
+     ],
+     [
+      "Peringatan",
+      "Tidak ada kecuali Anda mengaktifkannya",
+      "Peringatan virus atau panas berlebih palsu"
+     ],
+     [
+      "Kebijakan privasi",
+      "Spesifik tentang apa yang dikumpulkan dan tidak dikumpulkan",
+      "Tidak ada atau kabur"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "permissions",
+   "h2": "Yang diminta CleanKoach, dan alasannya",
+   "html": "<p>Setiap izin punya satu tugas.</p>",
+   "table": {
+    "caption": "Izin CleanKoach dan kegunaan masing-masing",
+    "headers": [
+     "Izin",
+     "Digunakan untuk",
+     "Opsional?"
+    ],
+    "rows": [
+     [
+      "Foto, video, dan audio",
+      "Menemukan file besar, duplikat, foto serupa, dan tangkapan layar",
+      "Diperlukan untuk alat pembersih"
+     ],
+     [
+      "Pengelolaan media (Android 12 dan yang lebih baru)",
+      "Menghapus item yang Anda pilih tanpa perintah konfirmasi setiap kali",
+      "Ya"
+     ],
+     [
+      "Akses penggunaan",
+      "Hanya untuk Monitor Aktivitas",
+      "Ya"
+     ],
+     [
+      "Notifikasi",
+      "Pengingat pembersihan mingguan dan peringatan penyimpanan",
+      "Ya, hanya jika Anda mengaktifkannya"
+     ],
+     [
+      "Internet dan status jaringan",
+      "Memuat iklan, memeriksa pembelian, Keamanan Wi-Fi, dan Kecepatan Jaringan",
+      "Digunakan saat fitur-fitur itu berjalan"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "never",
+   "h2": "Yang tidak pernah dilakukan CleanKoach",
+   "html": "<ul><li>Tidak mengunggah foto, video, atau audio Anda.</li><li>Tidak mengunggah hasil pemindaian, statistik penggunaan, atau hasil tes Wi-Fi.</li><li>Tidak memiliki akun.</li><li>Tidak menghapus apa pun sampai Anda memilihnya dan mengonfirmasi.</li></ul><p><a href=\"/privacy.html\">Kebijakan privasi</a> merinci setiap poin ini.</p>"
+  },
+  {
+   "id": "ads-data",
+   "h2": "Iklan dan data Anda, dijelaskan apa adanya",
+   "html": "<p>CleanKoach menampilkan iklan melalui Google AdMob. Saat iklan ditayangkan, Google dapat mengumpulkan ID iklan Anda dan data interaksi iklan standar berdasarkan kebijakan privasi Google sendiri. Itu terpisah dari file Anda, yang tetap berada di ponsel. Di Wilayah Ekonomi Eropa dan Britania Raya, Anda dimintai persetujuan terlebih dahulu. Jika Anda membeli Pro, iklan dihapus dan aplikasi tidak lagi mengumpulkan ID iklan.</p>",
+   "see": [
+    [
+     "free-phone-cleaner-android",
+     "Pembersih ponsel gratis untuk Android"
+    ]
+   ]
+  },
+  {
+   "id": "verify",
+   "h2": "Cara memeriksa aplikasi mana pun sendiri",
+   "html": "<ol><li><strong>Baca izinnya</strong> sebelum memasang dan lagi di Setelan Android pada Aplikasi.</li><li><strong>Baca kebijakan privasinya</strong> dan cari tahu apa yang dikumpulkan.</li><li><strong>Biarkan Google Play Protect aktif.</strong> Fitur ini memeriksa aplikasi dari perilaku berbahaya.</li><li><strong>Tolak yang tidak diperlukan.</strong> Pembersih yang baik tetap berfungsi tanpa izin opsional.</li><li><strong>Copot</strong> apa pun yang muncul di luar aplikasi atau menakut-nakuti Anda.</li></ol>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Apakah aplikasi pembersih ponsel aman?",
+   "a": "Ada yang aman dan ada yang tidak. Periksa izinnya, apakah perlu akun, di mana file dianalisis, dan bagaimana ia menangani peringatan dan iklan."
+  },
+  {
+   "q": "Apakah CleanKoach aman?",
+   "a": "CleanKoach menganalisis file Anda di ponsel, tidak pernah mengunggahnya, tidak memiliki akun, dan tidak menghapus apa pun sampai Anda memilihnya dan Android mengonfirmasi."
+  },
+  {
+   "q": "Izin apa yang sebenarnya dibutuhkan pembersih?",
+   "a": "Akses ke foto, video, dan audio sudah cukup untuk alat utama. Selebihnya harus opsional dan dijelaskan."
+  },
+  {
+   "q": "Apakah CleanKoach membaca pesan atau kontak saya?",
+   "a": "Tidak. Aplikasi ini tidak meminta akses ke kontak, pesan, atau lokasi."
+  },
+  {
+   "q": "Mengapa CleanKoach memerlukan Akses penggunaan?",
+   "a": "Hanya untuk Monitor Aktivitas, yang menampilkan penggunaan aplikasi selama 24 jam terakhir. Izin ini opsional dan datanya tetap di perangkat Anda."
+  },
+  {
+   "q": "Apakah CleanKoach mengumpulkan data melalui iklan?",
+   "a": "Saat iklan ditayangkan, Google dapat mengumpulkan ID iklan dan data interaksi iklan Anda seperti dijelaskan dalam kebijakan privasi Google. Pro menghapus iklan dan aplikasi kemudian tidak lagi mengumpulkan ID iklan."
+  },
+  {
+   "q": "Bisakah aplikasi pembersih merusak ponsel saya?",
+   "a": "Aplikasi yang dibuat asal-asalan atau berbahaya bisa, dengan menghapus file yang Anda inginkan atau mendorong aplikasi yang tidak diinginkan. Periksa izin dan ulasannya terlebih dahulu, dan biarkan Play Protect aktif."
+  },
+  {
+   "q": "Bagaimana cara memeriksa aplikasi yang sudah saya pasang?",
+   "a": "Buka Setelan Android, lalu Aplikasi, pilih aplikasinya, dan tinjau izinnya. Jalankan pemindaian Play Protect dari Play Store."
+  },
+  {
+   "q": "Apakah CleanKoach akan menampilkan peringatan virus palsu?",
+   "a": "Tidak. CleanKoach tidak menampilkan peringatan virus palsu. Satu-satunya notifikasinya adalah pengingat pembersihan mingguan opsional dan peringatan penyimpanan yang Anda aktifkan sendiri."
+  },
+  {
+   "q": "Apakah saya harus membayar agar CleanKoach aman?",
+   "a": "Tidak. Setiap fitur gratis. Pro hanya menghapus iklan."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Use Google Play Protect to help keep your apps safe and your data private, Google Play Help",
+   "url": "https://support.google.com/googleplay/answer/2812853",
+   "note": "Cara Play Protect memeriksa aplikasi dari perilaku berbahaya, dan cara memastikan fitur itu aktif."
+  },
+  {
+   "title": "User Data policy, Google Play Console Help",
+   "url": "https://support.google.com/googleplay/android-developer/answer/10144311",
+   "note": "Google Play mewajibkan aplikasi menampilkan pengungkapan di dalam aplikasi sebelum meminta izin runtime."
+  }
+ ],
+ "related": []
+}

@@ -1,0 +1,189 @@
+{
+ "slug": "is-phone-cleaner-app-safe",
+ "title": "Ligtas ba ang Phone Cleaner App? Dapat Suriin",
+ "h1": "Ligtas ba ang mga phone cleaner app?",
+ "meta_description": "Ligtas ba ang mga phone cleaner app? Alamin ang mga babalang senyales, ang pahintulot na kailangan ng cleaner at kung paano hinahawakan ng CleanKoach ang data mo.",
+ "keywords": [
+  "ligtas ba ang mga phone cleaner app",
+  "ligtas ba ang phone cleaner app",
+  "ligtas ba ang mga cleaner app",
+  "mga pahintulot ng phone cleaner"
+ ],
+ "tagline": "Mga babalang senyales, pahintulot at dapat tiyakin",
+ "quick_answer": "<p><strong>May mga ligtas na phone cleaner app at may hindi, kaya suriin bago mag-install.</strong> Ang ligtas na cleaner ay humihingi lang ng mga pahintulot na kailangan nito, gumagana nang walang account, sinusuri ang mga file sa phone mo at hindi ka tinatakot para mapa-tap ka. Sinusuri ng CleanKoach ang mga file sa device mo, hindi kailanman ina-upload ang mga ito at walang account.</p>",
+ "intro": "<p>Halo-halo ang reputasyon ng mga cleaner app dahil may ilang masama ang asal. Narito ang dapat hanapin, ang hinihingi ng CleanKoach at kung bakit, at kung paano mo masusuri ang anumang app nang mag-isa.</p>",
+ "sections": [
+  {
+   "id": "risks",
+   "h2": "Ano ang puwedeng magkamali sa isang cleaner",
+   "html": "<ul><li><strong>Pekeng alert:</strong> mga babala na may virus o umiinit ang phone mo, para udyukan kang mag-tap.</li><li><strong>Sobrang daming pahintulot:</strong> access sa contacts, mensahe o lokasyon na hindi kailangan ng cleaner.</li><li><strong>Mga file na ipinapadala sa iba:</strong> mga litrato o resulta ng scan na ina-upload sa server.</li><li><strong>Nakatagong bayarin:</strong> libreng scan na nauuwi sa biglaang subscription.</li><li><strong>Agresibong ad:</strong> mga pop-up sa labas ng app.</li></ul>",
+   "see": [
+    [
+     "stop-phone-cleaner-popping-up",
+     "Paano pigilan ang mga pop-up ng phone cleaner"
+    ]
+   ]
+  },
+  {
+   "id": "checklist",
+   "h2": "Checklist bago ka mag-install",
+   "html": "<p>Maglaan ng isang minuto sa pahina ng app sa store.</p>",
+   "table": {
+    "caption": "Mga ligtas na senyales at babalang senyales ng isang phone cleaner",
+    "headers": [
+     "Susuriin",
+     "Ligtas na senyales",
+     "Babalang senyales"
+    ],
+    "rows": [
+     [
+      "Mga pahintulot",
+      "Mga litrato, video at audio, kasama ang mga opsyonal na extra na may paliwanag",
+      "Contacts, mensahe, lokasyon o call log"
+     ],
+     [
+      "Account",
+      "Hindi kailangan",
+      "Sapilitang pag-sign in"
+     ],
+     [
+      "Saan napupunta ang mga file",
+      "Sinusuri sa phone",
+      "Ina-upload sa mga server"
+     ],
+     [
+      "Presyo",
+      "Malinaw at sinasabi agad sa simula",
+      "Libreng scan, tapos biglaang singil"
+     ],
+     [
+      "Mga alert",
+      "Wala, maliban kung pumayag ka",
+      "Pekeng babala ng virus o pag-init"
+     ],
+     [
+      "Patakaran sa privacy",
+      "Tiyak kung ano ang kinokolekta at hindi kinokolekta",
+      "Wala o malabo"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "permissions",
+   "h2": "Ano ang hinihingi ng CleanKoach, at bakit",
+   "html": "<p>May iisang gamit ang bawat pahintulot.</p>",
+   "table": {
+    "caption": "Mga pahintulot ng CleanKoach at ang gamit ng bawat isa",
+    "headers": [
+     "Pahintulot",
+     "Gamit",
+     "Opsyonal ba?"
+    ],
+    "rows": [
+     [
+      "Mga litrato, video at audio",
+      "Paghahanap ng malalaking file, duplicate, magkakahawig na larawan at screenshot",
+      "Kailangan para sa mga tool sa paglilinis"
+     ],
+     [
+      "Pamamahala ng media (Android 12 pataas)",
+      "Pag-delete sa mga napili mo nang walang prompt sa bawat pagkakataon",
+      "Oo"
+     ],
+     [
+      "Access sa data ng paggamit",
+      "Para lang sa Activity Monitor",
+      "Oo"
+     ],
+     [
+      "Mga notification",
+      "Lingguhang paalala sa paglilinis at mga alerto sa storage",
+      "Oo, kung i-on mo lang ang mga ito"
+     ],
+     [
+      "Internet at estado ng network",
+      "Pag-load ng mga ad, pagsuri sa mga pagbili, Seguridad ng Wi-Fi at Bilis ng Network",
+      "Ginagamit kapag tumatakbo ang mga feature na iyon"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "never",
+   "h2": "Ang hindi kailanman ginagawa ng CleanKoach",
+   "html": "<ul><li>Hindi nito ina-upload ang mga litrato, video o audio mo.</li><li>Hindi nito ina-upload ang resulta ng scan, estadistika ng paggamit o resulta ng Wi-Fi test.</li><li>Walang account.</li><li>Hindi ito nagde-delete ng anuman hangga't hindi mo pinipili at kinukumpirma.</li></ul><p>Detalyadong inililista ng <a href=\"/privacy.html\">patakaran sa privacy</a> ang bawat isa rito.</p>"
+  },
+  {
+   "id": "ads-data",
+   "h2": "Mga ad at data mo, sinasabi nang tapat",
+   "html": "<p>Nagpapakita ang CleanKoach ng mga ad sa pamamagitan ng Google AdMob. Kapag may ipinapakitang ad, maaaring kolektahin ng Google ang advertising ID mo at karaniwang data ng pakikipag-ugnayan sa ad ayon sa sariling patakaran sa privacy ng Google. Hiwalay iyon sa mga file mo, na nananatili sa phone mo. Sa European Economic Area at United Kingdom, tinatanong ka muna para sa consent. Kung bibili ka ng Pro, aalisin ang mga ad at hindi na kokolektahin ng app ang advertising ID.</p>",
+   "see": [
+    [
+     "free-phone-cleaner-android",
+     "Libreng phone cleaner para sa Android"
+    ]
+   ]
+  },
+  {
+   "id": "verify",
+   "h2": "Paano suriin ang anumang app nang mag-isa",
+   "html": "<ol><li><strong>Basahin ang mga pahintulot</strong> bago mag-install at muli sa Settings ng Android sa ilalim ng Apps.</li><li><strong>Basahin ang patakaran sa privacy</strong> at hanapin kung ano ang kinokolekta.</li><li><strong>Panatilihing naka-on ang Google Play Protect.</strong> Sinusuri nito ang mga app para sa mapaminsalang gawi.</li><li><strong>Tanggihan ang hindi kailangan.</strong> Gumagana pa rin ang mahusay na cleaner kahit walang opsyonal na pahintulot.</li><li><strong>I-uninstall</strong> ang anumang lumalabas sa labas ng app o nananakot sa iyo.</li></ol>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Ligtas ba ang mga phone cleaner app?",
+   "a": "May ligtas at may hindi. Suriin ang mga pahintulot, kung kailangan ng account, kung saan sinusuri ang mga file at kung paano nito hinahawakan ang mga alert at ad."
+  },
+  {
+   "q": "Ligtas ba ang CleanKoach?",
+   "a": "Sinusuri ng CleanKoach ang mga file sa phone mo, hindi kailanman ina-upload ang mga ito, walang account at walang dine-delete hangga't hindi mo pinipili at kinukumpirma ng Android."
+  },
+  {
+   "q": "Anong mga pahintulot ang talagang kailangan ng isang cleaner?",
+   "a": "Sapat na ang access sa mga litrato, video at audio para sa mga pangunahing tool. Dapat opsyonal at may paliwanag ang anupamang iba."
+  },
+  {
+   "q": "Binabasa ba ng CleanKoach ang mga mensahe o contact ko?",
+   "a": "Hindi. Hindi ito humihingi ng access sa contacts, mensahe o lokasyon."
+  },
+  {
+   "q": "Bakit kailangan ng CleanKoach ng access sa data ng paggamit?",
+   "a": "Para lang sa Activity Monitor, na nagpapakita ng paggamit ng app sa nakaraang 24 oras. Opsyonal ito at nananatili sa device mo ang data."
+  },
+  {
+   "q": "Nangongolekta ba ang CleanKoach ng anumang data sa pamamagitan ng mga ad?",
+   "a": "Kapag may ipinapakitang ad, maaaring kolektahin ng Google ang advertising ID mo at data ng pakikipag-ugnayan sa ad ayon sa patakaran sa privacy ng Google. Inaalis ng Pro ang mga ad at hindi na kokolektahin ng app ang advertising ID."
+  },
+  {
+   "q": "Puwede bang makasira sa phone ko ang isang cleaner app?",
+   "a": "Puwede ang isang pangit ang pagkakagawa o mapaminsala, sa pag-delete ng mga file na gusto mo sanang itabi o sa pagtutulak ng mga hindi gustong app. Suriin muna ang mga pahintulot at review, at panatilihing naka-on ang Play Protect."
+  },
+  {
+   "q": "Paano ko susuriin ang app na naka-install na?",
+   "a": "Buksan ang Settings ng Android, pagkatapos ang Apps, piliin ang app at suriin ang mga pahintulot nito. Magpatakbo ng Play Protect scan mula sa Play Store."
+  },
+  {
+   "q": "Magpapakita ba ang CleanKoach ng pekeng babala ng virus?",
+   "a": "Hindi. Hindi nagpapakita ang CleanKoach ng pekeng virus alert. Ang tanging mga notification nito ay opsyonal na lingguhang paalala sa paglilinis at mga alerto sa storage na ikaw mismo ang nag-o-on."
+  },
+  {
+   "q": "Kailangan ko bang magbayad para maging ligtas ang CleanKoach?",
+   "a": "Hindi. Libre ang bawat feature. Mga ad lang ang inaalis ng Pro."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Use Google Play Protect to help keep your apps safe and your data private, Google Play Help",
+   "url": "https://support.google.com/googleplay/answer/2812853",
+   "note": "Kung paano sinusuri ng Play Protect ang mga app para sa mapaminsalang gawi, at kung paano tiyaking naka-on ito."
+  },
+  {
+   "title": "User Data policy, Google Play Console Help",
+   "url": "https://support.google.com/googleplay/android-developer/answer/10144311",
+   "note": "Hinihiling ng Google Play na magpakita ang mga app ng paliwanag sa loob ng app bago humingi ng runtime permission."
+  }
+ ],
+ "related": []
+}

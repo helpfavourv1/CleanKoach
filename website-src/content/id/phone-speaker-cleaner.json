@@ -1,0 +1,145 @@
+{
+ "slug": "phone-speaker-cleaner",
+ "title": "Pembersih Speaker Ponsel: Cara Aman",
+ "h1": "Pembersih speaker ponsel",
+ "meta_description": "CleanKoach tidak bisa membersihkan speaker ponsel karena berupa perangkat lunak. Ini cara membersihkan speaker yang teredam dengan lembut dan apa yang dihindari.",
+ "keywords": [
+  "pembersih speaker ponsel",
+  "membersihkan speaker ponsel",
+  "speaker ponsel teredam",
+  "debu di speaker ponsel"
+ ],
+ "tagline": "CleanKoach membersihkan penyimpanan, bukan speaker. Ini cara lembutnya",
+ "quick_answer": "<p><strong>Tidak ada aplikasi yang bisa membersihkan speaker ponsel, dan CleanKoach tidak mengklaimnya.</strong> Speaker yang teredam biasanya tersumbat debu atau serpihan kain. Matikan ponsel, lap kisinya dengan kain lembut kering, gunakan sikat kering lembut dengan perlahan, jauhkan kelembapan dari lubang-lubangnya, dan hindari udara bertekanan.</p>",
+ "intro": "<p>Jika suara panggilan terdengar lemah atau musik teredam, singkirkan dulu penyebab dari perangkat lunak, lalu periksa kisi speaker. Berikut urutan langkah yang hati-hati.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Perangkat lunak tidak bisa membersihkan speaker",
+   "html": "<p>Suara dihasilkan oleh komponen fisik. CleanKoach membebaskan ruang penyimpanan. Aplikasi ini tidak memengaruhi speaker, dan aplikasi \"pembersih speaker\" tidak bisa menghilangkan debu. Beberapa aplikasi memutar nada dan mengklaim bisa mengeluarkan air, tetapi yang benar-benar menghilangkan debu adalah membersihkan kisi dengan tangan.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Aplikasi pembersih ponsel terbaik untuk Android"
+    ]
+   ]
+  },
+  {
+   "id": "rule-out",
+   "h2": "Singkirkan dulu penyebab yang mudah",
+   "html": "<ol><li><strong>Periksa volume dan mode.</strong> Mode senyap, penggeser volume yang rendah, atau Jangan Ganggu bisa tampak seperti kerusakan.</li><li><strong>Periksa Bluetooth.</strong> Audio mungkin diarahkan ke earbud atau speaker yang Anda lupakan.</li><li><strong>Lepas casing.</strong> Sebagian casing menutupi atau menghalangi sebagian speaker.</li><li><strong>Nyalakan ulang ponsel.</strong></li></ol>"
+  },
+  {
+   "id": "clean",
+   "h2": "Cara membersihkan kisi",
+   "html": "<ol><li><strong>Matikan ponsel</strong> dan cabut kabel.</li><li><strong>Lap permukaannya</strong> dengan kain lembut bebas serpihan. Gunakan yang kering untuk debu.</li><li><strong>Sikat dengan lembut.</strong> Sikat bersih, lembut, dan kering, seperti sikat gigi lembut yang belum terpakai, bisa melonggarkan debu. Sikat perlahan menyilang kisi.</li><li><strong>Balikkan ponsel dengan sisi kisi menghadap ke bawah</strong> dan ketukkan perlahan ke tangan Anda untuk mengeluarkan debu yang longgar.</li><li><strong>Uji suaranya</strong> dengan lagu atau panggilan.</li></ol>"
+  },
+  {
+   "id": "avoid",
+   "h2": "Yang harus dihindari",
+   "html": "<ul><li><strong>Cairan di lubang-lubang ponsel:</strong> Apple dan Google sama-sama menyatakan agar kelembapan dan sabun dijauhkan dari lubang-lubang ponsel.</li><li><strong>Udara bertekanan:</strong> Apple menyatakan agar tidak memakainya pada iPhone dan Google menyarankan untuk tidak memakainya pada Pixel.</li><li><strong>Alat tajam:</strong> peniti bisa merobek kasa speaker.</li><li><strong>Menekan keras:</strong> kasanya tipis.</li></ul>",
+   "see": [
+    [
+     "phone-charging-port-cleaner",
+     "Pembersih port pengisi daya ponsel"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Gejala dan kemungkinan penyebabnya",
+   "html": "<p>Tidak semua suara lemah disebabkan debu.</p>",
+   "table": {
+    "caption": "Gejala speaker, kemungkinan penyebab, dan langkah pertama",
+    "headers": [
+     "Gejala",
+     "Kemungkinan penyebab",
+     "Langkah pertama"
+    ],
+    "rows": [
+     [
+      "Pelan di mana-mana",
+      "Volume, mode senyap, atau casing",
+      "Periksa volume dan lepas casing"
+     ],
+     [
+      "Teredam hanya saat panggilan",
+      "Debu di atas kisi speaker telinga",
+      "Kain kering, lalu sikat kering lembut"
+     ],
+     [
+      "Suara retak pada volume tinggi",
+      "Kotoran atau speaker rusak",
+      "Bersihkan dengan lembut, lalu uji; jika berlanjut, tanyakan ke bengkel reparasi"
+     ],
+     [
+      "Tidak ada suara hanya di satu aplikasi",
+      "Setelan aplikasi",
+      "Periksa volume aplikasi itu dan mulai ulang"
+     ],
+     [
+      "Suara bermasalah setelah terciprat air",
+      "Kelembapan",
+      "Matikan dan biarkan kering; jangan gunakan panas"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "help",
+   "h2": "Kapan harus meminta bantuan",
+   "html": "<p>Jika suara masih lemah atau terdistorsi setelah dibersihkan, atau ponsel pernah terkena cairan, tanyakan ke produsen atau bengkel reparasi. Jangan membuka ponsel sendiri.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Bisakah aplikasi membersihkan speaker ponsel saya?",
+   "a": "Tidak. Speaker adalah perangkat keras. CleanKoach membebaskan ruang penyimpanan dan tidak bisa membersihkan speaker."
+  },
+  {
+   "q": "Mengapa speaker ponsel saya teredam?",
+   "a": "Sering kali karena debu atau serpihan kain di atas kisi, casing yang menghalanginya, atau setelan volume atau audio. Periksa setelan dan casing terlebih dahulu."
+  },
+  {
+   "q": "Bagaimana cara membersihkan speaker ponsel dengan aman?",
+   "a": "Matikan ponsel, lap dengan kain lembut kering, sikat kisinya dengan lembut memakai sikat kering lembut, dan goyangkan keluar debu yang longgar."
+  },
+  {
+   "q": "Bisakah saya memakai udara bertekanan pada speaker?",
+   "a": "Apple menyatakan agar tidak memakainya pada iPhone dan Google menyarankan untuk tidak memakainya pada Pixel, jadi hindari."
+  },
+  {
+   "q": "Bisakah saya memakai cairan atau alkohol pada kisi?",
+   "a": "Jauhkan cairan dari lubang-lubang ponsel. Apple dan Google sama-sama menyarankan untuk menjauhkan kelembapan."
+  },
+  {
+   "q": "Apakah aplikasi pembersih speaker yang memutar suara berhasil?",
+   "a": "Aplikasi itu tidak bisa menghilangkan debu. Yang menghilangkannya adalah membersihkan kisi dengan tangan."
+  },
+  {
+   "q": "Apakah sikat gigi aman untuk speaker?",
+   "a": "Sikat bersih, lembut, dan kering yang dipakai dengan ringan lebih lembut daripada peniti. Jangan menekan keras."
+  },
+  {
+   "q": "Bagaimana jika speaker masih terdengar buruk setelah dibersihkan?",
+   "a": "Tanyakan ke produsen atau bengkel reparasi. Mungkin speakernya rusak."
+  },
+  {
+   "q": "Apakah CleanKoach memengaruhi suara ponsel?",
+   "a": "Tidak. CleanKoach tidak mengubah setelan audio atau perangkat keras."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Saran pembersihan dari Google: gunakan kain lembut bebas serpihan, jauhkan kelembapan dari lubang, dan hindari udara bertekanan."
+  },
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Panduan Apple tentang menghindari kelembapan di lubang dan tidak memakai udara bertekanan."
+  }
+ ],
+ "related": []
+}

@@ -1,0 +1,145 @@
+{
+ "slug": "stop-phone-cleaner-popping-up",
+ "title": "Paano Pigilan ang Pop-up ng Phone Cleaner",
+ "h1": "Paano pigilan ang pop-up ng phone cleaner",
+ "meta_description": "Karaniwang galing sa notification ng website o ng app ang mga pop-up ng phone cleaner sa Android. Hanapin ang pinagmulan, i-off ito at pigilang bumalik.",
+ "keywords": [
+  "pigilan ang pop-up ng phone cleaner",
+  "pop-up ng phone cleaner",
+  "mga notification ng phone cleaner",
+  "alisin ang mga pop-up ng phone cleaner"
+ ],
+ "tagline": "Hanapin ang pinagmulan, saka i-off ito",
+ "quick_answer": "<p><strong>Para pigilan ang pop-up ng phone cleaner, alamin kung ano ang nagpapakita nito, saka i-off iyon.</strong> Karaniwang sanhi ang website na pinayagan mong magpadala ng notification, app na may pahintulot na magpakita sa ibabaw ng ibang app, o ang sariling mga alerto ng isang cleaner app. Pindutin nang matagal ang pop-up para makita kung aling app ang nagpadala nito, saka i-block o i-uninstall ito.</p>",
+ "intro": "<p>Hindi laging galing sa cleaner na na-install mo ang pop-up na nagsasabing kailangang linisin ang phone mo. Daanan ang mga pinagmulan sa ibaba, mula sa pinakamalamang hanggang sa pinakamaliit ang posibilidad.</p>",
+ "sections": [
+  {
+   "id": "causes",
+   "h2": "Saan galing ang pop-up",
+   "html": "<ul><li><strong>Isang website:</strong> pinayagan mo ang mga notification mula sa isang site sa browser mo, at nagpapadala na ito ngayon ng mga alerto.</li><li><strong>Mga notification ng isang app:</strong> nagpapadala ang isang naka-install na app ng mga alertong mukhang babala ng system.</li><li><strong>App na nagpapakita sa ibabaw ng iba:</strong> app na may pahintulot na magpakita sa ibabaw ng ibang app.</li><li><strong>Isang pahina sa loob ng browser mo:</strong> pekeng alerto sa web page, na nawawala kapag isinara mo ang tab.</li></ul>"
+  },
+  {
+   "id": "find",
+   "h2": "Alamin kung aling app o site ito",
+   "html": "<ol><li><strong>Pindutin nang matagal ang notification.</strong> Ipinapakita ng Android ang pangalan ng app o site.</li><li><strong>Tingnan kung saan ito lumilitaw.</strong> Kung nasa notification shade, notification ito. Kung nasa ibabaw ng ibang app, overlay ito. Kung nasa loob ng web page, ang site ang may gawa.</li><li><strong>Itala ang pangalan</strong>, saka gamitin ang talahanayan sa ibaba.</li></ol>"
+  },
+  {
+   "id": "fixes",
+   "h2": "Mga solusyon ayon sa pinagmulan",
+   "html": "<p>Bahagyang nag-iiba ang mga pangalan ng menu sa pagitan ng mga gumagawa ng phone.</p>",
+   "table": {
+    "caption": "Kung saan lumilitaw ang pop-up, ang posibleng sanhi at ang solusyon",
+    "headers": [
+     "Kung saan mo ito nakikita",
+     "Posibleng sanhi",
+     "Solusyon"
+    ],
+    "rows": [
+     [
+      "Notification shade, nakapangalan sa isang website",
+      "Pinayagan ang mga notification ng browser para sa isang site",
+      "Sa settings ng browser mo, buksan ang Mga setting ng site, pagkatapos ang Mga notification, at i-block ang site na iyon"
+     ],
+     [
+      "Notification shade, nakapangalan sa isang app",
+      "Ang sariling mga notification ng app",
+      "Pindutin ito nang matagal at i-off ang mga notification ng app na iyon, o i-uninstall ang app"
+     ],
+     [
+      "Sa ibabaw ng ibang app",
+      "Pahintulot na magpakita sa ibabaw ng ibang app",
+      "Sa Settings, Apps, Special access, Pagpapakita sa ibabaw ng ibang app, i-off ito para sa app na iyon"
+     ],
+     [
+      "Sa loob lang ng web page",
+      "Pekeng alerto sa site",
+      "Isara ang tab at huwag mag-tap ng anuman dito"
+     ],
+     [
+      "Patuloy na bumabalik pagkatapos mag-uninstall",
+      "Pangalawang app o site na pinapayagan mo pa rin",
+      "Ulitin ang mga hakbang, saka magpatakbo ng Play Protect scan"
+     ]
+    ]
+   },
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Ligtas ba ang mga phone cleaner app?"
+    ]
+   ]
+  },
+  {
+   "id": "browser",
+   "h2": "I-block ang mga notification ng website sa Chrome",
+   "html": "<p>Buksan ang Chrome, pagkatapos ang Settings, pagkatapos ang Mga setting ng site, pagkatapos ang Mga notification. Ilipat sa listahan ng naka-block ang anumang site na hindi mo pinagkakatiwalaan, o tuluyang i-off ang mga notification. Puwede ring gumamit ang Chrome ng mas tahimik na pagmemensahe, kaya puwedeng humingi ang mga site nang walang pop-up.</p>"
+  },
+  {
+   "id": "scan",
+   "h2": "Suriin gamit ang Google Play Protect",
+   "html": "<p>Buksan ang Play Store, i-tap ang icon ng profile mo, i-tap ang Play Protect at magpatakbo ng scan. Tiyaking naka-on ang <strong>I-scan ang mga app gamit ang Play Protect</strong>. Sinusuri nito ang mga app para sa mapaminsalang gawi at maaari ka nitong bigyan ng babala tungkol sa mga ito o alisin ang mga ito.</p>"
+  },
+  {
+   "id": "cleankoach",
+   "h2": "Paano naman ang CleanKoach?",
+   "html": "<p>Hindi nagpapakita ang CleanKoach ng mga pop-up sa ibabaw ng ibang app at hindi ito humihingi ng pahintulot para rito. Ang tanging mga notification nito ay lingguhang paalala sa paglilinis at mga alerto sa storage, at parehong naka-off ang mga ito hanggang i-on mo. Para i-off ang mga ito, buksan ang CleanKoach, pagkatapos ang Settings, at i-off ang mga opsyon sa notification, o gamitin ang mga setting ng notification ng Android para sa app.</p>",
+   "see": [
+    [
+     "free-phone-cleaner-android",
+     "Libreng phone cleaner para sa Android"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Bakit paulit-ulit na lumalabas ang phone cleaner?",
+   "a": "Karaniwang website na pinayagan mong magpadala ng notification, app na may pahintulot na magpakita sa ibabaw ng ibang app, o cleaner app na nagpapadala ng mga alerto."
+  },
+  {
+   "q": "Paano ko malalaman kung aling app ang nagpapakita ng pop-up?",
+   "a": "Pindutin nang matagal ang notification. Ipinapakita ng Android ang app o site na nagpadala nito."
+  },
+  {
+   "q": "Paano ko pipigilan ang mga notification ng website sa Android?",
+   "a": "Sa Chrome, buksan ang Settings, Mga setting ng site, Mga notification at i-block ang site. May katulad na setting ang ibang browser."
+  },
+  {
+   "q": "Ano ang Pagpapakita sa ibabaw ng ibang app?",
+   "a": "Isang pahintulot sa Android na nagpapahintulot sa app na gumuhit sa ibabaw ng ibang app. I-off ito para sa anumang app na hindi nangangailangan nito."
+  },
+  {
+   "q": "Totoo ba ang pop-up na nagsasabing may virus ang phone ko?",
+   "a": "Halos hindi kailanman kapag galing ito sa web page o hindi kilalang app. Isara ang tab at huwag itong i-tap. Magpatakbo ng Play Protect scan kung hindi ka sigurado."
+  },
+  {
+   "q": "Lumalabas ba ang CleanKoach sa screen ko?",
+   "a": "Hindi. Hindi nagpapakita ang CleanKoach sa ibabaw ng ibang app. Opsyonal ang lingguhang paalala at mga alerto sa storage nito at naka-off hanggang i-on mo."
+  },
+  {
+   "q": "Paano ko i-o-off ang mga paalala ng CleanKoach?",
+   "a": "Buksan ang CleanKoach, pumunta sa Settings at i-off ang mga opsyon sa notification, o gamitin ang mga setting ng notification ng Android para sa app."
+  },
+  {
+   "q": "Paano kung bumalik ang pop-up pagkatapos kong i-uninstall ang app?",
+   "a": "May ibang app o site na pinapayagan mo pa rin ang nagpapadala nito. Ulitin ang mga hakbang at magpatakbo ng Play Protect scan."
+  },
+  {
+   "q": "Dapat ba akong mag-install ng isa pang cleaner para pigilan ang mga pop-up?",
+   "a": "Hindi. Alisin na lang ang pinagmulan. Ang isa pang app ay dagdag na puwedeng magpakita ng mga alerto."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Use notifications to get alerts, Google Chrome Help",
+   "url": "https://support.google.com/chrome/answer/3220216",
+   "note": "Kung paano hinahayaan ng Chrome na i-block ang site sa pagpapadala ng mga notification at gumamit ng mas tahimik na pagmemensahe."
+  },
+  {
+   "title": "Use Google Play Protect to help keep your apps safe and your data private, Google Play Help",
+   "url": "https://support.google.com/googleplay/answer/2812853",
+   "note": "Kung paano sinusuri ng Play Protect ang mga app para sa mapaminsalang gawi, at kung paano tiyaking naka-on ito."
+  }
+ ],
+ "related": []
+}

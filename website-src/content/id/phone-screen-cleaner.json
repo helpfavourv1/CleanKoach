@@ -1,0 +1,151 @@
+{
+ "slug": "phone-screen-cleaner",
+ "title": "Pembersih Layar Ponsel: Cara Aman",
+ "h1": "Pembersih layar ponsel",
+ "meta_description": "CleanKoach tidak bisa membersihkan layar ponsel karena hanya mengosongkan penyimpanan. Begini cara aman membersihkannya dengan kain lembut dan yang perlu dihindari.",
+ "keywords": [
+  "pembersih layar ponsel",
+  "membersihkan layar ponsel",
+  "cara membersihkan layar ponsel",
+  "pembersihan layar ponsel"
+ ],
+ "tagline": "CleanKoach membersihkan penyimpanan, bukan kaca. Ini cara aman",
+ "quick_answer": "<p><strong>Tidak ada aplikasi yang membersihkan layar ponsel, dan CleanKoach tidak mengklaimnya.</strong> Untuk membersihkan kaca, matikan ponsel, cabut kabelnya, lap dengan kain lembut bebas serpihan, gunakan kain yang sedikit lembap untuk kotoran, jangan pernah menyemprotkan cairan langsung ke ponsel, dan jauhkan kelembapan dari lubang-lubangnya.</p>",
+ "intro": "<p>Layar yang berlumur adalah masalah ponsel yang paling mudah diperbaiki, dan paling mudah diperparah. Apple maupun Google memberi saran inti yang sama.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Mengapa aplikasi tidak bisa melakukannya",
+   "html": "<p>Layar mengumpulkan minyak dan debu di kacanya. CleanKoach bekerja pada file dan penyimpanan, jadi tidak berpengaruh pada kaca. Gunakan aplikasi ini untuk penyimpanan dan kain untuk layar.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Aplikasi pembersih ponsel terbaik untuk Android"
+    ]
+   ]
+  },
+  {
+   "id": "basic",
+   "h2": "Pembersihan dasar",
+   "html": "<ol><li><strong>Matikan ponsel</strong> dan cabut semua kabel.</li><li><strong>Lap dengan kain lembut bebas serpihan.</strong> Kain mikrofiber kering menghilangkan debu, noda, dan bekas usapan.</li><li><strong>Untuk kotoran,</strong> gunakan kain yang sedikit lembap, atau tisu layar atau pembersih kacamata di Pixel.</li><li><strong>Lap dengan lembut.</strong> Hindari menggosok berlebihan.</li><li><strong>Biarkan kering</strong> sebelum Anda menyalakannya.</li></ol>"
+  },
+  {
+   "id": "disinfect",
+   "h2": "Mendisinfeksi layar",
+   "html": "<p>Apple menyatakan Anda boleh memakai tisu isopropil alkohol 70%, tisu etil alkohol 75%, atau Clorox Disinfecting Wipes di bagian luar iPhone, lalu lap dengan kain lembut bebas serpihan yang sedikit lembap. Google menyatakan tisu disinfektan rumah tangga atau tisu isopropil alkohol 70% boleh dipakai pada Pixel, termasuk pada layarnya. Apple menyarankan untuk tidak memakai pemutih dan hidrogen peroksida, dan Google menyarankan untuk tidak memakai pemutih.</p><p>Tisu, bukan cairan: jangan tuang atau semprotkan apa pun ke ponsel.</p>"
+  },
+  {
+   "id": "avoid",
+   "h2": "Yang harus dihindari",
+   "html": "<ul><li><strong>Semprotan aerosol dan pemutih:</strong> Apple menyatakan agar tidak memakai semprotan aerosol, pemutih, atau bahan abrasif.</li><li><strong>Menyemprot langsung:</strong> jangan semprotkan pembersih ke ponsel.</li><li><strong>Kelembapan di lubang-lubang ponsel:</strong> jauhkan dari port dan speaker.</li><li><strong>Bahan abrasif:</strong> Apple menyatakan produk pembersih dan bahan abrasif dapat mengurangi lapisan penolak minyak dan mungkin menggores layar.</li><li><strong>Merendam:</strong> jangan celupkan ponsel ke dalam bahan pembersih apa pun.</li></ul>",
+   "see": [
+    [
+     "phone-speaker-cleaner",
+     "Pembersih speaker ponsel"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Noda dan cara menghilangkannya",
+   "html": "<p>Sesuaikan cara dengan nodanya.</p>",
+   "table": {
+    "caption": "Noda layar yang umum dan cara menghilangkannya",
+    "headers": [
+     "Noda",
+     "Cara menghilangkannya",
+     "Hindari"
+    ],
+    "rows": [
+     [
+      "Debu dan sidik jari",
+      "Kain kering, lembut, bebas serpihan",
+      "Menggosok terlalu keras"
+     ],
+     [
+      "Bekas usapan",
+      "Kain kering, lalu kain yang sedikit lembap",
+      "Menyemprotkan cairan ke kaca"
+     ],
+     [
+      "Riasan atau warna denim",
+      "Kain bebas serpihan yang sedikit lembap",
+      "Bantalan abrasif"
+     ],
+     [
+      "Kuman",
+      "Tisu isopropil alkohol 70%, seperti yang diperbolehkan Apple dan Google",
+      "Pemutih, dan hidrogen peroksida pada iPhone"
+     ],
+     [
+      "Serpihan kain dari saku di tepi",
+      "Kain kering, lalu sikat kering lembut",
+      "Alat tajam"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "protector",
+   "h2": "Pelindung layar dan casing",
+   "html": "<p>Jika Anda memakai pelindung layar, bersihkan pelindungnya dengan cara yang sama. Sesekali lepas casing dan lap ponsel serta casing secara terpisah agar kerikil halus tidak menggores bagian belakang atau tepinya.</p>",
+   "see": [
+    [
+     "phone-cleaning-kit",
+     "Kit pembersih ponsel"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Bisakah aplikasi membersihkan layar ponsel saya?",
+   "a": "Tidak. Layar adalah kaca. CleanKoach mengosongkan penyimpanan dan tidak bisa membersihkan layar."
+  },
+  {
+   "q": "Apa cara paling aman membersihkan layar ponsel?",
+   "a": "Matikan ponsel, cabut kabelnya, dan lap dengan kain lembut bebas serpihan. Gunakan kain yang sedikit lembap untuk kotoran."
+  },
+  {
+   "q": "Bolehkah saya memakai isopropil alkohol di layar ponsel?",
+   "a": "Apple memperbolehkan tisu isopropil alkohol 70% di bagian luar iPhone dan Google memperbolehkan tisu isopropil alkohol 70% pada Pixel, termasuk layarnya. Gunakan tisu, bukan cairan."
+  },
+  {
+   "q": "Bolehkah saya memakai pemutih atau hidrogen peroksida?",
+   "a": "Tidak. Apple menyarankan untuk tidak memakai keduanya pada iPhone, dan Google menyarankan untuk tidak memakai pemutih pada Pixel."
+  },
+  {
+   "q": "Haruskah saya menyemprotkan pembersih ke layar?",
+   "a": "Tidak. Jangan semprotkan pembersih langsung ke ponsel. Gunakan tisu atau kain lembap."
+  },
+  {
+   "q": "Mengapa layar saya berminyak?",
+   "a": "Minyak kulit dan debu menempel di kaca. Kain mikrofiber kering menghilangkan sebagian besarnya."
+  },
+  {
+   "q": "Bisakah pembersihan merusak lapisan layar?",
+   "a": "Apple menyatakan produk pembersih dan bahan abrasif dapat mengurangi lapisan penolak minyak dan mungkin menggores layar, jadi lakukan dengan lembut."
+  },
+  {
+   "q": "Seberapa sering saya harus membersihkan ponsel?",
+   "a": "Sesering ponsel tampak kotor. Lap layar saat Anda melihat noda."
+  },
+  {
+   "q": "Apakah CleanKoach membersihkan layar saya?",
+   "a": "Tidak. CleanKoach mengosongkan penyimpanan, bukan kaca."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Saran Apple tentang tisu, kain lembut bebas serpihan, dan hal yang dapat merusak lapisan layar."
+  },
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Saran Google tentang kain, tisu, isopropil alkohol 70%, dan apa yang harus dihindari."
+  }
+ ],
+ "related": []
+}

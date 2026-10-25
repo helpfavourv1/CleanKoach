@@ -1,0 +1,145 @@
+{
+ "slug": "stop-phone-cleaner-popping-up",
+ "title": "Cara Menghentikan Pop-up Pembersih Ponsel",
+ "h1": "Cara menghentikan pop-up pembersih ponsel",
+ "meta_description": "Pop-up pembersih ponsel di Android biasanya berasal dari notifikasi situs web atau aplikasi. Temukan sumbernya, matikan, dan cegah muncul lagi, langkah demi langkah.",
+ "keywords": [
+  "hentikan pop-up pembersih ponsel",
+  "pop up pembersih ponsel",
+  "notifikasi pembersih ponsel",
+  "hapus pop up pembersih ponsel"
+ ],
+ "tagline": "Temukan sumbernya, lalu matikan",
+ "quick_answer": "<p><strong>Untuk menghentikan pop-up pembersih ponsel, cari tahu apa yang menampilkannya, lalu matikan itu.</strong> Penyebabnya biasanya situs web yang notifikasinya diizinkan, aplikasi yang punya izin tampil di atas aplikasi lain, atau peringatan dari aplikasi pembersih itu sendiri. Tekan lama pop-up untuk melihat aplikasi mana yang mengirimnya, lalu blokir atau copot.</p>",
+ "intro": "<p>Pop-up yang menyatakan ponsel Anda perlu dibersihkan tidak selalu berasal dari pembersih yang Anda pasang. Telusuri sumber-sumber di bawah ini, dari yang paling mungkin hingga yang paling kecil kemungkinannya.</p>",
+ "sections": [
+  {
+   "id": "causes",
+   "h2": "Dari mana pop-up berasal",
+   "html": "<ul><li><strong>Situs web:</strong> Anda mengizinkan notifikasi dari sebuah situs di browser, dan kini situs itu mengirim peringatan.</li><li><strong>Notifikasi aplikasi:</strong> aplikasi yang terpasang mengirim peringatan yang tampak seperti peringatan sistem.</li><li><strong>Aplikasi yang tampil di atas aplikasi lain:</strong> aplikasi dengan izin tampil di atas aplikasi lain.</li><li><strong>Halaman di dalam browser:</strong> peringatan palsu di halaman web, yang hilang saat Anda menutup tab.</li></ul>"
+  },
+  {
+   "id": "find",
+   "h2": "Cari tahu aplikasi atau situs mana itu",
+   "html": "<ol><li><strong>Tekan lama notifikasinya.</strong> Android menampilkan nama aplikasi atau situsnya.</li><li><strong>Periksa di mana ia muncul.</strong> Di bayangan notifikasi, itu adalah notifikasi. Di atas aplikasi lain, itu adalah overlay. Di dalam halaman web, itu adalah situsnya.</li><li><strong>Catat namanya</strong>, lalu gunakan tabel di bawah.</li></ol>"
+  },
+  {
+   "id": "fixes",
+   "h2": "Solusi menurut sumbernya",
+   "html": "<p>Nama menu sedikit berbeda antarprodusen ponsel.</p>",
+   "table": {
+    "caption": "Tempat pop-up muncul, kemungkinan penyebab, dan solusinya",
+    "headers": [
+     "Tempat Anda melihatnya",
+     "Kemungkinan penyebab",
+     "Solusi"
+    ],
+    "rows": [
+     [
+      "Bayangan notifikasi, dengan nama situs web",
+      "Notifikasi browser diizinkan untuk suatu situs",
+      "Di setelan browser Anda, buka Setelan situs, lalu Notifikasi, dan blokir situs itu"
+     ],
+     [
+      "Bayangan notifikasi, dengan nama aplikasi",
+      "Notifikasi aplikasi itu sendiri",
+      "Tekan lama dan matikan notifikasi aplikasi itu, atau copot aplikasinya"
+     ],
+     [
+      "Di atas aplikasi lain",
+      "Izin tampil di atas aplikasi lain",
+      "Di Setelan, Aplikasi, Akses khusus, Tampilkan di atas aplikasi lain, matikan untuk aplikasi itu"
+     ],
+     [
+      "Hanya di dalam halaman web",
+      "Peringatan palsu di situs",
+      "Tutup tab dan jangan ketuk apa pun di dalamnya"
+     ],
+     [
+      "Terus muncul lagi setelah dicopot",
+      "Aplikasi kedua atau situs yang masih Anda izinkan",
+      "Ulangi langkahnya, lalu jalankan pemindaian Play Protect"
+     ]
+    ]
+   },
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Apakah aplikasi pembersih ponsel aman?"
+    ]
+   ]
+  },
+  {
+   "id": "browser",
+   "h2": "Blokir notifikasi situs web di Chrome",
+   "html": "<p>Buka Chrome, lalu Setelan, lalu Setelan situs, lalu Notifikasi. Pindahkan situs yang tidak Anda percayai ke daftar yang diblokir, atau matikan notifikasi sepenuhnya. Chrome juga bisa memakai pesan yang lebih tenang, sehingga situs bisa meminta izin tanpa pop-up.</p>"
+  },
+  {
+   "id": "scan",
+   "h2": "Periksa dengan Google Play Protect",
+   "html": "<p>Buka Play Store, ketuk ikon profil Anda, ketuk Play Protect, dan jalankan pemindaian. Pastikan <strong>Pindai aplikasi dengan Play Protect</strong> aktif. Fitur ini memeriksa aplikasi dari perilaku berbahaya dan bisa memperingatkan Anda tentang aplikasi tersebut atau menghapusnya.</p>"
+  },
+  {
+   "id": "cleankoach",
+   "h2": "Bagaimana dengan CleanKoach?",
+   "html": "<p>CleanKoach tidak menampilkan pop-up di atas aplikasi lain dan tidak meminta izin untuk itu. Satu-satunya notifikasinya adalah pengingat pembersihan mingguan dan peringatan penyimpanan, dan keduanya mati sampai Anda mengaktifkannya. Untuk mematikannya, buka CleanKoach, lalu Setelan, dan matikan opsi notifikasi, atau gunakan setelan notifikasi Android untuk aplikasi ini.</p>",
+   "see": [
+    [
+     "free-phone-cleaner-android",
+     "Pembersih ponsel gratis untuk Android"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Mengapa pembersih ponsel terus muncul?",
+   "a": "Biasanya situs web yang notifikasinya Anda izinkan, aplikasi yang punya izin tampil di atas aplikasi lain, atau aplikasi pembersih yang mengirim peringatan."
+  },
+  {
+   "q": "Bagaimana cara mengetahui aplikasi mana yang menampilkan pop-up?",
+   "a": "Tekan lama notifikasinya. Android menampilkan aplikasi atau situs yang mengirimnya."
+  },
+  {
+   "q": "Bagaimana cara menghentikan notifikasi situs web di Android?",
+   "a": "Di Chrome, buka Setelan, Setelan situs, Notifikasi, dan blokir situsnya. Browser lain punya setelan serupa."
+  },
+  {
+   "q": "Apa itu Tampilkan di atas aplikasi lain?",
+   "a": "Izin Android yang memungkinkan aplikasi menggambar di atas aplikasi lain. Matikan untuk aplikasi mana pun yang tidak membutuhkannya."
+  },
+  {
+   "q": "Apakah pop-up yang menyatakan ponsel saya terkena virus itu asli?",
+   "a": "Hampir tidak pernah jika berasal dari halaman web atau aplikasi yang tidak dikenal. Tutup tab dan jangan ketuk. Jalankan pemindaian Play Protect jika Anda ragu."
+  },
+  {
+   "q": "Apakah CleanKoach muncul di layar saya?",
+   "a": "Tidak. CleanKoach tidak tampil di atas aplikasi lain. Pengingat mingguan dan peringatan penyimpanannya bersifat opsional dan mati sampai Anda mengaktifkannya."
+  },
+  {
+   "q": "Bagaimana cara mematikan pengingat CleanKoach?",
+   "a": "Buka CleanKoach, masuk ke Setelan, dan matikan opsi notifikasi, atau gunakan setelan notifikasi Android untuk aplikasi ini."
+  },
+  {
+   "q": "Bagaimana jika pop-up muncul lagi setelah saya mencopot aplikasinya?",
+   "a": "Aplikasi lain atau situs yang masih Anda izinkan yang mengirimnya. Ulangi langkahnya dan jalankan pemindaian Play Protect."
+  },
+  {
+   "q": "Haruskah saya memasang pembersih lain untuk menghentikan pop-up?",
+   "a": "Tidak. Hapus sumbernya saja. Aplikasi lain berarti satu hal lagi yang bisa menampilkan peringatan."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Use notifications to get alerts, Google Chrome Help",
+   "url": "https://support.google.com/chrome/answer/3220216",
+   "note": "Cara Chrome memungkinkan Anda memblokir situs mengirim notifikasi dan memakai pesan yang lebih tenang."
+  },
+  {
+   "title": "Use Google Play Protect to help keep your apps safe and your data private, Google Play Help",
+   "url": "https://support.google.com/googleplay/answer/2812853",
+   "note": "Cara Play Protect memeriksa aplikasi dari perilaku berbahaya, dan cara memastikan fitur itu aktif."
+  }
+ ],
+ "related": []
+}

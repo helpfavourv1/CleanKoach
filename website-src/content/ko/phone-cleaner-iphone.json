@@ -1,0 +1,150 @@
+{
+ "slug": "phone-cleaner-iphone",
+ "title": "iPhone용 휴대폰 클리너: 효과 있는 방법",
+ "h1": "iPhone용 휴대폰 클리너",
+ "meta_description": "iPhone용 CleanKoach는 없습니다. CleanKoach는 Android 앱입니다. iOS에 기본 제공되는 도구로 iPhone 저장공간을 확보하는 방법을 단계별로 안내합니다.",
+ "keywords": [
+  "iPhone 휴대폰 클리너",
+  "iPhone 클리너 앱",
+  "iPhone 저장공간 정리",
+  "iPhone 저장공간 확보"
+ ],
+ "tagline": "CleanKoach는 Android 전용입니다. iPhone에서 쓸 수 있는 방법은 이렇습니다",
+ "quick_answer": "<p><strong>CleanKoach는 Android 앱이며 현재 iPhone 버전은 없습니다.</strong> iPhone에서 공간을 확보하려면 iOS에 기본 제공되는 도구를 사용하세요. 설정, 일반, iPhone 저장 공간을 확인하고, 추천 항목을 따르고, 거의 쓰지 않는 앱을 오프로드하고, iCloud 사진을 쓴다면 iPhone 저장 공간 최적화를 켜세요.</p>",
+ "intro": "<p>iPhone용 클리너를 찾다가 이 페이지에 오셨다면 답부터 아는 편이 낫습니다. CleanKoach는 Android용으로 만든 네이티브 앱입니다. 아래 단계는 Apple이 제공하는 기능만 사용합니다.</p>",
+ "sections": [
+  {
+   "id": "android-only",
+   "h2": "CleanKoach는 Android용입니다",
+   "html": "<p>CleanKoach는 Android 9 이상용으로 만든 네이티브 Android 앱이며 Google Play에서 받을 수 있습니다. 현재 iPhone이나 iPad용 버전은 없으므로 iPhone에 설치할 것이 없습니다.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Android 휴대폰에 가장 좋은 클리너 앱"
+    ]
+   ]
+  },
+  {
+   "id": "check",
+   "h2": "iPhone 저장공간을 차지하는 항목 확인하기",
+   "html": "<ol><li><strong>설정</strong>을 열고 <strong>일반</strong>을 탭합니다.</li><li><strong>iPhone 저장 공간</strong>을 탭합니다. 추천 항목과, 앱별 사용 용량이 표시된 앱 목록이 나옵니다.</li><li>자세한 내용은 앱 이름을 탭하세요.</li></ol><p>Apple은 캐시와 임시 데이터가 이 목록의 사용량에 포함되지 않을 수 있다고 안내합니다.</p>"
+  },
+  {
+   "id": "recommendations",
+   "h2": "기본 제공 추천 기능 사용하기",
+   "html": "<p>저장 공간이 가득 찼다면 저장 공간 섹션에서 <strong>모두 보기</strong>를 탭해 추천 항목을 확인하세요. <strong>활성화</strong>를 탭해 켜거나, 항목을 탭해 삭제할 수 있는 것을 살펴보세요. iOS 17 이상에서는 Apple의 사진 저장 공간 안내에 나오는 맞춤 추천 목록이 필요 없을 수 있는 사진, 큰 파일, 백업을 표시해 줄 수 있습니다.</p>"
+  },
+  {
+   "id": "apps",
+   "h2": "앱 오프로드 또는 삭제",
+   "html": "<p>iPhone 저장 공간에서 앱 항목을 열고 오프로드를 선택하세요. 앱이 차지하던 공간은 확보되고 문서와 데이터는 그대로 남습니다. 앱을 삭제하면 관련 데이터도 함께 제거됩니다.</p>"
+  },
+  {
+   "id": "photos",
+   "h2": "사진과 동영상 관리",
+   "html": "<p>보통 사진과 동영상이 가장 큰 비중을 차지합니다. iCloud 사진을 쓴다면 <strong>iPhone 저장 공간 최적화</strong>를 켜세요. 공간이 필요할 때 원본 해상도 파일은 iCloud에 남고 더 작은 사본이 휴대폰에 남습니다. Apple은 중복된 사진과 동영상을 병합하는 것도 권장합니다. 이 방법은 iCloud 저장 공간이 충분해야 합니다.</p>"
+  },
+  {
+   "id": "comparison",
+   "h2": "Android와 iPhone 비교",
+   "html": "<p>두 기기 모두 같은 작업을 할 수 있지만 위치가 다릅니다.</p>",
+   "table": {
+    "caption": "CleanKoach를 쓰는 Android와 iPhone의 저장공간 작업",
+    "headers": [
+     "작업",
+     "Android에서",
+     "iPhone에서"
+    ],
+    "rows": [
+     [
+      "공간을 차지하는 항목 보기",
+      "홈 화면 저장공간과 Android 설정",
+      "설정, 일반, iPhone 저장 공간"
+     ],
+     [
+      "큰 파일 찾기",
+      "CleanKoach 큰 파일",
+      "iPhone 저장 공간 추천 항목과 앱별 세부 정보"
+     ],
+     [
+      "중복 제거",
+      "CleanKoach 중복",
+      "사진 앱에서 중복 항목 병합"
+     ],
+     [
+      "앱에서 공간 확보",
+      "Android 설정",
+      "iPhone 저장 공간에서 앱 오프로드 또는 삭제"
+     ],
+     [
+      "사진 용량 줄이기",
+      "CleanKoach 사진 최적화",
+      "iCloud 사진과 iPhone 저장 공간 최적화"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "care",
+   "h2": "iPhone용 클리너 앱에 관한 참고",
+   "html": "<p>Apple의 기본 저장공간 도구로 대부분의 필요를 해결할 수 있습니다. 타사 앱을 써 본다면 Android와 마찬가지로 어떤 권한을 요청하는지, 계정이 필요한지 확인하세요.</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "클리너 앱은 안전한가요?"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "iPhone용 CleanKoach 앱이 있나요?",
+   "a": "아니요. CleanKoach는 Android 앱이며 현재 iPhone 버전은 없습니다."
+  },
+  {
+   "q": "iPhone 저장공간을 정리하려면 어떻게 하나요?",
+   "a": "설정, 일반, iPhone 저장 공간을 열고 추천 항목을 따르세요. 쓰지 않는 앱은 오프로드하거나 삭제하세요."
+  },
+  {
+   "q": "앱을 오프로드하면 어떻게 되나요?",
+   "a": "앱이 차지하던 공간이 확보되고 문서와 데이터는 그대로 남습니다. 나중에 앱을 다시 설치할 수 있습니다."
+  },
+  {
+   "q": "iPhone 저장공간을 무엇이 차지하는지 어떻게 확인하나요?",
+   "a": "설정, 일반, iPhone 저장 공간에서 앱 목록과 앱별 사용 용량, 추천 항목을 볼 수 있습니다."
+  },
+  {
+   "q": "iPhone 사진 용량은 어떻게 줄이나요?",
+   "a": "iCloud 사진을 켠 상태에서 iPhone 저장 공간 최적화를 켜면 더 작은 사본이 휴대폰에 남습니다. 사진 앱에서 중복 항목을 병합할 수도 있습니다."
+  },
+  {
+   "q": "iPhone에도 중복 파일 찾기 기능이 있나요?",
+   "a": "Apple은 공간을 확보하기 위해 사진 앱에서 중복된 사진과 동영상을 병합하라고 안내합니다."
+  },
+  {
+   "q": "iPad에서 CleanKoach를 쓸 수 있나요?",
+   "a": "아니요. CleanKoach는 Android 휴대폰과 태블릿용입니다."
+  },
+  {
+   "q": "CleanKoach는 어떤 Android 버전을 지원하나요?",
+   "a": "Android 9 이상입니다."
+  },
+  {
+   "q": "CleanKoach는 어디서 받을 수 있나요?",
+   "a": "Android용으로 Google Play에서 받을 수 있습니다."
+  }
+ ],
+ "citations": [
+  {
+   "title": "How to check the storage on your iPhone and iPad, Apple Support",
+   "url": "https://support.apple.com/en-us/108429",
+   "note": "iPhone 저장 공간 확인, 추천 기능 사용, 앱 오프로드에 대한 Apple의 안내 단계입니다."
+  },
+  {
+   "title": "Manage your photo and video storage, Apple Support",
+   "url": "https://support.apple.com/en-us/105061",
+   "note": "iPhone 저장 공간 최적화, iCloud 사진, 중복 항목 병합에 대한 Apple의 안내입니다."
+  }
+ ],
+ "related": []
+}

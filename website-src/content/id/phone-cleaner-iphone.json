@@ -1,0 +1,150 @@
+{
+ "slug": "phone-cleaner-iphone",
+ "title": "Pembersih Ponsel untuk iPhone: Yang Berhasil",
+ "h1": "Pembersih ponsel untuk iPhone",
+ "meta_description": "Tidak ada CleanKoach untuk iPhone. CleanKoach adalah aplikasi Android. Ini cara membebaskan penyimpanan iPhone dengan alat bawaan iOS, langkah demi langkah.",
+ "keywords": [
+  "pembersih ponsel iphone",
+  "aplikasi pembersih iphone",
+  "bersihkan penyimpanan iphone",
+  "bebaskan penyimpanan iphone"
+ ],
+ "tagline": "CleanKoach hanya untuk Android. Ini yang ditawarkan iPhone",
+ "quick_answer": "<p><strong>CleanKoach adalah aplikasi Android dan saat ini tidak ada versi iPhone.</strong> Untuk membebaskan ruang di iPhone, gunakan alat bawaan iOS: periksa Pengaturan, Umum, Penyimpanan iPhone, ikuti rekomendasinya, copot aplikasi yang jarang Anda pakai, dan aktifkan Optimalkan Penyimpanan iPhone jika Anda memakai Foto iCloud.</p>",
+ "intro": "<p>Jika Anda sampai di sini untuk mencari pembersih iPhone, lebih baik langsung tahu jawabannya. CleanKoach dibuat secara native untuk Android. Langkah-langkah di bawah ini hanya memakai apa yang disediakan Apple.</p>",
+ "sections": [
+  {
+   "id": "android-only",
+   "h2": "CleanKoach untuk Android",
+   "html": "<p>CleanKoach adalah aplikasi Android native, dibuat untuk Android 9 dan yang lebih baru, dan tersedia di Google Play. Saat ini tidak ada versi untuk iPhone atau iPad, jadi tidak ada yang bisa dipasang di iPhone.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Aplikasi pembersih ponsel terbaik untuk Android"
+    ]
+   ]
+  },
+  {
+   "id": "check",
+   "h2": "Periksa apa yang memakai penyimpanan iPhone Anda",
+   "html": "<ol><li>Buka <strong>Pengaturan</strong>, lalu <strong>Umum</strong>.</li><li>Ketuk <strong>Penyimpanan iPhone</strong>. Anda akan melihat rekomendasi dan daftar aplikasi beserta ruang yang dipakai masing-masing.</li><li>Ketuk nama aplikasi untuk melihat detailnya.</li></ol><p>Apple mencatat bahwa data cache dan data sementara mungkin tidak dihitung sebagai penggunaan dalam daftar ini.</p>"
+  },
+  {
+   "id": "recommendations",
+   "h2": "Gunakan rekomendasi bawaan",
+   "html": "<p>Jika penyimpanan penuh, ketuk <strong>Tampilkan Semua</strong> di bagian Penyimpanan untuk melihat rekomendasi. Ketuk <strong>Aktifkan</strong> untuk menyalakan salah satunya, atau ketuk rekomendasinya untuk meninjau apa yang bisa Anda hapus. Di iOS 17 dan yang lebih baru, daftar Direkomendasikan untuk Anda dalam langkah penyimpanan foto Apple dapat menandai foto, file besar, atau cadangan yang mungkin tidak Anda perlukan.</p>"
+  },
+  {
+   "id": "apps",
+   "h2": "Copot atau hapus aplikasi",
+   "html": "<p>Buka entri aplikasi di Penyimpanan iPhone dan pilih untuk mencopotnya. Itu membebaskan ruang yang dipakai aplikasi dan tetap menyimpan dokumen serta datanya. Menghapus aplikasi juga menghapus data terkaitnya.</p>"
+  },
+  {
+   "id": "photos",
+   "h2": "Kelola foto dan video",
+   "html": "<p>Foto dan video biasanya yang paling besar. Jika Anda memakai Foto iCloud, aktifkan <strong>Optimalkan Penyimpanan iPhone</strong>: file asli beresolusi penuh tetap di iCloud dan salinan yang lebih kecil tetap di ponsel saat ruang dibutuhkan. Apple juga menyarankan menggabungkan foto dan video duplikat. Ini bergantung pada tersedianya penyimpanan iCloud yang cukup.</p>"
+  },
+  {
+   "id": "comparison",
+   "h2": "Android dan iPhone berdampingan",
+   "html": "<p>Pekerjaan yang sama ada di keduanya, di tempat yang berbeda.</p>",
+   "table": {
+    "caption": "Tugas penyimpanan di Android dengan CleanKoach dan di iPhone",
+    "headers": [
+     "Tugas",
+     "Di Android",
+     "Di iPhone"
+    ],
+    "rows": [
+     [
+      "Melihat apa yang memakai ruang",
+      "Penyimpanan di layar utama dan Setelan Android",
+      "Pengaturan, Umum, Penyimpanan iPhone"
+     ],
+     [
+      "Menemukan file besar",
+      "File besar di CleanKoach",
+      "Rekomendasi Penyimpanan iPhone dan detail per aplikasi"
+     ],
+     [
+      "Menghapus duplikat",
+      "Duplikat di CleanKoach",
+      "Gabungkan duplikat di Foto"
+     ],
+     [
+      "Membebaskan ruang dari aplikasi",
+      "Setelan Android",
+      "Copot atau hapus aplikasi di Penyimpanan iPhone"
+     ],
+     [
+      "Memperkecil foto",
+      "Pengoptimal foto di CleanKoach",
+      "Optimalkan Penyimpanan iPhone dengan Foto iCloud"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "care",
+   "h2": "Catatan tentang aplikasi pembersih untuk iPhone",
+   "html": "<p>Alat penyimpanan bawaan Apple mencakup sebagian besar kebutuhan. Jika Anda mencoba aplikasi pihak ketiga, periksa apa yang diminta dan apakah ia memerlukan akun, seperti yang Anda lakukan di Android.</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Apakah aplikasi pembersih ponsel aman?"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Apakah ada aplikasi CleanKoach untuk iPhone?",
+   "a": "Tidak. CleanKoach adalah aplikasi Android dan saat ini tidak ada versi iPhone."
+  },
+  {
+   "q": "Bagaimana cara membersihkan penyimpanan iPhone saya?",
+   "a": "Buka Pengaturan, Umum, Penyimpanan iPhone, ikuti rekomendasinya, dan copot atau hapus aplikasi yang tidak Anda pakai."
+  },
+  {
+   "q": "Apa yang dilakukan saat mencopot aplikasi?",
+   "a": "Ruang yang dipakai aplikasi dibebaskan, sementara dokumen dan datanya tetap disimpan. Anda bisa memasang ulang aplikasinya nanti."
+  },
+  {
+   "q": "Bagaimana cara mengetahui apa yang memakai penyimpanan iPhone saya?",
+   "a": "Pengaturan, Umum, Penyimpanan iPhone menampilkan daftar aplikasi dan ruang yang dipakai masing-masing, ditambah rekomendasi."
+  },
+  {
+   "q": "Bagaimana cara menghemat ruang untuk foto di iPhone?",
+   "a": "Dengan Foto iCloud aktif, aktifkan Optimalkan Penyimpanan iPhone agar salinan yang lebih kecil tetap di ponsel. Anda juga bisa menggabungkan duplikat di Foto."
+  },
+  {
+   "q": "Apakah iPhone punya pencari duplikat?",
+   "a": "Apple menyarankan menggabungkan foto dan video duplikat di Foto untuk membebaskan ruang."
+  },
+  {
+   "q": "Bisakah saya memakai CleanKoach di iPad?",
+   "a": "Tidak. CleanKoach untuk ponsel dan tablet Android."
+  },
+  {
+   "q": "Versi Android mana yang didukung CleanKoach?",
+   "a": "Android 9 dan yang lebih baru."
+  },
+  {
+   "q": "Di mana saya bisa mendapatkan CleanKoach?",
+   "a": "Di Google Play, untuk Android."
+  }
+ ],
+ "citations": [
+  {
+   "title": "How to check the storage on your iPhone and iPad, Apple Support",
+   "url": "https://support.apple.com/en-us/108429",
+   "note": "Langkah Apple untuk memeriksa penyimpanan iPhone, memakai rekomendasi, dan mencopot aplikasi."
+  },
+  {
+   "title": "Manage your photo and video storage, Apple Support",
+   "url": "https://support.apple.com/en-us/105061",
+   "note": "Panduan Apple tentang Optimalkan Penyimpanan iPhone, Foto iCloud, dan menggabungkan duplikat."
+  }
+ ],
+ "related": []
+}

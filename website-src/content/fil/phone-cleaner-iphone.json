@@ -1,0 +1,150 @@
+{
+ "slug": "phone-cleaner-iphone",
+ "title": "Phone Cleaner para sa iPhone: Ang Epektibo",
+ "h1": "Phone cleaner para sa iPhone",
+ "meta_description": "Walang CleanKoach para sa iPhone. Android app ito. Narito kung paano magbakante ng storage ng iPhone gamit ang mga built-in na tool ng iOS, hakbang-hakbang.",
+ "keywords": [
+  "phone cleaner iPhone",
+  "iPhone cleaner app",
+  "linisin ang storage ng iPhone",
+  "magbakante ng storage ng iPhone"
+ ],
+ "tagline": "Para sa Android lang ang CleanKoach. Narito ang alok ng iPhone",
+ "quick_answer": "<p><strong>Android app ang CleanKoach at wala itong bersyon para sa iPhone sa ngayon.</strong> Para magbakante ng espasyo sa iPhone, gamitin ang mga built-in na tool ng iOS: tingnan ang Settings, General, iPhone Storage, sundin ang mga rekomendasyon nito, i-offload ang mga app na bihira mong gamitin at i-on ang Optimize iPhone Storage kung gumagamit ka ng iCloud Photos.</p>",
+ "intro": "<p>Kung napunta ka rito para maghanap ng cleaner para sa iPhone, mas mabuting malaman agad ang sagot. Native na ginawa para sa Android ang CleanKoach. Ang mga hakbang sa ibaba ay gumagamit lang ng ibinibigay ng Apple.</p>",
+ "sections": [
+  {
+   "id": "android-only",
+   "h2": "Para sa Android ang CleanKoach",
+   "html": "<p>Native na Android app ang CleanKoach, ginawa para sa Android 9 pataas, at available ito sa Google Play. Wala itong bersyon para sa iPhone o iPad sa ngayon, kaya walang mai-install sa iPhone.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Pinakamahusay na phone cleaner app para sa Android"
+    ]
+   ]
+  },
+  {
+   "id": "check",
+   "h2": "Tingnan kung ano ang gumagamit ng storage ng iPhone mo",
+   "html": "<ol><li>Buksan ang <strong>Settings</strong>, pagkatapos ang <strong>General</strong>.</li><li>I-tap ang <strong>iPhone Storage</strong>. Makikita mo ang mga rekomendasyon at listahan ng mga app kasama ang espasyong ginagamit ng bawat isa.</li><li>I-tap ang pangalan ng app para sa mga detalye.</li></ol><p>Binabanggit ng Apple na maaaring hindi mabilang bilang paggamit sa listahang ito ang naka-cache at pansamantalang data.</p>"
+  },
+  {
+   "id": "recommendations",
+   "h2": "Gamitin ang mga built-in na rekomendasyon",
+   "html": "<p>Kung puno ang storage, i-tap ang <strong>Ipakita Lahat</strong> sa seksyong Storage para makita ang mga rekomendasyon. I-tap ang <strong>I-enable</strong> para i-on ang isa, o i-tap ito para suriin kung ano ang puwede mong i-delete. Sa iOS 17 at mas bago, maaaring ituro ng listahang Inirerekomenda para sa Iyo sa mga hakbang ng Apple para sa storage ng litrato ang mga litrato, malalaking file o backup na maaaring hindi mo na kailangan.</p>"
+  },
+  {
+   "id": "apps",
+   "h2": "I-offload o i-delete ang mga app",
+   "html": "<p>Buksan ang entry ng app sa iPhone Storage at piliing i-offload ito. Mababakante nito ang espasyong kinukuha ng app at mananatili ang mga dokumento at data nito. Kapag ni-delete ang app, aalisin din ang kaugnay nitong data.</p>"
+  },
+  {
+   "id": "photos",
+   "h2": "Pamahalaan ang mga litrato at video",
+   "html": "<p>Karaniwang pinakamalaki ang mga litrato at video. Kung gumagamit ka ng iCloud Photos, i-on ang <strong>Optimize iPhone Storage</strong>: nananatili sa iCloud ang mga original na full-resolution at mas maliliit na kopya ang nananatili sa phone kapag kailangan ng espasyo. Iminumungkahi rin ng Apple na pagsamahin ang mga duplicate na litrato at video. Nakadepende ito sa kung may sapat kang iCloud storage.</p>"
+  },
+  {
+   "id": "comparison",
+   "h2": "Android at iPhone, magkatabi",
+   "html": "<p>Pareho ang mga gawain sa dalawa, sa magkaibang lugar.</p>",
+   "table": {
+    "caption": "Mga gawain sa storage sa Android gamit ang CleanKoach at sa iPhone",
+    "headers": [
+     "Gawain",
+     "Sa Android",
+     "Sa iPhone"
+    ],
+    "rows": [
+     [
+      "Tingnan kung ano ang kumakain ng espasyo",
+      "Storage sa home screen at Settings ng Android",
+      "Mga Setting, Pangkalahatan, Storage ng iPhone"
+     ],
+     [
+      "Maghanap ng malalaking file",
+      "Malalaking file ng CleanKoach",
+      "Mga rekomendasyon ng iPhone Storage at detalye kada app"
+     ],
+     [
+      "Alisin ang mga duplicate",
+      "Mga duplicate ng CleanKoach",
+      "Pagsamahin ang mga duplicate sa Photos"
+     ],
+     [
+      "Magbakante ng espasyo mula sa mga app",
+      "Settings ng Android",
+      "I-offload o i-delete ang mga app sa iPhone Storage"
+     ],
+     [
+      "Paliitin ang mga litrato",
+      "Photo optimizer ng CleanKoach",
+      "Optimize iPhone Storage gamit ang iCloud Photos"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "care",
+   "h2": "Paalala tungkol sa mga cleaner app para sa iPhone",
+   "html": "<p>Sapat na ang sariling storage tool ng Apple para sa karamihan ng pangangailangan. Kung susubukan mo ang third-party na app, suriin kung ano ang hinihingi nito at kung kailangan ito ng account, tulad ng gagawin mo sa Android.</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Ligtas ba ang mga phone cleaner app?"
+    ]
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "May CleanKoach app ba para sa iPhone?",
+   "a": "Wala. Android app ang CleanKoach at wala itong bersyon para sa iPhone sa ngayon."
+  },
+  {
+   "q": "Paano ko lilinisin ang storage ng iPhone ko?",
+   "a": "Buksan ang Settings, General, iPhone Storage, sundin ang mga rekomendasyon, at i-offload o i-delete ang mga app na hindi mo ginagamit."
+  },
+  {
+   "q": "Ano ang ginagawa ng pag-offload ng app?",
+   "a": "Binabakante nito ang espasyong ginagamit ng app at pinapanatili ang mga dokumento at data nito. Puwede mong i-install muli ang app mamaya."
+  },
+  {
+   "q": "Paano ko malalaman kung ano ang gumagamit ng storage ng iPhone ko?",
+   "a": "Ipinapakita ng Settings, General, iPhone Storage ang listahan ng mga app at kung magkano ang ginagamit ng bawat isa, pati mga rekomendasyon."
+  },
+  {
+   "q": "Paano ako makakatipid ng espasyo sa mga litrato sa iPhone?",
+   "a": "Kapag naka-on ang iCloud Photos, i-on ang Optimize iPhone Storage para manatili sa phone ang mas maliliit na kopya. Puwede mo ring pagsamahin ang mga duplicate sa Photos."
+  },
+  {
+   "q": "May duplicate finder ba ang iPhone?",
+   "a": "Iminumungkahi ng Apple na pagsamahin ang mga duplicate na litrato at video sa Photos para magbakante ng espasyo."
+  },
+  {
+   "q": "Magagamit ko ba ang CleanKoach sa iPad?",
+   "a": "Hindi. Para sa mga Android phone at tablet ang CleanKoach."
+  },
+  {
+   "q": "Anong mga bersyon ng Android ang sinusuportahan ng CleanKoach?",
+   "a": "Android 9 pataas."
+  },
+  {
+   "q": "Saan ko makukuha ang CleanKoach?",
+   "a": "Sa Google Play, para sa Android."
+  }
+ ],
+ "citations": [
+  {
+   "title": "How to check the storage on your iPhone and iPad, Apple Support",
+   "url": "https://support.apple.com/en-us/108429",
+   "note": "Mga hakbang ng Apple para tingnan ang storage ng iPhone, gamitin ang mga rekomendasyon at i-offload ang mga app."
+  },
+  {
+   "title": "Manage your photo and video storage, Apple Support",
+   "url": "https://support.apple.com/en-us/105061",
+   "note": "Gabay ng Apple sa Optimize iPhone Storage, iCloud Photos at pagsasama ng mga duplicate."
+  }
+ ],
+ "related": []
+}

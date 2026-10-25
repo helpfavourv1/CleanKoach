@@ -1,0 +1,159 @@
+{
+ "slug": "phone-storage-cleaner",
+ "title": "Storage Cleaner ng Phone: Paano Ito Gumagana",
+ "h1": "Paano gumagana ang storage cleaner ng phone",
+ "meta_description": "Hinahanap ng storage cleaner ang pumupuno sa storage ng Android mo at tinutulungan kang linisin ito nang ligtas. Alamin kung paano nag-i-scan ang CleanKoach.",
+ "keywords": [
+  "storage cleaner ng phone",
+  "Android storage cleaner",
+  "paano gumagana ang phone cleaner",
+  "magbakante ng storage ng phone"
+ ],
+ "tagline": "Ang sinusuri ng storage cleaner, at ang iniiwan nito",
+ "quick_answer": "<p><strong>Inililista ng storage cleaner ng phone ang pumupuno sa storage mo para maalis mo ang mga ito.</strong> Binabasa ng CleanKoach ang photo, video at audio library sa phone, ipinapakita ang pinakamalalaki mong file, hinahanap ang magkaparehong duplicate at halos magkaparehong larawan, ipinagsasama-sama ang mga screenshot at inaalis ang laman ng trash. Ikaw ang pipili kung ano ang aalisin, at walang ina-upload.</p>",
+ "intro": "<p>Dahan-dahang napupuno ang storage at saka biglang puno na. Ang cleaner ang gumagawa ng paghahanap para sa iyo. Ipinapaliwanag ng gabay na ito kung ano ang tinitingnan ng CleanKoach, kung paano ito nagpapasya, at kung saan ang mga limitasyon nito.</p>",
+ "sections": [
+  {
+   "id": "where-space-goes",
+   "h2": "Saan napupunta ang storage mo",
+   "html": "<ul><li><strong>Malalaking file:</strong> kayang higitan ng ilang video ang libu-libong litrato.</li><li><strong>Eksaktong duplicate:</strong> iisang file na dalawang beses na-save, madalas ng chat app o backup.</li><li><strong>Halos magkaparehong litrato:</strong> mga burst at paulit-ulit na kuha.</li><li><strong>Mga screenshot:</strong> ilang taon ng mga ito.</li><li><strong>Trash:</strong> na-delete na media na hindi pa naaalisan ng laman.</li><li><strong>Cache:</strong> mga pansamantalang file na iniingatan ng mga app.</li><li><strong>Mga app at data ng mga ito:</strong> pinamamahalaan sa sariling storage settings ng Android.</li></ul>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Pinakamahusay na phone cleaner app para sa Android"
+    ]
+   ]
+  },
+  {
+   "id": "how-it-scans",
+   "h2": "Paano nag-i-scan ang CleanKoach",
+   "html": "<ol><li><strong>Binabasa nito ang media library mo</strong> kapag pinayagan mo ang access sa mga litrato, video at audio. Sa phone mo nagaganap ang lahat.</li><li><strong>Malalaking file</strong> ay inaayos ayon sa laki, pinakamalaki muna.</li><li><strong>Mga duplicate</strong> ay nahahanap sa pamamagitan ng paghahambing ng nilalaman ng mga file gamit ang SHA-256 fingerprint, kaya pinagsasama-sama ang dalawang file na magkaiba ang pangalan pero magkapareho ang nilalaman, at hindi ang dalawang magkapareho ang pangalan pero magkaiba ang nilalaman.</li><li><strong>Magkakahawig na larawan</strong> ay nahahanap sa pamamagitan ng paghahambing ng maliit na fingerprint kung paano mukha ang bawat larawan. Pinagsasama-sama ang mga litratong halos magkamukha, at ang pinakamalaking file sa bawat grupo ang iminumungkahing itabi. Puwede kang pumili ng iba.</li><li><strong>Mga screenshot</strong> ay ipinagsasama-sama sa iisang listahan.</li></ol>"
+  },
+  {
+   "id": "tools",
+   "h2": "Aling tool ang sumasagot sa aling tanong",
+   "html": "<p>Nagpapakita ng mga laki ang bawat tool bago ka kumilos.</p>",
+   "table": {
+    "caption": "Mga tool ng CleanKoach at ang tanong na sinasagot ng bawat isa",
+    "headers": [
+     "Tool",
+     "Tanong na sinasagot nito",
+     "Ang makikita mo"
+    ],
+    "rows": [
+     [
+      "Malalaking file",
+      "Ano ang kumakain ng pinakamaraming espasyo?",
+      "Mga litrato, video at audio na nakaayos ayon sa laki"
+     ],
+     [
+      "Mga duplicate",
+      "May eksaktong kopya ba ako?",
+      "Mga grupo ng magkaparehong file at ang espasyong maibabalik mo"
+     ],
+     [
+      "Magkakahawig na larawan",
+      "May paulit-ulit ba akong kuha?",
+      "Mga grupo ng halos magkaparehong litrato, may iminumungkahing itabi"
+     ],
+     [
+      "Mga screenshot",
+      "Maaalis ko ba nang sabay-sabay ang mga lumang screenshot?",
+      "Bawat screenshot sa iisang listahan"
+     ],
+     [
+      "Photo optimizer at Video optimizer",
+      "Maitatabi ko ba ito pero mas maliit?",
+      "Mga naka-compress na kopya at ang natipid na espasyo"
+     ],
+     [
+      "LINISIN",
+      "Ano ang puwedeng alisin sa isang tap?",
+      "Mga na-delete na litrato at video kasama ang sariling cache ng app"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "control",
+   "h2": "Ikaw pa rin ang may kontrol",
+   "html": "<p>Hindi kailanman nagde-delete nang kusa ang CleanKoach. Ikaw ang pipili ng mga file, at hihingi ang Android ng kumpirmasyon bago i-delete ang media. Sa Android 12 pataas, puwede mong opsyonal na payagan ang pamamahala ng media, na nagpapahintulot sa CleanKoach na i-delete ang mga napili mo nang walang prompt sa bawat pagkakataon. Puwede mo itong i-off sa Settings ng Android anumang oras.</p>"
+  },
+  {
+   "id": "compress",
+   "h2": "Nakakabakante lang ng espasyo ang pag-compress kapag ni-delete mo ang original",
+   "html": "<p>Nagse-save ang Photo optimizer at Video optimizer ng mas maliit na kopya sa folder ng CleanKoach at iniiwan ang original kung nasaan ito. Pinoprotektahan nito ang alaala mo, pero mababakante lang ang espasyo kapag ikaw mismo ang nag-alis ng original. Suriin muna ang mas maliit na kopya, saka i-delete ang original.</p>"
+  },
+  {
+   "id": "limits",
+   "h2": "Ang hindi kayang gawin ng storage cleaner",
+   "html": "<ul><li>Hindi nito inaalis ang mga app mo. I-uninstall ang mga ito sa Settings ng Android.</li><li>Inaalis ng LINISIN ang trash at ang sariling cache ng CleanKoach. Hindi nito inaalis ang cache o data ng ibang app.</li><li>Hindi nito pinapabilis nang mag-isa ang phone mo. Binibigyan lang ng espasyo ng libreng espasyo ang phone mo para gumana, wala nang iba.</li></ul><p>Para sa mga app at data ng mga ito, gamitin ang storage settings ng Android.</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Ligtas ba ang mga phone cleaner app?"
+    ]
+   ]
+  },
+  {
+   "id": "routine",
+   "h2": "Panatilihing libre ang storage",
+   "html": "<p>Repasuhin ang Malalaking file minsan kada buwan, alisin ang Mga screenshot pagkatapos ng malalaking okasyon, at patakbuhin ang Mga duplicate pagkatapos ng backup ng chat app. Opsyonal ang lingguhang paalala sa paglilinis at puwedeng i-off sa Settings.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Ano ang storage cleaner ng phone?",
+   "a": "Isang app na nagpapakita kung ano ang gumagamit ng storage ng phone mo at tumutulong sa pag-alis nito. Sakop ng CleanKoach ang malalaking file, duplicate, magkakahawig na larawan, mga screenshot at trash."
+  },
+  {
+   "q": "Paano nakakahanap ang CleanKoach ng mga duplicate?",
+   "a": "Inihahambing nito ang nilalaman ng mga file gamit ang SHA-256 fingerprint, kaya pinagsasama-sama ang magkaparehong file kahit magkaiba ang pangalan."
+  },
+  {
+   "q": "Paano ito nakakahanap ng magkakahawig na larawan?",
+   "a": "Inihahambing nito ang maliit na fingerprint kung paano mukha ang bawat larawan. Pinagsasama-sama ang mga litratong halos magkamukha at ang pinakamalaki ang iminumungkahing itabi."
+  },
+  {
+   "q": "Mababago ko ba kung aling magkakahawig na larawan ang itatabi?",
+   "a": "Oo. Mungkahi lang ang pinakamalaking file. Puwede kang pumili ng ibang litratong itatabi sa bawat grupo."
+  },
+  {
+   "q": "Nagde-delete ba ang CleanKoach ng file nang hindi nagtatanong?",
+   "a": "Hindi. Ikaw ang pipili ng aalisin, at hihingi ang Android ng kumpirmasyon bago i-delete ang media, maliban kung pinayagan mo ang opsyonal na pahintulot sa pamamahala ng media."
+  },
+  {
+   "q": "Ano ang pahintulot sa pamamahala ng media?",
+   "a": "Isang opsyonal na pahintulot sa Android 12 pataas na nagpapahintulot sa CleanKoach na i-delete ang mga napili mo nang hindi nagtatanong sa bawat pagkakataon. Puwede mo itong i-off sa Settings ng Android."
+  },
+  {
+   "q": "Inaalis ba ng LINISIN ang cache ng ibang app?",
+   "a": "Hindi. Inaalis ng LINISIN ang mga na-delete na litrato at video at ang sariling cache ng CleanKoach."
+  },
+  {
+   "q": "Nakakabakante ba agad ng espasyo ang pag-compress ng litrato?",
+   "a": "Hindi nang mag-isa. Sine-save ang mas maliit na kopya sa tabi ng original, kaya mababakante ang espasyo kapag ni-delete mo ang original."
+  },
+  {
+   "q": "Pinapabilis ba ng storage cleaner ang phone ko?",
+   "a": "Hindi direkta. Nagbabakante ito ng espasyo. Hindi sinasabi ng CleanKoach na pinapabilis nito ang phone."
+  },
+  {
+   "q": "Ina-upload ba ang mga file ko?",
+   "a": "Hindi. Sa phone mo sinusuri ang mga file. Hindi kailanman ina-upload ang iyong media, data ng paggamit at resulta ng scan."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Free up storage on your Android device, Android Help",
+   "url": "https://support.google.com/android/answer/7431795",
+   "note": "Mga hakbang ng Google: suriin ang storage, ilipat sa Trash ang mga litrato at video, at i-clear ang app cache."
+  },
+  {
+   "title": "User Data policy, Google Play Console Help",
+   "url": "https://support.google.com/googleplay/android-developer/answer/10144311",
+   "note": "Hinihiling ng Google Play na magpakita ang mga app ng paliwanag sa loob ng app bago humingi ng runtime permission."
+  }
+ ],
+ "related": []
+}

@@ -1,0 +1,145 @@
+{
+ "slug": "phone-speaker-cleaner",
+ "title": "Panlinis ng Speaker ng Phone: Ligtas na Paraan",
+ "h1": "Panlinis ng speaker ng phone",
+ "meta_description": "Hindi malilinis ng CleanKoach ang speaker ng phone dahil software ito. Paano dahan-dahang linisin ang mahinang speaker at ang iiwasan para hindi masira ang phone.",
+ "keywords": [
+  "panlinis ng speaker ng phone",
+  "linisin ang speaker ng phone",
+  "mahina ang speaker ng phone",
+  "alikabok sa speaker ng phone"
+ ],
+ "tagline": "Storage ang nililinis ng CleanKoach, hindi ang speaker. Narito ang banayad na paraan",
+ "quick_answer": "<p><strong>Walang app na makakalinis ng speaker ng phone, at hindi iyon sinasabi ng CleanKoach.</strong> Karaniwang barado ng alikabok o lint ang mahinang speaker. Patayin ang phone, punasan ang grille gamit ang tuyo at malambot na tela, dahan-dahang gumamit ng malambot at tuyong brush, ilayo ang halumigmig sa mga butas at iwasan ang compressed air.</p>",
+ "intro": "<p>Kung mahina ang tunog ng tawag o hindi malinaw ang musika, alisin muna ang posibilidad na software ang sanhi, saka tingnan ang speaker grille. Narito ang maingat na pagkakasunod-sunod ng mga hakbang.</p>",
+ "sections": [
+  {
+   "id": "software",
+   "h2": "Hindi malilinis ng software ang speaker",
+   "html": "<p>Pisikal na bahagi ang gumagawa ng tunog. Nagbabakante ng espasyo sa storage ang CleanKoach. Hindi nito naaapektuhan ang speaker, at hindi makakaalis ng alikabok ang app na \"speaker cleaner\". May mga app na nagpapatugtog ng mga tono at nagsasabing naaalis nila ang tubig, pero ang manu-manong paglilinis ng grille ang nag-aalis ng alikabok.</p>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Pinakamahusay na phone cleaner app para sa Android"
+    ]
+   ]
+  },
+  {
+   "id": "rule-out",
+   "h2": "Alisin muna ang mga madaling sanhi",
+   "html": "<ol><li><strong>Suriin ang volume at mode.</strong> Maaaring magmukhang sira ang silent mode, mababang volume slider o Huwag Istorbohin.</li><li><strong>Suriin ang Bluetooth.</strong> Maaaring napupunta ang audio sa earbud o speaker na nakalimutan mo.</li><li><strong>Tanggalin ang case.</strong> May mga case na tinatakpan o bahagyang hinaharangan ang speaker.</li><li><strong>I-restart ang phone.</strong></li></ol>"
+  },
+  {
+   "id": "clean",
+   "h2": "Paano linisin ang grille",
+   "html": "<ol><li><strong>Patayin ang phone</strong> at hugutin ang mga cable.</li><li><strong>Punasan ang ibabaw</strong> gamit ang malambot at walang lint na tela. Gumamit ng tuyo para sa alikabok.</li><li><strong>Dahan-dahang magsipilyo.</strong> Nakakaluwag ng alikabok ang malinis, malambot at tuyong brush, tulad ng hindi nagagamit na malambot na sipilyo. Marahang walisin ang grille.</li><li><strong>Ipaharap pababa ang grille ng phone</strong> at marahang tapikin ito sa kamay mo para mahulog ang maluwag na alikabok.</li><li><strong>Subukan ang tunog</strong> gamit ang kanta o tawag.</li></ol>"
+  },
+  {
+   "id": "avoid",
+   "h2": "Ang dapat iwasan",
+   "html": "<ul><li><strong>Likido sa mga butas:</strong> parehong sinasabi ng Apple at Google na ilayo ang halumigmig at sabon sa mga butas.</li><li><strong>Compressed air:</strong> sinasabi ng Apple na huwag itong gamitin sa iPhone at ipinapayo ng Google na huwag sa Pixel.</li><li><strong>Matatalas na gamit:</strong> puwedeng mapunit ng pin ang mesh ng speaker.</li><li><strong>Madiing pagdiin:</strong> manipis ang mesh.</li></ul>",
+   "see": [
+    [
+     "phone-charging-port-cleaner",
+     "Paglilinis ng charging port ng phone"
+    ]
+   ]
+  },
+  {
+   "id": "table",
+   "h2": "Mga sintomas at posibleng sanhi",
+   "html": "<p>Hindi lahat ng mahinang tunog ay alikabok.</p>",
+   "table": {
+    "caption": "Mga sintomas ng speaker, posibleng sanhi at unang hakbang",
+    "headers": [
+     "Sintomas",
+     "Posibleng sanhi",
+     "Unang hakbang"
+    ],
+    "rows": [
+     [
+      "Mahina saanman",
+      "Volume, silent mode o case",
+      "Suriin ang volume at tanggalin ang case"
+     ],
+     [
+      "Mahina lang sa mga tawag",
+      "Alikabok sa ibabaw ng earpiece grille",
+      "Tuyong tela, saka malambot at tuyong brush"
+     ],
+     [
+      "Pumuputok-putok sa mataas na volume",
+      "Dumi o sirang speaker",
+      "Linisin nang marahan, saka subukan; kung magpatuloy, magtanong sa repair shop"
+     ],
+     [
+      "Walang tunog sa isang app lang",
+      "Mga setting ng app",
+      "Suriin ang volume ng app na iyon at i-restart ito"
+     ],
+     [
+      "Tunog pagkatapos matalsikan ng tubig",
+      "Halumigmig",
+      "Patayin at hayaang matuyo; huwag gumamit ng init"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "help",
+   "h2": "Kailan hihingi ng tulong",
+   "html": "<p>Kung mahina o pangit pa rin ang tunog pagkatapos maglinis, o nabasa na sa likido ang phone, magtanong sa gumawa o sa repair shop. Huwag buksan ang phone nang mag-isa.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Malilinis ba ng app ang speaker ng phone ko?",
+   "a": "Hindi. Hardware ang speaker. Nagbabakante ng espasyo sa storage ang CleanKoach at hindi nito malilinis ang mga speaker."
+  },
+  {
+   "q": "Bakit mahina ang speaker ng phone ko?",
+   "a": "Madalas ay alikabok o lint sa ibabaw ng grille, case na humaharang dito, o setting ng volume o audio. Suriin muna ang mga setting at ang case."
+  },
+  {
+   "q": "Paano ko ligtas na lilinisin ang speaker ng phone?",
+   "a": "Patayin ang phone, punasan gamit ang malambot na tuyong tela, dahan-dahang walisin ang grille gamit ang malambot at tuyong brush at pagpagin ang maluwag na alikabok."
+  },
+  {
+   "q": "Puwede ba akong gumamit ng compressed air sa speaker?",
+   "a": "Sinasabi ng Apple na huwag itong gamitin sa iPhone at ipinapayo ng Google na huwag sa Pixel, kaya iwasan ito."
+  },
+  {
+   "q": "Puwede ba akong gumamit ng likido o alcohol sa grille?",
+   "a": "Ilayo ang likido sa mga butas. Parehong ipinapayo ng Apple at Google na ilayo ang halumigmig."
+  },
+  {
+   "q": "Gumagana ba ang mga speaker cleaner app na nagpapatugtog ng tunog?",
+   "a": "Hindi nila maaalis ang alikabok. Ang manu-manong paglilinis ng grille ang nag-aalis nito."
+  },
+  {
+   "q": "Ligtas ba ang sipilyo para sa speaker?",
+   "a": "Mas banayad ang malinis, malambot at tuyong brush na marahang ginamit kaysa sa pin. Huwag itong pindutin nang madiin."
+  },
+  {
+   "q": "Paano kung masama pa rin ang tunog ng speaker pagkatapos linisin?",
+   "a": "Magtanong sa gumawa o sa repair shop. Maaaring sirang speaker ito."
+  },
+  {
+   "q": "Naaapektuhan ba ng CleanKoach ang tunog ng phone?",
+   "a": "Hindi. Hindi binabago ng CleanKoach ang mga setting ng audio o hardware."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Clean your Pixel phone, Pixel Phone Help",
+   "url": "https://support.google.com/pixelphone/answer/7533987",
+   "note": "Payo ng Google sa paglilinis: gumamit ng malambot at walang lint na tela, ilayo ang halumigmig sa mga butas at iwasan ang compressed air."
+  },
+  {
+   "title": "Cleaning your iPhone, Apple Support",
+   "url": "https://support.apple.com/en-us/108765",
+   "note": "Gabay ng Apple sa pag-iwas ng halumigmig sa mga butas at hindi paggamit ng compressed air."
+  }
+ ],
+ "related": []
+}

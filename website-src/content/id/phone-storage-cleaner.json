@@ -1,0 +1,159 @@
+{
+ "slug": "phone-storage-cleaner",
+ "title": "Pembersih Penyimpanan Ponsel: Cara Kerjanya",
+ "h1": "Cara kerja pembersih penyimpanan ponsel",
+ "meta_description": "Pembersih penyimpanan ponsel menemukan apa yang memenuhi penyimpanan Android dan membantu menghapusnya dengan aman. Lihat cara CleanKoach memindai.",
+ "keywords": [
+  "pembersih penyimpanan ponsel",
+  "pembersih penyimpanan android",
+  "cara kerja pembersih ponsel",
+  "bebaskan penyimpanan ponsel"
+ ],
+ "tagline": "Yang dipindai pembersih penyimpanan, dan yang dibiarkan",
+ "quick_answer": "<p><strong>Pembersih penyimpanan ponsel mendaftar apa yang memenuhi penyimpanan Anda agar bisa Anda hapus.</strong> CleanKoach membaca pustaka foto, video, dan audio di ponsel, menampilkan file terbesar Anda, menemukan duplikat identik dan foto yang hampir sama, mengumpulkan tangkapan layar, dan mengosongkan sampah. Anda yang memilih apa yang dihapus, dan tidak ada yang diunggah.</p>",
+ "intro": "<p>Penyimpanan terisi perlahan lalu tiba-tiba penuh. Pembersih melakukan pencariannya untuk Anda. Panduan ini menjelaskan apa yang diperiksa CleanKoach, bagaimana ia memutuskan, dan di mana batasannya.</p>",
+ "sections": [
+  {
+   "id": "where-space-goes",
+   "h2": "Ke mana penyimpanan Anda habis",
+   "html": "<ul><li><strong>File besar:</strong> segelintir video bisa lebih berat daripada ribuan foto.</li><li><strong>Duplikat persis:</strong> file yang sama tersimpan dua kali, sering oleh aplikasi chat atau pencadangan.</li><li><strong>Foto yang hampir sama:</strong> jepretan beruntun dan pengambilan ulang.</li><li><strong>Tangkapan layar:</strong> bertahun-tahun tangkapan layar.</li><li><strong>Sampah:</strong> media yang dihapus tetapi belum dikosongkan.</li><li><strong>Cache:</strong> file sementara yang disimpan aplikasi.</li><li><strong>Aplikasi dan datanya:</strong> dikelola di setelan penyimpanan Android sendiri.</li></ul>",
+   "see": [
+    [
+     "best-phone-cleaner-app-android",
+     "Aplikasi pembersih ponsel terbaik untuk Android"
+    ]
+   ]
+  },
+  {
+   "id": "how-it-scans",
+   "h2": "Cara CleanKoach memindai",
+   "html": "<ol><li><strong>Aplikasi membaca pustaka media Anda</strong> setelah Anda mengizinkan akses ke foto, video, dan audio. Semuanya terjadi di ponsel Anda.</li><li><strong>File besar</strong> diurutkan menurut ukuran, yang terbesar lebih dulu.</li><li><strong>Duplikat</strong> ditemukan dengan membandingkan isi file memakai sidik jari SHA-256, sehingga dua file dengan nama berbeda tetapi isi identik dikelompokkan, dan dua file dengan nama sama tetapi isi berbeda tidak.</li><li><strong>Foto serupa</strong> ditemukan dengan membandingkan sidik jari kecil dari tampilan setiap gambar. Foto yang tampak hampir sama dikelompokkan, dan file terbesar di setiap kelompok disarankan sebagai yang disimpan. Anda bisa memilih yang lain.</li><li><strong>Tangkapan layar</strong> dikumpulkan dalam satu daftar.</li></ol>"
+  },
+  {
+   "id": "tools",
+   "h2": "Alat mana menjawab pertanyaan mana",
+   "html": "<p>Setiap alat menampilkan ukuran sebelum Anda bertindak.</p>",
+   "table": {
+    "caption": "Alat CleanKoach dan pertanyaan yang dijawab masing-masing",
+    "headers": [
+     "Alat",
+     "Pertanyaan yang dijawab",
+     "Yang Anda lihat"
+    ],
+    "rows": [
+     [
+      "File besar",
+      "Apa yang paling banyak memakai ruang?",
+      "Foto, video, dan audio diurutkan menurut ukuran"
+     ],
+     [
+      "Duplikat",
+      "Apakah saya punya salinan yang persis sama?",
+      "Kelompok file identik dan ruang yang bisa Anda pulihkan"
+     ],
+     [
+      "Foto serupa",
+      "Apakah saya punya jepretan yang berulang?",
+      "Kelompok foto yang hampir sama, dengan satu yang disarankan untuk disimpan"
+     ],
+     [
+      "Tangkapan layar",
+      "Bisakah saya menghapus tangkapan layar lama sekaligus?",
+      "Semua tangkapan layar dalam satu daftar"
+     ],
+     [
+      "Pengoptimal foto dan Pengoptimal video",
+      "Bisakah saya menyimpannya tetapi lebih kecil?",
+      "Salinan terkompresi dan ruang yang dihemat"
+     ],
+     [
+      "BERSIHKAN",
+      "Apa yang bisa dihapus dengan satu ketukan?",
+      "Foto dan video yang dihapus ditambah cache aplikasi sendiri"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "control",
+   "h2": "Anda tetap memegang kendali",
+   "html": "<p>CleanKoach tidak pernah menghapus sendiri. Anda memilih file, dan Android meminta Anda mengonfirmasi sebelum media dihapus. Di Android 12 dan yang lebih baru, Anda bisa mengizinkan pengelolaan media secara opsional, yang memungkinkan CleanKoach menghapus item yang Anda pilih tanpa perintah konfirmasi setiap kali. Anda bisa mematikannya di Setelan Android kapan pun Anda mau.</p>"
+  },
+  {
+   "id": "compress",
+   "h2": "Kompresi membebaskan ruang hanya jika Anda menghapus aslinya",
+   "html": "<p>Pengoptimal foto dan Pengoptimal video menyimpan salinan yang lebih kecil ke folder CleanKoach dan membiarkan file asli di tempatnya. Itu menjaga kenangan Anda tetap aman, tetapi ruang baru dibebaskan setelah Anda sendiri menghapus file aslinya. Periksa dulu salinan yang lebih kecil, lalu hapus file aslinya.</p>"
+  },
+  {
+   "id": "limits",
+   "h2": "Yang tidak bisa dilakukan pembersih penyimpanan",
+   "html": "<ul><li>Tidak menghapus aplikasi Anda. Copot aplikasi di Setelan Android.</li><li>BERSIHKAN mengosongkan sampah dan cache CleanKoach sendiri. Tidak menghapus cache atau data aplikasi lain.</li><li>Tidak membuat ponsel Anda lebih cepat dengan sendirinya. Ruang kosong memberi ponsel Anda ruang untuk bekerja, tidak lebih.</li></ul><p>Untuk aplikasi dan datanya, gunakan setelan penyimpanan Android.</p>",
+   "see": [
+    [
+     "is-phone-cleaner-app-safe",
+     "Apakah aplikasi pembersih ponsel aman?"
+    ]
+   ]
+  },
+  {
+   "id": "routine",
+   "h2": "Jaga penyimpanan tetap lega",
+   "html": "<p>Tinjau File besar sebulan sekali, hapus Tangkapan layar setelah acara besar, dan jalankan Duplikat setelah pencadangan aplikasi chat. Pengingat pembersihan mingguan bersifat opsional dan bisa dimatikan di Setelan.</p>"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Apa itu pembersih penyimpanan ponsel?",
+   "a": "Aplikasi yang menampilkan apa yang memakai penyimpanan ponsel Anda dan membantu Anda menghapusnya. CleanKoach mencakup file besar, duplikat, foto serupa, tangkapan layar, dan sampah."
+  },
+  {
+   "q": "Bagaimana CleanKoach menemukan duplikat?",
+   "a": "Aplikasi ini membandingkan isi file dengan sidik jari SHA-256, sehingga file identik dikelompokkan meskipun namanya berbeda."
+  },
+  {
+   "q": "Bagaimana ia menemukan foto serupa?",
+   "a": "Aplikasi ini membandingkan sidik jari kecil dari tampilan setiap foto. Foto yang tampak hampir sama dikelompokkan dan yang terbesar disarankan untuk disimpan."
+  },
+  {
+   "q": "Bisakah saya mengubah foto serupa mana yang disimpan?",
+   "a": "Bisa. File terbesar hanyalah saran. Anda bisa memilih foto lain untuk disimpan di setiap kelompok."
+  },
+  {
+   "q": "Apakah CleanKoach menghapus file tanpa bertanya?",
+   "a": "Tidak. Anda memilih apa yang dihapus, dan Android meminta Anda mengonfirmasi sebelum media dihapus, kecuali Anda mengizinkan izin pengelolaan media yang opsional."
+  },
+  {
+   "q": "Apa itu izin pengelolaan media?",
+   "a": "Izin opsional untuk Android 12 dan yang lebih baru yang memungkinkan CleanKoach menghapus item yang Anda pilih tanpa bertanya setiap kali. Anda bisa mematikannya di Setelan Android."
+  },
+  {
+   "q": "Apakah BERSIHKAN menghapus cache aplikasi lain?",
+   "a": "Tidak. BERSIHKAN mengosongkan foto dan video yang dihapus serta cache CleanKoach sendiri."
+  },
+  {
+   "q": "Apakah mengompres foto langsung membebaskan ruang?",
+   "a": "Tidak dengan sendirinya. Salinan yang lebih kecil disimpan di samping file asli, jadi ruang dibebaskan saat Anda menghapus file aslinya."
+  },
+  {
+   "q": "Apakah pembersih penyimpanan mempercepat ponsel saya?",
+   "a": "Tidak secara langsung. Ia membebaskan ruang. CleanKoach tidak mengklaim meningkatkan kecepatan."
+  },
+  {
+   "q": "Apakah file saya diunggah?",
+   "a": "Tidak. File dianalisis di ponsel Anda. Media, data penggunaan, dan hasil pemindaian Anda tidak pernah diunggah."
+  }
+ ],
+ "citations": [
+  {
+   "title": "Free up storage on your Android device, Android Help",
+   "url": "https://support.google.com/android/answer/7431795",
+   "note": "Langkah resmi Google untuk memeriksa penyimpanan, memindahkan foto dan video ke Sampah, dan menghapus cache aplikasi."
+  },
+  {
+   "title": "User Data policy, Google Play Console Help",
+   "url": "https://support.google.com/googleplay/android-developer/answer/10144311",
+   "note": "Google Play mewajibkan aplikasi menampilkan pengungkapan di dalam aplikasi sebelum meminta izin runtime."
+  }
+ ],
+ "related": []
+}
