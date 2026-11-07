@@ -173,7 +173,7 @@
     <string name="pro_button_restore">खरीद पुनः प्राप्त करें</string>
 
     <string name="about_title">परिचय</string>
-    <string name="about_body">मूल Android स्टोरेज सफ़ाई। सब कुछ डिवाइस पर चलता है। न मीडिया, न उपयोग डेटा, न स्कैन परिणाम कभी अपलोड होते हैं।</string>
+    <string name="about_body">नेटिव Android स्टोरेज सफ़ाई। सब कुछ डिवाइस पर चलता है। न मीडिया, न उपयोग डेटा, न स्कैन परिणाम कभी अपलोड होते हैं।</string>
     <string name="about_built_with">Kotlin, Jetpack Compose और Material 3 से बनाया गया।</string>
 
 

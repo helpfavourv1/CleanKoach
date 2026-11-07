@@ -13,11 +13,11 @@
     <string name="action_allow_access">Salli käyttö</string>
     <string name="action_open_settings">Avaa asetukset</string>
     <string name="action_all">Kaikki</string>
-    <string name="action_clear">Tyhjennä</string>
+    <string name="action_clear">Poista valinta</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">Roskakorin koko</string>
-    <string name="home_ring_sublabel">Poistetut kuvat ja videot sekä sovellusten välimuisti</string>
+    <string name="home_ring_sublabel">Roskakorin kuvat ja videot sekä sovellusten välimuisti</string>
     <string name="home_storage_line">%1$s / %2$s käytössä · %3$d%%</string>
     <string name="home_button_cleanup">SIIVOA</string>
     <string name="home_button_scanning">Skannataan…</string>
@@ -44,7 +44,7 @@
 
     <!-- Home — phone tool cards -->
     <string name="tool_activity_monitor_title">Toimintaseuranta</string>
-    <string name="tool_activity_monitor_badge">24 H</string>
+    <string name="tool_activity_monitor_badge">24 t</string>
     <string name="tool_wifi_security_title">Wi-Fi-turvallisuus</string>
     <string name="tool_wifi_security_badge">Tarkista</string>
     <string name="tool_network_speed_title">Verkon nopeus</string>
@@ -188,7 +188,7 @@
     <string name="pro_active_body">Mainokset on poistettu. Kiitos, että tuet CleanKoachia.</string>
     <string name="pro_upsell_title">Poista mainokset</string>
     <string name="pro_upsell_body">Pro poistaa kaikki mainokset. Kaikki ominaisuudet ovat ilmaisia.</string>
-    <string name="pro_button_upgrade">Päivitä</string>
+    <string name="pro_button_upgrade">Päivitä Prohon</string>
     <string name="pro_button_restore">Palauta osto</string>
 
     <!-- Settings — About -->
@@ -225,14 +225,14 @@
     <string name="support_mail_body">Android-versio: %1$s\nLaite: %2$s\n\nKuvaile ongelmasi alla:\n\n</string>
     <string name="pro_unavailable">Ei saatavilla juuri nyt</string>
     <string name="pro_pending">Maksusi on odottamassa. Pro avautuu heti, kun maksu on valmis.</string>
-    <string name="pro_button_upgrade_price">Päivitä hintaan %1$s</string>
+    <string name="pro_button_upgrade_price">Päivitä Prohon hintaan %1$s</string>
     <string name="duplicates_delete_line">Poistettavia: %1$d · %2$s</string>
     <string name="network_speed_error">Testipalvelimeen ei saatu yhteyttä. Tarkista yhteytesi ja yritä uudelleen.</string>
     <string name="home_partial_access_message">Rajoitettu kuvien käyttö. CleanKoach näkee vain valitsemasi kuvat ja videot.</string>
     <string name="home_partial_access_action">Salli kaikki</string>
     <string name="home_nothing_to_clean_message">Ei siivottavaa juuri nyt</string>
     <string name="wifi_encryption_open">Avoin</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Parannettu avoin</string>
     <string name="settings_privacy_options">Mainosten tietosuojavalinnat</string>
     <string name="home_cleanup_caption_running">Siivotaan…</string>
     <string name="home_cleanup_running">Tyhjennetään välimuisti ja roskakori…</string>
@@ -241,7 +241,7 @@
     <string name="home_cleanup_done_cache">Välimuisti tyhjennetty. Roskakori oli jo tyhjä.</string>
     <string name="delete_bar_android_note">Android pyytää vahvistuksen.</string>
     <string name="review_card_title">Pidätkö CleanKoachista?</string>
-    <string name="review_card_body">Arvostelu auttaa muita löytämään sovelluksen.</string>
-    <string name="review_card_action">Arvostele</string>
+    <string name="review_card_body">Arvio auttaa muita löytämään sovelluksen.</string>
+    <string name="review_card_action">Arvioi</string>
     <string name="review_card_dismiss">Sulje</string>
 </resources>

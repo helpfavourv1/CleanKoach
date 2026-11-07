@@ -13,7 +13,7 @@
     <string name="action_allow_access">Να επιτραπεί η πρόσβαση</string>
     <string name="action_open_settings">Άνοιγμα ρυθμίσεων</string>
     <string name="action_all">Όλα</string>
-    <string name="action_clear">Εκκαθάριση</string>
+    <string name="action_clear">Αποεπιλογή</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">Μέγεθος κάδου</string>
@@ -54,7 +54,7 @@
     <string name="cleanup_result_freed">Ελευθερώθηκαν</string>
 
     <!-- Media access disclosure -->
-    <string name="media_disclosure_title">Πρόσβαση στα πολυμέσα</string>
+    <string name="media_disclosure_title">Να επιτραπεί η πρόσβαση στα πολυμέσα</string>
     <string name="media_disclosure_body">Για να εντοπίσει μεγάλα αρχεία, διπλότυπα και παρόμοιες φωτογραφίες, η εφαρμογή χρειάζεται πρόσβαση στις φωτογραφίες, τα βίντεο και τους ήχους σας. Τα αρχεία αναλύονται στη συσκευή σας και δεν μεταφορτώνονται ποτέ.</string>
 
     <!-- Large files screen -->
@@ -84,7 +84,7 @@
     <!-- Screenshots screen -->
     <string name="screenshots_title">Στιγμιότυπα οθόνης</string>
     <string name="screenshots_empty_title">Κανένα στιγμιότυπο</string>
-    <string name="screenshots_empty_message">Δεν έχει καταγραφεί τίποτα σε αυτή τη συσκευή ακόμη.</string>
+    <string name="screenshots_empty_message">Δεν υπάρχουν ακόμη στιγμιότυπα οθόνης σε αυτή τη συσκευή.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">Βελτιστοποίηση φωτογραφιών</string>
@@ -139,8 +139,8 @@
     <string name="wifi_check_ssl_split_safe">Δεν εντοπίστηκε proxy.</string>
     <string name="wifi_check_checked_at">Έλεγχος: %1$s</string>
     <string name="wifi_check_rerun">Επανάληψη ελέγχων</string>
-    <string name="wifi_check_error">Δεν είναι δυνατή η επιθεώρηση της σύνδεσης.</string>
-    <string name="wifi_check_inspect_failed">Δεν ήταν δυνατή η επιθεώρηση αυτής της σύνδεσης.</string>
+    <string name="wifi_check_error">Δεν ήταν δυνατός ο έλεγχος της σύνδεσης.</string>
+    <string name="wifi_check_inspect_failed">Δεν ήταν δυνατός ο έλεγχος αυτής της σύνδεσης.</string>
 
     <!-- Network Speed -->
     <string name="network_speed_title">Ταχύτητα δικτύου</string>
@@ -149,7 +149,7 @@
     <string name="network_speed_testing">Έλεγχος ταχύτητας λήψης</string>
     <string name="network_speed_transferred">%1$s μεταφέρθηκαν</string>
     <string name="network_speed_download_label">Ταχύτητα λήψης</string>
-    <string name="network_speed_transferred_detail">Μεταφέρθηκαν %1$s σε %2$ds</string>
+    <string name="network_speed_transferred_detail">Μεταφέρθηκαν %1$s σε %2$d δευτ.</string>
     <string name="network_speed_failed">Ο έλεγχος απέτυχε</string>
     <string name="network_speed_button_start">Έναρξη ελέγχου</string>
     <string name="network_speed_button_testing">Έλεγχος…</string>
@@ -232,7 +232,7 @@
     <string name="home_partial_access_action">Να επιτραπούν όλα</string>
     <string name="home_nothing_to_clean_message">Δεν υπάρχει τίποτα προς καθαρισμό αυτή τη στιγμή</string>
     <string name="wifi_encryption_open">Ανοιχτό</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Βελτιωμένο ανοιχτό</string>
     <string name="settings_privacy_options">Επιλογές απορρήτου διαφημίσεων</string>
     <string name="home_cleanup_caption_running">Καθαρισμός…</string>
     <string name="home_cleanup_running">Εκκαθάριση προσωρινής μνήμης και κάδου…</string>

@@ -13,7 +13,7 @@
     <string name="action_allow_access">אפשר גישה</string>
     <string name="action_open_settings">פתח הגדרות</string>
     <string name="action_all">הכול</string>
-    <string name="action_clear">נקה</string>
+    <string name="action_clear">בטל בחירה</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">גודל האשפה</string>
@@ -77,14 +77,14 @@
     <string name="similar_title">תמונות דומות</string>
     <string name="similar_group_count_line">%1$d קבוצות · %2$s לשחרור</string>
     <string name="similar_empty_title">אין תמונות דומות</string>
-    <string name="similar_empty_message">שום דבר כאן לא נראה כמו כפילות.</string>
+    <string name="similar_empty_message">לא נמצאו תמונות כמעט זהות.</string>
     <string name="similar_shot_count">%1$d צילומים דומים</string>
     <string name="similar_best_label">הטוב ביותר</string>
 
     <!-- Screenshots screen -->
     <string name="screenshots_title">צילומי מסך</string>
     <string name="screenshots_empty_title">אין צילומי מסך</string>
-    <string name="screenshots_empty_message">עדיין לא צולם דבר במכשיר זה.</string>
+    <string name="screenshots_empty_message">עדיין אין צילומי מסך במכשיר זה.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">אופטימיזציית תמונות</string>
@@ -92,7 +92,7 @@
     <string name="photo_optimizer_optimizing">מבצע אופטימיזציה %1$d מתוך %2$d</string>
     <string name="photo_optimizer_saved_so_far">נחסך עד כה: %1$s</string>
     <string name="photo_optimizer_empty_title">אין תמונות לאופטימיזציה</string>
-    <string name="photo_optimizer_empty_message">אין דבר גדול מספיק שכדאי לדחוס.</string>
+    <string name="photo_optimizer_empty_message">אין קבצים גדולים מספיק כדי שכדאי לדחוס אותם.</string>
     <string name="photo_optimizer_button_optimize">בצע אופטימיזציה לנבחרים</string>
     <string name="photo_optimizer_button_optimizing">מבצע אופטימיזציה…</string>
     <string name="photo_optimizer_selected_line">%1$d נבחרו</string>
@@ -104,7 +104,7 @@
     <string name="video_optimizer_optimizing">מבצע אופטימיזציה %1$d מתוך %2$d</string>
     <string name="video_optimizer_saved_so_far">נחסך עד כה: %1$s</string>
     <string name="video_optimizer_empty_title">אין סרטונים לאופטימיזציה</string>
-    <string name="video_optimizer_empty_message">אין דבר גדול מספיק שכדאי לדחוס.</string>
+    <string name="video_optimizer_empty_message">אין קבצים גדולים מספיק כדי שכדאי לדחוס אותם.</string>
     <string name="video_optimizer_button_optimize">בצע אופטימיזציה לנבחרים</string>
     <string name="video_optimizer_button_optimizing">מבצע אופטימיזציה…</string>
     <string name="video_optimizer_selected_line">%1$d נבחרו</string>
@@ -118,7 +118,7 @@
     <string name="activity_monitor_no_access_title">נדרשת גישה לנתוני שימוש</string>
     <string name="activity_monitor_no_access_message">אפשרו גישה לנתוני שימוש בהגדרות המערכת כדי לראות הפעלות וזמן בחזית.</string>
     <string name="activity_monitor_empty_title">אין פעילות</string>
-    <string name="activity_monitor_empty_message">לא נעשה שימוש בדבר ב-24 השעות האחרונות.</string>
+    <string name="activity_monitor_empty_message">לא נעשה שימוש באפליקציות ב-24 השעות האחרונות.</string>
     <string name="activity_monitor_launches">%1$d הפעלות · %2$s</string>
     <string name="activity_monitor_foreground">בחזית: %1$s</string>
     <string name="activity_monitor_disclosure_title">גישה לנתוני שימוש</string>
@@ -235,11 +235,11 @@
     <string name="wifi_encryption_owe">פתוחה משופרת</string>
     <string name="settings_privacy_options">אפשרויות פרטיות פרסומות</string>
     <string name="home_cleanup_caption_running">מנקה…</string>
-    <string name="home_cleanup_running">מנקה מטמון ופח…</string>
-    <string name="home_cleanup_awaiting_android">הקש על ״אפשר״ בהודעת Android. ייתכן שיופיע “תמונות”.</string>
+    <string name="home_cleanup_running">מנקה מטמון ואשפה…</string>
+    <string name="home_cleanup_awaiting_android">הקישו על ״אפשר״ בהודעת Android. ייתכן שיופיע “תמונות”.</string>
     <string name="home_cleanup_done_items">%1$d פריטים הוסרו. המטמון נוקה.</string>
-    <string name="home_cleanup_done_cache">המטמון נוקה. הפח כבר היה ריק.</string>
-    <string name="delete_bar_android_note">Android יבקש ממך לאשר.</string>
+    <string name="home_cleanup_done_cache">המטמון נוקה. האשפה כבר הייתה ריקה.</string>
+    <string name="delete_bar_android_note">Android יבקש מכם לאשר.</string>
     <string name="review_card_title">נהנים מ-CleanKoach?</string>
     <string name="review_card_body">דירוג עוזר לאנשים אחרים למצוא את האפליקציה.</string>
     <string name="review_card_action">דרגו</string>

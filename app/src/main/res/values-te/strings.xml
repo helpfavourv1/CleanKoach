@@ -13,7 +13,7 @@
     <string name="action_allow_access">యాక్సెస్ ఇవ్వండి</string>
     <string name="action_open_settings">సెట్టింగ్‌లను తెరవండి</string>
     <string name="action_all">అన్నీ</string>
-    <string name="action_clear">క్లియర్ చేయండి</string>
+    <string name="action_clear">ఎంపిక తీసివేయండి</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">ట్రాష్ పరిమాణం</string>
@@ -77,14 +77,14 @@
     <string name="similar_title">ఒకేలాంటి ఫోటోలు</string>
     <string name="similar_group_count_line">%1$d గ్రూప్‌లు · %2$s ఖాళీ చేయవచ్చు</string>
     <string name="similar_empty_title">ఒకేలాంటి ఫోటోలు లేవు</string>
-    <string name="similar_empty_message">దాదాపు డూప్లికేట్‌లా కనిపించేవి ఏవీ లేవు.</string>
+    <string name="similar_empty_message">దాదాపు ఒకేలా ఉన్న ఫోటోలు ఏవీ లేవు.</string>
     <string name="similar_shot_count">%1$d ఒకేలాంటి ఫోటోలు</string>
     <string name="similar_best_label">ఉత్తమం</string>
 
     <!-- Screenshots screen -->
     <string name="screenshots_title">స్క్రీన్‌షాట్‌లు</string>
     <string name="screenshots_empty_title">స్క్రీన్‌షాట్‌లు లేవు</string>
-    <string name="screenshots_empty_message">ఈ పరికరంలో ఇంకా ఏమీ తీయలేదు.</string>
+    <string name="screenshots_empty_message">ఈ పరికరంలో ఇంకా స్క్రీన్‌షాట్‌లు లేవు.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">ఫోటో ఆప్టిమైజర్</string>
@@ -232,9 +232,9 @@
     <string name="home_partial_access_action">అన్నింటికీ అనుమతించండి</string>
     <string name="home_nothing_to_clean_message">ప్రస్తుతం శుభ్రం చేయడానికి ఏమీ లేదు</string>
     <string name="wifi_encryption_open">ఓపెన్</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">మెరుగైన ఓపెన్</string>
     <string name="settings_privacy_options">ప్రకటన గోప్యతా ఎంపికలు</string>
-    <string name="home_cleanup_caption_running">శుభ్రం…</string>
+    <string name="home_cleanup_caption_running">శుభ్రం చేస్తోంది…</string>
     <string name="home_cleanup_running">కాష్, ట్రాష్ క్లియర్ అవుతున్నాయి…</string>
     <string name="home_cleanup_awaiting_android">Android ప్రాంప్ట్‌లో అనుమతించు నొక్కండి. అది “ఫోటోలు” అని చూపవచ్చు.</string>
     <string name="home_cleanup_done_items">%1$d అంశాలు తీసివేయబడ్డాయి. కాష్ క్లియర్ అయింది.</string>
@@ -243,5 +243,5 @@
     <string name="review_card_title">CleanKoach నచ్చిందా?</string>
     <string name="review_card_body">రేటింగ్ ఇతరులు యాప్‌ను కనుగొనడానికి సహాయపడుతుంది.</string>
     <string name="review_card_action">రేట్ చేయండి</string>
-    <string name="review_card_dismiss">మూసివేయి</string>
+    <string name="review_card_dismiss">మూసివేయండి</string>
 </resources>

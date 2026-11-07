@@ -12,7 +12,7 @@
     <string name="action_allow_access">Autoriser l\'accès</string>
     <string name="action_open_settings">Ouvrir les paramètres</string>
     <string name="action_all">Tout</string>
-    <string name="action_clear">Effacer</string>
+    <string name="action_clear">Désélectionner</string>
 
     <string name="home_ring_caption">Corbeille</string>
     <string name="home_ring_sublabel">Photos et vidéos dans la corbeille plus le cache de l\'app</string>
@@ -22,7 +22,7 @@
     <string name="home_button_allow_access">Autoriser l\'accès</string>
     <string name="home_button_nothing_to_clean">Rien à nettoyer</string>
 
-    <string name="home_section_phone_tools">Outils</string>
+    <string name="home_section_phone_tools">Outils du téléphone</string>
     <string name="home_section_photos_videos">Photos et vidéos</string>
 
     <string name="tool_large_files_title">Gros fichiers</string>
@@ -183,7 +183,7 @@
     <string name="channel_storage_description">Alertes lorsque le stockage de l\'appareil est faible.</string>
     <string name="notification_cleanup_title">C\'est l\'heure de nettoyer</string>
     <string name="notification_cleanup_body">Examinez les gros fichiers, les doublons et les captures d\'écran.</string>
-    <string name="notification_storage_title">Stockage à %1$d%%</string>
+    <string name="notification_storage_title">Stockage plein à %1$d%%</string>
     <string name="notification_storage_body">Examinez les gros fichiers pour libérer de l\'espace.</string>
 
     <string name="ad_placeholder_label">Pub</string>

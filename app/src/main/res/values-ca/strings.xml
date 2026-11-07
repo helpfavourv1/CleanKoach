@@ -13,7 +13,7 @@
     <string name="action_allow_access">Permet l\'accés</string>
     <string name="action_open_settings">Obre la configuració</string>
     <string name="action_all">Tot</string>
-    <string name="action_clear">Esborra</string>
+    <string name="action_clear">Desselecciona</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">Mida de la paperera</string>
@@ -38,9 +38,9 @@
     <string name="tool_screenshots_title">Captures de pantalla</string>
     <string name="tool_screenshots_desc">Totes les captures, d\'una sola vegada.</string>
     <string name="tool_photo_optimizer_title">Optimitzador de fotos</string>
-    <string name="tool_photo_optimizer_desc">Comprimeix fotos i estalvia espai.</string>
+    <string name="tool_photo_optimizer_desc">Comprimiu fotos i estalvieu espai.</string>
     <string name="tool_video_optimizer_title">Optimitzador de vídeos</string>
-    <string name="tool_video_optimizer_desc">Comprimeix vídeos i estalvia espai.</string>
+    <string name="tool_video_optimizer_desc">Comprimiu vídeos i estalvieu espai.</string>
 
     <!-- Home — phone tool cards -->
     <string name="tool_activity_monitor_title">Monitor d\'activitat</string>
@@ -212,7 +212,7 @@
     <string name="ad_placeholder_label">Anunci</string>
 
     <!-- Share text -->
-    <string name="share_text">Allibera espai al telèfon eliminant duplicats, fotos similars i fitxers grans: %1$s</string>
+    <string name="share_text">Allibereu espai al telèfon eliminant duplicats, fotos similars i fitxers grans: %1$s</string>
 
     <string name="language_system">Predeterminat del sistema</string>
     <string name="scan_progress_files">Comprovant %1$s de %2$s fitxers</string>
@@ -224,7 +224,7 @@
     <string name="support_mail_subject">Assistència de CleanKoach (v%1$s)</string>
     <string name="support_mail_body">Versió d\'Android: %1$s\nDispositiu: %2$s\n\nDescriviu el vostre problema a continuació:\n\n</string>
     <string name="pro_unavailable">No disponible ara</string>
-    <string name="pro_pending">El pagament està pendent. Pro es desbloqueja en quant es completi.</string>
+    <string name="pro_pending">El pagament està pendent. Pro es desbloquejarà tan bon punt es completi.</string>
     <string name="pro_button_upgrade_price">Millora per %1$s</string>
     <string name="duplicates_delete_line">%1$d per suprimir · %2$s</string>
     <string name="network_speed_error">No s\'ha pogut connectar amb el servidor de prova. Comproveu la connexió i torneu-ho a provar.</string>
@@ -232,15 +232,15 @@
     <string name="home_partial_access_action">Permet-ho tot</string>
     <string name="home_nothing_to_clean_message">Res per netejar ara mateix</string>
     <string name="wifi_encryption_open">Oberta</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Oberta millorada</string>
     <string name="settings_privacy_options">Opcions de privadesa dels anuncis</string>
     <string name="home_cleanup_caption_running">Netejant…</string>
     <string name="home_cleanup_running">Esborrant la memòria cau i la paperera…</string>
     <string name="home_cleanup_awaiting_android">Toqueu Permet al missatge d’Android. Pot dir «fotos».</string>
     <string name="home_cleanup_done_items">S’han eliminat %1$d elements. Memòria cau esborrada.</string>
     <string name="home_cleanup_done_cache">Memòria cau esborrada. La paperera ja era buida.</string>
-    <string name="delete_bar_android_note">Android et demanarà que ho confirmis.</string>
-    <string name="review_card_title">T’agrada CleanKoach?</string>
+    <string name="delete_bar_android_note">Android us demanarà que ho confirmeu.</string>
+    <string name="review_card_title">Us agrada CleanKoach?</string>
     <string name="review_card_body">Una valoració ajuda altres persones a trobar l’aplicació.</string>
     <string name="review_card_action">Valora</string>
     <string name="review_card_dismiss">Tanca</string>

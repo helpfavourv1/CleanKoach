@@ -20,7 +20,7 @@
     <string name="home_button_scanning">Analisando…</string>
     <string name="home_button_allow_access">Permitir acesso</string>
     <string name="home_button_nothing_to_clean">Nada para limpar</string>
-    <string name="home_section_phone_tools">Ferramentas</string>
+    <string name="home_section_phone_tools">Ferramentas do celular</string>
     <string name="home_section_photos_videos">Fotos e vídeos</string>
     <string name="tool_large_files_title">Arquivos grandes</string>
     <string name="tool_large_files_desc">As maiores fotos, vídeos e áudios.</string>

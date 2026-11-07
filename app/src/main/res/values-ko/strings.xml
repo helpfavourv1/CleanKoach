@@ -14,7 +14,7 @@
     <string name="action_all">전체</string>
     <string name="action_clear">선택 해제</string>
 
-    <string name="home_ring_caption">휴지통</string>
+    <string name="home_ring_caption">휴지통 크기</string>
     <string name="home_ring_sublabel">휴지통의 사진 및 동영상과 앱 캐시</string>
     <string name="home_storage_line">%2$s 중 %1$s 사용 · %3$d%%</string>
     <string name="home_button_cleanup">정리하기</string>
@@ -22,7 +22,7 @@
     <string name="home_button_allow_access">접근 허용</string>
     <string name="home_button_nothing_to_clean">정리할 항목 없음</string>
 
-    <string name="home_section_phone_tools">폰 도구</string>
+    <string name="home_section_phone_tools">휴대폰 도구</string>
     <string name="home_section_photos_videos">사진 및 동영상</string>
 
     <string name="tool_large_files_title">큰 파일</string>
@@ -68,11 +68,11 @@
     <string name="similar_empty_title">비슷한 사진 없음</string>
     <string name="similar_empty_message">거의 중복인 항목이 없습니다.</string>
     <string name="similar_shot_count">%1$d장의 비슷한 사진</string>
-    <string name="similar_best_label">최고</string>
+    <string name="similar_best_label">추천</string>
 
     <string name="screenshots_title">스크린샷</string>
     <string name="screenshots_empty_title">스크린샷 없음</string>
-    <string name="screenshots_empty_message">이 기기에는 아직 캡처된 항목이 없습니다.</string>
+    <string name="screenshots_empty_message">이 기기에는 아직 스크린샷이 없습니다.</string>
 
     <string name="photo_optimizer_title">사진 최적화</string>
     <string name="photo_optimizer_count_line">%1$d장 · %2$s</string>
@@ -183,7 +183,7 @@
     <string name="channel_storage_description">기기 저장 공간이 부족할 때 알림.</string>
     <string name="notification_cleanup_title">정리할 시간입니다</string>
     <string name="notification_cleanup_body">큰 파일, 중복, 스크린샷을 검토하세요.</string>
-    <string name="notification_storage_title">저장 공간 %1$d%% 사용</string>
+    <string name="notification_storage_title">저장 공간이 %1$d%% 찼습니다</string>
     <string name="notification_storage_body">큰 파일을 검토해 공간을 확보하세요.</string>
 
     <string name="ad_placeholder_label">광고</string>
@@ -211,10 +211,10 @@
     <string name="wifi_encryption_owe">향상된 개방형</string>
     <string name="settings_privacy_options">광고 개인정보 옵션</string>
     <string name="home_cleanup_caption_running">정리 중…</string>
-    <string name="home_cleanup_running">캐시와 휴지통 비우는 중…</string>
-    <string name="home_cleanup_awaiting_android">Android 안내창에서 허용을 탭하세요. “사진”으로 표시될 수 있어요.</string>
-    <string name="home_cleanup_done_items">%1$d개 항목을 삭제했어요. 캐시를 비웠어요.</string>
-    <string name="home_cleanup_done_cache">캐시를 비웠어요. 휴지통은 이미 비어 있었어요.</string>
+    <string name="home_cleanup_running">캐시와 휴지통을 비우는 중…</string>
+    <string name="home_cleanup_awaiting_android">Android 안내창에서 허용을 탭하세요. “사진”으로 표시될 수 있습니다.</string>
+    <string name="home_cleanup_done_items">%1$d개 항목을 삭제했습니다. 캐시를 비웠습니다.</string>
+    <string name="home_cleanup_done_cache">캐시를 비웠습니다. 휴지통은 이미 비어 있었습니다.</string>
     <string name="delete_bar_android_note">Android에서 확인을 요청합니다.</string>
     <string name="review_card_title">CleanKoach가 마음에 드시나요?</string>
     <string name="review_card_body">평점은 다른 사람들이 앱을 찾는 데 도움이 됩니다.</string>

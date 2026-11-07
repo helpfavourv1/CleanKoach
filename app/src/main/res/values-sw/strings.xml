@@ -51,7 +51,7 @@
     <string name="tool_network_speed_badge">Jaribu</string>
 
     <!-- Cleanup confirm sheet -->
-    <string name="cleanup_result_freed">Imeachwa huru</string>
+    <string name="cleanup_result_freed">Nafasi imepatikana</string>
 
     <!-- Media access disclosure -->
     <string name="media_disclosure_title">Ruhusu ufikiaji wa media</string>
@@ -84,7 +84,7 @@
     <!-- Screenshots screen -->
     <string name="screenshots_title">Picha za skrini</string>
     <string name="screenshots_empty_title">Hakuna picha za skrini</string>
-    <string name="screenshots_empty_message">Hakuna kilichonaswa kwenye kifaa hiki bado.</string>
+    <string name="screenshots_empty_message">Hakuna picha za skrini kwenye kifaa hiki bado.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">Kibana picha</string>
@@ -147,9 +147,9 @@
     <string name="network_speed_ready">Pima kasi yako ya kupakua.</string>
     <string name="network_speed_preparing">Inajiandaa</string>
     <string name="network_speed_testing">Inajaribu kasi ya kupakua</string>
-    <string name="network_speed_transferred">%1$s zimehamishwa</string>
+    <string name="network_speed_transferred">%1$s imehamishwa</string>
     <string name="network_speed_download_label">Kasi ya kupakua</string>
-    <string name="network_speed_transferred_detail">%1$s zimehamishwa kwa sekunde %2$d</string>
+    <string name="network_speed_transferred_detail">%1$s imehamishwa kwa sekunde %2$d</string>
     <string name="network_speed_failed">Jaribio limeshindwa</string>
     <string name="network_speed_button_start">Anza jaribio</string>
     <string name="network_speed_button_testing">Inajaribu…</string>
@@ -232,7 +232,7 @@
     <string name="home_partial_access_action">Ruhusu zote</string>
     <string name="home_nothing_to_clean_message">Hakuna cha kusafisha kwa sasa</string>
     <string name="wifi_encryption_open">Wazi</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Wazi Iliyoboreshwa</string>
     <string name="settings_privacy_options">Chaguo za faragha ya matangazo</string>
     <string name="home_cleanup_caption_running">Inasafisha…</string>
     <string name="home_cleanup_running">Inafuta kache na tupio…</string>

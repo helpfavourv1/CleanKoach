@@ -13,7 +13,7 @@
     <string name="action_allow_access">允许访问</string>
     <string name="action_open_settings">打开设置</string>
     <string name="action_all">全部</string>
-    <string name="action_clear">清空</string>
+    <string name="action_clear">取消选择</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">回收站大小</string>
@@ -232,14 +232,14 @@
     <string name="home_partial_access_action">允许全部</string>
     <string name="home_nothing_to_clean_message">目前无需清理</string>
     <string name="wifi_encryption_open">开放</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">增强开放</string>
     <string name="settings_privacy_options">广告隐私选项</string>
     <string name="home_cleanup_caption_running">清理中…</string>
     <string name="home_cleanup_running">正在清除缓存和回收站…</string>
     <string name="home_cleanup_awaiting_android">请点按 Android 提示中的“允许”。提示可能写的是“照片”。</string>
     <string name="home_cleanup_done_items">已移除 %1$d 项。缓存已清除。</string>
-    <string name="home_cleanup_done_cache">缓存已清除。回收站本来就是空的。</string>
-    <string name="delete_bar_android_note">Android 会请你确认。</string>
+    <string name="home_cleanup_done_cache">缓存已清除。回收站已经是空的。</string>
+    <string name="delete_bar_android_note">Android 会请您确认。</string>
     <string name="review_card_title">喜欢 CleanKoach 吗？</string>
     <string name="review_card_body">您的评分能帮助更多人发现这款应用。</string>
     <string name="review_card_action">去评分</string>

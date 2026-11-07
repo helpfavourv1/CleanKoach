@@ -11,7 +11,7 @@
     <string name="action_allow_access">ઍક્સેસની મંજૂરી આપો</string>
     <string name="action_open_settings">સેટિંગ્સ ખોલો</string>
     <string name="action_all">બધા</string>
-    <string name="action_clear">સાફ કરો</string>
+    <string name="action_clear">પસંદગી રદ કરો</string>
     <string name="home_ring_caption">ટ્રેશનું કદ</string>
     <string name="home_ring_sublabel">ટ્રેશમાં રહેલા ફોટા અને વીડિયો તથા ઍપ કૅશ</string>
     <string name="home_storage_line">%2$s માંથી %1$s વપરાયું · %3$d%%</string>
@@ -185,7 +185,7 @@
     <string name="home_partial_access_action">બધાની મંજૂરી આપો</string>
     <string name="home_nothing_to_clean_message">હાલમાં સાફ કરવા માટે કંઈ નથી</string>
     <string name="wifi_encryption_open">ખુલ્લું</string>
-    <string name="wifi_encryption_owe">એન્હાન્સ્ડ ઓપન</string>
+    <string name="wifi_encryption_owe">સુધારેલું ખુલ્લું</string>
     <string name="settings_privacy_options">જાહેરાત ગોપનીયતા વિકલ્પો</string>
     <string name="home_cleanup_caption_running">સાફ થઈ રહ્યું છે…</string>
     <string name="home_cleanup_running">કૅશ અને ટ્રેશ સાફ થઈ રહ્યા છે…</string>
@@ -194,7 +194,7 @@
     <string name="home_cleanup_done_cache">કૅશ સાફ થઈ. ટ્રેશ પહેલેથી ખાલી હતું.</string>
     <string name="delete_bar_android_note">Android તમને પુષ્ટિ માટે પૂછશે.</string>
     <string name="review_card_title">શું તમને CleanKoach ગમે છે?</string>
-    <string name="review_card_body">રેટિંગ બીજાઓને એપ શોધવામાં મદદ કરે છે.</string>
+    <string name="review_card_body">રેટિંગ બીજાઓને ઍપ શોધવામાં મદદ કરે છે.</string>
     <string name="review_card_action">રેટ કરો</string>
     <string name="review_card_dismiss">બંધ કરો</string>
 </resources>

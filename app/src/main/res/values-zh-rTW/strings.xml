@@ -13,7 +13,7 @@
     <string name="action_allow_access">允許存取</string>
     <string name="action_open_settings">開啟設定</string>
     <string name="action_all">全部</string>
-    <string name="action_clear">清除</string>
+    <string name="action_clear">取消選取</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">垃圾桶大小</string>
@@ -173,7 +173,7 @@
     <string name="settings_go_pro">升級 Pro</string>
     <string name="settings_pro_active">Pro · 已啟用</string>
     <string name="settings_pro_remove_ads">移除廣告</string>
-    <string name="settings_restore_purchase">恢復購買</string>
+    <string name="settings_restore_purchase">還原購買</string>
     <string name="settings_share_app">分享此應用程式</string>
     <string name="settings_rate_app">為此應用程式評分</string>
     <string name="settings_privacy_policy">隱私權政策</string>
@@ -189,7 +189,7 @@
     <string name="pro_upsell_title">移除廣告</string>
     <string name="pro_upsell_body">Pro 可移除所有廣告。所有功能皆免費。</string>
     <string name="pro_button_upgrade">升級</string>
-    <string name="pro_button_restore">恢復購買</string>
+    <string name="pro_button_restore">還原購買</string>
 
     <!-- Settings — About -->
     <string name="about_title">關於</string>
@@ -232,14 +232,14 @@
     <string name="home_partial_access_action">全部允許</string>
     <string name="home_nothing_to_clean_message">目前無需清理</string>
     <string name="wifi_encryption_open">開放</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">增強開放</string>
     <string name="settings_privacy_options">廣告隱私權選項</string>
     <string name="home_cleanup_caption_running">清理中…</string>
     <string name="home_cleanup_running">正在清除快取和垃圾桶…</string>
     <string name="home_cleanup_awaiting_android">請輕觸 Android 提示中的「允許」。提示可能寫的是「相片」。</string>
     <string name="home_cleanup_done_items">已移除 %1$d 個項目。快取已清除。</string>
-    <string name="home_cleanup_done_cache">快取已清除。垃圾桶本來就是空的。</string>
-    <string name="delete_bar_android_note">Android 會請你確認。</string>
+    <string name="home_cleanup_done_cache">快取已清除。垃圾桶已經是空的。</string>
+    <string name="delete_bar_android_note">Android 會請您確認。</string>
     <string name="review_card_title">喜歡 CleanKoach 嗎？</string>
     <string name="review_card_body">您的評分能幫助更多人發現這款應用程式。</string>
     <string name="review_card_action">去評分</string>

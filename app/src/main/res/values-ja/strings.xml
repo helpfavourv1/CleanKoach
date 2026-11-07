@@ -22,7 +22,7 @@
     <string name="home_button_allow_access">アクセスを許可</string>
     <string name="home_button_nothing_to_clean">クリーンアップ不要</string>
 
-    <string name="home_section_phone_tools">ツール</string>
+    <string name="home_section_phone_tools">スマホのツール</string>
     <string name="home_section_photos_videos">写真と動画</string>
 
     <string name="tool_large_files_title">大きいファイル</string>
@@ -72,7 +72,7 @@
 
     <string name="screenshots_title">スクリーンショット</string>
     <string name="screenshots_empty_title">スクリーンショットなし</string>
-    <string name="screenshots_empty_message">この端末にはまだ何も保存されていません。</string>
+    <string name="screenshots_empty_message">この端末にはまだスクリーンショットがありません。</string>
 
     <string name="photo_optimizer_title">写真最適化</string>
     <string name="photo_optimizer_count_line">%1$d 枚 · %2$s</string>
@@ -210,7 +210,7 @@
     <string name="wifi_encryption_open">オープン</string>
     <string name="wifi_encryption_owe">拡張オープン</string>
     <string name="settings_privacy_options">広告のプライバシー設定</string>
-    <string name="home_cleanup_caption_running">削除中…</string>
+    <string name="home_cleanup_caption_running">クリーンアップ中…</string>
     <string name="home_cleanup_running">キャッシュとゴミ箱を削除中…</string>
     <string name="home_cleanup_awaiting_android">Androidの確認画面で「許可」をタップ。「写真」と表示される場合があります。</string>
     <string name="home_cleanup_done_items">%1$d件を削除しました。キャッシュを消去しました。</string>

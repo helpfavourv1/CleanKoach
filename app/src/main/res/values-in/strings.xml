@@ -12,7 +12,7 @@
     <string name="action_allow_access">Izinkan akses</string>
     <string name="action_open_settings">Buka pengaturan</string>
     <string name="action_all">Semua</string>
-    <string name="action_clear">Kosongkan</string>
+    <string name="action_clear">Batalkan pilihan</string>
 
     <string name="home_ring_caption">Sampah</string>
     <string name="home_ring_sublabel">Foto dan video di sampah plus cache aplikasi</string>
@@ -20,7 +20,7 @@
     <string name="home_button_cleanup">BERSIHKAN</string>
     <string name="home_button_scanning">Memindai…</string>
     <string name="home_button_allow_access">Izinkan akses</string>
-    <string name="home_button_nothing_to_clean">Tidak ada yang dibersihkan</string>
+    <string name="home_button_nothing_to_clean">Tidak ada yang perlu dibersihkan</string>
 
     <string name="home_section_phone_tools">Alat Ponsel</string>
     <string name="home_section_photos_videos">Foto &amp; Video</string>
@@ -132,7 +132,7 @@
     <string name="network_speed_testing">Menguji kecepatan unduh</string>
     <string name="network_speed_transferred">%1$s ditransfer</string>
     <string name="network_speed_download_label">Kecepatan unduh</string>
-    <string name="network_speed_transferred_detail">%1$s ditransfer dalam %2$dd</string>
+    <string name="network_speed_transferred_detail">%1$s ditransfer dalam %2$d dtk</string>
     <string name="network_speed_failed">Uji gagal</string>
     <string name="network_speed_button_start">Mulai uji</string>
     <string name="network_speed_button_testing">Menguji…</string>

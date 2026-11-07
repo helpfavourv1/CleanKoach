@@ -13,10 +13,10 @@
     <string name="action_allow_access">السماح بالوصول</string>
     <string name="action_open_settings">فتح الإعدادات</string>
     <string name="action_all">الكل</string>
-    <string name="action_clear">مسح</string>
+    <string name="action_clear">إلغاء التحديد</string>
 
     <!-- Home — ring and cleanup -->
-    <string name="home_ring_caption">حجم سلة المحذوفات</string>
+    <string name="home_ring_caption">حجم سلة المهملات</string>
     <string name="home_ring_sublabel">الصور والفيديوهات المحذوفة بالإضافة إلى ذاكرة التخزين المؤقت للتطبيقات</string>
     <string name="home_storage_line">استُخدم %1$s من %2$s · %3$d%%</string>
     <string name="home_button_cleanup">تنظيف</string>
@@ -84,7 +84,7 @@
     <!-- Screenshots screen -->
     <string name="screenshots_title">لقطات الشاشة</string>
     <string name="screenshots_empty_title">لا توجد لقطات شاشة</string>
-    <string name="screenshots_empty_message">لم يتم التقاط أي شيء على هذا الجهاز بعد.</string>
+    <string name="screenshots_empty_message">لا توجد لقطات شاشة على هذا الجهاز بعد.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">تحسين الصور</string>
@@ -229,7 +229,7 @@
     <string name="duplicates_delete_line">%1$d للحذف · %2$s</string>
     <string name="network_speed_error">تعذر الوصول إلى خادم الاختبار. تحقق من اتصالك وحاول مرة أخرى.</string>
     <string name="home_partial_access_message">الوصول إلى الصور محدود. يمكن لـ CleanKoach رؤية الصور والفيديوهات التي حددتها فقط.</string>
-    <string name="home_partial_access_action">السماح للكل</string>
+    <string name="home_partial_access_action">السماح بالكل</string>
     <string name="home_nothing_to_clean_message">لا شيء للتنظيف الآن</string>
     <string name="wifi_encryption_open">مفتوحة</string>
     <string name="wifi_encryption_owe">مفتوحة مُحسّنة</string>
@@ -238,7 +238,7 @@
     <string name="home_cleanup_running">جارٍ مسح الذاكرة المؤقتة وسلة المهملات…</string>
     <string name="home_cleanup_awaiting_android">اضغط على «السماح» في رسالة Android. قد تذكر «الصور».</string>
     <string name="home_cleanup_done_items">تمت إزالة %1$d عنصر. تم مسح الذاكرة المؤقتة.</string>
-    <string name="home_cleanup_done_cache">تم مسح الذاكرة المؤقتة. كانت سلة المهملات فارغة.</string>
+    <string name="home_cleanup_done_cache">تم مسح الذاكرة المؤقتة. كانت سلة المهملات فارغة بالفعل.</string>
     <string name="delete_bar_android_note">سيطلب Android منك التأكيد.</string>
     <string name="review_card_title">هل يعجبك CleanKoach؟</string>
     <string name="review_card_body">التقييم يساعد الآخرين على العثور على التطبيق.</string>

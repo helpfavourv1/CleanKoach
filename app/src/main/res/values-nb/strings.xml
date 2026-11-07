@@ -13,11 +13,11 @@
     <string name="action_allow_access">Gi tilgang</string>
     <string name="action_open_settings">Åpne innstillinger</string>
     <string name="action_all">Alle</string>
-    <string name="action_clear">Fjern</string>
+    <string name="action_clear">Fjern valg</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">Papirkurvens størrelse</string>
-    <string name="home_ring_sublabel">Slettede bilder og videoer pluss appbuffer</string>
+    <string name="home_ring_sublabel">Bilder og videoer i papirkurven pluss appbuffer</string>
     <string name="home_storage_line">%1$s av %2$s brukt · %3$d%%</string>
     <string name="home_button_cleanup">RYDD OPP</string>
     <string name="home_button_scanning">Skanner…</string>
@@ -84,7 +84,7 @@
     <!-- Screenshots screen -->
     <string name="screenshots_title">Skjermbilder</string>
     <string name="screenshots_empty_title">Ingen skjermbilder</string>
-    <string name="screenshots_empty_message">Ingenting er tatt på denne enheten ennå.</string>
+    <string name="screenshots_empty_message">Ingen skjermbilder på denne enheten ennå.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">Bildeoptimering</string>
@@ -232,7 +232,7 @@
     <string name="home_partial_access_action">Tillat alle</string>
     <string name="home_nothing_to_clean_message">Ingenting å rydde akkurat nå</string>
     <string name="wifi_encryption_open">Åpen</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Forbedret åpen</string>
     <string name="settings_privacy_options">Personvernvalg for annonser</string>
     <string name="home_cleanup_caption_running">Rydder…</string>
     <string name="home_cleanup_running">Tømmer buffer og papirkurv…</string>

@@ -13,7 +13,7 @@
     <string name="action_allow_access">Надати доступ</string>
     <string name="action_open_settings">Відкрити налаштування</string>
     <string name="action_all">Усі</string>
-    <string name="action_clear">Очистити</string>
+    <string name="action_clear">Зняти вибір</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">Розмір кошика</string>
@@ -77,14 +77,14 @@
     <string name="similar_title">Схожі фото</string>
     <string name="similar_group_count_line">Груп: %1$d · можна звільнити %2$s</string>
     <string name="similar_empty_title">Немає схожих фото</string>
-    <string name="similar_empty_message">Нічого, що було б схоже на майже дублікат.</string>
+    <string name="similar_empty_message">Майже однакових фото не знайдено.</string>
     <string name="similar_shot_count">Схожих кадрів: %1$d</string>
     <string name="similar_best_label">Найкраще</string>
 
     <!-- Screenshots screen -->
     <string name="screenshots_title">Знімки екрана</string>
     <string name="screenshots_empty_title">Немає знімків екрана</string>
-    <string name="screenshots_empty_message">На цьому пристрої ще нічого не знято.</string>
+    <string name="screenshots_empty_message">На цьому пристрої ще немає знімків екрана.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">Оптимізація фото</string>
@@ -92,7 +92,7 @@
     <string name="photo_optimizer_optimizing">Оптимізація: %1$d з %2$d</string>
     <string name="photo_optimizer_saved_so_far">Заощаджено досі: %1$s</string>
     <string name="photo_optimizer_empty_title">Немає фото для оптимізації</string>
-    <string name="photo_optimizer_empty_message">Немає нічого достатньо великого, щоб стискати.</string>
+    <string name="photo_optimizer_empty_message">Немає файлів, які варто стискати.</string>
     <string name="photo_optimizer_button_optimize">Оптимізувати вибране</string>
     <string name="photo_optimizer_button_optimizing">Оптимізація…</string>
     <string name="photo_optimizer_selected_line">Вибрано: %1$d</string>
@@ -104,7 +104,7 @@
     <string name="video_optimizer_optimizing">Оптимізація: %1$d з %2$d</string>
     <string name="video_optimizer_saved_so_far">Заощаджено досі: %1$s</string>
     <string name="video_optimizer_empty_title">Немає відео для оптимізації</string>
-    <string name="video_optimizer_empty_message">Немає нічого достатньо великого, щоб стискати.</string>
+    <string name="video_optimizer_empty_message">Немає файлів, які варто стискати.</string>
     <string name="video_optimizer_button_optimize">Оптимізувати вибране</string>
     <string name="video_optimizer_button_optimizing">Оптимізація…</string>
     <string name="video_optimizer_selected_line">Вибрано: %1$d</string>
@@ -214,7 +214,7 @@
     <!-- Share text -->
     <string name="share_text">Звільніть пам’ять телефона, видаливши дублікати, схожі фото та великі файли: %1$s</string>
 
-    <string name="language_system">Системна</string>
+    <string name="language_system">Як у системі</string>
     <string name="scan_progress_files">Перевірка файлів: %1$s з %2$s</string>
     <string name="settings_licenses">Ліцензії відкритого коду</string>
     <string name="licenses_title">Ліцензії відкритого коду</string>
@@ -232,7 +232,7 @@
     <string name="home_partial_access_action">Дозволити все</string>
     <string name="home_nothing_to_clean_message">Зараз нічого очищати</string>
     <string name="wifi_encryption_open">Відкрита</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Покращена відкрита</string>
     <string name="settings_privacy_options">Параметри конфіденційності реклами</string>
     <string name="home_cleanup_caption_running">Очищення…</string>
     <string name="home_cleanup_running">Очищаємо кеш і кошик…</string>

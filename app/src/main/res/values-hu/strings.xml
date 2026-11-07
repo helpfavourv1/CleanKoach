@@ -13,7 +13,7 @@
     <string name="action_allow_access">Hozzáférés engedélyezése</string>
     <string name="action_open_settings">Beállítások megnyitása</string>
     <string name="action_all">Mind</string>
-    <string name="action_clear">Törlés</string>
+    <string name="action_clear">Kijelölés törlése</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">Kuka mérete</string>
@@ -77,7 +77,7 @@
     <string name="similar_title">Hasonló fotók</string>
     <string name="similar_group_count_line">%1$d csoport · %2$s felszabadítható</string>
     <string name="similar_empty_title">Nincsenek hasonló fotók</string>
-    <string name="similar_empty_message">Semmi sem tűnik közel azonos másolatnak.</string>
+    <string name="similar_empty_message">Nem található közel azonos fotó.</string>
     <string name="similar_shot_count">%1$d hasonló felvétel</string>
     <string name="similar_best_label">Legjobb</string>
 
@@ -118,7 +118,7 @@
     <string name="activity_monitor_no_access_title">Használati hozzáférés szükséges</string>
     <string name="activity_monitor_no_access_message">Engedélyezze a használati hozzáférést a rendszerbeállításokban az indítások és az előtérben töltött idő megtekintéséhez.</string>
     <string name="activity_monitor_empty_title">Nincs aktivitás</string>
-    <string name="activity_monitor_empty_message">Az elmúlt 24 órában semmit sem használtak.</string>
+    <string name="activity_monitor_empty_message">Az elmúlt 24 órában nem történt használat.</string>
     <string name="activity_monitor_launches">%1$d indítás · %2$s</string>
     <string name="activity_monitor_foreground">Előtérben: %1$s</string>
     <string name="activity_monitor_disclosure_title">Használati hozzáférés</string>
@@ -147,9 +147,9 @@
     <string name="network_speed_ready">Mérje meg a letöltési sebességét.</string>
     <string name="network_speed_preparing">Előkészítés</string>
     <string name="network_speed_testing">Letöltési sebesség tesztelése</string>
-    <string name="network_speed_transferred">%1$s átvitele megtörtént</string>
+    <string name="network_speed_transferred">%1$s átvíve</string>
     <string name="network_speed_download_label">Letöltési sebesség</string>
-    <string name="network_speed_transferred_detail">%1$s átvitele megtörtént %2$d mp alatt</string>
+    <string name="network_speed_transferred_detail">%1$s átvíve %2$d mp alatt</string>
     <string name="network_speed_failed">A teszt sikertelen</string>
     <string name="network_speed_button_start">Teszt indítása</string>
     <string name="network_speed_button_testing">Tesztelés…</string>
@@ -184,7 +184,7 @@
 
     <!-- Settings — Pro -->
     <string name="pro_title">Pro</string>
-    <string name="pro_active_title">Ön Pro előfizető</string>
+    <string name="pro_active_title">Ön a Pro verziót használja</string>
     <string name="pro_active_body">A hirdetések el lettek távolítva. Köszönjük, hogy támogatja a CleanKoach-ot.</string>
     <string name="pro_upsell_title">Hirdetések eltávolítása</string>
     <string name="pro_upsell_body">A Pro minden hirdetést eltávolít. Minden funkció ingyenes.</string>
@@ -232,7 +232,7 @@
     <string name="home_partial_access_action">Mind engedélyezése</string>
     <string name="home_nothing_to_clean_message">Jelenleg nincs mit tisztítani</string>
     <string name="wifi_encryption_open">Nyitott</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Továbbfejlesztett nyitott</string>
     <string name="settings_privacy_options">Hirdetési adatvédelmi beállítások</string>
     <string name="home_cleanup_caption_running">Tisztítás…</string>
     <string name="home_cleanup_running">Gyorsítótár és kuka ürítése…</string>

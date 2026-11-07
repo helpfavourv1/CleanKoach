@@ -13,7 +13,7 @@
     <string name="action_allow_access">Povolit přístup</string>
     <string name="action_open_settings">Otevřít nastavení</string>
     <string name="action_all">Vše</string>
-    <string name="action_clear">Vymazat</string>
+    <string name="action_clear">Zrušit výběr</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">Velikost koše</string>
@@ -61,7 +61,7 @@
     <string name="large_files_title">Velké soubory</string>
     <string name="large_files_count_line">Položek: %1$d · %2$s</string>
     <string name="large_files_empty_title">Žádné velké soubory</string>
-    <string name="large_files_empty_message">Vaše knihovna vypadá uklizeně. Není co kontrolovat.</string>
+    <string name="large_files_empty_message">Vaše knihovna vypadá uklizeně. Žádné velké soubory ke kontrole.</string>
     <string name="large_files_selection_line">Vybráno: %1$d · %2$s</string>
 
     <!-- Duplicates screen -->
@@ -77,14 +77,14 @@
     <string name="similar_title">Podobné fotky</string>
     <string name="similar_group_count_line">Skupin: %1$d · lze uvolnit %2$s</string>
     <string name="similar_empty_title">Žádné podobné fotky</string>
-    <string name="similar_empty_message">Nic nevypadá jako téměř duplicitní snímek.</string>
+    <string name="similar_empty_message">Nenalezeny žádné téměř shodné fotky.</string>
     <string name="similar_shot_count">Podobných snímků: %1$d</string>
     <string name="similar_best_label">Nejlepší</string>
 
     <!-- Screenshots screen -->
     <string name="screenshots_title">Snímky obrazovky</string>
     <string name="screenshots_empty_title">Žádné snímky obrazovky</string>
-    <string name="screenshots_empty_message">V tomto zařízení zatím nic nebylo pořízeno.</string>
+    <string name="screenshots_empty_message">V tomto zařízení zatím nejsou žádné snímky obrazovky.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">Optimalizace fotek</string>
@@ -188,7 +188,7 @@
     <string name="pro_active_body">Reklamy jsou odstraněny. Děkujeme za podporu CleanKoach.</string>
     <string name="pro_upsell_title">Odstranit reklamy</string>
     <string name="pro_upsell_body">Pro odstraní všechny reklamy. Všechny funkce jsou zdarma.</string>
-    <string name="pro_button_upgrade">Upgradovat</string>
+    <string name="pro_button_upgrade">Přejít na Pro</string>
     <string name="pro_button_restore">Obnovit nákup</string>
 
     <!-- Settings — About -->
@@ -225,17 +225,17 @@
     <string name="support_mail_body">Verze Androidu: %1$s\nZařízení: %2$s\n\nPopište svůj problém níže:\n\n</string>
     <string name="pro_unavailable">Momentálně nedostupné</string>
     <string name="pro_pending">Vaše platba čeká na zpracování. Pro se odemkne, jakmile bude dokončena.</string>
-    <string name="pro_button_upgrade_price">Upgradovat za %1$s</string>
+    <string name="pro_button_upgrade_price">Přejít na Pro za %1$s</string>
     <string name="duplicates_delete_line">Ke smazání: %1$d · %2$s</string>
     <string name="network_speed_error">Testovací server se nepodařilo kontaktovat. Zkontrolujte připojení a zkuste to znovu.</string>
     <string name="home_partial_access_message">Omezený přístup k fotkám. CleanKoach vidí jen fotky a videa, které jste vybrali.</string>
     <string name="home_partial_access_action">Povolit vše</string>
     <string name="home_nothing_to_clean_message">Teď není co čistit</string>
     <string name="wifi_encryption_open">Otevřená</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Vylepšená otevřená</string>
     <string name="settings_privacy_options">Možnosti ochrany soukromí u reklam</string>
-    <string name="home_cleanup_caption_running">Čistím…</string>
-    <string name="home_cleanup_running">Mažu mezipaměť a koš…</string>
+    <string name="home_cleanup_caption_running">Čištění…</string>
+    <string name="home_cleanup_running">Mazání mezipaměti a koše…</string>
     <string name="home_cleanup_awaiting_android">Klepněte na Povolit v dotazu Androidu. Může zmínit „fotky“.</string>
     <string name="home_cleanup_done_items">Odstraněno položek: %1$d. Mezipaměť vymazána.</string>
     <string name="home_cleanup_done_cache">Mezipaměť vymazána. Koš byl už prázdný.</string>

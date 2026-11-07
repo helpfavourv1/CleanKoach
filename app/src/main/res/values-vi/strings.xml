@@ -13,7 +13,7 @@
     <string name="action_allow_access">Cho phép truy cập</string>
     <string name="action_open_settings">Mở cài đặt</string>
     <string name="action_all">Tất cả</string>
-    <string name="action_clear">Xóa sạch</string>
+    <string name="action_clear">Bỏ chọn</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">Dung lượng thùng rác</string>
@@ -84,7 +84,7 @@
     <!-- Screenshots screen -->
     <string name="screenshots_title">Ảnh chụp màn hình</string>
     <string name="screenshots_empty_title">Không có ảnh chụp màn hình</string>
-    <string name="screenshots_empty_message">Chưa có gì được chụp trên thiết bị này.</string>
+    <string name="screenshots_empty_message">Thiết bị này chưa có ảnh chụp màn hình nào.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">Tối ưu ảnh</string>
@@ -172,7 +172,7 @@
     <string name="settings_notifications_storage">Cảnh báo dung lượng</string>
     <string name="settings_go_pro">Nâng cấp Pro</string>
     <string name="settings_pro_active">Pro · đang hoạt động</string>
-    <string name="settings_pro_remove_ads">Xóa quảng cáo</string>
+    <string name="settings_pro_remove_ads">Gỡ quảng cáo</string>
     <string name="settings_restore_purchase">Khôi phục giao dịch mua</string>
     <string name="settings_share_app">Chia sẻ ứng dụng</string>
     <string name="settings_rate_app">Đánh giá ứng dụng</string>
@@ -185,9 +185,9 @@
     <!-- Settings — Pro -->
     <string name="pro_title">Pro</string>
     <string name="pro_active_title">Bạn đang dùng Pro</string>
-    <string name="pro_active_body">Quảng cáo đã được xóa. Cảm ơn bạn đã ủng hộ CleanKoach.</string>
-    <string name="pro_upsell_title">Xóa quảng cáo</string>
-    <string name="pro_upsell_body">Pro xóa toàn bộ quảng cáo. Mọi tính năng đều miễn phí.</string>
+    <string name="pro_active_body">Quảng cáo đã được gỡ bỏ. Cảm ơn bạn đã ủng hộ CleanKoach.</string>
+    <string name="pro_upsell_title">Gỡ quảng cáo</string>
+    <string name="pro_upsell_body">Pro gỡ bỏ toàn bộ quảng cáo. Mọi tính năng đều miễn phí.</string>
     <string name="pro_button_upgrade">Nâng cấp</string>
     <string name="pro_button_restore">Khôi phục giao dịch mua</string>
 
@@ -209,7 +209,7 @@
     <string name="notification_storage_body">Xem lại các tệp lớn để giải phóng dung lượng.</string>
 
     <!-- Ad -->
-    <string name="ad_placeholder_label">QC</string>
+    <string name="ad_placeholder_label">Quảng cáo</string>
 
     <!-- Share text -->
     <string name="share_text">Giải phóng dung lượng điện thoại bằng cách xóa tệp trùng lặp, ảnh tương tự và tệp lớn: %1$s</string>
@@ -232,7 +232,7 @@
     <string name="home_partial_access_action">Cho phép tất cả</string>
     <string name="home_nothing_to_clean_message">Hiện không có gì để dọn</string>
     <string name="wifi_encryption_open">Mở</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Mở nâng cao</string>
     <string name="settings_privacy_options">Tùy chọn quyền riêng tư quảng cáo</string>
     <string name="home_cleanup_caption_running">Đang dọn…</string>
     <string name="home_cleanup_running">Đang xóa bộ nhớ đệm và thùng rác…</string>

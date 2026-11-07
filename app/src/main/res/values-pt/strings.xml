@@ -22,7 +22,7 @@
     <string name="home_button_allow_access">Permitir acesso</string>
     <string name="home_button_nothing_to_clean">Nada a limpar</string>
 
-    <string name="home_section_phone_tools">Ferramentas</string>
+    <string name="home_section_phone_tools">Ferramentas do telemóvel</string>
     <string name="home_section_photos_videos">Fotos e vídeos</string>
 
     <string name="tool_large_files_title">Ficheiros grandes</string>
@@ -46,7 +46,7 @@
     <string name="tool_network_speed_badge">Testar</string>
     <string name="cleanup_result_freed">Libertados</string>
 
-    <string name="media_disclosure_title">Permitir acesso aos media</string>
+    <string name="media_disclosure_title">Permitir acesso a multimédia</string>
     <string name="media_disclosure_body">Para encontrar ficheiros grandes, duplicados e fotos semelhantes, esta app precisa de acesso às tuas fotos, vídeos e áudios. Os ficheiros são analisados no teu dispositivo e nunca são enviados.</string>
 
     <string name="large_files_title">Ficheiros grandes</string>
@@ -67,7 +67,7 @@
     <string name="similar_group_count_line">%1$d grupos · %2$s a libertar</string>
     <string name="similar_empty_title">Sem fotos semelhantes</string>
     <string name="similar_empty_message">Aqui nada parece quase duplicado.</string>
-    <string name="similar_shot_count">%1$d tiros semelhantes</string>
+    <string name="similar_shot_count">%1$d fotografias semelhantes</string>
     <string name="similar_best_label">Melhor</string>
 
     <string name="screenshots_title">Capturas de ecrã</string>
@@ -79,7 +79,7 @@
     <string name="photo_optimizer_optimizing">A otimizar %1$d de %2$d</string>
     <string name="photo_optimizer_saved_so_far">Poupado até agora: %1$s</string>
     <string name="photo_optimizer_empty_title">Sem fotos para otimizar</string>
-    <string name="photo_optimizer_empty_message">Nada grande o suficiente para comprimir.</string>
+    <string name="photo_optimizer_empty_message">Nada suficientemente grande para valer a pena comprimir.</string>
     <string name="photo_optimizer_button_optimize">Otimizar selecionadas</string>
     <string name="photo_optimizer_button_optimizing">A otimizar…</string>
     <string name="photo_optimizer_selected_line">%1$d selecionadas</string>
@@ -90,7 +90,7 @@
     <string name="video_optimizer_optimizing">A otimizar %1$d de %2$d</string>
     <string name="video_optimizer_saved_so_far">Poupado até agora: %1$s</string>
     <string name="video_optimizer_empty_title">Sem vídeos para otimizar</string>
-    <string name="video_optimizer_empty_message">Nada grande o suficiente para comprimir.</string>
+    <string name="video_optimizer_empty_message">Nada suficientemente grande para valer a pena comprimir.</string>
     <string name="video_optimizer_button_optimize">Otimizar selecionados</string>
     <string name="video_optimizer_button_optimizing">A otimizar…</string>
     <string name="video_optimizer_selected_line">%1$d selecionados</string>
@@ -138,7 +138,7 @@
     <string name="network_speed_button_testing">A testar…</string>
     <string name="network_speed_button_again">Testar de novo</string>
     <string name="network_speed_button_retry">Tentar de novo</string>
-    <string name="network_speed_footnote">Apenas download. Subida e ping não são medidos.</string>
+    <string name="network_speed_footnote">Apenas download. O upload e o ping não são medidos.</string>
 
     <string name="settings_title">Definições</string>
     <string name="settings_theme">Tema</string>
@@ -168,12 +168,12 @@
     <string name="pro_active_title">Estás no Pro</string>
     <string name="pro_active_body">Os anúncios foram removidos. Obrigado por apoiares o CleanKoach.</string>
     <string name="pro_upsell_title">Remover anúncios</string>
-    <string name="pro_upsell_body">O Pro remove todos os anúncios. Todos os recursos são gratuitos.</string>
+    <string name="pro_upsell_body">O Pro remove todos os anúncios. Todas as funcionalidades são gratuitas.</string>
     <string name="pro_button_upgrade">Fazer upgrade</string>
     <string name="pro_button_restore">Restaurar compra</string>
 
     <string name="about_title">Acerca de</string>
-    <string name="about_body">Limpeza de armazenamento nativa para Android. Tudo corre no dispositivo. Nem os media, nem os dados de utilização, nem os resultados de análise são enviados.</string>
+    <string name="about_body">Limpeza de armazenamento nativa para Android. Tudo corre no dispositivo. Nenhum ficheiro multimédia, dados de utilização ou resultados de análise são alguma vez enviados.</string>
     <string name="about_built_with">Feita com Kotlin, Jetpack Compose e Material 3.</string>
 
 
@@ -183,7 +183,7 @@
     <string name="channel_storage_description">Alertas quando o armazenamento do dispositivo está baixo.</string>
     <string name="notification_cleanup_title">Hora de limpar</string>
     <string name="notification_cleanup_body">Revê ficheiros grandes, duplicados e capturas.</string>
-    <string name="notification_storage_title">Armazenamento a %1$d%%</string>
+    <string name="notification_storage_title">Armazenamento cheio a %1$d%%</string>
     <string name="notification_storage_body">Revê ficheiros grandes para libertar espaço.</string>
 
     <string name="ad_placeholder_label">Anúncio</string>

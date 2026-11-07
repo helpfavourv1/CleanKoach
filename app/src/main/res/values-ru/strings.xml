@@ -14,7 +14,7 @@
     <string name="action_all">Все</string>
     <string name="action_clear">Снять выбор</string>
 
-    <string name="home_ring_caption">Корзина</string>
+    <string name="home_ring_caption">Размер корзины</string>
     <string name="home_ring_sublabel">Фото и видео в корзине плюс кэш приложения</string>
     <string name="home_storage_line">%1$s из %2$s использовано · %3$d%%</string>
     <string name="home_button_cleanup">ОЧИСТИТЬ</string>
@@ -22,7 +22,7 @@
     <string name="home_button_allow_access">Разрешить доступ</string>
     <string name="home_button_nothing_to_clean">Нечего очищать</string>
 
-    <string name="home_section_phone_tools">Инструменты</string>
+    <string name="home_section_phone_tools">Инструменты телефона</string>
     <string name="home_section_photos_videos">Фото и видео</string>
 
     <string name="tool_large_files_title">Большие файлы</string>
@@ -40,7 +40,7 @@
 
     <string name="tool_activity_monitor_title">Монитор активности</string>
     <string name="tool_activity_monitor_badge">24 ч</string>
-    <string name="tool_wifi_security_title">Wi-Fi безопасность</string>
+    <string name="tool_wifi_security_title">Безопасность Wi-Fi</string>
     <string name="tool_wifi_security_badge">Проверить</string>
     <string name="tool_network_speed_title">Скорость сети</string>
     <string name="tool_network_speed_badge">Тест</string>
@@ -66,20 +66,20 @@
     <string name="similar_title">Похожие фото</string>
     <string name="similar_group_count_line">%1$d групп · %2$s можно освободить</string>
     <string name="similar_empty_title">Похожих фото нет</string>
-    <string name="similar_empty_message">Ничего не выглядит почти дубликатом.</string>
+    <string name="similar_empty_message">Почти одинаковых фото не найдено.</string>
     <string name="similar_shot_count">%1$d похожих кадров</string>
     <string name="similar_best_label">Лучший</string>
 
     <string name="screenshots_title">Скриншоты</string>
     <string name="screenshots_empty_title">Скриншотов нет</string>
-    <string name="screenshots_empty_message">На этом устройстве пока ничего не снято.</string>
+    <string name="screenshots_empty_message">На этом устройстве пока нет скриншотов.</string>
 
     <string name="photo_optimizer_title">Оптимизация фото</string>
     <string name="photo_optimizer_count_line">%1$d фото · %2$s</string>
     <string name="photo_optimizer_optimizing">Оптимизация %1$d из %2$d</string>
     <string name="photo_optimizer_saved_so_far">Сэкономлено: %1$s</string>
     <string name="photo_optimizer_empty_title">Нет фото для оптимизации</string>
-    <string name="photo_optimizer_empty_message">Ничего достаточно крупного для сжатия.</string>
+    <string name="photo_optimizer_empty_message">Нет файлов, которые стоит сжимать.</string>
     <string name="photo_optimizer_button_optimize">Оптимизировать выбранное</string>
     <string name="photo_optimizer_button_optimizing">Оптимизация…</string>
     <string name="photo_optimizer_selected_line">Выбрано %1$d</string>
@@ -90,7 +90,7 @@
     <string name="video_optimizer_optimizing">Оптимизация %1$d из %2$d</string>
     <string name="video_optimizer_saved_so_far">Сэкономлено: %1$s</string>
     <string name="video_optimizer_empty_title">Нет видео для оптимизации</string>
-    <string name="video_optimizer_empty_message">Ничего достаточно крупного для сжатия.</string>
+    <string name="video_optimizer_empty_message">Нет файлов, которые стоит сжимать.</string>
     <string name="video_optimizer_button_optimize">Оптимизировать выбранное</string>
     <string name="video_optimizer_button_optimizing">Оптимизация…</string>
     <string name="video_optimizer_selected_line">Выбрано %1$d</string>
@@ -109,7 +109,7 @@
     <string name="activity_monitor_disclosure_title">Доступ к использованию</string>
     <string name="activity_monitor_disclosure_body">Монитору активности нужен доступ к использованию. Приложение читает, какие приложения вы открывали, когда и как долго за последние 24 часа. Эти данные остаются на устройстве и не загружаются и не передаются.</string>
 
-    <string name="wifi_security_title">Wi-Fi безопасность</string>
+    <string name="wifi_security_title">Безопасность Wi-Fi</string>
     <string name="wifi_check_internet_title">Доступ в интернет</string>
     <string name="wifi_check_internet_connected">Подключено.</string>
     <string name="wifi_check_internet_disconnected">Нет активного подключения.</string>
@@ -138,7 +138,7 @@
     <string name="network_speed_button_testing">Проверка…</string>
     <string name="network_speed_button_again">Проверить снова</string>
     <string name="network_speed_button_retry">Повторить</string>
-    <string name="network_speed_footnote">Только загрузка. Отдача и пинг не измеряются.</string>
+    <string name="network_speed_footnote">Только загрузка. Выгрузка и пинг не измеряются.</string>
 
     <string name="settings_title">Настройки</string>
     <string name="settings_theme">Тема</string>
@@ -211,10 +211,10 @@
     <string name="wifi_encryption_owe">Улучшенная открытая</string>
     <string name="settings_privacy_options">Настройки конфиденциальности рекламы</string>
     <string name="home_cleanup_caption_running">Очистка…</string>
-    <string name="home_cleanup_running">Очищаем кеш и корзину…</string>
+    <string name="home_cleanup_running">Очищаем кэш и корзину…</string>
     <string name="home_cleanup_awaiting_android">Нажмите «Разрешить» в запросе Android. Там может быть «фото».</string>
-    <string name="home_cleanup_done_items">Удалено объектов: %1$d. Кеш очищен.</string>
-    <string name="home_cleanup_done_cache">Кеш очищен. Корзина уже была пуста.</string>
+    <string name="home_cleanup_done_items">Удалено объектов: %1$d. Кэш очищен.</string>
+    <string name="home_cleanup_done_cache">Кэш очищен. Корзина уже была пуста.</string>
     <string name="delete_bar_android_note">Android попросит подтвердить действие.</string>
     <string name="review_card_title">Нравится CleanKoach?</string>
     <string name="review_card_body">Оценка помогает другим людям найти приложение.</string>

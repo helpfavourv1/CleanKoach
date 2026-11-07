@@ -13,7 +13,7 @@
     <string name="action_allow_access">Toegang toestaan</string>
     <string name="action_open_settings">Instellingen openen</string>
     <string name="action_all">Alles</string>
-    <string name="action_clear">Wissen</string>
+    <string name="action_clear">Deselecteren</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">Grootte prullenbak</string>
@@ -61,7 +61,7 @@
     <string name="large_files_title">Grote bestanden</string>
     <string name="large_files_count_line">%1$d items · %2$s</string>
     <string name="large_files_empty_title">Geen grote bestanden</string>
-    <string name="large_files_empty_message">Je bibliotheek ziet er netjes uit. Niets groots om te bekijken.</string>
+    <string name="large_files_empty_message">Je bibliotheek ziet er netjes uit. Geen grote bestanden om te bekijken.</string>
     <string name="large_files_selection_line">%1$d geselecteerd · %2$s</string>
 
     <!-- Duplicates screen -->
@@ -77,14 +77,14 @@
     <string name="similar_title">Vergelijkbare foto\'s</string>
     <string name="similar_group_count_line">%1$d groepen · %2$s vrij te maken</string>
     <string name="similar_empty_title">Geen vergelijkbare foto\'s</string>
-    <string name="similar_empty_message">Niets lijkt op een bijna-duplicaat.</string>
+    <string name="similar_empty_message">Geen bijna-identieke foto\'s gevonden.</string>
     <string name="similar_shot_count">%1$d vergelijkbare opnamen</string>
     <string name="similar_best_label">Beste</string>
 
     <!-- Screenshots screen -->
     <string name="screenshots_title">Screenshots</string>
     <string name="screenshots_empty_title">Geen screenshots</string>
-    <string name="screenshots_empty_message">Er is nog niets vastgelegd op dit apparaat.</string>
+    <string name="screenshots_empty_message">Er staan nog geen screenshots op dit apparaat.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">Foto-optimalisatie</string>
@@ -170,7 +170,7 @@
     <string name="settings_notifications_allow">Meldingen toestaan</string>
     <string name="settings_notifications_weekly">Wekelijkse opschoonherinnering</string>
     <string name="settings_notifications_storage">Opslagmeldingen</string>
-    <string name="settings_go_pro">Naar Pro</string>
+    <string name="settings_go_pro">Upgraden naar Pro</string>
     <string name="settings_pro_active">Pro · actief</string>
     <string name="settings_pro_remove_ads">Advertenties verwijderen</string>
     <string name="settings_restore_purchase">Aankoop herstellen</string>
@@ -232,13 +232,13 @@
     <string name="home_partial_access_action">Alles toestaan</string>
     <string name="home_nothing_to_clean_message">Op dit moment niets op te schonen</string>
     <string name="wifi_encryption_open">Open</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Verbeterd open</string>
     <string name="settings_privacy_options">Privacyopties voor advertenties</string>
-    <string name="home_cleanup_caption_running">Opruimen…</string>
+    <string name="home_cleanup_caption_running">Opschonen…</string>
     <string name="home_cleanup_running">Cache en prullenbak wissen…</string>
     <string name="home_cleanup_awaiting_android">Tik op Toestaan in de Android-melding. Er kan “foto’s” staan.</string>
     <string name="home_cleanup_done_items">%1$d items verwijderd. Cache gewist.</string>
-    <string name="home_cleanup_done_cache">Cache gewist. Prullenbak was al leeg.</string>
+    <string name="home_cleanup_done_cache">Cache gewist. De prullenbak was al leeg.</string>
     <string name="delete_bar_android_note">Android vraagt je om te bevestigen.</string>
     <string name="review_card_title">Bevalt CleanKoach?</string>
     <string name="review_card_body">Een beoordeling helpt anderen de app te vinden.</string>

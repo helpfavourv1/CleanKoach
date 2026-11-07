@@ -13,7 +13,7 @@
     <string name="action_allow_access">Разреши достъп</string>
     <string name="action_open_settings">Отвори настройките</string>
     <string name="action_all">Всички</string>
-    <string name="action_clear">Изчисти</string>
+    <string name="action_clear">Отмяна на избора</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">Размер на кошчето</string>
@@ -84,7 +84,7 @@
     <!-- Screenshots screen -->
     <string name="screenshots_title">Екранни снимки</string>
     <string name="screenshots_empty_title">Няма екранни снимки</string>
-    <string name="screenshots_empty_message">Все още няма нищо заснето на това устройство.</string>
+    <string name="screenshots_empty_message">Все още няма екранни снимки на това устройство.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">Оптимизиране на снимки</string>
@@ -147,9 +147,9 @@
     <string name="network_speed_ready">Измерете скоростта на изтегляне.</string>
     <string name="network_speed_preparing">Подготовка</string>
     <string name="network_speed_testing">Тест на скоростта на изтегляне</string>
-    <string name="network_speed_transferred">%1$s прехвърлени</string>
+    <string name="network_speed_transferred">%1$s прехвърлено</string>
     <string name="network_speed_download_label">Скорост на изтегляне</string>
-    <string name="network_speed_transferred_detail">Прехвърлени %1$s за %2$dс</string>
+    <string name="network_speed_transferred_detail">Прехвърлено %1$s за %2$d с</string>
     <string name="network_speed_failed">Тестът е неуспешен</string>
     <string name="network_speed_button_start">Старт на теста</string>
     <string name="network_speed_button_testing">Тестване…</string>
@@ -232,7 +232,7 @@
     <string name="home_partial_access_action">Разреши всички</string>
     <string name="home_nothing_to_clean_message">В момента няма какво да се почисти</string>
     <string name="wifi_encryption_open">Отворена</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Подобрена отворена</string>
     <string name="settings_privacy_options">Опции за поверителност на рекламите</string>
     <string name="home_cleanup_caption_running">Почистване…</string>
     <string name="home_cleanup_running">Изчистване на кеша и кошчето…</string>

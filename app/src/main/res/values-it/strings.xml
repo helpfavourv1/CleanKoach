@@ -22,7 +22,7 @@
     <string name="home_button_allow_access">Consenti accesso</string>
     <string name="home_button_nothing_to_clean">Niente da pulire</string>
 
-    <string name="home_section_phone_tools">Strumenti</string>
+    <string name="home_section_phone_tools">Strumenti del telefono</string>
     <string name="home_section_photos_videos">Foto e video</string>
 
     <string name="tool_large_files_title">File grandi</string>
@@ -183,7 +183,7 @@
     <string name="channel_storage_description">Avvisi quando l\'archiviazione del dispositivo è in esaurimento.</string>
     <string name="notification_cleanup_title">È ora di pulire</string>
     <string name="notification_cleanup_body">Rivedi file grandi, duplicati e screenshot.</string>
-    <string name="notification_storage_title">Archiviazione al %1$d%%</string>
+    <string name="notification_storage_title">Archiviazione piena al %1$d%%</string>
     <string name="notification_storage_body">Rivedi file grandi per liberare spazio.</string>
 
     <string name="ad_placeholder_label">Pubblicità</string>

@@ -13,11 +13,11 @@
     <string name="action_allow_access">اجازه دسترسی</string>
     <string name="action_open_settings">باز کردن تنظیمات</string>
     <string name="action_all">همه</string>
-    <string name="action_clear">پاک کردن</string>
+    <string name="action_clear">لغو انتخاب</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">حجم سطل زباله</string>
-    <string name="home_ring_sublabel">عکس‌ها و ویدیوهای حذف‌شده به‌علاوه حافظه پنهان برنامه‌ها</string>
+    <string name="home_ring_sublabel">عکس‌ها و ویدیوهای حذف‌شده به‌علاوه حافظه نهان برنامه‌ها</string>
     <string name="home_storage_line">%1$s از %2$s استفاده شده · %3$d%%</string>
     <string name="home_button_cleanup">پاکسازی</string>
     <string name="home_button_scanning">در حال اسکن…</string>
@@ -77,14 +77,14 @@
     <string name="similar_title">عکس‌های مشابه</string>
     <string name="similar_group_count_line">%1$d گروه · %2$s قابل آزادسازی</string>
     <string name="similar_empty_title">عکس مشابهی نیست</string>
-    <string name="similar_empty_message">اینجا چیزی شبیه تکراری نیست.</string>
+    <string name="similar_empty_message">تصویر تقریباً تکراری پیدا نشد.</string>
     <string name="similar_shot_count">%1$d عکس مشابه</string>
     <string name="similar_best_label">بهترین</string>
 
     <!-- Screenshots screen -->
     <string name="screenshots_title">اسکرین‌شات‌ها</string>
     <string name="screenshots_empty_title">اسکرین‌شاتی نیست</string>
-    <string name="screenshots_empty_message">هنوز چیزی در این دستگاه ثبت نشده است.</string>
+    <string name="screenshots_empty_message">هنوز اسکرین‌شاتی در این دستگاه نیست.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">بهینه‌ساز عکس</string>
@@ -229,12 +229,12 @@
     <string name="duplicates_delete_line">%1$d برای حذف · %2$s</string>
     <string name="network_speed_error">اتصال به سرور آزمون ممکن نشد. اتصال خود را بررسی کنید و دوباره تلاش کنید.</string>
     <string name="home_partial_access_message">دسترسی به عکس‌ها محدود است. CleanKoach فقط عکس‌ها و ویدیوهای انتخاب‌شده را می‌بیند.</string>
-    <string name="home_partial_access_action">اجازه به همه</string>
+    <string name="home_partial_access_action">اجازه برای همه</string>
     <string name="home_nothing_to_clean_message">اکنون چیزی برای پاکسازی نیست</string>
     <string name="wifi_encryption_open">باز</string>
     <string name="wifi_encryption_owe">باز تقویت‌شده</string>
     <string name="settings_privacy_options">گزینه‌های حریم خصوصی تبلیغات</string>
-    <string name="home_cleanup_caption_running">در حال پاک‌سازی…</string>
+    <string name="home_cleanup_caption_running">در حال پاکسازی…</string>
     <string name="home_cleanup_running">در حال پاک کردن حافظه نهان و سطل زباله…</string>
     <string name="home_cleanup_awaiting_android">در پیام Android روی «اجازه دادن» بزنید. ممکن است «عکس‌ها» بنویسد.</string>
     <string name="home_cleanup_done_items">%1$d مورد حذف شد. حافظه نهان پاک شد.</string>

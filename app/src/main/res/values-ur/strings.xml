@@ -13,7 +13,7 @@
     <string name="action_allow_access">رسائی کی اجازت دیں</string>
     <string name="action_open_settings">ترتیبات کھولیں</string>
     <string name="action_all">سب</string>
-    <string name="action_clear">صاف کریں</string>
+    <string name="action_clear">انتخاب ہٹائیں</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">ٹریش کا سائز</string>
@@ -77,14 +77,14 @@
     <string name="similar_title">ملتی جلتی تصاویر</string>
     <string name="similar_group_count_line">%1$d گروپس · %2$s خالی کرنے کے قابل</string>
     <string name="similar_empty_title">کوئی ملتی جلتی تصویر نہیں</string>
-    <string name="similar_empty_message">یہاں کوئی چیز ڈپلیکیٹ جیسی نہیں لگتی۔</string>
+    <string name="similar_empty_message">کوئی تقریباً ایک جیسی تصویر نہیں ملی۔</string>
     <string name="similar_shot_count">%1$d ملتی جلتی تصاویر</string>
     <string name="similar_best_label">بہترین</string>
 
     <!-- Screenshots screen -->
     <string name="screenshots_title">اسکرین شاٹس</string>
     <string name="screenshots_empty_title">کوئی اسکرین شاٹ نہیں</string>
-    <string name="screenshots_empty_message">اس آلے پر ابھی تک کچھ کیپچر نہیں ہوا۔</string>
+    <string name="screenshots_empty_message">اس آلے پر ابھی کوئی اسکرین شاٹ نہیں ہے۔</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">فوٹو آپٹیمائزر</string>
@@ -179,7 +179,7 @@
     <string name="settings_privacy_policy">رازداری کی پالیسی</string>
     <string name="settings_terms">سروس کی شرائط</string>
     <string name="settings_support">معاونت</string>
-    <string name="settings_about">متعلق</string>
+    <string name="settings_about">ایپ کے بارے میں</string>
     <string name="settings_about_version">ورژن %1$s</string>
 
     <!-- Settings — Pro -->
@@ -192,7 +192,7 @@
     <string name="pro_button_restore">خریداری بحال کریں</string>
 
     <!-- Settings — About -->
-    <string name="about_title">متعلق</string>
+    <string name="about_title">ایپ کے بارے میں</string>
     <string name="about_body">نیٹو Android اسٹوریج کی صفائی۔ سب کچھ آلے پر چلتا ہے۔ کوئی میڈیا، استعمال کا ڈیٹا یا اسکین کے نتائج کبھی اپ لوڈ نہیں کیے جاتے۔</string>
     <string name="about_built_with">Kotlin، Jetpack Compose اور Material 3 کے ساتھ بنایا گیا۔</string>
 
@@ -232,9 +232,9 @@
     <string name="home_partial_access_action">سب کی اجازت دیں</string>
     <string name="home_nothing_to_clean_message">ابھی صاف کرنے کو کچھ نہیں</string>
     <string name="wifi_encryption_open">کھلا</string>
-    <string name="wifi_encryption_owe">اینہانسڈ اوپن</string>
+    <string name="wifi_encryption_owe">بہتر شدہ کھلا</string>
     <string name="settings_privacy_options">اشتہاری رازداری کے اختیارات</string>
-    <string name="home_cleanup_caption_running">صفائی…</string>
+    <string name="home_cleanup_caption_running">صفائی جاری ہے…</string>
     <string name="home_cleanup_running">کیش اور ٹریش صاف ہو رہے ہیں…</string>
     <string name="home_cleanup_awaiting_android">Android کے پرامپٹ پر اجازت دیں پر ٹیپ کریں۔ اس میں “تصاویر” لکھا ہو سکتا ہے۔</string>
     <string name="home_cleanup_done_items">%1$d آئٹمز ہٹا دیے گئے۔ کیش صاف ہو گیا۔</string>

@@ -13,7 +13,7 @@
     <string name="action_allow_access">Zezwól na dostęp</string>
     <string name="action_open_settings">Otwórz ustawienia</string>
     <string name="action_all">Wszystkie</string>
-    <string name="action_clear">Wyczyść</string>
+    <string name="action_clear">Odznacz</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">Rozmiar kosza</string>
@@ -77,7 +77,7 @@
     <string name="similar_title">Podobne zdjęcia</string>
     <string name="similar_group_count_line">Grupy: %1$d · do zwolnienia %2$s</string>
     <string name="similar_empty_title">Brak podobnych zdjęć</string>
-    <string name="similar_empty_message">Nic nie przypomina prawie identycznego zdjęcia.</string>
+    <string name="similar_empty_message">Nie znaleziono prawie identycznych zdjęć.</string>
     <string name="similar_shot_count">Podobne ujęcia: %1$d</string>
     <string name="similar_best_label">Najlepsze</string>
 
@@ -188,7 +188,7 @@
     <string name="pro_active_body">Reklamy zostały usunięte. Dziękujemy za wsparcie CleanKoach.</string>
     <string name="pro_upsell_title">Usuń reklamy</string>
     <string name="pro_upsell_body">Pro usuwa wszystkie reklamy. Wszystkie funkcje są bezpłatne.</string>
-    <string name="pro_button_upgrade">Ulepsz</string>
+    <string name="pro_button_upgrade">Przejdź na Pro</string>
     <string name="pro_button_restore">Przywróć zakup</string>
 
     <!-- Settings — About -->
@@ -225,18 +225,18 @@
     <string name="support_mail_body">Wersja Androida: %1$s\nUrządzenie: %2$s\n\nOpisz problem poniżej:\n\n</string>
     <string name="pro_unavailable">Obecnie niedostępne</string>
     <string name="pro_pending">Płatność jest w toku. Pro odblokuje się zaraz po jej zakończeniu.</string>
-    <string name="pro_button_upgrade_price">Ulepsz za %1$s</string>
+    <string name="pro_button_upgrade_price">Przejdź na Pro za %1$s</string>
     <string name="duplicates_delete_line">Do usunięcia: %1$d · %2$s</string>
     <string name="network_speed_error">Nie udało się połączyć z serwerem testowym. Sprawdź połączenie i spróbuj ponownie.</string>
     <string name="home_partial_access_message">Ograniczony dostęp do zdjęć. CleanKoach widzi tylko wybrane zdjęcia i filmy.</string>
     <string name="home_partial_access_action">Zezwól na wszystko</string>
     <string name="home_nothing_to_clean_message">Teraz nie ma nic do wyczyszczenia</string>
     <string name="wifi_encryption_open">Otwarta</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Rozszerzona otwarta</string>
     <string name="settings_privacy_options">Opcje prywatności reklam</string>
     <string name="home_cleanup_caption_running">Czyszczenie…</string>
     <string name="home_cleanup_running">Czyszczenie pamięci podręcznej i kosza…</string>
-    <string name="home_cleanup_awaiting_android">Kliknij Zezwól w oknie Androida. Może być „zdjęcia”.</string>
+    <string name="home_cleanup_awaiting_android">Kliknij Zezwól w oknie Androida. Może być użyte słowo „zdjęcia”.</string>
     <string name="home_cleanup_done_items">Usunięto elementy: %1$d. Wyczyszczono pamięć podręczną.</string>
     <string name="home_cleanup_done_cache">Wyczyszczono pamięć podręczną. Kosz był już pusty.</string>
     <string name="delete_bar_android_note">Android poprosi o potwierdzenie.</string>

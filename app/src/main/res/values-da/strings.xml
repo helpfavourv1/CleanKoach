@@ -13,11 +13,11 @@
     <string name="action_allow_access">Tillad adgang</string>
     <string name="action_open_settings">Åbn indstillinger</string>
     <string name="action_all">Alle</string>
-    <string name="action_clear">Ryd</string>
+    <string name="action_clear">Fravælg</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">Papirkurvens størrelse</string>
-    <string name="home_ring_sublabel">Slettede fotos og videoer samt app-cache</string>
+    <string name="home_ring_sublabel">Fotos og videoer i papirkurven samt app-cache</string>
     <string name="home_storage_line">%1$s af %2$s brugt · %3$d%%</string>
     <string name="home_button_cleanup">RYD OP</string>
     <string name="home_button_scanning">Scanner…</string>
@@ -84,7 +84,7 @@
     <!-- Screenshots screen -->
     <string name="screenshots_title">Skærmbilleder</string>
     <string name="screenshots_empty_title">Ingen skærmbilleder</string>
-    <string name="screenshots_empty_message">Intet er taget på denne enhed endnu.</string>
+    <string name="screenshots_empty_message">Der er endnu ingen skærmbilleder på denne enhed.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">Fotooptimering</string>
@@ -232,11 +232,11 @@
     <string name="home_partial_access_action">Tillad alle</string>
     <string name="home_nothing_to_clean_message">Intet at rydde op lige nu</string>
     <string name="wifi_encryption_open">Åben</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Forbedret åben</string>
     <string name="settings_privacy_options">Privatlivsindstillinger for reklamer</string>
     <string name="home_cleanup_caption_running">Rydder op…</string>
     <string name="home_cleanup_running">Rydder cache og papirkurv…</string>
-    <string name="home_cleanup_awaiting_android">Tryk på Tillad i Androids dialog. Der kan stå “billeder”.</string>
+    <string name="home_cleanup_awaiting_android">Tryk på Tillad i Androids dialog. Der kan stå “fotos”.</string>
     <string name="home_cleanup_done_items">%1$d elementer fjernet. Cachen er ryddet.</string>
     <string name="home_cleanup_done_cache">Cachen er ryddet. Papirkurven var allerede tom.</string>
     <string name="delete_bar_android_note">Android beder dig om at bekræfte.</string>

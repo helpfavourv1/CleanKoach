@@ -13,7 +13,7 @@
     <string name="action_allow_access">Permite accesul</string>
     <string name="action_open_settings">Deschide setările</string>
     <string name="action_all">Toate</string>
-    <string name="action_clear">Șterge</string>
+    <string name="action_clear">Deselectează</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">Dimensiunea coșului</string>
@@ -44,7 +44,7 @@
 
     <!-- Home — phone tool cards -->
     <string name="tool_activity_monitor_title">Monitor de activitate</string>
-    <string name="tool_activity_monitor_badge">24 H</string>
+    <string name="tool_activity_monitor_badge">24 h</string>
     <string name="tool_wifi_security_title">Securitate Wi-Fi</string>
     <string name="tool_wifi_security_badge">Verifică</string>
     <string name="tool_network_speed_title">Viteza rețelei</string>
@@ -77,14 +77,14 @@
     <string name="similar_title">Fotografii similare</string>
     <string name="similar_group_count_line">%1$d grupuri · %2$s de eliberat</string>
     <string name="similar_empty_title">Nicio fotografie similară</string>
-    <string name="similar_empty_message">Nimic de aici nu seamănă cu o dublură aproximativă.</string>
+    <string name="similar_empty_message">Nu s-au găsit fotografii aproape identice.</string>
     <string name="similar_shot_count">%1$d cadre similare</string>
     <string name="similar_best_label">Cea mai bună</string>
 
     <!-- Screenshots screen -->
     <string name="screenshots_title">Capturi de ecran</string>
     <string name="screenshots_empty_title">Nicio captură de ecran</string>
-    <string name="screenshots_empty_message">Încă nu s-a capturat nimic pe acest dispozitiv.</string>
+    <string name="screenshots_empty_message">Nu există încă nicio captură de ecran pe acest dispozitiv.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">Optimizare foto</string>
@@ -149,7 +149,7 @@
     <string name="network_speed_testing">Se testează viteza de descărcare</string>
     <string name="network_speed_transferred">%1$s transferat</string>
     <string name="network_speed_download_label">Viteza de descărcare</string>
-    <string name="network_speed_transferred_detail">Transferat %1$s în %2$ds</string>
+    <string name="network_speed_transferred_detail">Transferat %1$s în %2$d s</string>
     <string name="network_speed_failed">Testul a eșuat</string>
     <string name="network_speed_button_start">Începe testul</string>
     <string name="network_speed_button_testing">Se testează…</string>
@@ -229,18 +229,18 @@
     <string name="duplicates_delete_line">%1$d de șters · %2$s</string>
     <string name="network_speed_error">Serverul de test nu a putut fi contactat. Verificați conexiunea și încercați din nou.</string>
     <string name="home_partial_access_message">Acces limitat la fotografii. CleanKoach poate vedea doar fotografiile și videoclipurile selectate.</string>
-    <string name="home_partial_access_action">Permite tot</string>
+    <string name="home_partial_access_action">Permite toate</string>
     <string name="home_nothing_to_clean_message">Nimic de curățat acum</string>
     <string name="wifi_encryption_open">Deschisă</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Open îmbunătățit</string>
     <string name="settings_privacy_options">Opțiuni de confidențialitate pentru reclame</string>
     <string name="home_cleanup_caption_running">Se curăță…</string>
     <string name="home_cleanup_running">Se șterg memoria cache și coșul…</string>
     <string name="home_cleanup_awaiting_android">Atingeți Permite în mesajul Android. Poate scrie „fotografii”.</string>
     <string name="home_cleanup_done_items">%1$d elemente șterse. Memoria cache a fost golită.</string>
-    <string name="home_cleanup_done_cache">Cache golit. Coșul era deja gol.</string>
+    <string name="home_cleanup_done_cache">Memoria cache a fost golită. Coșul era deja gol.</string>
     <string name="delete_bar_android_note">Android vă va cere confirmarea.</string>
-    <string name="review_card_title">Îți place CleanKoach?</string>
+    <string name="review_card_title">Vă place CleanKoach?</string>
     <string name="review_card_body">O evaluare îi ajută pe alții să găsească aplicația.</string>
     <string name="review_card_action">Evaluează</string>
     <string name="review_card_dismiss">Închide</string>

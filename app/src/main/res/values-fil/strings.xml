@@ -12,7 +12,7 @@
     <string name="action_allow_access">Payagan ang access</string>
     <string name="action_open_settings">Buksan ang mga setting</string>
     <string name="action_all">Lahat</string>
-    <string name="action_clear">I-clear</string>
+    <string name="action_clear">Alisin ang pagpili</string>
     <string name="home_ring_caption">Laki ng basurahan</string>
     <string name="home_ring_sublabel">Mga na-trash na larawan at video kasama ang cache ng app</string>
     <string name="home_storage_line">%1$s sa %2$s ang gamit · %3$d%%</string>
@@ -118,7 +118,7 @@
     <string name="network_speed_testing">Sinusubukan ang bilis ng download</string>
     <string name="network_speed_transferred">%1$s ang nailipat</string>
     <string name="network_speed_download_label">Bilis ng download</string>
-    <string name="network_speed_transferred_detail">Nailipat ang %1$s sa loob ng %2$ds</string>
+    <string name="network_speed_transferred_detail">Nailipat ang %1$s sa loob ng %2$d seg</string>
     <string name="network_speed_failed">Nabigo ang pagsubok</string>
     <string name="network_speed_button_start">Simulan ang pagsubok</string>
     <string name="network_speed_button_testing">Sinusubukan…</string>
@@ -164,7 +164,7 @@
     <string name="channel_storage_description">Mga alerto kapag paubos na ang storage ng device.</string>
     <string name="notification_cleanup_title">Oras na para maglinis</string>
     <string name="notification_cleanup_body">Suriin ang malalaking file, mga duplicate at mga screenshot.</string>
-    <string name="notification_storage_title">%1$d%% na ang puno ng storage</string>
+    <string name="notification_storage_title">%1$d%% na ang laman ng storage</string>
     <string name="notification_storage_body">Suriin ang malalaking file para magkaroon ng espasyo.</string>
     <string name="ad_placeholder_label">Ad</string>
     <string name="share_text">Magbakante ng espasyo sa telepono sa pagbura ng mga duplicate, magkakahawig na larawan at malalaking file: %1$s</string>
@@ -186,7 +186,7 @@
     <string name="home_partial_access_action">Payagan lahat</string>
     <string name="home_nothing_to_clean_message">Walang lilinisin ngayon</string>
     <string name="wifi_encryption_open">Bukas</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">Pinahusay na Bukas</string>
     <string name="settings_privacy_options">Mga opsyon sa privacy ng ad</string>
     <string name="home_cleanup_caption_running">Naglilinis…</string>
     <string name="home_cleanup_running">Nililinis ang cache at basurahan…</string>

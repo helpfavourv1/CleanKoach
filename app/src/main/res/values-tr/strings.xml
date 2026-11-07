@@ -13,11 +13,11 @@
     <string name="action_allow_access">Erişime izin ver</string>
     <string name="action_open_settings">Ayarları aç</string>
     <string name="action_all">Tümü</string>
-    <string name="action_clear">Temizle</string>
+    <string name="action_clear">Seçimi kaldır</string>
 
     <!-- Home — ring and cleanup -->
-    <string name="home_ring_caption">Çöp boyutu</string>
-    <string name="home_ring_sublabel">Çöpteki fotoğraflar, videolar ve uygulama önbelleği</string>
+    <string name="home_ring_caption">Çöp kutusu boyutu</string>
+    <string name="home_ring_sublabel">Çöp kutusundaki fotoğraflar, videolar ve uygulama önbelleği</string>
     <string name="home_storage_line">%1$s / %2$s kullanıldı · %3$d%%</string>
     <string name="home_button_cleanup">TEMİZLE</string>
     <string name="home_button_scanning">Taranıyor…</string>
@@ -77,14 +77,14 @@
     <string name="similar_title">Benzer fotoğraflar</string>
     <string name="similar_group_count_line">%1$d grup · %2$s kazanılabilir</string>
     <string name="similar_empty_title">Benzer fotoğraf yok</string>
-    <string name="similar_empty_message">Burada kopyaya benzeyen bir şey yok.</string>
+    <string name="similar_empty_message">Birbirine çok benzeyen fotoğraf bulunamadı.</string>
     <string name="similar_shot_count">%1$d benzer kare</string>
     <string name="similar_best_label">En iyi</string>
 
     <!-- Screenshots screen -->
     <string name="screenshots_title">Ekran görüntüleri</string>
     <string name="screenshots_empty_title">Ekran görüntüsü yok</string>
-    <string name="screenshots_empty_message">Bu cihazda henüz bir şey yakalanmadı.</string>
+    <string name="screenshots_empty_message">Bu cihazda henüz ekran görüntüsü yok.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">Fotoğraf optimize edici</string>
@@ -188,7 +188,7 @@
     <string name="pro_active_body">Reklamlar kaldırıldı. CleanKoach\'a destek olduğunuz için teşekkür ederiz.</string>
     <string name="pro_upsell_title">Reklamları kaldır</string>
     <string name="pro_upsell_body">Pro tüm reklamları kaldırır. Tüm özellikler ücretsizdir.</string>
-    <string name="pro_button_upgrade">Yükselt</string>
+    <string name="pro_button_upgrade">Pro\'ya geç</string>
     <string name="pro_button_restore">Satın alımı geri yükle</string>
 
     <!-- Settings — About -->
@@ -225,7 +225,7 @@
     <string name="support_mail_body">Android sürümü: %1$s\nCihaz: %2$s\n\nLütfen sorununuzu aşağıda açıklayın:\n\n</string>
     <string name="pro_unavailable">Şu anda kullanılamıyor</string>
     <string name="pro_pending">Ödemeniz beklemede. Pro, ödeme tamamlanır tamamlanmaz açılır.</string>
-    <string name="pro_button_upgrade_price">%1$s karşılığında yükselt</string>
+    <string name="pro_button_upgrade_price">%1$s karşılığında Pro\'ya geç</string>
     <string name="duplicates_delete_line">%1$d silinecek · %2$s</string>
     <string name="network_speed_error">Test sunucusuna ulaşılamadı. Bağlantınızı kontrol edip tekrar deneyin.</string>
     <string name="home_partial_access_message">Sınırlı fotoğraf erişimi. CleanKoach yalnızca seçtiğiniz fotoğrafları ve videoları görebilir.</string>
@@ -235,10 +235,10 @@
     <string name="wifi_encryption_owe">Gelişmiş Açık</string>
     <string name="settings_privacy_options">Reklam gizliliği seçenekleri</string>
     <string name="home_cleanup_caption_running">Temizleniyor…</string>
-    <string name="home_cleanup_running">Önbellek ve çöp temizleniyor…</string>
+    <string name="home_cleanup_running">Önbellek ve çöp kutusu temizleniyor…</string>
     <string name="home_cleanup_awaiting_android">Android isteminde İzin Ver’e dokunun. “Fotoğraflar” diyebilir.</string>
     <string name="home_cleanup_done_items">%1$d öğe kaldırıldı. Önbellek temizlendi.</string>
-    <string name="home_cleanup_done_cache">Önbellek temizlendi. Çöp zaten boştu.</string>
+    <string name="home_cleanup_done_cache">Önbellek temizlendi. Çöp kutusu zaten boştu.</string>
     <string name="delete_bar_android_note">Android onay isteyecek.</string>
     <string name="review_card_title">CleanKoach\'u beğeniyor musunuz?</string>
     <string name="review_card_body">Bir puan, başkalarının uygulamayı bulmasına yardımcı olur.</string>

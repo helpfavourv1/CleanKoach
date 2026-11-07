@@ -13,7 +13,7 @@
     <string name="action_allow_access">அணுகலை அனுமதி</string>
     <string name="action_open_settings">அமைப்புகளைத் திற</string>
     <string name="action_all">அனைத்தும்</string>
-    <string name="action_clear">அழி</string>
+    <string name="action_clear">தேர்வை நீக்கு</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">குப்பையின் அளவு</string>
@@ -77,14 +77,14 @@
     <string name="similar_title">ஒத்த படங்கள்</string>
     <string name="similar_group_count_line">%1$d குழுக்கள் · %2$s விடுவிக்கலாம்</string>
     <string name="similar_empty_title">ஒத்த படங்கள் இல்லை</string>
-    <string name="similar_empty_message">கிட்டத்தட்ட நகலாகத் தோன்றும் எதுவும் இல்லை.</string>
+    <string name="similar_empty_message">கிட்டத்தட்ட ஒரே மாதிரியான படங்கள் எதுவும் இல்லை.</string>
     <string name="similar_shot_count">%1$d ஒத்த படங்கள்</string>
     <string name="similar_best_label">சிறந்தது</string>
 
     <!-- Screenshots screen -->
     <string name="screenshots_title">ஸ்கிரீன்ஷாட்கள்</string>
     <string name="screenshots_empty_title">ஸ்கிரீன்ஷாட்கள் இல்லை</string>
-    <string name="screenshots_empty_message">இந்தச் சாதனத்தில் இன்னும் எதுவும் எடுக்கப்படவில்லை.</string>
+    <string name="screenshots_empty_message">இந்தச் சாதனத்தில் இன்னும் ஸ்கிரீன்ஷாட் எதுவும் இல்லை.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">பட ஆப்டிமைசர்</string>
@@ -232,16 +232,16 @@
     <string name="home_partial_access_action">அனைத்தையும் அனுமதி</string>
     <string name="home_nothing_to_clean_message">இப்போது சுத்தம் செய்ய எதுவுமில்லை</string>
     <string name="wifi_encryption_open">திறந்த</string>
-    <string name="wifi_encryption_owe">Enhanced Open</string>
+    <string name="wifi_encryption_owe">மேம்படுத்தப்பட்ட திறந்த</string>
     <string name="settings_privacy_options">விளம்பர தனியுரிமை விருப்பங்கள்</string>
-    <string name="home_cleanup_caption_running">சுத்தம்…</string>
+    <string name="home_cleanup_caption_running">சுத்தம் செய்கிறது…</string>
     <string name="home_cleanup_running">கேச் மற்றும் குப்பையை அழிக்கிறது…</string>
     <string name="home_cleanup_awaiting_android">Android கேட்கும்போது அனுமதி என்பதைத் தட்டவும். “புகைப்படங்கள்” எனக் காட்டலாம்.</string>
     <string name="home_cleanup_done_items">%1$d உருப்படிகள் நீக்கப்பட்டன. கேச் அழிக்கப்பட்டது.</string>
     <string name="home_cleanup_done_cache">கேச் அழிக்கப்பட்டது. குப்பை ஏற்கெனவே காலியாக இருந்தது.</string>
     <string name="delete_bar_android_note">உறுதிசெய்ய Android கேட்கும்.</string>
     <string name="review_card_title">CleanKoach பிடித்திருக்கிறதா?</string>
-    <string name="review_card_body">மதிப்பீடு மற்றவர்கள் செயலியைக் கண்டுபிடிக்க உதவும்.</string>
+    <string name="review_card_body">மதிப்பீடு மற்றவர்கள் இந்த ஆப்பைக் கண்டுபிடிக்க உதவும்.</string>
     <string name="review_card_action">மதிப்பிடுங்கள்</string>
     <string name="review_card_dismiss">மூடு</string>
 </resources>
