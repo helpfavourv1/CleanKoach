@@ -216,4 +216,8 @@
     <string name="home_cleanup_done_items">%1$d आइटम हटाए गए। कैश साफ़ हो गया।</string>
     <string name="home_cleanup_done_cache">कैश साफ़ हो गया। ट्रैश पहले से खाली था।</string>
     <string name="delete_bar_android_note">Android आपसे पुष्टि करने को कहेगा।</string>
+    <string name="review_card_title">क्या आपको CleanKoach पसंद आ रहा है?</string>
+    <string name="review_card_body">रेटिंग से और लोगों को यह ऐप ढूँढने में मदद मिलती है।</string>
+    <string name="review_card_action">रेट करें</string>
+    <string name="review_card_dismiss">बंद करें</string>
 </resources>

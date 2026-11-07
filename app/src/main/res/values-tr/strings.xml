@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">%1$d öğe kaldırıldı. Önbellek temizlendi.</string>
     <string name="home_cleanup_done_cache">Önbellek temizlendi. Çöp zaten boştu.</string>
     <string name="delete_bar_android_note">Android onay isteyecek.</string>
+    <string name="review_card_title">CleanKoach\'u beğeniyor musunuz?</string>
+    <string name="review_card_body">Bir puan, başkalarının uygulamayı bulmasına yardımcı olur.</string>
+    <string name="review_card_action">Puan ver</string>
+    <string name="review_card_dismiss">Kapat</string>
 </resources>

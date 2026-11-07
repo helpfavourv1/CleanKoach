@@ -102,7 +102,7 @@
    "Reklamy",
    "CleanKoach zobrazuje reklamy prostredníctvom Google AdMob: malý banner v spodnej časti hlavnej obrazovky, obrazovky nastavení a obrazoviek nástrojov a občas celoobrazovkovú reklamu po dokončení akcie, napríklad čistenia. Reklamy sa nikdy nezobrazujú na obrazovke nákupu Pro, počas skenovania ani cez dialógy povolení alebo súhlasu. Keď sa reklama zobrazí, Google môže zhromažďovať vaše reklamné ID a štandardné údaje o interakcii s reklamou, ako je to opísané v zásadách ochrany osobných údajov Googlu. Tieto údaje nie sú spojené so žiadnym účtom, pretože aplikácia nemá žiadne účty.",
    "Ak prejdete na Pro, všetky reklamy sa odstránia a aplikácia odvtedy nezhromažďuje žiadne reklamné ID.",
-   "V Európskom hospodárskom priestore a v Spojenom kráľovstve vás pred zobrazením akejkoľvek reklamy požiadajú o súhlas prostredníctvom Google User Messaging Platform. Svoju voľbu môžete kedykoľvek zmeniť v možnostiach súkromia aplikácie.",
+   "V Európskom hospodárskom priestore a v Spojenom kráľovstve vás pred zobrazením akejkoľvek reklamy požiadajú o súhlas prostredníctvom Google User Messaging Platform. Svoju voľbu môžete kedykoľvek zmeniť v možnostiach súkromia aplikácie. Ak sa formulár súhlasu nepodarí zobraziť, napríklad pre chýbajúce pripojenie alebo chybu, aplikácia si napriek tomu vyžiada reklamy od Googlu a Google uplatní vašu naposledy uloženú voľbu.",
    "Nákupy a hodnotenia",
    "Jednorazový nákup Pro spracúva výhradne Google Play. CleanKoach nikdy nevidí vaše platobné údaje; od Google Play sa iba dozvie, či je Pro aktívne. Po niekoľkých dokončených čisteniach môže aplikácia požiadať Google Play o zobrazenie výzvy na hodnotenie. To, čo tam zadáte, spracúva Google, nie CleanKoach.",
    "Služby tretích strán",

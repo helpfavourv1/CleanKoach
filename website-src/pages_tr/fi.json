@@ -102,7 +102,7 @@
    "Mainokset",
    "CleanKoach näyttää mainoksia Google AdMobin kautta: pienen bannerin aloitusnäytön, asetusnäytön ja työkalunäyttöjen alareunassa sekä toisinaan koko näytön mainoksen toiminnon, kuten siivouksen, suorittamisen jälkeen. Mainoksia ei koskaan näytetä Pro-ostonäytöllä, skannauksen aikana tai lupa- ja suostumusikkunoiden päällä. Kun mainos näytetään, Google voi kerätä mainostunnuksesi ja tavalliset mainosvuorovaikutustiedot Googlen tietosuojakäytännössä kuvatulla tavalla. Näitä tietoja ei yhdistetä mihinkään tiliin, koska sovelluksessa ei ole tilejä.",
    "Jos päivität Pro-versioon, kaikki mainokset poistetaan, eikä sovellus kerää mainostunnusta siitä lähtien.",
-   "Euroopan talousalueella ja Yhdistyneessä kuningaskunnassa sinulta pyydetään suostumus ennen minkään mainoksen näyttämistä Googlen User Messaging Platformin kautta. Voit muuttaa valintaasi milloin tahansa sovelluksen tietosuojavaihtoehdoissa.",
+   "Euroopan talousalueella ja Yhdistyneessä kuningaskunnassa sinulta pyydetään suostumus ennen minkään mainoksen näyttämistä Googlen User Messaging Platformin kautta. Voit muuttaa valintaasi milloin tahansa sovelluksen tietosuojavaihtoehdoissa. Jos suostumuslomaketta ei voida näyttää, esimerkiksi yhteyden puuttumisen tai virheen vuoksi, sovellus pyytää silti mainoksia Googlelta, ja Google noudattaa viimeksi tallentamaasi valintaa.",
    "Ostot ja arvostelut",
    "Kertaluonteisen Pro-oston käsittelee kokonaan Google Play. CleanKoach ei koskaan näe maksutietojasi; se saa Google Playltä vain tiedon siitä, onko Pro aktiivinen. Kun olet suorittanut muutaman siivouksen, sovellus voi pyytää Google Playta näyttämään arvostelukehotteen. Sen, mitä kirjoitat siellä, käsittelee Google, ei CleanKoach.",
    "Kolmansien osapuolten palvelut",

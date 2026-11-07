@@ -193,4 +193,8 @@
     <string name="home_cleanup_done_items">%1$d આઇટમ દૂર કરી. કૅશ સાફ થઈ.</string>
     <string name="home_cleanup_done_cache">કૅશ સાફ થઈ. ટ્રેશ પહેલેથી ખાલી હતું.</string>
     <string name="delete_bar_android_note">Android તમને પુષ્ટિ માટે પૂછશે.</string>
+    <string name="review_card_title">શું તમને CleanKoach ગમે છે?</string>
+    <string name="review_card_body">રેટિંગ બીજાઓને એપ શોધવામાં મદદ કરે છે.</string>
+    <string name="review_card_action">રેટ કરો</string>
+    <string name="review_card_dismiss">બંધ કરો</string>
 </resources>

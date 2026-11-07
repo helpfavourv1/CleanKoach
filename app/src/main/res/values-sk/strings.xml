@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">Odstránené položky: %1$d. Vyrovnávacia pamäť vymazaná.</string>
     <string name="home_cleanup_done_cache">Vyrovnávacia pamäť vymazaná. Kôš bol už prázdny.</string>
     <string name="delete_bar_android_note">Android vás požiada o potvrdenie.</string>
+    <string name="review_card_title">Páči sa vám CleanKoach?</string>
+    <string name="review_card_body">Hodnotenie pomáha ostatným nájsť aplikáciu.</string>
+    <string name="review_card_action">Ohodnotiť</string>
+    <string name="review_card_dismiss">Zavrieť</string>
 </resources>

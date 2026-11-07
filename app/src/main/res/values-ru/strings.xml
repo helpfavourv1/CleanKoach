@@ -216,4 +216,8 @@
     <string name="home_cleanup_done_items">Удалено объектов: %1$d. Кеш очищен.</string>
     <string name="home_cleanup_done_cache">Кеш очищен. Корзина уже была пуста.</string>
     <string name="delete_bar_android_note">Android попросит подтвердить действие.</string>
+    <string name="review_card_title">Нравится CleanKoach?</string>
+    <string name="review_card_body">Оценка помогает другим людям найти приложение.</string>
+    <string name="review_card_action">Оценить</string>
+    <string name="review_card_dismiss">Закрыть</string>
 </resources>

@@ -194,4 +194,8 @@
     <string name="home_cleanup_done_items">%1$d item ang naalis. Na-clear ang cache.</string>
     <string name="home_cleanup_done_cache">Na-clear ang cache. Walang laman na ang basurahan.</string>
     <string name="delete_bar_android_note">Hihingi ng kumpirmasyon ang Android.</string>
+    <string name="review_card_title">Gusto mo ba ang CleanKoach?</string>
+    <string name="review_card_body">Ang rating ay tumutulong sa iba na mahanap ang app.</string>
+    <string name="review_card_action">I-rate</string>
+    <string name="review_card_dismiss">Isara</string>
 </resources>

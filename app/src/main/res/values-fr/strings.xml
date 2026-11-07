@@ -216,4 +216,8 @@
     <string name="home_cleanup_done_items">%1$d éléments supprimés. Cache vidé.</string>
     <string name="home_cleanup_done_cache">Cache vidé. La corbeille était déjà vide.</string>
     <string name="delete_bar_android_note">Android vous demandera de confirmer.</string>
+    <string name="review_card_title">Vous aimez CleanKoach ?</string>
+    <string name="review_card_body">Une note aide d’autres personnes à le trouver.</string>
+    <string name="review_card_action">Noter</string>
+    <string name="review_card_dismiss">Fermer</string>
 </resources>

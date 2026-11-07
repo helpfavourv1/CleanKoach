@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">%1$d అంశాలు తీసివేయబడ్డాయి. కాష్ క్లియర్ అయింది.</string>
     <string name="home_cleanup_done_cache">కాష్ క్లియర్ అయింది. ట్రాష్ ఇప్పటికే ఖాళీగా ఉంది.</string>
     <string name="delete_bar_android_note">నిర్ధారించమని Android అడుగుతుంది.</string>
+    <string name="review_card_title">CleanKoach నచ్చిందా?</string>
+    <string name="review_card_body">రేటింగ్ ఇతరులు యాప్‌ను కనుగొనడానికి సహాయపడుతుంది.</string>
+    <string name="review_card_action">రేట్ చేయండి</string>
+    <string name="review_card_dismiss">మూసివేయి</string>
 </resources>

@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">ลบแล้ว %1$d รายการ ล้างแคชแล้ว</string>
     <string name="home_cleanup_done_cache">ล้างแคชแล้ว ถังขยะว่างอยู่แล้ว</string>
     <string name="delete_bar_android_note">Android จะขอให้คุณยืนยัน</string>
+    <string name="review_card_title">ชอบ CleanKoach ไหม?</string>
+    <string name="review_card_body">คะแนนช่วยให้คนอื่นค้นพบแอปนี้ได้ง่ายขึ้น</string>
+    <string name="review_card_action">ให้คะแนน</string>
+    <string name="review_card_dismiss">ปิด</string>
 </resources>

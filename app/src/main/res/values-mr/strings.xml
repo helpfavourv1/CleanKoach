@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">%1$d आयटम काढले. कॅशे साफ केली.</string>
     <string name="home_cleanup_done_cache">कॅशे साफ केली. कचरा आधीच रिकामा होता.</string>
     <string name="delete_bar_android_note">Android तुम्हाला पुष्टी करण्यास सांगेल.</string>
+    <string name="review_card_title">CleanKoach आवडतंय का?</string>
+    <string name="review_card_body">रेटिंगमुळे इतरांना अ‍ॅप शोधायला मदत होते.</string>
+    <string name="review_card_action">रेट करा</string>
+    <string name="review_card_dismiss">बंद करा</string>
 </resources>

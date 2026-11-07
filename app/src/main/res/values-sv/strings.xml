@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">%1$d objekt borttagna. Cachen är rensad.</string>
     <string name="home_cleanup_done_cache">Cachen är rensad. Papperskorgen var redan tom.</string>
     <string name="delete_bar_android_note">Android ber dig bekräfta.</string>
+    <string name="review_card_title">Gillar du CleanKoach?</string>
+    <string name="review_card_body">Ett betyg hjälper andra att hitta appen.</string>
+    <string name="review_card_action">Betygsätt</string>
+    <string name="review_card_dismiss">Stäng</string>
 </resources>

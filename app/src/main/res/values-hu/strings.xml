@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">%1$d elem eltávolítva. Gyorsítótár törölve.</string>
     <string name="home_cleanup_done_cache">Gyorsítótár törölve. A kuka már üres volt.</string>
     <string name="delete_bar_android_note">Az Android megerősítést fog kérni.</string>
+    <string name="review_card_title">Tetszik a CleanKoach?</string>
+    <string name="review_card_body">Egy értékelés segít másoknak megtalálni az alkalmazást.</string>
+    <string name="review_card_action">Értékelés</string>
+    <string name="review_card_dismiss">Bezárás</string>
 </resources>

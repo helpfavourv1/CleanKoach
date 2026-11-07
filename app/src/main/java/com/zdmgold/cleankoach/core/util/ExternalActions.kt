@@ -81,11 +81,16 @@ object ExternalActions {
         }
     }
 
-    /** Google decides whether the review sheet actually appears; failures are silent by design. */
-    fun requestInAppReview(activity: Activity) {
+    /**
+     * Google decides whether the review sheet actually appears. When [openStoreOnFailure] is set and the
+     * flow cannot even be requested, the Play page opens instead.
+     */
+    fun requestInAppReview(activity: Activity, openStoreOnFailure: Boolean = false) {
         val manager = ReviewManagerFactory.create(activity)
-        manager.requestReviewFlow().addOnSuccessListener { info ->
-            if (!activity.isFinishing) manager.launchReviewFlow(activity, info)
-        }
+        manager.requestReviewFlow()
+            .addOnSuccessListener { info ->
+                if (!activity.isFinishing) manager.launchReviewFlow(activity, info)
+            }
+            .addOnFailureListener { if (openStoreOnFailure) openStorePage(activity) }
     }
 }

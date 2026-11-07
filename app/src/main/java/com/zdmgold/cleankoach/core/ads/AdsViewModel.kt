@@ -17,5 +17,9 @@ class AdsViewModel @Inject constructor(
 
     fun onActionCompleted(activity: Activity) = ads.onActionCompleted(activity)
 
+    fun isAdQuiet(): Boolean = ads.isAdQuiet()
+
+    fun noteReviewLaunched() = ads.noteReviewLaunched()
+
     fun showPrivacyOptions(activity: Activity) = ads.showPrivacyOptions(activity)
 }

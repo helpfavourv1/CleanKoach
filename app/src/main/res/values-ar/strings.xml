@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">تمت إزالة %1$d عنصر. تم مسح الذاكرة المؤقتة.</string>
     <string name="home_cleanup_done_cache">تم مسح الذاكرة المؤقتة. كانت سلة المهملات فارغة.</string>
     <string name="delete_bar_android_note">سيطلب Android منك التأكيد.</string>
+    <string name="review_card_title">هل يعجبك CleanKoach؟</string>
+    <string name="review_card_body">التقييم يساعد الآخرين على العثور على التطبيق.</string>
+    <string name="review_card_action">قيّم</string>
+    <string name="review_card_dismiss">إغلاق</string>
 </resources>

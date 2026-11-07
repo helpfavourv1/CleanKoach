@@ -216,4 +216,8 @@
     <string name="home_cleanup_done_items">%1$d elementos eliminados. Caché borrada.</string>
     <string name="home_cleanup_done_cache">Caché borrada. La papelera ya estaba vacía.</string>
     <string name="delete_bar_android_note">Android te pedirá que lo confirmes.</string>
+    <string name="review_card_title">¿Te gusta CleanKoach?</string>
+    <string name="review_card_body">Una valoración ayuda a otras personas a encontrarla.</string>
+    <string name="review_card_action">Valorar</string>
+    <string name="review_card_dismiss">Cerrar</string>
 </resources>

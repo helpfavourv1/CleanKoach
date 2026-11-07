@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">Vipengee %1$d vimeondolewa. Kache imefutwa.</string>
     <string name="home_cleanup_done_cache">Kache imefutwa. Tupio lilikuwa tupu tayari.</string>
     <string name="delete_bar_android_note">Android itakuomba uthibitishe.</string>
+    <string name="review_card_title">Unapenda CleanKoach?</string>
+    <string name="review_card_body">Ukadiriaji huwasaidia wengine kuipata programu.</string>
+    <string name="review_card_action">Kadiria</string>
+    <string name="review_card_dismiss">Funga</string>
 </resources>

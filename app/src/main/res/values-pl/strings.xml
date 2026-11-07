@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">Usunięto elementy: %1$d. Wyczyszczono pamięć podręczną.</string>
     <string name="home_cleanup_done_cache">Wyczyszczono pamięć podręczną. Kosz był już pusty.</string>
     <string name="delete_bar_android_note">Android poprosi o potwierdzenie.</string>
+    <string name="review_card_title">Podoba Ci się CleanKoach?</string>
+    <string name="review_card_body">Ocena pomaga innym znaleźć aplikację.</string>
+    <string name="review_card_action">Oceń</string>
+    <string name="review_card_dismiss">Zamknij</string>
 </resources>

@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">%1$dটি আইটেম সরানো হয়েছে। ক্যাশে পরিষ্কার হয়েছে।</string>
     <string name="home_cleanup_done_cache">ক্যাশে পরিষ্কার হয়েছে। ট্র্যাশ আগেই খালি ছিল।</string>
     <string name="delete_bar_android_note">Android আপনার নিশ্চিতকরণ চাইবে।</string>
+    <string name="review_card_title">CleanKoach কি ভালো লাগছে?</string>
+    <string name="review_card_body">একটি রেটিং অন্যদের অ্যাপটি খুঁজে পেতে সাহায্য করে।</string>
+    <string name="review_card_action">রেট করুন</string>
+    <string name="review_card_dismiss">বন্ধ করুন</string>
 </resources>

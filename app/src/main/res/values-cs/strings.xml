@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">Odstraněno položek: %1$d. Mezipaměť vymazána.</string>
     <string name="home_cleanup_done_cache">Mezipaměť vymazána. Koš byl už prázdný.</string>
     <string name="delete_bar_android_note">Android vás požádá o potvrzení.</string>
+    <string name="review_card_title">Líbí se vám CleanKoach?</string>
+    <string name="review_card_body">Hodnocení pomáhá ostatním aplikaci najít.</string>
+    <string name="review_card_action">Ohodnotit</string>
+    <string name="review_card_dismiss">Zavřít</string>
 </resources>

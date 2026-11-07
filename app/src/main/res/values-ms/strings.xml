@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">%1$d item dialih keluar. Cache dikosongkan.</string>
     <string name="home_cleanup_done_cache">Cache dikosongkan. Sampah sudah kosong.</string>
     <string name="delete_bar_android_note">Android akan meminta anda mengesahkan.</string>
+    <string name="review_card_title">Suka CleanKoach?</string>
+    <string name="review_card_body">Penilaian membantu orang lain menemuinya.</string>
+    <string name="review_card_action">Nilai</string>
+    <string name="review_card_dismiss">Tutup</string>
 </resources>

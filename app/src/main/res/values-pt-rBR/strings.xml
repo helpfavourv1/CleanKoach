@@ -194,4 +194,8 @@
     <string name="home_cleanup_done_items">%1$d itens removidos. Cache limpo.</string>
     <string name="home_cleanup_done_cache">Cache limpo. A lixeira já estava vazia.</string>
     <string name="delete_bar_android_note">O Android pedirá que você confirme.</string>
+    <string name="review_card_title">Gostando do CleanKoach?</string>
+    <string name="review_card_body">Uma avaliação ajuda outras pessoas a encontrá-lo.</string>
+    <string name="review_card_action">Avaliar</string>
+    <string name="review_card_dismiss">Fechar</string>
 </resources>

@@ -20,6 +20,10 @@ class SettingsRepository @Inject constructor(
     suspend fun setNotificationsEnabled(value: Boolean) = dataStore.setNotificationsEnabled(value)
     suspend fun setWeeklyReminder(value: Boolean) = dataStore.setWeeklyReminder(value)
     suspend fun setStorageAlerts(value: Boolean) = dataStore.setStorageAlerts(value)
-    suspend fun recordCleanupAndShouldPromptReview(): Boolean =
-        dataStore.recordCleanupAndShouldPromptReview()
+    suspend fun recordCleanup() = dataStore.recordCleanup()
+    suspend fun reviewSnapshot() = dataStore.reviewSnapshot()
+    suspend fun markReviewCardShown() = dataStore.markReviewCardShown()
+    suspend fun markReviewCardDismissed() = dataStore.markReviewCardDismissed()
+    suspend fun markReviewResolved() = dataStore.markReviewResolved()
+    suspend fun markAutoPrompted() = dataStore.markAutoPrompted()
 }

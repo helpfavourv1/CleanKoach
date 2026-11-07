@@ -6,9 +6,16 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.intPreferencesKey
+import androidx.datastore.preferences.core.longPreferencesKey
+import androidx.datastore.preferences.core.stringSetPreferencesKey
+import com.zdmgold.cleankoach.core.review.ReviewSnapshot
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
 
 private val Context.settingsDataStore: DataStore<Preferences> by preferencesDataStore(name = "settings")
@@ -23,7 +30,11 @@ class SettingsDataStore(private val context: Context) {
         val STORAGE_ALERTS = booleanPreferencesKey("storage_alerts")
         val CLEANUPS_COMPLETED = intPreferencesKey("cleanups_completed")
         val REVIEW_PROMPTED = booleanPreferencesKey("review_prompted")
-        const val REVIEW_AFTER_CLEANUPS = 10
+        val CLEANUP_DAYS = stringSetPreferencesKey("cleanup_days")
+        val REVIEW_CARD_DISMISSES = intPreferencesKey("review_card_dismisses")
+        val REVIEW_CARD_LAST_DISMISS = longPreferencesKey("review_card_last_dismiss")
+        val REVIEW_CARD_SHOWN = booleanPreferencesKey("review_card_shown")
+        val REVIEW_RESOLVED = booleanPreferencesKey("review_resolved")
     }
 
     val theme: Flow<String> = context.settingsDataStore.data.map { it[THEME] ?: "system" }
@@ -44,17 +55,38 @@ class SettingsDataStore(private val context: Context) {
     suspend fun setWeeklyReminder(value: Boolean) { context.settingsDataStore.edit { it[WEEKLY_REMINDER] = value } }
     suspend fun setStorageAlerts(value: Boolean) { context.settingsDataStore.edit { it[STORAGE_ALERTS] = value } }
 
-    /** Counts a finished clean-up; true exactly once, when the review threshold is first reached. */
-    suspend fun recordCleanupAndShouldPromptReview(): Boolean {
-        var prompt = false
+    /** Counts a finished clean-up and remembers the calendar day it happened on. */
+    suspend fun recordCleanup() {
+        val day = SimpleDateFormat("yyyyMMdd", Locale.US).format(Date())
         context.settingsDataStore.edit { prefs ->
-            val count = (prefs[CLEANUPS_COMPLETED] ?: 0) + 1
-            prefs[CLEANUPS_COMPLETED] = count
-            if (count >= REVIEW_AFTER_CLEANUPS && prefs[REVIEW_PROMPTED] != true) {
-                prefs[REVIEW_PROMPTED] = true
-                prompt = true
-            }
+            prefs[CLEANUPS_COMPLETED] = (prefs[CLEANUPS_COMPLETED] ?: 0) + 1
+            prefs[CLEANUP_DAYS] = (prefs[CLEANUP_DAYS] ?: emptySet()) + day
         }
-        return prompt
     }
+
+    suspend fun reviewSnapshot(): ReviewSnapshot {
+        val prefs = context.settingsDataStore.data.first()
+        return ReviewSnapshot(
+            cleanups = prefs[CLEANUPS_COMPLETED] ?: 0,
+            cleanupDays = prefs[CLEANUP_DAYS]?.size ?: 0,
+            cardDismissCount = prefs[REVIEW_CARD_DISMISSES] ?: 0,
+            cardLastDismissAt = prefs[REVIEW_CARD_LAST_DISMISS] ?: 0L,
+            cardEverShown = prefs[REVIEW_CARD_SHOWN] ?: false,
+            resolved = prefs[REVIEW_RESOLVED] ?: false,
+            autoPrompted = prefs[REVIEW_PROMPTED] ?: false
+        )
+    }
+
+    suspend fun markReviewCardShown() { context.settingsDataStore.edit { it[REVIEW_CARD_SHOWN] = true } }
+
+    suspend fun markReviewCardDismissed() {
+        context.settingsDataStore.edit {
+            it[REVIEW_CARD_DISMISSES] = (it[REVIEW_CARD_DISMISSES] ?: 0) + 1
+            it[REVIEW_CARD_LAST_DISMISS] = System.currentTimeMillis()
+        }
+    }
+
+    suspend fun markReviewResolved() { context.settingsDataStore.edit { it[REVIEW_RESOLVED] = true } }
+
+    suspend fun markAutoPrompted() { context.settingsDataStore.edit { it[REVIEW_PROMPTED] = true } }
 }

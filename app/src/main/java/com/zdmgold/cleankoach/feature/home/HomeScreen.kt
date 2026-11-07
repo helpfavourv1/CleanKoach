@@ -48,6 +48,7 @@ import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Create
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Favorite
@@ -201,10 +202,26 @@ fun HomeScreen(
             viewModel.onNothingToCleanShown()
         }
     }
+    val adsViewModel: com.zdmgold.cleankoach.core.ads.AdsViewModel = hiltViewModel()
     LaunchedEffect(state.reviewRequested, state.cleanUpResultVisible) {
         if (state.reviewRequested && !state.cleanUpResultVisible) {
-            with(ExternalActions) { hostContext.findActivity() }?.let(ExternalActions::requestInAppReview)
-            viewModel.onReviewHandled()
+            val activity = with(ExternalActions) { hostContext.findActivity() }
+            // Never on top of, or right after, an interstitial: skip now, stay eligible for the next clean-up.
+            val launch = activity != null && adsViewModel.isAdQuiet()
+            if (launch) {
+                adsViewModel.noteReviewLaunched()
+                ExternalActions.requestInAppReview(activity!!)
+            }
+            viewModel.onReviewHandled(launched = launch)
+        }
+    }
+    // Rate card: evaluated whenever Home is idle (after a clean-up, a scan or a permission step).
+    LaunchedEffect(
+        state.mediaPermissionGranted, state.scanning, state.cleanUpResultVisible, state.mediaDisclosureVisible
+    ) {
+        if (!state.scanning && !state.cleanUpResultVisible) {
+            kotlinx.coroutines.delay(1500)
+            viewModel.evaluateReviewCard(adsViewModel.isAdQuiet())
         }
     }
 
@@ -451,6 +468,55 @@ fun HomeScreen(
                     .fillMaxWidth()
                     .verticalScroll(rememberScrollState())
             ) {
+                if (state.reviewCardVisible) {
+                    Surface(
+                        shape = RoundedCornerShape(16.dp),
+                        color = MaterialTheme.colorScheme.surface,
+                        border = androidx.compose.foundation.BorderStroke(1.dp, MaterialTheme.colorScheme.primary),
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Row(
+                            modifier = Modifier.padding(start = 14.dp, top = 8.dp, bottom = 8.dp, end = 4.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Column(modifier = Modifier.weight(1f)) {
+                                Text(
+                                    text = stringResource(R.string.review_card_title),
+                                    style = MaterialTheme.typography.titleSmall,
+                                    fontWeight = FontWeight.SemiBold,
+                                    color = MaterialTheme.colorScheme.onSurface
+                                )
+                                Text(
+                                    text = stringResource(R.string.review_card_body),
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            }
+                            Spacer(Modifier.width(8.dp))
+                            androidx.compose.material3.Button(
+                                onClick = {
+                                    with(ExternalActions) { hostContext.findActivity() }?.let {
+                                        adsViewModel.noteReviewLaunched()
+                                        ExternalActions.requestInAppReview(it, openStoreOnFailure = true)
+                                    }
+                                    viewModel.onReviewCardRated()
+                                },
+                                shape = RoundedCornerShape(12.dp),
+                                contentPadding = PaddingValues(horizontal = 14.dp, vertical = 6.dp)
+                            ) {
+                                Text(stringResource(R.string.review_card_action))
+                            }
+                            IconButton(onClick = viewModel::onReviewCardDismissed) {
+                                Icon(
+                                    imageVector = Icons.Filled.Close,
+                                    contentDescription = stringResource(R.string.review_card_dismiss),
+                                    tint = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            }
+                        }
+                    }
+                    Spacer(Modifier.height(8.dp))
+                }
                 if (state.partialMediaAccess) {
                     Surface(
                         shape = RoundedCornerShape(16.dp),

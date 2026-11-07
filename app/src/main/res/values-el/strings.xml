@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">Αφαιρέθηκαν %1$d στοιχεία. Η προσωρινή μνήμη καθαρίστηκε.</string>
     <string name="home_cleanup_done_cache">Η προσωρινή μνήμη καθαρίστηκε. Ο κάδος ήταν ήδη άδειος.</string>
     <string name="delete_bar_android_note">Το Android θα ζητήσει επιβεβαίωση.</string>
+    <string name="review_card_title">Σας αρέσει το CleanKoach;</string>
+    <string name="review_card_body">Μια βαθμολογία βοηθά και άλλους να το βρουν.</string>
+    <string name="review_card_action">Βαθμολογήστε</string>
+    <string name="review_card_dismiss">Κλείσιμο</string>
 </resources>

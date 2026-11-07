@@ -216,4 +216,8 @@
     <string name="home_cleanup_done_items">%1$d Elemente entfernt. Cache geleert.</string>
     <string name="home_cleanup_done_cache">Cache geleert. Der Papierkorb war bereits leer.</string>
     <string name="delete_bar_android_note">Android bittet dich um Bestätigung.</string>
+    <string name="review_card_title">Gefällt dir CleanKoach?</string>
+    <string name="review_card_body">Eine Bewertung hilft anderen, die App zu finden.</string>
+    <string name="review_card_action">Bewerten</string>
+    <string name="review_card_dismiss">Schließen</string>
 </resources>

@@ -41,9 +41,6 @@ class AdsManager @Inject constructor(
 ) {
 
     companion object {
-        private const val MIN_GAP_MS = 60_000L
-        private const val MAX_PER_SESSION = 4
-        private const val MAX_PER_DAY = 20
         private const val EVERY_NTH_ACTION = 2
         private const val IDLE_RETURN_MS = 5 * 60_000L
 
@@ -51,6 +48,7 @@ class AdsManager @Inject constructor(
         private const val KEY_DAY = "ads_date"
         private const val KEY_TODAY = "ads_today"
         private const val KEY_LAST_SHOWN = "last_shown"
+        private const val KEY_RECENT = "recent_shown"
     }
 
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
@@ -72,6 +70,17 @@ class AdsManager @Inject constructor(
     private var shownThisSession = 0
     private var completedActions = 0
     private var backgroundedAt = 0L
+    private var lastReviewAt = 0L
+
+    /** True when no interstitial is on screen or was shown moments ago. The review flow waits for this. */
+    fun isAdQuiet(): Boolean = com.zdmgold.cleankoach.core.review.ReviewPolicy.isAdQuiet(
+        System.currentTimeMillis(), showing, prefs.getLong(KEY_LAST_SHOWN, 0L)
+    )
+
+    /** Called when the review flow starts, so no interstitial lands on top of it. */
+    fun noteReviewLaunched() {
+        lastReviewAt = System.currentTimeMillis()
+    }
 
     init {
         scope.launch { billing.purchasePending.collect { pending = it } }
@@ -82,7 +91,7 @@ class AdsManager @Inject constructor(
     fun start(activity: Activity) {
         CrashReporter.note("ads start (activity=${activity.javaClass.simpleName}@${System.identityHashCode(activity)})")
         consentManager.requestConsent(activity) { allowed ->
-            // A failed or offline refresh must not switch off ads that a saved answer already allows.
+            // A failed step still requests ads (the SDK uses the saved status); a clear "no" from Google stays off.
             if (allowed || !consentManager.canRequestAdsNow()) applyConsent(allowed)
         }
         // Returning users already hold an answer; do not make them wait for the network.
@@ -129,19 +138,24 @@ class AdsManager @Inject constructor(
             return
         }
         val now = System.currentTimeMillis()
-        if (shownThisSession >= MAX_PER_SESSION) return
-        if (shownToday() >= MAX_PER_DAY) return
-        if (now - prefs.getLong(KEY_LAST_SHOWN, 0L) < MIN_GAP_MS) return
+        if (lastReviewAt > 0L && now - lastReviewAt < com.zdmgold.cleankoach.core.review.ReviewPolicy.AD_QUIET_MS) return
+        val recent = AdPacing.parseTimes(prefs.getString(KEY_RECENT, null))
+        if (!AdPacing.canShow(now, recent, shownToday(), shownThisSession)) return
 
         showing = true
         interstitial = null
         ad.fullScreenContentCallback = object : FullScreenContentCallback() {
             override fun onAdShowedFullScreenContent() {
                 shownThisSession += 1
+                val shownAt = System.currentTimeMillis()
+                val recent = AdPacing.pruned(
+                    shownAt, AdPacing.parseTimes(prefs.getString(KEY_RECENT, null)) + shownAt
+                )
                 prefs.edit()
                     .putString(KEY_DAY, today())
                     .putInt(KEY_TODAY, shownToday() + 1)
-                    .putLong(KEY_LAST_SHOWN, System.currentTimeMillis())
+                    .putLong(KEY_LAST_SHOWN, shownAt)
+                    .putString(KEY_RECENT, recent.joinToString(","))
                     .apply()
             }
 

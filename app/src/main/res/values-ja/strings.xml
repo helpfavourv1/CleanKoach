@@ -216,4 +216,8 @@
     <string name="home_cleanup_done_items">%1$d件を削除しました。キャッシュを消去しました。</string>
     <string name="home_cleanup_done_cache">キャッシュを消去しました。ゴミ箱は空でした。</string>
     <string name="delete_bar_android_note">Androidが確認を求めます。</string>
+    <string name="review_card_title">CleanKoachを気に入っていただけましたか？</string>
+    <string name="review_card_body">評価は、ほかの人がアプリを見つける助けになります。</string>
+    <string name="review_card_action">評価する</string>
+    <string name="review_card_dismiss">閉じる</string>
 </resources>

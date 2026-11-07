@@ -21,6 +21,7 @@ data class HomeUiState(
     val awaitingAndroid: Boolean = false,
     val cleanUpResultVisible: Boolean = false,
     val reviewRequested: Boolean = false,
+    val reviewCardVisible: Boolean = false,
     val nothingToClean: Boolean = false,
     val lastCleanupResult: CleanUpSummary? = null,
     val mediaDisclosureVisible: Boolean = false

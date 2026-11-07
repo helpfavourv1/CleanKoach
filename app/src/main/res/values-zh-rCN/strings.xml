@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">已移除 %1$d 项。缓存已清除。</string>
     <string name="home_cleanup_done_cache">缓存已清除。回收站本来就是空的。</string>
     <string name="delete_bar_android_note">Android 会请你确认。</string>
+    <string name="review_card_title">喜欢 CleanKoach 吗？</string>
+    <string name="review_card_body">您的评分能帮助更多人发现这款应用。</string>
+    <string name="review_card_action">去评分</string>
+    <string name="review_card_dismiss">关闭</string>
 </resources>

@@ -8,6 +8,7 @@ import com.zdmgold.cleankoach.core.data.prefs.ConsentDataStore
 import com.zdmgold.cleankoach.core.data.repository.MediaRepository
 import com.zdmgold.cleankoach.core.data.repository.SettingsRepository
 import com.zdmgold.cleankoach.core.domain.model.StorageStats
+import com.zdmgold.cleankoach.core.review.ReviewPolicy
 import com.zdmgold.cleankoach.core.util.FormatUtils
 import com.zdmgold.cleankoach.core.media.PermissionChecker
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -27,6 +28,11 @@ class HomeViewModel @Inject constructor(
     private val permissionChecker: PermissionChecker,
     private val settingsRepository: SettingsRepository
 ) : ViewModel() {
+
+    companion object {
+        /** The rate card appears at most once per app launch (process). */
+        @Volatile private var reviewCardShownThisLaunch = false
+    }
 
     private var cleanupBefore: StorageStats? = null
     private var cleanupStartedAt = 0L
@@ -145,8 +151,10 @@ class HomeViewModel @Inject constructor(
             (before.trashCount - after.trashCount).coerceAtLeast(0)
         } else 0
         cleanupBefore = null
-        val promptReview = runCatching { settingsRepository.recordCleanupAndShouldPromptReview() }
-            .getOrDefault(false)
+        runCatching { settingsRepository.recordCleanup() }
+        val snapshot = runCatching { settingsRepository.reviewSnapshot() }.getOrNull()
+        // The ad check is repeated by the screen right before the prompt launches.
+        val promptReview = snapshot?.let { ReviewPolicy.shouldAutoPrompt(it, adQuiet = true) } ?: false
         // Keep the clean-up animation on screen long enough to be seen; the numbers stay real.
         val shown = SystemClock.elapsedRealtime() - cleanupStartedAt
         if (shown < MIN_CLEANUP_MS) delay(MIN_CLEANUP_MS - shown)
@@ -170,8 +178,35 @@ class HomeViewModel @Inject constructor(
         _state.update { it.copy(nothingToClean = false) }
     }
 
-    fun onReviewHandled() {
+    /** [launched] true only when the prompt really started; otherwise it stays eligible next time. */
+    fun onReviewHandled(launched: Boolean) {
         _state.update { it.copy(reviewRequested = false) }
+        if (launched) viewModelScope.launch { runCatching { settingsRepository.markAutoPrompted() } }
+    }
+
+    /** Called when Home is idle and no ad is on screen. Shows the rate card if the rules allow it. */
+    fun evaluateReviewCard(adQuiet: Boolean) {
+        val s = _state.value
+        if (s.reviewCardVisible || reviewCardShownThisLaunch) return
+        if (!s.mediaPermissionGranted || s.scanning || s.cleanUpResultVisible || s.mediaDisclosureVisible) return
+        viewModelScope.launch {
+            val snapshot = runCatching { settingsRepository.reviewSnapshot() }.getOrNull() ?: return@launch
+            if (ReviewPolicy.shouldShowCard(snapshot, System.currentTimeMillis(), adQuiet) && !reviewCardShownThisLaunch) {
+                reviewCardShownThisLaunch = true
+                runCatching { settingsRepository.markReviewCardShown() }
+                _state.update { it.copy(reviewCardVisible = true) }
+            }
+        }
+    }
+
+    fun onReviewCardDismissed() {
+        _state.update { it.copy(reviewCardVisible = false) }
+        viewModelScope.launch { runCatching { settingsRepository.markReviewCardDismissed() } }
+    }
+
+    fun onReviewCardRated() {
+        _state.update { it.copy(reviewCardVisible = false) }
+        viewModelScope.launch { runCatching { settingsRepository.markReviewResolved() } }
     }
 
     fun onResultDismissed() {

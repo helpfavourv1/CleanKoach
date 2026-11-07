@@ -52,28 +52,18 @@ class ConsentManager @Inject constructor(
             params,
             {
                 UserMessagingPlatform.loadAndShowConsentFormIfRequired(activity) { formError ->
-                    if (formError != null) {
-                        scope.launch {
-                            consentDataStore.setUmpResolved(true)
-                            consentDataStore.setUmpCanRequestAds(false)
-                        }
-                        onComplete(false)
-                    } else {
-                        val canRequest = info.canRequestAds()
-                        scope.launch {
-                            consentDataStore.setUmpResolved(true)
-                            consentDataStore.setUmpCanRequestAds(canRequest)
-                        }
-                        onComplete(canRequest)
+                    val failed = formError != null
+                    val allowed = consentOutcome(failed, if (failed) false else info.canRequestAds())
+                    scope.launch {
+                        consentDataStore.setUmpResolved(true)
+                        if (!failed) consentDataStore.setUmpCanRequestAds(allowed)
                     }
+                    onComplete(allowed)
                 }
             },
             {
-                scope.launch {
-                    consentDataStore.setUmpResolved(true)
-                    consentDataStore.setUmpCanRequestAds(false)
-                }
-                onComplete(false)
+                scope.launch { consentDataStore.setUmpResolved(true) }
+                onComplete(consentOutcome(true, false))
             }
         )
     }

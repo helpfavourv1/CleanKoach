@@ -102,7 +102,7 @@
    "Reklamlar",
    "CleanKoach, Google AdMob aracılığıyla reklam gösterir: ana ekranın, ayarlar ekranının ve araç ekranlarının altında küçük bir banner ve temizleme gibi bir işlemi bitirdikten sonra ara sıra tam ekran bir reklam. Reklamlar Pro satın alma ekranında, bir tarama sürerken veya bir izin ya da onay iletişim kutusunun üzerinde asla görünmez. Reklamlar sunulduğunda Google, Google'ın gizlilik politikasında açıklandığı gibi reklam kimliğinizi ve standart reklam etkileşim verilerini toplayabilir. Uygulamada hesap bulunmadığından bu veri hiçbir hesapla ilişkilendirilmez.",
    "Pro'ya geçerseniz tüm reklamlar kaldırılır ve uygulama o andan itibaren reklam kimliği toplamaz.",
-   "Avrupa Ekonomik Alanı ve Birleşik Krallık'ta, herhangi bir reklam sunulmadan önce Google'ın User Messaging Platform'u aracılığıyla onayınız istenir. Tercihinizi uygulamanın Gizlilik seçeneklerinden istediğiniz zaman değiştirebilirsiniz.",
+   "Avrupa Ekonomik Alanı ve Birleşik Krallık'ta, herhangi bir reklam sunulmadan önce Google'ın User Messaging Platform'u aracılığıyla onayınız istenir. Tercihinizi uygulamanın Gizlilik seçeneklerinden istediğiniz zaman değiştirebilirsiniz. Onay formu gösterilemezse, örneğin bağlantı olmadığı veya bir hata oluştuğu için, uygulama yine de Google'dan reklam ister ve Google en son kaydettiğiniz tercihi uygular.",
    "Satın alımlar ve puanlamalar",
    "Tek seferlik Pro satın alımı tamamen Google Play tarafından işlenir. CleanKoach ödeme bilgilerinizi asla görmez; yalnızca Pro'nun etkin olup olmadığını Google Play'den öğrenir. Birkaç temizlik tamamladıktan sonra uygulama, Google Play'den puanlama isteğini göstermesini isteyebilir. Orada girdiğiniz şeyi CleanKoach değil, Google işler.",
    "Üçüncü taraf hizmetler",

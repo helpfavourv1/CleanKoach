@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">%1$d مورد حذف شد. حافظه نهان پاک شد.</string>
     <string name="home_cleanup_done_cache">حافظه نهان پاک شد. سطل زباله از قبل خالی بود.</string>
     <string name="delete_bar_android_note">Android از شما تأیید می‌خواهد.</string>
+    <string name="review_card_title">از CleanKoach راضی هستید؟</string>
+    <string name="review_card_body">امتیاز شما به دیگران کمک می‌کند برنامه را پیدا کنند.</string>
+    <string name="review_card_action">امتیاز دهید</string>
+    <string name="review_card_dismiss">بستن</string>
 </resources>

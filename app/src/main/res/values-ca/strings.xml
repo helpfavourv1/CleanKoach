@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">S’han eliminat %1$d elements. Memòria cau esborrada.</string>
     <string name="home_cleanup_done_cache">Memòria cau esborrada. La paperera ja era buida.</string>
     <string name="delete_bar_android_note">Android et demanarà que ho confirmis.</string>
+    <string name="review_card_title">T’agrada CleanKoach?</string>
+    <string name="review_card_body">Una valoració ajuda altres persones a trobar l’aplicació.</string>
+    <string name="review_card_action">Valora</string>
+    <string name="review_card_dismiss">Tanca</string>
 </resources>

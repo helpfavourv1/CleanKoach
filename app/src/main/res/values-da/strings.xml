@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">%1$d elementer fjernet. Cachen er ryddet.</string>
     <string name="home_cleanup_done_cache">Cachen er ryddet. Papirkurven var allerede tom.</string>
     <string name="delete_bar_android_note">Android beder dig om at bekræfte.</string>
+    <string name="review_card_title">Kan du lide CleanKoach?</string>
+    <string name="review_card_body">En bedømmelse hjælper andre med at finde appen.</string>
+    <string name="review_card_action">Bedøm</string>
+    <string name="review_card_dismiss">Luk</string>
 </resources>

@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">%1$d elemente șterse. Memoria cache a fost golită.</string>
     <string name="home_cleanup_done_cache">Cache golit. Coșul era deja gol.</string>
     <string name="delete_bar_android_note">Android vă va cere confirmarea.</string>
+    <string name="review_card_title">Îți place CleanKoach?</string>
+    <string name="review_card_body">O evaluare îi ajută pe alții să găsească aplicația.</string>
+    <string name="review_card_action">Evaluează</string>
+    <string name="review_card_dismiss">Închide</string>
 </resources>

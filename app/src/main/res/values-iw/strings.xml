@@ -240,4 +240,8 @@
     <string name="home_cleanup_done_items">%1$d פריטים הוסרו. המטמון נוקה.</string>
     <string name="home_cleanup_done_cache">המטמון נוקה. הפח כבר היה ריק.</string>
     <string name="delete_bar_android_note">Android יבקש ממך לאשר.</string>
+    <string name="review_card_title">נהנים מ-CleanKoach?</string>
+    <string name="review_card_body">דירוג עוזר לאנשים אחרים למצוא את האפליקציה.</string>
+    <string name="review_card_action">דרגו</string>
+    <string name="review_card_dismiss">סגירה</string>
 </resources>
