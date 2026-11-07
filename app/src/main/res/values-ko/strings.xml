@@ -56,15 +56,15 @@
     <string name="large_files_selection_line">%1$d개 선택 · %2$s</string>
 
     <string name="duplicates_title">중복</string>
-    <string name="duplicates_group_count_line">%1$d개 그룹 · %2$s 복구 가능</string>
+    <string name="duplicates_group_count_line">%1$d개 그룹 · %2$s 확보 가능</string>
     <string name="duplicates_empty_title">중복 없음</string>
     <string name="duplicates_empty_message">모든 사진, 동영상, 오디오가 고유합니다.</string>
     <string name="duplicates_identical_items">%1$d개 동일 항목</string>
-    <string name="duplicates_reclaimable_label">%1$s 복구 가능</string>
+    <string name="duplicates_reclaimable_label">%1$s 확보 가능</string>
     <string name="duplicates_keep_label">유지</string>
 
     <string name="similar_title">비슷한 사진</string>
-    <string name="similar_group_count_line">%1$d개 그룹 · %2$s 복구 가능</string>
+    <string name="similar_group_count_line">%1$d개 그룹 · %2$s 확보 가능</string>
     <string name="similar_empty_title">비슷한 사진 없음</string>
     <string name="similar_empty_message">거의 중복인 항목이 없습니다.</string>
     <string name="similar_shot_count">%1$d장의 비슷한 사진</string>

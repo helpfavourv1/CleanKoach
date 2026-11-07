@@ -56,15 +56,15 @@
     <string name="large_files_selection_line">%1$d sélectionnés · %2$s</string>
 
     <string name="duplicates_title">Doublons</string>
-    <string name="duplicates_group_count_line">%1$d groupes · %2$s récupérables</string>
+    <string name="duplicates_group_count_line">%1$d groupes · %2$s à libérer</string>
     <string name="duplicates_empty_title">Aucun doublon</string>
     <string name="duplicates_empty_message">Chaque photo, vidéo et audio est unique.</string>
     <string name="duplicates_identical_items">%1$d éléments identiques</string>
-    <string name="duplicates_reclaimable_label">%1$s récupérables</string>
+    <string name="duplicates_reclaimable_label">%1$s à libérer</string>
     <string name="duplicates_keep_label">Garder</string>
 
     <string name="similar_title">Photos similaires</string>
-    <string name="similar_group_count_line">%1$d groupes · %2$s récupérables</string>
+    <string name="similar_group_count_line">%1$d groupes · %2$s à libérer</string>
     <string name="similar_empty_title">Aucune photo similaire</string>
     <string name="similar_empty_message">Rien ici ne ressemble à un quasi-doublon.</string>
     <string name="similar_shot_count">%1$d prises similaires</string>

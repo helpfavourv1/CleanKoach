@@ -19,7 +19,7 @@
     <string name="home_ring_caption">ขนาดถังขยะ</string>
     <string name="home_ring_sublabel">รูปภาพและวิดีโอที่ลบแล้ว รวมถึงแคชของแอป</string>
     <string name="home_storage_line">ใช้ไป %1$s จาก %2$s · %3$d%%</string>
-    <string name="home_button_cleanup">ล้างข้อมูล</string>
+    <string name="home_button_cleanup">ทำความสะอาด</string>
     <string name="home_button_scanning">กำลังสแกน…</string>
     <string name="home_button_allow_access">อนุญาตการเข้าถึง</string>
     <string name="home_button_nothing_to_clean">ไม่มีสิ่งที่ต้องล้าง</string>

@@ -188,7 +188,7 @@
     <string name="pro_active_body">A hirdetések el lettek távolítva. Köszönjük, hogy támogatja a CleanKoach-ot.</string>
     <string name="pro_upsell_title">Hirdetések eltávolítása</string>
     <string name="pro_upsell_body">A Pro minden hirdetést eltávolít. Minden funkció ingyenes.</string>
-    <string name="pro_button_upgrade">Frissítés</string>
+    <string name="pro_button_upgrade">Váltás Pro-ra</string>
     <string name="pro_button_restore">Vásárlás visszaállítása</string>
 
     <!-- Settings — About -->
@@ -205,7 +205,7 @@
     <string name="channel_storage_description">Riasztások, ha az eszköz tárhelye fogyóban van.</string>
     <string name="notification_cleanup_title">Ideje tisztítani</string>
     <string name="notification_cleanup_body">Nézze át a nagy fájlokat, duplikátumokat és képernyőképeket.</string>
-    <string name="notification_storage_title">A tárhely %1$d%%-ban megtelt</string>
+    <string name="notification_storage_title">A tárhely %1$d%%-a megtelt</string>
     <string name="notification_storage_body">Nézze át a nagy fájlokat a hely felszabadításához.</string>
 
     <!-- Ad -->
@@ -225,7 +225,7 @@
     <string name="support_mail_body">Android-verzió: %1$s\nEszköz: %2$s\n\nKérjük, írja le a problémát alább:\n\n</string>
     <string name="pro_unavailable">Jelenleg nem érhető el</string>
     <string name="pro_pending">A fizetése függőben van. A Pro azonnal feloldódik, amint a fizetés befejeződik.</string>
-    <string name="pro_button_upgrade_price">Frissítés: %1$s</string>
+    <string name="pro_button_upgrade_price">Váltás Pro-ra: %1$s</string>
     <string name="duplicates_delete_line">%1$d törlésre · %2$s</string>
     <string name="network_speed_error">A tesztkiszolgáló nem érhető el. Ellenőrizze a kapcsolatot, és próbálja újra.</string>
     <string name="home_partial_access_message">Korlátozott fotóhozzáférés. A CleanKoach csak a kiválasztott fotókat és videókat látja.</string>
@@ -236,7 +236,7 @@
     <string name="settings_privacy_options">Hirdetési adatvédelmi beállítások</string>
     <string name="home_cleanup_caption_running">Tisztítás…</string>
     <string name="home_cleanup_running">Gyorsítótár és kuka ürítése…</string>
-    <string name="home_cleanup_awaiting_android">Koppintson az Engedélyezés gombra. Írhat „fotókat” is.</string>
+    <string name="home_cleanup_awaiting_android">Koppintson az Engedélyezés gombra az Android ablakában. Ott „fotók” is szerepelhet.</string>
     <string name="home_cleanup_done_items">%1$d elem eltávolítva. Gyorsítótár törölve.</string>
     <string name="home_cleanup_done_cache">Gyorsítótár törölve. A kuka már üres volt.</string>
     <string name="delete_bar_android_note">Az Android megerősítést fog kérni.</string>

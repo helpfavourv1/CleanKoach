@@ -66,16 +66,16 @@
 
     <!-- Duplicates screen -->
     <string name="duplicates_title">Dubluri</string>
-    <string name="duplicates_group_count_line">%1$d grupuri · %2$s de recuperat</string>
+    <string name="duplicates_group_count_line">%1$d grupuri · %2$s de eliberat</string>
     <string name="duplicates_empty_title">Nicio dublură</string>
     <string name="duplicates_empty_message">Fiecare fotografie, videoclip și fișier audio este unic.</string>
     <string name="duplicates_identical_items">%1$d elemente identice</string>
-    <string name="duplicates_reclaimable_label">%1$s de recuperat</string>
+    <string name="duplicates_reclaimable_label">%1$s de eliberat</string>
     <string name="duplicates_keep_label">Păstrează</string>
 
     <!-- Similar photos screen -->
     <string name="similar_title">Fotografii similare</string>
-    <string name="similar_group_count_line">%1$d grupuri · %2$s de recuperat</string>
+    <string name="similar_group_count_line">%1$d grupuri · %2$s de eliberat</string>
     <string name="similar_empty_title">Nicio fotografie similară</string>
     <string name="similar_empty_message">Nimic de aici nu seamănă cu o dublură aproximativă.</string>
     <string name="similar_shot_count">%1$d cadre similare</string>
@@ -236,8 +236,8 @@
     <string name="settings_privacy_options">Opțiuni de confidențialitate pentru reclame</string>
     <string name="home_cleanup_caption_running">Se curăță…</string>
     <string name="home_cleanup_running">Se șterg memoria cache și coșul…</string>
-    <string name="home_cleanup_awaiting_android">Atinge Permite în mesajul Android. Poate scrie „fotografii”.</string>
+    <string name="home_cleanup_awaiting_android">Atingeți Permite în mesajul Android. Poate scrie „fotografii”.</string>
     <string name="home_cleanup_done_items">%1$d elemente șterse. Memoria cache a fost golită.</string>
     <string name="home_cleanup_done_cache">Cache golit. Coșul era deja gol.</string>
-    <string name="delete_bar_android_note">Android îți va cere confirmarea.</string>
+    <string name="delete_bar_android_note">Android vă va cere confirmarea.</string>
 </resources>

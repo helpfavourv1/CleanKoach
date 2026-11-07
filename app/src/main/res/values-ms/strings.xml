@@ -66,16 +66,16 @@
 
     <!-- Duplicates screen -->
     <string name="duplicates_title">Pendua</string>
-    <string name="duplicates_group_count_line">%1$d kumpulan · %2$s boleh dituntut semula</string>
+    <string name="duplicates_group_count_line">%1$d kumpulan · %2$s boleh dibebaskan</string>
     <string name="duplicates_empty_title">Tiada pendua</string>
     <string name="duplicates_empty_message">Setiap fail foto, video dan audio adalah unik.</string>
     <string name="duplicates_identical_items">%1$d item serupa</string>
-    <string name="duplicates_reclaimable_label">%1$s boleh dituntut semula</string>
+    <string name="duplicates_reclaimable_label">%1$s boleh dibebaskan</string>
     <string name="duplicates_keep_label">Simpan</string>
 
     <!-- Similar photos screen -->
     <string name="similar_title">Foto serupa</string>
-    <string name="similar_group_count_line">%1$d kumpulan · %2$s boleh dituntut semula</string>
+    <string name="similar_group_count_line">%1$d kumpulan · %2$s boleh dibebaskan</string>
     <string name="similar_empty_title">Tiada foto serupa</string>
     <string name="similar_empty_message">Tiada apa yang kelihatan hampir sama.</string>
     <string name="similar_shot_count">%1$d gambar serupa</string>

@@ -49,14 +49,14 @@
     <string name="large_files_empty_message">Maayos ang iyong library. Walang malaking susuriin.</string>
     <string name="large_files_selection_line">%1$d ang napili · %2$s</string>
     <string name="duplicates_title">Mga duplicate</string>
-    <string name="duplicates_group_count_line">%1$d grupo · %2$s ang mababawi</string>
+    <string name="duplicates_group_count_line">%1$d grupo · %2$s ang maaaring mabakante</string>
     <string name="duplicates_empty_title">Walang duplicate</string>
     <string name="duplicates_empty_message">Natatangi ang bawat larawan, video at audio file.</string>
     <string name="duplicates_identical_items">%1$d magkaparehong item</string>
-    <string name="duplicates_reclaimable_label">%1$s ang mababawi</string>
+    <string name="duplicates_reclaimable_label">%1$s ang maaaring mabakante</string>
     <string name="duplicates_keep_label">Itago</string>
     <string name="similar_title">Magkakahawig na larawan</string>
-    <string name="similar_group_count_line">%1$d grupo · %2$s ang mababawi</string>
+    <string name="similar_group_count_line">%1$d grupo · %2$s ang maaaring mabakante</string>
     <string name="similar_empty_title">Walang magkakahawig na larawan</string>
     <string name="similar_empty_message">Walang mukhang halos kapareho dito.</string>
     <string name="similar_shot_count">%1$d magkakahawig na kuha</string>

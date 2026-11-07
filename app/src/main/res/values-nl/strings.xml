@@ -66,16 +66,16 @@
 
     <!-- Duplicates screen -->
     <string name="duplicates_title">Dubbele bestanden</string>
-    <string name="duplicates_group_count_line">%1$d groepen · %2$s terug te winnen</string>
+    <string name="duplicates_group_count_line">%1$d groepen · %2$s vrij te maken</string>
     <string name="duplicates_empty_title">Geen dubbele bestanden</string>
     <string name="duplicates_empty_message">Elke foto, video en audiobestand is uniek.</string>
     <string name="duplicates_identical_items">%1$d identieke items</string>
-    <string name="duplicates_reclaimable_label">%1$s terug te winnen</string>
+    <string name="duplicates_reclaimable_label">%1$s vrij te maken</string>
     <string name="duplicates_keep_label">Bewaren</string>
 
     <!-- Similar photos screen -->
     <string name="similar_title">Vergelijkbare foto\'s</string>
-    <string name="similar_group_count_line">%1$d groepen · %2$s terug te winnen</string>
+    <string name="similar_group_count_line">%1$d groepen · %2$s vrij te maken</string>
     <string name="similar_empty_title">Geen vergelijkbare foto\'s</string>
     <string name="similar_empty_message">Niets lijkt op een bijna-duplicaat.</string>
     <string name="similar_shot_count">%1$d vergelijkbare opnamen</string>

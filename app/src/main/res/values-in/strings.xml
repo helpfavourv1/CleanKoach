@@ -56,15 +56,15 @@
     <string name="large_files_selection_line">%1$d dipilih · %2$s</string>
 
     <string name="duplicates_title">Duplikat</string>
-    <string name="duplicates_group_count_line">%1$d grup · %2$s dapat diperoleh kembali</string>
+    <string name="duplicates_group_count_line">%1$d grup · %2$s dapat dibebaskan</string>
     <string name="duplicates_empty_title">Tidak ada duplikat</string>
     <string name="duplicates_empty_message">Setiap foto, video, dan audio unik.</string>
     <string name="duplicates_identical_items">%1$d item identik</string>
-    <string name="duplicates_reclaimable_label">%1$s dapat diperoleh kembali</string>
+    <string name="duplicates_reclaimable_label">%1$s dapat dibebaskan</string>
     <string name="duplicates_keep_label">Simpan</string>
 
     <string name="similar_title">Foto serupa</string>
-    <string name="similar_group_count_line">%1$d grup · %2$s dapat diperoleh kembali</string>
+    <string name="similar_group_count_line">%1$d grup · %2$s dapat dibebaskan</string>
     <string name="similar_empty_title">Tidak ada foto serupa</string>
     <string name="similar_empty_message">Tidak ada yang terlihat hampir duplikat di sini.</string>
     <string name="similar_shot_count">%1$d foto serupa</string>

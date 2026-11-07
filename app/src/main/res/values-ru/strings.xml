@@ -56,15 +56,15 @@
     <string name="large_files_selection_line">Выбрано %1$d · %2$s</string>
 
     <string name="duplicates_title">Дубликаты</string>
-    <string name="duplicates_group_count_line">%1$d групп · %2$s можно вернуть</string>
+    <string name="duplicates_group_count_line">%1$d групп · %2$s можно освободить</string>
     <string name="duplicates_empty_title">Дубликатов нет</string>
     <string name="duplicates_empty_message">Каждое фото, видео и аудио уникально.</string>
     <string name="duplicates_identical_items">%1$d идентичных элементов</string>
-    <string name="duplicates_reclaimable_label">%1$s можно вернуть</string>
+    <string name="duplicates_reclaimable_label">%1$s можно освободить</string>
     <string name="duplicates_keep_label">Оставить</string>
 
     <string name="similar_title">Похожие фото</string>
-    <string name="similar_group_count_line">%1$d групп · %2$s можно вернуть</string>
+    <string name="similar_group_count_line">%1$d групп · %2$s можно освободить</string>
     <string name="similar_empty_title">Похожих фото нет</string>
     <string name="similar_empty_message">Ничего не выглядит почти дубликатом.</string>
     <string name="similar_shot_count">%1$d похожих кадров</string>
@@ -169,7 +169,7 @@
     <string name="pro_active_body">Реклама отключена. Спасибо за поддержку CleanKoach.</string>
     <string name="pro_upsell_title">Убрать рекламу</string>
     <string name="pro_upsell_body">Pro убирает всю рекламу. Все функции бесплатны.</string>
-    <string name="pro_button_upgrade">Обновить</string>
+    <string name="pro_button_upgrade">Перейти на Pro</string>
     <string name="pro_button_restore">Восстановить покупку</string>
 
     <string name="about_title">О приложении</string>

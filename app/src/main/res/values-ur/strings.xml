@@ -66,16 +66,16 @@
 
     <!-- Duplicates screen -->
     <string name="duplicates_title">ڈپلیکیٹس</string>
-    <string name="duplicates_group_count_line">%1$d گروپس · %2$s قابلِ بازیافت</string>
+    <string name="duplicates_group_count_line">%1$d گروپس · %2$s خالی کرنے کے قابل</string>
     <string name="duplicates_empty_title">کوئی ڈپلیکیٹ نہیں</string>
     <string name="duplicates_empty_message">ہر تصویر، ویڈیو اور آڈیو فائل منفرد ہے۔</string>
     <string name="duplicates_identical_items">%1$d ایک جیسے آئٹمز</string>
-    <string name="duplicates_reclaimable_label">%1$s قابلِ بازیافت</string>
+    <string name="duplicates_reclaimable_label">%1$s خالی کرنے کے قابل</string>
     <string name="duplicates_keep_label">رکھیں</string>
 
     <!-- Similar photos screen -->
     <string name="similar_title">ملتی جلتی تصاویر</string>
-    <string name="similar_group_count_line">%1$d گروپس · %2$s قابلِ بازیافت</string>
+    <string name="similar_group_count_line">%1$d گروپس · %2$s خالی کرنے کے قابل</string>
     <string name="similar_empty_title">کوئی ملتی جلتی تصویر نہیں</string>
     <string name="similar_empty_message">یہاں کوئی چیز ڈپلیکیٹ جیسی نہیں لگتی۔</string>
     <string name="similar_shot_count">%1$d ملتی جلتی تصاویر</string>

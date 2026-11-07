@@ -48,14 +48,14 @@
     <string name="large_files_empty_message">તમારી લાઇબ્રેરી વ્યવસ્થિત લાગે છે. તપાસવા જેવું કંઈ મોટું નથી.</string>
     <string name="large_files_selection_line">%1$d પસંદ કર્યા · %2$s</string>
     <string name="duplicates_title">ડુપ્લિકેટ</string>
-    <string name="duplicates_group_count_line">%1$d જૂથ · %2$s પાછા મેળવી શકાય</string>
+    <string name="duplicates_group_count_line">%1$d જૂથ · %2$s ખાલી કરી શકાય</string>
     <string name="duplicates_empty_title">કોઈ ડુપ્લિકેટ નથી</string>
     <string name="duplicates_empty_message">દરેક ફોટો, વીડિયો અને ઑડિયો ફાઇલ અનન્ય છે.</string>
     <string name="duplicates_identical_items">%1$d એકસરખી આઇટમ</string>
-    <string name="duplicates_reclaimable_label">%1$s પાછા મેળવી શકાય</string>
+    <string name="duplicates_reclaimable_label">%1$s ખાલી કરી શકાય</string>
     <string name="duplicates_keep_label">રાખો</string>
     <string name="similar_title">સમાન ફોટા</string>
-    <string name="similar_group_count_line">%1$d જૂથ · %2$s પાછા મેળવી શકાય</string>
+    <string name="similar_group_count_line">%1$d જૂથ · %2$s ખાલી કરી શકાય</string>
     <string name="similar_empty_title">કોઈ સમાન ફોટા નથી</string>
     <string name="similar_empty_message">અહીં કંઈ પણ લગભગ-ડુપ્લિકેટ જેવું દેખાતું નથી.</string>
     <string name="similar_shot_count">%1$d સમાન ફોટા</string>

@@ -66,16 +66,16 @@
 
     <!-- Duplicates screen -->
     <string name="duplicates_title">Duplikaty</string>
-    <string name="duplicates_group_count_line">Grupy: %1$d · do odzyskania %2$s</string>
+    <string name="duplicates_group_count_line">Grupy: %1$d · do zwolnienia %2$s</string>
     <string name="duplicates_empty_title">Brak duplikatów</string>
     <string name="duplicates_empty_message">Każde zdjęcie, film i plik audio jest unikalny.</string>
     <string name="duplicates_identical_items">Identyczne elementy: %1$d</string>
-    <string name="duplicates_reclaimable_label">Do odzyskania: %1$s</string>
+    <string name="duplicates_reclaimable_label">Do zwolnienia: %1$s</string>
     <string name="duplicates_keep_label">Zachowaj</string>
 
     <!-- Similar photos screen -->
     <string name="similar_title">Podobne zdjęcia</string>
-    <string name="similar_group_count_line">Grupy: %1$d · do odzyskania %2$s</string>
+    <string name="similar_group_count_line">Grupy: %1$d · do zwolnienia %2$s</string>
     <string name="similar_empty_title">Brak podobnych zdjęć</string>
     <string name="similar_empty_message">Nic nie przypomina prawie identycznego zdjęcia.</string>
     <string name="similar_shot_count">Podobne ujęcia: %1$d</string>
@@ -84,7 +84,7 @@
     <!-- Screenshots screen -->
     <string name="screenshots_title">Zrzuty ekranu</string>
     <string name="screenshots_empty_title">Brak zrzutów ekranu</string>
-    <string name="screenshots_empty_message">Na tym urządzeniu nic jeszcze nie zrobiono.</string>
+    <string name="screenshots_empty_message">Na tym urządzeniu nie wykonano jeszcze żadnych zrzutów ekranu.</string>
 
     <!-- Photo optimizer -->
     <string name="photo_optimizer_title">Optymalizator zdjęć</string>

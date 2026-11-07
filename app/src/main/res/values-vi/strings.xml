@@ -54,7 +54,7 @@
     <string name="cleanup_result_freed">Đã giải phóng</string>
 
     <!-- Media access disclosure -->
-    <string name="media_disclosure_title">Cho phép truy cập phương tiện</string>
+    <string name="media_disclosure_title">Cho phép truy cập tệp đa phương tiện</string>
     <string name="media_disclosure_body">Để tìm tệp lớn, tệp trùng lặp và ảnh tương tự, ứng dụng cần quyền truy cập ảnh, video và âm thanh của bạn. Tệp được phân tích ngay trên thiết bị và không bao giờ được tải lên.</string>
 
     <!-- Large files screen -->
@@ -193,7 +193,7 @@
 
     <!-- Settings — About -->
     <string name="about_title">Giới thiệu</string>
-    <string name="about_body">Ứng dụng dọn dẹp bộ nhớ Android thuần. Mọi thứ chạy ngay trên thiết bị. Không có phương tiện, dữ liệu sử dụng hay kết quả quét nào được tải lên.</string>
+    <string name="about_body">Ứng dụng dọn dẹp bộ nhớ Android thuần. Mọi thứ chạy ngay trên thiết bị. Không có tệp đa phương tiện, dữ liệu sử dụng hay kết quả quét nào được tải lên.</string>
     <string name="about_built_with">Xây dựng bằng Kotlin, Jetpack Compose và Material 3.</string>
 
     <!-- Settings — Language names -->

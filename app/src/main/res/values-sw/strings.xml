@@ -13,7 +13,7 @@
     <string name="action_allow_access">Ruhusu ufikiaji</string>
     <string name="action_open_settings">Fungua mipangilio</string>
     <string name="action_all">Zote</string>
-    <string name="action_clear">Futa</string>
+    <string name="action_clear">Ondoa uteuzi</string>
 
     <!-- Home — ring and cleanup -->
     <string name="home_ring_caption">Ukubwa wa tupio</string>

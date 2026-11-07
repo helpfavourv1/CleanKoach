@@ -56,15 +56,15 @@
     <string name="large_files_selection_line">%1$d selezionati · %2$s</string>
 
     <string name="duplicates_title">Duplicati</string>
-    <string name="duplicates_group_count_line">%1$d gruppi · %2$s recuperabili</string>
+    <string name="duplicates_group_count_line">%1$d gruppi · %2$s da liberare</string>
     <string name="duplicates_empty_title">Nessun duplicato</string>
     <string name="duplicates_empty_message">Ogni foto, video e audio è unico.</string>
     <string name="duplicates_identical_items">%1$d elementi identici</string>
-    <string name="duplicates_reclaimable_label">%1$s recuperabili</string>
+    <string name="duplicates_reclaimable_label">%1$s da liberare</string>
     <string name="duplicates_keep_label">Mantieni</string>
 
     <string name="similar_title">Foto simili</string>
-    <string name="similar_group_count_line">%1$d gruppi · %2$s recuperabili</string>
+    <string name="similar_group_count_line">%1$d gruppi · %2$s da liberare</string>
     <string name="similar_empty_title">Nessuna foto simile</string>
     <string name="similar_empty_message">Qui nulla sembra quasi duplicato.</string>
     <string name="similar_shot_count">%1$d scatti simili</string>
@@ -169,7 +169,7 @@
     <string name="pro_active_body">La pubblicità è rimossa. Grazie per supportare CleanKoach.</string>
     <string name="pro_upsell_title">Rimuovi pubblicità</string>
     <string name="pro_upsell_body">Pro rimuove tutti gli annunci. Tutte le funzioni sono gratuite.</string>
-    <string name="pro_button_upgrade">Aggiorna</string>
+    <string name="pro_button_upgrade">Passa a Pro</string>
     <string name="pro_button_restore">Ripristina acquisto</string>
 
     <string name="about_title">Informazioni</string>

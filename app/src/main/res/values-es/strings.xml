@@ -56,15 +56,15 @@
     <string name="large_files_selection_line">%1$d seleccionados · %2$s</string>
 
     <string name="duplicates_title">Duplicados</string>
-    <string name="duplicates_group_count_line">%1$d grupos · %2$s recuperables</string>
+    <string name="duplicates_group_count_line">%1$d grupos · %2$s liberables</string>
     <string name="duplicates_empty_title">Sin duplicados</string>
     <string name="duplicates_empty_message">Cada foto, vídeo y audio es único.</string>
     <string name="duplicates_identical_items">%1$d elementos idénticos</string>
-    <string name="duplicates_reclaimable_label">%1$s recuperables</string>
+    <string name="duplicates_reclaimable_label">%1$s liberables</string>
     <string name="duplicates_keep_label">Conservar</string>
 
     <string name="similar_title">Fotos similares</string>
-    <string name="similar_group_count_line">%1$d grupos · %2$s recuperables</string>
+    <string name="similar_group_count_line">%1$d grupos · %2$s liberables</string>
     <string name="similar_empty_title">Sin fotos similares</string>
     <string name="similar_empty_message">Aquí nada parece casi duplicado.</string>
     <string name="similar_shot_count">%1$d tomas similares</string>

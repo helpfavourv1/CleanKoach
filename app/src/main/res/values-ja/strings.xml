@@ -38,7 +38,7 @@
     <string name="tool_video_optimizer_title">動画最適化</string>
     <string name="tool_video_optimizer_desc">動画を圧縮して容量を節約。</string>
 
-    <string name="tool_activity_monitor_title">使用状況</string>
+    <string name="tool_activity_monitor_title">アクティビティモニター</string>
     <string name="tool_activity_monitor_badge">24 時間</string>
     <string name="tool_wifi_security_title">Wi-Fi セキュリティ</string>
     <string name="tool_wifi_security_badge">確認</string>
@@ -56,15 +56,15 @@
     <string name="large_files_selection_line">%1$d 選択 · %2$s</string>
 
     <string name="duplicates_title">重複</string>
-    <string name="duplicates_group_count_line">%1$d グループ · %2$s 回収可能</string>
+    <string name="duplicates_group_count_line">%1$d グループ · %2$s 解放可能</string>
     <string name="duplicates_empty_title">重複なし</string>
     <string name="duplicates_empty_message">すべての写真・動画・音声が固有です。</string>
     <string name="duplicates_identical_items">%1$d 個の同一項目</string>
-    <string name="duplicates_reclaimable_label">%1$s 回収可能</string>
+    <string name="duplicates_reclaimable_label">%1$s 解放可能</string>
     <string name="duplicates_keep_label">残す</string>
 
     <string name="similar_title">類似写真</string>
-    <string name="similar_group_count_line">%1$d グループ · %2$s 回収可能</string>
+    <string name="similar_group_count_line">%1$d グループ · %2$s 解放可能</string>
     <string name="similar_empty_title">類似写真なし</string>
     <string name="similar_empty_message">ほぼ重複に見えるものはありません。</string>
     <string name="similar_shot_count">%1$d 枚の類似ショット</string>
@@ -99,7 +99,7 @@
     <string name="video_preset_balanced">バランス</string>
     <string name="video_preset_small">小さいファイル</string>
 
-    <string name="activity_monitor_title">使用状況</string>
+    <string name="activity_monitor_title">アクティビティモニター</string>
     <string name="activity_monitor_no_access_title">使用状況へのアクセスが必要</string>
     <string name="activity_monitor_no_access_message">起動回数と前面時間を見るには、システム設定で使用状況へのアクセスを許可してください。</string>
     <string name="activity_monitor_empty_title">アクティビティなし</string>
@@ -107,7 +107,7 @@
     <string name="activity_monitor_launches">%1$d 回起動 · %2$s</string>
     <string name="activity_monitor_foreground">前面：%1$s</string>
     <string name="activity_monitor_disclosure_title">使用状況へのアクセス</string>
-    <string name="activity_monitor_disclosure_body">使用状況には使用状況へのアクセスが必要です。アプリは過去 24 時間に開いたアプリ、時刻、時間を読み取ります。このデータは端末上に残り、アップロードや共有はされません。</string>
+    <string name="activity_monitor_disclosure_body">アクティビティモニターには「使用状況へのアクセス」が必要です。アプリは過去 24 時間に開いたアプリ、時刻、時間を読み取ります。このデータは端末上に残り、アップロードや共有はされません。</string>
 
     <string name="wifi_security_title">Wi-Fi セキュリティ</string>
     <string name="wifi_check_internet_title">インターネット接続</string>
@@ -183,7 +183,7 @@
     <string name="channel_storage_description">端末のストレージが少ないときの警告。</string>
     <string name="notification_cleanup_title">クリーンアップの時間です</string>
     <string name="notification_cleanup_body">大きいファイル、重複、スクリーンショットを見直しましょう。</string>
-    <string name="notification_storage_title">ストレージが %1$d%% です</string>
+    <string name="notification_storage_title">ストレージが %1$d%% 使用されています</string>
     <string name="notification_storage_body">大きいファイルを見直して空きを作りましょう。</string>
 
     <string name="ad_placeholder_label">広告</string>

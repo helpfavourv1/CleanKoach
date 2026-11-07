@@ -66,16 +66,16 @@
 
     <!-- Duplicates screen -->
     <string name="duplicates_title">Διπλότυπα</string>
-    <string name="duplicates_group_count_line">%1$d ομάδες · %2$s προς ανάκτηση</string>
+    <string name="duplicates_group_count_line">%1$d ομάδες · %2$s προς απελευθέρωση</string>
     <string name="duplicates_empty_title">Κανένα διπλότυπο</string>
     <string name="duplicates_empty_message">Κάθε φωτογραφία, βίντεο και αρχείο ήχου είναι μοναδικό.</string>
     <string name="duplicates_identical_items">%1$d πανομοιότυπα στοιχεία</string>
-    <string name="duplicates_reclaimable_label">%1$s προς ανάκτηση</string>
+    <string name="duplicates_reclaimable_label">%1$s προς απελευθέρωση</string>
     <string name="duplicates_keep_label">Διατήρηση</string>
 
     <!-- Similar photos screen -->
     <string name="similar_title">Παρόμοιες φωτογραφίες</string>
-    <string name="similar_group_count_line">%1$d ομάδες · %2$s προς ανάκτηση</string>
+    <string name="similar_group_count_line">%1$d ομάδες · %2$s προς απελευθέρωση</string>
     <string name="similar_empty_title">Καμία παρόμοια φωτογραφία</string>
     <string name="similar_empty_message">Τίποτα εδώ δεν μοιάζει με σχεδόν διπλότυπο.</string>
     <string name="similar_shot_count">%1$d παρόμοιες λήψεις</string>

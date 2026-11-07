@@ -188,7 +188,7 @@
     <string name="pro_active_body">Рекламу вимкнено. Дякуємо за підтримку CleanKoach.</string>
     <string name="pro_upsell_title">Вимкнути рекламу</string>
     <string name="pro_upsell_body">Pro вимикає всю рекламу. Усі функції безкоштовні.</string>
-    <string name="pro_button_upgrade">Оновити</string>
+    <string name="pro_button_upgrade">Перейти на Pro</string>
     <string name="pro_button_restore">Відновити покупку</string>
 
     <!-- Settings — About -->
@@ -225,7 +225,7 @@
     <string name="support_mail_body">Версія Android: %1$s\nПристрій: %2$s\n\nОпишіть свою проблему нижче:\n\n</string>
     <string name="pro_unavailable">Зараз недоступно</string>
     <string name="pro_pending">Ваш платіж обробляється. Pro розблокується одразу після його завершення.</string>
-    <string name="pro_button_upgrade_price">Оновити за %1$s</string>
+    <string name="pro_button_upgrade_price">Перейти на Pro за %1$s</string>
     <string name="duplicates_delete_line">До видалення: %1$d · %2$s</string>
     <string name="network_speed_error">Не вдалося зв’язатися з тестовим сервером. Перевірте підключення й повторіть спробу.</string>
     <string name="home_partial_access_message">Обмежений доступ до фото. CleanKoach бачить лише вибрані вами фото й відео.</string>

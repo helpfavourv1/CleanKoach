@@ -48,14 +48,14 @@
     <string name="large_files_empty_message">നിങ്ങളുടെ ലൈബ്രറി വൃത്തിയായിരിക്കുന്നു. പരിശോധിക്കാൻ വലുതായി ഒന്നുമില്ല.</string>
     <string name="large_files_selection_line">%1$d തിരഞ്ഞെടുത്തു · %2$s</string>
     <string name="duplicates_title">ഡ്യൂപ്ലിക്കേറ്റുകൾ</string>
-    <string name="duplicates_group_count_line">%1$d ഗ്രൂപ്പുകൾ · %2$s വീണ്ടെടുക്കാം</string>
+    <string name="duplicates_group_count_line">%1$d ഗ്രൂപ്പുകൾ · %2$s ഒഴിവാക്കാം</string>
     <string name="duplicates_empty_title">ഡ്യൂപ്ലിക്കേറ്റുകളില്ല</string>
     <string name="duplicates_empty_message">എല്ലാ ഫോട്ടോ, വീഡിയോ, ഓഡിയോ ഫയലുകളും അദ്വിതീയമാണ്.</string>
     <string name="duplicates_identical_items">%1$d സമാന ഇനങ്ങൾ</string>
-    <string name="duplicates_reclaimable_label">%1$s വീണ്ടെടുക്കാം</string>
+    <string name="duplicates_reclaimable_label">%1$s ഒഴിവാക്കാം</string>
     <string name="duplicates_keep_label">നിലനിർത്തുക</string>
     <string name="similar_title">സമാന ഫോട്ടോകൾ</string>
-    <string name="similar_group_count_line">%1$d ഗ്രൂപ്പുകൾ · %2$s വീണ്ടെടുക്കാം</string>
+    <string name="similar_group_count_line">%1$d ഗ്രൂപ്പുകൾ · %2$s ഒഴിവാക്കാം</string>
     <string name="similar_empty_title">സമാന ഫോട്ടോകളില്ല</string>
     <string name="similar_empty_message">ഇവിടെ ഏതാണ്ട് ഡ്യൂപ്ലിക്കേറ്റ് ആയി തോന്നുന്നതൊന്നുമില്ല.</string>
     <string name="similar_shot_count">%1$d സമാന ഷോട്ടുകൾ</string>

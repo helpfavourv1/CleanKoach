@@ -66,16 +66,16 @@
 
     <!-- Duplicates screen -->
     <string name="duplicates_title">المكررات</string>
-    <string name="duplicates_group_count_line">%1$d مجموعة · %2$s قابلة للاسترجاع</string>
+    <string name="duplicates_group_count_line">%1$d مجموعة · %2$s قابلة للتحرير</string>
     <string name="duplicates_empty_title">لا توجد مكررات</string>
     <string name="duplicates_empty_message">كل صورة وفيديو وملف صوتي فريد.</string>
     <string name="duplicates_identical_items">%1$d عنصر متطابق</string>
-    <string name="duplicates_reclaimable_label">%1$s قابلة للاسترجاع</string>
+    <string name="duplicates_reclaimable_label">%1$s قابلة للتحرير</string>
     <string name="duplicates_keep_label">إبقاء</string>
 
     <!-- Similar photos screen -->
     <string name="similar_title">صور متشابهة</string>
-    <string name="similar_group_count_line">%1$d مجموعة · %2$s قابلة للاسترجاع</string>
+    <string name="similar_group_count_line">%1$d مجموعة · %2$s قابلة للتحرير</string>
     <string name="similar_empty_title">لا توجد صور متشابهة</string>
     <string name="similar_empty_message">لا يوجد هنا ما يشبه نسخة مكررة.</string>
     <string name="similar_shot_count">%1$d لقطة متشابهة</string>

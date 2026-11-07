@@ -66,16 +66,16 @@
 
     <!-- Duplicates screen -->
     <string name="duplicates_title">நகல்கள்</string>
-    <string name="duplicates_group_count_line">%1$d குழுக்கள் · %2$s மீட்கலாம்</string>
+    <string name="duplicates_group_count_line">%1$d குழுக்கள் · %2$s விடுவிக்கலாம்</string>
     <string name="duplicates_empty_title">நகல்கள் இல்லை</string>
     <string name="duplicates_empty_message">ஒவ்வொரு படமும், வீடியோவும், ஆடியோ கோப்பும் தனித்துவமானது.</string>
     <string name="duplicates_identical_items">%1$d ஒரே மாதிரியான உருப்படிகள்</string>
-    <string name="duplicates_reclaimable_label">%1$s மீட்கலாம்</string>
+    <string name="duplicates_reclaimable_label">%1$s விடுவிக்கலாம்</string>
     <string name="duplicates_keep_label">வை</string>
 
     <!-- Similar photos screen -->
     <string name="similar_title">ஒத்த படங்கள்</string>
-    <string name="similar_group_count_line">%1$d குழுக்கள் · %2$s மீட்கலாம்</string>
+    <string name="similar_group_count_line">%1$d குழுக்கள் · %2$s விடுவிக்கலாம்</string>
     <string name="similar_empty_title">ஒத்த படங்கள் இல்லை</string>
     <string name="similar_empty_message">கிட்டத்தட்ட நகலாகத் தோன்றும் எதுவும் இல்லை.</string>
     <string name="similar_shot_count">%1$d ஒத்த படங்கள்</string>
@@ -161,12 +161,12 @@
     <string name="settings_title">அமைப்புகள்</string>
     <string name="settings_theme">தீம்</string>
     <string name="settings_theme_light">வெளிர்</string>
-    <string name="settings_theme_dark">இருள்</string>
+    <string name="settings_theme_dark">இருண்ட</string>
     <string name="settings_theme_system">சிஸ்டம்</string>
     <string name="settings_language">மொழி</string>
     <string name="settings_notifications">அறிவிப்புகள்</string>
     <string name="settings_notifications_on">இயக்கத்தில்</string>
-    <string name="settings_notifications_off">அணைவில்</string>
+    <string name="settings_notifications_off">முடக்கத்தில்</string>
     <string name="settings_notifications_allow">அறிவிப்புகளை அனுமதி</string>
     <string name="settings_notifications_weekly">வாராந்திர சுத்தம் நினைவூட்டல்</string>
     <string name="settings_notifications_storage">சேமிப்பக எச்சரிக்கைகள்</string>
@@ -231,7 +231,7 @@
     <string name="home_partial_access_message">படங்களுக்கான அணுகல் வரம்புடையது. நீங்கள் தேர்ந்தெடுத்த படங்களையும் வீடியோக்களையும் மட்டுமே CleanKoach பார்க்க முடியும்.</string>
     <string name="home_partial_access_action">அனைத்தையும் அனுமதி</string>
     <string name="home_nothing_to_clean_message">இப்போது சுத்தம் செய்ய எதுவுமில்லை</string>
-    <string name="wifi_encryption_open">திறந்தது</string>
+    <string name="wifi_encryption_open">திறந்த</string>
     <string name="wifi_encryption_owe">Enhanced Open</string>
     <string name="settings_privacy_options">விளம்பர தனியுரிமை விருப்பங்கள்</string>
     <string name="home_cleanup_caption_running">சுத்தம்…</string>

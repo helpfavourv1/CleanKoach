@@ -66,16 +66,16 @@
 
     <!-- Duplicates screen -->
     <string name="duplicates_title">ডুপ্লিকেট</string>
-    <string name="duplicates_group_count_line">%1$d টি গ্রুপ · %2$s ফেরত পাওয়া যাবে</string>
+    <string name="duplicates_group_count_line">%1$d টি গ্রুপ · %2$s খালি করা যাবে</string>
     <string name="duplicates_empty_title">কোনো ডুপ্লিকেট নেই</string>
     <string name="duplicates_empty_message">প্রতিটি ছবি, ভিডিও ও অডিও ফাইল আলাদা।</string>
     <string name="duplicates_identical_items">%1$d টি হুবহু একই আইটেম</string>
-    <string name="duplicates_reclaimable_label">%1$s ফেরত পাওয়া যাবে</string>
+    <string name="duplicates_reclaimable_label">%1$s খালি করা যাবে</string>
     <string name="duplicates_keep_label">রাখুন</string>
 
     <!-- Similar photos screen -->
     <string name="similar_title">একই রকম ছবি</string>
-    <string name="similar_group_count_line">%1$d টি গ্রুপ · %2$s ফেরত পাওয়া যাবে</string>
+    <string name="similar_group_count_line">%1$d টি গ্রুপ · %2$s খালি করা যাবে</string>
     <string name="similar_empty_title">একই রকম ছবি নেই</string>
     <string name="similar_empty_message">প্রায় একই রকম কিছু পাওয়া যায়নি।</string>
     <string name="similar_shot_count">%1$d টি একই রকম ছবি</string>

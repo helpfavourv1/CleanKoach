@@ -66,16 +66,16 @@
 
     <!-- Duplicates screen -->
     <string name="duplicates_title">Duplicats</string>
-    <string name="duplicates_group_count_line">%1$d grups · %2$s recuperables</string>
+    <string name="duplicates_group_count_line">%1$d grups · %2$s alliberables</string>
     <string name="duplicates_empty_title">Cap duplicat</string>
     <string name="duplicates_empty_message">Totes les fotos, vídeos i àudios són únics.</string>
     <string name="duplicates_identical_items">%1$d elements idèntics</string>
-    <string name="duplicates_reclaimable_label">%1$s recuperables</string>
+    <string name="duplicates_reclaimable_label">%1$s alliberables</string>
     <string name="duplicates_keep_label">Conserva</string>
 
     <!-- Similar photos screen -->
     <string name="similar_title">Fotos similars</string>
-    <string name="similar_group_count_line">%1$d grups · %2$s recuperables</string>
+    <string name="similar_group_count_line">%1$d grups · %2$s alliberables</string>
     <string name="similar_empty_title">Cap foto similar</string>
     <string name="similar_empty_message">Res d\'aquí sembla un quasi duplicat.</string>
     <string name="similar_shot_count">%1$d preses similars</string>
@@ -236,7 +236,7 @@
     <string name="settings_privacy_options">Opcions de privadesa dels anuncis</string>
     <string name="home_cleanup_caption_running">Netejant…</string>
     <string name="home_cleanup_running">Esborrant la memòria cau i la paperera…</string>
-    <string name="home_cleanup_awaiting_android">Toca Permet al missatge d’Android. Pot dir «fotos».</string>
+    <string name="home_cleanup_awaiting_android">Toqueu Permet al missatge d’Android. Pot dir «fotos».</string>
     <string name="home_cleanup_done_items">S’han eliminat %1$d elements. Memòria cau esborrada.</string>
     <string name="home_cleanup_done_cache">Memòria cau esborrada. La paperera ja era buida.</string>
     <string name="delete_bar_android_note">Android et demanarà que ho confirmis.</string>
