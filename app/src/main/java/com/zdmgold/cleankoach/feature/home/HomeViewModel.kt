@@ -29,11 +29,6 @@ class HomeViewModel @Inject constructor(
     private val settingsRepository: SettingsRepository
 ) : ViewModel() {
 
-    companion object {
-        /** The rate card appears at most once per app launch (process). */
-        @Volatile private var reviewCardShownThisLaunch = false
-    }
-
     private var cleanupBefore: StorageStats? = null
     private var cleanupStartedAt = 0L
 
@@ -215,5 +210,8 @@ class HomeViewModel @Inject constructor(
 
     private companion object {
         const val MIN_CLEANUP_MS = 3500L
+
+        /** The rate card appears at most once per app launch (process). */
+        @Volatile var reviewCardShownThisLaunch = false
     }
 }
