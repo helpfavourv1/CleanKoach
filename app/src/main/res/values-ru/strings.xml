@@ -220,4 +220,6 @@
     <string name="review_card_body">Оценка помогает другим людям найти приложение.</string>
     <string name="review_card_action">Оценить</string>
     <string name="review_card_dismiss">Закрыть</string>
+    <string name="storage_low_message">Недостаточно свободного места для этой операции. Освободите не менее %1$s и повторите попытку.</string>
+    <string name="settings_clear_temp">Очистить временные файлы</string>
 </resources>

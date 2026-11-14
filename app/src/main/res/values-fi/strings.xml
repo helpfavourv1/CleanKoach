@@ -244,4 +244,6 @@
     <string name="review_card_body">Arvio auttaa muita löytämään sovelluksen.</string>
     <string name="review_card_action">Arvioi</string>
     <string name="review_card_dismiss">Sulje</string>
+    <string name="storage_low_message">Vapaata tilaa ei ole tarpeeksi. Vapauta vähintään %1$s ja yritä uudelleen.</string>
+    <string name="settings_clear_temp">Tyhjennä väliaikaiset tiedostot</string>
 </resources>

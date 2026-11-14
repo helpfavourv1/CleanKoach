@@ -19,7 +19,7 @@ object CrashReporter {
 
     private const val CRASH_FILE = "last_crash.txt"
     private const val TRAIL_FILE = "event_trail.txt"
-    private const val MAX_TRAIL = 60
+    private const val MAX_TRAIL = 500
 
     private val trail = ArrayDeque<String>()
     private var dir: File? = null

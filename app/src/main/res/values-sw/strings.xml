@@ -244,4 +244,6 @@
     <string name="review_card_body">Ukadiriaji huwasaidia wengine kuipata programu.</string>
     <string name="review_card_action">Kadiria</string>
     <string name="review_card_dismiss">Funga</string>
+    <string name="storage_low_message">Hakuna nafasi ya kutosha kwa kazi hii. Futa angalau %1$s kisha ujaribu tena.</string>
+    <string name="settings_clear_temp">Futa faili za muda</string>
 </resources>

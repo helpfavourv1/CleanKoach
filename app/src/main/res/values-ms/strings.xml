@@ -244,4 +244,6 @@
     <string name="review_card_body">Penilaian membantu orang lain menemuinya.</string>
     <string name="review_card_action">Nilai</string>
     <string name="review_card_dismiss">Tutup</string>
+    <string name="storage_low_message">Ruang kosong tidak mencukupi untuk larian ini. Kosongkan sekurang-kurangnya %1$s dan cuba lagi.</string>
+    <string name="settings_clear_temp">Kosongkan fail sementara</string>
 </resources>

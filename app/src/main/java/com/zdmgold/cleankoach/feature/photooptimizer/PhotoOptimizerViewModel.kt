@@ -18,7 +18,8 @@ import javax.inject.Inject
 @HiltViewModel
 class PhotoOptimizerViewModel @Inject constructor(
     private val mediaRepository: MediaRepository,
-    private val photoCompressor: PhotoCompressor
+    private val photoCompressor: PhotoCompressor,
+    private val cacheCleaner: com.zdmgold.cleankoach.core.media.CacheCleaner
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(PhotoOptimizerUiState())
@@ -42,7 +43,7 @@ class PhotoOptimizerViewModel @Inject constructor(
         _state.update { current ->
             val next = if (id in current.selectedIds) current.selectedIds - id
             else current.selectedIds + id
-            current.copy(selectedIds = next, lastRunCount = null)
+            current.copy(selectedIds = next, lastRunCount = null, lowStorageNeededBytes = null)
         }
     }
 
@@ -59,6 +60,13 @@ class PhotoOptimizerViewModel @Inject constructor(
     fun run() {
         val current = _state.value
         if (!current.canRun) return
+        val needed = com.zdmgold.cleankoach.core.media.StoragePolicy.neededBytes(
+            current.items.filter { it.id in current.selectedIds }.map { it.sizeBytes }, copies = 1
+        )
+        if (com.zdmgold.cleankoach.core.media.StoragePolicy.isLow(cacheCleaner.freeBytes(), needed)) {
+            _state.update { it.copy(lowStorageNeededBytes = needed, lastRunCount = null) }
+            return
+        }
         viewModelScope.launch {
             val targets = current.items.filter { it.id in current.selectedIds }
             _state.update {
@@ -67,7 +75,8 @@ class PhotoOptimizerViewModel @Inject constructor(
                     processed = 0,
                     totalToProcess = targets.size,
                     totalSavedBytes = 0L,
-                    lastRunCount = null
+                    lastRunCount = null,
+                    lowStorageNeededBytes = null
                 )
             }
 

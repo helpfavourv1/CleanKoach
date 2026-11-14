@@ -6,12 +6,12 @@ import org.junit.Test
 class ReviewPolicyTest {
     private val day = 24 * 60 * 60_000L
     private val now = 100 * day
-    private val ready = ReviewSnapshot(cleanups = 5, cleanupDays = 2)
+    private val ready = ReviewSnapshot(cleanups = 10, cleanupDays = 3)
 
-    @Test fun cardNeedsFiveCleanupsOnTwoDays() {
+    @Test fun cardNeedsTenCleanupsOnThreeDays() {
         assertThat(ReviewPolicy.shouldShowCard(ready, now, true)).isTrue()
-        assertThat(ReviewPolicy.shouldShowCard(ready.copy(cleanups = 4), now, true)).isFalse()
-        assertThat(ReviewPolicy.shouldShowCard(ready.copy(cleanupDays = 1), now, true)).isFalse()
+        assertThat(ReviewPolicy.shouldShowCard(ready.copy(cleanups = 9), now, true)).isFalse()
+        assertThat(ReviewPolicy.shouldShowCard(ready.copy(cleanupDays = 2), now, true)).isFalse()
     }
 
     @Test fun cardWaitsForAdQuiet() {
@@ -22,7 +22,9 @@ class ReviewPolicyTest {
         assertThat(ReviewPolicy.cooldownDays(1)).isEqualTo(30)
         assertThat(ReviewPolicy.cooldownDays(2)).isEqualTo(30)
         assertThat(ReviewPolicy.cooldownDays(3)).isEqualTo(60)
-        assertThat(ReviewPolicy.cooldownDays(4)).isNull()
+        assertThat(ReviewPolicy.cooldownDays(4)).isEqualTo(90)
+        assertThat(ReviewPolicy.cooldownDays(5)).isEqualTo(180)
+        assertThat(ReviewPolicy.cooldownDays(12)).isEqualTo(180)
     }
 
     @Test fun cardStaysHiddenDuringCooldownThenReturns() {
@@ -34,23 +36,31 @@ class ReviewPolicyTest {
         assertThat(ReviewPolicy.shouldShowCard(third.copy(cardLastDismissAt = now - 60 * day), now, true)).isTrue()
     }
 
-    @Test fun fourthDismissIsForever() {
-        assertThat(ReviewPolicy.shouldShowCard(ready.copy(cardDismissCount = 4, cardLastDismissAt = 0L), now, true)).isFalse()
+    @Test fun cardNeverGoesOffForGood() {
+        val late = ready.copy(cardDismissCount = 9, cardLastDismissAt = now - 179 * day)
+        assertThat(ReviewPolicy.shouldShowCard(late, now, true)).isFalse()
+        assertThat(ReviewPolicy.shouldShowCard(late.copy(cardLastDismissAt = now - 180 * day), now, true)).isTrue()
+        val fourth = ready.copy(cardDismissCount = 4, cardLastDismissAt = now - 90 * day)
+        assertThat(ReviewPolicy.shouldShowCard(fourth, now, true)).isTrue()
+    }
+
+    @Test fun cardSkippedAfterPopup() {
+        assertThat(ReviewPolicy.shouldShowCard(ready.copy(autoPrompted = true), now, true)).isFalse()
     }
 
     @Test fun resolvedNeverShowsAgain() {
         assertThat(ReviewPolicy.shouldShowCard(ready.copy(resolved = true), now, true)).isFalse()
     }
 
-    @Test fun autoPromptNeedsTenCleanupsOnThreeDays() {
-        val s = ReviewSnapshot(cleanups = 10, cleanupDays = 3)
+    @Test fun autoPromptNeedsFifteenCleanupsOnFiveDays() {
+        val s = ReviewSnapshot(cleanups = 15, cleanupDays = 5)
         assertThat(ReviewPolicy.shouldAutoPrompt(s, true)).isTrue()
-        assertThat(ReviewPolicy.shouldAutoPrompt(s.copy(cleanupDays = 2), true)).isFalse()
-        assertThat(ReviewPolicy.shouldAutoPrompt(s.copy(cleanups = 9), true)).isFalse()
+        assertThat(ReviewPolicy.shouldAutoPrompt(s.copy(cleanupDays = 4), true)).isFalse()
+        assertThat(ReviewPolicy.shouldAutoPrompt(s.copy(cleanups = 14), true)).isFalse()
     }
 
     @Test fun autoPromptNeverNearAnAdOrAfterCard() {
-        val s = ReviewSnapshot(cleanups = 10, cleanupDays = 3)
+        val s = ReviewSnapshot(cleanups = 15, cleanupDays = 5)
         assertThat(ReviewPolicy.shouldAutoPrompt(s, false)).isFalse()
         assertThat(ReviewPolicy.shouldAutoPrompt(s.copy(cardEverShown = true), true)).isFalse()
         assertThat(ReviewPolicy.shouldAutoPrompt(s.copy(autoPrompted = true), true)).isFalse()

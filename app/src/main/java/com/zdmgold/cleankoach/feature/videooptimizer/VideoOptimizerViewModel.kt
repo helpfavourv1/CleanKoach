@@ -18,7 +18,8 @@ import javax.inject.Inject
 @HiltViewModel
 class VideoOptimizerViewModel @Inject constructor(
     private val mediaRepository: MediaRepository,
-    private val videoCompressor: VideoCompressor
+    private val videoCompressor: VideoCompressor,
+    private val cacheCleaner: com.zdmgold.cleankoach.core.media.CacheCleaner
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(VideoOptimizerUiState())
@@ -46,7 +47,7 @@ class VideoOptimizerViewModel @Inject constructor(
         _state.update { current ->
             val next = if (id in current.selectedIds) current.selectedIds - id
             else current.selectedIds + id
-            current.copy(selectedIds = next, lastRunCount = null)
+            current.copy(selectedIds = next, lastRunCount = null, lowStorageNeededBytes = null)
         }
     }
 
@@ -63,6 +64,13 @@ class VideoOptimizerViewModel @Inject constructor(
     fun run() {
         val current = _state.value
         if (!current.canRun) return
+        val needed = com.zdmgold.cleankoach.core.media.StoragePolicy.neededBytes(
+            current.items.filter { it.id in current.selectedIds }.map { it.sizeBytes }, copies = 2
+        )
+        if (com.zdmgold.cleankoach.core.media.StoragePolicy.isLow(cacheCleaner.freeBytes(), needed)) {
+            _state.update { it.copy(lowStorageNeededBytes = needed, lastRunCount = null) }
+            return
+        }
         val preset = current.preset
 
         viewModelScope.launch {
@@ -73,7 +81,8 @@ class VideoOptimizerViewModel @Inject constructor(
                     processed = 0,
                     totalToProcess = targets.size,
                     totalSavedBytes = 0L,
-                    lastRunCount = null
+                    lastRunCount = null,
+                    lowStorageNeededBytes = null
                 )
             }
 

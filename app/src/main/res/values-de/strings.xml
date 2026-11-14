@@ -220,4 +220,6 @@
     <string name="review_card_body">Eine Bewertung hilft anderen, die App zu finden.</string>
     <string name="review_card_action">Bewerten</string>
     <string name="review_card_dismiss">Schließen</string>
+    <string name="storage_low_message">Nicht genug freier Speicher für diesen Durchlauf. Geben Sie mindestens %1$s frei und versuchen Sie es erneut.</string>
+    <string name="settings_clear_temp">Temporäre Dateien löschen</string>
 </resources>

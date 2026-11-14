@@ -132,6 +132,24 @@ fun PhotoOptimizerScreen(
                     )
                     Spacer(Modifier.height(12.dp))
                 }
+            } else if (state.lowStorageNeededBytes != null) {
+                Surface(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 16.dp, vertical = 8.dp),
+                    color = MaterialTheme.colorScheme.errorContainer,
+                    shape = MaterialTheme.shapes.medium
+                ) {
+                    Text(
+                        text = stringResource(
+                            R.string.storage_low_message,
+                            FormatUtils.bytes(state.lowStorageNeededBytes ?: 0L)
+                        ),
+                        modifier = Modifier.padding(12.dp),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onErrorContainer
+                    )
+                }
             } else if (state.lastRunCount != null) {
                 Surface(
                     modifier = Modifier

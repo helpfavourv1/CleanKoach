@@ -197,4 +197,6 @@
     <string name="review_card_body">ഒരു റേറ്റിംഗ് മറ്റുള്ളവർക്ക് ആപ്പ് കണ്ടെത്താൻ സഹായിക്കും.</string>
     <string name="review_card_action">റേറ്റ് ചെയ്യുക</string>
     <string name="review_card_dismiss">അടയ്ക്കുക</string>
+    <string name="storage_low_message">ഈ പ്രവർത്തനത്തിന് മതിയായ ഒഴിഞ്ഞ സ്ഥലമില്ല. കുറഞ്ഞത് %1$s ഒഴിവാക്കി വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="settings_clear_temp">താൽക്കാലിക ഫയലുകൾ മായ്ക്കുക</string>
 </resources>

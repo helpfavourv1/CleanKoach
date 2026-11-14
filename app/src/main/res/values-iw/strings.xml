@@ -244,4 +244,6 @@
     <string name="review_card_body">דירוג עוזר לאנשים אחרים למצוא את האפליקציה.</string>
     <string name="review_card_action">דרגו</string>
     <string name="review_card_dismiss">סגירה</string>
+    <string name="storage_low_message">אין מספיק מקום פנוי להרצה הזו. פנו לפחות %1$s ונסו שוב.</string>
+    <string name="settings_clear_temp">מחיקת קבצים זמניים</string>
 </resources>

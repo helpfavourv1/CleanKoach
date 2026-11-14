@@ -244,4 +244,6 @@
     <string name="review_card_body">Bir puan, başkalarının uygulamayı bulmasına yardımcı olur.</string>
     <string name="review_card_action">Puan ver</string>
     <string name="review_card_dismiss">Kapat</string>
+    <string name="storage_low_message">Bu işlem için yeterli boş alan yok. En az %1$s boşaltın ve tekrar deneyin.</string>
+    <string name="settings_clear_temp">Geçici dosyaları temizle</string>
 </resources>

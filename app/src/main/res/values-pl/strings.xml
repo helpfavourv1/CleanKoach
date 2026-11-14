@@ -244,4 +244,6 @@
     <string name="review_card_body">Ocena pomaga innym znaleźć aplikację.</string>
     <string name="review_card_action">Oceń</string>
     <string name="review_card_dismiss">Zamknij</string>
+    <string name="storage_low_message">Za mało wolnego miejsca na tę operację. Zwolnij co najmniej %1$s i spróbuj ponownie.</string>
+    <string name="settings_clear_temp">Wyczyść pliki tymczasowe</string>
 </resources>

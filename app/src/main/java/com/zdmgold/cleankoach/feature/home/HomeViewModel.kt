@@ -201,7 +201,8 @@ class HomeViewModel @Inject constructor(
 
     fun onReviewCardRated() {
         _state.update { it.copy(reviewCardVisible = false) }
-        viewModelScope.launch { runCatching { settingsRepository.markReviewResolved() } }
+        // Rate counts as a dismissal: the card returns later on the same ladder and is never off for good.
+        viewModelScope.launch { runCatching { settingsRepository.markReviewCardDismissed() } }
     }
 
     fun onResultDismissed() {

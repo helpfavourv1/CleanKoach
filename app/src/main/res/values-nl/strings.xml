@@ -244,4 +244,6 @@
     <string name="review_card_body">Een beoordeling helpt anderen de app te vinden.</string>
     <string name="review_card_action">Beoordelen</string>
     <string name="review_card_dismiss">Sluiten</string>
+    <string name="storage_low_message">Er is niet genoeg vrije ruimte voor deze actie. Maak minstens %1$s vrij en probeer het opnieuw.</string>
+    <string name="settings_clear_temp">Tijdelijke bestanden wissen</string>
 </resources>

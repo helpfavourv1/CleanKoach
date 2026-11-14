@@ -244,4 +244,6 @@
     <string name="review_card_body">రేటింగ్ ఇతరులు యాప్‌ను కనుగొనడానికి సహాయపడుతుంది.</string>
     <string name="review_card_action">రేట్ చేయండి</string>
     <string name="review_card_dismiss">మూసివేయండి</string>
+    <string name="storage_low_message">ఈ పనికి తగినంత ఖాళీ స్థలం లేదు. కనీసం %1$s ఖాళీ చేసి మళ్లీ ప్రయత్నించండి.</string>
+    <string name="settings_clear_temp">తాత్కాలిక ఫైళ్లను తొలగించు</string>
 </resources>

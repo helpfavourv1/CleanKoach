@@ -45,10 +45,7 @@ class AdsManager @Inject constructor(
         private const val IDLE_RETURN_MS = 5 * 60_000L
 
         private const val PREFS = "ad_pacing"
-        private const val KEY_DAY = "ads_date"
-        private const val KEY_TODAY = "ads_today"
         private const val KEY_LAST_SHOWN = "last_shown"
-        private const val KEY_RECENT = "recent_shown"
     }
 
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
@@ -67,7 +64,7 @@ class AdsManager @Inject constructor(
     private var interstitial: InterstitialAd? = null
     private var loading = false
     private var showing = false
-    private var shownThisSession = 0
+    private var consentNeedsRetry = false
     private var completedActions = 0
     private var backgroundedAt = 0L
     private var lastReviewAt = 0L
@@ -90,12 +87,31 @@ class AdsManager @Inject constructor(
     /** Call once per activity start, before any ad is requested. */
     fun start(activity: Activity) {
         CrashReporter.note("ads start (activity=${activity.javaClass.simpleName}@${System.identityHashCode(activity)})")
-        consentManager.requestConsent(activity) { allowed ->
-            // A failed step still requests ads (the SDK uses the saved status); a clear "no" from Google stays off.
-            if (allowed || !consentManager.canRequestAdsNow()) applyConsent(allowed)
-        }
+        runConsent(activity)
         // Returning users already hold an answer; do not make them wait for the network.
-        if (consentManager.canRequestAdsNow()) applyConsent(true)
+        if (googleCanRequestAds() == true) applyConsent(true)
+    }
+
+    /**
+     * Null means the check itself threw. That counts as a failed consent step: ads are still
+     * requested (the SDK applies the last saved choice), the error goes to Diagnostics and the
+     * step is retried on the next return to the app. It never crashes.
+     */
+    private fun googleCanRequestAds(): Boolean? = try {
+        consentManager.canRequestAdsNow()
+    } catch (t: Throwable) {
+        CrashReporter.note("canRequestAds threw: ${t.javaClass.simpleName}: ${t.message}")
+        null
+    }
+
+    private fun runConsent(activity: Activity) {
+        consentManager.requestConsent(activity) { allowed ->
+            val google = googleCanRequestAds()
+            // Allowed while Google still says no (or the check threw) means the consent step failed: retry on foreground.
+            consentNeedsRetry = allowed && google != true
+            // A failed step still requests ads; a clear "no" from Google stays off.
+            if (allowed || google != false) applyConsent(allowed || google == null)
+        }
     }
 
     fun privacyOptionsRequired(): Boolean = runCatching { consentManager.privacyOptionsRequired() }.getOrDefault(false)
@@ -120,6 +136,11 @@ class AdsManager @Inject constructor(
     fun onAppForegrounded(activity: Activity) {
         val left = backgroundedAt
         backgroundedAt = 0L
+        if (consentNeedsRetry) {
+            consentNeedsRetry = false
+            CrashReporter.note("consent retry on foreground")
+            runConsent(activity)
+        }
         if (left > 0L && System.currentTimeMillis() - left >= IDLE_RETURN_MS) tryShow(activity)
     }
 
@@ -139,24 +160,13 @@ class AdsManager @Inject constructor(
         }
         val now = System.currentTimeMillis()
         if (lastReviewAt > 0L && now - lastReviewAt < com.zdmgold.cleankoach.core.review.ReviewPolicy.AD_QUIET_MS) return
-        val recent = AdPacing.parseTimes(prefs.getString(KEY_RECENT, null))
-        if (!AdPacing.canShow(now, recent, shownToday(), shownThisSession)) return
+        if (!AdPacing.canShow(now, prefs.getLong(KEY_LAST_SHOWN, 0L))) return
 
         showing = true
         interstitial = null
         ad.fullScreenContentCallback = object : FullScreenContentCallback() {
             override fun onAdShowedFullScreenContent() {
-                shownThisSession += 1
-                val shownAt = System.currentTimeMillis()
-                val recent = AdPacing.pruned(
-                    shownAt, AdPacing.parseTimes(prefs.getString(KEY_RECENT, null)) + shownAt
-                )
-                prefs.edit()
-                    .putString(KEY_DAY, today())
-                    .putInt(KEY_TODAY, shownToday() + 1)
-                    .putLong(KEY_LAST_SHOWN, shownAt)
-                    .putString(KEY_RECENT, recent.joinToString(","))
-                    .apply()
+                prefs.edit().putLong(KEY_LAST_SHOWN, System.currentTimeMillis()).apply()
             }
 
             override fun onAdDismissedFullScreenContent() {
@@ -194,8 +204,4 @@ class AdsManager @Inject constructor(
         )
     }
 
-    private fun today(): String = SimpleDateFormat("yyyyMMdd", Locale.US).format(Date())
-
-    private fun shownToday(): Int =
-        if (prefs.getString(KEY_DAY, null) == today()) prefs.getInt(KEY_TODAY, 0) else 0
 }

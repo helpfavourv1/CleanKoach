@@ -244,4 +244,6 @@
     <string name="review_card_body">A rating helps other people find it.</string>
     <string name="review_card_action">Rate</string>
     <string name="review_card_dismiss">Dismiss</string>
+    <string name="storage_low_message">Not enough free space for this run. Free up at least %1$s and try again.</string>
+    <string name="settings_clear_temp">Clear temporary files</string>
 </resources>

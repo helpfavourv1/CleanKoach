@@ -73,7 +73,7 @@
   "desc": "Apa yang diakses aplikasi CleanKoach dan situs ini, apa yang dilakukan dengannya, dan apa yang tidak pernah dilakukan. Tidak ada yang diunggah.",
   "units": [
    "Kebijakan privasi",
-   "Terakhir diperbarui: 12 Oktober 2026",
+   "Terakhir diperbarui: 14 November 2026",
    "CleanKoach adalah aplikasi pembersih penyimpanan untuk Android. Kebijakan ini menjelaskan data apa yang diakses aplikasi, apa yang dilakukannya dengan data itu, dan apa yang tidak pernah dilakukannya.",
    "Data yang tidak pernah kami kumpulkan",
    "Aplikasi tidak mengumpulkan, mengirimkan, atau menyimpan hal-hal berikut di server kami maupun server pihak lain:",
@@ -102,7 +102,7 @@
    "Iklan",
    "CleanKoach menampilkan iklan melalui Google AdMob: spanduk kecil di bagian bawah layar utama, layar pengaturan, dan layar alat, serta sesekali iklan layar penuh setelah Anda menyelesaikan tindakan seperti pembersihan. Iklan tidak pernah muncul di layar pembelian Pro, saat pemindaian berjalan, atau di atas dialog izin atau persetujuan. Saat iklan ditayangkan, Google dapat mengumpulkan ID iklan Anda dan data interaksi iklan standar sebagaimana dijelaskan dalam kebijakan privasi Google. Data ini tidak terhubung ke akun mana pun, karena aplikasi tidak memiliki akun.",
    "Jika Anda meningkatkan ke Pro, semua iklan dihapus dan aplikasi tidak lagi mengumpulkan ID iklan sejak saat itu.",
-   "Di Wilayah Ekonomi Eropa dan Inggris Raya, persetujuan Anda akan diminta sebelum iklan apa pun ditayangkan, melalui User Messaging Platform milik Google. Anda dapat mengubah pilihan kapan saja di Opsi privasi aplikasi. Jika formulir persetujuan tidak dapat ditampilkan, misalnya karena tidak ada koneksi atau terjadi kesalahan, aplikasi tetap meminta iklan dari Google, dan Google menerapkan pilihan terakhir yang Anda simpan.",
+   "Di Wilayah Ekonomi Eropa dan Inggris Raya, persetujuan Anda akan diminta sebelum iklan apa pun ditayangkan, melalui User Messaging Platform milik Google. Anda dapat mengubah pilihan kapan saja di Opsi privasi aplikasi. Jika formulir persetujuan tidak dapat ditampilkan, misalnya karena tidak ada koneksi atau terjadi kesalahan, aplikasi tetap meminta iklan dari Google, dan Google menerapkan pilihan terakhir yang Anda simpan. Jika Anda menolak, Anda mungkin tetap melihat iklan terbatas.",
    "Pembelian dan penilaian",
    "Pembelian Pro satu kali diproses sepenuhnya oleh Google Play. CleanKoach tidak pernah melihat detail pembayaran Anda; aplikasi hanya mengetahui dari Google Play apakah Pro aktif. Setelah Anda menyelesaikan beberapa kali pembersihan, aplikasi dapat meminta Google Play menampilkan permintaan penilaian. Apa yang Anda masukkan di sana ditangani oleh Google, bukan CleanKoach.",
    "Layanan pihak ketiga",

@@ -220,4 +220,6 @@
     <string name="review_card_body">Une note aide d’autres personnes à le trouver.</string>
     <string name="review_card_action">Noter</string>
     <string name="review_card_dismiss">Fermer</string>
+    <string name="storage_low_message">Espace libre insuffisant pour cette opération. Libérez au moins %1$s et réessayez.</string>
+    <string name="settings_clear_temp">Effacer les fichiers temporaires</string>
 </resources>

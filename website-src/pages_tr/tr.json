@@ -73,7 +73,7 @@
   "desc": "CleanKoach uygulamasının ve bu web sitesinin nelere eriştiği, bunlarla ne yaptığı ve asla yapmadığı şeyler. Hiçbir şey yüklenmez.",
   "units": [
    "Gizlilik Politikası",
-   "Son güncelleme: 12 Ekim 2026",
+   "Son güncelleme: 14 Kasım 2026",
    "CleanKoach bir Android depolama temizleme uygulamasıdır. Bu politika, uygulamanın hangi verilere eriştiğini, bunlarla ne yaptığını ve asla yapmadığı şeyleri açıklar.",
    "Asla toplamadığımız veriler",
    "Uygulama, aşağıdakilerin hiçbirini ne bizim sunucularımızda ne de başkalarının sunucularında toplar, iletir veya saklar:",
@@ -102,7 +102,7 @@
    "Reklamlar",
    "CleanKoach, Google AdMob aracılığıyla reklam gösterir: ana ekranın, ayarlar ekranının ve araç ekranlarının altında küçük bir banner ve temizleme gibi bir işlemi bitirdikten sonra ara sıra tam ekran bir reklam. Reklamlar Pro satın alma ekranında, bir tarama sürerken veya bir izin ya da onay iletişim kutusunun üzerinde asla görünmez. Reklamlar sunulduğunda Google, Google'ın gizlilik politikasında açıklandığı gibi reklam kimliğinizi ve standart reklam etkileşim verilerini toplayabilir. Uygulamada hesap bulunmadığından bu veri hiçbir hesapla ilişkilendirilmez.",
    "Pro'ya geçerseniz tüm reklamlar kaldırılır ve uygulama o andan itibaren reklam kimliği toplamaz.",
-   "Avrupa Ekonomik Alanı ve Birleşik Krallık'ta, herhangi bir reklam sunulmadan önce Google'ın User Messaging Platform'u aracılığıyla onayınız istenir. Tercihinizi uygulamanın Gizlilik seçeneklerinden istediğiniz zaman değiştirebilirsiniz. Onay formu gösterilemezse, örneğin bağlantı olmadığı veya bir hata oluştuğu için, uygulama yine de Google'dan reklam ister ve Google en son kaydettiğiniz tercihi uygular.",
+   "Avrupa Ekonomik Alanı ve Birleşik Krallık'ta, herhangi bir reklam sunulmadan önce Google'ın User Messaging Platform'u aracılığıyla onayınız istenir. Tercihinizi uygulamanın Gizlilik seçeneklerinden istediğiniz zaman değiştirebilirsiniz. Onay formu gösterilemezse, örneğin bağlantı olmadığı veya bir hata oluştuğu için, uygulama yine de Google'dan reklam ister ve Google en son kaydettiğiniz tercihi uygular. Reddederseniz, yine de sınırlı reklamlar görebilirsiniz.",
    "Satın alımlar ve puanlamalar",
    "Tek seferlik Pro satın alımı tamamen Google Play tarafından işlenir. CleanKoach ödeme bilgilerinizi asla görmez; yalnızca Pro'nun etkin olup olmadığını Google Play'den öğrenir. Birkaç temizlik tamamladıktan sonra uygulama, Google Play'den puanlama isteğini göstermesini isteyebilir. Orada girdiğiniz şeyi CleanKoach değil, Google işler.",
    "Üçüncü taraf hizmetler",

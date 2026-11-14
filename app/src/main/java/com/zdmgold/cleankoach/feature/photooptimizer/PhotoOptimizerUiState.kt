@@ -10,7 +10,8 @@ data class PhotoOptimizerUiState(
     val processed: Int = 0,
     val totalToProcess: Int = 0,
     val totalSavedBytes: Long = 0L,
-    val lastRunCount: Int? = null
+    val lastRunCount: Int? = null,
+    val lowStorageNeededBytes: Long? = null
 ) {
     val selectionCount: Int get() = selectedIds.size
     val selectedBytes: Long
