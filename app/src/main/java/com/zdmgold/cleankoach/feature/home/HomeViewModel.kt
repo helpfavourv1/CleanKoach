@@ -96,11 +96,7 @@ class HomeViewModel @Inject constructor(
 
     fun onCleanUpPressed() {
         if (_state.value.scanning || _state.value.cleanUpResultVisible) return
-        val reclaimable = _state.value.storage?.totalReclaimableBytes
-        if (reclaimable != null && reclaimable <= 0L) {
-            _state.update { it.copy(nothingToClean = true) }
-            return
-        }
+        // Nothing to clean still runs the full animation and ends on "Freed 0 B".
         startCleanUp()
     }
 
@@ -146,7 +142,8 @@ class HomeViewModel @Inject constructor(
             (before.trashCount - after.trashCount).coerceAtLeast(0)
         } else 0
         cleanupBefore = null
-        runCatching { settingsRepository.recordCleanup() }
+        // An empty run does not count towards the review rules.
+        if (trashFreed + cacheFreed > 0L || removed > 0) runCatching { settingsRepository.recordCleanup() }
         val snapshot = runCatching { settingsRepository.reviewSnapshot() }.getOrNull()
         // The ad check is repeated by the screen right before the prompt launches.
         val promptReview = snapshot?.let { ReviewPolicy.shouldAutoPrompt(it, adQuiet = true) } ?: false
@@ -162,7 +159,9 @@ class HomeViewModel @Inject constructor(
                 cleanUpResultVisible = true,
                 lastCleanupResult = CleanUpSummary(
                     itemCount = removed,
-                    freedBytes = trashFreed + cacheFreed
+                    freedBytes = trashFreed + cacheFreed,
+                    trashBytes = trashFreed,
+                    cacheBytes = cacheFreed
                 )
             )
         }

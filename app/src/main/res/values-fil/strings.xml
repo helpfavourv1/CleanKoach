@@ -199,4 +199,6 @@
     <string name="review_card_action">I-rate</string>
     <string name="review_card_dismiss">Isara</string>
     <string name="storage_low_message">Walang sapat na libreng espasyo para dito. Magbakante ng hindi bababa sa %1$s at subukang muli.</string>
+    <string name="home_cleanup_done_split_items">%1$d item ang inalis · Trash %2$s · Cache %3$s</string>
+    <string name="home_cleanup_done_split">Trash %1$s · Cache %2$s</string>
 </resources>

@@ -245,4 +245,6 @@
     <string name="review_card_action">Értékelés</string>
     <string name="review_card_dismiss">Bezárás</string>
     <string name="storage_low_message">Nincs elég szabad hely ehhez a futtatáshoz. Szabadítson fel legalább %1$s helyet, és próbálja újra.</string>
+    <string name="home_cleanup_done_split_items">%1$d elem eltávolítva · Kuka %2$s · Gyorsítótár %3$s</string>
+    <string name="home_cleanup_done_split">Kuka %1$s · Gyorsítótár %2$s</string>
 </resources>

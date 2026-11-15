@@ -245,4 +245,6 @@
     <string name="review_card_action">Βαθμολογήστε</string>
     <string name="review_card_dismiss">Κλείσιμο</string>
     <string name="storage_low_message">Δεν υπάρχει αρκετός ελεύθερος χώρος. Ελευθερώστε τουλάχιστον %1$s και δοκιμάστε ξανά.</string>
+    <string name="home_cleanup_done_split_items">Αφαιρέθηκαν %1$d στοιχεία · Κάδος %2$s · Προσωρινή μνήμη %3$s</string>
+    <string name="home_cleanup_done_split">Κάδος %1$s · Προσωρινή μνήμη %2$s</string>
 </resources>

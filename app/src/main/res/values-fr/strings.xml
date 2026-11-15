@@ -221,4 +221,6 @@
     <string name="review_card_action">Noter</string>
     <string name="review_card_dismiss">Fermer</string>
     <string name="storage_low_message">Espace libre insuffisant pour cette opération. Libérez au moins %1$s et réessayez.</string>
+    <string name="home_cleanup_done_split_items">%1$d éléments supprimés · Corbeille %2$s · Cache %3$s</string>
+    <string name="home_cleanup_done_split">Corbeille %1$s · Cache %2$s</string>
 </resources>

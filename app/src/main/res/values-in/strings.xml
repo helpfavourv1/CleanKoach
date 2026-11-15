@@ -221,4 +221,6 @@
     <string name="review_card_action">Beri nilai</string>
     <string name="review_card_dismiss">Tutup</string>
     <string name="storage_low_message">Ruang kosong tidak cukup untuk proses ini. Kosongkan setidaknya %1$s lalu coba lagi.</string>
+    <string name="home_cleanup_done_split_items">%1$d item dihapus · Sampah %2$s · Cache %3$s</string>
+    <string name="home_cleanup_done_split">Sampah %1$s · Cache %2$s</string>
 </resources>

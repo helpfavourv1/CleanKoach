@@ -245,4 +245,6 @@
     <string name="review_card_action">Puan ver</string>
     <string name="review_card_dismiss">Kapat</string>
     <string name="storage_low_message">Bu işlem için yeterli boş alan yok. En az %1$s boşaltın ve tekrar deneyin.</string>
+    <string name="home_cleanup_done_split_items">%1$d öğe kaldırıldı · Çöp %2$s · Önbellek %3$s</string>
+    <string name="home_cleanup_done_split">Çöp %1$s · Önbellek %2$s</string>
 </resources>

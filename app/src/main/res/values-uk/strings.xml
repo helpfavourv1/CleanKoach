@@ -245,4 +245,6 @@
     <string name="review_card_action">Оцінити</string>
     <string name="review_card_dismiss">Закрити</string>
     <string name="storage_low_message">Недостатньо вільного місця для цієї операції. Звільніть щонайменше %1$s і повторіть спробу.</string>
+    <string name="home_cleanup_done_split_items">Видалено елементів: %1$d · Кошик %2$s · Кеш %3$s</string>
+    <string name="home_cleanup_done_split">Кошик %1$s · Кеш %2$s</string>
 </resources>

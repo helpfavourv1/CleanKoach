@@ -245,4 +245,6 @@
     <string name="review_card_action">Ohodnotit</string>
     <string name="review_card_dismiss">Zavřít</string>
     <string name="storage_low_message">Pro tuto akci není dost volného místa. Uvolněte alespoň %1$s a zkuste to znovu.</string>
+    <string name="home_cleanup_done_split_items">Odstraněno položek: %1$d · Koš %2$s · Mezipaměť %3$s</string>
+    <string name="home_cleanup_done_split">Koš %1$s · Mezipaměť %2$s</string>
 </resources>

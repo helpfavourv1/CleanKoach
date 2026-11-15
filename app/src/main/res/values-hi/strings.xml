@@ -221,4 +221,6 @@
     <string name="review_card_action">रेट करें</string>
     <string name="review_card_dismiss">बंद करें</string>
     <string name="storage_low_message">इस काम के लिए पर्याप्त खाली जगह नहीं है। कम से कम %1$s खाली करें और फिर कोशिश करें।</string>
+    <string name="home_cleanup_done_split_items">%1$d आइटम हटाए गए · ट्रैश %2$s · कैश %3$s</string>
+    <string name="home_cleanup_done_split">ट्रैश %1$s · कैश %2$s</string>
 </resources>

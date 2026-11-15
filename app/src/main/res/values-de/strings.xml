@@ -221,4 +221,6 @@
     <string name="review_card_action">Bewerten</string>
     <string name="review_card_dismiss">Schließen</string>
     <string name="storage_low_message">Nicht genug freier Speicher für diesen Durchlauf. Geben Sie mindestens %1$s frei und versuchen Sie es erneut.</string>
+    <string name="home_cleanup_done_split_items">%1$d Elemente entfernt · Papierkorb %2$s · Cache %3$s</string>
+    <string name="home_cleanup_done_split">Papierkorb %1$s · Cache %2$s</string>
 </resources>

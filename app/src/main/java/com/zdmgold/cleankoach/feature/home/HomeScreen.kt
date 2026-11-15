@@ -183,7 +183,9 @@ fun HomeScreen(
     var resultWasVisible by remember { mutableStateOf(false) }
     LaunchedEffect(state.cleanUpResultVisible) {
         // The clean-up result sheet just closed: that is the natural pause for an ad.
-        if (resultWasVisible && !state.cleanUpResultVisible && !state.reviewRequested) {
+        if (resultWasVisible && !state.cleanUpResultVisible && !state.reviewRequested &&
+            (state.lastCleanupResult?.freedBytes ?: 0L) > 0L
+        ) {
             adActions.actionCompleted()
         }
         resultWasVisible = state.cleanUpResultVisible
@@ -260,9 +262,17 @@ fun HomeScreen(
         else -> stringResource(R.string.home_ring_caption)
     }
     val detailLine = when {
-        done && (result?.itemCount ?: 0) > 0 ->
-            stringResource(R.string.home_cleanup_done_items, result?.itemCount ?: 0)
-        done -> stringResource(R.string.home_cleanup_done_cache)
+        done && (result?.itemCount ?: 0) > 0 -> stringResource(
+            R.string.home_cleanup_done_split_items,
+            result?.itemCount ?: 0,
+            FormatUtils.bytes(result?.trashBytes ?: 0L),
+            FormatUtils.bytes(result?.cacheBytes ?: 0L)
+        )
+        done -> stringResource(
+            R.string.home_cleanup_done_split,
+            FormatUtils.bytes(result?.trashBytes ?: 0L),
+            FormatUtils.bytes(result?.cacheBytes ?: 0L)
+        )
         state.awaitingAndroid -> stringResource(R.string.home_cleanup_awaiting_android)
         state.scanning -> stringResource(R.string.home_cleanup_running)
         else -> storageLine

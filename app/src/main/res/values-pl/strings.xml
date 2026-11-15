@@ -245,4 +245,6 @@
     <string name="review_card_action">Oceń</string>
     <string name="review_card_dismiss">Zamknij</string>
     <string name="storage_low_message">Za mało wolnego miejsca na tę operację. Zwolnij co najmniej %1$s i spróbuj ponownie.</string>
+    <string name="home_cleanup_done_split_items">Usunięto elementów: %1$d · Kosz %2$s · Pamięć podręczna %3$s</string>
+    <string name="home_cleanup_done_split">Kosz %1$s · Pamięć podręczna %2$s</string>
 </resources>

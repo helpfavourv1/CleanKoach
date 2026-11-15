@@ -29,5 +29,7 @@ data class HomeUiState(
 
 data class CleanUpSummary(
     val itemCount: Int,
-    val freedBytes: Long
+    val freedBytes: Long,
+    val trashBytes: Long = 0L,
+    val cacheBytes: Long = 0L
 )

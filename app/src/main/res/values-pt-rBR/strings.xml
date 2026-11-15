@@ -199,4 +199,6 @@
     <string name="review_card_action">Avaliar</string>
     <string name="review_card_dismiss">Fechar</string>
     <string name="storage_low_message">Não há espaço livre suficiente para esta operação. Libere pelo menos %1$s e tente novamente.</string>
+    <string name="home_cleanup_done_split_items">%1$d itens removidos · Lixeira %2$s · Cache %3$s</string>
+    <string name="home_cleanup_done_split">Lixeira %1$s · Cache %2$s</string>
 </resources>

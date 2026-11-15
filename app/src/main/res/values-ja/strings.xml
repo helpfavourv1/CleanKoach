@@ -221,4 +221,6 @@
     <string name="review_card_action">評価する</string>
     <string name="review_card_dismiss">閉じる</string>
     <string name="storage_low_message">この処理に必要な空き容量が足りません。%1$s 以上を空けてからもう一度お試しください。</string>
+    <string name="home_cleanup_done_split_items">%1$d 件を削除 · ゴミ箱 %2$s · キャッシュ %3$s</string>
+    <string name="home_cleanup_done_split">ゴミ箱 %1$s · キャッシュ %2$s</string>
 </resources>

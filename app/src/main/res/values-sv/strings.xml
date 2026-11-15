@@ -245,4 +245,6 @@
     <string name="review_card_action">Betygsätt</string>
     <string name="review_card_dismiss">Stäng</string>
     <string name="storage_low_message">Det finns inte tillräckligt med ledigt utrymme för den här körningen. Frigör minst %1$s och försök igen.</string>
+    <string name="home_cleanup_done_split_items">%1$d objekt borttagna · Papperskorg %2$s · Cache %3$s</string>
+    <string name="home_cleanup_done_split">Papperskorg %1$s · Cache %2$s</string>
 </resources>

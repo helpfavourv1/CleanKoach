@@ -245,4 +245,6 @@
     <string name="review_card_action">Vurder</string>
     <string name="review_card_dismiss">Lukk</string>
     <string name="storage_low_message">Ikke nok ledig plass til denne kjøringen. Frigjør minst %1$s og prøv igjen.</string>
+    <string name="home_cleanup_done_split_items">%1$d elementer fjernet · Papirkurv %2$s · Hurtigbuffer %3$s</string>
+    <string name="home_cleanup_done_split">Papirkurv %1$s · Hurtigbuffer %2$s</string>
 </resources>

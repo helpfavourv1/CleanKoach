@@ -245,4 +245,6 @@
     <string name="review_card_action">Đánh giá</string>
     <string name="review_card_dismiss">Đóng</string>
     <string name="storage_low_message">Không đủ dung lượng trống cho lần chạy này. Hãy giải phóng ít nhất %1$s rồi thử lại.</string>
+    <string name="home_cleanup_done_split_items">Đã xóa %1$d mục · Thùng rác %2$s · Bộ nhớ đệm %3$s</string>
+    <string name="home_cleanup_done_split">Thùng rác %1$s · Bộ nhớ đệm %2$s</string>
 </resources>

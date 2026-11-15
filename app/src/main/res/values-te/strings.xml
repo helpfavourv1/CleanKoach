@@ -245,4 +245,6 @@
     <string name="review_card_action">రేట్ చేయండి</string>
     <string name="review_card_dismiss">మూసివేయండి</string>
     <string name="storage_low_message">ఈ పనికి తగినంత ఖాళీ స్థలం లేదు. కనీసం %1$s ఖాళీ చేసి మళ్లీ ప్రయత్నించండి.</string>
+    <string name="home_cleanup_done_split_items">%1$d అంశాలు తొలగించబడ్డాయి · ట్రాష్ %2$s · కాష్ %3$s</string>
+    <string name="home_cleanup_done_split">ట్రాష్ %1$s · కాష్ %2$s</string>
 </resources>

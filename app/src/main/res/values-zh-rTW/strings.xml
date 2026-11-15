@@ -245,4 +245,6 @@
     <string name="review_card_action">去評分</string>
     <string name="review_card_dismiss">關閉</string>
     <string name="storage_low_message">可用空間不足，無法執行此操作。請至少釋出 %1$s 後再試一次。</string>
+    <string name="home_cleanup_done_split_items">已移除 %1$d 個項目 · 垃圾桶 %2$s · 快取 %3$s</string>
+    <string name="home_cleanup_done_split">垃圾桶 %1$s · 快取 %2$s</string>
 </resources>

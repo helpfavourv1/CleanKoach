@@ -198,4 +198,6 @@
     <string name="review_card_action">റേറ്റ് ചെയ്യുക</string>
     <string name="review_card_dismiss">അടയ്ക്കുക</string>
     <string name="storage_low_message">ഈ പ്രവർത്തനത്തിന് മതിയായ ഒഴിഞ്ഞ സ്ഥലമില്ല. കുറഞ്ഞത് %1$s ഒഴിവാക്കി വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="home_cleanup_done_split_items">%1$d ഇനങ്ങൾ നീക്കി · ട്രാഷ് %2$s · കാഷെ %3$s</string>
+    <string name="home_cleanup_done_split">ട്രാഷ് %1$s · കാഷെ %2$s</string>
 </resources>

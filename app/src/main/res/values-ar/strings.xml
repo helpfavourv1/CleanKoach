@@ -245,4 +245,6 @@
     <string name="review_card_action">قيّم</string>
     <string name="review_card_dismiss">إغلاق</string>
     <string name="storage_low_message">لا توجد مساحة فارغة كافية لهذه العملية. حرّر %1$s على الأقل وحاول مرة أخرى.</string>
+    <string name="home_cleanup_done_split_items">تمت إزالة %1$d عنصر · سلة المهملات %2$s · ذاكرة التخزين المؤقت %3$s</string>
+    <string name="home_cleanup_done_split">سلة المهملات %1$s · ذاكرة التخزين المؤقت %2$s</string>
 </resources>

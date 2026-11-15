@@ -245,4 +245,6 @@
     <string name="review_card_action">Arvioi</string>
     <string name="review_card_dismiss">Sulje</string>
     <string name="storage_low_message">Vapaata tilaa ei ole tarpeeksi. Vapauta vähintään %1$s ja yritä uudelleen.</string>
+    <string name="home_cleanup_done_split_items">%1$d kohdetta poistettu · Roskakori %2$s · Välimuisti %3$s</string>
+    <string name="home_cleanup_done_split">Roskakori %1$s · Välimuisti %2$s</string>
 </resources>

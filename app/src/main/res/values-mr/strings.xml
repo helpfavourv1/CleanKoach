@@ -245,4 +245,6 @@
     <string name="review_card_action">रेट करा</string>
     <string name="review_card_dismiss">बंद करा</string>
     <string name="storage_low_message">या कामासाठी पुरेशी मोकळी जागा नाही. किमान %1$s मोकळे करा आणि पुन्हा प्रयत्न करा.</string>
+    <string name="home_cleanup_done_split_items">%1$d आयटम काढले · ट्रॅश %2$s · कॅशे %3$s</string>
+    <string name="home_cleanup_done_split">ट्रॅश %1$s · कॅशे %2$s</string>
 </resources>

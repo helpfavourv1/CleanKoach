@@ -221,4 +221,6 @@
     <string name="review_card_action">Оценить</string>
     <string name="review_card_dismiss">Закрыть</string>
     <string name="storage_low_message">Недостаточно свободного места для этой операции. Освободите не менее %1$s и повторите попытку.</string>
+    <string name="home_cleanup_done_split_items">Удалено элементов: %1$d · Корзина %2$s · Кэш %3$s</string>
+    <string name="home_cleanup_done_split">Корзина %1$s · Кэш %2$s</string>
 </resources>

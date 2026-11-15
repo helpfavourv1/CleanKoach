@@ -198,4 +198,6 @@
     <string name="review_card_action">રેટ કરો</string>
     <string name="review_card_dismiss">બંધ કરો</string>
     <string name="storage_low_message">આ કામ માટે પૂરતી ખાલી જગ્યા નથી. ઓછામાં ઓછી %1$s ખાલી કરો અને ફરી પ્રયાસ કરો.</string>
+    <string name="home_cleanup_done_split_items">%1$d આઇટમ દૂર કરી · ટ્રેશ %2$s · કેશ %3$s</string>
+    <string name="home_cleanup_done_split">ટ્રેશ %1$s · કેશ %2$s</string>
 </resources>

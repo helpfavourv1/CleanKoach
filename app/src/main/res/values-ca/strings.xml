@@ -245,4 +245,6 @@
     <string name="review_card_action">Valora</string>
     <string name="review_card_dismiss">Tanca</string>
     <string name="storage_low_message">No hi ha prou espai lliure per a aquesta tasca. Allibereu almenys %1$s i torneu-ho a provar.</string>
+    <string name="home_cleanup_done_split_items">%1$d elements eliminats · Paperera %2$s · Memòria cau %3$s</string>
+    <string name="home_cleanup_done_split">Paperera %1$s · Memòria cau %2$s</string>
 </resources>
