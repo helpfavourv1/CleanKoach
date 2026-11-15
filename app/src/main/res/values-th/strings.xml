@@ -245,5 +245,4 @@
     <string name="review_card_action">ให้คะแนน</string>
     <string name="review_card_dismiss">ปิด</string>
     <string name="storage_low_message">พื้นที่ว่างไม่พอสำหรับการทำงานนี้ โปรดเพิ่มพื้นที่ว่างอย่างน้อย %1$s แล้วลองอีกครั้ง</string>
-    <string name="settings_clear_temp">ล้างไฟล์ชั่วคราว</string>
 </resources>

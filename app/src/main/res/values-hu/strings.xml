@@ -245,5 +245,4 @@
     <string name="review_card_action">Értékelés</string>
     <string name="review_card_dismiss">Bezárás</string>
     <string name="storage_low_message">Nincs elég szabad hely ehhez a futtatáshoz. Szabadítson fel legalább %1$s helyet, és próbálja újra.</string>
-    <string name="settings_clear_temp">Ideiglenes fájlok törlése</string>
 </resources>

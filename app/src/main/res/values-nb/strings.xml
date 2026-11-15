@@ -245,5 +245,4 @@
     <string name="review_card_action">Vurder</string>
     <string name="review_card_dismiss">Lukk</string>
     <string name="storage_low_message">Ikke nok ledig plass til denne kjøringen. Frigjør minst %1$s og prøv igjen.</string>
-    <string name="settings_clear_temp">Tøm midlertidige filer</string>
 </resources>

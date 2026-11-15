@@ -35,7 +35,6 @@ import com.zdmgold.cleankoach.core.ui.components.BottomAdBar
 import com.zdmgold.cleankoach.core.AppLinks
 import com.zdmgold.cleankoach.core.ads.AdsViewModel
 import com.zdmgold.cleankoach.core.util.ExternalActions
-import com.zdmgold.cleankoach.core.util.FormatUtils
 
 @Composable
 fun SettingsScreen(
@@ -159,11 +158,6 @@ fun SettingsScreen(
                 SettingsRow(
                     label = stringResource(R.string.settings_licenses),
                     onClick = onOpenLicenses
-                )
-                SettingsRow(
-                    label = stringResource(R.string.settings_clear_temp),
-                    value = FormatUtils.bytes(state.tempBytes),
-                    onClick = viewModel::clearTemp
                 )
                 SettingsRow(
                     label = stringResource(R.string.settings_diagnostics),

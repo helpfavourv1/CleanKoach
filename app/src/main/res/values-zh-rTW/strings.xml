@@ -245,5 +245,4 @@
     <string name="review_card_action">去評分</string>
     <string name="review_card_dismiss">關閉</string>
     <string name="storage_low_message">可用空間不足，無法執行此操作。請至少釋出 %1$s 後再試一次。</string>
-    <string name="settings_clear_temp">清除暫存檔案</string>
 </resources>

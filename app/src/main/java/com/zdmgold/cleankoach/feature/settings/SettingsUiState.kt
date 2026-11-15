@@ -9,6 +9,5 @@ data class SettingsUiState(
     val proEntitled: Boolean = false,
     val proPrice: String? = null,
     val proPending: Boolean = false,
-    val proUnavailable: Boolean = false,
-    val tempBytes: Long = 0L
+    val proUnavailable: Boolean = false
 )

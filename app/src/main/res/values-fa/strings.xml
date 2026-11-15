@@ -245,5 +245,4 @@
     <string name="review_card_action">امتیاز دهید</string>
     <string name="review_card_dismiss">بستن</string>
     <string name="storage_low_message">فضای خالی کافی برای این اجرا وجود ندارد. دست‌کم %1$s آزاد کنید و دوباره تلاش کنید.</string>
-    <string name="settings_clear_temp">پاک کردن فایل‌های موقت</string>
 </resources>

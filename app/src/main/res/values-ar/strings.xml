@@ -245,5 +245,4 @@
     <string name="review_card_action">قيّم</string>
     <string name="review_card_dismiss">إغلاق</string>
     <string name="storage_low_message">لا توجد مساحة فارغة كافية لهذه العملية. حرّر %1$s على الأقل وحاول مرة أخرى.</string>
-    <string name="settings_clear_temp">مسح الملفات المؤقتة</string>
 </resources>

@@ -245,5 +245,4 @@
     <string name="review_card_action">Valora</string>
     <string name="review_card_dismiss">Tanca</string>
     <string name="storage_low_message">No hi ha prou espai lliure per a aquesta tasca. Allibereu almenys %1$s i torneu-ho a provar.</string>
-    <string name="settings_clear_temp">Esborra els fitxers temporals</string>
 </resources>

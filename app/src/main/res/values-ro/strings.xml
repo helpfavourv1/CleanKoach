@@ -245,5 +245,4 @@
     <string name="review_card_action">Evaluează</string>
     <string name="review_card_dismiss">Închide</string>
     <string name="storage_low_message">Nu există suficient spațiu liber pentru această operațiune. Eliberați cel puțin %1$s și încercați din nou.</string>
-    <string name="settings_clear_temp">Șterge fișierele temporare</string>
 </resources>

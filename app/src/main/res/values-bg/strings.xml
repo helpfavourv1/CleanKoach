@@ -245,5 +245,4 @@
     <string name="review_card_action">Оцени</string>
     <string name="review_card_dismiss">Затвори</string>
     <string name="storage_low_message">Няма достатъчно свободно място. Освободете поне %1$s и опитайте отново.</string>
-    <string name="settings_clear_temp">Изчистване на временните файлове</string>
 </resources>

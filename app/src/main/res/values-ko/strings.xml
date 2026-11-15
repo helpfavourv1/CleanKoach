@@ -221,5 +221,4 @@
     <string name="review_card_action">평가하기</string>
     <string name="review_card_dismiss">닫기</string>
     <string name="storage_low_message">이 작업을 실행할 여유 공간이 부족합니다. %1$s 이상을 확보한 후 다시 시도하세요.</string>
-    <string name="settings_clear_temp">임시 파일 지우기</string>
 </resources>

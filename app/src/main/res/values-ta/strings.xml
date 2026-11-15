@@ -245,5 +245,4 @@
     <string name="review_card_action">மதிப்பிடுங்கள்</string>
     <string name="review_card_dismiss">மூடு</string>
     <string name="storage_low_message">இந்தப் பணிக்குப் போதுமான காலி இடம் இல்லை. குறைந்தது %1$s இடத்தை விடுவித்து மீண்டும் முயலவும்.</string>
-    <string name="settings_clear_temp">தற்காலிக கோப்புகளை அழி</string>
 </resources>

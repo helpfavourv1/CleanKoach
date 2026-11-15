@@ -13,17 +13,14 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 @HiltViewModel
 class SettingsViewModel @Inject constructor(
     private val settingsRepository: SettingsRepository,
     private val billingRepository: BillingRepository,
-    private val scheduler: NotificationScheduler,
-    private val cacheCleaner: com.zdmgold.cleankoach.core.media.CacheCleaner
+    private val scheduler: NotificationScheduler
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(SettingsUiState())
@@ -32,22 +29,6 @@ class SettingsViewModel @Inject constructor(
     init {
         observe()
         refreshBilling()
-        refreshTemp()
-    }
-
-    fun refreshTemp() {
-        viewModelScope.launch {
-            val bytes = withContext(Dispatchers.IO) { runCatching { cacheCleaner.tempBytes() }.getOrDefault(0L) }
-            _state.update { it.copy(tempBytes = bytes) }
-        }
-    }
-
-    /** Clears CleanKoach's own temporary files. The thumbnail cache and gallery copies are not touched. */
-    fun clearTemp() {
-        viewModelScope.launch {
-            withContext(Dispatchers.IO) { runCatching { cacheCleaner.sweepStale(0L) } }
-            refreshTemp()
-        }
     }
 
     fun setTheme(theme: String) {

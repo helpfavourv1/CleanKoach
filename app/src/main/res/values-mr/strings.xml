@@ -245,5 +245,4 @@
     <string name="review_card_action">रेट करा</string>
     <string name="review_card_dismiss">बंद करा</string>
     <string name="storage_low_message">या कामासाठी पुरेशी मोकळी जागा नाही. किमान %1$s मोकळे करा आणि पुन्हा प्रयत्न करा.</string>
-    <string name="settings_clear_temp">तात्पुरत्या फाइल्स साफ करा</string>
 </resources>

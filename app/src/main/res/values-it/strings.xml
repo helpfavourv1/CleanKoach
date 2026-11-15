@@ -221,5 +221,4 @@
     <string name="review_card_action">Valuta</string>
     <string name="review_card_dismiss">Chiudi</string>
     <string name="storage_low_message">Spazio libero insufficiente per questa operazione. Libera almeno %1$s e riprova.</string>
-    <string name="settings_clear_temp">Cancella i file temporanei</string>
 </resources>

@@ -27,9 +27,6 @@ class CleanKoachApp : Application(), Configuration.Provider {
     @Inject
     lateinit var settings: SettingsRepository
 
-    @Inject
-    lateinit var cacheCleaner: com.zdmgold.cleankoach.core.media.CacheCleaner
-
     override val workManagerConfiguration: Configuration
         get() = Configuration.Builder()
             .setWorkerFactory(workerFactory)
@@ -48,11 +45,6 @@ class CleanKoachApp : Application(), Configuration.Provider {
                     storage = settings.storageAlerts.first()
                 )
             }
-        }
-        // Remove scratch files left behind by a crashed or cancelled run.
-        CoroutineScope(Dispatchers.IO).launch {
-            runCatching { cacheCleaner.sweepStale() }
-                .onSuccess { CrashReporter.note("startup sweep freed $it bytes") }
         }
         // Locale is applied in MainActivity after the settings flow is read,
         // so the very first frame already reflects the user's language.

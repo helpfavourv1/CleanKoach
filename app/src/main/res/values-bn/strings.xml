@@ -245,5 +245,4 @@
     <string name="review_card_action">রেট করুন</string>
     <string name="review_card_dismiss">বন্ধ করুন</string>
     <string name="storage_low_message">এই কাজের জন্য যথেষ্ট খালি জায়গা নেই। অন্তত %1$s খালি করে আবার চেষ্টা করুন।</string>
-    <string name="settings_clear_temp">অস্থায়ী ফাইল মুছুন</string>
 </resources>

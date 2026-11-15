@@ -245,5 +245,4 @@
     <string name="review_card_action">Оцінити</string>
     <string name="review_card_dismiss">Закрити</string>
     <string name="storage_low_message">Недостатньо вільного місця для цієї операції. Звільніть щонайменше %1$s і повторіть спробу.</string>
-    <string name="settings_clear_temp">Очистити тимчасові файли</string>
 </resources>
