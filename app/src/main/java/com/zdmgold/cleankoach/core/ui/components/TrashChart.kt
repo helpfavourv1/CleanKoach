@@ -7,6 +7,7 @@ import androidx.compose.animation.core.RepeatMode
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.keyframes
 import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Canvas
@@ -44,8 +45,8 @@ import kotlin.math.sin
 /**
  * A chart panel with a square body and one rounded top-left corner that uses every pixel of its box.
  *
- * At rest the whole bottom of the box swells upward in a wave across the full width, fills the box,
- * and falls back in a slow loop (about 6 s), at roughly 65% of the clean-up strength.
+ * At rest the whole bottom of the box swells upward in a wave across the full width (25% to 75% of the box height),
+ * and falls back in a slow loop: 6 s up, 6 s down, 4 s pause at the bottom, at 40% of the clean-up strength.
  * While a clean-up runs ([progress] above 0) the same waves take over at full strength: four deeper
  * layers, taller crests and a thick glowing front edge climb from the bottom to the top.
  * With Android's "remove animations" on, the box stays still.
@@ -73,13 +74,23 @@ fun TrashChart(
     val drift by transition.animateFloat(
         initialValue = 0f,
         targetValue = (2 * PI).toFloat(),
-        animationSpec = infiniteRepeatable(tween(3000, easing = LinearEasing), RepeatMode.Restart),
+        animationSpec = infiniteRepeatable(tween(5000, easing = LinearEasing), RepeatMode.Restart),
         label = "trash_drift"
     )
+    // 6 s rise, 6 s fall, then a 4 s pause at the bottom: one loop every 16 s.
     val swell by transition.animateFloat(
         initialValue = 0f,
-        targetValue = 1f,
-        animationSpec = infiniteRepeatable(tween(3000, easing = FastOutSlowInEasing), RepeatMode.Reverse),
+        targetValue = 0f,
+        animationSpec = infiniteRepeatable(
+            keyframes {
+                durationMillis = 16000
+                0f at 0 using FastOutSlowInEasing
+                1f at 6000 using FastOutSlowInEasing
+                0f at 12000
+                0f at 16000
+            },
+            RepeatMode.Restart
+        ),
         label = "trash_swell"
     )
     // 0 = resting loop, 1 = clean-up; eased so the hand-over never jumps.
@@ -90,9 +101,9 @@ fun TrashChart(
     )
 
     val phase = if (motion) drift else 0f
-    val idleLevel = if (motion) 0.10f + 0.85f * swell else 0.45f
+    val idleLevel = if (motion) 0.25f + 0.50f * swell else 0.45f
     val level = idleLevel * (1f - mix) + progress * mix
-    val strength = 0.65f + 0.35f * mix
+    val strength = 0.40f + 0.60f * mix
 
     val onFillCleaning = mix > 0.5f && progress > 0.55f
     val textColor = if (onFillCleaning) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurface
@@ -117,7 +128,7 @@ fun TrashChart(
             }
 
             val edge = (2f + 6f * mix).dp.toPx()
-            val crest = 1f + 0.9f * mix
+            val crest = 0.7f + 1.2f * mix
             // lag, crest height (share of box height), crests across the width, speed (whole number), offset,
             // top alpha, bottom alpha, edge width
             drawWave(level, phase, 0.34f, 0.050f * crest, 1.0f, 1, 0.0f, accent, 0.36f * strength, 0.18f * strength, 0f)
